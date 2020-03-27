@@ -3,12 +3,12 @@ title: Office-Skripts in Excel im Web
 description: Eine kurze Einführung in den Action Recorder und den Code Editor für Office-Skripts.
 ms.date: 02/24/2020
 localization_priority: Priority
-ms.openlocfilehash: dd48467bc8105a3d31d9fa21e547c703e9e37cce
-ms.sourcegitcommit: b075eed5a6f275274fbbf6d62633219eac416f26
+ms.openlocfilehash: fb1d32068f9a738bb99412c2892cf22b4119b9b1
+ms.sourcegitcommit: d556aaefac80e55f53ac56b7f6ecbc657ebd426f
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "42700434"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "42978349"
 ---
 # <a name="office-scripts-in-excel-on-the-web-preview"></a>Office-Skripts in Excel im Web (Vorschau)
 
@@ -24,7 +24,7 @@ Mit Office-Skripts in Excel im Web können Sie Ihre täglichen Aufgaben automati
 
 Mit Skripts können Sie Ihre Excel-Aktionen in verschiedenen Arbeitsmappen und Arbeitsblättern aufzeichnen und wiedergeben. Wenn Sie immer wieder dieselben Aufgaben ausführen, kann Ihnen ein Office-Skript helfen, indem Ihr gesamter Workflow zu einer einzelnen Schaltfläche komprimiert wird.
 
-Angenommen, Sie beginnen Ihren Arbeitstag, indem Sie eine .csv-Datei auf einer Kontoführungswebsite in Excel öffnen. Sie müssen dann mehrere Minuten lang nicht benötigte Spalten löschen, eine Tabelle formatieren, Formeln hinzufügen und eine PivotTable in einem neuen Arbeitsblatt erstellen. Die Aktivitäten, die Sie täglich wiederholen, können einmalig mit dem Action Recorder aufzeichnet werden. An dann wird einfach durch Ausführen des Skripts die gesamte .csv-Konvertierung für Sie vorgenommen. Sie können nicht nur das Risiko minimieren, Schritte zu vergessen, sondern sind in der Lage, Ihren Prozess mit anderen zu teilen, ohne ihnen etwas beibringen zu müssen. Office-Skripts automatisieren Ihre allgemeinen Aufgaben, damit Sie und Ihre Arbeitsumgebung effizienter und produktiver arbeiten können.
+Angenommen, Sie beginnen Ihren Arbeitstag, indem Sie eine .csv-Datei auf einer Kontoführungswebsite in Excel öffnen. Sie müssen dann mehrere Minuten lang nicht benötigte Spalten löschen, eine Tabelle formatieren, Formeln hinzufügen und eine PivotTable in einem neuen Arbeitsblatt erstellen. Die Aktivitäten, die Sie täglich wiederholen, können einmalig mit dem Action Recorder aufzeichnet werden. Ab dem Zeitpunkt wird durch Ausführen des Skripts die gesamte .csv-Konvertierung für Sie vorgenommen. Sie können nicht nur das Risiko minimieren, Schritte zu vergessen, sondern sind in der Lage, Ihren Prozess mit anderen zu teilen, ohne ihnen etwas beibringen zu müssen. Office-Skripts automatisieren Ihre allgemeinen Aufgaben, damit Sie und Ihre Arbeitsumgebung effizienter und produktiver arbeiten können.
 
 ## <a name="action-recorder"></a>Action Recorder
 
