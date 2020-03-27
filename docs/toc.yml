@@ -1,6 +1,6 @@
-- name: Dokumentation zu Office-Skripts
+- name: Office Scripts-Dokumentation
   href: index.md
-- name: Office-Skripts in Excel im Internet
+- name: Office-Skripts in Excel im Web
   items:
     - name: Übersicht
       href: overview/excel.md
@@ -10,7 +10,7 @@
           href: tutorials/excel-tutorial.md
         - name: Lesen von Arbeitsmappen Daten mit einem Skript
           href: tutorials/excel-read-tutorial.md
-    - name: Grundlagen der Skripterstellung
+    - name: Grundlagen der Skript-Erstellung
       href: develop/scripting-fundamentals.md
     - name: Konzepte
       items:
@@ -18,6 +18,8 @@
           href: develop/javascript-objects.md
         - name: Code-Editor-Umgebung
           href: overview/code-editor-environment.md
+        - name: Unterschiede zwischen Office-Skripts und VBA-Makros
+          href: resources/vba-differences.md
         - name: Unterschiede zwischen Office-Skripts und Office-Add-ins
           href: resources/add-ins-differences.md
         - name: Rückgängigmachen der Auswirkungen eines Office-Skripts
