@@ -1,20 +1,20 @@
 ---
 title: Beispielskripts für Office-Skripts in Excel im Internet
 description: Eine Sammlung von Codebeispielen, die mit Office-Skripts in Excel im Internet verwendet werden sollen.
-ms.date: 02/19/2020
+ms.date: 04/06/2020
 localization_priority: Normal
-ms.openlocfilehash: abb4064dfde8b644035e725832e481e6463e979e
-ms.sourcegitcommit: b075eed5a6f275274fbbf6d62633219eac416f26
+ms.openlocfilehash: abf6b87b63ad027cca8ee5c947b687f54815409c
+ms.sourcegitcommit: 0b2232c4c228b14d501edb8bb489fe0e84748b42
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "42700243"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "43191006"
 ---
 # <a name="sample-scripts-for-office-scripts-in-excel-on-the-web-preview"></a>Beispielskripts für Office-Skripts in Excel im Internet (Vorschau)
 
 Die folgenden Beispiele sind einfache Skripts, mit denen Sie Ihre eigenen Arbeitsmappen ausprobieren können. So verwenden Sie Sie in Excel im Internet:
 
-1. Öffnen Sie die Registerkarte **automatisieren** .
+1. Öffnen Sie die Registerkarte **Automatisieren**.
 2. Drücken Sie **Code-Editor**.
 3. Klicken Sie im Aufgabenbereich des Code-Editors auf **Neues Skript** .
 4. Ersetzen Sie das gesamte Skript durch das Beispiel Ihrer Wahl.
@@ -47,7 +47,9 @@ async function main(context: Excel.RequestContext) {
 
 ### <a name="work-with-dates"></a>Arbeiten mit Datumsangaben
 
-In diesem Beispiel wird das [Date](https://developer.mozilla.org/docs/web/javascript/reference/global_objects/date) -Objekt von JavaScript verwendet, um das aktuelle Datum und die Uhrzeit abzurufen, und dann werden diese Werte in zwei Zellen im aktiven Arbeitsblatt geschrieben.
+In den Beispielen in diesem Abschnitt wird gezeigt, wie das JavaScript- [Date](https://developer.mozilla.org/docs/web/javascript/reference/global_objects/date) -Objekt verwendet wird.
+
+Im folgenden Beispiel werden das aktuelle Datum und die Uhrzeit abgerufen, und anschließend werden diese Werte in zwei Zellen im aktiven Arbeitsblatt geschrieben.
 
 ```TypeScript
 async function main(context: Excel.RequestContext) {
@@ -63,6 +65,22 @@ async function main(context: Excel.RequestContext) {
   
   // Add the time string to B1.
   timeRange.values = [[date.toLocaleTimeString()]];
+}
+```
+
+Im nächsten Beispiel wird ein Datum gelesen, das in Excel gespeichert und in ein JavaScript-Date-Objekt übersetzt wird. Es verwendet die [numerische Seriennummer des Datums](https://support.office.com/article/now-function-3337fd29-145a-4347-b2e6-20c904739c46) als Eingabe für das JavaScript-Datum.
+
+```TypeScript
+async function main(context: Excel.RequestContext) {
+  // Read a date at cell A1 from Excel.
+  let dateRange = context.workbook.worksheets.getActiveWorksheet().getRange("A1");
+  dateRange.load("values");
+  await context.sync();
+
+  // Convert the Excel date to a JavaScript Date object.
+  let excelDateValue = dateRange.values[0][0];
+  let javaScriptDate = new Date(Math.round((excelDateValue - 25569) * 86400 * 1000));
+  console.log(javaScriptDate);
 }
 ```
 

@@ -1,16 +1,16 @@
 ---
-title: Verwenden integrierter JavaScript-Objekte in Office-Skripts
+title: Verwenden von integrierten JavaScript-Objekten in Office-Skripts
 description: Aufrufen von integrierten JavaScript-APIs aus einem Office-Skript in Excel im Internet.
-ms.date: 01/21/2020
+ms.date: 04/06/2020
 localization_priority: Normal
-ms.openlocfilehash: e0fcd98117125ead18e55675e195415ff59c0c5d
-ms.sourcegitcommit: b075eed5a6f275274fbbf6d62633219eac416f26
+ms.openlocfilehash: a4b698215edea5f266e159fee0e08690904dd379
+ms.sourcegitcommit: 0b2232c4c228b14d501edb8bb489fe0e84748b42
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "42700202"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "43191013"
 ---
-# <a name="using-built-in-javascript-objects-in-office-scripts"></a>Verwenden integrierter JavaScript-Objekte in Office-Skripts
+# <a name="using-built-in-javascript-objects-in-office-scripts"></a>Verwenden von integrierten JavaScript-Objekten in Office-Skripts
 
 JavaScript stellt verschiedene integrierte Objekte bereit, die Sie in Ihren Office-Skripts verwenden können, unabhängig davon, ob Sie JavaScript-Skripts [oder Skript](../overview/code-editor-environment.md) (eine Obermenge von JavaScript). In diesem Artikel wird beschrieben, wie Sie einige der integrierten JavaScript-Objekte in Office-Skripts für Excel im Internet verwenden können.
 
@@ -112,6 +112,8 @@ async function main(context: Excel.RequestContext) {
   range.values = [[date.toLocaleDateString()]];
 }
 ```
+
+Der Abschnitt [Arbeiten mit Datumsangaben](../resources/excel-samples.md#work-with-dates) der Beispiele enthält mehr datumsbezogene Skripts.
 
 ## <a name="math"></a>Mathematik
 
