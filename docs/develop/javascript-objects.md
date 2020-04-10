@@ -1,14 +1,14 @@
 ---
 title: Verwenden von integrierten JavaScript-Objekten in Office-Skripts
 description: Aufrufen von integrierten JavaScript-APIs aus einem Office-Skript in Excel im Internet.
-ms.date: 04/06/2020
+ms.date: 04/08/2020
 localization_priority: Normal
-ms.openlocfilehash: a4b698215edea5f266e159fee0e08690904dd379
-ms.sourcegitcommit: 0b2232c4c228b14d501edb8bb489fe0e84748b42
+ms.openlocfilehash: 54cadb6e9ce60e631488bbe7de00c29a6db35eb7
+ms.sourcegitcommit: b13dedb5ee2048f0a244aa2294bf2c38697cb62c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "43191013"
+ms.lasthandoff: 04/10/2020
+ms.locfileid: "43215259"
 ---
 # <a name="using-built-in-javascript-objects-in-office-scripts"></a>Verwenden von integrierten JavaScript-Objekten in Office-Skripts
 
@@ -146,6 +146,10 @@ async function main(context: Excel.RequestContext) {
 }
 
 ```
+
+## <a name="use-of-external-javascript-libraries-is-not-supported"></a>Die Verwendung externer JavaScript-Bibliotheken wird nicht unterstützt.
+
+Office-Skripts unterstützen nicht die Verwendung externer Bibliotheken von Drittanbietern. Ihr Skript kann nur die integrierten JavaScript-Objekte und die Office Scripts-APIs verwenden.
 
 ## <a name="see-also"></a>Siehe auch
 

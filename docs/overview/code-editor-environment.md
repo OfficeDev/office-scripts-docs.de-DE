@@ -1,14 +1,14 @@
 ---
 title: Code-Editor-Umgebung für Office-Skripts
 description: Die Voraussetzungen und Umgebungsinformationen für Office-Skripts in Excel im Internet.
-ms.date: 01/21/2020
+ms.date: 04/08/2020
 localization_priority: Normal
-ms.openlocfilehash: 06318305e4e0091ce4fd8d1cd8130c474e18aed9
-ms.sourcegitcommit: b075eed5a6f275274fbbf6d62633219eac416f26
+ms.openlocfilehash: 6b26adf886172f085980bed0488b4aa7a6815991
+ms.sourcegitcommit: b13dedb5ee2048f0a244aa2294bf2c38697cb62c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "42700231"
+ms.lasthandoff: 04/10/2020
+ms.locfileid: "43215266"
 ---
 # <a name="office-scripts-code-editor-environment"></a>Code-Editor-Umgebung für Office-Skripts
 
@@ -33,8 +33,12 @@ IntelliSense ist ein Code-Editor-Feature, das bei der Bearbeitung Ihres Skripts 
 
 Der Excel-Code-Editor verwendet das gleiche IntelliSense-Modul wie Visual Studio Code. Weitere Informationen zum Feature finden Sie in den [IntelliSense-Funktionen von Visual Studio Code](https://code.visualstudio.com/docs/editor/intellisense#_intellisense-features).
 
+## <a name="external-library-support"></a>Unterstützung für externe Bibliotheken
+
+Office-Skripts unterstützen nicht die Verwendung externer JavaScript-Bibliotheken von Drittanbietern. Sie können derzeit keine andere Bibliothek als die Office Scripts-APIs aus einem Skript aufrufen. Sie haben weiterhin Zugriff auf ein [integriertes JavaScript-Objekt](../develop/javascript-objects.md), beispielsweise [Math](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Math).
+
 ## <a name="see-also"></a>Siehe auch
 
-- [Office Scripts-API-Referenz](/javascript/api/office-scripts/overview)
-- [Problembehandlung bei Office-Skripts](../testing/troubleshooting.md)
-- [Verwenden integrierter JavaScript-Objekte in Office-Skripts](../develop/javascript-objects.md)
+- [Referenz der Office Scripts-API](/javascript/api/office-scripts/overview)
+- [Behandeln von Problemen mit Office-Skripts](../testing/troubleshooting.md)
+- [Verwenden von integrierten JavaScript-Objekten in Office-Skripts](../develop/javascript-objects.md)
