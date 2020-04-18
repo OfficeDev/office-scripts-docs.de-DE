@@ -6,9 +6,9 @@
       href: overview/excel.md
     - name: Lernprogramme
       items:
-        - name: Grundlagen der Office-Skripts
+        - name: Office-Skripts – Grundlagen
           href: tutorials/excel-tutorial.md
-        - name: Lesen von Arbeitsmappen Daten mit einem Skript
+        - name: Lesen von Arbeitsmappendaten mit einem Skript
           href: tutorials/excel-read-tutorial.md
     - name: Grundlagen der Skript-Erstellung
       href: develop/scripting-fundamentals.md
@@ -16,11 +16,11 @@
       items:
         - name: Integrierte JavaScript-Objekte
           href: develop/javascript-objects.md
-        - name: Code-Editor-Umgebung
+        - name: Umgebung des Code Editor
           href: overview/code-editor-environment.md
         - name: Unterschiede zwischen Office-Skripts und VBA-Makros
           href: resources/vba-differences.md
-        - name: Unterschiede zwischen Office-Skripts und Office-Add-ins
+        - name: Unterschiede zwischen Office-Skripts und Office-Add-Ins
           href: resources/add-ins-differences.md
         - name: Rückgängigmachen der Auswirkungen eines Office-Skripts
           href: testing/undo.md
@@ -36,5 +36,5 @@
               href: resources/scenarios/sample-scenario-overview.md
             - name: Analysieren von Webdownloads
               href: resources/scenarios/analyze-web-downloads.md
-            - name: Besoldungsgruppen-Rechner
+            - name: Bewertungsrechner
               href: resources/scenarios/grade-calculator.md
