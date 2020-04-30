@@ -1,14 +1,14 @@
 ---
 title: Grundlegendes zur Skripterstellung für Office-Skripts in Excel im Web
 description: Informationen zu Objektmodellen und andere Grundlagen, die Sie vor dem Schreiben von Office-Skripts benötigen.
-ms.date: 01/27/2020
+ms.date: 04/24/2020
 localization_priority: Priority
-ms.openlocfilehash: 5a709c16e23c00ffc7ee7949a3cb11459dc2d530
-ms.sourcegitcommit: d556aaefac80e55f53ac56b7f6ecbc657ebd426f
+ms.openlocfilehash: 8449654e359f665677f3d416a8e28fa4d6930f26
+ms.sourcegitcommit: 350bd2447f616fa87bb23ac826c7731fb813986b
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/26/2020
-ms.locfileid: "42978719"
+ms.lasthandoff: 04/28/2020
+ms.locfileid: "43919798"
 ---
 # <a name="scripting-fundamentals-for-office-scripts-in-excel-on-the-web-preview"></a>Grundlegendes zur Skripterstellung für Office-Skripts in Excel im Web (Vorschau)
 
@@ -29,7 +29,7 @@ Um die Excel-APIs zu verstehen, müssen Sie wissen, wie die Komponenten einer Ar
 
 ### <a name="ranges"></a>Bereiche
 
-Ein Bereich ist eine Gruppe zusammenhängender Zellen in der Arbeitsmappe. In Skripts wird in der Regel eine Notation im A1-Format verwendet (z. B. **B3** für die einzelne Zelle in Zeile **B**und Spalte **3**, oder **C2:F4** für die Zellen in den Zeilen **C** bis **F** und den Spalten **2** bis **4**), um Bereiche zu definieren.
+Ein Bereich ist eine Gruppe zusammenhängender Zellen in der Arbeitsmappe. In Skripts wird in der Regel eine Notation im A1-Format verwendet (z. B. **B3** für die einzelne Zelle in Spalte **B** und Zeile **3** oder **C2:F4** für die Zellen in den Spalten **C** bis **F** und den Zeilen **2** bis **4**), um Bereiche zu definieren.
 
 Bereiche besitzen drei Haupteigenschaften: `values`, `formulas` und `format`. Durch diese Eigenschaften können die Zellwerte, die zu prüfenden Formeln sowie die visuelle Formatierung der Zellen abgerufen oder festgelegt werden.
 
@@ -155,7 +155,7 @@ Das `context`-Objekt ist erforderlich, weil das Skript und Excel in unterschiedl
 
 Da Ihr Skript und die Arbeitsmappe an unterschiedlichen Orten ausgeführt werden, dauert die Datenübertragung zwischen diesen etwas. Um die Skriptleistung zu verbessern, werden Befehle in die Warteschlange gesetzt, bis das Skript explizit den `sync`-Vorgang aufruft, um das Skript und die Arbeitsmappe miteinander zu synchronisieren. Ihr Skript kann unabhängig funktionieren, bis es eine der folgenden Aktionen durchführen muss:
 
-- Daten aus der Arbeitsmappe auslesen (nach einem `load`-Vorgang)
+- Daten aus der Arbeitsmappe lesen (nach einem `load`-Vorgang oder einer Methode, die ein[ClientResultat](/javascript/api/office-scripts/excel/excel.clientresult) zurückgibt).
 - Daten in die Arbeitsmappe schreiben (in der Regel, weil das Skript abgeschlossen wurde).
 
 In der folgenden Abbildung wird ein Beispiel für eine Ablaufsteuerung zwischen dem Skript und der Arbeitsmappe dargestellt:
@@ -173,7 +173,7 @@ await context.sync();
 > [!NOTE]
 > `context.sync()` wird implizit aufgerufen, wenn ein Skript endet.
 
-Nachdem der `sync`-Vorgang abgeschlossen ist, wird die Arbeitsmappe entsprechend den Schreibvorgängen aktualisiert, die vom Skript angegeben wurden. Bei einem Schreibvorgang wird eine beliebige Eigenschaft eines Excel-Objekts festgelegt (z. B. `range.format.fill.color = "red"`) oder eine Methode aufgerufen, über die eine Eigenschaft geändert wird (z. B. `range.format.autoFitColumns()`). Der `sync`-Vorgang liest außerdem über einen `load`-Vorgang (wie im nächsten Abschnitt beschrieben) alle Werte aus der Arbeitsmappe aus, die das Skript angefordert hat.
+Nachdem der `sync`-Vorgang abgeschlossen ist, wird die Arbeitsmappe entsprechend den Schreibvorgängen aktualisiert, die vom Skript angegeben wurden. Bei einem Schreibvorgang wird eine beliebige Eigenschaft eines Excel-Objekts festgelegt (z. B. `range.format.fill.color = "red"`) oder eine Methode aufgerufen, über die eine Eigenschaft geändert wird (z. B. `range.format.autoFitColumns()`). Der `sync`-Vorgang liest auch alle Werte aus der Arbeitsmappe, die das Skript angefordert hat, indem es einen `load`-Vorgang oder eine Methode verwendet, die ein `ClientResult` zurückgibt (wie in den nächsten Abschnitten besprochen).
 
 Je nach Netzwerk kann es einige Zeit dauern, bis das Skript mit der Arbeitsmappe synchronisiert wurde. Sie sollten die Anzahl von `sync`-Aufrufen minimieren, damit das Ausführen des Skripts möglichst schnell geht.  
 
@@ -210,6 +210,25 @@ await context.sync(); // Synchronize with the workbook to get the properties.
 
 > [!TIP]
 > Wenn Sie mehr über das Arbeiten mit Sammlungen in Office-Skripts wissen möchten, lesen Sie den [Array-Abschnitt des Artikels "Verwenden von integrierten JavaScript-Objekten in Office-Skripts"](javascript-objects.md#array).
+
+### <a name="clientresult"></a>ClientResult
+
+Methoden, die Informationen aus dem Arbeitsbuch zurückgeben, haben ein ähnliches Muster wie das `load`/`sync`-Paradigma. `TableCollection.getCount` ruft zum Beispiel die Anzahl von Tabellen in der Auflistung ab. `getCount` gibt eine `ClientResult<number>` zurück, was bedeutet, dass die `value`-Eigenschaft im zurückgegebenen `ClientResult` eine Zahl ist. Ihr Skript kann erst auf diesen Wert zugreifen, wenn `context.sync()` aufgerufen wird. Ähnlich wie beim Laden einer Eigenschaft ist der `value` bis zu diesem `sync`-Aufruf ein lokaler "leerer" Wert.
+
+Das folgende Skript ruft die Gesamtanzahl der Tabellen in der Arbeitsmappe ab und protokolliert diese Anzahl in der Konsole.
+
+```TypeScript
+async function main(context: Excel.RequestContext) {
+  let tableCount = context.workbook.tables.getCount();
+
+  // This sync call implicitly loads tableCount.value.
+  // Any other ClientResult values are loaded too.
+  await context.sync();
+
+  // Trying to log the value before calling sync would throw an error.
+  console.log(tableCount.value);
+}
+```
 
 ## <a name="see-also"></a>Siehe auch
 
