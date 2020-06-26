@@ -1,14 +1,14 @@
 ---
 title: Code-Editor-Umgebung für Office-Skripts
 description: Die Voraussetzungen und Umgebungsinformationen für Office-Skripts in Excel im Internet.
-ms.date: 04/08/2020
+ms.date: 04/24/2020
 localization_priority: Normal
-ms.openlocfilehash: 6b26adf886172f085980bed0488b4aa7a6815991
-ms.sourcegitcommit: b13dedb5ee2048f0a244aa2294bf2c38697cb62c
+ms.openlocfilehash: efe6ddbe39a1ea3850b4dc6fea0fa885b80c0c28
+ms.sourcegitcommit: aec3c971c6640429f89b6bb99d2c95ea06725599
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/10/2020
-ms.locfileid: "43215266"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "44878668"
 ---
 # <a name="office-scripts-code-editor-environment"></a>Code-Editor-Umgebung für Office-Skripts
 
@@ -25,7 +25,7 @@ Office-Skripts sind weitgehend eigenständige Codeabschnitte. Nur ein kleiner Te
 
 ## <a name="office-scripts-javascript-api"></a>JavaScript-API für Office-Skripts
 
-Office-Skripts verwenden eine spezielle Version der Office-JavaScript-APIs, die von [Office-Add-ins](/office/dev/add-ins/overview/index)verwendet werden. Die Unterschiede zwischen den beiden Plattformen werden in den [unterschieden zwischen Office-Skripts und Office-Add-ins](../resources/add-ins-differences.md#apis) Artikel beschrieben. Sie können alle verfügbaren APIs für Ihr Skript in der [Office Scripts-API-Referenzdokumentation](/javascript/api/office-scripts/overview)anzeigen.
+Office-Skripts verwenden eine spezielle Version der Office-JavaScript-APIs für [Office-Add-ins](/office/dev/add-ins/overview/index). Zwar gibt es Ähnlichkeiten in den beiden APIs, aber Sie sollten nicht davon ausgehen, dass der Code zwischen den beiden Plattformen portiert werden kann. Die Unterschiede zwischen den beiden Plattformen werden in den [unterschieden zwischen Office-Skripts und Office-Add-ins](../resources/add-ins-differences.md#apis) Artikel beschrieben. Sie können alle verfügbaren APIs für Ihr Skript in der [Office Scripts-API-Referenzdokumentation](/javascript/api/office-scripts/overview)anzeigen.
 
 ## <a name="intellisense"></a>IntelliSense
 

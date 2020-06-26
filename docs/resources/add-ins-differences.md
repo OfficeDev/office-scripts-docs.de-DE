@@ -1,18 +1,18 @@
 ---
-title: Unterschiede zwischen Office-Skripts und Office-Add-ins
+title: Unterschiede zwischen Office-Skripts und Office-Add-Ins
 description: Das Verhalten und die API-Unterschiede zwischen Office-Skripts und Office-Add-Ins.
-ms.date: 03/23/2020
+ms.date: 06/01/2020
 localization_priority: Normal
-ms.openlocfilehash: 2290d4e34b7a7286d67443de9e9c64bad4fcd4b7
-ms.sourcegitcommit: d556aaefac80e55f53ac56b7f6ecbc657ebd426f
+ms.openlocfilehash: fc2029780190672c633e00e26f44273e4311c754
+ms.sourcegitcommit: aec3c971c6640429f89b6bb99d2c95ea06725599
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/26/2020
-ms.locfileid: "42978715"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "44878661"
 ---
-# <a name="differences-between-office-scripts-and-office-add-ins"></a>Unterschiede zwischen Office-Skripts und Office-Add-ins
+# <a name="differences-between-office-scripts-and-office-add-ins"></a>Unterschiede zwischen Office-Skripts und Office-Add-Ins
 
-Office-Add-Ins-und Office-Skripts haben viele Gemeinsamkeiten. Beide bieten eine automatisierte Steuerung einer Excel-Arbeitsmappe über `Excel` den Namespace der Office-JavaScript-API. Office-Skripts sind jedoch in ihrem Umfang beschränkter.
+Office-Add-Ins-und Office-Skripts haben viele Gemeinsamkeiten. Sie bieten sowohl eine automatisierte Steuerung einer Excel-Arbeitsmappe als auch eine JavaScript-API. Die Office-Skript-APIs sind jedoch eine spezielle synchrone Version der Office-JavaScript-API.
 
 ![Ein Diagramm mit vier Quadranten, in dem die Fokusbereiche für unterschiedliche Office-Erweiterbarkeits Lösungen angezeigt werden. Sowohl Office-Skripts als auch Office-WebAdd-ins konzentrieren sich auf das Internet und die Zusammenarbeit, aber Office-Skripts bieten Endbenutzern (während Office-WebAdd-ins als Ziel für professionelle Entwickler gedacht sind).)](../images/office-programmability-diagram.png)
 
@@ -28,7 +28,9 @@ Office-Skripts werden derzeit nur von für Excel im Internet unterstützt. Alle 
 
 ## <a name="apis"></a>APIs
 
-Office-Skripts unterstützen die meisten der Excel-JavaScript-APIs, was bedeutet, dass es eine Vielzahl von Funktionsüberschneidungen zwischen den beiden Plattformen gibt. Es gibt zwei Ausnahmen: Ereignisse und allgemeine APIs.
+Es gibt keine synchrone Version der Office-JavaScript-APIs für Office-Add-Ins. Die standardmäßigen Office-Skript-APIs sind für die Plattform eindeutig und weisen zahlreiche Optimierungen und Änderungen auf, um die Verwendung des `load` / `sync` Paradigmas zu vermeiden.
+
+Einige der [Excel-JavaScript-APIs](/javascript/api/excel?view=excel-js-preview) sind mit den [Async-APIs von Office Scripts](../develop/excel-async-model.md)kompatibel. Einige Beispiele und Add-in-Codeblöcke konnten in `Excel.run` Blöcke mit minimaler Übersetzung portiert werden. Während die beiden Plattformen die Funktionalität teilen, gibt es Lücken. Die beiden Haupt-API-Sätze, die Office-Add-ins haben, aber Office-Skripts sind keine Ereignisse und die allgemeinen APIs.
 
 ### <a name="events"></a>Ereignisse
 

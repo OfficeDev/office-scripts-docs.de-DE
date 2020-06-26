@@ -1,16 +1,16 @@
 ---
-title: Problembehandlung bei Office-Skripts
+title: Behandeln von Problemen mit Office-Skripts
 description: Tipps und Techniken zum Debuggen von Office-Skripts sowie Hilferessourcen.
-ms.date: 12/13/2019
+ms.date: 05/14/2020
 localization_priority: Normal
-ms.openlocfilehash: 959faff875f342dc1b1ab158ad9ded24732b0894
-ms.sourcegitcommit: b075eed5a6f275274fbbf6d62633219eac416f26
+ms.openlocfilehash: 6448980eec45214a589444229db0fd781b9fea13
+ms.sourcegitcommit: aec3c971c6640429f89b6bb99d2c95ea06725599
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "42700203"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "44878619"
 ---
-# <a name="troubleshooting-office-scripts"></a>Problembehandlung bei Office-Skripts
+# <a name="troubleshooting-office-scripts"></a>Behandeln von Problemen mit Office-Skripts
 
 Wenn Sie Office-Skripts entwickeln, können Sie Fehler machen. Das ist okay. Wir verfügen über Tools, mit denen Sie die Probleme finden und Ihre Skripts perfekt funktionieren lassen.
 
@@ -19,16 +19,11 @@ Wenn Sie Office-Skripts entwickeln, können Sie Fehler machen. Das ist okay. Wir
 Manchmal möchten Sie bei der Problembehandlung Nachrichten auf dem Bildschirm drucken. Diese können Ihnen den aktuellen Wert der Variablen oder die Code Pfade zeigen, die ausgelöst werden. Protokollieren Sie dazu Text in der Konsole.
 
 ```TypeScript
-console.log("Logging my range's address.");
-myRange.load("address");
-await context.sync();
-console.log(myRange.address);
+console.log("Logging myRange's address.");
+console.log(myRange.getAddress());
 ```
 
-> [!IMPORTANT]
-> Vergessen Sie nicht `load` , Arbeitsblatt `sync` Daten und mit der Arbeitsmappe vor dem Protokollieren von Objekteigenschaften.
-
-Zeichenfolgen,`console.log` die an übergeben werden, werden in der Protokollierungs Konsole des Code-Editors angezeigt. Klicken Sie zum Aktivieren der Konsole auf die Schaltfläche **Ellipsen** , und wählen Sie **Protokolle...**
+Zeichenfolgen, die an übergeben werden, werden `console.log` in der Protokollierungs Konsole des Code-Editors angezeigt. Klicken Sie zum Aktivieren der Konsole auf die Schaltfläche **Ellipsen** , und wählen Sie **Protokolle...**
 
 Protokolle wirken sich nicht auf die Arbeitsmappe aus.
 
@@ -46,6 +41,7 @@ Wenn ein Problem mit dem Aktions Recorder oder-Editor auftritt, senden Sie Feedb
 
 ## <a name="see-also"></a>Siehe auch
 
-- [Office-Skripts in Excel im Internet](../overview/excel.md)
+- [Office-Skripts in Excel im Web](../overview/excel.md)
 - [Grundlegendes zur Skripterstellung für Office-Skripts in Excel im Internet](../develop/scripting-fundamentals.md)
 - [Rückgängigmachen der Auswirkungen eines Office-Skripts](undo.md)
+- [Verbessern der Leistung Ihrer Office-Skripts](../develop/web-client-performance.md)
