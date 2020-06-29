@@ -6,10 +6,14 @@
       href: overview/excel.md
     - name: Lernprogramme
       items:
-        - name: Office-Skripts – Grundlagen
+        - name: Erlernen der Grundlagen von Office-Skripts
           href: tutorials/excel-tutorial.md
         - name: Lesen von Arbeitsmappendaten mit einem Skript
           href: tutorials/excel-read-tutorial.md
+        - name: Beginnen mit der Verwendung von Skripts mit Power Automate
+          href: tutorials/excel-power-automate-manual.md
+        - name: Automatisches Ausführen von Skripts mit Power Automate
+          href: tutorials/excel-power-automate-trigger.md
     - name: Grundlagen der Skript-Erstellung
       href: develop/scripting-fundamentals.md
     - name: Konzepte
@@ -22,10 +26,18 @@
           href: resources/vba-differences.md
         - name: Unterschiede zwischen Office-Skripts und Office-Add-Ins
           href: resources/add-ins-differences.md
+        - name: Integrieren mit Power Automate
+          href: develop/power-automate-integration.md
+    - name: Problembehandlung
+      items:
+        - name: Grundlagen zur Problembehandlung
+          href: testing/troubleshooting.md
+        - name: Verbessern der Skriptleistung
+          href: develop/web-client-performance.md
         - name: Rückgängigmachen der Auswirkungen eines Office-Skripts
           href: testing/undo.md
-    - name: Problembehandlung
-      href: testing/troubleshooting.md
+        - name: Verwenden des asynchronen Modells (Legacy)
+          href: develop/excel-async-model.md
     - name: Beispiele
       items:
         - name: Beispielskripts
@@ -38,3 +50,5 @@
               href: resources/scenarios/analyze-web-downloads.md
             - name: Bewertungsrechner
               href: resources/scenarios/grade-calculator.md
+            - name: Aufgabenerinnerungen (mit Power Automate)
+              href: resources/scenarios/task-reminders.md
