@@ -1,14 +1,14 @@
 ---
 title: Verwenden von integrierten JavaScript-Objekten in Office-Skripts
 description: Aufrufen von integrierten JavaScript-APIs aus einem Office-Skript in Excel im Internet.
-ms.date: 04/24/2020
+ms.date: 06/29/2020
 localization_priority: Normal
-ms.openlocfilehash: b5d70e77aef79c38a8cfd680c9d03bb126c402b2
-ms.sourcegitcommit: aec3c971c6640429f89b6bb99d2c95ea06725599
+ms.openlocfilehash: 1c8ac757574e8c4be64b373f8d4bf421ddfa0c79
+ms.sourcegitcommit: 30750c4392db3ef057075a5702abb92863c93eda
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "44878535"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "44999260"
 ---
 # <a name="using-built-in-javascript-objects-in-office-scripts"></a>Verwenden von integrierten JavaScript-Objekten in Office-Skripts
 
@@ -50,10 +50,10 @@ function main(workbook: ExcelScript.Workbook) {
 
 ### <a name="working-with-collections"></a>Arbeiten mit Auflistungen
 
-Viele Excel-Objekte sind in einer Auflistung enthalten. Die Auflistung wird von der Office Scripts-API verwaltet und als Array verfügbar gemacht. Beispielsweise sind alle [Formen](/javascript/api/office-scripts/excel/excelscript.shape) in einem Arbeitsblatt in einer enthalten `Shape[]` , die von der-Methode zurückgegeben wird `Worksheet.getShapes` . Sie können dieses Array verwenden, um Werte aus der Auflistung zu lesen, oder Sie können von den Methoden des übergeordneten Objekts auf bestimmte Objekte zugreifen `get*` .
+Viele Excel-Objekte sind in einer Auflistung enthalten. Die Auflistung wird von der Office Scripts-API verwaltet und als Array verfügbar gemacht. Beispielsweise sind alle [Formen](/javascript/api/office-scripts/excelscript/excelscript.shape) in einem Arbeitsblatt in einer enthalten `Shape[]` , die von der-Methode zurückgegeben wird `Worksheet.getShapes` . Sie können dieses Array verwenden, um Werte aus der Auflistung zu lesen, oder Sie können von den Methoden des übergeordneten Objekts auf bestimmte Objekte zugreifen `get*` .
 
 > [!NOTE]
-> Fügen Sie keine Objekte dieser Auflistungs Arrays manuell hinzu oder entfernen Sie Sie. Verwenden Sie die `add` Methoden für die übergeordneten Objekte und die `delete` Methoden für die Auflistung-Type-Objekte. Fügen Sie beispielsweise eine [Tabelle](/javascript/api/office-scripts/excel/excelscript.table) mit der-Methode zu einem [Arbeitsblatt](/javascript/api/office-scripts/excel/excelscript.worksheet) hinzu, `Worksheet.addTable` und entfernen Sie die `Table` using `Table.delete` .
+> Fügen Sie keine Objekte dieser Auflistungs Arrays manuell hinzu oder entfernen Sie Sie. Verwenden Sie die `add` Methoden für die übergeordneten Objekte und die `delete` Methoden für die Auflistung-Type-Objekte. Fügen Sie beispielsweise eine [Tabelle](/javascript/api/office-scripts/excelscript/excelscript.table) mit der-Methode zu einem [Arbeitsblatt](/javascript/api/office-scripts/excelscript/excelscript.worksheet) hinzu, `Worksheet.addTable` und entfernen Sie die `Table` using `Table.delete` .
 
 Im folgenden Skript wird der Typ jedes Shapes im aktuellen Arbeitsblatt protokolliert.
 

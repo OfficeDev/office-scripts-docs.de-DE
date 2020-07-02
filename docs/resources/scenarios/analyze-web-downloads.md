@@ -1,14 +1,14 @@
 ---
 title: 'Beispielszenario für Office-Skripts: Analysieren von Webdownloads'
 description: Ein Beispiel, das Rohdaten im Internet Datenverkehr in einer Excel-Arbeitsmappe verwendet und den Ursprungsort bestimmt, bevor diese Informationen in einer Tabelle organisiert werden.
-ms.date: 06/15/2020
+ms.date: 06/25/2020
 localization_priority: Normal
-ms.openlocfilehash: 2a74fada55115faf79f0b625b8a7cd6352deb651
-ms.sourcegitcommit: aec3c971c6640429f89b6bb99d2c95ea06725599
+ms.openlocfilehash: 425d2af432d6b3c4b7604daf7935d2cc1ec059a8
+ms.sourcegitcommit: 30750c4392db3ef057075a5702abb92863c93eda
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "44878647"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "44999267"
 ---
 # <a name="office-scripts-sample-scenario-analyze-web-downloads"></a>Beispielszenario für Office-Skripts: Analysieren von Webdownloads
 
@@ -30,6 +30,9 @@ Sie entwickeln ein Skript, mit dem wöchentliche Downloads von Daten im aktiven 
 Dieses Beispiel wurde als Teil des Office-Add-ins Entwickler-Community-Aufrufs für den 2020. Februar verdemot.
 
 > [!VIDEO https://www.youtube.com/embed/vPEqbb7t6-Y?start=154]
+
+> [!NOTE]
+> Der in diesem Video gezeigte Code verwendet ein älteres API-Modell (die [Office Scripts Async-APIs](../../develop/excel-async-model.md)). Das auf dieser Seite vorgestellte Beispiel wurde aktualisiert, der Code sieht jedoch etwas anders aus als die Aufzeichnung. Die Änderungen wirken sich nicht auf das Verhalten des Skripts oder die anderen Inhalte in der Demo des Referenten aus.
 
 ## <a name="setup-instructions"></a>Setup Anweisungen
 
