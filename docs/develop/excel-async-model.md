@@ -3,12 +3,11 @@ title: Verwenden der Office Scripts Async-APIs zur Unterstützung von älteren S
 description: Eine Einführung in die Async-APIs für Office-Skripts und die Verwendung des Musters zum Laden/synchronisieren für ältere Skripts.
 ms.date: 06/29/2020
 localization_priority: Normal
-ms.openlocfilehash: 78a09232060d862a4e0944356ba2f33f7a264ea1
-ms.sourcegitcommit: 30750c4392db3ef057075a5702abb92863c93eda
-ms.translationtype: MT
+ms.openlocfilehash: 6c31a39c8e1fe53f2f5587183a6b32e100d2b457
+ms.sourcegitcommit: bf9f33c37c6f7805d6b408aa648bb9785a7cd133
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "44999283"
+ms.lasthandoff: 07/06/2020
+ms.locfileid: "45043398"
 ---
 # <a name="using-the-office-scripts-async-apis-to-support-legacy-scripts"></a>Verwenden der Office Scripts Async-APIs zur Unterstützung von älteren Skripts
 
@@ -37,7 +36,7 @@ Das `context`-Objekt ist erforderlich, weil das Skript und Excel in unterschiedl
 
 Da Ihr Skript und die Arbeitsmappe an unterschiedlichen Orten ausgeführt werden, dauert die Datenübertragung zwischen diesen etwas. In der Async-API werden Befehle in die Warteschlange eingereiht, bis das Skript den Vorgang explizit aufruft `sync` , um das Skript und die Arbeitsmappe zu synchronisieren. Ihr Skript kann unabhängig funktionieren, bis es eine der folgenden Aktionen durchführen muss:
 
-- Daten aus der Arbeitsmappe lesen (nach einem `load`-Vorgang oder einer Methode, die ein[ClientResultat](/javascript/api/office-scripts/excelscript/excel.clientresult?view=office-scripts-async) zurückgibt).
+- Daten aus der Arbeitsmappe lesen (nach einem `load`-Vorgang oder einer Methode, die ein[ClientResultat](/javascript/api/office-scripts/excelscript/excelscript.clientresult?view=office-scripts-async) zurückgibt).
 - Daten in die Arbeitsmappe schreiben (in der Regel, weil das Skript abgeschlossen wurde).
 
 In der folgenden Abbildung wird ein Beispiel für eine Ablaufsteuerung zwischen dem Skript und der Arbeitsmappe dargestellt:
@@ -116,7 +115,7 @@ async function main(context: Excel.RequestContext){
 
 ### <a name="clientresult"></a>ClientResult
 
-Methoden in der Async-API, die Informationen aus der Arbeitsmappe zurückgeben, weisen ein ähnliches Muster wie das `load` / `sync` Paradigma auf. `TableCollection.getCount` ruft zum Beispiel die Anzahl von Tabellen in der Auflistung ab. `getCount` gibt eine `ClientResult<number>` zurück, was bedeutet, dass die `value`-Eigenschaft im zurückgegebenen `ClientResult` eine Zahl ist. Ihr Skript kann erst auf diesen Wert zugreifen, wenn `context.sync()` aufgerufen wird. Ähnlich wie beim Laden einer Eigenschaft ist der `value` bis zu diesem `sync`-Aufruf ein lokaler "leerer" Wert.
+Methoden in der Async-API, die Informationen aus der Arbeitsmappe zurückgeben, weisen ein ähnliches Muster wie das `load` / `sync` Paradigma auf. `TableCollection.getCount` ruft zum Beispiel die Anzahl von Tabellen in der Auflistung ab. `getCount`gibt a zurück `ClientResult<number>` , was bedeutet, dass die `value` Eigenschaft im zurückgegebenen [`ClientResult`](/javascript/api/office-scripts/excelscript/excelscript.clientresult?view=office-scripts-async) eine Zahl ist. Ihr Skript kann erst auf diesen Wert zugreifen, wenn `context.sync()` aufgerufen wird. Ähnlich wie beim Laden einer Eigenschaft ist der `value` bis zu diesem `sync`-Aufruf ein lokaler "leerer" Wert.
 
 Das folgende Skript ruft die Gesamtanzahl der Tabellen in der Arbeitsmappe ab und protokolliert diese Anzahl in der Konsole.
 

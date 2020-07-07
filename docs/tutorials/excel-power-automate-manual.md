@@ -1,14 +1,13 @@
 ---
-title: Starten der Verwendung von Skripts mit Power Automation
-description: Ein Lernprogramm zur Integration von Power Automation mit Office-Skripts mithilfe eines manuellen Triggers.
-ms.date: 06/09/2020
+title: Beginnen mit der Verwendung von Skripts mit Power Automate
+description: Ein Lernprogramm zur Verwendung von Office-Skripts in Power automatisieren mithilfe eines manuellen Triggers.
+ms.date: 06/29/2020
 localization_priority: Priority
-ms.openlocfilehash: 37c2d9ae4c5456a1355362c70695fc61c236a725
-ms.sourcegitcommit: aec3c971c6640429f89b6bb99d2c95ea06725599
-ms.translationtype: MT
+ms.openlocfilehash: b2a10692929de90506f58851e9322afa63e15ca0
+ms.sourcegitcommit: bf9f33c37c6f7805d6b408aa648bb9785a7cd133
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "44878789"
+ms.lasthandoff: 07/06/2020
+ms.locfileid: "45043412"
 ---
 # <a name="start-using-scripts-with-power-automate-preview"></a>Starten der Verwendung von Skripts mit Power Automation (Vorschau)
 

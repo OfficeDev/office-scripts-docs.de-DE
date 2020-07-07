@@ -1,25 +1,24 @@
 ---
-title: Integrieren von Office-Skripts mit Power Automation
+title: Ausführen von Office-Skripts mit Power Automation
 description: Vorgehensweise Abrufen von Office-Skripts für Excel im Internet arbeiten mit einem Power automatisieren Workflow.
-ms.date: 06/24/2020
+ms.date: 06/29/2020
 localization_priority: Normal
-ms.openlocfilehash: 977d9c88d75c8070eb729a443b4e8bc9a32e456d
-ms.sourcegitcommit: aec3c971c6640429f89b6bb99d2c95ea06725599
-ms.translationtype: MT
+ms.openlocfilehash: 0ea58324998d23020e04cb37dfeea065791757f5
+ms.sourcegitcommit: bf9f33c37c6f7805d6b408aa648bb9785a7cd133
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "44878776"
+ms.lasthandoff: 07/06/2020
+ms.locfileid: "45043384"
 ---
-# <a name="integrate-office-scripts-with-power-automate"></a>Integrieren von Office-Skripts mit Power Automation
+# <a name="run-office-scripts-with-power-automate"></a>Ausführen von Office-Skripts mit Power Automation
 
-[Power Automation](https://flow.microsoft.com) integriert Ihr Skript in einen größeren Workflow. Sie können Power automatisieren verwenden Sie Dinge wie das Hinzufügen des Inhalts einer e-Mail zur Tabelle eines Arbeitsblatts oder das Erstellen von Aktionen in ihren Projektverwaltungstools basierend auf Arbeitsmappen-Kommentaren. Wenn Sie neu bei Power Automation sind, empfehlen wir Ihnen, die [Erste Schritte mit Power automatisieren](/power-automate/getting-started)zu besuchen. Hier erfahren Sie mehr über die Automatisierung Ihrer Workflows in mehreren Diensten.
+[Power Automation](https://flow.microsoft.com) ermöglicht Ihnen das Hinzufügen von Office-Skripts zu einem größeren, automatisierten Workflow. Sie können Power automatisieren verwenden Sie Dinge wie das Hinzufügen des Inhalts einer e-Mail zur Tabelle eines Arbeitsblatts oder das Erstellen von Aktionen in ihren Projektverwaltungstools basierend auf Arbeitsmappen-Kommentaren. Wenn Sie neu bei Power Automation sind, empfehlen wir Ihnen, die [Erste Schritte mit Power automatisieren](/power-automate/getting-started)zu besuchen. Hier erfahren Sie mehr über die Automatisierung Ihrer Workflows in mehreren Diensten.
 
 > [!IMPORTANT]
 > Derzeit können Sie Office-Skripts nicht über einen [freigegebenen Fluss](/power-automate/share-buttons)ausführen. Nur der Benutzer, der ein Skript erstellt hat, kann es auch mithilfe von Power Automation ausführen.
 
 ## <a name="getting-started"></a>Erste Schritte
 
-Um mit der Kombination von Power Automation und Office-Skripts zu beginnen, führen Sie das Lernprogramm [Start using scripts with Power Automation aus](../tutorials/excel-power-automate-manual.md). In diesem Artikel erfahren Sie, wie Sie einen Fluss erstellen, der ein einfaches Skript aufruft. Nachdem Sie das Lernprogramm und die [automatisch ausgeführten Skripts mit Power Automation](../tutorials/excel-power-automate-trigger.md) Tutorial abgeschlossen haben, erfahren Sie mehr über die Platt Form Integrationen.
+Um mit der Kombination von Power Automation und Office-Skripts zu beginnen, führen Sie das Lernprogramm [Start using scripts with Power Automation aus](../tutorials/excel-power-automate-manual.md). In diesem Artikel erfahren Sie, wie Sie einen Fluss erstellen, der ein einfaches Skript aufruft. Wenn Sie das Lernprogramm und die [automatisch ausgeführten Skripts mit Power Automation](../tutorials/excel-power-automate-trigger.md) Tutorial abgeschlossen haben, geben Sie hier ausführliche Informationen zum Verbinden von Office-Skripts mit Power Automation Flows ein.
 
 ## <a name="excel-online-business-connector"></a>Excel Online-Connector (Business)
 
@@ -135,7 +134,7 @@ function main(
 ## <a name="see-also"></a>Siehe auch
 
 - [Ausführen von Office-Skripts in Excel im Internet mit Power Automation](../tutorials/excel-power-automate-manual.md)
-- [Automatisches Ausführen von Skripts mit Power Automation](../tutorials/excel-power-automate-trigger.md)
+- [Automatisches Ausführen von Skripts mit Power Automate](../tutorials/excel-power-automate-trigger.md)
 - [Grundlegendes zur Skripterstellung für Office-Skripts in Excel im Web](scripting-fundamentals.md)
 - [Erste Schritte mit Power Automate](/power-automate/getting-started)
 - [Referenzdokumentation zu Excel Online (Business) Connector](/connectors/excelonlinebusiness/)

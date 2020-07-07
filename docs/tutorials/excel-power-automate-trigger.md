@@ -1,14 +1,13 @@
 ---
-title: Automatisches Ausführen von Skripts mit Power Automation
-description: Ein Lernprogramm zur Integration von Power Automation mit Office-Skripts für Excel im Internet mithilfe automatischer externer Trigger, beispielsweise das Empfangen von e-Mails über Outlook.
-ms.date: 06/09/2020
+title: Automatisches Ausführen von Skripts mit Power Automate
+description: Ein Lernprogramm zum Ausführen von Office-Skripts für Excel im Internet durch Power Automation mithilfe eines automatischen externen Triggers (empfangen von e-Mails über Outlook).
+ms.date: 06/29/2020
 localization_priority: Priority
-ms.openlocfilehash: 538a6533e4628a0f555d08eadda060a20830a7ae
-ms.sourcegitcommit: aec3c971c6640429f89b6bb99d2c95ea06725599
-ms.translationtype: MT
+ms.openlocfilehash: a750197d6b5ae770ad7d2e17b3ee00dc65ee8875
+ms.sourcegitcommit: bf9f33c37c6f7805d6b408aa648bb9785a7cd133
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "44878772"
+ms.lasthandoff: 07/06/2020
+ms.locfileid: "45043419"
 ---
 # <a name="automatically-run-scripts-with-power-automate-preview"></a>Automatisches Ausführen von Skripts mit Power Automation (Vorschau)
 
@@ -263,6 +262,6 @@ Wenn der Fluss ausgelöst wird und Ihr Skript erfolgreich ausgeführt wird, soll
 
 ## <a name="next-steps"></a>Nächste Schritte
 
-Weitere Informationen zum Verbinden von Office-Skripts mit Power Automation finden Sie unter [integrieren von Office-Skripts mit Power Automation](../develop/power-automate-integration.md) .
+Besuchen Sie [Office-Skripts mit Power Automation ausführen](../develop/power-automate-integration.md) , um mehr über das Verbinden von Office-Skripts mit Power Automation zu erfahren.
 
 Sie können auch das [Beispielszenario für automatisierte Aufgaben Erinnerungen](../resources/scenarios/task-reminders.md) lesen, um zu erfahren, wie Sie Office-Skripts und Power Automation mit Adaptive Teams-Karten kombinieren.
