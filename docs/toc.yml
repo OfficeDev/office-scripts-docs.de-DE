@@ -26,7 +26,9 @@
           href: resources/vba-differences.md
         - name: Unterschiede zwischen Office-Skripts und Office-Add-Ins
           href: resources/add-ins-differences.md
-        - name: Integrieren mit Power Automate
+        - name: Externe API-Anruf Unterstützung in Office-Skripts
+          href: develop/external-calls.md
+        - name: Ausführen von Skripts mit Power Automate
           href: develop/power-automate-integration.md
     - name: Problembehandlung
       items:
