@@ -1,13 +1,14 @@
 ---
 title: Ausführen von Office-Skripts mit Power Automation
 description: Vorgehensweise Abrufen von Office-Skripts für Excel im Internet arbeiten mit einem Power automatisieren Workflow.
-ms.date: 06/29/2020
+ms.date: 07/01/2020
 localization_priority: Normal
-ms.openlocfilehash: 0ea58324998d23020e04cb37dfeea065791757f5
-ms.sourcegitcommit: bf9f33c37c6f7805d6b408aa648bb9785a7cd133
+ms.openlocfilehash: 40a67f3d0e8f049a8ec5516c0af54c5fc6fb9319
+ms.sourcegitcommit: edf58aed3cd38f57e5e7227465a1ef5515e15703
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/06/2020
-ms.locfileid: "45043384"
+ms.lasthandoff: 07/08/2020
+ms.locfileid: "45081593"
 ---
 # <a name="run-office-scripts-with-power-automate"></a>Ausführen von Office-Skripts mit Power Automation
 
@@ -18,7 +19,7 @@ ms.locfileid: "45043384"
 
 ## <a name="getting-started"></a>Erste Schritte
 
-Um mit der Kombination von Power Automation und Office-Skripts zu beginnen, führen Sie das Lernprogramm [Start using scripts with Power Automation aus](../tutorials/excel-power-automate-manual.md). In diesem Artikel erfahren Sie, wie Sie einen Fluss erstellen, der ein einfaches Skript aufruft. Wenn Sie das Lernprogramm und die [automatisch ausgeführten Skripts mit Power Automation](../tutorials/excel-power-automate-trigger.md) Tutorial abgeschlossen haben, geben Sie hier ausführliche Informationen zum Verbinden von Office-Skripts mit Power Automation Flows ein.
+Um mit der Kombination von Power Automation und Office-Skripts zu beginnen, führen Sie das Lernprogramm [Start using scripts with Power Automation aus](../tutorials/excel-power-automate-manual.md). In diesem Artikel erfahren Sie, wie Sie einen Fluss erstellen, der ein einfaches Skript aufruft. Wenn Sie das Lernprogramm und das Lernprogramm [automatisch ausgeführte Skripts mit automatischer Power-Automatisierung ausführen](../tutorials/excel-power-automate-trigger.md) abgeschlossen haben, geben Sie hier ausführliche Informationen zum Verbinden von Office-Skripts mit Power Automation Flows ein.
 
 ## <a name="excel-online-business-connector"></a>Excel Online-Connector (Business)
 
@@ -27,7 +28,16 @@ Um mit der Kombination von Power Automation und Office-Skripts zu beginnen, füh
 > [!IMPORTANT]
 > Die Aktion "Skript ausführen" gibt Benutzern, die den Excel Connector verwenden, wichtigen Zugriff auf Ihre Arbeitsmappe und deren Daten. Darüber hinaus gibt es Sicherheitsrisiken mit Skripts, die externe API-Aufrufe durchführen, wie in [externe Aufrufe von Power Automation](external-calls.md)erläutert. Wenn Ihr Administrator mit der Exposition hoch vertraulicher Daten befasst ist, können Sie entweder den Excel Online Connector deaktivieren oder den Zugriff auf Office-Skripts über die [Office Scripts-Administrator Steuerelemente](https://support.microsoft.com/office/19d3c51a-6ca2-40ab-978d-60fa49554dcf)einschränken.
 
-## <a name="passing-data-from-power-automate-into-a-script"></a>Übergeben von Daten aus Power Automation in ein Skript
+## <a name="data-transfer-in-flows-for-scripts"></a>Datenübertragung in Flows für Skripts
+
+Mit Power Automation können Sie Datenteile zwischen den einzelnen Schritten Ihres Flows übergeben. Skripts können so konfiguriert werden, dass alle Arten von Informationen akzeptiert werden, die Sie benötigen, und Sie geben alles aus Ihrer Arbeitsmappe zurück, die Sie in Ihrem Flow wünschen. Eingabe für Ihr Skript wird durch Hinzufügen von Parametern zur `main` Funktion (zusätzlich zu `workbook: ExcelScript.Workbook` ) angegeben. Die Ausgabe des Skripts wird durch Hinzufügen eines Rückgabetyps zu deklariert `main` .
+
+> [!NOTE]
+> Wenn Sie einen Block "Skript ausführen" im Flow erstellen, werden die akzeptierten Parameter und die zurückgegebenen Typen aufgefüllt. Wenn Sie die Parameter oder Rückgabetypen Ihres Skripts ändern, müssen Sie den Block "Skript ausführen" des Flusses wiederholen. Dadurch wird sichergestellt, dass die Daten ordnungsgemäß analysiert werden.
+
+In den folgenden Abschnitten werden die Details der Eingabe und Ausgabe für Skripts behandelt, die in Power Automation verwendet werden. Wenn Sie eine praktische Herangehensweise zum Erlernen dieses Themas wünschen, probieren Sie das Lernprogramm [automatisch ausgeführte Skripts mit automatischer Power-Automatisierung](../tutorials/excel-power-automate-trigger.md) aus, oder erkunden Sie das Beispielszenario für [automatisierte Aufgaben Erinnerungen](../resources/scenarios/task-reminders.md) .
+
+### <a name="main-parameters-passing-data-to-a-script"></a>`main`Parameter: übergeben von Daten an ein Skript
 
 Alle Skript Eingaben werden als zusätzliche Parameter für die `main` Funktion angegeben. Wenn Sie beispielsweise möchten, dass ein Skript einen akzeptiert, `string` das einen Namen als Eingabe darstellt, ändern Sie die `main` Signatur in `function main(workbook: ExcelScript.Workbook, name: string)` .
 
@@ -72,7 +82,7 @@ Berücksichtigen Sie beim Hinzufügen von Eingabeparametern zur Funktion eines S
 
 10. Standardparameterwerte sind zulässig (beispielsweise `async function main(workbook: ExcelScript.Workbook, Name: string = 'Jane Doe')` .
 
-## <a name="returning-data-from-a-script-back-to-power-automate"></a>Zurückgeben von Daten aus einem Skript an Power Automation
+## <a name="returning-data-from-a-script"></a>Zurückgeben von Daten aus einem Skript
 
 Skripts können Daten aus der Arbeitsmappe zurückgeben, die als dynamischer Inhalt in einem Power-Automatisierungs Fluss verwendet werden. Wie bei Eingabeparametern stellt Power Automation einige Einschränkungen für den Rückgabetyp dar.
 
@@ -134,7 +144,7 @@ function main(
 ## <a name="see-also"></a>Siehe auch
 
 - [Ausführen von Office-Skripts in Excel im Internet mit Power Automation](../tutorials/excel-power-automate-manual.md)
-- [Automatisches Ausführen von Skripts mit Power Automate](../tutorials/excel-power-automate-trigger.md)
+- [Automatisches Ausführen von Skripts mit automatisiertem Power-Automatisierungs Fluss](../tutorials/excel-power-automate-trigger.md)
 - [Grundlegendes zur Skripterstellung für Office-Skripts in Excel im Web](scripting-fundamentals.md)
 - [Erste Schritte mit Power Automate](/power-automate/getting-started)
 - [Referenzdokumentation zu Excel Online (Business) Connector](/connectors/excelonlinebusiness/)

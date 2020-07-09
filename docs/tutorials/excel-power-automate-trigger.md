@@ -1,15 +1,16 @@
 ---
-title: Automatisches Ausführen von Skripts mit Power Automate
+title: Automatisches Ausführen von Skripts mit automatisiertem Power-Automatisierungs Fluss
 description: Ein Lernprogramm zum Ausführen von Office-Skripts für Excel im Internet durch Power Automation mithilfe eines automatischen externen Triggers (empfangen von e-Mails über Outlook).
-ms.date: 06/29/2020
+ms.date: 07/01/2020
 localization_priority: Priority
-ms.openlocfilehash: a750197d6b5ae770ad7d2e17b3ee00dc65ee8875
-ms.sourcegitcommit: bf9f33c37c6f7805d6b408aa648bb9785a7cd133
+ms.openlocfilehash: fc98fb36fd5a8c5ef10bc3b767d6f5add0306246
+ms.sourcegitcommit: edf58aed3cd38f57e5e7227465a1ef5515e15703
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/06/2020
-ms.locfileid: "45043419"
+ms.lasthandoff: 07/08/2020
+ms.locfileid: "45081628"
 ---
-# <a name="automatically-run-scripts-with-power-automate-preview"></a>Automatisches Ausführen von Skripts mit Power Automation (Vorschau)
+# <a name="automatically-run-scripts-with-automated-power-automate-flows-preview"></a>Automatisches Ausführen von Skripts mit automatisierten Power-Automatisierungs Flüssen (Vorschau)
 
 In diesem Lernprogramm erfahren Sie, wie Sie ein Office-Skript für Excel im Internet mit einem automatisierten [Power-Automatisierungs](https://flow.microsoft.com) Workflow verwenden. Ihr Skript wird automatisch jedes Mal ausgeführt, wenn Sie eine e-Mail erhalten, und es werden Informationen aus der e-Mail in einer Excel-Arbeitsmappe aufgezeichnet.
 
