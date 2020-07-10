@@ -1,18 +1,20 @@
 ---
 title: Office-Skripts in Excel im Web
 description: Eine kurze Einführung in den Action Recorder und den Code Editor für Office-Skripts.
-ms.date: 02/24/2020
+ms.date: 06/29/2020
 localization_priority: Priority
-ms.openlocfilehash: fb1d32068f9a738bb99412c2892cf22b4119b9b1
-ms.sourcegitcommit: d556aaefac80e55f53ac56b7f6ecbc657ebd426f
+ms.openlocfilehash: 046dd4eac0cce14117da75199841f0b2f72031bc
+ms.sourcegitcommit: bf9f33c37c6f7805d6b408aa648bb9785a7cd133
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/26/2020
-ms.locfileid: "42978349"
+ms.lasthandoff: 07/06/2020
+ms.locfileid: "45043405"
 ---
 # <a name="office-scripts-in-excel-on-the-web-preview"></a>Office-Skripts in Excel im Web (Vorschau)
 
-Mit Office-Skripts in Excel im Web können Sie Ihre täglichen Aufgaben automatisieren. Sie können Ihre Excel-Aktionen mit dem Action Recorder aufzeichnen, wodurch ein Skript erstellt wird. Sie können Skripts auch mit dem Code Editor erstellen und bearbeiten. In dieser Reihe von Dokumenten lernen Sie, wie Sie diese Tools verwenden. Sie werden in den Action Recorder eingeführt und erfahren, wie Sie Ihre häufigen Excel-Aktionen aufzeichnen können. Außerdem erfahren Sie, wie Sie eigene Skripts mit dem Code Editor erstellen oder aktualisieren können.
+Mit Office-Skripts in Excel im Web können Sie Ihre täglichen Aufgaben automatisieren. Sie können Ihre Excel-Aktionen mit dem Action Recorder aufzeichnen, wodurch ein Skript erstellt wird. Sie können Skripts auch mit dem Code Editor erstellen und bearbeiten. Ihre Skripts können dann für ihre gesamte Organisation freigegeben werden, sodass Ihre Kollegen den Workflow entsprechend automatisieren können.
+
+In dieser Reihe von Dokumenten lernen Sie, wie Sie diese Tools verwenden. Sie werden in den Action Recorder eingeführt und erfahren, wie Sie Ihre häufigen Excel-Aktionen aufzeichnen können. Außerdem erfahren Sie, wie Sie eigene Skripts mit dem Code Editor erstellen oder aktualisieren können.
 
 <br>
 
@@ -40,14 +42,27 @@ Alle mit dem Action Recorder aufgezeichneten Skripts können über den Code Edit
 
 Eine einfache Möglichkeit, die Fähigkeiten von Office-Skripts zu erlernen besteht darin, Skripts in Excel im Web aufzuzeichnen und sich den resultierenden Code anzeigen zu lassen. Eine weitere Möglichkeit besteht darin, unseren [Lernprogrammen](../tutorials/excel-tutorial.md) zu folgen, um geleitet und strukturierter zu lernen.
 
+## <a name="sharing-scripts"></a>Freigeben von Skripts
+
+![Die Seite „Skript-Details“ mit der Option „Für andere Personen in dieser Arbeitsmappe freigeben“.](../images/script-sharing.png)
+
+Office-Skripts können für andere Benutzer einer Excel-Arbeitsmappe freigegeben werden. Wenn Sie ein Skript für andere Personen in einer Arbeitsmappe freigeben, wird das Skript an die Arbeitsmappe angefügt. Ihre Skripts werden in Ihrem OneDrive gespeichert. Wenn Sie ein Script freigeben, erstellen Sie einen Link zu diesem Skript in der geöffneten Arbeitsmappe.
+
+Weitere Informationen zur Freigabe und zum Aufheben der Freigabe von Scripts entnehmen Sie dem Artikel [Freigeben von Office-Skripts in Excel für das Web](https://support.microsoft.com/office/sharing-office-scripts-in-excel-for-the-web-226eddbc-3a44-4540-acfe-fccda3d1122b?storagetype=live&ui=en-US&rs=en-US&ad=US).
+
+## <a name="connecting-office-scripts-to-power-automate"></a>Verbinden von Office-Skripts mit Power Automate
+
+[Power Automate](https://flow.microsoft.com/) ist ein Dienst, der Ihnen hilft, automatisierte Workflows zwischen mehreren Apps und Diensten zu erstellen. Office-Skripts können in diesen Workflows verwendet werden. Sie erhalten somit die Kontrolle über Ihre Skripts außerhalb der Arbeitsmappe. Sie können Ihre Skripts nach einem Zeitplan ausführen, sie als Antwort auf E-Mails auslösen und vieles mehr. Im Lernprogramm [Ausführen von Office-Skripts in Excel im Web mit Power Automate](../tutorials/excel-power-automate-manual.md) erfahren Sie die Grundlagen des Verbindungsaufbaus zu diesen Automatisierungsdiensten.
+
 ## <a name="next-steps"></a>Nächste Schritte
 
 Führen Sie die [Office-Skripts in Excel im Web-Lernprogramm](../tutorials/excel-tutorial.md) aus, um zu erfahren, wie Sie Ihre ersten Office-Skripts erstellen können.
 
 ## <a name="see-also"></a>Siehe auch
 
-- [Grundlegendes zur Skripterstellung für Office-Skripts in Excel im Web](../develop/scripting-fundamentals.md)
-- [Referenz der Office Scripts-API](/javascript/api/office-scripts/overview)
+- [Grundlagen der Skripterstellung für Office-Skripts in Excel im Web](../develop/scripting-fundamentals.md)
+- [Referenzdokumentation zur Office Scripts-API](/javascript/api/office-scripts/overview)
 - [Behandeln von Problemen mit Office-Skripts](../testing/troubleshooting.md)
 - [Office-Skripts-Einstellungen in M365](https://support.office.com/article/office-scripts-settings-in-m365-19d3c51a-6ca2-40ab-978d-60fa49554dcf)
 - [Einführung in Office-Skripts in Excel (unter support.office.com)](https://support.office.com/article/introduction-to-office-scripts-in-excel-9fbe283d-adb8-4f13-a75b-a81c6baf163a)
+- [Office-Skripts in Excel für das Web](https://support.microsoft.com/office/sharing-office-scripts-in-excel-for-the-web-226eddbc-3a44-4540-acfe-fccda3d1122b?storagetype=live&ui=en-US&rs=en-US&ad=US)
