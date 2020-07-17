@@ -1,21 +1,21 @@
 ---
-title: Verwenden der Office Scripts Async-APIs zur Unterstützung von älteren Skripts
+title: Unterstützung älterer Office-Skripts, die die Async-APIs verwenden
 description: Eine Einführung in die Async-APIs für Office-Skripts und die Verwendung des Musters zum Laden/synchronisieren für ältere Skripts.
-ms.date: 06/29/2020
+ms.date: 07/08/2020
 localization_priority: Normal
-ms.openlocfilehash: 6c31a39c8e1fe53f2f5587183a6b32e100d2b457
-ms.sourcegitcommit: bf9f33c37c6f7805d6b408aa648bb9785a7cd133
+ms.openlocfilehash: e7ca5b276cff0e3a38bffc2af1541c0051cf5490
+ms.sourcegitcommit: ebd1079c7e2695ac0e7e4c616f2439975e196875
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/06/2020
-ms.locfileid: "45043398"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "45160460"
 ---
-# <a name="using-the-office-scripts-async-apis-to-support-legacy-scripts"></a>Verwenden der Office Scripts Async-APIs zur Unterstützung von älteren Skripts
+# <a name="support-older-office-scripts-that-use-the-async-apis"></a>Unterstützung älterer Office-Skripts, die die Async-APIs verwenden
 
-In diesem Artikel erfahren Sie, wie Sie Skripts mit den Legacy-, Async-APIs schreiben. Diese APIs haben die gleiche Kernfunktionalität wie die synchronen Office Scripts-APIs, aber Sie erfordern, dass Ihr Skript die Datensynchronisierung zwischen dem Skript und der Arbeitsmappe steuert.
+In diesem Artikel erfahren Sie, wie Sie Skripts warten und aktualisieren, die die Async-APIs des älteren Modells verwenden. Diese APIs haben die gleiche Kernfunktionalität wie die jetzt standardmäßigen synchronen Office-Skript-APIs, aber Sie erfordern, dass Ihr Skript die Datensynchronisierung zwischen dem Skript und der Arbeitsmappe steuert.
 
 > [!IMPORTANT]
-> Das Async-Modell kann nur mit Skripts verwendet werden, die vor der Implementierung des aktuellen [API-Modells](scripting-fundamentals.md?view=office-scripts)erstellt wurden. Skripts sind dauerhaft mit dem API-Modell gesperrt, das Sie bei der Erstellung haben. Dies bedeutet auch, dass Sie ein nagelneues Skript verwenden müssen, wenn Sie ein Legacy Skript in das neue Modell konvertieren möchten. Es wird empfohlen, die alten Skripts beim Vornehmen von Änderungen auf das neue Modell zu aktualisieren, da das aktuelle Modell einfacher zu verwenden ist. Die [Konvertierung von asynchronen Legacy Skripts in den Abschnitt Aktuelles Modell](#converting-legacy-async-scripts-to-the-current-model) enthält Ratschläge dazu, wie Sie diesen Übergang vornehmen.
+> Das Async-Modell kann nur mit Skripts verwendet werden, die vor der Implementierung des aktuellen [API-Modells](scripting-fundamentals.md?view=office-scripts)erstellt wurden. Skripts sind dauerhaft mit dem API-Modell gesperrt, das Sie bei der Erstellung haben. Dies bedeutet auch, dass Sie ein nagelneues Skript erstellen müssen, wenn Sie ein altes Skript in das neue Modell konvertieren möchten. Es wird empfohlen, die alten Skripts beim Vornehmen von Änderungen auf das neue Modell zu aktualisieren, da das aktuelle Modell einfacher zu verwenden ist. Die [Konvertierung von asynchronen Skripts in den Abschnitt Aktuelles Modell](#converting-async-scripts-to-the-current-model) enthält Ratschläge dazu, wie Sie diesen Übergang vornehmen.
 
 ## <a name="main-function"></a>Die `main`-Funktion
 
@@ -55,7 +55,7 @@ await context.sync();
 > [!NOTE]
 > `context.sync()` wird implizit aufgerufen, wenn ein Skript endet.
 
-Nachdem der `sync`-Vorgang abgeschlossen ist, wird die Arbeitsmappe entsprechend den Schreibvorgängen aktualisiert, die vom Skript angegeben wurden. Bei einem Schreibvorgang wird eine beliebige Eigenschaft eines Excel-Objekts festgelegt (z. B. `range.format.fill.color = "red"`) oder eine Methode aufgerufen, über die eine Eigenschaft geändert wird (z. B. `range.format.autoFitColumns()`). Der `sync`-Vorgang liest auch alle Werte aus der Arbeitsmappe, die das Skript angefordert hat, indem es einen `load`-Vorgang oder eine Methode verwendet, die ein `ClientResult` zurückgibt (wie in den nächsten Abschnitten besprochen).
+Nachdem der `sync`-Vorgang abgeschlossen ist, wird die Arbeitsmappe entsprechend den Schreibvorgängen aktualisiert, die vom Skript angegeben wurden. Ein Schreibvorgang setzt eine Eigenschaft für ein Excel-Objekt (z. b. `range.format.fill.color = "red"` ) oder das Aufrufen einer Methode, die eine Eigenschaft ändert (beispielsweise `range.format.autoFitColumns()` ). Der `sync`-Vorgang liest auch alle Werte aus der Arbeitsmappe, die das Skript angefordert hat, indem es einen `load`-Vorgang oder eine Methode verwendet, die ein `ClientResult` zurückgibt (wie in den nächsten Abschnitten besprochen).
 
 Je nach Netzwerk kann es einige Zeit dauern, bis das Skript mit der Arbeitsmappe synchronisiert wurde. Minimieren Sie die Anzahl der `sync` Aufrufe, mit denen Ihr Skript schnell ausgeführt werden kann. Andernfalls sind die asynchronen APIs nicht schneller die Standard synchronen APIs.
 
@@ -137,7 +137,7 @@ async function main(context: Excel.RequestContext) {
 }
 ```
 
-## <a name="converting-legacy-async-scripts-to-the-current-model"></a>Konvertieren von asynchronen Legacy Skripts in das aktuelle Modell
+## <a name="converting-async-scripts-to-the-current-model"></a>Konvertieren von asynchronen Skripts in das aktuelle Modell
 
 Das aktuelle API-Modell verwendet weder, `load` `sync` noch eine `RequestContext` . Dadurch wird das Schreiben und Verwalten der Skripts wesentlich vereinfacht. Die beste Ressource für die Konvertierung Alter Skripts ist der [Stapelüberlauf](https://stackoverflow.com/questions/tagged/office-scripts). Dort können Sie die Community um Hilfe bei bestimmten Szenarien bitten. Die folgenden Anleitungen sollten Ihnen helfen, die allgemeinen Schritte zu erläutern, die Sie ausführen müssen.
 
