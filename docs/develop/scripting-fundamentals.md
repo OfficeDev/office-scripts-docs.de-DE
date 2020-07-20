@@ -1,14 +1,14 @@
 ---
 title: Grundlegendes zur Skripterstellung für Office-Skripts in Excel im Web
 description: Informationen zu Objektmodellen und andere Grundlagen, die Sie vor dem Schreiben von Office-Skripts benötigen.
-ms.date: 04/24/2020
+ms.date: 06/29/2020
 localization_priority: Priority
-ms.openlocfilehash: 8449654e359f665677f3d416a8e28fa4d6930f26
-ms.sourcegitcommit: 350bd2447f616fa87bb23ac826c7731fb813986b
+ms.openlocfilehash: 9ea24f26052877bc70862c8a05321d588f409b11
+ms.sourcegitcommit: 30750c4392db3ef057075a5702abb92863c93eda
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/28/2020
-ms.locfileid: "43919798"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "44999302"
 ---
 # <a name="scripting-fundamentals-for-office-scripts-in-excel-on-the-web-preview"></a>Grundlegendes zur Skripterstellung für Office-Skripts in Excel im Web (Vorschau)
 
@@ -16,9 +16,24 @@ In diesem Artikel werden die technischen Aspekte von Office-Skripts vorgestellt.
 
 [!INCLUDE [Preview note](../includes/preview-note.md)]
 
+## <a name="main-function"></a>Die `main`-Funktion
+
+Jedes Office-Skript muss die `main`-Funktion mit dem `ExcelScript.Workbook`-Typ als ersten Parameter enthalten. Wenn die Funktion ausgeführt wird, ruft die Excel-Anwendung diese `main`-Funktion auf, indem sie die Arbeitsmappe als ersten Parameter bereitstellt. Deshalb ist es wichtig, dass Sie die Standardsignatur der `main`-Funktion nicht ändern, nachdem Sie das Skript aufgezeichnet oder im Code-Editor ein neues Skript erstellt haben.
+
+```typescript
+function main(workbook: ExcelScript.Workbook) {
+// Your code goes here
+}
+```
+
+Der Code innerhalb der `main`-Funktion wird beim Ausführen des Skripts ausgeführt. `main` kann andere Funktionen in Ihrem Skript aufrufen, Code, der nicht in einer Funktion enthalten ist, wird jedoch nicht ausgeführt.
+
+> [!CAUTION]
+> Wenn die `main`-Funktion wie `async function main(context: Excel.RequestContext)` aussieht, verwendet das Skript das ältere asynchrone API-Modell. Weitere Informationen hierzu finden Sie unter [Verwenden der asynchronen Office-Skripts-APIs zur Unterstützung von älteren Skripts](excel-async-model.md). Dieses Thema enthält auch Informationen zum Konvertieren Ihres älteren Skripts in das aktuelle API-Modell.
+
 ## <a name="object-model"></a>Objektmodell
 
-Um die Excel-APIs zu verstehen, müssen Sie wissen, wie die Komponenten einer Arbeitsmappe miteinander verknüpft sind.
+Wenn Sie ein Skript schreiben möchten, müssen Sie verstehen, wie die Office-Skript-APIs zusammenpassen. Die Komponenten einer Arbeitsmappe haben bestimmte Beziehungen zueinander. Auf vielerlei Weise entsprechen diese Beziehungen denen der Excel-Benutzeroberfläche.
 
 - Eine **Arbeitsmappe** enthält mindestens ein **Arbeitsblatt**.
 - Ein **Arbeitsblatt** ermöglicht den Zugriff auf Zellen über **Bereichsobjekte**.
@@ -27,52 +42,68 @@ Um die Excel-APIs zu verstehen, müssen Sie wissen, wie die Komponenten einer Ar
 - Ein **Arbeitsblatt** enthält Sammlungen dieser Datenobjekte, die auf dem jeweiligen Blatt vorhanden sind.
 - **Arbeitsmappen** enthalten Sammlungen einiger dieser Datenobjekte (z. B. **Tabellen**) für die gesamte **Arbeitsmappe**.
 
+### <a name="workbook"></a>Arbeitsmappe
+
+Jedes Skript wird von der `main`-Funktion als `workbook`-Objekt vom Typ `Workbook` bereitgestellt. Damit wird das Objekt der obersten Ebene dargestellt, durch das das Skript mit der Excel-Arbeitsmappe interagiert.
+
+Das folgende Skript ruft das aktive Arbeitsblatt aus der Arbeitsmappe ab und protokolliert den Namen.
+
+```typescript
+function main(workbook: ExcelScript.Workbook) {
+    // Get the active worksheet.
+    let sheet = workbook.getActiveWorksheet();
+
+    // Display the current worksheet's name.
+    console.log(sheet.getName());
+}
+```
+
 ### <a name="ranges"></a>Bereiche
 
 Ein Bereich ist eine Gruppe zusammenhängender Zellen in der Arbeitsmappe. In Skripts wird in der Regel eine Notation im A1-Format verwendet (z. B. **B3** für die einzelne Zelle in Spalte **B** und Zeile **3** oder **C2:F4** für die Zellen in den Spalten **C** bis **F** und den Zeilen **2** bis **4**), um Bereiche zu definieren.
 
-Bereiche besitzen drei Haupteigenschaften: `values`, `formulas` und `format`. Durch diese Eigenschaften können die Zellwerte, die zu prüfenden Formeln sowie die visuelle Formatierung der Zellen abgerufen oder festgelegt werden.
+Bereiche besitzen drei Haupteigenschaften: Werte, Formeln und Format. Durch diese Eigenschaften können die Zellwerte, die zu prüfenden Formeln sowie die visuelle Formatierung der Zellen abgerufen oder festgelegt werden. Sie können über `getValues`, `getFormulas` und `getFormat`auf sie zugreifen. Werte und Formeln können mit `setValues` und `setFormulas`geändert werden, wohingegen das Format ein `RangeFormat`-Objekt ist, das aus mehreren kleineren Objekten besteht, die einzeln festgelegt werden.
+
+Bereiche verwenden zweidimensionale Arrays zum Verwalten von Informationen. Lesen Sie den Abschnitt [„Arbeiten mit Bereichen“ des Artikels „Verwenden von integrierten JavaScript-Objekten in Office-Skripts“](javascript-objects.md#working-with-ranges), um weitere Informationen zum Umgang mit diesen Arrays im Office-Skripts-Framework zu erhalten.
 
 #### <a name="range-sample"></a>Beispiel für einen Bereich
 
-Das folgende Beispiel zeigt, wie Sie Verkaufsdatensätze erstellen können. In diesem Skript werden `Range`-Objekte zum Festlegen der Werte, Formeln und Formate verwendet.
+Das folgende Beispiel zeigt, wie Sie Verkaufsdatensätze erstellen können. In diesem Skript werden `Range`-Objekte zum Festlegen der Werte, Formeln und Teilen des Formats verwendet.
 
 ```TypeScript
-async function main(context: Excel.RequestContext) {
-  // Get the active worksheet.
-  let sheet = context.workbook.worksheets.getActiveWorksheet();
+function main(workbook: ExcelScript.Workbook) {
+    // Get the active worksheet.
+    let sheet = workbook.getActiveWorksheet();
 
-  // Create the headers and format them to stand out.
-  let headers = [
-    ["Product", "Quantity", "Unit Price", "Totals"]
-  ];
-  let headerRange = sheet.getRange("B2:E2");
-  headerRange.values = headers;
-  headerRange.format.fill.color = "#4472C4";
-  headerRange.format.font.color = "white";
+    // Create the headers and format them to stand out.
+    let headers = [["Product", "Quantity", "Unit Price", "Totals"]];
+    let headerRange = sheet.getRange("B2:E2");
+    headerRange.setValues(headers);
+    headerRange.getFormat().getFill().setColor("#4472C4");
+    headerRange.getFormat().getFont().setColor("white");
 
-  // Create the product data rows.
-  let productData = [
-    ["Almonds", 6, 7.5],
-    ["Coffee", 20, 34.5],
-    ["Chocolate", 10, 9.56],
-  ];
-  let dataRange = sheet.getRange("B3:D5");
-  dataRange.values = productData;
+    // Create the product data rows.
+    let productData = [
+        ["Almonds", 6, 7.5],
+        ["Coffee", 20, 34.5],
+        ["Chocolate", 10, 9.56],
+    ];
+    let dataRange = sheet.getRange("B3:D5");
+    dataRange.setValues(productData);
 
-  // Create the formulas to total the amounts sold.
-  let totalFormulas = [
-    ["=C3 * D3"],
-    ["=C4 * D4"],
-    ["=C5 * D5"],
-    ["=SUM(E3:E5)"]
-  ];
-  let totalRange = sheet.getRange("E3:E6");
-  totalRange.formulas = totalFormulas;
-  totalRange.format.font.bold = true;
+    // Create the formulas to total the amounts sold.
+    let totalFormulas = [
+        ["=C3 * D3"],
+        ["=C4 * D4"],
+        ["=C5 * D5"],
+        ["=SUM(E3:E5)"],
+    ];
+    let totalRange = sheet.getRange("E3:E6");
+    totalRange.setFormulas(totalFormulas);
+    totalRange.getFormat().getFont().setBold(true);
 
-  // Display the totals as US dollar amounts.
-  totalRange.numberFormat = [["$0.00"]];
+    // Display the totals as US dollar amounts.
+    totalRange.setNumberFormat("$0.00");
 }
 ```
 
@@ -82,7 +113,7 @@ Wenn Sie dieses Skript ausführen, werden die folgenden Daten im aktuellen Arbei
 
 ### <a name="charts-tables-and-other-data-objects"></a>Diagramme, Tabellen und andere Datenobjekte
 
-Skripts können die Datenstrukturen und -visualisierungen in Excel erstellen und ändern. Tabellen und Diagramme sind zwei der am häufigsten verwendeten Objekte, die APIs unterstützen aber auch PivotTables, Formen, Bilder und vieles mehr.
+Skripts können die Datenstrukturen und -visualisierungen in Excel erstellen und ändern. Tabellen und Diagramme sind zwei der am häufigsten verwendeten Objekte, die APIs unterstützen aber auch PivotTables, Formen, Bilder und vieles mehr. Diese werden in Sammlungen gespeichert, die weiter unten in diesem Artikel erläutert werden.
 
 #### <a name="creating-a-table"></a>Erstellen einer Tabelle
 
@@ -91,9 +122,12 @@ Erstellen Sie Tabellen mithilfe von mit Daten ausgefüllten Bereichen. Auf den B
 Durch das folgende Skript wird eine Tabelle auf Grundlage der Bereiche aus dem vorherigen Beispiel erstellt.
 
 ```TypeScript
-async function main(context: Excel.RequestContext) {
-   let sheet = context.workbook.worksheets.getActiveWorksheet();
-   sheet.tables.add("B2:E5", true);
+function main(workbook: ExcelScript.Workbook) {
+    // Get the active worksheet.
+    let sheet = workbook.getActiveWorksheet();
+
+    // Add a table that has headers using the data from B2:E5.
+    sheet.addTable("B2:E5", true);
 }
 ```
 
@@ -108,10 +142,18 @@ Erstellen Sie Diagramme, um die Daten in einem Bereich darzustellen. In Skripts 
 Mit dem folgenden Skript wird ein einfaches Säulendiagramm für drei Elemente erstellt und 100 Pixel unterhalb des oberen Rands des Arbeitsblatts platziert.
 
 ```TypeScript
-async function main(context: Excel.RequestContext) {
-  let sheet = context.workbook.worksheets.getActiveWorksheet();
-  let chart = sheet.charts.add(Excel.ChartType.columnStacked, sheet.getRange("B3:C5"));
-  chart.top = 100;
+function main(workbook: ExcelScript.Workbook) {
+    // Get the active worksheet.
+    let sheet = workbook.getActiveWorksheet();
+
+    // Create a column chart using the data from B3:C5.
+    let chart = sheet.addChart(
+        ExcelScript.ChartType.columnStacked,
+        sheet.getRange("B3:C5")
+    );
+
+    // Set the margin of the chart to be 100 pixels from the top of the screen.
+    chart.setTop(100);
 }
 ```
 
@@ -119,116 +161,81 @@ Wenn Sie dieses Skript auf das Arbeitsblatt mit der vorherigen Tabelle anwenden,
 
 ![Ein Säulendiagramm, in dem die Mengenangaben zu drei Elementen aus dem vorherigen Umsatzeintrag angezeigt werden.](../images/chart-sample.png)
 
+### <a name="collections-and-other-object-relations"></a>Sammlungen und andere Objektbeziehungen
+
+Auf jedes untergeordnete Objekt kann über das übergeordnete Objekt zugegriffen werden. Sie können z. B. `Worksheets` aus dem `Workbook`-Objekt lesen. Für die übergeordnete Klasse gibt eine zugehörige `get`-Methode vorhanden sein (z. B. `Workbook.getWorksheets()` oder `Workbook.getWorksheet(name)`). `get`-Methoden im Singular geben ein einzelnes Objekt zurück und benötigen eine ID oder einen Namen für das jeweilige Objekt (z. B. den Namen eines Arbeitsblatts). `get`-Methoden im Plural geben die gesamte Objektsammlung als Array zurück. Wenn die Sammlung leer ist, erhalten Sie ein leeres Array (`[]`).
+
+Sobald die Sammlung abgerufen wurde, können Sie reguläre Arrayoperationen wie das Abrufen der `length` oder die Verwendung von `for`, `for..of`, `while` Schleifen für Iterationen oder die Verwendung von TypeScript-Arraymethoden wie `map` oder `forEach` verwenden. Sie können auch auf einzelne Objekte innerhalb der Sammlung zugreifen, indem Sie den Arrayindexwert verwenden. `workbook.getTables()[0]` gibt beispielsweise die erste Tabelle in der Sammlung zurück. Lesen Sie den Abschnitt [„Arbeiten mit Sammlungen“ des Artikels „Verwenden von integrierten JavaScript-Objekten in Office-Skripts“](javascript-objects.md#working-with-collections), um weitere Informationen zur Verwendung der integrierten Arrayfunktionen mit dem Office-Skripts-Framework zu erhalten.
+
+Das folgende Skript ruft alle Tabellen in der Arbeitsmappe ab. Dann wird sichergestellt, dass die Kopfzeilen angezeigt werden, die Filterschaltflächen sichtbar sind und das Tabellenformat auf „TableStyleLight1“ festgelegt ist.
+
+```typescript
+function main(workbook: ExcelScript.Workbook) {
+  /* Get table collection */
+  const tables = workbook.getTables();
+  /* Set table formatting properties */
+  tables.forEach(table => {
+    table.setShowHeaders(true);
+    table.setShowFilterButton(true);
+    table.setPredefinedTableStyle("TableStyleLight1");
+  })
+}
+```
+
+#### <a name="adding-excel-objects-with-a-script"></a>Hinzufügen von Excel-Objekten mit einem Skript
+
+Sie können Dokumentobjekte, z. B. Tabellen oder Diagramme, programmgesteuert hinzufügen, indem Sie die entsprechende `add`-Methode aufrufen, die für das übergeordnete Objekt verfügbar ist.
+
+> [!NOTE]
+> Fügen Sie keine Objekte manuell zu Sammlungsarrays hinzu. Verwenden Sie die `add`-Methoden in den übergeordneten Objekten. Fügen Sie z. B. `Table` mit der `Worksheet.addTable`-Methode zu `Worksheet` hinzu.
+
+Mit dem folgenden Skript wird eine Tabelle in Excel auf dem ersten Arbeitsblatt in der Arbeitsmappe erstellt. Beachten Sie, dass die erstellte Tabelle von der `addTable`-Methode zurückgegeben wird.
+
+```typescript
+function main(workbook: ExcelScript.Workbook) {
+    // Get the first worksheet.
+    let sheet = workbook.getWorksheets()[0];
+
+    // Add a table that uses the data in C3:G10.
+    let table = sheet.addTable(
+      "C3:G10",
+       true /* True because the table has headers. */
+    );
+}
+```
+
+## <a name="removing-excel-objects-with-a-script"></a>Entfernen von Excel-Objekten mit einem Skript
+
+Wenn Sie ein Objekt löschen möchten, rufen Sie die `delete`-Methode des Objekts auf.
+
+> [!NOTE]
+> Wie beim Hinzufügen von Objekten dürfen Sie keine Objekte manuell aus Sammlungsarrays entfernen. Verwenden Sie die `delete`-Methoden in den Sammlungstypobjekten. Entfernen Sie beispielsweise `Table` mit `Table.delete` aus `Worksheet`.
+
+Mit dem folgenden Skript wird das erste Arbeitsblatt in der Arbeitsmappe entfernt.
+
+```typescript
+function main(workbook: ExcelScript.Workbook) {
+    // Get first worksheet.
+    let sheet = workbook.getWorksheets()[0];
+
+    // Remove that worksheet from the workbook.
+    sheet.delete();
+}
+```
+
 ### <a name="further-reading-on-the-object-model"></a>Weitere Informationen zum Objektmodell
 
 Die [Referenzdokumentation zur Office Scripts-API](/javascript/api/office-scripts/overview) besteht aus einer umfassender Liste der Objekte, die in Office-Skripts verwendet werden. Dort können Sie über das Inhaltsverzeichnis zu jedem Thema navigieren, über das Sie mehr erfahren möchten. Nachstehend finden Sie einige häufig besuchte Seiten.
 
-- [Chart](/javascript/api/office-scripts/excel/excel.chart)
-- [Kommentar](/javascript/api/office-scripts/excel/excel.comment)
-- [PivotTable](/javascript/api/office-scripts/excel/excel.pivottable)
-- [Range](/javascript/api/office-scripts/excel/excel.range)
-- [RangeFormat](/javascript/api/office-scripts/excel/excel.rangeformat)
-- [Form](/javascript/api/office-scripts/excel/excel.shape)
-- [Table](/javascript/api/office-scripts/excel/excel.table)
-- [Workbook](/javascript/api/office-scripts/excel/excel.workbook)
-- [Worksheet](/javascript/api/office-scripts/excel/excel.worksheet)
-
-## <a name="main-function"></a>Die `main`-Funktion
-
-Jedes Office-Skript muss eine `main`-Funktion mit der folgenden Signatur enthalten, einschließlich der `Excel.RequestContext`-Typdefinition:
-
-```TypeScript
-async function main(context: Excel.RequestContext) {
-    // Your Excel Script
-}
-```
-
-Der Code innerhalb der `main`-Funktion wird beim Ausführen des Skripts ausgeführt. `main` kann andere Funktionen in Ihrem Skript aufrufen, Code, der nicht in einer Funktion enthalten ist, wird jedoch nicht ausgeführt.
-
-## <a name="context"></a>Context
-
-Die `main`-Funktion lässt einen `Excel.RequestContext`-Parameter namens `context` zu. Stellen Sie sich `context` als die Brücke zwischen Ihrem Skript und der Arbeitsmappe vor. Das Skript greift auf die Arbeitsmappe mit dem `context`-Objekt zu und verwendet diesen `context` zum Hin- und Hersenden von Daten.
-
-Das `context`-Objekt ist erforderlich, weil das Skript und Excel in unterschiedlichen Prozessen und Speicherorten ausgeführt werden. Das Skript muss Änderungen an den Daten in der Arbeitsmappe in der Cloud vornehmen oder diese abrufen können. Das `context`-Objekt verwaltet diese Transaktionen.
-
-## <a name="sync-and-load"></a>Synchronisieren und Laden
-
-Da Ihr Skript und die Arbeitsmappe an unterschiedlichen Orten ausgeführt werden, dauert die Datenübertragung zwischen diesen etwas. Um die Skriptleistung zu verbessern, werden Befehle in die Warteschlange gesetzt, bis das Skript explizit den `sync`-Vorgang aufruft, um das Skript und die Arbeitsmappe miteinander zu synchronisieren. Ihr Skript kann unabhängig funktionieren, bis es eine der folgenden Aktionen durchführen muss:
-
-- Daten aus der Arbeitsmappe lesen (nach einem `load`-Vorgang oder einer Methode, die ein[ClientResultat](/javascript/api/office-scripts/excel/excel.clientresult) zurückgibt).
-- Daten in die Arbeitsmappe schreiben (in der Regel, weil das Skript abgeschlossen wurde).
-
-In der folgenden Abbildung wird ein Beispiel für eine Ablaufsteuerung zwischen dem Skript und der Arbeitsmappe dargestellt:
-
-![Ein Diagramm mit Lese- und Schreibvorgängen, die vom Skript in der Arbeitsmappe ausgeführt werden.](../images/load-sync.png)
-
-### <a name="sync"></a>Synchronisierung
-
-Wenn das Skript Daten aus der Arbeitsmappe auslesen oder in diese schreiben muss, rufen Sie die `RequestContext.sync`-Methode wie hier dargestellt auf:
-
-```TypeScript
-await context.sync();
-```
-
-> [!NOTE]
-> `context.sync()` wird implizit aufgerufen, wenn ein Skript endet.
-
-Nachdem der `sync`-Vorgang abgeschlossen ist, wird die Arbeitsmappe entsprechend den Schreibvorgängen aktualisiert, die vom Skript angegeben wurden. Bei einem Schreibvorgang wird eine beliebige Eigenschaft eines Excel-Objekts festgelegt (z. B. `range.format.fill.color = "red"`) oder eine Methode aufgerufen, über die eine Eigenschaft geändert wird (z. B. `range.format.autoFitColumns()`). Der `sync`-Vorgang liest auch alle Werte aus der Arbeitsmappe, die das Skript angefordert hat, indem es einen `load`-Vorgang oder eine Methode verwendet, die ein `ClientResult` zurückgibt (wie in den nächsten Abschnitten besprochen).
-
-Je nach Netzwerk kann es einige Zeit dauern, bis das Skript mit der Arbeitsmappe synchronisiert wurde. Sie sollten die Anzahl von `sync`-Aufrufen minimieren, damit das Ausführen des Skripts möglichst schnell geht.  
-
-### <a name="load"></a>Laden
-
-Ein Skript muss Daten aus der Arbeitsmappe laden, bevor es sie liest. Das häufige Laden von Daten aus der gesamten Arbeitsmappe würde jedoch die Geschwindigkeit des Skripts erheblich verringern. Stattdessen können Sie mit der `load`-Methode präzise angeben, welche Daten aus der Arbeitsmappe abgerufen werden sollen.
-
-Die `load`-Methode ist für jedes Excel-Objekt verfügbar. Ihr Skript muss die Eigenschaften eines Objekts laden, bevor es sie lesen kann. Andernfalls wird ein Fehler zurückgegeben.
-
-In den folgenden Beispielen wird ein `Range`-Objekt verwendet, um die drei Arten darzustellen, wie die `load`-Methode zum Laden von Daten verwendet werden kann.
-
-|Absicht |Beispielbefehl | Auswirkung |
-|:--|:--|:--|
-|Laden einer Eigenschaft |`myRange.load("values");` | Lädt eine einzelne Eigenschaft, in diesem Fall den zweidimensionalen Wertearray in diesem Bereich. |
-|Laden mehrerer Eigenschaften |`myRange.load("values, rowCount, columnCount");`| Lädt alle Eigenschaften aus einer durch Kommas getrennten Liste, in diesem Beispiel die Werte, die Zeilenanzahl und die Spaltenanzahl. |
-|Alles laden | `myRange.load();`|Lädt alle Eigenschaften des Zellbereichs. Dies ist keine empfohlene Lösung, da das Skript durch das Abrufen unnötiger Daten verlangsamt wird. Sie sollten diesen Wert nur verwenden, wenn Sie das Skript testen, oder wenn Sie alle Eigenschaften des Objekts benötigen. |
-
-Ihr Skript muss `context.sync()` aufrufen, bevor es geladene Werte ausliest.
-
-```TypeScript
-let range = selectedSheet.getRange("A1:B3");
-range.load ("rowCount"); // Load the property.
-await context.sync(); // Synchronize with the workbook to get the property.
-console.log(range.rowCount); // Read and log the property value (3).
-```
-
-Sie können auch Eigenschaften aus einer ganzen Sammlung laden. Jedes Sammlungsobjekt verfügt über eine `items`-Eigenschaft, bei der es sich um ein Array handelt, das die Objekte in dieser Sammlung enthält. Durch die Verwendung von `items` als Anfang eines hierarchischen Aufrufs (`items\myProperty`) für `load` werden die angegebenen Eigenschaften für jedes dieser Elemente geladen. Im folgenden Beispiel wird die `resolved`-Eigenschaft für jedes `Comment`-Objekt im `CommentCollection`-Objekt eines Arbeitsblatts geladen.
-
-```TypeScript
-let comments = selectedSheet.comments;
-comments.load("items/resolved"); // Load the `resolved` property from every comment in this collection.
-await context.sync(); // Synchronize with the workbook to get the properties.
-```
-
-> [!TIP]
-> Wenn Sie mehr über das Arbeiten mit Sammlungen in Office-Skripts wissen möchten, lesen Sie den [Array-Abschnitt des Artikels "Verwenden von integrierten JavaScript-Objekten in Office-Skripts"](javascript-objects.md#array).
-
-### <a name="clientresult"></a>ClientResult
-
-Methoden, die Informationen aus dem Arbeitsbuch zurückgeben, haben ein ähnliches Muster wie das `load`/`sync`-Paradigma. `TableCollection.getCount` ruft zum Beispiel die Anzahl von Tabellen in der Auflistung ab. `getCount` gibt eine `ClientResult<number>` zurück, was bedeutet, dass die `value`-Eigenschaft im zurückgegebenen `ClientResult` eine Zahl ist. Ihr Skript kann erst auf diesen Wert zugreifen, wenn `context.sync()` aufgerufen wird. Ähnlich wie beim Laden einer Eigenschaft ist der `value` bis zu diesem `sync`-Aufruf ein lokaler "leerer" Wert.
-
-Das folgende Skript ruft die Gesamtanzahl der Tabellen in der Arbeitsmappe ab und protokolliert diese Anzahl in der Konsole.
-
-```TypeScript
-async function main(context: Excel.RequestContext) {
-  let tableCount = context.workbook.tables.getCount();
-
-  // This sync call implicitly loads tableCount.value.
-  // Any other ClientResult values are loaded too.
-  await context.sync();
-
-  // Trying to log the value before calling sync would throw an error.
-  console.log(tableCount.value);
-}
-```
+- [Chart](/javascript/api/office-scripts/excelscript/excelscript.chart)
+- [Kommentar](/javascript/api/office-scripts/excelscript/excelscript.comment)
+- [PivotTable](/javascript/api/office-scripts/excelscript/excelscript.pivottable)
+- [Range](/javascript/api/office-scripts/excelscript/excelscript.range)
+- [RangeFormat](/javascript/api/office-scripts/excelscript/excelscript.rangeformat)
+- [Form](/javascript/api/office-scripts/excelscript/excelscript.shape)
+- [Table](/javascript/api/office-scripts/excelscript/excelscript.table)
+- [Workbook](/javascript/api/office-scripts/excelscript/excelscript.workbook)
+- [Arbeitsblatt](/javascript/api/office-scripts/excelscript/excelscript.worksheet)
 
 ## <a name="see-also"></a>Siehe auch
 
