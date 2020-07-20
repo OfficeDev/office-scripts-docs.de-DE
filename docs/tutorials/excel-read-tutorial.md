@@ -1,14 +1,14 @@
 ---
 title: Lesen Sie Arbeitsmappendaten mit Office-Skripts in Excel im Web
 description: Ein Office Skripts-Lernprogramm zum Lesen von Daten aus Arbeitsmappen und zum Auswerten dieser Daten im Skript.
-ms.date: 01/27/2020
+ms.date: 07/10/2020
 localization_priority: Priority
-ms.openlocfilehash: 42ed0fe5843a78692f9660b873211e3668702164
-ms.sourcegitcommit: b075eed5a6f275274fbbf6d62633219eac416f26
+ms.openlocfilehash: fef1df7cab70ccef67a12ee466af5a89803d0992
+ms.sourcegitcommit: ebd1079c7e2695ac0e7e4c616f2439975e196875
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "42700182"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "45160417"
 ---
 # <a name="read-workbook-data-with-office-scripts-in-excel-on-the-web"></a>Lesen Sie Arbeitsmappendaten mit Office-Skripts in Excel im Web
 
@@ -19,12 +19,7 @@ In diesem Lernprogramm erfahren Sie, wie Sie Daten aus einer Arbeitsmappe mit ei
 
 ## <a name="prerequisites"></a>Voraussetzungen
 
-[!INCLUDE [Preview note](../includes/preview-note.md)]
-
-Bevor Sie mit diesem Lernprogramm beginnen, benötigen Sie Zugriff auf Office-Skripts. Dies setzt Folgendes voraus:
-
-- [Excel im Web](https://www.office.com/launch/excel).
-- Bitten Sie Ihren Administrator, [Office-Skripts für Ihre Organisation zu aktivieren](https://support.office.com/article/office-scripts-settings-in-m365-19d3c51a-6ca2-40ab-978d-60fa49554dcf). Dadurch wird die Registerkarte **Automatisieren** zum Menüband hinzugefügt.
+[!INCLUDE [Tutorial prerequisites](../includes/tutorial-prerequisites.md)]
 
 > [!IMPORTANT]
 > Dieses Lernprogramm richtet sich an Anfänger bis Fortgeschrittene mit JavaScript oder TypeScript. Wenn Sie noch nicht mit JavaScript vertraut sind, empfehlen wir Ihnen, das [Mozilla-JavaScript-Lernprogramm](https://developer.mozilla.org/docs/Web/JavaScript/Guide/Introduction) durchzusehen. Weitere Informationen über die Skriptumgebung finden Sie unter [Office-Skripts in Excel im Web](../overview/excel.md).
@@ -56,39 +51,30 @@ Im weiteren Verlauf des Lernprogramms werden diese Daten mithilfe eines Skripts 
     Ersetzen Sie den Skriptinhalt durch den folgenden Code:
 
     ```TypeScript
-    async function main(context: Excel.RequestContext) {
-      // Get the current worksheet.
-      let workbook = context.workbook;
-      let worksheets = workbook.worksheets;
-      let selectedSheet = worksheets.getActiveWorksheet();
+    function main(workbook: ExcelScript.Workbook) {
+        // Get the current worksheet.
+        let selectedSheet = workbook.getActiveWorksheet();
 
-      // Format the range to display numerical dollar amounts.
-      selectedSheet.getRange("D2:E8").numberFormat = [["$#,##0.00"]];
+        // Format the range to display numerical dollar amounts.
+        selectedSheet.getRange("D2:E8").setNumberFormat("$#,##0.00");
 
-      // Fit the width of all the used columns to the data.
-      selectedSheet.getUsedRange().format.autofitColumns();
+        // Fit the width of all the used columns to the data.
+        selectedSheet.getUsedRange().getFormat().autofitColumns();
     }
     ```
 
-5. Lesen wir nun einen Wert aus einer der Zahlenspalten. Fügen Sie am Ende des Skripts den folgenden Code hinzu:
+5. Lesen wir nun einen Wert aus einer der Zahlenspalten. Fügen Sie den folgenden Code am Ende des Skripts hinzu (vor der schließenden `}`):
 
     ```TypeScript
     // Get the value of cell D2.
     let range = selectedSheet.getRange("D2");
-    range.load("values");
-    await context.sync();
-  
-    // Print the value of D2.
-    console.log(range.values);
+    console.log(range.getValues());
     ```
 
-    Beachten Sie die Anrufe zu `load` und `sync`. Einzelheiten zu diesen Methoden finden Sie unter Grundlagen der [Skripterstellung für Office-Skripts in Excel im Web](../develop/scripting-fundamentals.md#sync-and-load). Beachten Sie zunächst, dass Sie das Lesen von Daten anfordern und dann Ihr Skript mit der Arbeitsmappe synchronisieren müssen, um diese Daten zu lesen.
-
 6. Führen Sie das Skript aus.
-7. Öffnen Sie die Konsole. Wechseln Sie zum Menü **Ellipsen** und drücken Sie **Protokolle...**.
-8. Sie sollten `[Array[1]]` in der Konsole sehen. Dies ist keine Zahl, da Bereiche zweidimensionale Datenfelder sind. Dieser zweidimensionale Bereich wird direkt in der Konsole protokolliert. Glücklicherweise können Sie mit dem Code-Editor den Inhalt des Arrays anzeigen.
-9. Wenn ein zweidimensionales Array in der Konsole protokolliert wird, werden Spaltenwerte unter jeder Zeile gruppiert. Erweitern Sie das Array-Protokoll, indem Sie auf das blaue Dreieck klicken.
-10. Erweitern Sie die zweite Ebene des Arrays, indem Sie auf das neu aufgedeckte blaue Dreieck klicken. Sie sollten jetzt Folgendes sehen:
+7. Sie sollten `[Array[1]]` in der Konsole sehen. Dies ist keine Zahl, da Bereiche zweidimensionale Datenfelder sind. Dieser zweidimensionale Bereich wird direkt in der Konsole protokolliert. Glücklicherweise können Sie mit dem Code-Editor den Inhalt des Arrays anzeigen.
+8. Wenn ein zweidimensionales Array in der Konsole protokolliert wird, werden Spaltenwerte unter jeder Zeile gruppiert. Erweitern Sie das Array-Protokoll, indem Sie auf das blaue Dreieck klicken.
+9. Erweitern Sie die zweite Ebene des Arrays, indem Sie auf das neu aufgedeckte blaue Dreieck klicken. Sie sollten jetzt Folgendes sehen:
 
     ![Das Konsolenprotokoll mit der Ausgabe "-20.05", verschachtelt unter zwei Arrays.](../images/tutorial-4.png)
 
@@ -100,9 +86,11 @@ Nachdem wir nun Daten lesen können, verwenden wir diese Daten, um die Arbeitsma
 
     ```TypeScript
     // Run the `Math.abs` function with the value at D2 and apply that value back to D2.
-    let positiveValue = Math.abs(range.values[0][0]);
-    range.values = [[positiveValue]];
+    let positiveValue = Math.abs(range.getValue());
+    range.setValue(positiveValue);
     ```
+
+    Bitte beachten Sie, dass wir `getValue` und `setValue` verwenden. Diese Methoden funktionieren bei einer einzelnen Zelle. Wenn Sie mehrere Zellbereiche bearbeiten möchten, verwenden Sie `getValues` und `setValues`.
 
 2. Der Wert von Zelle **D2** sollte jetzt positiv sein.
 
@@ -113,47 +101,45 @@ Nachdem wir nun wissen, wie man in eine einzelne Zelle liest und schreibt, veral
 1. Entfernen Sie den Code, der nur eine einzelne Zelle betrifft (den vorherigen Absolutwertcode), sodass Ihr Skript jetzt folgendermaßen aussieht:
 
     ```TypeScript
-    async function main(context: Excel.RequestContext) {
-      // Get the current worksheet.
-      let workbook = context.workbook;
-      let worksheets = workbook.worksheets;
-      let selectedSheet = worksheets.getActiveWorksheet();
+    function main(workbook: ExcelScript.Workbook) {
+        // Get the current worksheet.
+        let selectedSheet = workbook.getActiveWorksheet();
 
-      // Format the range to display numerical dollar amounts.
-      selectedSheet.getRange("D2:E8").numberFormat = [["$#,##0.00"]];
+        // Format the range to display numerical dollar amounts.
+        selectedSheet.getRange("D2:E8").setNumberFormat("$#,##0.00");
 
-      // Fit the width of all the used columns to the data.
-      selectedSheet.getUsedRange().format.autofitColumns();
+        // Fit the width of all the used columns to the data.
+        selectedSheet.getUsedRange().getFormat().autofitColumns();
     }
     ```
 
-2. Fügen Sie eine Schleife hinzu, die die Zeilen in den letzten beiden Spalten durchläuft. Für jede Zelle setzt das Skript den Wert auf den absoluten Wert des aktuellen Werts.
+2. Fügen Sie am Ende des Skripts eine Schleife hinzu, die die Zeilen in den letzten beiden Spalten durchläuft. Für jede Zelle setzt das Skript den Wert auf den absoluten Wert des aktuellen Werts.
 
     Beachten Sie, dass das Array, das die Zellenpositionen definiert, auf Null basiert. Das heißt, Zelle **A1** ist `range[0][0]`.
 
     ```TypeScript
     // Get the values of the used range.
     let range = selectedSheet.getUsedRange();
-    range.load("rowCount,values");
-    await context.sync();
+    let rangeValues = range.getValues();
 
     // Iterate over the fourth and fifth columns and set their values to their absolute value.
-    for (let i = 1; i < range.rowCount; i++) {
-      // The column at index 3 is column "4" in the worksheet.
-      if (range.values[i][3] != 0) {
-        let positiveValue = Math.abs(range.values[i][3]);
-        selectedSheet.getCell(i, 3).values = [[positiveValue]];
-      }
+    let rowCount = range.getRowCount();
+    for (let i = 1; i < rowCount; i++) {
+        // The column at index 3 is column "4" in the worksheet.
+        if (rangeValues[i][3] != 0) {
+            let positiveValue = Math.abs(rangeValues[i][3]);
+            selectedSheet.getCell(i, 3).setValue(positiveValue);
+        }
 
-      // The column at index 4 is column "5" in the worksheet.
-      if (range.values[i][4] != 0) {
-        let positiveValue = Math.abs(range.values[i][4]);
-        selectedSheet.getCell(i, 4).values = [[positiveValue]];
-      }
+        // The column at index 4 is column "5" in the worksheet.
+        if (rangeValues[i][4] != 0) {
+            let positiveValue = Math.abs(rangeValues[i][4]);
+            selectedSheet.getCell(i, 4).setValue(positiveValue);
+        }
     }
     ```
 
-    Dieser Teil des Skripts führt mehrere wichtige Aufgaben aus. Zunächst werden die Werte und die Zeilenanzahl des verwendeten Bereichs geladen. Auf diese Weise können wir uns die Werte ansehen und wissen, wann wir aufhören müssen. Zweitens durchläuft es den verwendeten Bereich und überprüft jede Zelle in den Spalten **Lastschrift** und **Gutschrift**. Wenn der Wert in der Zelle nicht 0 ist, wird er durch seinen absoluten Wert ersetzt. Wir vermeiden Nullen, damit wir die leeren Zellen so lassen können, wie sie waren.
+    Dieser Teil des Skripts führt mehrere wichtige Aufgaben aus. Zunächst werden die Werte und die Zeilenanzahl des verwendeten Bereichs abgerufen. Auf diese Weise können wir uns die Werte ansehen und wissen, wann wir aufhören müssen. Zweitens durchläuft es den verwendeten Bereich und überprüft jede Zelle in den Spalten **Lastschrift** und **Gutschrift**. Wenn der Wert in der Zelle nicht 0 ist, wird er durch seinen absoluten Wert ersetzt. Wir vermeiden Nullen, damit wir die leeren Zellen so lassen können, wie sie waren.
 
 3. Führen Sie das Skript aus.
 
