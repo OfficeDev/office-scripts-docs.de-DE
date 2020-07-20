@@ -1,238 +1,245 @@
 ---
 title: Grundlegendes zur Skripterstellung für Office-Skripts in Excel im Web
 description: Informationen zu Objektmodellen und andere Grundlagen, die Sie vor dem Schreiben von Office-Skripts benötigen.
-ms.date: 04/24/2020
+ms.date: 06/29/2020
 localization_priority: Priority
-ms.openlocfilehash: 8449654e359f665677f3d416a8e28fa4d6930f26
-ms.sourcegitcommit: 350bd2447f616fa87bb23ac826c7731fb813986b
+ms.openlocfilehash: 9ea24f26052877bc70862c8a05321d588f409b11
+ms.sourcegitcommit: 30750c4392db3ef057075a5702abb92863c93eda
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/28/2020
-ms.locfileid: "43919798"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "44999302"
 ---
-# <a name="scripting-fundamentals-for-office-scripts-in-excel-on-the-web-preview"></a><span data-ttu-id="8397c-103">Grundlegendes zur Skripterstellung für Office-Skripts in Excel im Web (Vorschau)</span><span class="sxs-lookup"><span data-stu-id="8397c-103">Scripting fundamentals for Office Scripts in Excel on the web (preview)</span></span>
+# <a name="scripting-fundamentals-for-office-scripts-in-excel-on-the-web-preview"></a><span data-ttu-id="82c2b-103">Grundlegendes zur Skripterstellung für Office-Skripts in Excel im Web (Vorschau)</span><span class="sxs-lookup"><span data-stu-id="82c2b-103">Scripting fundamentals for Office Scripts in Excel on the web (preview)</span></span>
 
-<span data-ttu-id="8397c-104">In diesem Artikel werden die technischen Aspekte von Office-Skripts vorgestellt.</span><span class="sxs-lookup"><span data-stu-id="8397c-104">This article will introduce you to the technical aspects of Office Scripts.</span></span> <span data-ttu-id="8397c-105">Sie erfahren, wie die einzelnen Excel-Objekte zusammenarbeiten und wie der Code-Editor mit einer Arbeitsmappe synchronisiert wird.</span><span class="sxs-lookup"><span data-stu-id="8397c-105">You'll learn how the Excel objects work together and how the Code Editor synchronizes with a workbook.</span></span>
+<span data-ttu-id="82c2b-104">In diesem Artikel werden die technischen Aspekte von Office-Skripts vorgestellt.</span><span class="sxs-lookup"><span data-stu-id="82c2b-104">This article will introduce you to the technical aspects of Office Scripts.</span></span> <span data-ttu-id="82c2b-105">Sie erfahren, wie die einzelnen Excel-Objekte zusammenarbeiten und wie der Code-Editor mit einer Arbeitsmappe synchronisiert wird.</span><span class="sxs-lookup"><span data-stu-id="82c2b-105">You'll learn how the Excel objects work together and how the Code Editor synchronizes with a workbook.</span></span>
 
 [!INCLUDE [Preview note](../includes/preview-note.md)]
 
-## <a name="object-model"></a><span data-ttu-id="8397c-106">Objektmodell</span><span class="sxs-lookup"><span data-stu-id="8397c-106">Object model</span></span>
+## <a name="main-function"></a><span data-ttu-id="82c2b-106">Die `main`-Funktion</span><span class="sxs-lookup"><span data-stu-id="82c2b-106">`main` function</span></span>
 
-<span data-ttu-id="8397c-107">Um die Excel-APIs zu verstehen, müssen Sie wissen, wie die Komponenten einer Arbeitsmappe miteinander verknüpft sind.</span><span class="sxs-lookup"><span data-stu-id="8397c-107">To understand the Excel APIs, you must understand how the components of a workbook are related to one another.</span></span>
+<span data-ttu-id="82c2b-107">Jedes Office-Skript muss die `main`-Funktion mit dem `ExcelScript.Workbook`-Typ als ersten Parameter enthalten.</span><span class="sxs-lookup"><span data-stu-id="82c2b-107">Each Office Script must contain the `main` function with the `ExcelScript.Workbook` type as its first parameter.</span></span> <span data-ttu-id="82c2b-108">Wenn die Funktion ausgeführt wird, ruft die Excel-Anwendung diese `main`-Funktion auf, indem sie die Arbeitsmappe als ersten Parameter bereitstellt.</span><span class="sxs-lookup"><span data-stu-id="82c2b-108">When the function is executed, Excel application invokes this `main` function by providing the workbook as its first parameter.</span></span> <span data-ttu-id="82c2b-109">Deshalb ist es wichtig, dass Sie die Standardsignatur der `main`-Funktion nicht ändern, nachdem Sie das Skript aufgezeichnet oder im Code-Editor ein neues Skript erstellt haben.</span><span class="sxs-lookup"><span data-stu-id="82c2b-109">Hence, it is important to not modify the basic signature of the `main` function once you have either recorded the script or created a new script from the code editor.</span></span>
 
-- <span data-ttu-id="8397c-108">Eine **Arbeitsmappe** enthält mindestens ein **Arbeitsblatt**.</span><span class="sxs-lookup"><span data-stu-id="8397c-108">A **Workbook** contains one or more **Worksheets**.</span></span>
-- <span data-ttu-id="8397c-109">Ein **Arbeitsblatt** ermöglicht den Zugriff auf Zellen über **Bereichsobjekte**.</span><span class="sxs-lookup"><span data-stu-id="8397c-109">A **Worksheet** gives access to cells through **Range** objects.</span></span>
-- <span data-ttu-id="8397c-110">Ein **Bereich** besteht aus einer Gruppe zusammenhängender Zellen.</span><span class="sxs-lookup"><span data-stu-id="8397c-110">A **Range** represents a group of contiguous cells.</span></span>
-- <span data-ttu-id="8397c-111">**Bereiche** werden verwendet, um **Tabellen**, **Diagramme**, **Formen** sowie andere Objekte für die Datenvisualisierung oder -organisation zu erstellen und zu platzieren.</span><span class="sxs-lookup"><span data-stu-id="8397c-111">**Ranges** are used to create and place **Tables**, **Charts**, **Shapes**, and other data visualization or organization objects.</span></span>
-- <span data-ttu-id="8397c-112">Ein **Arbeitsblatt** enthält Sammlungen dieser Datenobjekte, die auf dem jeweiligen Blatt vorhanden sind.</span><span class="sxs-lookup"><span data-stu-id="8397c-112">A **Worksheet** contains collections of those data objects that are present in the individual sheet.</span></span>
-- <span data-ttu-id="8397c-113">**Arbeitsmappen** enthalten Sammlungen einiger dieser Datenobjekte (z. B. **Tabellen**) für die gesamte **Arbeitsmappe**.</span><span class="sxs-lookup"><span data-stu-id="8397c-113">**Workbooks** contain collections of some of those data objects (such as **Tables**) for the entire **Workbook**.</span></span>
-
-### <a name="ranges"></a><span data-ttu-id="8397c-114">Bereiche</span><span class="sxs-lookup"><span data-stu-id="8397c-114">Ranges</span></span>
-
-<span data-ttu-id="8397c-115">Ein Bereich ist eine Gruppe zusammenhängender Zellen in der Arbeitsmappe.</span><span class="sxs-lookup"><span data-stu-id="8397c-115">A range is a group of contiguous cells in the workbook.</span></span> <span data-ttu-id="8397c-116">In Skripts wird in der Regel eine Notation im A1-Format verwendet (z. B. **B3** für die einzelne Zelle in Spalte **B** und Zeile **3** oder **C2:F4** für die Zellen in den Spalten **C** bis **F** und den Zeilen **2** bis **4**), um Bereiche zu definieren.</span><span class="sxs-lookup"><span data-stu-id="8397c-116">Scripts typically use A1-style notation (e.g. **B3** for the single cell in column **B** and row **3** or **C2:F4** for the cells from columns **C** through **F** and rows **2** through **4**) to define ranges.</span></span>
-
-<span data-ttu-id="8397c-117">Bereiche besitzen drei Haupteigenschaften: `values`, `formulas` und `format`.</span><span class="sxs-lookup"><span data-stu-id="8397c-117">Ranges have three core properties: `values`, `formulas`, and `format`.</span></span> <span data-ttu-id="8397c-118">Durch diese Eigenschaften können die Zellwerte, die zu prüfenden Formeln sowie die visuelle Formatierung der Zellen abgerufen oder festgelegt werden.</span><span class="sxs-lookup"><span data-stu-id="8397c-118">These properties get or set the cell values, formulas to be evaluated, and the visual formatting of the cells.</span></span>
-
-#### <a name="range-sample"></a><span data-ttu-id="8397c-119">Beispiel für einen Bereich</span><span class="sxs-lookup"><span data-stu-id="8397c-119">Range sample</span></span>
-
-<span data-ttu-id="8397c-120">Das folgende Beispiel zeigt, wie Sie Verkaufsdatensätze erstellen können.</span><span class="sxs-lookup"><span data-stu-id="8397c-120">The following sample shows how to create sales records.</span></span> <span data-ttu-id="8397c-121">In diesem Skript werden `Range`-Objekte zum Festlegen der Werte, Formeln und Formate verwendet.</span><span class="sxs-lookup"><span data-stu-id="8397c-121">This script uses `Range` objects to set the values, formulas, and formats.</span></span>
-
-```TypeScript
-async function main(context: Excel.RequestContext) {
-  // Get the active worksheet.
-  let sheet = context.workbook.worksheets.getActiveWorksheet();
-
-  // Create the headers and format them to stand out.
-  let headers = [
-    ["Product", "Quantity", "Unit Price", "Totals"]
-  ];
-  let headerRange = sheet.getRange("B2:E2");
-  headerRange.values = headers;
-  headerRange.format.fill.color = "#4472C4";
-  headerRange.format.font.color = "white";
-
-  // Create the product data rows.
-  let productData = [
-    ["Almonds", 6, 7.5],
-    ["Coffee", 20, 34.5],
-    ["Chocolate", 10, 9.56],
-  ];
-  let dataRange = sheet.getRange("B3:D5");
-  dataRange.values = productData;
-
-  // Create the formulas to total the amounts sold.
-  let totalFormulas = [
-    ["=C3 * D3"],
-    ["=C4 * D4"],
-    ["=C5 * D5"],
-    ["=SUM(E3:E5)"]
-  ];
-  let totalRange = sheet.getRange("E3:E6");
-  totalRange.formulas = totalFormulas;
-  totalRange.format.font.bold = true;
-
-  // Display the totals as US dollar amounts.
-  totalRange.numberFormat = [["$0.00"]];
+```typescript
+function main(workbook: ExcelScript.Workbook) {
+// Your code goes here
 }
 ```
 
-<span data-ttu-id="8397c-122">Wenn Sie dieses Skript ausführen, werden die folgenden Daten im aktuellen Arbeitsblatt erstellt:</span><span class="sxs-lookup"><span data-stu-id="8397c-122">Running this script creates the following data in the current worksheet:</span></span>
+<span data-ttu-id="82c2b-110">Der Code innerhalb der `main`-Funktion wird beim Ausführen des Skripts ausgeführt.</span><span class="sxs-lookup"><span data-stu-id="82c2b-110">The code inside the `main` function runs when the script is run.</span></span> <span data-ttu-id="82c2b-111">`main` kann andere Funktionen in Ihrem Skript aufrufen, Code, der nicht in einer Funktion enthalten ist, wird jedoch nicht ausgeführt.</span><span class="sxs-lookup"><span data-stu-id="82c2b-111">`main` can call other functions in your script, but code that's not contained in a function will not run.</span></span>
+
+> [!CAUTION]
+> <span data-ttu-id="82c2b-112">Wenn die `main`-Funktion wie `async function main(context: Excel.RequestContext)` aussieht, verwendet das Skript das ältere asynchrone API-Modell.</span><span class="sxs-lookup"><span data-stu-id="82c2b-112">If your `main` function looks like `async function main(context: Excel.RequestContext)`, then your script is using the legacy, async API model.</span></span> <span data-ttu-id="82c2b-113">Weitere Informationen hierzu finden Sie unter [Verwenden der asynchronen Office-Skripts-APIs zur Unterstützung von älteren Skripts](excel-async-model.md). Dieses Thema enthält auch Informationen zum Konvertieren Ihres älteren Skripts in das aktuelle API-Modell.</span><span class="sxs-lookup"><span data-stu-id="82c2b-113">Please refer to [Using the Office Scripts Async APIs to support legacy scripts](excel-async-model.md) for more information, including how to convert your older script to the current API model.</span></span>
+
+## <a name="object-model"></a><span data-ttu-id="82c2b-114">Objektmodell</span><span class="sxs-lookup"><span data-stu-id="82c2b-114">Object model</span></span>
+
+<span data-ttu-id="82c2b-115">Wenn Sie ein Skript schreiben möchten, müssen Sie verstehen, wie die Office-Skript-APIs zusammenpassen.</span><span class="sxs-lookup"><span data-stu-id="82c2b-115">To write a script, you need to understand how the Office Script APIs fit together.</span></span> <span data-ttu-id="82c2b-116">Die Komponenten einer Arbeitsmappe haben bestimmte Beziehungen zueinander.</span><span class="sxs-lookup"><span data-stu-id="82c2b-116">The components of a workbook have specific relations to one another.</span></span> <span data-ttu-id="82c2b-117">Auf vielerlei Weise entsprechen diese Beziehungen denen der Excel-Benutzeroberfläche.</span><span class="sxs-lookup"><span data-stu-id="82c2b-117">In many ways, these relations match those of the Excel UI.</span></span>
+
+- <span data-ttu-id="82c2b-118">Eine **Arbeitsmappe** enthält mindestens ein **Arbeitsblatt**.</span><span class="sxs-lookup"><span data-stu-id="82c2b-118">A **Workbook** contains one or more **Worksheets**.</span></span>
+- <span data-ttu-id="82c2b-119">Ein **Arbeitsblatt** ermöglicht den Zugriff auf Zellen über **Bereichsobjekte**.</span><span class="sxs-lookup"><span data-stu-id="82c2b-119">A **Worksheet** gives access to cells through **Range** objects.</span></span>
+- <span data-ttu-id="82c2b-120">Ein **Bereich** besteht aus einer Gruppe zusammenhängender Zellen.</span><span class="sxs-lookup"><span data-stu-id="82c2b-120">A **Range** represents a group of contiguous cells.</span></span>
+- <span data-ttu-id="82c2b-121">**Bereiche** werden verwendet, um **Tabellen**, **Diagramme**, **Formen** sowie andere Objekte für die Datenvisualisierung oder -organisation zu erstellen und zu platzieren.</span><span class="sxs-lookup"><span data-stu-id="82c2b-121">**Ranges** are used to create and place **Tables**, **Charts**, **Shapes**, and other data visualization or organization objects.</span></span>
+- <span data-ttu-id="82c2b-122">Ein **Arbeitsblatt** enthält Sammlungen dieser Datenobjekte, die auf dem jeweiligen Blatt vorhanden sind.</span><span class="sxs-lookup"><span data-stu-id="82c2b-122">A **Worksheet** contains collections of those data objects that are present in the individual sheet.</span></span>
+- <span data-ttu-id="82c2b-123">**Arbeitsmappen** enthalten Sammlungen einiger dieser Datenobjekte (z. B. **Tabellen**) für die gesamte **Arbeitsmappe**.</span><span class="sxs-lookup"><span data-stu-id="82c2b-123">**Workbooks** contain collections of some of those data objects (such as **Tables**) for the entire **Workbook**.</span></span>
+
+### <a name="workbook"></a><span data-ttu-id="82c2b-124">Arbeitsmappe</span><span class="sxs-lookup"><span data-stu-id="82c2b-124">Workbook</span></span>
+
+<span data-ttu-id="82c2b-125">Jedes Skript wird von der `main`-Funktion als `workbook`-Objekt vom Typ `Workbook` bereitgestellt.</span><span class="sxs-lookup"><span data-stu-id="82c2b-125">Every script is provided a `workbook` object of type `Workbook` by the `main` function.</span></span> <span data-ttu-id="82c2b-126">Damit wird das Objekt der obersten Ebene dargestellt, durch das das Skript mit der Excel-Arbeitsmappe interagiert.</span><span class="sxs-lookup"><span data-stu-id="82c2b-126">This represents the top level object through which your script interacts with the Excel workbook.</span></span>
+
+<span data-ttu-id="82c2b-127">Das folgende Skript ruft das aktive Arbeitsblatt aus der Arbeitsmappe ab und protokolliert den Namen.</span><span class="sxs-lookup"><span data-stu-id="82c2b-127">The following script gets the active worksheet from the workbook and logs its name.</span></span>
+
+```typescript
+function main(workbook: ExcelScript.Workbook) {
+    // Get the active worksheet.
+    let sheet = workbook.getActiveWorksheet();
+
+    // Display the current worksheet's name.
+    console.log(sheet.getName());
+}
+```
+
+### <a name="ranges"></a><span data-ttu-id="82c2b-128">Bereiche</span><span class="sxs-lookup"><span data-stu-id="82c2b-128">Ranges</span></span>
+
+<span data-ttu-id="82c2b-129">Ein Bereich ist eine Gruppe zusammenhängender Zellen in der Arbeitsmappe.</span><span class="sxs-lookup"><span data-stu-id="82c2b-129">A range is a group of contiguous cells in the workbook.</span></span> <span data-ttu-id="82c2b-130">In Skripts wird in der Regel eine Notation im A1-Format verwendet (z. B. **B3** für die einzelne Zelle in Spalte **B** und Zeile **3** oder **C2:F4** für die Zellen in den Spalten **C** bis **F** und den Zeilen **2** bis **4**), um Bereiche zu definieren.</span><span class="sxs-lookup"><span data-stu-id="82c2b-130">Scripts typically use A1-style notation (e.g. **B3** for the single cell in column **B** and row **3** or **C2:F4** for the cells from columns **C** through **F** and rows **2** through **4**) to define ranges.</span></span>
+
+<span data-ttu-id="82c2b-131">Bereiche besitzen drei Haupteigenschaften: Werte, Formeln und Format.</span><span class="sxs-lookup"><span data-stu-id="82c2b-131">Ranges have three core properties: values, formulas, and format.</span></span> <span data-ttu-id="82c2b-132">Durch diese Eigenschaften können die Zellwerte, die zu prüfenden Formeln sowie die visuelle Formatierung der Zellen abgerufen oder festgelegt werden.</span><span class="sxs-lookup"><span data-stu-id="82c2b-132">These properties get or set the cell values, formulas to be evaluated, and the visual formatting of the cells.</span></span> <span data-ttu-id="82c2b-133">Sie können über `getValues`, `getFormulas` und `getFormat`auf sie zugreifen.</span><span class="sxs-lookup"><span data-stu-id="82c2b-133">They are accessed through `getValues`, `getFormulas`, and `getFormat`.</span></span> <span data-ttu-id="82c2b-134">Werte und Formeln können mit `setValues` und `setFormulas`geändert werden, wohingegen das Format ein `RangeFormat`-Objekt ist, das aus mehreren kleineren Objekten besteht, die einzeln festgelegt werden.</span><span class="sxs-lookup"><span data-stu-id="82c2b-134">Values and formulas can be changed with `setValues` and `setFormulas`, while the format is a `RangeFormat` object that's comprised of several smaller objects that are individually set.</span></span>
+
+<span data-ttu-id="82c2b-135">Bereiche verwenden zweidimensionale Arrays zum Verwalten von Informationen.</span><span class="sxs-lookup"><span data-stu-id="82c2b-135">Ranges use two-dimensional arrays to manage information.</span></span> <span data-ttu-id="82c2b-136">Lesen Sie den Abschnitt [„Arbeiten mit Bereichen“ des Artikels „Verwenden von integrierten JavaScript-Objekten in Office-Skripts“](javascript-objects.md#working-with-ranges), um weitere Informationen zum Umgang mit diesen Arrays im Office-Skripts-Framework zu erhalten.</span><span class="sxs-lookup"><span data-stu-id="82c2b-136">Read the [Working with ranges section of Using built-in JavaScript objects in Office Scripts](javascript-objects.md#working-with-ranges) for more information on handling those arrays in the Office Scripts framework.</span></span>
+
+#### <a name="range-sample"></a><span data-ttu-id="82c2b-137">Beispiel für einen Bereich</span><span class="sxs-lookup"><span data-stu-id="82c2b-137">Range sample</span></span>
+
+<span data-ttu-id="82c2b-138">Das folgende Beispiel zeigt, wie Sie Verkaufsdatensätze erstellen können.</span><span class="sxs-lookup"><span data-stu-id="82c2b-138">The following sample shows how to create sales records.</span></span> <span data-ttu-id="82c2b-139">In diesem Skript werden `Range`-Objekte zum Festlegen der Werte, Formeln und Teilen des Formats verwendet.</span><span class="sxs-lookup"><span data-stu-id="82c2b-139">This script uses `Range` objects to set the values, formulas, and parts of the format.</span></span>
+
+```TypeScript
+function main(workbook: ExcelScript.Workbook) {
+    // Get the active worksheet.
+    let sheet = workbook.getActiveWorksheet();
+
+    // Create the headers and format them to stand out.
+    let headers = [["Product", "Quantity", "Unit Price", "Totals"]];
+    let headerRange = sheet.getRange("B2:E2");
+    headerRange.setValues(headers);
+    headerRange.getFormat().getFill().setColor("#4472C4");
+    headerRange.getFormat().getFont().setColor("white");
+
+    // Create the product data rows.
+    let productData = [
+        ["Almonds", 6, 7.5],
+        ["Coffee", 20, 34.5],
+        ["Chocolate", 10, 9.56],
+    ];
+    let dataRange = sheet.getRange("B3:D5");
+    dataRange.setValues(productData);
+
+    // Create the formulas to total the amounts sold.
+    let totalFormulas = [
+        ["=C3 * D3"],
+        ["=C4 * D4"],
+        ["=C5 * D5"],
+        ["=SUM(E3:E5)"],
+    ];
+    let totalRange = sheet.getRange("E3:E6");
+    totalRange.setFormulas(totalFormulas);
+    totalRange.getFormat().getFont().setBold(true);
+
+    // Display the totals as US dollar amounts.
+    totalRange.setNumberFormat("$0.00");
+}
+```
+
+<span data-ttu-id="82c2b-140">Wenn Sie dieses Skript ausführen, werden die folgenden Daten im aktuellen Arbeitsblatt erstellt:</span><span class="sxs-lookup"><span data-stu-id="82c2b-140">Running this script creates the following data in the current worksheet:</span></span>
 
 ![Ein Umsatzdatensatz mit Wert-Zeilen, einer Formelspalte sowie formatierten Überschriften.](../images/range-sample.png)
 
-### <a name="charts-tables-and-other-data-objects"></a><span data-ttu-id="8397c-124">Diagramme, Tabellen und andere Datenobjekte</span><span class="sxs-lookup"><span data-stu-id="8397c-124">Charts, tables, and other data objects</span></span>
+### <a name="charts-tables-and-other-data-objects"></a><span data-ttu-id="82c2b-142">Diagramme, Tabellen und andere Datenobjekte</span><span class="sxs-lookup"><span data-stu-id="82c2b-142">Charts, tables, and other data objects</span></span>
 
-<span data-ttu-id="8397c-125">Skripts können die Datenstrukturen und -visualisierungen in Excel erstellen und ändern.</span><span class="sxs-lookup"><span data-stu-id="8397c-125">Scripts can create and manipulate the data structures and visualizations within Excel.</span></span> <span data-ttu-id="8397c-126">Tabellen und Diagramme sind zwei der am häufigsten verwendeten Objekte, die APIs unterstützen aber auch PivotTables, Formen, Bilder und vieles mehr.</span><span class="sxs-lookup"><span data-stu-id="8397c-126">Tables and charts are two of the more commonly used objects, but the APIs support PivotTables, shapes, images, and more.</span></span>
+<span data-ttu-id="82c2b-143">Skripts können die Datenstrukturen und -visualisierungen in Excel erstellen und ändern.</span><span class="sxs-lookup"><span data-stu-id="82c2b-143">Scripts can create and manipulate the data structures and visualizations within Excel.</span></span> <span data-ttu-id="82c2b-144">Tabellen und Diagramme sind zwei der am häufigsten verwendeten Objekte, die APIs unterstützen aber auch PivotTables, Formen, Bilder und vieles mehr.</span><span class="sxs-lookup"><span data-stu-id="82c2b-144">Tables and charts are two of the more commonly used objects, but the APIs support PivotTables, shapes, images, and more.</span></span> <span data-ttu-id="82c2b-145">Diese werden in Sammlungen gespeichert, die weiter unten in diesem Artikel erläutert werden.</span><span class="sxs-lookup"><span data-stu-id="82c2b-145">These are stored in collections, which will be discussed later in this article.</span></span>
 
-#### <a name="creating-a-table"></a><span data-ttu-id="8397c-127">Erstellen einer Tabelle</span><span class="sxs-lookup"><span data-stu-id="8397c-127">Creating a table</span></span>
+#### <a name="creating-a-table"></a><span data-ttu-id="82c2b-146">Erstellen einer Tabelle</span><span class="sxs-lookup"><span data-stu-id="82c2b-146">Creating a table</span></span>
 
-<span data-ttu-id="8397c-128">Erstellen Sie Tabellen mithilfe von mit Daten ausgefüllten Bereichen.</span><span class="sxs-lookup"><span data-stu-id="8397c-128">Create tables by using data-filled ranges.</span></span> <span data-ttu-id="8397c-129">Auf den Bereich werden automatisch Formatierungs- und Tabellen-Steuerelemente (wie z. B. Filter) angewendet.</span><span class="sxs-lookup"><span data-stu-id="8397c-129">Formatting and table controls (such as filters) are automatically applied to the range.</span></span>
+<span data-ttu-id="82c2b-147">Erstellen Sie Tabellen mithilfe von mit Daten ausgefüllten Bereichen.</span><span class="sxs-lookup"><span data-stu-id="82c2b-147">Create tables by using data-filled ranges.</span></span> <span data-ttu-id="82c2b-148">Auf den Bereich werden automatisch Formatierungs- und Tabellen-Steuerelemente (wie z. B. Filter) angewendet.</span><span class="sxs-lookup"><span data-stu-id="82c2b-148">Formatting and table controls (such as filters) are automatically applied to the range.</span></span>
 
-<span data-ttu-id="8397c-130">Durch das folgende Skript wird eine Tabelle auf Grundlage der Bereiche aus dem vorherigen Beispiel erstellt.</span><span class="sxs-lookup"><span data-stu-id="8397c-130">The following script creates a table using the ranges from the previous sample.</span></span>
+<span data-ttu-id="82c2b-149">Durch das folgende Skript wird eine Tabelle auf Grundlage der Bereiche aus dem vorherigen Beispiel erstellt.</span><span class="sxs-lookup"><span data-stu-id="82c2b-149">The following script creates a table using the ranges from the previous sample.</span></span>
 
 ```TypeScript
-async function main(context: Excel.RequestContext) {
-   let sheet = context.workbook.worksheets.getActiveWorksheet();
-   sheet.tables.add("B2:E5", true);
+function main(workbook: ExcelScript.Workbook) {
+    // Get the active worksheet.
+    let sheet = workbook.getActiveWorksheet();
+
+    // Add a table that has headers using the data from B2:E5.
+    sheet.addTable("B2:E5", true);
 }
 ```
 
-<span data-ttu-id="8397c-131">Wenn Sie dieses Skript auf das Arbeitsblatt mit den vorherigen Daten anwenden, wird die folgende Tabelle erstellt:</span><span class="sxs-lookup"><span data-stu-id="8397c-131">Running this script on the worksheet with the previous data creates the following table:</span></span>
+<span data-ttu-id="82c2b-150">Wenn Sie dieses Skript auf das Arbeitsblatt mit den vorherigen Daten anwenden, wird die folgende Tabelle erstellt:</span><span class="sxs-lookup"><span data-stu-id="82c2b-150">Running this script on the worksheet with the previous data creates the following table:</span></span>
 
 ![Eine Tabelle aus dem vorherigen Umsatzeintrag.](../images/table-sample.png)
 
-#### <a name="creating-a-chart"></a><span data-ttu-id="8397c-133">Erstellen eines Diagramms</span><span class="sxs-lookup"><span data-stu-id="8397c-133">Creating a chart</span></span>
+#### <a name="creating-a-chart"></a><span data-ttu-id="82c2b-152">Erstellen eines Diagramms</span><span class="sxs-lookup"><span data-stu-id="82c2b-152">Creating a chart</span></span>
 
-<span data-ttu-id="8397c-134">Erstellen Sie Diagramme, um die Daten in einem Bereich darzustellen.</span><span class="sxs-lookup"><span data-stu-id="8397c-134">Create charts to visualize the data in a range.</span></span> <span data-ttu-id="8397c-135">In Skripts sind Dutzende von Diagrammvarianten zulässig, die jeweils an Ihre Anforderungen angepasst werden können.</span><span class="sxs-lookup"><span data-stu-id="8397c-135">Scripts allow for dozens of chart varieties, each of which can be customized to suit your needs.</span></span>
+<span data-ttu-id="82c2b-153">Erstellen Sie Diagramme, um die Daten in einem Bereich darzustellen.</span><span class="sxs-lookup"><span data-stu-id="82c2b-153">Create charts to visualize the data in a range.</span></span> <span data-ttu-id="82c2b-154">In Skripts sind Dutzende von Diagrammvarianten zulässig, die jeweils an Ihre Anforderungen angepasst werden können.</span><span class="sxs-lookup"><span data-stu-id="82c2b-154">Scripts allow for dozens of chart varieties, each of which can be customized to suit your needs.</span></span>
 
-<span data-ttu-id="8397c-136">Mit dem folgenden Skript wird ein einfaches Säulendiagramm für drei Elemente erstellt und 100 Pixel unterhalb des oberen Rands des Arbeitsblatts platziert.</span><span class="sxs-lookup"><span data-stu-id="8397c-136">The following script creates a simple column chart for three items and places it 100 pixels below the top of the worksheet.</span></span>
+<span data-ttu-id="82c2b-155">Mit dem folgenden Skript wird ein einfaches Säulendiagramm für drei Elemente erstellt und 100 Pixel unterhalb des oberen Rands des Arbeitsblatts platziert.</span><span class="sxs-lookup"><span data-stu-id="82c2b-155">The following script creates a simple column chart for three items and places it 100 pixels below the top of the worksheet.</span></span>
 
 ```TypeScript
-async function main(context: Excel.RequestContext) {
-  let sheet = context.workbook.worksheets.getActiveWorksheet();
-  let chart = sheet.charts.add(Excel.ChartType.columnStacked, sheet.getRange("B3:C5"));
-  chart.top = 100;
+function main(workbook: ExcelScript.Workbook) {
+    // Get the active worksheet.
+    let sheet = workbook.getActiveWorksheet();
+
+    // Create a column chart using the data from B3:C5.
+    let chart = sheet.addChart(
+        ExcelScript.ChartType.columnStacked,
+        sheet.getRange("B3:C5")
+    );
+
+    // Set the margin of the chart to be 100 pixels from the top of the screen.
+    chart.setTop(100);
 }
 ```
 
-<span data-ttu-id="8397c-137">Wenn Sie dieses Skript auf das Arbeitsblatt mit der vorherigen Tabelle anwenden, wird das folgende Diagramm erstellt:</span><span class="sxs-lookup"><span data-stu-id="8397c-137">Running this script on the worksheet with the previous table creates the following chart:</span></span>
+<span data-ttu-id="82c2b-156">Wenn Sie dieses Skript auf das Arbeitsblatt mit der vorherigen Tabelle anwenden, wird das folgende Diagramm erstellt:</span><span class="sxs-lookup"><span data-stu-id="82c2b-156">Running this script on the worksheet with the previous table creates the following chart:</span></span>
 
 ![Ein Säulendiagramm, in dem die Mengenangaben zu drei Elementen aus dem vorherigen Umsatzeintrag angezeigt werden.](../images/chart-sample.png)
 
-### <a name="further-reading-on-the-object-model"></a><span data-ttu-id="8397c-139">Weitere Informationen zum Objektmodell</span><span class="sxs-lookup"><span data-stu-id="8397c-139">Further reading on the object model</span></span>
+### <a name="collections-and-other-object-relations"></a><span data-ttu-id="82c2b-158">Sammlungen und andere Objektbeziehungen</span><span class="sxs-lookup"><span data-stu-id="82c2b-158">Collections and other object relations</span></span>
 
-<span data-ttu-id="8397c-140">Die [Referenzdokumentation zur Office Scripts-API](/javascript/api/office-scripts/overview) besteht aus einer umfassender Liste der Objekte, die in Office-Skripts verwendet werden.</span><span class="sxs-lookup"><span data-stu-id="8397c-140">The [Office Scripts API reference documentation](/javascript/api/office-scripts/overview) is a comprehensive listing of the objects used in Office Scripts.</span></span> <span data-ttu-id="8397c-141">Dort können Sie über das Inhaltsverzeichnis zu jedem Thema navigieren, über das Sie mehr erfahren möchten.</span><span class="sxs-lookup"><span data-stu-id="8397c-141">There, you can use the table of contents to navigate to any class you'd like to learn more about.</span></span> <span data-ttu-id="8397c-142">Nachstehend finden Sie einige häufig besuchte Seiten.</span><span class="sxs-lookup"><span data-stu-id="8397c-142">The following are several commonly viewed pages.</span></span>
+<span data-ttu-id="82c2b-159">Auf jedes untergeordnete Objekt kann über das übergeordnete Objekt zugegriffen werden.</span><span class="sxs-lookup"><span data-stu-id="82c2b-159">Any child object can be accessed through its parent object.</span></span> <span data-ttu-id="82c2b-160">Sie können z. B. `Worksheets` aus dem `Workbook`-Objekt lesen.</span><span class="sxs-lookup"><span data-stu-id="82c2b-160">For example, you can read `Worksheets` from the `Workbook` object.</span></span> <span data-ttu-id="82c2b-161">Für die übergeordnete Klasse gibt eine zugehörige `get`-Methode vorhanden sein (z. B. `Workbook.getWorksheets()` oder `Workbook.getWorksheet(name)`).</span><span class="sxs-lookup"><span data-stu-id="82c2b-161">There will be a related `get` method on the parent class that (e.g. `Workbook.getWorksheets()` or `Workbook.getWorksheet(name)`).</span></span> <span data-ttu-id="82c2b-162">`get`-Methoden im Singular geben ein einzelnes Objekt zurück und benötigen eine ID oder einen Namen für das jeweilige Objekt (z. B. den Namen eines Arbeitsblatts).</span><span class="sxs-lookup"><span data-stu-id="82c2b-162">`get` methods that are singular return a single object and require an ID or name for the specific object (such as the name of a worksheet).</span></span> <span data-ttu-id="82c2b-163">`get`-Methoden im Plural geben die gesamte Objektsammlung als Array zurück.</span><span class="sxs-lookup"><span data-stu-id="82c2b-163">`get` methods that are plural return the entire object collection as an array.</span></span> <span data-ttu-id="82c2b-164">Wenn die Sammlung leer ist, erhalten Sie ein leeres Array (`[]`).</span><span class="sxs-lookup"><span data-stu-id="82c2b-164">If the collection is empty, you'll get an empty array (`[]`).</span></span>
 
-- [<span data-ttu-id="8397c-143">Chart</span><span class="sxs-lookup"><span data-stu-id="8397c-143">Chart</span></span>](/javascript/api/office-scripts/excel/excel.chart)
-- [<span data-ttu-id="8397c-144">Kommentar</span><span class="sxs-lookup"><span data-stu-id="8397c-144">Comment</span></span>](/javascript/api/office-scripts/excel/excel.comment)
-- [<span data-ttu-id="8397c-145">PivotTable</span><span class="sxs-lookup"><span data-stu-id="8397c-145">PivotTable</span></span>](/javascript/api/office-scripts/excel/excel.pivottable)
-- [<span data-ttu-id="8397c-146">Range</span><span class="sxs-lookup"><span data-stu-id="8397c-146">Range</span></span>](/javascript/api/office-scripts/excel/excel.range)
-- [<span data-ttu-id="8397c-147">RangeFormat</span><span class="sxs-lookup"><span data-stu-id="8397c-147">RangeFormat</span></span>](/javascript/api/office-scripts/excel/excel.rangeformat)
-- [<span data-ttu-id="8397c-148">Form</span><span class="sxs-lookup"><span data-stu-id="8397c-148">Shape</span></span>](/javascript/api/office-scripts/excel/excel.shape)
-- [<span data-ttu-id="8397c-149">Table</span><span class="sxs-lookup"><span data-stu-id="8397c-149">Table</span></span>](/javascript/api/office-scripts/excel/excel.table)
-- [<span data-ttu-id="8397c-150">Workbook</span><span class="sxs-lookup"><span data-stu-id="8397c-150">Workbook</span></span>](/javascript/api/office-scripts/excel/excel.workbook)
-- [<span data-ttu-id="8397c-151">Worksheet</span><span class="sxs-lookup"><span data-stu-id="8397c-151">Worksheet</span></span>](/javascript/api/office-scripts/excel/excel.worksheet)
+<span data-ttu-id="82c2b-165">Sobald die Sammlung abgerufen wurde, können Sie reguläre Arrayoperationen wie das Abrufen der `length` oder die Verwendung von `for`, `for..of`, `while` Schleifen für Iterationen oder die Verwendung von TypeScript-Arraymethoden wie `map` oder `forEach` verwenden.</span><span class="sxs-lookup"><span data-stu-id="82c2b-165">Once the collection is retrieved, you can use regular array operations such as getting its `length` or use `for`, `for..of`, `while` loops for iteration or use TypeScript array methods such as `map`, `forEach` on them.</span></span> <span data-ttu-id="82c2b-166">Sie können auch auf einzelne Objekte innerhalb der Sammlung zugreifen, indem Sie den Arrayindexwert verwenden.</span><span class="sxs-lookup"><span data-stu-id="82c2b-166">You can also access individual objects within the collection using the array index value.</span></span> <span data-ttu-id="82c2b-167">`workbook.getTables()[0]` gibt beispielsweise die erste Tabelle in der Sammlung zurück.</span><span class="sxs-lookup"><span data-stu-id="82c2b-167">For example, `workbook.getTables()[0]` returns the first table in the collection.</span></span> <span data-ttu-id="82c2b-168">Lesen Sie den Abschnitt [„Arbeiten mit Sammlungen“ des Artikels „Verwenden von integrierten JavaScript-Objekten in Office-Skripts“](javascript-objects.md#working-with-collections), um weitere Informationen zur Verwendung der integrierten Arrayfunktionen mit dem Office-Skripts-Framework zu erhalten.</span><span class="sxs-lookup"><span data-stu-id="82c2b-168">Read the [Working with collections section of Using built-in JavaScript objects in Office Scripts](javascript-objects.md#working-with-collections) to learn more about using built-in array functionality with the Office Scripts framework.</span></span>
 
-## <a name="main-function"></a><span data-ttu-id="8397c-152">Die `main`-Funktion</span><span class="sxs-lookup"><span data-stu-id="8397c-152">`main` function</span></span>
+<span data-ttu-id="82c2b-169">Das folgende Skript ruft alle Tabellen in der Arbeitsmappe ab.</span><span class="sxs-lookup"><span data-stu-id="82c2b-169">The following script gets all tables in the workbook.</span></span> <span data-ttu-id="82c2b-170">Dann wird sichergestellt, dass die Kopfzeilen angezeigt werden, die Filterschaltflächen sichtbar sind und das Tabellenformat auf „TableStyleLight1“ festgelegt ist.</span><span class="sxs-lookup"><span data-stu-id="82c2b-170">It then ensures the headers are displays, the filter buttons are visible, and the table style is set to "TableStyleLight1".</span></span>
 
-<span data-ttu-id="8397c-153">Jedes Office-Skript muss eine `main`-Funktion mit der folgenden Signatur enthalten, einschließlich der `Excel.RequestContext`-Typdefinition:</span><span class="sxs-lookup"><span data-stu-id="8397c-153">Every Office Script must contain a `main` function with the following signature, including the `Excel.RequestContext` type definition:</span></span>
-
-```TypeScript
-async function main(context: Excel.RequestContext) {
-    // Your Excel Script
+```typescript
+function main(workbook: ExcelScript.Workbook) {
+  /* Get table collection */
+  const tables = workbook.getTables();
+  /* Set table formatting properties */
+  tables.forEach(table => {
+    table.setShowHeaders(true);
+    table.setShowFilterButton(true);
+    table.setPredefinedTableStyle("TableStyleLight1");
+  })
 }
 ```
 
-<span data-ttu-id="8397c-154">Der Code innerhalb der `main`-Funktion wird beim Ausführen des Skripts ausgeführt.</span><span class="sxs-lookup"><span data-stu-id="8397c-154">The code inside the `main` function runs when the script is run.</span></span> <span data-ttu-id="8397c-155">`main` kann andere Funktionen in Ihrem Skript aufrufen, Code, der nicht in einer Funktion enthalten ist, wird jedoch nicht ausgeführt.</span><span class="sxs-lookup"><span data-stu-id="8397c-155">`main` can call other functions in your script, but code that's not contained in a function will not run.</span></span>
+#### <a name="adding-excel-objects-with-a-script"></a><span data-ttu-id="82c2b-171">Hinzufügen von Excel-Objekten mit einem Skript</span><span class="sxs-lookup"><span data-stu-id="82c2b-171">Adding Excel objects with a script</span></span>
 
-## <a name="context"></a><span data-ttu-id="8397c-156">Context</span><span class="sxs-lookup"><span data-stu-id="8397c-156">Context</span></span>
-
-<span data-ttu-id="8397c-157">Die `main`-Funktion lässt einen `Excel.RequestContext`-Parameter namens `context` zu.</span><span class="sxs-lookup"><span data-stu-id="8397c-157">The `main` function accepts an `Excel.RequestContext` parameter, named `context`.</span></span> <span data-ttu-id="8397c-158">Stellen Sie sich `context` als die Brücke zwischen Ihrem Skript und der Arbeitsmappe vor.</span><span class="sxs-lookup"><span data-stu-id="8397c-158">Think of `context` as the bridge between your script and the workbook.</span></span> <span data-ttu-id="8397c-159">Das Skript greift auf die Arbeitsmappe mit dem `context`-Objekt zu und verwendet diesen `context` zum Hin- und Hersenden von Daten.</span><span class="sxs-lookup"><span data-stu-id="8397c-159">Your script accesses the workbook with the `context` object and uses that `context` to send data back and forth.</span></span>
-
-<span data-ttu-id="8397c-160">Das `context`-Objekt ist erforderlich, weil das Skript und Excel in unterschiedlichen Prozessen und Speicherorten ausgeführt werden.</span><span class="sxs-lookup"><span data-stu-id="8397c-160">The `context` object is necessary because the script and Excel are running in different processes and locations.</span></span> <span data-ttu-id="8397c-161">Das Skript muss Änderungen an den Daten in der Arbeitsmappe in der Cloud vornehmen oder diese abrufen können.</span><span class="sxs-lookup"><span data-stu-id="8397c-161">The script will need to make changes to or query data from the workbook in the cloud.</span></span> <span data-ttu-id="8397c-162">Das `context`-Objekt verwaltet diese Transaktionen.</span><span class="sxs-lookup"><span data-stu-id="8397c-162">The `context` object manages those transactions.</span></span>
-
-## <a name="sync-and-load"></a><span data-ttu-id="8397c-163">Synchronisieren und Laden</span><span class="sxs-lookup"><span data-stu-id="8397c-163">Sync and Load</span></span>
-
-<span data-ttu-id="8397c-164">Da Ihr Skript und die Arbeitsmappe an unterschiedlichen Orten ausgeführt werden, dauert die Datenübertragung zwischen diesen etwas.</span><span class="sxs-lookup"><span data-stu-id="8397c-164">Because your script and workbook run in different locations, any data transfer between the two takes time.</span></span> <span data-ttu-id="8397c-165">Um die Skriptleistung zu verbessern, werden Befehle in die Warteschlange gesetzt, bis das Skript explizit den `sync`-Vorgang aufruft, um das Skript und die Arbeitsmappe miteinander zu synchronisieren.</span><span class="sxs-lookup"><span data-stu-id="8397c-165">To improve script performance, commands are queued up until the script explicitly calls the `sync` operation to synchronize the script and workbook.</span></span> <span data-ttu-id="8397c-166">Ihr Skript kann unabhängig funktionieren, bis es eine der folgenden Aktionen durchführen muss:</span><span class="sxs-lookup"><span data-stu-id="8397c-166">Your script can work independently until it needs to do either of the following:</span></span>
-
-- <span data-ttu-id="8397c-167">Daten aus der Arbeitsmappe lesen (nach einem `load`-Vorgang oder einer Methode, die ein[ClientResultat](/javascript/api/office-scripts/excel/excel.clientresult) zurückgibt).</span><span class="sxs-lookup"><span data-stu-id="8397c-167">Read data from the workbook (following a `load` operation or method that returns a [ClientResult](/javascript/api/office-scripts/excel/excel.clientresult)).</span></span>
-- <span data-ttu-id="8397c-168">Daten in die Arbeitsmappe schreiben (in der Regel, weil das Skript abgeschlossen wurde).</span><span class="sxs-lookup"><span data-stu-id="8397c-168">Write data to the workbook (usually because the script has finished).</span></span>
-
-<span data-ttu-id="8397c-169">In der folgenden Abbildung wird ein Beispiel für eine Ablaufsteuerung zwischen dem Skript und der Arbeitsmappe dargestellt:</span><span class="sxs-lookup"><span data-stu-id="8397c-169">The following image shows an example control flow between the script and workbook:</span></span>
-
-![Ein Diagramm mit Lese- und Schreibvorgängen, die vom Skript in der Arbeitsmappe ausgeführt werden.](../images/load-sync.png)
-
-### <a name="sync"></a><span data-ttu-id="8397c-171">Synchronisierung</span><span class="sxs-lookup"><span data-stu-id="8397c-171">Sync</span></span>
-
-<span data-ttu-id="8397c-172">Wenn das Skript Daten aus der Arbeitsmappe auslesen oder in diese schreiben muss, rufen Sie die `RequestContext.sync`-Methode wie hier dargestellt auf:</span><span class="sxs-lookup"><span data-stu-id="8397c-172">Whenever your script needs to read data from or write data to the workbook, call the `RequestContext.sync` method as shown here:</span></span>
-
-```TypeScript
-await context.sync();
-```
+<span data-ttu-id="82c2b-172">Sie können Dokumentobjekte, z. B. Tabellen oder Diagramme, programmgesteuert hinzufügen, indem Sie die entsprechende `add`-Methode aufrufen, die für das übergeordnete Objekt verfügbar ist.</span><span class="sxs-lookup"><span data-stu-id="82c2b-172">You can programmatically add document objects, such as tables or charts, by calling the corresponding `add` method available on the parent object.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="8397c-173">`context.sync()` wird implizit aufgerufen, wenn ein Skript endet.</span><span class="sxs-lookup"><span data-stu-id="8397c-173">`context.sync()` is implicitly called when a script ends.</span></span>
+> <span data-ttu-id="82c2b-173">Fügen Sie keine Objekte manuell zu Sammlungsarrays hinzu.</span><span class="sxs-lookup"><span data-stu-id="82c2b-173">Do not manually add objects to collection arrays.</span></span> <span data-ttu-id="82c2b-174">Verwenden Sie die `add`-Methoden in den übergeordneten Objekten. Fügen Sie z. B. `Table` mit der `Worksheet.addTable`-Methode zu `Worksheet` hinzu.</span><span class="sxs-lookup"><span data-stu-id="82c2b-174">Use the `add` methods on the parent objects For example, add a `Table` to a `Worksheet` with the `Worksheet.addTable` method.</span></span>
 
-<span data-ttu-id="8397c-174">Nachdem der `sync`-Vorgang abgeschlossen ist, wird die Arbeitsmappe entsprechend den Schreibvorgängen aktualisiert, die vom Skript angegeben wurden.</span><span class="sxs-lookup"><span data-stu-id="8397c-174">After the `sync` operation completes, the workbook updates to reflect any write operations that script has specified.</span></span> <span data-ttu-id="8397c-175">Bei einem Schreibvorgang wird eine beliebige Eigenschaft eines Excel-Objekts festgelegt (z. B. `range.format.fill.color = "red"`) oder eine Methode aufgerufen, über die eine Eigenschaft geändert wird (z. B. `range.format.autoFitColumns()`).</span><span class="sxs-lookup"><span data-stu-id="8397c-175">A write operation is setting any property on a Excel object (e.g. `range.format.fill.color = "red"`) or calling a method that changes a property (e.g., `range.format.autoFitColumns()`).</span></span> <span data-ttu-id="8397c-176">Der `sync`-Vorgang liest auch alle Werte aus der Arbeitsmappe, die das Skript angefordert hat, indem es einen `load`-Vorgang oder eine Methode verwendet, die ein `ClientResult` zurückgibt (wie in den nächsten Abschnitten besprochen).</span><span class="sxs-lookup"><span data-stu-id="8397c-176">The `sync` operation also reads any values from the workbook that the script requested by using a `load` operation or a method that returns a `ClientResult` (as discussed in the next sections).</span></span>
+<span data-ttu-id="82c2b-175">Mit dem folgenden Skript wird eine Tabelle in Excel auf dem ersten Arbeitsblatt in der Arbeitsmappe erstellt.</span><span class="sxs-lookup"><span data-stu-id="82c2b-175">The following script creates a table in Excel on the first worksheet in the workbook.</span></span> <span data-ttu-id="82c2b-176">Beachten Sie, dass die erstellte Tabelle von der `addTable`-Methode zurückgegeben wird.</span><span class="sxs-lookup"><span data-stu-id="82c2b-176">Note that the created table is returned by the `addTable` method.</span></span>
 
-<span data-ttu-id="8397c-177">Je nach Netzwerk kann es einige Zeit dauern, bis das Skript mit der Arbeitsmappe synchronisiert wurde.</span><span class="sxs-lookup"><span data-stu-id="8397c-177">Synchronizing your script with the workbook can take time, depending on your network.</span></span> <span data-ttu-id="8397c-178">Sie sollten die Anzahl von `sync`-Aufrufen minimieren, damit das Ausführen des Skripts möglichst schnell geht.</span><span class="sxs-lookup"><span data-stu-id="8397c-178">You should minimize the number of `sync` calls to help your script run fast.</span></span>  
+```typescript
+function main(workbook: ExcelScript.Workbook) {
+    // Get the first worksheet.
+    let sheet = workbook.getWorksheets()[0];
 
-### <a name="load"></a><span data-ttu-id="8397c-179">Laden</span><span class="sxs-lookup"><span data-stu-id="8397c-179">Load</span></span>
-
-<span data-ttu-id="8397c-180">Ein Skript muss Daten aus der Arbeitsmappe laden, bevor es sie liest.</span><span class="sxs-lookup"><span data-stu-id="8397c-180">A script must load data from the workbook before reading it.</span></span> <span data-ttu-id="8397c-181">Das häufige Laden von Daten aus der gesamten Arbeitsmappe würde jedoch die Geschwindigkeit des Skripts erheblich verringern.</span><span class="sxs-lookup"><span data-stu-id="8397c-181">However, frequently loading data from the entire workbook would greatly reduce the script's speed.</span></span> <span data-ttu-id="8397c-182">Stattdessen können Sie mit der `load`-Methode präzise angeben, welche Daten aus der Arbeitsmappe abgerufen werden sollen.</span><span class="sxs-lookup"><span data-stu-id="8397c-182">Instead, the `load` method lets your script state specifically which data should be retrieved from the workbook.</span></span>
-
-<span data-ttu-id="8397c-183">Die `load`-Methode ist für jedes Excel-Objekt verfügbar.</span><span class="sxs-lookup"><span data-stu-id="8397c-183">The `load` method is available on every Excel object.</span></span> <span data-ttu-id="8397c-184">Ihr Skript muss die Eigenschaften eines Objekts laden, bevor es sie lesen kann.</span><span class="sxs-lookup"><span data-stu-id="8397c-184">Your script must load an object's properties before it can read them.</span></span> <span data-ttu-id="8397c-185">Andernfalls wird ein Fehler zurückgegeben.</span><span class="sxs-lookup"><span data-stu-id="8397c-185">Not doing so will result in an error.</span></span>
-
-<span data-ttu-id="8397c-186">In den folgenden Beispielen wird ein `Range`-Objekt verwendet, um die drei Arten darzustellen, wie die `load`-Methode zum Laden von Daten verwendet werden kann.</span><span class="sxs-lookup"><span data-stu-id="8397c-186">The following examples use a `Range` object to show the three ways the `load` method can be used to load data.</span></span>
-
-|<span data-ttu-id="8397c-187">Absicht</span><span class="sxs-lookup"><span data-stu-id="8397c-187">Intent</span></span> |<span data-ttu-id="8397c-188">Beispielbefehl</span><span class="sxs-lookup"><span data-stu-id="8397c-188">Example Command</span></span> | <span data-ttu-id="8397c-189">Auswirkung</span><span class="sxs-lookup"><span data-stu-id="8397c-189">Effect</span></span> |
-|:--|:--|:--|
-|<span data-ttu-id="8397c-190">Laden einer Eigenschaft</span><span class="sxs-lookup"><span data-stu-id="8397c-190">Load one property</span></span> |`myRange.load("values");` | <span data-ttu-id="8397c-191">Lädt eine einzelne Eigenschaft, in diesem Fall den zweidimensionalen Wertearray in diesem Bereich.</span><span class="sxs-lookup"><span data-stu-id="8397c-191">Loads a single property, in this case the two-dimensional array of values in this range.</span></span> |
-|<span data-ttu-id="8397c-192">Laden mehrerer Eigenschaften</span><span class="sxs-lookup"><span data-stu-id="8397c-192">Load multiple properties</span></span> |`myRange.load("values, rowCount, columnCount");`| <span data-ttu-id="8397c-193">Lädt alle Eigenschaften aus einer durch Kommas getrennten Liste, in diesem Beispiel die Werte, die Zeilenanzahl und die Spaltenanzahl.</span><span class="sxs-lookup"><span data-stu-id="8397c-193">Loads all the properties from a comma-delimited list, in this example the values, row count, and column count.</span></span> |
-|<span data-ttu-id="8397c-194">Alles laden</span><span class="sxs-lookup"><span data-stu-id="8397c-194">Load everything</span></span> | `myRange.load();`|<span data-ttu-id="8397c-195">Lädt alle Eigenschaften des Zellbereichs.</span><span class="sxs-lookup"><span data-stu-id="8397c-195">Loads all the properties on the range.</span></span> <span data-ttu-id="8397c-196">Dies ist keine empfohlene Lösung, da das Skript durch das Abrufen unnötiger Daten verlangsamt wird.</span><span class="sxs-lookup"><span data-stu-id="8397c-196">This is not a recommended solution, since it will slow down your script by getting unnecessary data.</span></span> <span data-ttu-id="8397c-197">Sie sollten diesen Wert nur verwenden, wenn Sie das Skript testen, oder wenn Sie alle Eigenschaften des Objekts benötigen.</span><span class="sxs-lookup"><span data-stu-id="8397c-197">You should only use this while testing your script or if you need every property from the object.</span></span> |
-
-<span data-ttu-id="8397c-198">Ihr Skript muss `context.sync()` aufrufen, bevor es geladene Werte ausliest.</span><span class="sxs-lookup"><span data-stu-id="8397c-198">Your script must call `context.sync()` before reading any loaded values.</span></span>
-
-```TypeScript
-let range = selectedSheet.getRange("A1:B3");
-range.load ("rowCount"); // Load the property.
-await context.sync(); // Synchronize with the workbook to get the property.
-console.log(range.rowCount); // Read and log the property value (3).
-```
-
-<span data-ttu-id="8397c-199">Sie können auch Eigenschaften aus einer ganzen Sammlung laden.</span><span class="sxs-lookup"><span data-stu-id="8397c-199">You can also load properties across an entire collection.</span></span> <span data-ttu-id="8397c-200">Jedes Sammlungsobjekt verfügt über eine `items`-Eigenschaft, bei der es sich um ein Array handelt, das die Objekte in dieser Sammlung enthält.</span><span class="sxs-lookup"><span data-stu-id="8397c-200">Every collection object has an `items` property that is an array containing the objects in that collection.</span></span> <span data-ttu-id="8397c-201">Durch die Verwendung von `items` als Anfang eines hierarchischen Aufrufs (`items\myProperty`) für `load` werden die angegebenen Eigenschaften für jedes dieser Elemente geladen.</span><span class="sxs-lookup"><span data-stu-id="8397c-201">Using `items` as the start of a hierarchical call (`items\myProperty`) to `load` loads the specified properties on each of those items.</span></span> <span data-ttu-id="8397c-202">Im folgenden Beispiel wird die `resolved`-Eigenschaft für jedes `Comment`-Objekt im `CommentCollection`-Objekt eines Arbeitsblatts geladen.</span><span class="sxs-lookup"><span data-stu-id="8397c-202">The following example loads the `resolved` property on every `Comment` object in the `CommentCollection` object of a worksheet.</span></span>
-
-```TypeScript
-let comments = selectedSheet.comments;
-comments.load("items/resolved"); // Load the `resolved` property from every comment in this collection.
-await context.sync(); // Synchronize with the workbook to get the properties.
-```
-
-> [!TIP]
-> <span data-ttu-id="8397c-203">Wenn Sie mehr über das Arbeiten mit Sammlungen in Office-Skripts wissen möchten, lesen Sie den [Array-Abschnitt des Artikels "Verwenden von integrierten JavaScript-Objekten in Office-Skripts"](javascript-objects.md#array).</span><span class="sxs-lookup"><span data-stu-id="8397c-203">To learn more about working with collections in Office Scripts, see the [Array section of the Using built-in JavaScript objects in Office Scripts](javascript-objects.md#array) article.</span></span>
-
-### <a name="clientresult"></a><span data-ttu-id="8397c-204">ClientResult</span><span class="sxs-lookup"><span data-stu-id="8397c-204">ClientResult</span></span>
-
-<span data-ttu-id="8397c-205">Methoden, die Informationen aus dem Arbeitsbuch zurückgeben, haben ein ähnliches Muster wie das `load`/`sync`-Paradigma.</span><span class="sxs-lookup"><span data-stu-id="8397c-205">Methods that return information from the workbook have a similar pattern to the `load`/`sync` paradigm.</span></span> <span data-ttu-id="8397c-206">`TableCollection.getCount` ruft zum Beispiel die Anzahl von Tabellen in der Auflistung ab.</span><span class="sxs-lookup"><span data-stu-id="8397c-206">As an example, `TableCollection.getCount` gets the number of tables in the collection.</span></span> <span data-ttu-id="8397c-207">`getCount` gibt eine `ClientResult<number>` zurück, was bedeutet, dass die `value`-Eigenschaft im zurückgegebenen `ClientResult` eine Zahl ist.</span><span class="sxs-lookup"><span data-stu-id="8397c-207">`getCount` returns a `ClientResult<number>`, meaning the `value` property in the return `ClientResult` is a number.</span></span> <span data-ttu-id="8397c-208">Ihr Skript kann erst auf diesen Wert zugreifen, wenn `context.sync()` aufgerufen wird.</span><span class="sxs-lookup"><span data-stu-id="8397c-208">Your script can't access that value until `context.sync()` is called.</span></span> <span data-ttu-id="8397c-209">Ähnlich wie beim Laden einer Eigenschaft ist der `value` bis zu diesem `sync`-Aufruf ein lokaler "leerer" Wert.</span><span class="sxs-lookup"><span data-stu-id="8397c-209">Much like loading a property, the `value` is a local "empty" value until that `sync` call.</span></span>
-
-<span data-ttu-id="8397c-210">Das folgende Skript ruft die Gesamtanzahl der Tabellen in der Arbeitsmappe ab und protokolliert diese Anzahl in der Konsole.</span><span class="sxs-lookup"><span data-stu-id="8397c-210">The following script gets the total number of tables in the workbook and logs that number to the console.</span></span>
-
-```TypeScript
-async function main(context: Excel.RequestContext) {
-  let tableCount = context.workbook.tables.getCount();
-
-  // This sync call implicitly loads tableCount.value.
-  // Any other ClientResult values are loaded too.
-  await context.sync();
-
-  // Trying to log the value before calling sync would throw an error.
-  console.log(tableCount.value);
+    // Add a table that uses the data in C3:G10.
+    let table = sheet.addTable(
+      "C3:G10",
+       true /* True because the table has headers. */
+    );
 }
 ```
 
-## <a name="see-also"></a><span data-ttu-id="8397c-211">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="8397c-211">See also</span></span>
+## <a name="removing-excel-objects-with-a-script"></a><span data-ttu-id="82c2b-177">Entfernen von Excel-Objekten mit einem Skript</span><span class="sxs-lookup"><span data-stu-id="82c2b-177">Removing Excel objects with a script</span></span>
 
-- [<span data-ttu-id="8397c-212">Aufzeichnen, Bearbeiten und Erstellen von Office-Skripts in Excel im Web</span><span class="sxs-lookup"><span data-stu-id="8397c-212">Record, edit, and create Office Scripts in Excel on the web</span></span>](../tutorials/excel-tutorial.md)
-- [<span data-ttu-id="8397c-213">Auslesen von Arbeitsmappendaten mit Office-Skripts in Excel im Web</span><span class="sxs-lookup"><span data-stu-id="8397c-213">Read workbook data with Office Scripts in Excel on the web</span></span>](../tutorials/excel-read-tutorial.md)
-- [<span data-ttu-id="8397c-214">Referenzdokumentation zur Office Scripts-API</span><span class="sxs-lookup"><span data-stu-id="8397c-214">Office Scripts API reference</span></span>](/javascript/api/office-scripts/overview)
-- [<span data-ttu-id="8397c-215">Verwenden von integrierten JavaScript-Objekten in Office-Skripts</span><span class="sxs-lookup"><span data-stu-id="8397c-215">Using built-in JavaScript objects in Office Scripts</span></span>](javascript-objects.md)
+<span data-ttu-id="82c2b-178">Wenn Sie ein Objekt löschen möchten, rufen Sie die `delete`-Methode des Objekts auf.</span><span class="sxs-lookup"><span data-stu-id="82c2b-178">To delete an object, call the object's `delete` method.</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="82c2b-179">Wie beim Hinzufügen von Objekten dürfen Sie keine Objekte manuell aus Sammlungsarrays entfernen.</span><span class="sxs-lookup"><span data-stu-id="82c2b-179">As with adding objects, do not manually remove objects from collection arrays.</span></span> <span data-ttu-id="82c2b-180">Verwenden Sie die `delete`-Methoden in den Sammlungstypobjekten.</span><span class="sxs-lookup"><span data-stu-id="82c2b-180">Use the `delete` methods on the collection-type objects.</span></span> <span data-ttu-id="82c2b-181">Entfernen Sie beispielsweise `Table` mit `Table.delete` aus `Worksheet`.</span><span class="sxs-lookup"><span data-stu-id="82c2b-181">For example, remove a `Table` from a `Worksheet` using `Table.delete`.</span></span>
+
+<span data-ttu-id="82c2b-182">Mit dem folgenden Skript wird das erste Arbeitsblatt in der Arbeitsmappe entfernt.</span><span class="sxs-lookup"><span data-stu-id="82c2b-182">The following script removes the first worksheet in the workbook.</span></span>
+
+```typescript
+function main(workbook: ExcelScript.Workbook) {
+    // Get first worksheet.
+    let sheet = workbook.getWorksheets()[0];
+
+    // Remove that worksheet from the workbook.
+    sheet.delete();
+}
+```
+
+### <a name="further-reading-on-the-object-model"></a><span data-ttu-id="82c2b-183">Weitere Informationen zum Objektmodell</span><span class="sxs-lookup"><span data-stu-id="82c2b-183">Further reading on the object model</span></span>
+
+<span data-ttu-id="82c2b-184">Die [Referenzdokumentation zur Office Scripts-API](/javascript/api/office-scripts/overview) besteht aus einer umfassender Liste der Objekte, die in Office-Skripts verwendet werden.</span><span class="sxs-lookup"><span data-stu-id="82c2b-184">The [Office Scripts API reference documentation](/javascript/api/office-scripts/overview) is a comprehensive listing of the objects used in Office Scripts.</span></span> <span data-ttu-id="82c2b-185">Dort können Sie über das Inhaltsverzeichnis zu jedem Thema navigieren, über das Sie mehr erfahren möchten.</span><span class="sxs-lookup"><span data-stu-id="82c2b-185">There, you can use the table of contents to navigate to any class you'd like to learn more about.</span></span> <span data-ttu-id="82c2b-186">Nachstehend finden Sie einige häufig besuchte Seiten.</span><span class="sxs-lookup"><span data-stu-id="82c2b-186">The following are several commonly viewed pages.</span></span>
+
+- [<span data-ttu-id="82c2b-187">Chart</span><span class="sxs-lookup"><span data-stu-id="82c2b-187">Chart</span></span>](/javascript/api/office-scripts/excelscript/excelscript.chart)
+- [<span data-ttu-id="82c2b-188">Kommentar</span><span class="sxs-lookup"><span data-stu-id="82c2b-188">Comment</span></span>](/javascript/api/office-scripts/excelscript/excelscript.comment)
+- [<span data-ttu-id="82c2b-189">PivotTable</span><span class="sxs-lookup"><span data-stu-id="82c2b-189">PivotTable</span></span>](/javascript/api/office-scripts/excelscript/excelscript.pivottable)
+- [<span data-ttu-id="82c2b-190">Range</span><span class="sxs-lookup"><span data-stu-id="82c2b-190">Range</span></span>](/javascript/api/office-scripts/excelscript/excelscript.range)
+- [<span data-ttu-id="82c2b-191">RangeFormat</span><span class="sxs-lookup"><span data-stu-id="82c2b-191">RangeFormat</span></span>](/javascript/api/office-scripts/excelscript/excelscript.rangeformat)
+- [<span data-ttu-id="82c2b-192">Form</span><span class="sxs-lookup"><span data-stu-id="82c2b-192">Shape</span></span>](/javascript/api/office-scripts/excelscript/excelscript.shape)
+- [<span data-ttu-id="82c2b-193">Table</span><span class="sxs-lookup"><span data-stu-id="82c2b-193">Table</span></span>](/javascript/api/office-scripts/excelscript/excelscript.table)
+- [<span data-ttu-id="82c2b-194">Workbook</span><span class="sxs-lookup"><span data-stu-id="82c2b-194">Workbook</span></span>](/javascript/api/office-scripts/excelscript/excelscript.workbook)
+- [<span data-ttu-id="82c2b-195">Arbeitsblatt</span><span class="sxs-lookup"><span data-stu-id="82c2b-195">Worksheet</span></span>](/javascript/api/office-scripts/excelscript/excelscript.worksheet)
+
+## <a name="see-also"></a><span data-ttu-id="82c2b-196">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="82c2b-196">See also</span></span>
+
+- [<span data-ttu-id="82c2b-197">Aufzeichnen, Bearbeiten und Erstellen von Office-Skripts in Excel im Web</span><span class="sxs-lookup"><span data-stu-id="82c2b-197">Record, edit, and create Office Scripts in Excel on the web</span></span>](../tutorials/excel-tutorial.md)
+- [<span data-ttu-id="82c2b-198">Auslesen von Arbeitsmappendaten mit Office-Skripts in Excel im Web</span><span class="sxs-lookup"><span data-stu-id="82c2b-198">Read workbook data with Office Scripts in Excel on the web</span></span>](../tutorials/excel-read-tutorial.md)
+- [<span data-ttu-id="82c2b-199">Referenzdokumentation zur Office Scripts-API</span><span class="sxs-lookup"><span data-stu-id="82c2b-199">Office Scripts API reference</span></span>](/javascript/api/office-scripts/overview)
+- [<span data-ttu-id="82c2b-200">Verwenden von integrierten JavaScript-Objekten in Office-Skripts</span><span class="sxs-lookup"><span data-stu-id="82c2b-200">Using built-in JavaScript objects in Office Scripts</span></span>](javascript-objects.md)
