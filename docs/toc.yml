@@ -10,9 +10,9 @@
           href: tutorials/excel-tutorial.md
         - name: Lesen von Arbeitsmappendaten mit einem Skript
           href: tutorials/excel-read-tutorial.md
-        - name: Beginnen mit der Verwendung von Skripts mit Power Automate
+        - name: Aufrufen von Skripts aus einem manuellen Power Automate-Datenfluss
           href: tutorials/excel-power-automate-manual.md
-        - name: Automatisches Ausführen von Skripts mit Power Automate
+        - name: Übergeben von Daten in einem automatisch ausgeführten Power Automate-Datenfluss
           href: tutorials/excel-power-automate-trigger.md
     - name: Grundlagen der Skript-Erstellung
       href: develop/scripting-fundamentals.md
@@ -38,7 +38,7 @@
           href: develop/web-client-performance.md
         - name: Rückgängigmachen der Auswirkungen eines Office-Skripts
           href: testing/undo.md
-        - name: Verwenden des asynchronen Modells (Legacy)
+        - name: Unterstützung älterer Office-Skripts
           href: develop/excel-async-model.md
     - name: Beispiele
       items:
