@@ -1,14 +1,14 @@
 ---
 title: Grundlegendes zur Skripterstellung für Office-Skripts in Excel im Web
 description: Informationen zu Objektmodellen und andere Grundlagen, die Sie vor dem Schreiben von Office-Skripts benötigen.
-ms.date: 06/29/2020
+ms.date: 07/08/2020
 localization_priority: Priority
-ms.openlocfilehash: 9ea24f26052877bc70862c8a05321d588f409b11
-ms.sourcegitcommit: 30750c4392db3ef057075a5702abb92863c93eda
+ms.openlocfilehash: 6c02f4fb986e6a0ed1dd7afb099aaa1c9d1ea276
+ms.sourcegitcommit: ebd1079c7e2695ac0e7e4c616f2439975e196875
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "44999302"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "45160474"
 ---
 # <a name="scripting-fundamentals-for-office-scripts-in-excel-on-the-web-preview"></a>Grundlegendes zur Skripterstellung für Office-Skripts in Excel im Web (Vorschau)
 
@@ -18,18 +18,18 @@ In diesem Artikel werden die technischen Aspekte von Office-Skripts vorgestellt.
 
 ## <a name="main-function"></a>Die `main`-Funktion
 
-Jedes Office-Skript muss die `main`-Funktion mit dem `ExcelScript.Workbook`-Typ als ersten Parameter enthalten. Wenn die Funktion ausgeführt wird, ruft die Excel-Anwendung diese `main`-Funktion auf, indem sie die Arbeitsmappe als ersten Parameter bereitstellt. Deshalb ist es wichtig, dass Sie die Standardsignatur der `main`-Funktion nicht ändern, nachdem Sie das Skript aufgezeichnet oder im Code-Editor ein neues Skript erstellt haben.
+Jedes Office-Skript muss eine `main`-Funktion mit dem `ExcelScript.Workbook`-Typ als ersten Parameter enthalten. Wenn die Funktion ausgeführt wird, ruft die Excel-Anwendung diese `main`-Funktion auf, indem sie die Arbeitsmappe als ersten Parameter bereitstellt. Deshalb ist es wichtig, dass Sie die Standardsignatur der `main`-Funktion nicht ändern, nachdem Sie das Skript aufgezeichnet oder im Code-Editor ein neues Skript erstellt haben.
 
 ```typescript
 function main(workbook: ExcelScript.Workbook) {
-// Your code goes here
+  // Your code goes here
 }
 ```
 
 Der Code innerhalb der `main`-Funktion wird beim Ausführen des Skripts ausgeführt. `main` kann andere Funktionen in Ihrem Skript aufrufen, Code, der nicht in einer Funktion enthalten ist, wird jedoch nicht ausgeführt.
 
 > [!CAUTION]
-> Wenn die `main`-Funktion wie `async function main(context: Excel.RequestContext)` aussieht, verwendet das Skript das ältere asynchrone API-Modell. Weitere Informationen hierzu finden Sie unter [Verwenden der asynchronen Office-Skripts-APIs zur Unterstützung von älteren Skripts](excel-async-model.md). Dieses Thema enthält auch Informationen zum Konvertieren Ihres älteren Skripts in das aktuelle API-Modell.
+> Wenn die `main`-Funktion wie `async function main(context: Excel.RequestContext)` aussieht, verwendet das Skript das ältere asynchrone API-Modell. Weitere Informationen (auch Informationen zum Konvertieren Ihres Skripts in das aktuelle API-Modell) finden Sie unter [Unterstützung für ältere Office-Skripts, die die Async-APIs verwenden](excel-async-model.md).
 
 ## <a name="object-model"></a>Objektmodell
 
@@ -163,7 +163,7 @@ Wenn Sie dieses Skript auf das Arbeitsblatt mit der vorherigen Tabelle anwenden,
 
 ### <a name="collections-and-other-object-relations"></a>Sammlungen und andere Objektbeziehungen
 
-Auf jedes untergeordnete Objekt kann über das übergeordnete Objekt zugegriffen werden. Sie können z. B. `Worksheets` aus dem `Workbook`-Objekt lesen. Für die übergeordnete Klasse gibt eine zugehörige `get`-Methode vorhanden sein (z. B. `Workbook.getWorksheets()` oder `Workbook.getWorksheet(name)`). `get`-Methoden im Singular geben ein einzelnes Objekt zurück und benötigen eine ID oder einen Namen für das jeweilige Objekt (z. B. den Namen eines Arbeitsblatts). `get`-Methoden im Plural geben die gesamte Objektsammlung als Array zurück. Wenn die Sammlung leer ist, erhalten Sie ein leeres Array (`[]`).
+Auf jedes untergeordnete Objekt kann über das übergeordnete Objekt zugegriffen werden. Sie können z. B. `Worksheets` aus dem `Workbook`-Objekt lesen. Für die übergeordnete Klasse gibt eine zugehörige `get`-Methode vorhanden sein (z. B. `Workbook.getWorksheets()` oder `Workbook.getWorksheet(name)`). `get`-Methoden im Singular geben ein einzelnes Objekt zurück und benötigen eine ID oder einen Namen für das jeweilige Objekt (z. B. den Namen eines Arbeitsblatts). `get`-Methoden im Plural geben die gesamte Objektsammlung als Array zurück. Wenn die Sammlung leer ist, erhalten Sie ein leeres Array (`[]`).
 
 Sobald die Sammlung abgerufen wurde, können Sie reguläre Arrayoperationen wie das Abrufen der `length` oder die Verwendung von `for`, `for..of`, `while` Schleifen für Iterationen oder die Verwendung von TypeScript-Arraymethoden wie `map` oder `forEach` verwenden. Sie können auch auf einzelne Objekte innerhalb der Sammlung zugreifen, indem Sie den Arrayindexwert verwenden. `workbook.getTables()[0]` gibt beispielsweise die erste Tabelle in der Sammlung zurück. Lesen Sie den Abschnitt [„Arbeiten mit Sammlungen“ des Artikels „Verwenden von integrierten JavaScript-Objekten in Office-Skripts“](javascript-objects.md#working-with-collections), um weitere Informationen zur Verwendung der integrierten Arrayfunktionen mit dem Office-Skripts-Framework zu erhalten.
 
