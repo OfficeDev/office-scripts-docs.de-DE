@@ -1,37 +1,37 @@
 ---
-title: Automatisches Ausführen von Skripts mit automatisiertem Power-Automatisierungs Fluss
-description: Ein Lernprogramm zum Ausführen von Office-Skripts für Excel im Internet durch Power Automation mithilfe eines automatischen externen Triggers (empfangen von e-Mails über Outlook).
-ms.date: 07/01/2020
+title: Übergeben von Daten zu Skripts in einem automatisch ausgeführten Power Automate-Datenfluss
+description: Ein Lernprogramm zum Ausführen von Office-Skripts für Excel im Web mithilfe von Power Automate, wenn E-Mails empfangen und Flussdaten an das Skript übergeben werden.
+ms.date: 07/14/2020
 localization_priority: Priority
-ms.openlocfilehash: fc98fb36fd5a8c5ef10bc3b767d6f5add0306246
-ms.sourcegitcommit: edf58aed3cd38f57e5e7227465a1ef5515e15703
+ms.openlocfilehash: c024891e187f22b7d10f6e9d52d262dc2ec4057f
+ms.sourcegitcommit: ebd1079c7e2695ac0e7e4c616f2439975e196875
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/08/2020
-ms.locfileid: "45081628"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "45160481"
 ---
-# <a name="automatically-run-scripts-with-automated-power-automate-flows-preview"></a>Automatisches Ausführen von Skripts mit automatisierten Power-Automatisierungs Flüssen (Vorschau)
+# <a name="pass-data-to-scripts-in-an-automatically-run-power-automate-flow-preview"></a>Übergeben von Daten zu Skripts in einem automatisch ausgeführten Power Automate-Datenfluss (Vorschau)
 
-In diesem Lernprogramm erfahren Sie, wie Sie ein Office-Skript für Excel im Internet mit einem automatisierten [Power-Automatisierungs](https://flow.microsoft.com) Workflow verwenden. Ihr Skript wird automatisch jedes Mal ausgeführt, wenn Sie eine e-Mail erhalten, und es werden Informationen aus der e-Mail in einer Excel-Arbeitsmappe aufgezeichnet.
+In diesem Lernprogramm erfahren Sie, wie Sie ein Office-Skript für Excel im Web mit einem automatisierten [Power Automate](https://flow.microsoft.com)-Workflow verwenden. Das Skript wird jedes Mal, wenn Sie eine E-Mail erhalten, automatisch ausgeführt, um Informationen aus der E-Mail in einer Excel-Arbeitsmappe aufzuzeichnen.
 
 ## <a name="prerequisites"></a>Voraussetzungen
 
-[!INCLUDE [Tutorial prerequisites](../includes/tutorial-prerequisites.md)]
+[!INCLUDE [Tutorial prerequisites](../includes/power-automate-tutorial-prerequisites.md)]
 
 > [!IMPORTANT]
-> In diesem Lernprogramm wird davon ausgegangen, dass Sie das Tutorial [Ausführen von Office-Skripts in Excel im Internet mit Power automatisieren](excel-power-automate-manual.md) abgeschlossen haben.
+> In diesem Lernprogramm wird davon ausgegangen, dass Sie das Lernprogramm [Ausführen von Office-Skripts in Excel im Web mit Power Automate](excel-power-automate-manual.md) abgeschlossen haben.
 
 ## <a name="prepare-the-workbook"></a>Vorbereiten der Arbeitsmappe
 
-Power Automation kann keine [relativen Verweise](../develop/power-automate-integration.md#avoid-using-relative-references) wie `Workbook.getActiveWorksheet` den Zugriff auf Arbeitsmappen-Komponenten verwenden. Daher benötigen wir eine Arbeitsmappe und ein Arbeitsblatt mit konsistenten Namen für Power Automation to Reference.
+Power Automation kann [relative Bezüge](../develop/power-automate-integration.md#avoid-using-relative-references) wie `Workbook.getActiveWorksheet` nicht verwenden, um auf Arbeitsmappenfunktionen zuzugreifen. Deshalb benötigen wir eine Arbeitsmappe und ein Arbeitsblatt mit konsistenten Namen, die Power Automate als Referenz verwenden kann.
 
-1. Erstellen Sie eine neue Arbeitsmappe mit dem Namen **myworkbook**.
+1. Erstellen Sie eine neue Arbeitsmappe mit dem Namen **Mein Arbeitsblatt**.
 
-2. Wechseln Sie zur Registerkarte **automatisieren** , und wählen Sie **Code-Editor**aus.
+2. Wechseln Sie zur Registerkarte **Automate**, und wählen Sie **Code Editor** aus.
 
-3. Wählen Sie **Neues Skript**aus.
+3. Wählen Sie **New Script** aus.
 
-4. Ersetzen Sie den vorhandenen Code durch das folgende Skript, und drücken Sie **Run**. Dadurch wird die Arbeitsmappe mit konsistenten Tabellen-, Tabellen-und PivotTable-Namen eingerichtet.
+4. Ersetzen Sie den vorhandenen Code durch den folgenden Code, und klicken Sie auf **Run**. Dadurch wird die Arbeitsmappe mit konsistenten Namen für Arbeitsblatt, Tabelle und PivotTable eingerichtet.
 
     ```TypeScript
     function main(workbook: ExcelScript.Workbook) {
@@ -56,13 +56,13 @@ Power Automation kann keine [relativen Verweise](../develop/power-automate-integ
     }
     ```
 
-## <a name="create-an-office-script-for-your-automated-workflow"></a>Erstellen eines Office-Skripts für Ihren automatisierten Workflow
+## <a name="create-an-office-script-for-your-automated-workflow"></a>Erstellen eines Office-Skripts für den automatisierten Workflow
 
-Lassen Sie uns ein Skript erstellen, das Informationen aus einer e-Mail protokolliert. Wir möchten wissen, wie an welchen Wochentagen die meisten e-Mails empfangen werden und wie viele eindeutige Absender diese e-Mail senden. Unsere Arbeitsmappe enthält eine Tabelle mit **Datum**, **Wochentag**, **e-Mail-Adresse**und **Betreff** -Spalten. Unser Arbeitsblatt verfügt auch über eine PivotTable, die am **Tag der Woche** und der **e-Mail-Adresse** (Dies sind die Zeilen Hierarchien) pivotiert. Die Anzahl der eindeutigen **Subjekte** ist die aggregierte Information, die angezeigt wird (die Datenhierarchie). Unser Skript aktualisiert diese PivotTable nach dem Aktualisieren der e-Mail-Tabelle.
+Jetzt erstellen Sie ein Skript, das Informationen aus einer E-Mail protokolliert. Wir möchten wissen, an welchen Wochentagen die meisten E-Mails empfangen werden und wie viele eindeutige Absender diese E-Mails senden. Die Arbeitsmappe enthält eine Tabelle mit den Spalten **Date**, **Day of the week**, **Email address** und **Subject**. Unser Arbeitsblatt enthält außerdem eine PivotTable, die die Spalten **Day of the week** und **Email address** verwendet (dabei handelt es sich um die Zeilenhierarchien). Die Anzahl eindeutiger **Themen** entspricht den aggregierten Informationen, die angezeigt werden (die Datenhierarchie). Nachdem die E-Mail-Tabelle aktualisiert wurde, wird auch das Skript aktualisiert.
 
-1. Wählen Sie im **Code-Editor**die Option **Neues Skript**aus.
+1. Wählen Sie im **Code-Editor** die Option **New Script** aus.
 
-2. Der Ablauf, den wir später im Lernprogramm erstellen werden, sendet unsere Skript Informationen zu jeder empfangenen e-Mail. Das Skript muss diese Eingabe über Parameter in der `main` -Funktion akzeptieren. Ersetzen Sie das Standardskript durch das folgende Skript:
+2. Der Datenstrom, den wir später im Lernprogramm erstellen, sendet die Skriptinformationen zu jeder empfangenen E-Mail-Nachricht. Das Skript muss diese Eingabe über Parameter in der `main`-Funktion akzeptieren. Ersetzen Sie das Standardskript durch das folgende Skript:
 
     ```TypeScript
     function main(
@@ -74,7 +74,7 @@ Lassen Sie uns ein Skript erstellen, das Informationen aus einer e-Mail protokol
     }
     ```
 
-3. Das Skript benötigt Zugriff auf die Tabelle und die PivotTable der Arbeitsmappe. Fügen Sie nach dem Öffnen den folgenden Code zum Text des Skripts hinzu `{` :
+3. Das Skript benötigt Zugriff auf die Tabelle und die PivotTable der Arbeitsmappe. Fügen Sie den folgenden Code dem Skripttext nach dem öffnenden `{` hinzu:
 
     ```TypeScript
     // Get the email table.
@@ -86,7 +86,7 @@ Lassen Sie uns ein Skript erstellen, das Informationen aus einer e-Mail protokol
     let pivotTable = pivotTableWorksheet.getPivotTable("Pivot");
     ```
 
-4. Der- `dateReceived` Parameter ist vom Typ `string` . Let es Convert, dass ein [ `Date` Objekt](../develop/javascript-objects.md#date) , damit wir ganz einfach den Tag der Woche erhalten können. Anschließend müssen wir den Zahlenwert des Tages einer besser lesbaren Version zuordnen. Fügen Sie den folgenden Code am Ende Ihres Skripts vor dem Schließen hinzu `}` :
+4. Der `dateReceived`-Parameter ist vom Typ `string`. Dies wird jetzt ein [`Date`-Objekt](../develop/javascript-objects.md#date) konvertiert, damit wir den Wochentag ganz einfach abrufen können. Danach muss der Zahlenwert des Tages einer besser lesbaren Version zugeordnet werden. Fügen Sie den folgenden Code am Ende des Skripts vor der schließenden `}` hinzu:
 
     ```TypeScript
     // Parse the received date string.
@@ -119,7 +119,7 @@ Lassen Sie uns ein Skript erstellen, das Informationen aus einer e-Mail protokol
     }
     ```
 
-5. Die `subject` Zeichenfolge kann das Antwort-Tag "Re:" enthalten. Lassen Sie uns diese aus der Zeichenfolge entfernen, damit e-Mails im gleichen Thread denselben Betreff für die Tabelle haben. Fügen Sie den folgenden Code am Ende Ihres Skripts vor dem Schließen hinzu `}` :
+5. Die `subject`-Zeichenfolge enthält möglicherweise das „RE:“-Antworttag. Wir entfernen den Tag aus der Zeichenfolge, damit E-Mails im selben Thread den gleichen Betreff für die Tabelle aufweisen. Fügen Sie den folgenden Code am Ende des Skripts vor der schließenden `}` hinzu:
 
     ```TypeScript
     // Remove the reply tag from the email subject to group emails on the same thread.
@@ -127,23 +127,23 @@ Lassen Sie uns ein Skript erstellen, das Informationen aus einer e-Mail protokol
     subjectText = subjectText.replace("RE: ", "");
     ```
 
-6. Nachdem die e-Mail-Daten nach unserem Geschmack formatiert wurden, fügen wir der e-Mail-Tabelle eine Zeile hinzu. Fügen Sie den folgenden Code am Ende Ihres Skripts vor dem Schließen hinzu `}` :
+6. Nachdem Sie die E-Mail-Daten nach Wunsch formatiert haben, fügen Sie eine Zeile zur E-Mail-Tabelle hinzu. Fügen Sie den folgenden Code am Ende des Skripts vor der schließenden `}` hinzu:
 
     ```TypeScript
     // Add the parsed text to the table.
     table.addRow(-1, [dateReceived, dayText, from, subjectText]);
     ```
 
-7. Lassen Sie uns schließlich sicherstellen, dass die PivotTable aktualisiert wird. Fügen Sie den folgenden Code am Ende Ihres Skripts vor dem Schließen hinzu `}` :
+7. Abschließend stellen Sie sicher, dass die PivotTable aktualisiert wird. Fügen Sie den folgenden Code am Ende des Skripts vor der schließenden `}` hinzu:
 
     ```TypeScript
     // Refresh the PivotTable to include the new row.
     pivotTable.refresh();
     ```
 
-8. Benennen Sie die **e-Mail-Skriptaufzeichnung** um, und drücken Sie **Skript speichern**.
+8. Benennen Sie das Skript in **E-Mail aufzeichnen** um, und klicken Sie auf **Save Script**.
 
-Ihr Skript ist jetzt für einen Power automatisieren-Workflow verfügbar. Es sollte wie das folgende Skript aussehen:
+Jetzt ist Ihr Skript bereit für einen Power Automate-Workflow. Es sollte wie das folgende Skript aussehen:
 
 ```TypeScript
 function main(
@@ -200,69 +200,69 @@ function main(
 }
 ```
 
-## <a name="create-an-automated-workflow-with-power-automate"></a>Erstellen eines automatisierten Workflows mit Power Automation
+## <a name="create-an-automated-workflow-with-power-automate"></a>Erstellen eines automatisierten Workflows mit Power Automate
 
-1. Melden Sie sich bei der [Power Automation Preview-Website](https://flow.microsoft.com)an.
+1. Melden Sie sich an der [Power Automate-Website](https://flow.microsoft.com) an.
 
-2. Klicken Sie im Menü, das auf der linken Seite des Bildschirms angezeigt wird, auf **Erstellen**. Damit gelangen Sie zur Liste der Möglichkeiten zum Erstellen neuer Workflows.
+2. Klicken Sie in dem Menü, das auf der linken Seite des Bildschirms angezeigt wird, auf **Create**. Damit gelangen Sie zur Liste der Möglichkeiten zum Erstellen neuer Workflows.
 
-    ![Die Schaltfläche erstellen in Power automatisieren.](../images/power-automate-tutorial-1.png)
+    ![Die Schaltfläche „Erstellen“ in Power Automate.](../images/power-automate-tutorial-1.png)
 
-3. Wählen Sie im Abschnitt **Anfang von leer** den Eintrag **automatischer Fluss**aus. Dadurch wird ein Workflow erstellt, der durch ein Ereignis ausgelöst wird, beispielsweise das Empfangen einer e-Mail.
+3. Wählen Sie im Abschnitt **Start from blank** die Option **Automated flow** aus. Dadurch wird ein Workflow erstellt, der von einem Ereignis ausgelöst wird, z. B. das Empfangen einer E-Mail.
 
-    ![Die automatische Fluss Option in Power Automation.](../images/power-automate-params-tutorial-1.png)
+    ![Die Option für dem automatisiertem Fluss in Power Automate.](../images/power-automate-params-tutorial-1.png)
 
-4. Geben Sie im angezeigten Dialogfeld einen Namen für den Fluss in das Textfeld **Fluss Name** ein. Wählen Sie dann, **Wenn eine neue e-Mail** aus der Liste der Optionen unter **Choose your Flow es Trigger**kommt. Möglicherweise müssen Sie mithilfe des Felds Suchen nach der Option suchen. Klicken Sie abschließend auf **Erstellen**.
+4. Geben Sie im daraufhin angezeigten Dialogfenster einen Namen für den Fluss im Textfeld **Flow name** ein. Wählen Sie dann **When a new email arrives** aus der Liste der Optionen unter **Choose your flow's trigger** aus. Möglicherweise müssen Sie mithilfe des Suchfelds nach der Option suchen. Klicken Sie abschließend **Create**.
 
-    ![Teil des Fensters zum Erstellen eines automatisierten Flows in Power Automation, das die Option "neue e-Mail ankommt" anzeigt.](../images/power-automate-params-tutorial-2.png)
+    ![Ein Teil des Fensters zum Erstellen eines automatisierten Flusses in Power Automate, das die Option „Neue E-Mail trifft ein“ zeigt.](../images/power-automate-params-tutorial-2.png)
 
     > [!NOTE]
-    > In diesem Lernprogramm wird Outlook verwendet. Fühlen Sie sich frei, stattdessen Ihren bevorzugten e-Mail-Dienst zu verwenden, obwohl einige Optionen unterschiedlich sein können.
+    > In diesem Lernprogramm wird Outlook verwendet. Sie können stattdessen Ihren bevorzugten E-Mail-Dienst verwenden, obwohl einige Optionen unterschiedlich sein können.
 
-5. Klicken Sie auf **New Step**.
+5. Klicken Sie auf **New step**.
 
 6. Wählen Sie die Registerkarte **Standard** aus, und wählen Sie dann **Excel Online (Business)** aus.
 
-    ![Die Power-Automatisierungsoption für Excel Online (Business).](../images/power-automate-tutorial-4.png)
+    ![Die Power Automate-Option für Excel Online (Business).](../images/power-automate-tutorial-4.png)
 
-7. Wählen Sie unter **Aktionen**die Option **Skript ausführen (Vorschau)** aus.
+7. Wählen Sie unter **Actions** die Option **Run script (preview)** aus.
 
-    ![Die Power automatisieren-Aktionsoption für Run Script (Preview).](../images/power-automate-tutorial-5.png)
+    ![Die Power Automate-Aktionsoption für „Run script (preview)“.](../images/power-automate-tutorial-5.png)
 
-8. Geben Sie die folgenden Einstellungen für den **Run Script** Connector an:
+8. Geben Sie die folgenden Einstellungen für den Konnektor **Run script** an:
 
-    - **Speicherort**: OneDrive für Unternehmen
-    - **Dokumentbibliothek**: OneDrive
-    - **Datei**: MyWorkbook.xlsx
-    - **Skript**: Aufzeichnen von e-Mails
-    - **von**: from *(dynamischer Inhalt aus Outlook)*
-    - **dateReceived**: Empfangszeit *(dynamischer Inhalt aus Outlook)*
-    - **Betreff**: Subject *(dynamischer Inhalt aus Outlook)*
+    - **Location**: OneDrive for Business
+    - **Document Library**: OneDrive
+    - **File**: MeineArbeitsmappe. xlsx
+    - **Script**: E-Mail aufzeichnen
+    - **from**: Von *(dynamischer Inhalt aus Outlook)*
+    - **dateReceived**: Uhrzeit des Empfangs *(dynamischer Inhalt aus Outlook)*
+    - **subject**: Betreff *(dynamischer Inhalt aus Outlook)*
 
-    *Beachten Sie, dass die Parameter für das Skript nur dann angezeigt werden, wenn das Skript ausgewählt ist.*
+    *Beachten Sie, dass die Parameter für das Skript nur angezeigt werden, wenn das Skript ausgewählt wurde.*
 
-    ![Die Power automatisieren-Aktionsoption für Run Script (Preview).](../images/power-automate-params-tutorial-3.png)
+    ![Die Power Automate-Aktionsoption für „Run script (preview)“.](../images/power-automate-params-tutorial-3.png)
 
-9. Klicken Sie auf **Speichern**.
+9. Klicken Sie auf **Save**.
 
-Ihr Flow ist jetzt aktiviert. Jedes Mal, wenn Sie eine e-Mail über Outlook erhalten, wird das Skript automatisch ausgeführt.
+Der Fluss ist nun aktiviert. Er wird das Skript automatisch jedes Mal ausführen, wenn Sie eine E-Mail über Outlook erhalten.
 
-## <a name="manage-the-script-in-power-automate"></a>Verwalten des Skripts in Power Automation
+## <a name="manage-the-script-in-power-automate"></a>Verwalten des Skripts in Power Automate
 
-1. Wählen Sie auf der Seite Main Power automatisieren die Option **meine Flows**aus.
+1. Wählen Sie auf der Hauptseite der Power Automate-Seite **My Flows** aus.
 
-    ![Die Schaltfläche "meine Flüsse" in Power automatisieren.](../images/power-automate-tutorial-7.png)
+    ![Die Schaltfläche „My Flows“ in Power Automate.](../images/power-automate-tutorial-7.png)
 
-2. Wählen Sie den Fluss aus. Hier können Sie den Ausführungsverlauf anzeigen. Sie können die Seite aktualisieren oder die Schaltfläche **alle Läufe** aktualisieren drücken, um den Verlauf zu aktualisieren. Der Fluss wird kurz nach dem Empfang einer e-Mail ausgelöst. Testen Sie den Ablauf durch Senden von e-Mails.
+2. Wählen Sie Ihren Flow aus. Hier sehen Sie den Ausführungsverlauf. Sie können die Seite aktualisieren, oder Sie können auf die Schaltfläche **All runs** klicken, um den Verlauf zu aktualisieren. Der Flow wird kurz nach Empfang einer E-Mail ausgelöst. Testen Sie den Flow durch Senden von E-Mails.
 
-Wenn der Fluss ausgelöst wird und Ihr Skript erfolgreich ausgeführt wird, sollten Sie die Tabelle und das PivotTable-Update der Arbeitsmappe sehen.
+Wenn der Flow ausgelöst und das Skript erfolgreich ausgeführt wird, sollten die Tabelle und die PivotTable der Arbeitsmappe aktualisiert werden.
 
-![Die e-Mail-Tabelle, nachdem der Datenfluss ein paar Mal ausgeführt wurde.](../images/power-automate-params-tutorial-4.png)
+![Die E-Mail-Tabelle nach dem Flow wurde mehrere Male ausgeführt.](../images/power-automate-params-tutorial-4.png)
 
-![Die PivotTable, nachdem der Fluss ein paar Mal ausgeführt wurde.](../images/power-automate-params-tutorial-5.png)
+![Die PivotTable nach dem Flow wurde mehrere Male ausgeführt.](../images/power-automate-params-tutorial-5.png)
 
 ## <a name="next-steps"></a>Nächste Schritte
 
-Besuchen Sie [Office-Skripts mit Power Automation ausführen](../develop/power-automate-integration.md) , um mehr über das Verbinden von Office-Skripts mit Power Automation zu erfahren.
+Besuchen Sie [Ausführen von Office-Skripts mit Power Automate](../develop/power-automate-integration.md), um mehr über das Verbinden von Office-Skripts mit Power Automate zu erfahren.
 
-Sie können auch das [Beispielszenario für automatisierte Aufgaben Erinnerungen](../resources/scenarios/task-reminders.md) lesen, um zu erfahren, wie Sie Office-Skripts und Power Automation mit Adaptive Teams-Karten kombinieren.
+Sie können sich auch das Beispielszenario [Automatisierte Aufgabenerinnerungen](../resources/scenarios/task-reminders.md) ansehen, um zu erfahren, wie Sie Office-Skripts und Power Automate mit Teams Adaptive Cards kombinieren können.
