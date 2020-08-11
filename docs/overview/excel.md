@@ -1,14 +1,14 @@
 ---
 title: Office-Skripts in Excel im Web
 description: Eine kurze Einführung in den Action Recorder und den Code Editor für Office-Skripts.
-ms.date: 07/10/2020
+ms.date: 07/21/2020
 localization_priority: Priority
-ms.openlocfilehash: a27d1797ba2e968cbf4f56c4313223978dc9087c
-ms.sourcegitcommit: ebd1079c7e2695ac0e7e4c616f2439975e196875
+ms.openlocfilehash: 557a4f8fac8fbeafe150f425170c8e45f62986c6
+ms.sourcegitcommit: ff7fde04ce5a66d8df06ed505951c8111e2e9833
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/17/2020
-ms.locfileid: "45160467"
+ms.lasthandoff: 08/11/2020
+ms.locfileid: "46616724"
 ---
 # <a name="office-scripts-in-excel-on-the-web-preview"></a>Office-Skripts in Excel im Web (Vorschau)
 
@@ -20,7 +20,24 @@ In dieser Reihe von Dokumenten lernen Sie, wie Sie diese Tools verwenden. Sie we
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4qdFF]
 
+## <a name="requirements"></a>Anforderungen
+
 [!INCLUDE [Preview note](../includes/preview-note.md)]
+
+Wenn Sie Office-Skripts verwenden möchten, benötigen Sie Folgendes.
+
+1. [Excel im Web](https://www.office.com/launch/excel) (andere Plattformen, z. B. Desktop, werden nicht unterstützt).
+1. Office-Skripts [von Ihrem Administrator aktiviert](https://support.office.com/article/office-scripts-settings-in-m365-19d3c51a-6ca2-40ab-978d-60fa49554dcf).
+1. Jede kommerzielle oder pädagogische Microsoft 365-Lizenz mit Zugriff auf Microsoft 365 Office-Desktop-Apps wie:
+
+    - Office 365 Business
+    - Office 365 Business Premium
+    - Office 365 ProPlus
+    - Office 365 ProPlus für Geräte
+    - Office 365 Enterprise E3
+    - Office 365 Enterprise E5
+    - Office 365 A3
+    - Office 365 A5
 
 ## <a name="when-to-use-office-scripts"></a>Wann empfiehlt sich die Verwendung von Office-Skripts
 

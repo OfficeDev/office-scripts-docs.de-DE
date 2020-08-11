@@ -36,6 +36,8 @@
           href: testing/troubleshooting.md
         - name: Verbessern der Skriptleistung
           href: develop/web-client-performance.md
+        - name: Plattform-Beschränkungen
+          href: testing/platform-limits.md
         - name: Rückgängigmachen der Auswirkungen eines Office-Skripts
           href: testing/undo.md
         - name: Unterstützung älterer Office-Skripts
