@@ -1,28 +1,25 @@
 ---
 title: Lesen Sie Arbeitsmappendaten mit Office-Skripts in Excel im Web
 description: Ein Office Skripts-Lernprogramm zum Lesen von Daten aus Arbeitsmappen und zum Auswerten dieser Daten im Skript.
-ms.date: 07/10/2020
+ms.date: 07/20/2020
 localization_priority: Priority
-ms.openlocfilehash: fef1df7cab70ccef67a12ee466af5a89803d0992
-ms.sourcegitcommit: ebd1079c7e2695ac0e7e4c616f2439975e196875
+ms.openlocfilehash: cdd09f13bb53cfff8c051360f2306cdb6956d86d
+ms.sourcegitcommit: ff7fde04ce5a66d8df06ed505951c8111e2e9833
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/17/2020
-ms.locfileid: "45160417"
+ms.lasthandoff: 08/11/2020
+ms.locfileid: "46616707"
 ---
 # <a name="read-workbook-data-with-office-scripts-in-excel-on-the-web"></a>Lesen Sie Arbeitsmappendaten mit Office-Skripts in Excel im Web
 
-In diesem Lernprogramm erfahren Sie, wie Sie Daten aus einer Arbeitsmappe mit einem Office-Skript für Excel im Web lesen. Anschließend bearbeiten Sie die gelesenen Daten und fügen sie wieder in die Arbeitsmappe ein.
+In diesem Lernprogramm erfahren Sie, wie Sie Daten aus einer Arbeitsmappe mit einem Office-Skript für Excel im Web lesen. Sie werden ein neues Skript schreiben, das einen Kontoauszug formatiert und die Daten in diesem Auszug normalisiert. Im Rahmen der Datenbereinigung liest Ihr Skript Werte aus den Buchungszellen, wendet auf jeden Wert eine einfache Formel an und schreibt die resultierende Antwort in die Arbeitsmappe. Durch das Lesen von Daten aus der Arbeitsmappe können Sie einige Ihrer Entscheidungsfindungsprozesse im Skript automatisieren.
 
 > [!TIP]
-> Wenn Sie mit Office-Skripten noch nicht vertraut sind, empfehlen wir, mit dem [Aufzeichnen, Bearbeiten und Erstellen von Office-Skripten in Excel im Web](excel-tutorial.md)-Lernprogramm zu beginnen.
+> Wenn Sie mit Office-Skripten noch nicht vertraut sind, empfehlen wir, mit dem [Aufzeichnen, Bearbeiten und Erstellen von Office-Skripten in Excel im Web](excel-tutorial.md)-Lernprogramm zu beginnen. [Office-Skripts verwenden TypeScript](../overview/code-editor-environment.md), und dieses Lernprogramm richten sich an Anfänger bis Fortgeschrittene mit JavaScript oder TypeScript. Wenn Sie noch nicht mit JavaScript vertraut sind, empfehlen wir Ihnen, mit dem [Mozilla-JavaScript-Lernprogramm](https://developer.mozilla.org/docs/Web/JavaScript/Guide/Introduction) zu beginnen.
 
 ## <a name="prerequisites"></a>Voraussetzungen
 
 [!INCLUDE [Tutorial prerequisites](../includes/tutorial-prerequisites.md)]
-
-> [!IMPORTANT]
-> Dieses Lernprogramm richtet sich an Anfänger bis Fortgeschrittene mit JavaScript oder TypeScript. Wenn Sie noch nicht mit JavaScript vertraut sind, empfehlen wir Ihnen, das [Mozilla-JavaScript-Lernprogramm](https://developer.mozilla.org/docs/Web/JavaScript/Guide/Introduction) durchzusehen. Weitere Informationen über die Skriptumgebung finden Sie unter [Office-Skripts in Excel im Web](../overview/excel.md).
 
 ## <a name="read-a-cell"></a>Lesen einer Zelle
 
@@ -150,3 +147,5 @@ Nachdem wir nun wissen, wie man in eine einzelne Zelle liest und schreibt, veral
 ## <a name="next-steps"></a>Nächste Schritte
 
 Öffnen Sie den Code-Editor, und probieren Sie einige unserer [Beispielskripts für Office-Skripts in Excel im Web](../resources/excel-samples.md)aus. Sie können auch [Skripting-Grundlagen für Office-Skripts in Excel im Web](../develop/scripting-fundamentals.md) aufrufen, um weitere Informationen zum Erstellen von Office-Skripts zu erhalten.
+
+Die nächste Reihe von Office-Skripts-Lernprogrammen konzentriert sich auf die Verwendung von Office-Skripts mit Power Automate. Weitere Informationen über die Vorteile, diese beiden Plattformen miteinander zu kombinieren, finden Sie in [Ausführen von Office-Skripts mit Power Automate](../develop/power-automate-integration.md), oder sehen Sie sich das Lernprogramm [Aufrufen von Skripts aus einem manuellen Power Automate-Datenfluss](excel-power-automate-manual.md) an, um einen Power Automate-Datenfluss zu erstellen, der ein Office-Skript verwendet.

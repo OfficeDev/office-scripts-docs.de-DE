@@ -1,30 +1,25 @@
 ---
 title: Aufzeichnen, Bearbeiten und Erstellen von Office-Skripts in Excel im Web
 description: Dies ist ein Lernprogramm zu den Grundlagen von Office-Skripts, einschließlich dem Aufzeichnen von Skripts mithilfe der Aktionsaufzeichnung und dem Schreiben von Daten in eine Arbeitsmappe.
-ms.date: 01/27/2020
+ms.date: 07/21/2020
 localization_priority: Priority
-ms.openlocfilehash: 1971ff2ffd80554beb6ac561677ee3384f87ca81
-ms.sourcegitcommit: b075eed5a6f275274fbbf6d62633219eac416f26
+ms.openlocfilehash: 96bdc286883d87249de260666c7c8ffe2c94cc0f
+ms.sourcegitcommit: ff7fde04ce5a66d8df06ed505951c8111e2e9833
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "42700174"
+ms.lasthandoff: 08/11/2020
+ms.locfileid: "46616773"
 ---
 # <a name="record-edit-and-create-office-scripts-in-excel-on-the-web"></a>Aufzeichnen, Bearbeiten und Erstellen von Office-Skripts in Excel im Web
 
-In diesem Lernprogramm lernen Sie die Grundlagen zum Aufzeichnen, Bearbeiten und Schreiben eines Office-Skripts für Excel im Web kennen.
+In diesem Lernprogramm lernen Sie die Grundlagen zum Aufzeichnen, Bearbeiten und Schreiben eines Office-Skripts für Excel im Web kennen. Zuerst zeichnen Sie ein Skript auf, das ein Arbeitsblatt für Umsatzdatensätze formatiert. Dann bearbeiten Sie das aufgezeichnete Skript, um weitere Formatierungen anzuwenden, eine Tabelle zu erstellen und diese Tabelle zu sortieren. Dieses Aufzeichnen-und-Bearbeiten-Muster ist ein wichtiges Tool, um zu sehen, wie Ihre Excel-Aktionen als Code aussehen.
 
 ## <a name="prerequisites"></a>Voraussetzungen
 
-[!INCLUDE [Preview note](../includes/preview-note.md)]
-
-Bevor Sie mit diesem Lernprogramm beginnen, benötigen Sie Zugriff auf Office-Skripts. Dies setzt Folgendes voraus:
-
-- [Excel im Web](https://www.office.com/launch/excel).
-- Bitten Sie Ihren Administrator, [Office-Skripts für Ihre Organisation zu aktivieren](https://support.office.com/article/office-scripts-settings-in-m365-19d3c51a-6ca2-40ab-978d-60fa49554dcf). Dadurch wird die Registerkarte "**Automatisieren**" zum Menüband hinzugefügt.
+[!INCLUDE [Tutorial prerequisites](../includes/tutorial-prerequisites.md)]
 
 > [!IMPORTANT]
-> Dieses Lernprogramm richtet sich an Personen, die über mittlere JavaScript- oder TypeScript-Kenntnisse verfügen. Wenn Sie noch nicht mit JavaScript vertraut sind, empfehlen wir Ihnen, sich das [Mozilla-JavaScript-Lernprogramm](https://developer.mozilla.org/docs/Web/JavaScript/Guide/Introduction) durchzusehen. Weitere Informationen über die Skriptumgebung finden Sie unter [Office-Skripts in Excel im Web](../overview/excel.md).
+> Dieses Lernprogramm richtet sich an Anfänger bis Fortgeschrittene mit JavaScript oder TypeScript. Wenn Sie noch nicht mit JavaScript vertraut sind, empfehlen wir Ihnen, mit dem [Mozilla-JavaScript-Lernprogramm](https://developer.mozilla.org/docs/Web/JavaScript/Guide/Introduction) zu beginnen. Weitere Informationen über die Skriptumgebung finden Sie unter [ Umgebung des Code Editor für Office-Skripts](../overview/code-editor-environment.md).
 
 ## <a name="add-data-and-record-a-basic-script"></a>Hinzufügen von Daten und Aufzeichnen eines einfachen Skripts
 
@@ -60,31 +55,28 @@ Zuerst benötigen wir einige Daten und ein kleines Startskript.
 
 Das vorherige Skript hat die Zeile "Orangen" orangefarben eingefärbt. Jetzt fügen wir eine gelbe Zeile für die "Zitronen" hinzu.
 
-1. Öffnen Sie die Registerkarte **Automatisieren**.
-2. Klicken Sie auf die Schaltfläche **Code-Editor**.
-3. Öffnen Sie das im vorherigen Abschnitt aufgezeichnete Skript. Folgendes sollte nun auf dem Bildschirm angezeigt werden:
+1. Klicken Sie im nun geöffneten **Detailbereich** auf die Schaltfläche **Bearbeiten**.
+2. Folgendes sollte nun auf dem Bildschirm angezeigt werden:
 
     ```TypeScript
-    async function main(context: Excel.RequestContext) {
+    function main(workbook: ExcelScript.Workbook) {
       // Set fill color to FFC000 for range Sheet1!A2:C2
-      let workbook = context.workbook;
-      let worksheets = workbook.worksheets;
-      let selectedSheet = worksheets.getActiveWorksheet();
-      selectedSheet.getRange("A2:C2").format.fill.color = "FFC000";
+      let selectedSheet = workbook.getActiveWorksheet();
+      selectedSheet.getRange("A2:C2").getFormat().getFill().setColor("FFC000");
     }
     ```
 
-    Dieser Code ruft das aktuelle Arbeitsblatt ab, indem er zuerst auf die Arbeitsblattsammlung der Arbeitsmappe zugreift. Anschließend legt er die Füllfarbe des Bereichs **A2:C2** fest.
+    Dieser Code ruft das aktuelle Arbeitsblatt aus der Arbeitsmappe ab. Anschließend legt er die Füllfarbe des Bereichs **A2:C2** fest.
 
     Bereiche sind ein wesentliches Element von Office-Skripts in Excel im Web. Ein Bereich ist ein zusammenhängender, rechteckiger Block von Zellen, die Werte, Formeln und Formatierungen enthalten. Hierbei handelt es sich um die grundlegende Struktur von Zellen, durch die Sie die meisten Skript-Aufgaben ausführen werden.
 
-4. Fügen Sie am Ende des Skripts die folgende Zeile ein (zwischen dem festgelegten `color` und der schließenden `}`):
+3. Fügen Sie am Ende des Skripts die folgende Zeile ein (zwischen dem festgelegten `color` und der schließenden `}`):
 
     ```TypeScript
-    selectedSheet.getRange("A3:C3").format.fill.color = "yellow";
+    selectedSheet.getRange("A3:C3").getFormat().getFill().setColor("yellow");
     ```
 
-5. Testen Sie das Skript, indem Sie **Ausführen** drücken. Ihre Arbeitsmappe sollte nun wie folgt aussehen:
+4. Testen Sie das Skript, indem Sie **Ausführen** drücken. Ihre Arbeitsmappe sollte nun wie folgt aussehen:
 
     ![Eine Zeile mit Obst-Umsatzdaten mit orangefarben hervorgehobener Zeile "Orangen" und einer gelb hervorgehobenen Zeile "Zitronen".](../images/tutorial-2.png)
 
@@ -95,31 +87,29 @@ Wandeln wir diese Obst-Umsatzdaten in eine Tabelle um. Wir verwenden unser Skrip
 1. Fügen Sie die folgende Zeile am Ende des Skripts hinzu (vor der schließenden `}`):
 
     ```TypeScript
-    let table = selectedSheet.tables.add("A1:C5", true);
+    let table = selectedSheet.addTable("A1:C5", true);
     ```
 
 2. Dieser Aufruf gibt ein `Table`-Objekt zurück. Verwenden wir diese Tabelle zum Sortieren der Daten. Wir werden die Daten basierend auf den Werten in der Spalte "Obstsorte" in aufsteigender Reihenfolge sortieren. Fügen Sie dann die folgende Zeile nach der Tabellenerstellung hinzu:
 
     ```TypeScript
-    table.sort.apply([{ key: 0, ascending: true }]);
+    table.getSort().apply([{ key: 0, ascending: true }]);
     ```
 
     Das Skript sollte wie folgt aussehen:
 
     ```TypeScript
-    async function main(context: Excel.RequestContext) {
-      // Set fill color to FFC000 for range Sheet1!A2:C2
-      let workbook = context.workbook;
-      let worksheets = workbook.worksheets;
-      let selectedSheet = worksheets.getActiveWorksheet();
-      selectedSheet.getRange("A2:C2").format.fill.color = "FFC000";
-      selectedSheet.getRange("A3:C3").format.fill.color = "yellow";
-      let table = selectedSheet.tables.add("A1:C5", true);
-      table.sort.apply([{ key: 0, ascending: true }]);
+    function main(workbook: ExcelScript.Workbook) {
+        // Set fill color to FFC000 for range Sheet12!A2:C2
+        let selectedSheet = workbook.getActiveWorksheet();
+        selectedSheet.getRange("A2:C2").getFormat().getFill().setColor("FFC000");
+        selectedSheet.getRange("A3:C3").getFormat().getFill().setColor("yellow");
+        let table = selectedSheet.addTable("A1:C5", true);
+        table.getSort().apply([{ key: 0, ascending: true }]);
     }
     ```
 
-    Tabellen beinhalten ein `TableSort`-Objekt, auf das über die `Table.sort`-Eigenschaft zugegriffen wird. Sie können auf dieses Objekt Sortierkriterien anwenden. Die `apply`-Methode bezieht eine Reihe von `SortField`-Objekten ein. In diesem Fall gibt es nur ein Sortierkriterium, also verwenden wir nur ein `SortField`. `key: 0` legt für die Spalte mit den die Sortierung bestimmenden Werten "0" fest (dies ist die erste Spalte in der Tabelle, in diesem Fall **A**). `ascending: true` sortiert die Daten in aufsteigender Reihenfolge (statt in absteigender Reihenfolge).
+    Tabellen beinhalten ein `TableSort`-Objekt, auf das über die `Table.getSort`-Methode zugegriffen wird. Sie können auf dieses Objekt Sortierkriterien anwenden. Die `apply`-Methode bezieht eine Reihe von `SortField`-Objekten ein. In diesem Fall gibt es nur ein Sortierkriterium, also verwenden wir nur ein `SortField`. `key: 0` legt für die Spalte mit den die Sortierung bestimmenden Werten "0" fest (dies ist die erste Spalte in der Tabelle, in diesem Fall **A**). `ascending: true` sortiert die Daten in aufsteigender Reihenfolge (statt in absteigender Reihenfolge).
 
 3. Führen Sie das Skript aus. Es sollte eine Tabelle wie die folgende angezeigt werden:
 

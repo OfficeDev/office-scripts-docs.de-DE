@@ -1,25 +1,25 @@
 ---
 title: Übergeben von Daten zu Skripts in einem automatisch ausgeführten Power Automate-Datenfluss
 description: Ein Lernprogramm zum Ausführen von Office-Skripts für Excel im Web mithilfe von Power Automate, wenn E-Mails empfangen und Flussdaten an das Skript übergeben werden.
-ms.date: 07/14/2020
+ms.date: 07/24/2020
 localization_priority: Priority
-ms.openlocfilehash: c024891e187f22b7d10f6e9d52d262dc2ec4057f
-ms.sourcegitcommit: ebd1079c7e2695ac0e7e4c616f2439975e196875
+ms.openlocfilehash: aed34f4b93bbe22768aab73d7a7264cc7d3c3ee6
+ms.sourcegitcommit: ff7fde04ce5a66d8df06ed505951c8111e2e9833
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/17/2020
-ms.locfileid: "45160481"
+ms.lasthandoff: 08/11/2020
+ms.locfileid: "46616766"
 ---
 # <a name="pass-data-to-scripts-in-an-automatically-run-power-automate-flow-preview"></a>Übergeben von Daten zu Skripts in einem automatisch ausgeführten Power Automate-Datenfluss (Vorschau)
 
-In diesem Lernprogramm erfahren Sie, wie Sie ein Office-Skript für Excel im Web mit einem automatisierten [Power Automate](https://flow.microsoft.com)-Workflow verwenden. Das Skript wird jedes Mal, wenn Sie eine E-Mail erhalten, automatisch ausgeführt, um Informationen aus der E-Mail in einer Excel-Arbeitsmappe aufzuzeichnen.
+In diesem Lernprogramm erfahren Sie, wie Sie ein Office-Skript für Excel im Web mit einem automatisierten [Power Automate](https://flow.microsoft.com)-Workflow verwenden. Das Skript wird jedes Mal, wenn Sie eine E-Mail erhalten, automatisch ausgeführt, um Informationen aus der E-Mail in einer Excel-Arbeitsmappe aufzuzeichnen. Die Möglichkeit, Daten aus anderen Anwendungen in ein Office-Skript zu übertragen, bietet Ihnen ein hohes Maß an Flexibilität und Freiheit für Ihre automatisierten Prozesse.
+
+> [!TIP]
+> Wenn Sie mit Office-Skripten noch nicht vertraut sind, empfehlen wir, mit dem [Aufzeichnen, Bearbeiten und Erstellen von Office-Skripten in Excel im Web](excel-tutorial.md)-Lernprogramm zu beginnen. Wenn Sie noch nicht mit Power Automate vertraut sind, empfehlen wir, dass Sie mit dem Lernprogramm [Aufrufen von Skripts aus einem manuellen Power Automate-Datenfluss](excel-power-automate-manual.md) beginnen. [Office-Skripts verwenden TypeScript](../overview/code-editor-environment.md), und dieses Lernprogramm richten sich an Anfänger bis Fortgeschrittene mit JavaScript oder TypeScript. Wenn Sie noch nicht mit JavaScript vertraut sind, empfehlen wir Ihnen, mit dem [Mozilla-JavaScript-Lernprogramm](https://developer.mozilla.org/docs/Web/JavaScript/Guide/Introduction) zu beginnen.
 
 ## <a name="prerequisites"></a>Voraussetzungen
 
 [!INCLUDE [Tutorial prerequisites](../includes/power-automate-tutorial-prerequisites.md)]
-
-> [!IMPORTANT]
-> In diesem Lernprogramm wird davon ausgegangen, dass Sie das Lernprogramm [Ausführen von Office-Skripts in Excel im Web mit Power Automate](excel-power-automate-manual.md) abgeschlossen haben.
 
 ## <a name="prepare-the-workbook"></a>Vorbereiten der Arbeitsmappe
 
@@ -46,7 +46,7 @@ Power Automation kann [relative Bezüge](../develop/power-automate-integration.m
       newTable.setName("EmailTable");
 
       // Add a new PivotTable to a new worksheet
-      let pivotWorksheet = workbook.addWorksheet("SubjectPivot");
+      let pivotWorksheet = workbook.addWorksheet("Subjects");
       let newPivotTable = workbook.addPivotTable("Pivot", "EmailTable", pivotWorksheet.getRange("A3:C20"));
 
       // Setup the pivot hierarchies
@@ -56,7 +56,7 @@ Power Automation kann [relative Bezüge](../develop/power-automate-integration.m
     }
     ```
 
-## <a name="create-an-office-script-for-your-automated-workflow"></a>Erstellen eines Office-Skripts für den automatisierten Workflow
+## <a name="create-an-office-script"></a>Erstellen eines Office-Skripts
 
 Jetzt erstellen Sie ein Skript, das Informationen aus einer E-Mail protokolliert. Wir möchten wissen, an welchen Wochentagen die meisten E-Mails empfangen werden und wie viele eindeutige Absender diese E-Mails senden. Die Arbeitsmappe enthält eine Tabelle mit den Spalten **Date**, **Day of the week**, **Email address** und **Subject**. Unser Arbeitsblatt enthält außerdem eine PivotTable, die die Spalten **Day of the week** und **Email address** verwendet (dabei handelt es sich um die Zeilenhierarchien). Die Anzahl eindeutiger **Themen** entspricht den aggregierten Informationen, die angezeigt werden (die Datenhierarchie). Nachdem die E-Mail-Tabelle aktualisiert wurde, wird auch das Skript aktualisiert.
 
@@ -82,41 +82,16 @@ Jetzt erstellen Sie ein Skript, das Informationen aus einer E-Mail protokolliert
     let table = emailWorksheet.getTable("EmailTable");
   
     // Get the PivotTable.
-    let pivotTableWorksheet = workbook.getWorksheet("SubjectPivot");
+    let pivotTableWorksheet = workbook.getWorksheet("Subjects");
     let pivotTable = pivotTableWorksheet.getPivotTable("Pivot");
     ```
 
 4. Der `dateReceived`-Parameter ist vom Typ `string`. Dies wird jetzt ein [`Date`-Objekt](../develop/javascript-objects.md#date) konvertiert, damit wir den Wochentag ganz einfach abrufen können. Danach muss der Zahlenwert des Tages einer besser lesbaren Version zugeordnet werden. Fügen Sie den folgenden Code am Ende des Skripts vor der schließenden `}` hinzu:
 
     ```TypeScript
-    // Parse the received date string.
-    let date = new Date(dateReceived);
-
-    // Convert number representing the day of the week into the name of the day.
-    let dayText : string;
-    switch (date.getDay()) {
-      case 0:
-        dayText = "Sunday";
-        break;
-      case 1:
-        dayText = "Monday";
-        break;
-      case 2:
-        dayText = "Tuesday";
-        break;
-      case 3:
-        dayText = "Wednesday";
-        break;
-      case 4:
-        dayText = "Thursday";
-        break;
-      case 5:
-        dayText = "Friday";
-        break;
-      default:
-        dayText = "Saturday";
-        break;
-    }
+      // Parse the received date string to determine the day of the week.
+      let emailDate = new Date(dateReceived);
+      let dayName = emailDate.toLocaleDateString("en-US", { weekday: 'long' });
     ```
 
 5. Die `subject`-Zeichenfolge enthält möglicherweise das „RE:“-Antworttag. Wir entfernen den Tag aus der Zeichenfolge, damit E-Mails im selben Thread den gleichen Betreff für die Tabelle aufweisen. Fügen Sie den folgenden Code am Ende des Skripts vor der schließenden `}` hinzu:
@@ -131,7 +106,7 @@ Jetzt erstellen Sie ein Skript, das Informationen aus einer E-Mail protokolliert
 
     ```TypeScript
     // Add the parsed text to the table.
-    table.addRow(-1, [dateReceived, dayText, from, subjectText]);
+    table.addRow(-1, [dateReceived, dayName, from, subjectText]);
     ```
 
 7. Abschließend stellen Sie sicher, dass die PivotTable aktualisiert wird. Fügen Sie den folgenden Code am Ende des Skripts vor der schließenden `}` hinzu:
@@ -156,44 +131,19 @@ function main(
   let table = emailWorksheet.getTable("EmailTable");
 
   // Get the PivotTable.
-  let pivotTableWorksheet = workbook.getWorksheet("Pivot");
-  let pivotTable = pivotTableWorksheet.getPivotTable("SubjectPivot");
+  let pivotTableWorksheet = workbook.getWorksheet("Subjects");
+  let pivotTable = pivotTableWorksheet.getPivotTable("Pivot");
 
-  // Parse the received date string.
-  let date = new Date(dateReceived);
-
-  // Convert number representing the day of the week into the name of the day.
-  let dayText: string;
-  switch (date.getDay()) {
-    case 0:
-      dayText = "Sunday";
-      break;
-    case 1:
-      dayText = "Monday";
-      break;
-    case 2:
-      dayText = "Tuesday";
-      break;
-    case 3:
-      dayText = "Wednesday";
-      break;
-    case 4:
-      dayText = "Thursday";
-      break;
-    case 5:
-      dayText = "Friday";
-      break;
-    default:
-      dayText = "Saturday";
-      break;
-  }
+  // Parse the received date string to determine the day of the week.
+  let emailDate = new Date(dateReceived);
+  let dayName = emailDate.toLocaleDateString("en-US", { weekday: 'long' });
 
   // Remove the reply tag from the email subject to group emails on the same thread.
   let subjectText = subject.replace("Re: ", "");
   subjectText = subjectText.replace("RE: ", "");
 
   // Add the parsed text to the table.
-  table.addRow(-1, [dateReceived, dayText, from, subjectText]);
+  table.addRow(-1, [dateReceived, dayName, from, subjectText]);
 
   // Refresh the PivotTable to include the new row.
   pivotTable.refresh();
@@ -229,7 +179,7 @@ function main(
 
     ![Die Power Automate-Aktionsoption für „Run script (preview)“.](../images/power-automate-tutorial-5.png)
 
-8. Geben Sie die folgenden Einstellungen für den Konnektor **Run script** an:
+8. Als Nächstes wählen Sie die Arbeitsmappe, das Skript und die Eingabeargumente für das Skript aus, die im Datenfluss-Schritt verwendet werden sollen. In diesem Lernprogramm verwenden Sie die Arbeitsmappe, die Sie in Ihrem OneDrive erstellt haben. Sie könnten jedoch jede beliebige Arbeitsmappe auf einer OneDrive- oder SharePoint-Website verwenden. Geben Sie die folgenden Einstellungen für den Konnektor **Run script** an:
 
     - **Location**: OneDrive for Business
     - **Document Library**: OneDrive
