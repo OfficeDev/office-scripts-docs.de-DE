@@ -1,14 +1,14 @@
 ---
 title: Behandeln von Problemen mit Office-Skripts
 description: Tipps und Techniken zum Debuggen von Office-Skripts sowie Hilferessourcen.
-ms.date: 05/14/2020
+ms.date: 07/23/2020
 localization_priority: Normal
-ms.openlocfilehash: 6448980eec45214a589444229db0fd781b9fea13
-ms.sourcegitcommit: aec3c971c6640429f89b6bb99d2c95ea06725599
+ms.openlocfilehash: 00727b497d49a2d1d3f9c61e259b8d8d75028a59
+ms.sourcegitcommit: ff7fde04ce5a66d8df06ed505951c8111e2e9833
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "44878619"
+ms.lasthandoff: 08/11/2020
+ms.locfileid: "46616682"
 ---
 # <a name="troubleshooting-office-scripts"></a>Behandeln von Problemen mit Office-Skripts
 
@@ -31,6 +31,15 @@ Protokolle wirken sich nicht auf die Arbeitsmappe aus.
 
 Wenn Ihr Excel-Skript auf ein Problem stößt, wird ein Fehler ausgegeben. Es wird eine Aufforderung angezeigt, in der Sie gefragt werden, ob Sie **Protokolle anzeigen**möchten. Drücken Sie die-Taste, um die Konsole zu öffnen und Fehler anzuzeigen.
 
+## <a name="automate-tab-not-appearing"></a>Die Registerkarte "automatisieren" wird nicht angezeigt
+
+Die folgenden Schritte sollten bei der Behandlung von Problemen im Zusammenhang mit der **automatischen** Registerkarte, die nicht in Excel für das Internet angezeigt wird, helfen.
+
+1. [Stellen Sie sicher, dass Ihre Microsoft 365-Lizenz Office-Skripts enthält](../overview/excel.md#requirements).
+1. [Lassen Sie den Administrator das Feature aktivieren](https://support.office.com/article/office-scripts-settings-in-m365-19d3c51a-6ca2-40ab-978d-60fa49554dcf).
+1. Stellen [Sie sicher, dass Ihr Browser unterstützt wird](platform-limits.md#browser-support).
+1. [Stellen Sie sicher, dass Cookies von Drittanbietern aktiviert sind](platform-limits.md#third-party-cookies).
+
 ## <a name="help-resources"></a>Hilferessourcen
 
 [Stack Overflow](https://stackoverflow.com/questions/tagged/office-scripts) ist eine Community von Entwicklern, die bereit sind, bei Codierungs Problemen zu helfen. Häufig können Sie die Lösung für Ihr Problem in einer schnell Stapel-Überlauf Suche finden. Wenn nicht, stellen Sie Ihre Frage und markieren Sie Sie mit dem Tag "Office-Scripts". Vergessen Sie nicht, dass Sie ein Office- *Skript*erstellen, kein Office *-Add-in*.
@@ -43,5 +52,6 @@ Wenn ein Problem mit dem Aktions Recorder oder-Editor auftritt, senden Sie Feedb
 
 - [Office-Skripts in Excel im Web](../overview/excel.md)
 - [Grundlegendes zur Skripterstellung für Office-Skripts in Excel im Internet](../develop/scripting-fundamentals.md)
-- [Rückgängigmachen der Auswirkungen eines Office-Skripts](undo.md)
+- [Plattformbeschränkungen mit Office-Skripts](platform-limits.md)
 - [Verbessern der Leistung Ihrer Office-Skripts](../develop/web-client-performance.md)
+- [Rückgängigmachen der Auswirkungen eines Office-Skripts](undo.md)

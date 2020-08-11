@@ -3,12 +3,12 @@ title: Unterschiede zwischen Office-Skripts und VBA-Makros
 description: Das Verhalten und die API-Unterschiede zwischen Office-Skripts und Excel-VBA-Makros.
 ms.date: 06/30/2020
 localization_priority: Normal
-ms.openlocfilehash: 8a8929f0c6a73a8e9041bb4b55cce1edd539e166
-ms.sourcegitcommit: bf9f33c37c6f7805d6b408aa648bb9785a7cd133
+ms.openlocfilehash: 8c246545943341607a7aced4da792b8e49880cb0
+ms.sourcegitcommit: ff7fde04ce5a66d8df06ed505951c8111e2e9833
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/06/2020
-ms.locfileid: "45043391"
+ms.lasthandoff: 08/11/2020
+ms.locfileid: "46616689"
 ---
 # <a name="differences-between-office-scripts-and-vba-macros"></a>Unterschiede zwischen Office-Skripts und VBA-Makros
 
@@ -23,7 +23,7 @@ In diesem Artikel werden die wichtigsten Unterschiede zwischen VBA-Makros (sowie
 
 VBA wurde für den Desktop entwickelt, und Office-Skripts sind für das Internet konzipiert. VBA kann mit dem Desktop eines Benutzers interagieren, um eine Verbindung mit ähnlichen Technologien wie com und OLE herzustellen. VBA verfügt jedoch nicht über eine bequeme Möglichkeit zum Aufrufen des Internets.
 
-Office-Skripts verwenden eine universelle Laufzeit oder JavaScript. Dadurch wird konsistentes Verhalten und Barrierefreiheit gewährleistet, unabhängig davon, welcher Computer zum Ausführen des Skripts verwendet wird. Sie können auch Anrufe an andere Webdienste vornehmen.
+Office-Skripts verwenden eine universelle Laufzeit für JavaScript. Dadurch wird konsistentes Verhalten und Barrierefreiheit gewährleistet, unabhängig davon, welcher Computer zum Ausführen des Skripts verwendet wird. Sie können auch Anrufe an andere Webdienste vornehmen.
 
 ## <a name="security"></a>Sicherheit
 

@@ -1,14 +1,14 @@
 ---
 title: Ausführen von Office-Skripts mit Power Automation
 description: Vorgehensweise Abrufen von Office-Skripts für Excel im Internet arbeiten mit einem Power automatisieren Workflow.
-ms.date: 07/10/2020
+ms.date: 07/24/2020
 localization_priority: Normal
-ms.openlocfilehash: bd8fea08b7a9303ad2ceace787de6457a33fb979
-ms.sourcegitcommit: ebd1079c7e2695ac0e7e4c616f2439975e196875
+ms.openlocfilehash: a427948847d7ab84962cdede7fb44d214592909f
+ms.sourcegitcommit: ff7fde04ce5a66d8df06ed505951c8111e2e9833
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/17/2020
-ms.locfileid: "45160446"
+ms.lasthandoff: 08/11/2020
+ms.locfileid: "46616675"
 ---
 # <a name="run-office-scripts-with-power-automate"></a>Ausführen von Office-Skripts mit Power Automation
 
@@ -22,7 +22,7 @@ Um mit der Kombination von Power Automation und Office-Skripts zu beginnen, füh
 
 ## <a name="excel-online-business-connector"></a>Excel Online-Connector (Business)
 
-[Connectors](/connectors/connectors) sind die Brücken zwischen Power Automation und Anwendungen. Der [Excel Online (Business)-Connector](/connectors/excelonlinebusiness) gibt Ihrem Fluss Zugriff auf Excel-Arbeitsmappen. Mit der Aktion "Skript ausführen" können Sie ein beliebiges Office-Skript aufrufen, das über die ausgewählte Arbeitsmappe zugänglich ist. Sie können nicht nur Skripts über einen Fluss ausführen, sondern auch Daten an und von der Arbeitsmappe mit dem Fluss durch die Skripts übergeben.
+[Connectors](/connectors/connectors) sind die Brücken zwischen Power Automation und Anwendungen. Der [Excel Online (Business)-Connector](/connectors/excelonlinebusiness) gibt Ihrem Fluss Zugriff auf Excel-Arbeitsmappen. Mit der Aktion "Skript ausführen" können Sie ein beliebiges Office-Skript aufrufen, das über die ausgewählte Arbeitsmappe zugänglich ist. Sie können Ihren Skripten auch Eingabeparameter geben, damit Daten vom Fluss bereitgestellt werden können oder Ihr Skript Informationen für spätere Schritte im Flow zurückgibt.
 
 > [!IMPORTANT]
 > Die Aktion "Skript ausführen" gibt Benutzern, die den Excel Connector verwenden, wichtigen Zugriff auf Ihre Arbeitsmappe und deren Daten. Darüber hinaus gibt es Sicherheitsrisiken mit Skripts, die externe API-Aufrufe durchführen, wie in [externe Aufrufe von Power Automation](external-calls.md)erläutert. Wenn Ihr Administrator mit der Exposition hoch vertraulicher Daten befasst ist, können Sie entweder den Excel Online Connector deaktivieren oder den Zugriff auf Office-Skripts über die [Office Scripts-Administrator Steuerelemente](https://support.microsoft.com/office/19d3c51a-6ca2-40ab-978d-60fa49554dcf)einschränken.
@@ -46,7 +46,7 @@ Berücksichtigen Sie beim Hinzufügen von Eingabeparametern zur Funktion eines S
 
 1. Der erste Parameter muss vom Typ sein `ExcelScript.Workbook` . Der Name des Parameters spielt keine Rolle.
 
-2. Jeder Parameter muss einen Typ aufweisen.
+2. Jeder Parameter muss einen Typ aufweisen (beispielsweise `string` or `number` ).
 
 3. Die Grundtypen `string` , `number` ,,, `boolean` `any` `unknown` , `object` und `undefined` werden unterstützt.
 
@@ -54,7 +54,7 @@ Berücksichtigen Sie beim Hinzufügen von Eingabeparametern zur Funktion eines S
 
 5. Geschachtelte Arrays werden als Parameter unterstützt (jedoch nicht als Rückgabetypen).
 
-6. Union-Typen sind zulässig, wenn es sich um eine Vereinigung von literalen handelt, die zu einem einzelnen Typ ( `string` , `number` oder `boolean` ) gehören. Gewerkschaften eines unterstützten Typs mit undefined werden ebenfalls unterstützt.
+6. Union-Typen sind zulässig, wenn es sich um eine Vereinigung von literalen handelt, die zu einem einzelnen Typ gehören (beispielsweise `"Left" | "Right"` ). Gewerkschaften eines unterstützten Typs mit undefined werden ebenfalls unterstützt (beispielsweise `string | undefined` ).
 
 7. Objekttypen sind zulässig, wenn Sie Eigenschaften vom Typ `string` , `number` ,, `boolean` unterstützte Arrays oder andere unterstützte Objekte enthalten. Im folgenden Beispiel werden geschachtelte Objekte gezeigt, die als Parametertypen unterstützt werden:
 
@@ -111,7 +111,7 @@ Die folgenden Methoden lösen einen Fehler aus und schlagen fehl, wenn Sie aus e
 | [Workbook](/javascript/api/office-scripts/excelscript/excelscript.workbook) | `getActiveWorksheet` |
 | [Workbook](/javascript/api/office-scripts/excelscript/excelscript.workbook) | `getSelectedRange` |
 | [Workbook](/javascript/api/office-scripts/excelscript/excelscript.workbook) | `getSelectedRanges` |
-| [Worksheet](/javascript/api/office-scripts/excelscript/excelscript.workbook) | `activate` |
+| [Arbeitsblatt](/javascript/api/office-scripts/excelscript/excelscript.workbook) | `activate` |
 
 ## <a name="example"></a>Beispiel
 
@@ -143,7 +143,7 @@ function main(
 ## <a name="see-also"></a>Siehe auch
 
 - [Ausführen von Office-Skripts in Excel im Internet mit Power Automation](../tutorials/excel-power-automate-manual.md)
-- [Übergeben von Daten an Skripts in einem automatisch ausgeführten Power-Automatisierungs Fluss](../tutorials/excel-power-automate-trigger.md)
+- [Übergeben von Daten zu Skripts in einem automatisch ausgeführten Power Automate-Datenfluss](../tutorials/excel-power-automate-trigger.md)
 - [Grundlagen der Skripterstellung für Office-Skripts in Excel im Web](scripting-fundamentals.md)
 - [Erste Schritte mit Power Automate](/power-automate/getting-started)
 - [Referenzdokumentation zu Excel Online (Business) Connector](/connectors/excelonlinebusiness/)
