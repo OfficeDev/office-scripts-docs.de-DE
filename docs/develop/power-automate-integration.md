@@ -3,12 +3,12 @@ title: Ausführen von Office-Skripts mit Power Automation
 description: Vorgehensweise Abrufen von Office-Skripts für Excel im Internet arbeiten mit einem Power automatisieren Workflow.
 ms.date: 07/24/2020
 localization_priority: Normal
-ms.openlocfilehash: a427948847d7ab84962cdede7fb44d214592909f
-ms.sourcegitcommit: ff7fde04ce5a66d8df06ed505951c8111e2e9833
+ms.openlocfilehash: 87bd4e15ef7680a7456077494e3fda8208d6b9d8
+ms.sourcegitcommit: e9a8ef5f56177ea9a3d2fc5ac636368e5bdae1f4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/11/2020
-ms.locfileid: "46616675"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "47321572"
 ---
 # <a name="run-office-scripts-with-power-automate"></a>Ausführen von Office-Skripts mit Power Automation
 
@@ -25,7 +25,7 @@ Um mit der Kombination von Power Automation und Office-Skripts zu beginnen, füh
 [Connectors](/connectors/connectors) sind die Brücken zwischen Power Automation und Anwendungen. Der [Excel Online (Business)-Connector](/connectors/excelonlinebusiness) gibt Ihrem Fluss Zugriff auf Excel-Arbeitsmappen. Mit der Aktion "Skript ausführen" können Sie ein beliebiges Office-Skript aufrufen, das über die ausgewählte Arbeitsmappe zugänglich ist. Sie können Ihren Skripten auch Eingabeparameter geben, damit Daten vom Fluss bereitgestellt werden können oder Ihr Skript Informationen für spätere Schritte im Flow zurückgibt.
 
 > [!IMPORTANT]
-> Die Aktion "Skript ausführen" gibt Benutzern, die den Excel Connector verwenden, wichtigen Zugriff auf Ihre Arbeitsmappe und deren Daten. Darüber hinaus gibt es Sicherheitsrisiken mit Skripts, die externe API-Aufrufe durchführen, wie in [externe Aufrufe von Power Automation](external-calls.md)erläutert. Wenn Ihr Administrator mit der Exposition hoch vertraulicher Daten befasst ist, können Sie entweder den Excel Online Connector deaktivieren oder den Zugriff auf Office-Skripts über die [Office Scripts-Administrator Steuerelemente](https://support.microsoft.com/office/19d3c51a-6ca2-40ab-978d-60fa49554dcf)einschränken.
+> Die Aktion "Skript ausführen" gibt Benutzern, die den Excel Connector verwenden, wichtigen Zugriff auf Ihre Arbeitsmappe und deren Daten. Darüber hinaus gibt es Sicherheitsrisiken mit Skripts, die externe API-Aufrufe durchführen, wie in [externe Aufrufe von Power Automation](external-calls.md)erläutert. Wenn Ihr Administrator mit der Exposition hoch vertraulicher Daten befasst ist, können Sie entweder den Excel Online Connector deaktivieren oder den Zugriff auf Office-Skripts über die [Office Scripts-Administrator Steuerelemente](/microsoft-365/admin/manage/manage-office-scripts-settings)einschränken.
 
 ## <a name="data-transfer-in-flows-for-scripts"></a>Datenübertragung in Flows für Skripts
 
@@ -36,7 +36,7 @@ Mit Power Automation können Sie Datenteile zwischen den einzelnen Schritten Ihr
 
 In den folgenden Abschnitten werden die Details der Eingabe und Ausgabe für Skripts behandelt, die in Power Automation verwendet werden. Wenn Sie eine praktische Herangehensweise zum Erlernen dieses Themas wünschen, probieren Sie die [Passdaten an Skripts in einem automatisch ausgeführten Power automatisieren-Fluss](../tutorials/excel-power-automate-trigger.md) Lernprogramm aus, oder erkunden Sie das Beispielszenario für [automatisierte Aufgaben Erinnerungen](../resources/scenarios/task-reminders.md) .
 
-### <a name="main-parameters-passing-data-to-a-script"></a>`main`Parameter: übergeben von Daten an ein Skript
+### <a name="main-parameters-passing-data-to-a-script"></a>`main` Parameter: übergeben von Daten an ein Skript
 
 Alle Skript Eingaben werden als zusätzliche Parameter für die `main` Funktion angegeben. Wenn Sie beispielsweise möchten, dass ein Skript einen akzeptiert, `string` das einen Namen als Eingabe darstellt, ändern Sie die `main` Signatur in `function main(workbook: ExcelScript.Workbook, name: string)` .
 
@@ -140,7 +140,7 @@ function main(
 }
 ```
 
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Weitere Artikel
 
 - [Ausführen von Office-Skripts in Excel im Internet mit Power Automation](../tutorials/excel-power-automate-manual.md)
 - [Übergeben von Daten zu Skripts in einem automatisch ausgeführten Power Automate-Datenfluss](../tutorials/excel-power-automate-trigger.md)
