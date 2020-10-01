@@ -1,6 +1,6 @@
 # <a name="office-scripts-in-excel-on-the-web-documentation"></a>Office-Skripts in Excel in der Webdokumentation
 
-Willkommen beim Office Scripts-Dokumentations-Repository. In diesem Repo finden Sie die Dokumentationsquellen Dateien für Office Scripts Tutorials und Anleitungen. Für eine optimale Erfahrung wird empfohlen, dass Sie diesen Inhalt auf [docs.microsoft.com](https://docs.microsoft.com/office-scripts-docs) anzeigen.
+Willkommen beim Office Scripts-Dokumentations-Repository. In diesem Repo finden Sie die Dokumentationsquellen Dateien für Office Scripts Tutorials und Anleitungen. Für eine optimale Erfahrung wird empfohlen, dass Sie diesen Inhalt auf [docs.microsoft.com](https://docs.microsoft.com/office/dev/scripts) anzeigen.
 
 > **Hinweis**: die Referenz Dokumentationsquellen Dateien für die Office Scripts-API finden Sie im [Office-Scripts-docs-Reference](https://github.com/OfficeDev/office-scripts-docs-reference) -Repository. Diese APIs enthalten alle potenziellen Excel-Vorgänge für Ihre Skripts.
 
@@ -23,8 +23,8 @@ Wir empfehlen außerdem, dass Sie eine Verzweigung vornehmen, die Korrektur vorn
 
 Wenn Ihr Problem nicht mit der Office Scripts-Dokumentation in Zusammenhangsteht, senden Sie es stattdessen an einen der folgenden Kanäle:
 
-- Um eine Frage zum Entwerfen von Office-Skripts oder der Office. js-API zu stellen, die Office-Skripts ausführt, veröffentlichen Sie Ihre Frage in Stack Overflow und markieren Sie mit demhttps://stackoverflow.com/questions/tagged/office-scripts)"Office-Scripts"-Tag (.
-- Um ein Problem mit der Office. js-API zu melden, erstellen Sie das Problem im [officedev/Office-js-Repository](https://github.com/OfficeDev/office-js), das die Mitglieder des Produktteams überwachen, um von Kunden gemeldete Probleme zu erhalten.
+- Um eine Frage zum Entwerfen von Office-Skripts oder der Office.js-API zu stellen, die Office-Skripts ausführt, veröffentlichen Sie Ihre Frage in Stack Overflow und markieren Sie mit dem "Office-Scripts"-Tag ( https://stackoverflow.com/questions/tagged/office-scripts) .
+- Wenn Sie ein Problem mit der Office.js-API melden möchten, erstellen Sie das Problem im [officedev/Office-js-Repository](https://github.com/OfficeDev/office-js), das von Mitgliedern des Produktteams für von Kunden gemeldete Probleme überwacht wird.
 - Um eine Feature-Anfrage für Office-Skripts zu übermitteln, veröffentlichen Sie Ihre Idee auf unserer [Benutzer-VoIP-Seite](https://excel.uservoice.com/forums/274580-excel-for-the-web?category_id=143439), oder wenn die Feature-Anfrage bereits vorhanden ist, fügen Sie Ihre Stimme hinzu.
 
 ## <a name="copyright"></a>Copyright

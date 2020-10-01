@@ -3,19 +3,19 @@ title: Unterstützung älterer Office-Skripts, die die Async-APIs verwenden
 description: Eine Einführung in die Async-APIs für Office-Skripts und die Verwendung des Musters zum Laden/synchronisieren für ältere Skripts.
 ms.date: 07/08/2020
 localization_priority: Normal
-ms.openlocfilehash: e7ca5b276cff0e3a38bffc2af1541c0051cf5490
-ms.sourcegitcommit: ebd1079c7e2695ac0e7e4c616f2439975e196875
+ms.openlocfilehash: 8c90c263e7e3b232447ac6b62da2b2f373b63a87
+ms.sourcegitcommit: ce72354381561dc167ea0092efd915642a9161b3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/17/2020
-ms.locfileid: "45160460"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "48319662"
 ---
 # <a name="support-older-office-scripts-that-use-the-async-apis"></a>Unterstützung älterer Office-Skripts, die die Async-APIs verwenden
 
 In diesem Artikel erfahren Sie, wie Sie Skripts warten und aktualisieren, die die Async-APIs des älteren Modells verwenden. Diese APIs haben die gleiche Kernfunktionalität wie die jetzt standardmäßigen synchronen Office-Skript-APIs, aber Sie erfordern, dass Ihr Skript die Datensynchronisierung zwischen dem Skript und der Arbeitsmappe steuert.
 
 > [!IMPORTANT]
-> Das Async-Modell kann nur mit Skripts verwendet werden, die vor der Implementierung des aktuellen [API-Modells](scripting-fundamentals.md?view=office-scripts)erstellt wurden. Skripts sind dauerhaft mit dem API-Modell gesperrt, das Sie bei der Erstellung haben. Dies bedeutet auch, dass Sie ein nagelneues Skript erstellen müssen, wenn Sie ein altes Skript in das neue Modell konvertieren möchten. Es wird empfohlen, die alten Skripts beim Vornehmen von Änderungen auf das neue Modell zu aktualisieren, da das aktuelle Modell einfacher zu verwenden ist. Die [Konvertierung von asynchronen Skripts in den Abschnitt Aktuelles Modell](#converting-async-scripts-to-the-current-model) enthält Ratschläge dazu, wie Sie diesen Übergang vornehmen.
+> Das Async-Modell kann nur mit Skripts verwendet werden, die vor der Implementierung des aktuellen [API-Modells](scripting-fundamentals.md?view=office-scripts&preserve-view=true)erstellt wurden. Skripts sind dauerhaft mit dem API-Modell gesperrt, das Sie bei der Erstellung haben. Dies bedeutet auch, dass Sie ein nagelneues Skript erstellen müssen, wenn Sie ein altes Skript in das neue Modell konvertieren möchten. Es wird empfohlen, die alten Skripts beim Vornehmen von Änderungen auf das neue Modell zu aktualisieren, da das aktuelle Modell einfacher zu verwenden ist. Die [Konvertierung von asynchronen Skripts in den Abschnitt Aktuelles Modell](#converting-async-scripts-to-the-current-model) enthält Ratschläge dazu, wie Sie diesen Übergang vornehmen.
 
 ## <a name="main-function"></a>Die `main`-Funktion
 
@@ -37,7 +37,7 @@ Das `context`-Objekt ist erforderlich, weil das Skript und Excel in unterschiedl
 
 Da Ihr Skript und die Arbeitsmappe an unterschiedlichen Orten ausgeführt werden, dauert die Datenübertragung zwischen diesen etwas. In der Async-API werden Befehle in die Warteschlange eingereiht, bis das Skript den Vorgang explizit aufruft `sync` , um das Skript und die Arbeitsmappe zu synchronisieren. Ihr Skript kann unabhängig funktionieren, bis es eine der folgenden Aktionen durchführen muss:
 
-- Daten aus der Arbeitsmappe lesen (nach einem `load`-Vorgang oder einer Methode, die ein[ClientResultat](/javascript/api/office-scripts/excelscript/excelscript.clientresult?view=office-scripts-async) zurückgibt).
+- Daten aus der Arbeitsmappe lesen (nach einem `load`-Vorgang oder einer Methode, die ein[ClientResultat](/javascript/api/office-scripts/excelscript/excelscript.clientresult?view=office-scripts-async&preserve-view=true) zurückgibt).
 - Daten in die Arbeitsmappe schreiben (in der Regel, weil das Skript abgeschlossen wurde).
 
 In der folgenden Abbildung wird ein Beispiel für eine Ablaufsteuerung zwischen dem Skript und der Arbeitsmappe dargestellt:
@@ -116,7 +116,7 @@ async function main(context: Excel.RequestContext){
 
 ### <a name="clientresult"></a>ClientResult
 
-Methoden in der Async-API, die Informationen aus der Arbeitsmappe zurückgeben, weisen ein ähnliches Muster wie das `load` / `sync` Paradigma auf. `TableCollection.getCount` ruft zum Beispiel die Anzahl von Tabellen in der Auflistung ab. `getCount`gibt a zurück `ClientResult<number>` , was bedeutet, dass die `value` Eigenschaft im zurückgegebenen [`ClientResult`](/javascript/api/office-scripts/excelscript/excelscript.clientresult?view=office-scripts-async) eine Zahl ist. Ihr Skript kann erst auf diesen Wert zugreifen, wenn `context.sync()` aufgerufen wird. Ähnlich wie beim Laden einer Eigenschaft ist der `value` bis zu diesem `sync`-Aufruf ein lokaler "leerer" Wert.
+Methoden in der Async-API, die Informationen aus der Arbeitsmappe zurückgeben, weisen ein ähnliches Muster wie das `load` / `sync` Paradigma auf. `TableCollection.getCount` ruft zum Beispiel die Anzahl von Tabellen in der Auflistung ab. `getCount` gibt a zurück `ClientResult<number>` , was bedeutet, dass die `value` Eigenschaft im zurückgegebenen [`ClientResult`](/javascript/api/office-scripts/excelscript/excelscript.clientresult?view=office-scripts-async&preserve-view=true) eine Zahl ist. Ihr Skript kann erst auf diesen Wert zugreifen, wenn `context.sync()` aufgerufen wird. Ähnlich wie beim Laden einer Eigenschaft ist der `value` bis zu diesem `sync`-Aufruf ein lokaler "leerer" Wert.
 
 Das folgende Skript ruft die Gesamtanzahl der Tabellen in der Arbeitsmappe ab und protokolliert diese Anzahl in der Konsole.
 
@@ -145,11 +145,11 @@ Das aktuelle API-Modell verwendet weder, `load` `sync` noch eine `RequestContext
 
 2. Entfernen Sie alle `load` und `sync` ruft. Sie sind nicht mehr erforderlich.
 
-3. Alle Eigenschaften wurden entfernt. Sie können nun über und Methoden auf diese Objekte zugreifen `get` `set` , sodass Sie diese Eigenschaftenverweise auf Methodenaufrufe umstellen müssen. Anstatt beispielsweise die Füllfarbe einer Zelle durch den Eigenschaftenzugriff wie folgt festzulegen: `mySheet.getRange("A2:C2").format.fill.color = "blue";` , verwenden Sie jetzt Methoden wie die folgende:`mySheet.getRange("A2:C2").getFormat().getFill().setColor("blue");`
+3. Alle Eigenschaften wurden entfernt. Sie können nun über und Methoden auf diese Objekte zugreifen `get` `set` , sodass Sie diese Eigenschaftenverweise auf Methodenaufrufe umstellen müssen. Anstatt beispielsweise die Füllfarbe einer Zelle durch den Eigenschaftenzugriff wie folgt festzulegen: `mySheet.getRange("A2:C2").format.fill.color = "blue";` , verwenden Sie jetzt Methoden wie die folgende: `mySheet.getRange("A2:C2").getFormat().getFill().setColor("blue");`
 
 4. Auflistungsklassen wurden durch Arrays ersetzt. Die `add` und- `get` Methoden dieser Auflistungsklassen wurden auf das Objekt verschoben, das die Auflistung besaß, sodass Ihre Verweise entsprechend aktualisiert werden müssen. Um beispielsweise ein Diagramm mit dem Namen "myChart" aus dem ersten Arbeitsblatt in der Arbeitsmappe abzurufen, verwenden Sie den folgenden Code: `workbook.getWorksheets()[0].getChart("MyChart");` . Beachten Sie `[0]` , dass für den Zugriff auf den ersten Wert der `Worksheet[]` zurückgegebenen `getWorksheets()` .
 
-5. Einige Methoden wurden aus Gründen der Übersichtlichkeit umbenannt und zur Vereinfachung hinzugefügt. Weitere Informationen finden Sie in der [Office Scripts-API-Referenz](/javascript/api/office-scripts/overview?view=office-scripts) .
+5. Einige Methoden wurden aus Gründen der Übersichtlichkeit umbenannt und zur Vereinfachung hinzugefügt. Weitere Informationen finden Sie in der [Office Scripts-API-Referenz](/javascript/api/office-scripts/overview?view=office-scripts&preserve-view=true) .
 
 ## <a name="office-scripts-async-api-reference-documentation"></a>Office Scripts Async-API-Referenzdokumentation
 

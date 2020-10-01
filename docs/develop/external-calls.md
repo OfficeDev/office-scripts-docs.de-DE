@@ -1,16 +1,16 @@
 ---
-title: Unterstützung externer API-Anrufe in Office-Skripts
+title: Externe API-Anruf Unterstützung in Office-Skripts
 description: Unterstützung und Anleitungen für die Erstellung externer API-Aufrufe in einem Office-Skript.
-ms.date: 06/25/2020
+ms.date: 09/24/2020
 localization_priority: Normal
-ms.openlocfilehash: ec8281551cbe7c500eee40ec86067e5efbfcfc31
-ms.sourcegitcommit: aec3c971c6640429f89b6bb99d2c95ea06725599
-ms.translationtype: Auto
+ms.openlocfilehash: fa77e606e2b3ab90144507660d71561b278e82e5
+ms.sourcegitcommit: ce72354381561dc167ea0092efd915642a9161b3
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "44878756"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "48319630"
 ---
-# <a name="external-api-call-support-in-office-scripts"></a>Unterstützung externer API-Anrufe in Office-Skripts
+# <a name="external-api-call-support-in-office-scripts"></a>Externe API-Anruf Unterstützung in Office-Skripts
 
 Die Office-Skriptplattform unterstützt keine Aufrufe [externer APIs](https://developer.mozilla.org/docs/Web/API). Diese Aufrufe können jedoch unter den richtigen Umständen ausgeführt werden. Externe Anrufe können nur über den Excel-Client vorgenommen werden, nicht über Power Automation [unter normalen Umständen](#external-calls-from-power-automate).
 
@@ -42,8 +42,8 @@ async function main(workbook: ExcelScript.Workbook): Promise <void> {
 Bei externen API-aufrufen tritt ein Fehler auf, wenn ein Skript mit Power Automation ausgeführt wird. Dies ist ein Verhaltensunterschied zwischen dem Ausführen eines Skripts über den Excel-Client und der Power Automation. Achten Sie darauf, Ihre Skripts auf solche Verweise zu überprüfen, bevor Sie Sie in einem Flow erstellen.
 
 > [!WARNING]
-> Der Ausfall externer Anrufe [Excel Online Connector](/connectors/excelonlinebusiness) in Power Automation dient zur Wahrung vorhandener Richtlinien zur Verhinderung von Datenverlust. Die Skripts, die über Power Automation ausgeführt werden, werden jedoch außerhalb Ihrer Organisation und außerhalb der Firewalls Ihrer Organisation durchgeführt. Um zusätzlichen Schutz vor böswilligen Benutzern in dieser externen Umgebung zu erhalten, kann Ihr Administrator die Verwendung von Office-Skripts steuern. Ihr Administrator kann entweder den Excel Online-Connector in Power automatisieren oder Office-Skripts für Excel im Internet über die [Office Scripts-Administrator Steuerelemente](https://support.microsoft.com/office/19d3c51a-6ca2-40ab-978d-60fa49554dcf)deaktivieren.
+> Der Ausfall externer Anrufe [Excel Online Connector](/connectors/excelonlinebusiness) in Power Automation dient zur Wahrung vorhandener Richtlinien zur Verhinderung von Datenverlust. Die Skripts, die über Power Automation ausgeführt werden, werden jedoch außerhalb Ihrer Organisation und außerhalb der Firewalls Ihrer Organisation durchgeführt. Um zusätzlichen Schutz vor böswilligen Benutzern in dieser externen Umgebung zu erhalten, kann Ihr Administrator die Verwendung von Office-Skripts steuern. Ihr Administrator kann entweder den Excel Online-Connector in Power automatisieren oder Office-Skripts für Excel im Internet über die [Office Scripts-Administrator Steuerelemente](/microsoft-365/admin/manage/manage-office-scripts-settings)deaktivieren.
 
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Mehr dazu
 
 - [Verwenden von integrierten JavaScript-Objekten in Office-Skripts](javascript-objects.md)
