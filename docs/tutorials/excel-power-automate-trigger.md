@@ -3,12 +3,12 @@ title: Übergeben von Daten zu Skripts in einem automatisch ausgeführten Power 
 description: Ein Lernprogramm zum Ausführen von Office-Skripts für Excel im Web mithilfe von Power Automate, wenn E-Mails empfangen und Flussdaten an das Skript übergeben werden.
 ms.date: 07/24/2020
 localization_priority: Priority
-ms.openlocfilehash: aed34f4b93bbe22768aab73d7a7264cc7d3c3ee6
-ms.sourcegitcommit: ff7fde04ce5a66d8df06ed505951c8111e2e9833
+ms.openlocfilehash: f6842e27686909bad92138e6d2f9ac1892cac891
+ms.sourcegitcommit: ce72354381561dc167ea0092efd915642a9161b3
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/11/2020
-ms.locfileid: "46616766"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "48319679"
 ---
 # <a name="pass-data-to-scripts-in-an-automatically-run-power-automate-flow-preview"></a>Übergeben von Daten zu Skripts in einem automatisch ausgeführten Power Automate-Datenfluss (Vorschau)
 
@@ -191,7 +191,7 @@ function main(
 
     *Beachten Sie, dass die Parameter für das Skript nur angezeigt werden, wenn das Skript ausgewählt wurde.*
 
-    ![Die Power Automate-Aktionsoption für „Run script (preview)“.](../images/power-automate-params-tutorial-3.png)
+    ![Parameter der Aktionsoption "Power Automation" für "Skript ausführen" (Vorschau).](../images/power-automate-params-tutorial-3.png)
 
 9. Klicken Sie auf **Save**.
 

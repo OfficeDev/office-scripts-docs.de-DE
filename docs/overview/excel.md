@@ -1,14 +1,14 @@
 ---
 title: Office-Skripts in Excel im Web
 description: Eine kurze Einführung in den Action Recorder und den Code Editor für Office-Skripts.
-ms.date: 07/21/2020
+ms.date: 09/29/2020
 localization_priority: Priority
-ms.openlocfilehash: 6b60e46c13a211dc793638bcca6535f04a529096
-ms.sourcegitcommit: e9a8ef5f56177ea9a3d2fc5ac636368e5bdae1f4
+ms.openlocfilehash: 965e28be285d59d79d46fe005ab16f29b271041f
+ms.sourcegitcommit: ce72354381561dc167ea0092efd915642a9161b3
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "47321583"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "48319672"
 ---
 # <a name="office-scripts-in-excel-on-the-web-preview"></a>Office-Skripts in Excel im Web (Vorschau)
 
@@ -27,6 +27,7 @@ In dieser Reihe von Dokumenten lernen Sie, wie Sie diese Tools verwenden. Sie we
 Wenn Sie Office-Skripts verwenden möchten, benötigen Sie Folgendes.
 
 1. [Excel im Web](https://www.office.com/launch/excel) (andere Plattformen, z. B. Desktop, werden nicht unterstützt).
+1. OneDrive for Business.
 1. Office-Skripts [von Ihrem Administrator aktiviert](/microsoft-365/admin/manage/manage-office-scripts-settings).
 1. Jede kommerzielle oder pädagogische Microsoft 365-Lizenz mit Zugriff auf Microsoft 365 Office-Desktop-Apps wie:
 
@@ -65,7 +66,10 @@ Eine einfache Möglichkeit, die Fähigkeiten von Office-Skripts zu erlernen best
 
 Office-Skripts können für andere Benutzer einer Excel-Arbeitsmappe freigegeben werden. Wenn Sie ein Skript für andere Personen in einer Arbeitsmappe freigeben, wird das Skript an die Arbeitsmappe angefügt. Ihre Skripts werden in Ihrem OneDrive gespeichert. Wenn Sie ein Script freigeben, erstellen Sie einen Link zu diesem Skript in der geöffneten Arbeitsmappe.
 
-Weitere Informationen zur Freigabe und zum Aufheben der Freigabe von Scripts entnehmen Sie dem Artikel [Freigeben von Office-Skripts in Excel für das Web](https://support.microsoft.com/office/sharing-office-scripts-in-excel-for-the-web-226eddbc-3a44-4540-acfe-fccda3d1122b?storagetype=live&ui=en-US&rs=en-US&ad=US).
+Weitere Informationen zur Freigabe und zum Aufheben der Freigabe von Scripts entnehmen Sie dem Artikel [Freigeben von Office-Skripts in Excel für das Web](https://support.microsoft.com/office/sharing-office-scripts-in-excel-for-the-web-226eddbc-3a44-4540-acfe-fccda3d1122b).
+
+> [!NOTE]
+> Dadurch, dass Office-Skripts im OneDrive eines Benutzers gespeichert werden, folgen sie den gleichen Aufbewahrungs- und Löschrichtlinien. Wenn Sie wissen möchten, wie Skripts behandelt werden, die von einem Benutzer erstellt und freigegeben wurden, der aus Ihrer Organisation entfernt wird, lesen Sie [OneDrive Aufbewahrungs-und Löschvorgänge](/onedrive/retention-and-deletion).
 
 ## <a name="connecting-office-scripts-to-power-automate"></a>Verbinden von Office-Skripts mit Power Automate
 
