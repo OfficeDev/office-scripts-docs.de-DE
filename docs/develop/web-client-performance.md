@@ -5,7 +5,7 @@ ms.date: 06/15/2020
 localization_priority: Normal
 ms.openlocfilehash: 4d5b7c70f14e3fc598b95a6226e3ef8caf89f651
 ms.sourcegitcommit: aec3c971c6640429f89b6bb99d2c95ea06725599
-ms.translationtype: Auto
+ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 06/25/2020
 ms.locfileid: "44878902"
@@ -104,5 +104,5 @@ Wenn die Office-Skriptplattform erweitert wird, um mit [Power Automation](https:
 
 ## <a name="see-also"></a>Siehe auch
 
-- [Grundlegendes zur Skripterstellung für Office-Skripts in Excel im Web](scripting-fundamentals.md)
+- [Grundlagen der Skripterstellung für Office-Skripts in Excel im Web](scripting-fundamentals.md)
 - [MDN-Webdocs: Loops and Iteration](https://developer.mozilla.org/docs/Web/JavaScript/Guide/Loops_and_iteration)
