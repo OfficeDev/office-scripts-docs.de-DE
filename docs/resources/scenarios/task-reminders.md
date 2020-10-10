@@ -5,7 +5,7 @@ ms.date: 06/09/2020
 localization_priority: Normal
 ms.openlocfilehash: f764c37dafdd964e9435d504770d10b1608428b8
 ms.sourcegitcommit: aec3c971c6640429f89b6bb99d2c95ea06725599
-ms.translationtype: Auto
+ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 06/25/2020
 ms.locfileid: "44878910"
@@ -154,10 +154,10 @@ Dieses Szenario verwendet [Power Automation](https://flow.microsoft.com) und [Mi
 
 10. Wählen Sie einen Fluss aus den Optionen **manuell auslösen** aus, und klicken Sie dann auf **Erstellen**.
 
-11. Der Fluss muss das **Get People** -Skript aufrufen, um alle Mitarbeiter mit leeren Statusfeldern abzurufen. Klicken Sie auf **New Step** , und wählen Sie **Excel Online (Business)** aus. Wählen Sie unter **Aktionen**die Option **Skript ausführen (Vorschau)** aus. Geben Sie für den Ablauf Schritt folgende Einträge an:
+11. Der Fluss muss das **Get People** -Skript aufrufen, um alle Mitarbeiter mit leeren Statusfeldern abzurufen. Klicken Sie auf **New Step** , und wählen Sie **Excel Online (Business)** aus. Wählen Sie unter **Actions** die Option **Run script (preview)** aus. Geben Sie für den Ablauf Schritt folgende Einträge an:
 
-    - **Speicherort**: OneDrive für Unternehmen
-    - **Dokumentbibliothek**: OneDrive
+    - **Location**: OneDrive for Business
+    - **Document Library**: OneDrive
     - **Datei**: task-reminders.xlsx
     - **Skript**: Get People
 
@@ -213,10 +213,10 @@ Dieses Szenario verwendet [Power Automation](https://flow.microsoft.com) und [Mi
     - **Update Nachricht**: Vielen Dank, dass Sie Ihren Statusbericht übermitteln. Ihre Antwort wurde dem Arbeitsblatt erfolgreich hinzugefügt.
     - **Sollte Update Card**: Ja
 
-16. Klicken Sie im Feld **auf jeden Block anwenden** , indem Sie eine **Adaptive Karte an einen Microsoft Teams-Benutzer senden und auf eine Antwort warten**auf **Aktion hinzufügen**. Wählen Sie **Excel Online (Business)** aus. Wählen Sie unter **Aktionen**die Option **Skript ausführen (Vorschau)** aus. Geben Sie für den Ablauf Schritt folgende Einträge an:
+16. Klicken Sie im Feld **auf jeden Block anwenden** , indem Sie eine **Adaptive Karte an einen Microsoft Teams-Benutzer senden und auf eine Antwort warten**auf **Aktion hinzufügen**. Wählen Sie **Excel Online (Business)** aus. Wählen Sie unter **Actions** die Option **Run script (preview)** aus. Geben Sie für den Ablauf Schritt folgende Einträge an:
 
-    - **Speicherort**: OneDrive für Unternehmen
-    - **Dokumentbibliothek**: OneDrive
+    - **Location**: OneDrive for Business
+    - **Document Library**: OneDrive
     - **Datei**: task-reminders.xlsx
     - **Skript**: Save Status
     - **senderEmail**: e-Mail *(dynamischer Inhalt aus Excel)*
