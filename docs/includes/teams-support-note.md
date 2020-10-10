@@ -1,0 +1,2 @@
+> [!IMPORTANT]
+> <span data-ttu-id="8c845-101">Bei der Verwendung von Excel mit Teams werden Office-Skripts nur in Microsoft Teams (nicht in Microsoft Teams unter Windows, Mac, IOS oder Android) unterstützt.</span><span class="sxs-lookup"><span data-stu-id="8c845-101">When using Excel with Teams, Office Scripts are only supported in Teams on the web (not Teams on Windows, Mac, iOS, or Android).</span></span>
