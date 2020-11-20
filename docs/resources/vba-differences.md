@@ -1,14 +1,14 @@
 ---
 title: Unterschiede zwischen Office-Skripts und VBA-Makros
 description: Das Verhalten und die API-Unterschiede zwischen Office-Skripts und Excel-VBA-Makros.
-ms.date: 06/30/2020
+ms.date: 11/13/2020
 localization_priority: Normal
-ms.openlocfilehash: 8c246545943341607a7aced4da792b8e49880cb0
-ms.sourcegitcommit: ff7fde04ce5a66d8df06ed505951c8111e2e9833
+ms.openlocfilehash: 7b9186d03489a43836c6e9da7bd28e0abc135f63
+ms.sourcegitcommit: 82d3c0ef1e187bcdeceb2b5fc3411186674fe150
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/11/2020
-ms.locfileid: "46616689"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "49342885"
 ---
 # <a name="differences-between-office-scripts-and-vba-macros"></a>Unterschiede zwischen Office-Skripts und VBA-Makros
 
@@ -27,7 +27,7 @@ Office-Skripts verwenden eine universelle Laufzeit für JavaScript. Dadurch wird
 
 ## <a name="security"></a>Sicherheit
 
-VBA-Makros haben denselben Sicherheitsabstand wie Excel. Dadurch erhalten Sie vollen Zugriff auf Ihren Desktop. Office-Skripts haben nur Zugriff auf die Arbeitsmappe, nicht auf den Computer, der die Arbeitsmappe hostet. Darüber hinaus können keine JavaScript-Authentifizierungstoken für Skripts freigegeben werden, sodass Skripts sich nie bei einem externen Dienst authentifizieren können.
+VBA-Makros haben denselben Sicherheitsabstand wie Excel. Dadurch erhalten Sie vollen Zugriff auf Ihren Desktop. Office-Skripts haben nur Zugriff auf die Arbeitsmappe, nicht auf den Computer, der die Arbeitsmappe hostet. Darüber hinaus können keine JavaScript-Authentifizierungstoken für Skripts freigegeben werden. Dies bedeutet, dass das Skript weder über die Token des angemeldeten Benutzers verfügt noch über API-Funktionen für die Anmeldung bei einem externen Dienst verfügt, sodass Sie keine vorhandenen Token verwenden können, um externe Anrufe im Namen des Benutzers zu tätigen.
 
 Administratoren haben drei Optionen für VBA-Makros: alle Makros im Mandanten zulassen, keine Makros auf dem Mandanten zulassen oder nur Makros mit signierten Zertifikaten zulassen. Durch diesen Mangel an Granularität ist es schwierig, einen einzelnen fehlerhaften Akteur zu isolieren. Office-Skripts sind derzeit entweder für einen Mandanten ein-oder ausgeschaltet. Wir arbeiten jedoch daran, Administratoren mehr Kontrolle über einzelne Skripts und Skriptersteller zu geben.
 
