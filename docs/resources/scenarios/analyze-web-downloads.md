@@ -3,12 +3,12 @@ title: 'Beispielszenario für Office-Skripts: Analysieren von Webdownloads'
 description: Ein Beispiel, das Rohdaten im Internet Datenverkehr in einer Excel-Arbeitsmappe verwendet und den Ursprungsort bestimmt, bevor diese Informationen in einer Tabelle organisiert werden.
 ms.date: 07/10/2020
 localization_priority: Normal
-ms.openlocfilehash: 20c52c4f26b5939fb5de5e04df504e6672dd4200
-ms.sourcegitcommit: ebd1079c7e2695ac0e7e4c616f2439975e196875
+ms.openlocfilehash: adc2cb401830b66b245c0dfcc4441b7ac9c8c61f
+ms.sourcegitcommit: 009935c5773761c5833e5857491af47e2c95d851
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/17/2020
-ms.locfileid: "45160453"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "49408966"
 ---
 # <a name="office-scripts-sample-scenario-analyze-web-downloads"></a>Beispielszenario für Office-Skripts: Analysieren von Webdownloads
 
@@ -182,8 +182,8 @@ Dieses Beispiel wurde als Teil des Office-Add-ins Entwickler-Community-Aufrufs f
         formula1: "=TRUE",
         operator: ExcelScript.ConditionalCellValueOperator.equalTo
       });
-      conditionalFormatTrue.getCellValue().getFormat().getFill().setColor("#F8CCAD");
-      conditionalFormatTrue.getCellValue().setRule({
+      conditionalFormatFalse.getCellValue().getFormat().getFill().setColor("#F8CCAD");
+      conditionalFormatFalse.getCellValue().setRule({
         formula1: "=FALSE",
         operator: ExcelScript.ConditionalCellValueOperator.equalTo
       });
@@ -224,7 +224,7 @@ Dieses Beispiel wurde als Teil des Office-Add-ins Entwickler-Community-Aufrufs f
 
 ## <a name="running-the-script"></a>Ausführen des Skripts
 
-Navigieren Sie zu einem der **Wochen \* \* ** Arbeitsblätter, und führen Sie das Skript zum **Analysieren von Webdownloads** aus. Das Skript wendet die bedingte Formatierung und die Speicherort Kennzeichnung auf dem aktuellen Blatt an. Außerdem wird das **Zusammenfassungs** Arbeitsblatt aktualisiert.
+Navigieren Sie zu einem der **Wochen \* \*** Arbeitsblätter, und führen Sie das Skript zum **Analysieren von Webdownloads** aus. Das Skript wendet die bedingte Formatierung und die Speicherort Kennzeichnung auf dem aktuellen Blatt an. Außerdem wird das **Zusammenfassungs** Arbeitsblatt aktualisiert.
 
 ### <a name="before-running-the-script"></a>Vor dem Ausführen des Skripts
 
