@@ -1,14 +1,14 @@
 ---
 title: 'Beispielszenario für Office-Skripts: automatische Aufgaben Erinnerungen'
 description: Ein Beispiel, das Power automatisieren und Adaptive Karten zum Automatisieren von Aufgaben Erinnerungen in einer Project Management-Kalkulationstabelle verwendet.
-ms.date: 06/09/2020
+ms.date: 11/30/2020
 localization_priority: Normal
-ms.openlocfilehash: f764c37dafdd964e9435d504770d10b1608428b8
-ms.sourcegitcommit: aec3c971c6640429f89b6bb99d2c95ea06725599
+ms.openlocfilehash: 90769eca0201e450e25778db0eb5c62284b9feb0
+ms.sourcegitcommit: af487756dffea0f8f0cd62710c586842cb08073c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "44878910"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "49571451"
 ---
 # <a name="office-scripts-sample-scenario-automated-task-reminders"></a>Beispielszenario für Office-Skripts: automatische Aufgaben Erinnerungen
 
@@ -65,7 +65,7 @@ Dieses Szenario verwendet [Power Automation](https://flow.microsoft.com) und [Mi
         let row = bodyRangeValues[i];
         if (row[STATUS_REPORT_INDEX] === "") {
           // Save the email to return.
-          people.push({ name: row[NAME_INDEX], email: row[EMAIL_INDEX] });
+          people.push({ name: row[NAME_INDEX].toString(), email: row[EMAIL_INDEX].toString() });
         }
       }
 
@@ -158,16 +158,16 @@ Dieses Szenario verwendet [Power Automation](https://flow.microsoft.com) und [Mi
 
     - **Location**: OneDrive for Business
     - **Document Library**: OneDrive
-    - **Datei**: task-reminders.xlsx
+    - **Datei**: task-reminders.xlsx *(im Dateibrowser ausgewählt)*
     - **Skript**: Get People
 
     ![Der erste Lauf Skriptfluss Schritt.](../../images/scenario-task-reminders-first-flow-step.png)
 
-12. Im nächsten Schritt muss der Fluss jeden Mitarbeiter in dem vom Skript zurückgegebenen Array verarbeiten. Klicken Sie auf **New Step** , und wählen Sie **in einem Teams-Benutzer eine Adaptive Karte bereit**stellen aus, und warten Sie auf eine Antwort.
+12. Im nächsten Schritt muss der Fluss jeden Mitarbeiter in dem vom Skript zurückgegebenen Array verarbeiten. Klicken Sie auf **New Step** , und wählen Sie **in einem Teams-Benutzer eine Adaptive Karte bereit** stellen aus, und warten Sie auf eine Antwort.
 
 13. Fügen Sie **Recipient** für das Feld Empfänger **e-Mail-** Nachweise aus dem dynamischen Inhalt hinzu (die Auswahl wird das Excel-Logo haben). Das Hinzufügen von **e-Mail** bewirkt, dass der Fluss Schritt von einem für **jeden Block angewendet** wird. Das bedeutet, dass das Array von Power Automation iteriert wird.
 
-14. Für das Senden einer adaptiven Karte muss die JSON der Karte als **Nachricht**bereitgestellt werden. Sie können den [Adaptive Card-Designer](https://adaptivecards.io/designer/) verwenden, um benutzerdefinierte Karten zu erstellen. Verwenden Sie für dieses Beispiel die folgende JSON.  
+14. Für das Senden einer adaptiven Karte muss die JSON der Karte als **Nachricht** bereitgestellt werden. Sie können den [Adaptive Card-Designer](https://adaptivecards.io/designer/) verwenden, um benutzerdefinierte Karten zu erstellen. Verwenden Sie für dieses Beispiel die folgende JSON.  
 
     ```json
     {
@@ -213,11 +213,11 @@ Dieses Szenario verwendet [Power Automation](https://flow.microsoft.com) und [Mi
     - **Update Nachricht**: Vielen Dank, dass Sie Ihren Statusbericht übermitteln. Ihre Antwort wurde dem Arbeitsblatt erfolgreich hinzugefügt.
     - **Sollte Update Card**: Ja
 
-16. Klicken Sie im Feld **auf jeden Block anwenden** , indem Sie eine **Adaptive Karte an einen Microsoft Teams-Benutzer senden und auf eine Antwort warten**auf **Aktion hinzufügen**. Wählen Sie **Excel Online (Business)** aus. Wählen Sie unter **Actions** die Option **Run script (preview)** aus. Geben Sie für den Ablauf Schritt folgende Einträge an:
+16. Klicken Sie im Feld **auf jeden Block anwenden** , indem Sie eine **Adaptive Karte an einen Microsoft Teams-Benutzer senden und auf eine Antwort warten** auf **Aktion hinzufügen**. Wählen Sie **Excel Online (Business)** aus. Wählen Sie unter **Actions** die Option **Run script (preview)** aus. Geben Sie für den Ablauf Schritt folgende Einträge an:
 
     - **Location**: OneDrive for Business
     - **Document Library**: OneDrive
-    - **Datei**: task-reminders.xlsx
+    - **Datei**: task-reminders.xlsx *(im Dateibrowser ausgewählt)*
     - **Skript**: Save Status
     - **senderEmail**: e-Mail *(dynamischer Inhalt aus Excel)*
     - **statusReportResponse**: Antwort *(dynamischer Inhalt aus Teams)*
