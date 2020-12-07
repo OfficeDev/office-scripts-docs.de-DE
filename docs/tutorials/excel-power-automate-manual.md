@@ -1,14 +1,14 @@
 ---
 title: Aufrufen von Skripts aus einem manuellen Power Automate-Datenfluss
 description: Ein Lernprogramm zur Verwendung von Office-Skripts in Power Automate durch einen manuellen Auslöser.
-ms.date: 07/24/2020
+ms.date: 11/30/2020
 localization_priority: Priority
-ms.openlocfilehash: f447e465bc0b09043d64752266bc9b6dbe5a5d89
-ms.sourcegitcommit: ff7fde04ce5a66d8df06ed505951c8111e2e9833
+ms.openlocfilehash: 831812f5ead549ee3ea3b8c643fc16d5467edbe8
+ms.sourcegitcommit: af487756dffea0f8f0cd62710c586842cb08073c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/11/2020
-ms.locfileid: "46616756"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "49571472"
 ---
 # <a name="call-scripts-from-a-manual-power-automate-flow-preview"></a>Aufrufen von Skripts aus einem manuellen Power Automate-Datenfluss (Vorschau)
 
@@ -93,7 +93,7 @@ Power Automation kann relative Bezüge wie `Workbook.getActiveWorksheet` nicht v
 
     - **Location**: OneDrive for Business
     - **Document Library**: OneDrive
-    - **File**: MeineArbeitsmappe. xlsx
+    - **File**: MyWorkbook.xlsx *(Ausgewählt über den Dateibrowser)*
     - **Script**: Datum und Uhrzeit festlegen
 
     ![Die Konnektoreinstellungen zum Ausführen eines Skripts in Power Automate.](../images/power-automate-tutorial-6.png)
