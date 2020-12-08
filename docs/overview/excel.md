@@ -1,14 +1,14 @@
 ---
 title: Office-Skripts in Excel im Web
 description: Eine kurze Einführung in den Action Recorder und den Code Editor für Office-Skripts.
-ms.date: 09/29/2020
+ms.date: 11/13/2020
 localization_priority: Priority
-ms.openlocfilehash: 965e28be285d59d79d46fe005ab16f29b271041f
-ms.sourcegitcommit: ce72354381561dc167ea0092efd915642a9161b3
+ms.openlocfilehash: a065c8eb5fc52c7525383927b7e1490e703eb179
+ms.sourcegitcommit: 82d3c0ef1e187bcdeceb2b5fc3411186674fe150
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48319672"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "49571461"
 ---
 # <a name="office-scripts-in-excel-on-the-web-preview"></a>Office-Skripts in Excel im Web (Vorschau)
 
@@ -28,7 +28,6 @@ Wenn Sie Office-Skripts verwenden möchten, benötigen Sie Folgendes.
 
 1. [Excel im Web](https://www.office.com/launch/excel) (andere Plattformen, z. B. Desktop, werden nicht unterstützt).
 1. OneDrive for Business.
-1. Office-Skripts [von Ihrem Administrator aktiviert](/microsoft-365/admin/manage/manage-office-scripts-settings).
 1. Jede kommerzielle oder pädagogische Microsoft 365-Lizenz mit Zugriff auf Microsoft 365 Office-Desktop-Apps wie:
 
     - Office 365 Business
@@ -39,6 +38,9 @@ Wenn Sie Office-Skripts verwenden möchten, benötigen Sie Folgendes.
     - Office 365 Enterprise E5
     - Office 365 A3
     - Office 365 A5
+
+> [!NOTE]
+> Wenn Sie diese Anforderungen erfüllen und die Registerkarte **Automatisieren** immer noch nicht angezeigt wird, ist es möglich, dass Ihr Administrator das Feature deaktiviert hat oder ein anderes Problem mit Ihrer Umgebung vorliegt. Folgen Sie den Schritten unter [Automatisierungs-Registerkarte wird nicht angezeigt oder Office-Skripts sind nicht verfügbar](../testing/troubleshooting.md#automate-tab-not-appearing-or-office-scripts-unavailable), um Office-Skripts verwenden zu können.
 
 ## <a name="when-to-use-office-scripts"></a>Wann empfiehlt sich die Verwendung von Office-Skripts
 
@@ -66,10 +68,10 @@ Eine einfache Möglichkeit, die Fähigkeiten von Office-Skripts zu erlernen best
 
 Office-Skripts können für andere Benutzer einer Excel-Arbeitsmappe freigegeben werden. Wenn Sie ein Skript für andere Personen in einer Arbeitsmappe freigeben, wird das Skript an die Arbeitsmappe angefügt. Ihre Skripts werden in Ihrem OneDrive gespeichert. Wenn Sie ein Script freigeben, erstellen Sie einen Link zu diesem Skript in der geöffneten Arbeitsmappe.
 
-Weitere Informationen zur Freigabe und zum Aufheben der Freigabe von Scripts entnehmen Sie dem Artikel [Freigeben von Office-Skripts in Excel für das Web](https://support.microsoft.com/office/sharing-office-scripts-in-excel-for-the-web-226eddbc-3a44-4540-acfe-fccda3d1122b).
+Weitere Informationen zur Freigabe und zum Aufheben der Freigabe von Skripts entnehmen Sie dem Artikel [Freigeben von Office-Skripts in Excel für das Web](https://support.microsoft.com/office/sharing-office-scripts-in-excel-for-the-web-226eddbc-3a44-4540-acfe-fccda3d1122b).
 
 > [!NOTE]
-> Dadurch, dass Office-Skripts im OneDrive eines Benutzers gespeichert werden, folgen sie den gleichen Aufbewahrungs- und Löschrichtlinien. Wenn Sie wissen möchten, wie Skripts behandelt werden, die von einem Benutzer erstellt und freigegeben wurden, der aus Ihrer Organisation entfernt wird, lesen Sie [OneDrive Aufbewahrungs-und Löschvorgänge](/onedrive/retention-and-deletion).
+> Erfahren Sie mehr darüber, wie Skripts in ihrem OneDrive gespeichert werden: [Office-Skripts-Dateispeicher und -Besitz](script-storage.md).
 
 ## <a name="connecting-office-scripts-to-power-automate"></a>Verbinden von Office-Skripts mit Power Automate
 
@@ -86,4 +88,4 @@ Führen Sie die [Office-Skripts in Excel im Web-Lernprogramm](../tutorials/excel
 - [Behandeln von Problemen mit Office-Skripts](../testing/troubleshooting.md)
 - [Office-Skripts-Einstellungen in M365](https://support.office.com/article/office-scripts-settings-in-m365-19d3c51a-6ca2-40ab-978d-60fa49554dcf)
 - [Einführung in Office-Skripts in Excel (unter support.office.com)](https://support.office.com/article/introduction-to-office-scripts-in-excel-9fbe283d-adb8-4f13-a75b-a81c6baf163a)
-- [Office-Skripts in Excel für das Web](https://support.microsoft.com/office/sharing-office-scripts-in-excel-for-the-web-226eddbc-3a44-4540-acfe-fccda3d1122b?storagetype=live&ui=en-US&rs=en-US&ad=US)
+- [Office-Skripts in Excel für das Web](https://support.microsoft.com/office/sharing-office-scripts-in-excel-for-the-web-226eddbc-3a44-4540-acfe-fccda3d1122b)

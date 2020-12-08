@@ -1,14 +1,14 @@
 ---
 title: Übergeben von Daten zu Skripts in einem automatisch ausgeführten Power Automate-Datenfluss
 description: Ein Lernprogramm zum Ausführen von Office-Skripts für Excel im Web mithilfe von Power Automate, wenn E-Mails empfangen und Flussdaten an das Skript übergeben werden.
-ms.date: 07/24/2020
+ms.date: 11/30/2020
 localization_priority: Priority
-ms.openlocfilehash: f6842e27686909bad92138e6d2f9ac1892cac891
-ms.sourcegitcommit: ce72354381561dc167ea0092efd915642a9161b3
+ms.openlocfilehash: b73f40c70669fedbe8a0adcf346995cb20b62d37
+ms.sourcegitcommit: af487756dffea0f8f0cd62710c586842cb08073c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48319679"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "49571479"
 ---
 # <a name="pass-data-to-scripts-in-an-automatically-run-power-automate-flow-preview"></a>Übergeben von Daten zu Skripts in einem automatisch ausgeführten Power Automate-Datenfluss (Vorschau)
 
@@ -183,7 +183,7 @@ function main(
 
     - **Location**: OneDrive for Business
     - **Document Library**: OneDrive
-    - **File**: MeineArbeitsmappe. xlsx
+    - **File**: MyWorkbook.xlsx *(Ausgewählt über den Dateibrowser)*
     - **Script**: E-Mail aufzeichnen
     - **from**: Von *(dynamischer Inhalt aus Outlook)*
     - **dateReceived**: Uhrzeit des Empfangs *(dynamischer Inhalt aus Outlook)*
