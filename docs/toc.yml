@@ -1,60 +1,67 @@
-- name: Office Scripts-Dokumentation
-  href: index.md
-- name: Office-Skripts in Excel im Web
-  items:
-    - name: Übersicht
-      href: overview/excel.md
-    - name: Lernprogramme
-      items:
-        - name: Erlernen der Grundlagen von Office-Skripts
-          href: tutorials/excel-tutorial.md
-        - name: Lesen von Arbeitsmappendaten mit einem Skript
-          href: tutorials/excel-read-tutorial.md
-        - name: Aufrufen von Skripts aus einem manuellen Power Automate-Datenfluss
-          href: tutorials/excel-power-automate-manual.md
-        - name: Übergeben von Daten in einem automatisch ausgeführten Power Automate-Datenfluss
-          href: tutorials/excel-power-automate-trigger.md
-    - name: Grundlagen der Skript-Erstellung
-      href: develop/scripting-fundamentals.md
-    - name: Konzepte
-      items:
-        - name: Integrierte JavaScript-Objekte
-          href: develop/javascript-objects.md
-        - name: Umgebung des Code Editor
-          href: overview/code-editor-environment.md
-        - name: Unterschiede zwischen Office-Skripts und VBA-Makros
-          href: resources/vba-differences.md
-        - name: Unterschiede zwischen Office-Skripts und Office-Add-Ins
-          href: resources/add-ins-differences.md
-        - name: Externe API-Anruf Unterstützung in Office-Skripts
-          href: develop/external-calls.md
-        - name: Dateispeicher und Dateibesitz
-          href: overview/script-storage.md
-        - name: Ausführen von Skripts mit Power Automate
-          href: develop/power-automate-integration.md
-    - name: Problembehandlung
-      items:
-        - name: Grundlagen zur Problembehandlung
-          href: testing/troubleshooting.md
-        - name: Verbessern der Skriptleistung
-          href: develop/web-client-performance.md
-        - name: Plattform-Beschränkungen
-          href: testing/platform-limits.md
-        - name: Rückgängigmachen der Auswirkungen eines Office-Skripts
-          href: testing/undo.md
-        - name: Unterstützung älterer Office-Skripts
-          href: develop/excel-async-model.md
-    - name: Beispiele
-      items:
-        - name: Beispielskripts
-          href: resources/excel-samples.md
-        - name: Szenarien
-          items:
-            - name: Übersicht
-              href: resources/scenarios/sample-scenario-overview.md
-            - name: Analysieren von Webdownloads
-              href: resources/scenarios/analyze-web-downloads.md
-            - name: Bewertungsrechner
-              href: resources/scenarios/grade-calculator.md
-            - name: Aufgabenerinnerungen (mit Power Automate)
-              href: resources/scenarios/task-reminders.md
+items:
+  - name: Office Scripts-Dokumentation
+    href: index.md
+  - name: Office-Skripts in Excel im Web
+    items:
+      - name: Übersicht
+        href: overview/excel.md
+      - name: Lernprogramme
+        items:
+          - name: Erlernen der Grundlagen von Office-Skripts
+            href: tutorials/excel-tutorial.md
+          - name: Lesen von Arbeitsmappendaten mit einem Skript
+            href: tutorials/excel-read-tutorial.md
+          - name: Aufrufen von Skripts aus einem manuellen Power Automate-Datenfluss
+            href: tutorials/excel-power-automate-manual.md
+          - name: Daten in einem Skript aus einem automatisch ausgeführten Power Automate-Ablauf verwenden
+            href: tutorials/excel-power-automate-trigger.md
+          - name: Daten aus einem Skript an den Power Automate-Ablauf weitergeben
+            href: tutorials/excel-power-automate-returns.md
+      - name: Grundlagen der Skript-Erstellung
+        href: develop/scripting-fundamentals.md
+      - name: Konzepte
+        items:
+          - name: Integrierte JavaScript-Objekte
+            href: develop/javascript-objects.md
+          - name: Umgebung des Code Editor
+            href: overview/code-editor-environment.md
+          - name: Unterschiede zwischen Office-Skripts und VBA-Makros
+            href: resources/vba-differences.md
+          - name: Unterschiede zwischen Office-Skripts und Office-Add-Ins
+            href: resources/add-ins-differences.md
+          - name: Externe API-Anruf Unterstützung in Office-Skripts
+            href: develop/external-calls.md
+          - name: Dateispeicher und Dateibesitz
+            href: overview/script-storage.md
+          - name: Ausführen von Skripts mit Power Automate
+            href: develop/power-automate-integration.md
+      - name: Problembehandlung
+        items:
+          - name: Grundlagen zur Problembehandlung
+            href: testing/troubleshooting.md
+          - name: Problembehandlung mit Power Automate
+            href: testing/power-automate-troubleshooting.md
+          - name: Verbessern der Skriptleistung
+            href: develop/web-client-performance.md
+          - name: Plattform-Beschränkungen
+            href: testing/platform-limits.md
+          - name: Rückgängigmachen der Auswirkungen eines Office-Skripts
+            href: testing/undo.md
+          - name: Unterstützung älterer Office-Skripts
+            href: develop/excel-async-model.md
+      - name: Beispiele
+        items:
+          - name: Beispielskripts
+            href: resources/excel-samples.md
+          - name: Szenarien
+            items:
+              - name: Übersicht
+                href: resources/scenarios/sample-scenario-overview.md
+              - name: Analysieren von Webdownloads
+                href: resources/scenarios/analyze-web-downloads.md
+              - name: Bewertungsrechner
+                href: resources/scenarios/grade-calculator.md
+              - name: Graph Wasserstand-Daten aus NOAA
+                href: resources/scenarios/noaa-data-fetch.md
+              - name: Aufgabenerinnerungen (mit Power Automate)
+                href: resources/scenarios/task-reminders.md
