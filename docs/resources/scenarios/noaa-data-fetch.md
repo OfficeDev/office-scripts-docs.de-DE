@@ -1,16 +1,16 @@
 ---
 title: 'Beispielszenario für Office-Skripts: Graph:Daten zum Wasserstand von NOAA'
 description: Ein Beispiel, das JSON-Daten aus einer NOAA-Datenbank abruft und zum Erstellen eines Diagramms verwendet.
-ms.date: 01/05/2021
+ms.date: 01/11/2021
 localization_priority: Normal
-ms.openlocfilehash: d2afcd05125ea66c028d8e21bcc878371c20fcc3
-ms.sourcegitcommit: 30c4b731dc8d18fca5aa74ce59e18a4a63eb4ffc
+ms.openlocfilehash: 5b0b4e3675cbe053368f63123d819f0dab626e60
+ms.sourcegitcommit: 7580dcb8f2f97974c2a9cce25ea30d6526730e28
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "49784185"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "49867877"
 ---
-# <a name="office-scripts-sample-scenario-graph-water-level-data-from-noaa"></a>Beispielszenario für Office-Skripts: Graph:Daten zum Wasserstand von NOAA
+# <a name="office-scripts-sample-scenario-fetch-and-graph-water-level-data-from-noaa"></a>Beispielszenario für Office-Skripts: Abrufen und Graphen von Daten auf Wasserebene aus NOAA
 
 In diesem Szenario müssen Sie den Wasserstand an der Station ["National Oceanic and Vorführungsverwaltung" in Seattle ploten.](https://tidesandcurrents.noaa.gov/stationhome.html?id=9447130) Sie verwenden externe Daten, um eine Kalkulationstabelle zu füllen und ein Diagramm zu erstellen.
 
@@ -100,7 +100,7 @@ Sie entwickeln ein Skript, das den Befehl verwendet, um die `fetch` [NoAA-1-1-Da
     }
     ```
 
-1. Benennen Sie das Skript in **das NOAA-Wasserstandsdiagramm um,** und speichern Sie es.
+1. Benennen Sie das Skript in **"NOAA Water Level Chart" um,** und speichern Sie es.
 
 ## <a name="running-the-script"></a>Ausführen des Skripts
 
