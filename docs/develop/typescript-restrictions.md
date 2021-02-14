@@ -1,14 +1,14 @@
 ---
 title: Einschränkungen für TypeScript in Office Scripts
-description: 'Die Vom #A0 für #A1 verwendeten #A2 und Linter.'
-ms.date: 01/29/2021
+description: 'Die Vom Office Scripts Code Editor verwendeten #A0 und -Linter.'
+ms.date: 02/05/2021
 localization_priority: Normal
-ms.openlocfilehash: d67e208561ce6ddd706d4c80cf29d2f013a32032
-ms.sourcegitcommit: 98c7bc26f51dc8427669c571135c503d73bcee4c
+ms.openlocfilehash: 87a070b9f342fa5a1f5109fa647bba591832e0cf
+ms.sourcegitcommit: 345f1dd96d80471b246044b199fe11126a192a88
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "50125934"
+ms.lasthandoff: 02/14/2021
+ms.locfileid: "50242018"
 ---
 # <a name="typescript-restrictions-in-office-scripts"></a>Einschränkungen für TypeScript in Office Scripts
 
@@ -20,13 +20,13 @@ Office Scripts verwenden die TypeScript-Sprache. In den meisten Beispielen funkt
 
 ### <a name="explicit-any"></a>Explizit `any`
 
-Sie können eine Variable nicht explizit als Typ `any` in office-Skripts deklarieren (d. h. `let someVariable: any;` ). Der `any` Typ verursacht Probleme bei der Verarbeitung durch Excel. Ein Muss z. `Range` B. wissen, dass ein Wert ein `string` , oder `number` `boolean` ist. You will receive a compile-time error (an error prior to running the script) if any variable is explicitly defined as the `any` type in the script.
+Sie können eine Variable nicht explizit als Typ `any` in office-Skripts deklarieren (d. h. `let someVariable: any;` ). Der `any` Typ verursacht Probleme bei der Verarbeitung durch Excel. Beispielsweise muss ein `Range` Wissen, dass ein Wert ein `string` , `number` oder `boolean` ist. You will receive a compile-time error (an error prior to running the script) if any variable is explicitly defined as the `any` type in the script.
 
 ![Die explizite Beliebige Nachricht im Hovertext des Code-Editors](../images/explicit-any-editor-message.png)
 
 ![Der explizite Fehler im Konsolenfenster](../images/explicit-any-error-message.png)
 
-Im obigen Screenshot wird angegeben, dass #5, #16 `[5, 16] Explicit Any is not allowed` Typ `any` definiert. Auf diese Weise können Sie den Fehler ermitteln.
+Im obigen Screenshot wird angegeben, dass #5, #16 `[5, 16] Explicit Any is not allowed` Typ `any` definiert. Dadurch können Sie den Fehler ermitteln.
 
 Um dieses Problem zu beheben, definieren Sie immer den Typ der Variablen. Wenn Sie unsicher sind, welche Art von Variable Sie haben, können Sie einen [Vereinigungstyp verwenden.](https://www.typescriptlang.org/docs/handbook/unions-and-intersections.html) Dies kann für Variablen nützlich sein, die Werte enthalten, die vom Typ , oder (der Typ für Werte ist eine Vereinigung der `Range` `string` `number` `boolean` `Range` werte: ) sein können. `string | number | boolean`
 
@@ -62,9 +62,26 @@ Die folgenden Wörter können nicht als Bezeichner in einem Skript verwendet wer
 * `ExcelScript`
 * `console`
 
+## <a name="only-arrow-functions-in-array-callbacks"></a>Nur Pfeilfunktionen in Arrayrückrufen
+
+Ihre Skripts können nur [Pfeilfunktionen verwenden,](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Functions/Arrow_functions) wenn Sie Rückrufargumente für [Arraymethoden](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array) bereitstellen. Sie können keine Bezeichner oder herkömmliche Funktion an diese Methoden übergeben.
+
+```typescript
+const myArray = [1, 2, 3, 4, 5, 6];
+let filteredArray = myArray.filter((x) => {
+  return x % 2 === 0;
+});
+/*
+  The following code generates a compiler error in the Office Scripts Code Editor.
+  filteredArray = myArray.filter(function (x) {
+    return x % 2 === 0;
+  });
+*/
+```
+
 ## <a name="performance-warnings"></a>Leistungswarnungen
 
-Der [Linter](https://wikipedia.org/wiki/Lint_(software)) des Codeeditors gibt Warnungen aus, wenn beim Skript Leistungsprobleme auftreten können. Die Fälle und deren Umarbeitung sind unter "Verbessern der Leistung Ihrer [Office-Skripts" dokumentiert.](web-client-performance.md)
+Der [Linter](https://wikipedia.org/wiki/Lint_(software)) des Codeeditors gibt Warnungen aus, wenn beim Skript Leistungsprobleme auftreten können. Die Fälle und deren Umarbeitung sind unter "Verbessern der Leistung [Ihrer Office-Skripts" dokumentiert.](web-client-performance.md)
 
 ## <a name="external-api-calls"></a>Externe API-Aufrufe
 
