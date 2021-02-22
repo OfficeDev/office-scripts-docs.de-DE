@@ -1,14 +1,14 @@
 ---
 title: Übergeben von Daten zu Skripts in einem automatisch ausgeführten Power Automate-Datenfluss
 description: Ein Lernprogramm zum Ausführen von Office-Skripts für Excel im Web mithilfe von Power Automate, wenn E-Mails empfangen und Flussdaten an das Skript übergeben werden.
-ms.date: 11/30/2020
+ms.date: 12/28/2020
 localization_priority: Priority
-ms.openlocfilehash: b73f40c70669fedbe8a0adcf346995cb20b62d37
-ms.sourcegitcommit: af487756dffea0f8f0cd62710c586842cb08073c
+ms.openlocfilehash: 3f81ac13b0827f27adc611895d6bb090df10da5c
+ms.sourcegitcommit: 9df67e007ddbfec79a7360df9f4ea5ac6c86fb08
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/04/2020
-ms.locfileid: "49571479"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "49772992"
 ---
 # <a name="pass-data-to-scripts-in-an-automatically-run-power-automate-flow-preview"></a>Übergeben von Daten zu Skripts in einem automatisch ausgeführten Power Automate-Datenfluss (Vorschau)
 
@@ -23,11 +23,11 @@ In diesem Lernprogramm erfahren Sie, wie Sie ein Office-Skript für Excel im Web
 
 ## <a name="prepare-the-workbook"></a>Vorbereiten der Arbeitsmappe
 
-Power Automation kann [relative Bezüge](../develop/power-automate-integration.md#avoid-using-relative-references) wie `Workbook.getActiveWorksheet` nicht verwenden, um auf Arbeitsmappenfunktionen zuzugreifen. Deshalb benötigen wir eine Arbeitsmappe und ein Arbeitsblatt mit konsistenten Namen, die Power Automate als Referenz verwenden kann.
+Power Automate sollte für den Zugriff auf Arbeitsmappenkomponenten keine [relativen Bezüge](../testing/power-automate-troubleshooting.md#avoid-using-relative-references) wie `Workbook.getActiveWorksheet` verwenden. Deshalb benötigen wir eine Arbeitsmappe und ein Arbeitsblatt mit konsistenten Namen, die Power Automate als Referenz verwenden kann.
 
 1. Erstellen Sie eine neue Arbeitsmappe mit dem Namen **Mein Arbeitsblatt**.
 
-2. Wechseln Sie zur Registerkarte **Automate**, und wählen Sie **Code Editor** aus.
+2. Wechseln Sie zur Registerkarte **Automatisieren**, und wählen Sie **Alle Skripts** aus.
 
 3. Wählen Sie **New Script** aus.
 
@@ -60,7 +60,7 @@ Power Automation kann [relative Bezüge](../develop/power-automate-integration.m
 
 Jetzt erstellen Sie ein Skript, das Informationen aus einer E-Mail protokolliert. Wir möchten wissen, an welchen Wochentagen die meisten E-Mails empfangen werden und wie viele eindeutige Absender diese E-Mails senden. Die Arbeitsmappe enthält eine Tabelle mit den Spalten **Date**, **Day of the week**, **Email address** und **Subject**. Unser Arbeitsblatt enthält außerdem eine PivotTable, die die Spalten **Day of the week** und **Email address** verwendet (dabei handelt es sich um die Zeilenhierarchien). Die Anzahl eindeutiger **Themen** entspricht den aggregierten Informationen, die angezeigt werden (die Datenhierarchie). Nachdem die E-Mail-Tabelle aktualisiert wurde, wird auch das Skript aktualisiert.
 
-1. Wählen Sie im **Code-Editor** die Option **New Script** aus.
+1. Wählen Sie im Aufgabenbereich **Code-Editor** die Option **Neues Skript** aus.
 
 2. Der Datenstrom, den wir später im Lernprogramm erstellen, sendet die Skriptinformationen zu jeder empfangenen E-Mail-Nachricht. Das Skript muss diese Eingabe über Parameter in der `main`-Funktion akzeptieren. Ersetzen Sie das Standardskript durch das folgende Skript:
 
@@ -156,15 +156,15 @@ function main(
 
 2. Klicken Sie in dem Menü, das auf der linken Seite des Bildschirms angezeigt wird, auf **Create**. Damit gelangen Sie zur Liste der Möglichkeiten zum Erstellen neuer Workflows.
 
-    ![Die Schaltfläche „Erstellen“ in Power Automate.](../images/power-automate-tutorial-1.png)
+    ![Die Schaltfläche „Erstellen“ in Power Automate](../images/power-automate-tutorial-1.png)
 
 3. Wählen Sie im Abschnitt **Start from blank** die Option **Automated flow** aus. Dadurch wird ein Workflow erstellt, der von einem Ereignis ausgelöst wird, z. B. das Empfangen einer E-Mail.
 
-    ![Die Option für dem automatisiertem Fluss in Power Automate.](../images/power-automate-params-tutorial-1.png)
+    ![Die Option für den automatisierten Flow in Power Automate](../images/power-automate-params-tutorial-1.png)
 
 4. Geben Sie im daraufhin angezeigten Dialogfenster einen Namen für den Fluss im Textfeld **Flow name** ein. Wählen Sie dann **When a new email arrives** aus der Liste der Optionen unter **Choose your flow's trigger** aus. Möglicherweise müssen Sie mithilfe des Suchfelds nach der Option suchen. Klicken Sie abschließend **Create**.
 
-    ![Ein Teil des Fensters zum Erstellen eines automatisierten Flusses in Power Automate, das die Option „Neue E-Mail trifft ein“ zeigt.](../images/power-automate-params-tutorial-2.png)
+    ![Ein Teil des Fensters zum Erstellen eines automatisierten Flows in Power Automate, das die Option „Neue E-Mail trifft ein“ zeigt](../images/power-automate-params-tutorial-2.png)
 
     > [!NOTE]
     > In diesem Lernprogramm wird Outlook verwendet. Sie können stattdessen Ihren bevorzugten E-Mail-Dienst verwenden, obwohl einige Optionen unterschiedlich sein können.
@@ -173,11 +173,11 @@ function main(
 
 6. Wählen Sie die Registerkarte **Standard** aus, und wählen Sie dann **Excel Online (Business)** aus.
 
-    ![Die Power Automate-Option für Excel Online (Business).](../images/power-automate-tutorial-4.png)
+    ![Excel Online (Business)-Option in Power Automate](../images/power-automate-tutorial-4.png)
 
 7. Wählen Sie unter **Actions** die Option **Run script (preview)** aus.
 
-    ![Die Power Automate-Aktionsoption für „Run script (preview)“.](../images/power-automate-tutorial-5.png)
+    ![Aktionsoption „Skript ausführen (Vorschau)“ in Power Automate](../images/power-automate-tutorial-5.png)
 
 8. Als Nächstes wählen Sie die Arbeitsmappe, das Skript und die Eingabeargumente für das Skript aus, die im Datenfluss-Schritt verwendet werden sollen. In diesem Lernprogramm verwenden Sie die Arbeitsmappe, die Sie in Ihrem OneDrive erstellt haben. Sie könnten jedoch jede beliebige Arbeitsmappe auf einer OneDrive- oder SharePoint-Website verwenden. Geben Sie die folgenden Einstellungen für den Konnektor **Run script** an:
 
@@ -191,7 +191,7 @@ function main(
 
     *Beachten Sie, dass die Parameter für das Skript nur angezeigt werden, wenn das Skript ausgewählt wurde.*
 
-    ![Parameter der Aktionsoption "Power Automation" für "Skript ausführen" (Vorschau).](../images/power-automate-params-tutorial-3.png)
+    ![Parameter der Aktionsoption „Skript ausführen (Vorschau)“ in Power Automate](../images/power-automate-params-tutorial-3.png)
 
 9. Klicken Sie auf **Save**.
 
@@ -201,7 +201,7 @@ Der Fluss ist nun aktiviert. Er wird das Skript automatisch jedes Mal ausführen
 
 1. Wählen Sie auf der Hauptseite der Power Automate-Seite **My Flows** aus.
 
-    ![Die Schaltfläche „My Flows“ in Power Automate.](../images/power-automate-tutorial-7.png)
+    ![Die Schaltfläche „Meine Flows“ in Power Automate](../images/power-automate-tutorial-7.png)
 
 2. Wählen Sie Ihren Flow aus. Hier sehen Sie den Ausführungsverlauf. Sie können die Seite aktualisieren, oder Sie können auf die Schaltfläche **All runs** klicken, um den Verlauf zu aktualisieren. Der Flow wird kurz nach Empfang einer E-Mail ausgelöst. Testen Sie den Flow durch Senden von E-Mails.
 
@@ -213,6 +213,6 @@ Wenn der Flow ausgelöst und das Skript erfolgreich ausgeführt wird, sollten di
 
 ## <a name="next-steps"></a>Nächste Schritte
 
-Besuchen Sie [Ausführen von Office-Skripts mit Power Automate](../develop/power-automate-integration.md), um mehr über das Verbinden von Office-Skripts mit Power Automate zu erfahren.
+Schließen Sie das Tutorial[Zurückgeben von Daten aus einem Skript an einen automatisch ausgeführten Power Automate-Flow](excel-power-automate-returns.md) ab. Hier lernen Sie, wie Sie Daten aus einem Skript an den Flow zurückgeben.
 
 Sie können sich auch das Beispielszenario [Automatisierte Aufgabenerinnerungen](../resources/scenarios/task-reminders.md) ansehen, um zu erfahren, wie Sie Office-Skripts und Power Automate mit Teams Adaptive Cards kombinieren können.

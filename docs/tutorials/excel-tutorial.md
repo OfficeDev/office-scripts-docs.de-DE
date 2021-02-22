@@ -1,14 +1,14 @@
 ---
 title: Aufzeichnen, Bearbeiten und Erstellen von Office-Skripts in Excel im Web
 description: Dies ist ein Lernprogramm zu den Grundlagen von Office-Skripts, einschließlich dem Aufzeichnen von Skripts mithilfe der Aktionsaufzeichnung und dem Schreiben von Daten in eine Arbeitsmappe.
-ms.date: 07/21/2020
+ms.date: 01/06/2021
 localization_priority: Priority
-ms.openlocfilehash: 96bdc286883d87249de260666c7c8ffe2c94cc0f
-ms.sourcegitcommit: ff7fde04ce5a66d8df06ed505951c8111e2e9833
+ms.openlocfilehash: fa2fec54cdb0289590868ee6848a942401f21665
+ms.sourcegitcommit: 9df67e007ddbfec79a7360df9f4ea5ac6c86fb08
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/11/2020
-ms.locfileid: "46616773"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "49772978"
 ---
 # <a name="record-edit-and-create-office-scripts-in-excel-on-the-web"></a>Aufzeichnen, Bearbeiten und Erstellen von Office-Skripts in Excel im Web
 
@@ -49,7 +49,7 @@ Zuerst benötigen wir einige Daten und ein kleines Startskript.
 
     Ihr Arbeitsblatt sollte wie folgt aussehen (machen Sie sich keine Sorgen, wenn die Farbe anders ist):
 
-    ![Eine Zeile mit Obst-Umsatzdaten mit hervorgehobener orangefarbener Zeile "Orangen".](../images/tutorial-1.png)
+    ![Eine Zeile mit Obst-Umsatzdaten mit hervorgehobener orangefarbener Zeile „Orangen“](../images/tutorial-1.png)
 
 ## <a name="edit-an-existing-script"></a>Bearbeiten eines vorhandenen Skripts
 
@@ -78,7 +78,7 @@ Das vorherige Skript hat die Zeile "Orangen" orangefarben eingefärbt. Jetzt fü
 
 4. Testen Sie das Skript, indem Sie **Ausführen** drücken. Ihre Arbeitsmappe sollte nun wie folgt aussehen:
 
-    ![Eine Zeile mit Obst-Umsatzdaten mit orangefarben hervorgehobener Zeile "Orangen" und einer gelb hervorgehobenen Zeile "Zitronen".](../images/tutorial-2.png)
+    ![Eine Zeile mit Obst-Umsatzdaten mit orangefarben hervorgehobener Zeile „Orangen“ und einer gelb hervorgehobenen Zeile „Zitronen“](../images/tutorial-2.png)
 
 ## <a name="create-a-table"></a>Erstellen einer Tabelle
 
@@ -100,7 +100,7 @@ Wandeln wir diese Obst-Umsatzdaten in eine Tabelle um. Wir verwenden unser Skrip
 
     ```TypeScript
     function main(workbook: ExcelScript.Workbook) {
-        // Set fill color to FFC000 for range Sheet12!A2:C2
+        // Set fill color to FFC000 for range Sheet1!A2:C2
         let selectedSheet = workbook.getActiveWorksheet();
         selectedSheet.getRange("A2:C2").getFormat().getFill().setColor("FFC000");
         selectedSheet.getRange("A3:C3").getFormat().getFill().setColor("yellow");
@@ -113,7 +113,7 @@ Wandeln wir diese Obst-Umsatzdaten in eine Tabelle um. Wir verwenden unser Skrip
 
 3. Führen Sie das Skript aus. Es sollte eine Tabelle wie die folgende angezeigt werden:
 
-    ![Eine Tabelle mit sortierten Obst-Umsatzdaten.](../images/tutorial-3.png)
+    ![Eine Tabelle mit sortierten Obst-Umsatzdaten](../images/tutorial-3.png)
 
     > [!NOTE]
     > Wenn Sie das Skript erneut ausführen, wird eine Fehlermeldung angezeigt. Der Grund dafür ist, dass Sie keine Tabelle über eine andere Tabelle erstellen können. Sie können das Skript jedoch auf ein anderes Arbeitsblatt oder eine andere Arbeitsmappe anwenden.

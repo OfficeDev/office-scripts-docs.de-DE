@@ -1,14 +1,14 @@
 ---
 title: Lesen Sie Arbeitsmappendaten mit Office-Skripts in Excel im Web
 description: Ein Office Skripts-Lernprogramm zum Lesen von Daten aus Arbeitsmappen und zum Auswerten dieser Daten im Skript.
-ms.date: 07/20/2020
+ms.date: 01/06/2021
 localization_priority: Priority
-ms.openlocfilehash: cdd09f13bb53cfff8c051360f2306cdb6956d86d
-ms.sourcegitcommit: ff7fde04ce5a66d8df06ed505951c8111e2e9833
+ms.openlocfilehash: 0848a24e7333842b5b3b1f82ec8f270514c34d2f
+ms.sourcegitcommit: 9df67e007ddbfec79a7360df9f4ea5ac6c86fb08
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/11/2020
-ms.locfileid: "46616707"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "49772971"
 ---
 # <a name="read-workbook-data-with-office-scripts-in-excel-on-the-web"></a>Lesen Sie Arbeitsmappendaten mit Office-Skripts in Excel im Web
 
@@ -42,7 +42,7 @@ Im weiteren Verlauf des Lernprogramms werden diese Daten mithilfe eines Skripts 
     |25.10.2019 |Wird geprüft |Best For You Organics Company | -85.64 | |
     |01.11.2019 |Wird geprüft |Externe Einzahlung | |1000 |
 
-3. Öffnen Sie den **Code-Editor**, und wählen Sie **Neuer Skript**aus.
+3. Öffnen Sie **Alle Skripts** und wählen Sie **Neues Skript** aus.
 4. Lassen Sie uns die Formatierung zurechtmachen. Dies ist ein Finanzdokument. Ändern Sie daher die Zahlenformatierung in den Spalten **Lastschrift** und **Gutschrift**, um Werte als Dollarbeträge anzuzeigen. Passen wir auch die Spaltenbreite an die Daten an.
 
     Ersetzen Sie den Skriptinhalt durch den folgenden Code:
@@ -73,21 +73,22 @@ Im weiteren Verlauf des Lernprogramms werden diese Daten mithilfe eines Skripts 
 8. Wenn ein zweidimensionales Array in der Konsole protokolliert wird, werden Spaltenwerte unter jeder Zeile gruppiert. Erweitern Sie das Array-Protokoll, indem Sie auf das blaue Dreieck klicken.
 9. Erweitern Sie die zweite Ebene des Arrays, indem Sie auf das neu aufgedeckte blaue Dreieck klicken. Sie sollten jetzt Folgendes sehen:
 
-    ![Das Konsolenprotokoll mit der Ausgabe "-20.05", verschachtelt unter zwei Arrays.](../images/tutorial-4.png)
+    ![Das Konsolenprotokoll mit der Ausgabe „-20.05“, verschachtelt unter zwei Arrays](../images/tutorial-4.png)
 
 ## <a name="modify-the-value-of-a-cell"></a>Ändern Sie den Wert einer Zelle
 
 Nachdem wir nun Daten lesen können, verwenden wir diese Daten, um die Arbeitsmappe zu ändern. Wir werden den Wert der Zelle **D2** mit der `Math.abs` Funktion positiv machen. Das [Math](https://developer.mozilla.org/docs/web/javascript/reference/global_objects/math)-Objekt enthält viele Funktionen, auf die Ihre Skripte Zugriff haben. Weitere Informationen zu `Math` und andere integrierte Objekte finden Sie unter [Verwenden von integrierten JavaScript-Objekten in Office-Skripts](../develop/javascript-objects.md).
 
-1. Fügen Sie am Ende des Skripts den folgenden Code hinzu:
+1. Sie ändern den Wert der Zelle mithilfe der Methoden `getValue` und `setValue`. Diese Methoden funktionieren bei einer einzelnen Zelle. Wenn Sie mehrere Zellbereiche bearbeiten möchten, verwenden Sie `getValues` und `setValues`. Fügen Sie am Ende des Skripts den folgenden Code hinzu:
 
     ```TypeScript
     // Run the `Math.abs` function with the value at D2 and apply that value back to D2.
-    let positiveValue = Math.abs(range.getValue());
+    let positiveValue = Math.abs(range.getValue() as number);
     range.setValue(positiveValue);
     ```
 
-    Bitte beachten Sie, dass wir `getValue` und `setValue` verwenden. Diese Methoden funktionieren bei einer einzelnen Zelle. Wenn Sie mehrere Zellbereiche bearbeiten möchten, verwenden Sie `getValues` und `setValues`.
+    > [!NOTE]
+    > Der zurückgegebene Wert wird unter Verwendung des Schlüsselworts `as` von `range.getValue()`in `number` [umgewandelt](https://www.typescripttutorial.net/typescript-tutorial/type-casting/). Dies ist notwendig, da ein Bereich aus Zeichenfolgen, Zahlen oder booleschen Werten bestehen kann. In diesem Fall wird explizit eine Zahl benötigt.
 
 2. Der Wert von Zelle **D2** sollte jetzt positiv sein.
 
@@ -124,13 +125,13 @@ Nachdem wir nun wissen, wie man in eine einzelne Zelle liest und schreibt, veral
     for (let i = 1; i < rowCount; i++) {
         // The column at index 3 is column "4" in the worksheet.
         if (rangeValues[i][3] != 0) {
-            let positiveValue = Math.abs(rangeValues[i][3]);
+            let positiveValue = Math.abs(rangeValues[i][3] as number);
             selectedSheet.getCell(i, 3).setValue(positiveValue);
         }
 
         // The column at index 4 is column "5" in the worksheet.
         if (rangeValues[i][4] != 0) {
-            let positiveValue = Math.abs(rangeValues[i][4]);
+            let positiveValue = Math.abs(rangeValues[i][4] as number);
             selectedSheet.getCell(i, 4).setValue(positiveValue);
         }
     }
@@ -142,7 +143,7 @@ Nachdem wir nun wissen, wie man in eine einzelne Zelle liest und schreibt, veral
 
     Ihr Kontoauszug sollte nun folgendermaßen aussehen:
 
-    ![Der Kontoauszug als formatierte Tabelle mit nur positiven Werten.](../images/tutorial-5.png)
+    ![Der Kontoauszug als formatierte Tabelle mit nur positiven Werten](../images/tutorial-5.png)
 
 ## <a name="next-steps"></a>Nächste Schritte
 
