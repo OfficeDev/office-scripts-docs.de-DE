@@ -1,0 +1,233 @@
+---
+title: Senden einer Teams-Besprechung aus Excel-Daten
+description: Erfahren Sie, wie Sie Office-Skripts verwenden, um eine Teams-Besprechung aus Excel-Daten zu senden.
+ms.date: 03/30/2021
+localization_priority: Normal
+ms.openlocfilehash: 807c9228049504c089c8dafe63a5d9ccaab94399
+ms.sourcegitcommit: 5d24e77df70aa2c1c982275d53213c2a9323ff86
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51571533"
+---
+# <a name="send-teams-meeting-from-excel-data"></a>Senden von Teams-Besprechungen aus Excel-Daten
+
+Diese Lösung zeigt, wie Sie Office-Skripts und Power Automate-Aktionen verwenden, um Zeilen aus der Excel-Datei auszuwählen und sie zum Senden einer Teams-Besprechungs-Einladung zu verwenden und dann Excel zu aktualisieren.
+
+## <a name="example-scenario"></a>Beispielszenario
+
+* Ein Personalreferent verwaltet den Interviewzeitplan von Kandidaten in einer Excel-Datei.
+* Der Personalreferent muss die Teams-Besprechungs-Einladung an den Kandidaten und die Interviewer senden. Die Geschäftsregeln sind:
+
+    (a) Lädt nur diejenigen ein, für die die Einladung noch nicht wie in der Dateispalte aufgezeichnet gesendet wurde.
+
+    (b) Interviewtermine in der Zukunft (keine vergangenen Datumsangaben).
+
+* Der Personalreferent muss die Excel-Datei mit der Bestätigung aktualisieren, dass alle Teams-Besprechungen für die berechtigten Datensätze gesendet wurden.
+
+Die Lösung besteht aus drei Teilen:
+
+1. Office Script zum Extrahieren von Daten aus einer Tabelle basierend auf Bedingungen und gibt ein Array von Objekten als JSON-Daten zurück.
+1. Die Daten werden dann an die Teams **Create a Teams meeting action** to send invites gesendet. Senden Sie eine Teams-Besprechung pro Instanz im JSON-Array.
+1. Senden Sie dieselben JSON-Daten an ein anderes Office-Skript, um den Status der Einladung zu aktualisieren.
+
+## <a name="sample-excel-file"></a>Beispiel-Excel-Datei
+
+Laden Sie die Datei <a href="hr-schedule.xlsx">hr-schedule.xlsx, </a> die in dieser Lösung verwendet wird, herunter, und testen Sie sie selbst!
+
+## <a name="sample-code-select-filtered-rows-from-table-as-json"></a>Beispielcode: Wählen Sie gefilterte Zeilen aus der Tabelle als JSON aus.
+
+```TypeScript
+function main(workbook: ExcelScript.Workbook): InterviewInvite[] {
+  console.log("Current date time: " + new Date().toUTCString())
+  const MEETING_DURATION = workbook.getNamedItem('MeetingDuration').getRange().getValue() as number;
+  const sheet = workbook.getWorksheet('Interviews');
+  const table = sheet.getTables()[0];
+  const dataRows: string[][] = table.getRange().getTexts();
+  // OR use the following statement if there's no table:
+  // let dataRows = sheet.getUsedRange().getValues();
+  const selectedRows = dataRows.filter((row, i) => {
+    // Select header row and any data row with the status column equal to approach value.
+    return (row[1] === 'FALSE' || i === 0)
+  })
+  const recordDetails: RecordDetail[] = returnObjectFromValues(selectedRows as string[][]);
+  const inviteRecords = generateInterviewRecords(recordDetails, MEETING_DURATION);
+  console.log(JSON.stringify(inviteRecords));
+  return inviteRecords;
+}
+
+/**
+ * This helper function converts table values into an object array.
+ */
+function returnObjectFromValues(values: string[][]): RecordDetail[] {
+  let objArray: BasicObj[] = [];
+  let objKeys: string[] = [];
+  for (let i = 0; i < values.length; i++) {
+    if (i === 0) {
+      objKeys = values[i]
+      continue;
+    }
+    let obj = {}
+    for (let j = 0; j < values[i].length; j++) {
+      obj[objKeys[j]] = values[i][j]
+    }
+    objArray.push(obj);
+  }
+  return objArray as RecordDetail[];
+}
+
+/**
+ * Generate interview records by selecting required columns.
+ * @param records Input records
+ * @param mins Number of minutes to add to the start date-time
+ */
+function generateInterviewRecords(records: RecordDetail[], mins: number): InterviewInvite[] {
+  const interviewInvites: InterviewInvite[] = []
+
+  records.forEach((record) => {
+    // Interviewer 1
+    // If the start date-time is greater than current date-time, add to output records.
+    if ((new Date(record['Start time1'])) > new Date()) {
+      console.log("selected " + new Date(record['Start time1']).toUTCString());
+      let startTime = new Date(record['Start time1']).toISOString();
+      // Compute the finish time of the meeting.
+      let finishTime = addMins(new Date(record['Start time1']), mins).toISOString();
+      interviewInvites.push({
+        ID: record.ID,
+        Candidate: record.Candidate,
+        CandidateEmail: record['Candidate email'] as string,
+        CandidateContact: record['Candidate contact'] as string,
+        Interviewer: record.Interviewer1,
+        InterviewerEmail: record['Interviewer1 email'],
+        StartTime: startTime,
+        FinishTime: finishTime
+      })
+    } else {
+      console.log("Rejected " + (new Date(record['Start time1']).toUTCString()))
+    }
+    // Interviewer 2 
+    // If the start date-time is greater than current date-time, add to output records.
+    if ((new Date(record['Start time2'])) > new Date()) {
+      console.log("selected " + new Date(record['Start time2']).toUTCString());
+
+
+      let startTime = new Date(record['Start time2']).toISOString();
+      // Compute the finish time of the meeting.
+      let finishTime = addMins(new Date(record['Start time2']), mins).toISOString();
+      interviewInvites.push({
+        ID: record.ID,
+        Candidate: record.Candidate,
+        CandidateEmail: record['Candidate email'] as string,
+        CandidateContact: record['Candidate contact'] as string,
+        Interviewer: record.Interviewer2,
+        InterviewerEmail: record['Interviewer2 email'],
+        StartTime: startTime,
+        FinishTime: finishTime
+      })
+    } else {
+      console.log("Rejected " + (new Date(record['Start time2']).toUTCString()))
+
+    }
+  })
+  return interviewInvites;
+}
+
+/**
+ * Add minutes to start date-time.
+ * @param startDateTime Start date-time
+ * @param mins Minutes to add to the start date-time
+ */
+function addMins(startDateTime: Date, mins: number) {
+  return new Date(startDateTime.getTime() + mins * 60 * 1000);
+}
+
+// Basic key-value pair object.
+interface BasicObj {
+  [key: string]: string | number | boolean
+}
+
+// Input record that matches the table data.
+interface RecordDetail extends BasicObj {
+  ID: string
+  'Invite to interview': string
+  Candidate: string
+  'Candidate email': string
+  'Candidate contact': string
+  Interviewer1: string
+  'Interviewer1 email': string
+  Interviewer2: string
+  'Interviewer2 email': string
+  'Start time1': string
+  'Start time2': string
+}
+
+// Output record.
+interface InterviewInvite extends BasicObj {
+  ID: string
+  Candidate: string
+  CandidateEmail: string
+  CandidateContact: string
+  Interviewer: string
+  InterviewerEmail: string
+  StartTime: string
+  FinishTime: string
+}
+```
+
+## <a name="sample-code-mark-as-invited"></a>Beispielcode: Als eingeladen markieren
+
+```TypeScript
+function main(workbook: ExcelScript.Workbook, completedInvitesString: string) {
+    completedInvitesString = `[
+  {
+    "ID": "10",
+    "Candidate": "Adele ",
+    "CandidateEmail": "AdeleV@M365x904181.OnMicrosoft.com",
+    "CandidateContact": "1234567899",
+    "Interviewer": "Megan",
+    "InterviewerEmail": "MeganB@M365x904181.OnMicrosoft.com",
+    "StartTime": "2020-11-03T18:30:00Z",
+    "FinishTime": "2020-11-03T22:45:00Z"
+  },
+  {
+    "ID": "30",
+    "Candidate": "Allan ",
+    "CandidateEmail": "AllanD@M365x904181.OnMicrosoft.com",
+    "CandidateContact": "1234567978",
+    "Interviewer": "Raul",
+    "InterviewerEmail": "RaulR@M365x904181.OnMicrosoft.com",
+    "StartTime": "2020-11-03T23:00:00Z",
+    "FinishTime": "2020-11-03T23:45:00Z"
+  }
+]`;
+    let completedInvites = JSON.parse(completedInvitesString) as InterviewInvite[];
+    const sheet = workbook.getWorksheet('Interviews');
+    const range = sheet.getTables()[0].getRange();
+    const dataRows = range.getValues();
+    for (let i=0; i < dataRows.length; i++) {
+        for (let invite of completedInvites) {
+            if (String(dataRows[i][0]) === invite.ID) {
+                range.getCell(i,1).setValue(true);
+            }
+        }
+    }
+    return;
+}
+
+
+// Invite record.
+interface InterviewInvite  {
+    ID: string
+    Candidate: string
+    CandidateEmail: string
+    CandidateContact: string
+    Interviewer: string
+    InterviewerEmail: string
+    StartTime: string
+    FinishTime: string
+}
+```
+
+## <a name="training-video-send-a-teams-meeting-from-excel-data"></a>Schulungsvideo: Senden einer Teams-Besprechung aus Excel-Daten
+
+[![Schritt-für-Schritt-Video zum Senden einer Teams-Besprechung aus Excel-Daten ansehen](../../images/teams-invite-vid.jpg)](https://youtu.be/HyBdx52NOE8 "Schrittweises Video zum Senden einer Teams-Besprechung aus Excel-Daten")

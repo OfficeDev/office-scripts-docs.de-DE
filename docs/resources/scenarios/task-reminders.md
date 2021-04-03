@@ -1,24 +1,24 @@
 ---
-title: 'Beispielszenario für Office-Skripts: automatische Aufgaben Erinnerungen'
-description: Ein Beispiel, das Power automatisieren und Adaptive Karten zum Automatisieren von Aufgaben Erinnerungen in einer Project Management-Kalkulationstabelle verwendet.
+title: 'Beispielszenario für Office-Skripts: Automatisierte Aufgabenerinnerungen'
+description: Ein Beispiel, das Power Automate und adaptive Karten verwendet, automatisiert Aufgabenerinnerungen in einer Projektverwaltungskalkulationstabelle.
 ms.date: 11/30/2020
 localization_priority: Normal
-ms.openlocfilehash: 90769eca0201e450e25778db0eb5c62284b9feb0
-ms.sourcegitcommit: af487756dffea0f8f0cd62710c586842cb08073c
+ms.openlocfilehash: 342abced09119ff286f87c1425e44f9186dc4488
+ms.sourcegitcommit: 5d24e77df70aa2c1c982275d53213c2a9323ff86
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/04/2020
-ms.locfileid: "49571451"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51570227"
 ---
-# <a name="office-scripts-sample-scenario-automated-task-reminders"></a>Beispielszenario für Office-Skripts: automatische Aufgaben Erinnerungen
+# <a name="office-scripts-sample-scenario-automated-task-reminders"></a>Beispielszenario für Office-Skripts: Automatisierte Aufgabenerinnerungen
 
-In diesem Szenario werden Sie ein Projekt verwalten. Sie verwenden ein Excel-Arbeitsblatt, um den Status Ihrer Mitarbeiter monatlich nachzuverfolgen. Sie müssen die Benutzer häufig darauf hinweisen, dass Sie Ihren Status ausfüllen, sodass Sie sich entschieden haben, diesen erinnerungsprozess zu automatisieren.
+In diesem Szenario verwalten Sie ein Projekt. Sie verwenden ein Excel-Arbeitsblatt, um den Status Ihrer Mitarbeiter jeden Monat nachverfolgt zu haben. Sie müssen die Personen häufig daran erinnern, ihren Status zu füllen, daher haben Sie sich entschieden, diesen Erinnerungsprozess zu automatisieren.
 
-Sie erstellen einen Power-Automatisierungs Fluss für Nachrichten Personen mit fehlenden Statusfeldern und wenden ihre Antworten auf das Arbeitsblatt an. Dazu entwickeln Sie ein Skript paar zur Verarbeitung der Arbeitsmappe. Das erste Skript ruft eine Liste von Personen mit leeren Status ab, und das zweite Skript fügt der rechten Zeile eine Statuszeichenfolge hinzu. Sie verwenden auch [Adaptive Teams-Karten](/microsoftteams/platform/task-modules-and-cards/what-are-cards) , damit Mitarbeiter Ihren Status direkt aus der Benachrichtigung eingeben können.
+Sie erstellen einen Power Automate-Fluss, um Personen mit fehlenden Statusfeldern zu senden und deren Antworten auf das Arbeitsblatt anzuwenden. Dazu entwickeln Sie ein Skriptpaar, um die Arbeit mit der Arbeitsmappe zu verarbeiten. Das erste Skript ruft eine Liste von Personen mit leeren Status ab, und das zweite Skript fügt der rechten Zeile eine Statuszeichenfolge hinzu. Sie verwenden auch adaptive [Teams-Karten,](/microsoftteams/platform/task-modules-and-cards/what-are-cards) damit Mitarbeiter ihren Status direkt aus der Benachrichtigung eingeben können.
 
-## <a name="scripting-skills-covered"></a>Abgedeckte Skript Fertigkeiten
+## <a name="scripting-skills-covered"></a>Abgedeckte Skriptkenntnisse
 
-- Erstellen von Flows in Power Automation
+- Erstellen von Flüssen in Power Automate
 - Übergeben von Daten an Skripts
 - Zurückgeben von Daten aus Skripts
 - Adaptive Teams-Karten
@@ -26,19 +26,19 @@ Sie erstellen einen Power-Automatisierungs Fluss für Nachrichten Personen mit f
 
 ## <a name="prerequisites"></a>Voraussetzungen
 
-Dieses Szenario verwendet [Power Automation](https://flow.microsoft.com) und [Microsoft Teams](https://www.microsoft.com/microsoft-365/microsoft-teams/group-chat-software). Sie müssen beide mit dem Konto verbunden sein, das Sie für die Entwicklung von Office-Skripts verwenden. Für den kostenlosen Zugriff auf ein Microsoft Developer-Abonnement, um mehr über diese Anwendungen zu erfahren und mit diesen zu arbeiten, sollten Sie sich an das [Microsoft 365 Developer Program](https://developer.microsoft.com/microsoft-365/dev-program)anschließen.
+In diesem Szenario werden [Power Automate und](https://flow.microsoft.com) Microsoft Teams [verwendet.](https://www.microsoft.com/microsoft-365/microsoft-teams/group-chat-software) Sie müssen beide dem Konto zugeordnet sein, das Sie für die Entwicklung von Office-Skripts verwenden. Um kostenlosen Zugriff auf ein Microsoft Developer-Abonnement zu erhalten, um mehr über diese Anwendungen zu erfahren und mit diesen zu arbeiten, sollten Sie am [Microsoft 365 Developer Program teilnehmen.](https://developer.microsoft.com/microsoft-365/dev-program)
 
-## <a name="setup-instructions"></a>Setup Anweisungen
+## <a name="setup-instructions"></a>Setupanweisungen
 
-1. Laden Sie <a href="task-reminders.xlsx">task-reminders.xlsx</a> auf Ihre OneDrive herunter.
+1. Laden <a href="task-reminders.xlsx">task-reminders.xlsx</a> auf Ihr OneDrive herunter.
 
-2. Öffnen Sie die Arbeitsmappe in Excel im Internet.
+2. Öffnen Sie die Arbeitsmappe in Excel im Web.
 
-3. Öffnen Sie auf der Registerkarte **automatisieren** den **Code-Editor**.
+3. Öffnen Sie **auf** der Registerkarte Automatisieren **alle Skripts**.
 
-4. Zunächst benötigen wir ein Skript, um alle Mitarbeiter mit Statusberichten abzurufen, die in der Kalkulationstabelle fehlen. Klicken Sie im Aufgabenbereich **Code-Editor** auf **Neues Skript** , und fügen Sie das folgende Skript in den Editor ein.
+4. Zunächst benötigen wir ein Skript, um alle Mitarbeiter mit Statusberichten zu erhalten, die in der Tabelle fehlen. Drücken Sie **im Aufgabenbereich Code-Editor** die **Taste Neues Skript,** und fügen Sie das folgende Skript in den Editor ein.
 
-    ```typescript
+    ```TypeScript
     /**
      * This script looks for missing status reports in a project management table.
      *
@@ -89,9 +89,9 @@ Dieses Szenario verwendet [Power Automation](https://flow.microsoft.com) und [Mi
 
 5. Speichern Sie das Skript mit dem Namen **Get People**.
 
-6. Als nächstes benötigen wir ein zweites Skript, um die Statusberichts Karten zu verarbeiten und die neuen Informationen in das Arbeitsblatt einzufügen. Klicken Sie im Aufgabenbereich **Code-Editor** auf **Neues Skript** , und fügen Sie das folgende Skript in den Editor ein.
+6. Als Nächstes benötigen wir ein zweites Skript, um die Statusberichtskarten zu verarbeiten und die neuen Informationen in der Tabelle zu speichern. Drücken Sie **im Aufgabenbereich Code-Editor** die **Taste Neues Skript,** und fügen Sie das folgende Skript in den Editor ein.
 
-    ```typescript
+    ```TypeScript
     /**
      * This script applies the results of a Teams Adaptive Card about
      * a status update to a project management table.
@@ -143,31 +143,31 @@ Dieses Szenario verwendet [Power Automation](https://flow.microsoft.com) und [Mi
     }
     ```
 
-7. Speichern Sie das Skript mit dem Namen " **Save Status**".
+7. Speichern Sie das Skript mit dem Namen **Save Status**.
 
-8. Jetzt müssen wir den Fluss erstellen. Öffnen Sie [Power automatisieren](https://flow.microsoft.com/).
+8. Jetzt müssen wir den Fluss erstellen. Öffnen [Sie Power Automate](https://flow.microsoft.com/).
 
     > [!TIP]
-    > Wenn Sie noch keinen Flow erstellt haben, lesen Sie bitte unser Tutorial [Start using scripts with Power automatisieren](../../tutorials/excel-power-automate-manual.md) , um die Grundlagen zu erfahren.
+    > Wenn Sie noch keinen Fluss erstellt haben, lesen Sie bitte unser Lernprogramm [Start using scripts with Power Automate,](../../tutorials/excel-power-automate-manual.md) um die Grundlagen zu erfahren.
 
-9. Erstellen Sie einen neuen **sofort Ablauf**.
+9. Erstellen Sie einen neuen **Instant-Fluss.**
 
-10. Wählen Sie einen Fluss aus den Optionen **manuell auslösen** aus, und klicken Sie dann auf **Erstellen**.
+10. Wählen **Sie Manuell einen Fluss aus den** Optionen auslösen aus, und drücken Sie **erstellen**.
 
-11. Der Fluss muss das **Get People** -Skript aufrufen, um alle Mitarbeiter mit leeren Statusfeldern abzurufen. Klicken Sie auf **New Step** , und wählen Sie **Excel Online (Business)** aus. Wählen Sie unter **Actions** die Option **Run script (preview)** aus. Geben Sie für den Ablauf Schritt folgende Einträge an:
+11. Der Fluss muss das **Skript Get People aufrufen,** um alle Mitarbeiter mit leeren Statusfeldern zu erhalten. Drücken **Sie den Schritt Neu,** und wählen Sie Excel Online **(Business) aus.** Wählen Sie unter **Actions** die Option **Run script (preview)** aus. Geben Sie die folgenden Einträge für den Flussschritt an:
 
     - **Location**: OneDrive for Business
     - **Document Library**: OneDrive
-    - **Datei**: task-reminders.xlsx *(im Dateibrowser ausgewählt)*
+    - **Datei**: task-reminders.xlsx *(über den Dateibrowser ausgewählt)*
     - **Skript**: Get People
 
-    ![Der erste Lauf Skriptfluss Schritt.](../../images/scenario-task-reminders-first-flow-step.png)
+    ![Der erste Schritt zum Ausführen des Skriptflusses.](../../images/scenario-task-reminders-first-flow-step.png)
 
-12. Im nächsten Schritt muss der Fluss jeden Mitarbeiter in dem vom Skript zurückgegebenen Array verarbeiten. Klicken Sie auf **New Step** , und wählen Sie **in einem Teams-Benutzer eine Adaptive Karte bereit** stellen aus, und warten Sie auf eine Antwort.
+12. Als Nächstes muss der Fluss jeden Mitarbeiter im vom Skript zurückgegebenen Array verarbeiten. Drücken **Sie den Schritt Neu,** und wählen Sie Adaptive Karte an einen Teams-Benutzer posten **aus, und warten Sie auf eine Antwort.**
 
-13. Fügen Sie **Recipient** für das Feld Empfänger **e-Mail-** Nachweise aus dem dynamischen Inhalt hinzu (die Auswahl wird das Excel-Logo haben). Das Hinzufügen von **e-Mail** bewirkt, dass der Fluss Schritt von einem für **jeden Block angewendet** wird. Das bedeutet, dass das Array von Power Automation iteriert wird.
+13. Fügen Sie **für das Feld** Empfänger **E-Mails** aus dem dynamischen Inhalt hinzu (die Auswahl hat das Excel-Logo davon). Das **Hinzufügen von** E-Mails bewirkt, dass der Flussschritt von einem Auf jeden Block anwenden **umgeben** ist. Das bedeutet, dass das Array von Power Automate durch iteriert wird.
 
-14. Für das Senden einer adaptiven Karte muss die JSON der Karte als **Nachricht** bereitgestellt werden. Sie können den [Adaptive Card-Designer](https://adaptivecards.io/designer/) verwenden, um benutzerdefinierte Karten zu erstellen. Verwenden Sie für dieses Beispiel die folgende JSON.  
+14. Für das Senden einer adaptiven Karte muss das JSON der Karte als Nachricht **bereitgestellt werden.** Sie können den [Adaptive Card Designer verwenden,](https://adaptivecards.io/designer/) um benutzerdefinierte Karten zu erstellen. Verwenden Sie für dieses Beispiel den folgenden JSON.  
 
     ```json
     {
@@ -208,38 +208,38 @@ Dieses Szenario verwendet [Power Automation](https://flow.microsoft.com) und [Mi
     }
     ```
 
-15. Füllen Sie die restlichen Felder wie folgt aus:
+15. Füllen Sie die verbleibenden Felder wie folgt aus:
 
-    - **Update Nachricht**: Vielen Dank, dass Sie Ihren Statusbericht übermitteln. Ihre Antwort wurde dem Arbeitsblatt erfolgreich hinzugefügt.
-    - **Sollte Update Card**: Ja
+    - **Updatenachricht**: Vielen Dank für die Übermittlung Ihres Statusberichts. Ihre Antwort wurde der Tabelle erfolgreich hinzugefügt.
+    - **Sollte Karte aktualisieren:** Ja
 
-16. Klicken Sie im Feld **auf jeden Block anwenden** , indem Sie eine **Adaptive Karte an einen Microsoft Teams-Benutzer senden und auf eine Antwort warten** auf **Aktion hinzufügen**. Wählen Sie **Excel Online (Business)** aus. Wählen Sie unter **Actions** die Option **Run script (preview)** aus. Geben Sie für den Ablauf Schritt folgende Einträge an:
+16. Drücken Sie **im Abschnitt Auf jeden** Block anwenden, nachdem Sie auf die Aktion Adaptive Karte an einen **Teams-Benutzer** posten und auf eine Antwort **warten, die Aktion hinzufügen.** Wählen **Sie Excel Online (Business) aus.** Wählen Sie unter **Actions** die Option **Run script (preview)** aus. Geben Sie die folgenden Einträge für den Flussschritt an:
 
     - **Location**: OneDrive for Business
     - **Document Library**: OneDrive
-    - **Datei**: task-reminders.xlsx *(im Dateibrowser ausgewählt)*
+    - **Datei**: task-reminders.xlsx *(über den Dateibrowser ausgewählt)*
     - **Skript**: Save Status
-    - **senderEmail**: e-Mail *(dynamischer Inhalt aus Excel)*
-    - **statusReportResponse**: Antwort *(dynamischer Inhalt aus Teams)*
+    - **senderEmail**: E-Mail *(dynamischer Inhalt aus Excel)*
+    - **statusReportResponse**: response *(dynamischer Inhalt aus Teams)*
 
-    ![Der Ablauf Schritt für jeden Fluss.](../../images/scenario-task-reminders-last-flow-step.png)
+    ![Der Schritt apply-to-each flow.](../../images/scenario-task-reminders-last-flow-step.png)
 
 17. Speichern Sie den Fluss.
 
-## <a name="running-the-flow"></a>Ablauf des Flusses
+## <a name="running-the-flow"></a>Ausführen des Ablaufs
 
-Um den Fluss zu testen, stellen Sie sicher, dass Tabellenzeilen mit leerem Status eine e-Mail-Adresse verwenden, die mit einem Microsoft Teams-Konto verknüpft ist (Sie sollten beim Testen wahrscheinlich ihre eigene e-Mail-Adresse verwenden).
+Stellen Sie zum Testen des Ablaufs sicher, dass tabellenzeilen mit leerem Status eine E-Mail-Adresse verwenden, die an ein Teams-Konto gebunden ist (Sie sollten beim Testen wahrscheinlich Ihre eigene E-Mail-Adresse verwenden).
 
-Sie können entweder **Test** aus dem Flow Designer auswählen oder den Fluss auf der Seite **meine Flows** ausführen. Nachdem Sie den Fluss gestartet und die Verwendung der erforderlichen Verbindungen akzeptiert haben, sollten Sie eine Adaptive Karte von Power Automation über Teams erhalten. Nachdem Sie das Feld Status in der Karte ausgefüllt haben, wird der Fluss fortgesetzt und das Arbeitsblatt mit dem von Ihnen bereitgestellten Status aktualisiert.
+Sie können entweder **test aus** dem Fluss-Designer auswählen oder den Fluss auf der Seite **Meine Flüsse** ausführen. Nachdem Sie den Fluss gestartet und die Verwendung der erforderlichen Verbindungen akzeptiert haben, sollten Sie eine adaptive Karte von Power Automate über Teams erhalten. Sobald Sie das Statusfeld auf der Karte ausfüllen, wird der Fluss fortgesetzt und die Tabelle mit dem von Ihnen angezeigten Status aktualisiert.
 
-### <a name="before-running-the-flow"></a>Vor dem Ausführen des Flusses
+### <a name="before-running-the-flow"></a>Vor dem Ausführen des Datenflusses
 
-![Ein Arbeitsblatt mit einem Statusbericht, der einen fehlenden Statuseintrag enthält.](../../images/scenario-task-reminders-spreadsheet-before.png)
+![Ein Arbeitsblatt mit einem Statusbericht mit einem fehlenden Statuseintrag.](../../images/scenario-task-reminders-spreadsheet-before.png)
 
 ### <a name="receiving-the-adaptive-card"></a>Empfangen der adaptiven Karte
 
-![Eine Adaptive Karte in Microsoft Teams, in der der Mitarbeiter um eine Statusaktualisierung ersucht wird.](../../images/scenario-task-reminders-adaptive-card.png)
+![Eine adaptive Karte in Teams, die den Mitarbeiter um eine Statusaktualisierung bittet.](../../images/scenario-task-reminders-adaptive-card.png)
 
-### <a name="after-running-the-flow"></a>Nach Ausführung des Flusses
+### <a name="after-running-the-flow"></a>Nach dem Ausführen des Datenflusses
 
 ![Ein Arbeitsblatt mit einem Statusbericht mit einem jetzt ausgefüllten Statuseintrag.](../../images/scenario-task-reminders-spreadsheet-after.png)

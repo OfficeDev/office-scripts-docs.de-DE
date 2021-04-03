@@ -1,16 +1,16 @@
 ---
-title: Beispielskripts für Office-Skripts in Excel im Web
+title: Grundlegende Skripts für Office-Skripts in Excel im Web
 description: Eine Sammlung von Codebeispielen, die mit Office Scripts in Excel im Web verwendet werden.
-ms.date: 02/12/2021
+ms.date: 04/01/2021
 localization_priority: Normal
-ms.openlocfilehash: 4f1f6d4e160c42524df3c69228d182f1cb4838c8
-ms.sourcegitcommit: 5bde455b06ee2ed007f3e462d8ad485b257774ef
+ms.openlocfilehash: f52500f480b7e7fa637a606b99de035da326a4ba
+ms.sourcegitcommit: 5d24e77df70aa2c1c982275d53213c2a9323ff86
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/17/2021
-ms.locfileid: "50837282"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51570516"
 ---
-# <a name="sample-scripts-for-office-scripts-in-excel-on-the-web-preview"></a>Beispielskripts für Office-Skripts in Excel im Web (Vorschau)
+# <a name="basic-scripts-for-office-scripts-in-excel-on-the-web"></a>Grundlegende Skripts für Office-Skripts in Excel im Web
 
 Die folgenden Beispiele sind einfache Skripts, die Sie in Ihren eigenen Arbeitsmappen ausprobieren können. So verwenden Sie sie in Excel im Web:
 
@@ -20,8 +20,6 @@ Die folgenden Beispiele sind einfache Skripts, die Sie in Ihren eigenen Arbeitsm
 4. Ersetzen Sie das gesamte Skript durch das Beispiel Ihrer Wahl.
 5. Drücken **Sie im** Aufgabenbereich des Code-Editors die Ausführung.
 
-[!INCLUDE [Preview note](../includes/preview-note.md)]
-
 ## <a name="scripting-basics"></a>Grundlagen der Skripterstellung
 
 In diesen Beispielen werden grundlegende Bausteine für Office-Skripts gezeigt. Fügen Sie diese zu Ihren Skripts hinzu, um Ihre Lösung zu erweitern und häufige Probleme zu lösen.
@@ -30,7 +28,7 @@ In diesen Beispielen werden grundlegende Bausteine für Office-Skripts gezeigt. 
 
 In diesem Beispiel wird der Wert von **A1 gelesen** und in der Konsole gedruckt.
 
-```typescript
+```TypeScript
 function main(workbook: ExcelScript.Workbook) {
   // Get the current worksheet.
   let selectedSheet = workbook.getActiveWorksheet();
@@ -47,7 +45,7 @@ function main(workbook: ExcelScript.Workbook) {
 
 Dieses Skript protokolliert den Wert der aktuellen aktiven Zelle. Wenn mehrere Zellen ausgewählt sind, wird die zelle ganz oben links protokolliert.
 
-```typescript
+```TypeScript
 function main(workbook: ExcelScript.Workbook) {
   // Get the current active cell in the workbook.
   let cell = workbook.getActiveCell();
@@ -61,7 +59,7 @@ function main(workbook: ExcelScript.Workbook) {
 
 Dieses Skript ruft benachbarte Zellen mithilfe relativer Verweise ab. Beachten Sie, dass, wenn sich die aktive Zelle in der oberen Zeile befindet, ein Teil des Skripts fehlschlägt, da es auf die Zelle über der aktuell ausgewählten Zelle verweist.
 
-```typescript
+```TypeScript
 function main(workbook: ExcelScript.Workbook) {
   // Get the currently active cell in the workbook.
   let activeCell = workbook.getActiveCell();
@@ -88,7 +86,7 @@ function main(workbook: ExcelScript.Workbook) {
 
 Dieses Skript kopiert die Formatierung in der aktiven Zelle in die benachbarten Zellen. Beachten Sie, dass dieses Skript nur funktioniert, wenn sich die aktive Zelle nicht an einem Rand des Arbeitsblatts befindet.
 
-```typescript
+```TypeScript
 function main(workbook: ExcelScript.Workbook) {
   // Get the active cell.
   let activeCell = workbook.getActiveCell();
@@ -111,7 +109,7 @@ function main(workbook: ExcelScript.Workbook) {
 
 Dieses Skript übernimmt eine Schleife über den aktuell ausgewählten Bereich. Es wird die aktuelle Formatierung entfernt und die Füllfarbe in jeder Zelle auf eine zufällige Farbe fest.
 
-```typescript
+```TypeScript
 function main(workbook: ExcelScript.Workbook) {
   // Get the currently selected range.
   let range = workbook.getSelectedRange();
@@ -140,7 +138,7 @@ function main(workbook: ExcelScript.Workbook) {
 
 Dieses Skript ruft alle leeren Zellen im verwendeten Bereich des aktuellen Arbeitsblatts ab. Anschließend werden alle zellen mit gelbem Hintergrund hervorgehoben.
 
-```typescript
+```TypeScript
 function main(workbook: ExcelScript.Workbook) {
     // Get the current used range.
     let range = workbook.getActiveWorksheet().getUsedRange();
@@ -161,7 +159,7 @@ Diese Beispiele funktionieren mit Auflistungen von Objekten in der Arbeitsmappe.
 
 Dieses Skript ruft die Namen aller Arbeitsblätter in der Arbeitsmappe ab und protokolliert sie. Außerdem werden die Registerkartenfarben auf eine zufällige Farbe fest.
 
-```typescript
+```TypeScript
 function main(workbook: ExcelScript.Workbook) {
   // Get all the worksheets in the workbook.
   let sheets = workbook.getWorksheets();
@@ -188,7 +186,7 @@ function main(workbook: ExcelScript.Workbook) {
 
 Mit diesem Skript wird ein neues Arbeitsblatt erstellt. Es wird nach einer vorhandenen Kopie des Arbeitsblatts überprüft und gelöscht, bevor ein neues Blatt erstellt wird.
 
-```typescript
+```TypeScript
 function main(workbook: ExcelScript.Workbook) {
   // Name of the worksheet to be added.
   let name = "Index";
@@ -328,7 +326,7 @@ Dieses Skript erstellt eine Dropdownauswahlliste für eine Zelle. Es verwendet d
 
 ![Ein Vorher-Nach-Nach-Satz von Screenshots, der drei Wörter in einem Bereich und dann dieselben Wörter in einer Dropdownliste zeigt.](../images/sample-data-validation.png)
 
-```typescript
+```TypeScript
 function main(workbook: ExcelScript.Workbook) {
   // Get the values for data validation.
   let selectedRange = workbook.getSelectedRange();
@@ -367,7 +365,7 @@ In diesen Beispielen werden Excel-Formeln verwendet, und es wird gezeigt, wie si
 
 Dieses Skript legt die Formel einer Zelle fest und zeigt dann an, wie Excel die Formel und den Wert der Zelle separat speichert.
 
-```typescript
+```TypeScript
 function main(workbook: ExcelScript.Workbook) {
   let selectedSheet = workbook.getActiveWorksheet();
 
@@ -388,7 +386,7 @@ function main(workbook: ExcelScript.Workbook) {
 
 Dieses Skript transponiert den Bereich "A1:D2" mithilfe der TRANSPOSE-Funktion in "A4:B7". Wenn die Transponieren zu einem fehler #SPILL, wird der Zielbereich geleert und die Formel erneut angewendet.
 
-```typescript
+```TypeScript
 function main(workbook: ExcelScript.Workbook) {
   let sheet = workbook.getActiveWorksheet();
   // Use the data in A1:D2 for the sample.
@@ -417,10 +415,6 @@ function main(workbook: ExcelScript.Workbook) {
   targetRange.select();
 }
 ```
-
-## <a name="scenario-samples"></a>Szenariobeispiele
-
-Beispiele für größere, reale Lösungen finden Sie unter [Beispielszenarien für Office-Skripts](scenarios/sample-scenario-overview.md).
 
 ## <a name="suggest-new-samples"></a>Vorschlagen neuer Beispiele
 
