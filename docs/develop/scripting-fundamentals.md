@@ -3,12 +3,12 @@ title: Grundlegendes zur Skripterstellung für Office-Skripts in Excel im Web
 description: Informationen zu Objektmodellen und andere Grundlagen, die Sie vor dem Schreiben von Office-Skripts benötigen.
 ms.date: 07/08/2020
 localization_priority: Priority
-ms.openlocfilehash: acbeec69a5d9ae9e3ebfa95c9070033d1cca2265
-ms.sourcegitcommit: e7e019ba36c2f49451ec08c71a1679eb6dba4268
+ms.openlocfilehash: 4609dce617d18f7a7c9d2868a24792c51fb048c6
+ms.sourcegitcommit: 5d24e77df70aa2c1c982275d53213c2a9323ff86
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49933273"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51570234"
 ---
 # <a name="scripting-fundamentals-for-office-scripts-in-excel-on-the-web-preview"></a>Grundlegendes zur Skripterstellung für Office-Skripts in Excel im Web (Vorschau)
 
@@ -20,7 +20,7 @@ In diesem Artikel werden die technischen Aspekte von Office-Skripts vorgestellt.
 
 Jedes Office-Skript muss eine `main`-Funktion mit dem `ExcelScript.Workbook`-Typ als ersten Parameter enthalten. Wenn die Funktion ausgeführt wird, ruft die Excel-Anwendung diese `main`-Funktion auf, indem sie die Arbeitsmappe als ersten Parameter bereitstellt. Deshalb ist es wichtig, dass Sie die Standardsignatur der `main`-Funktion nicht ändern, nachdem Sie das Skript aufgezeichnet oder im Code-Editor ein neues Skript erstellt haben.
 
-```typescript
+```TypeScript
 function main(workbook: ExcelScript.Workbook) {
   // Your code goes here
 }
@@ -48,7 +48,7 @@ Jedes Skript wird von der `main`-Funktion als `workbook`-Objekt vom Typ `Workboo
 
 Das folgende Skript ruft das aktive Arbeitsblatt aus der Arbeitsmappe ab und protokolliert den Namen.
 
-```typescript
+```TypeScript
 function main(workbook: ExcelScript.Workbook) {
     // Get the active worksheet.
     let sheet = workbook.getActiveWorksheet();
@@ -169,7 +169,7 @@ Sobald die Sammlung abgerufen wurde, können Sie reguläre Arrayoperationen wie 
 
 Das folgende Skript ruft alle Tabellen in der Arbeitsmappe ab. Dann wird sichergestellt, dass die Kopfzeilen angezeigt werden, die Filterschaltflächen sichtbar sind und das Tabellenformat auf „TableStyleLight1“ festgelegt ist.
 
-```typescript
+```TypeScript
 function main(workbook: ExcelScript.Workbook) {
   /* Get table collection */
   const tables = workbook.getTables();
@@ -191,7 +191,7 @@ Sie können Dokumentobjekte, z. B. Tabellen oder Diagramme, programmgesteuert hi
 
 Mit dem folgenden Skript wird eine Tabelle in Excel auf dem ersten Arbeitsblatt in der Arbeitsmappe erstellt. Beachten Sie, dass die erstellte Tabelle von der `addTable`-Methode zurückgegeben wird.
 
-```typescript
+```TypeScript
 function main(workbook: ExcelScript.Workbook) {
     // Get the first worksheet.
     let sheet = workbook.getWorksheets()[0];
@@ -213,7 +213,7 @@ Wenn Sie ein Objekt löschen möchten, rufen Sie die `delete`-Methode des Objekt
 
 Mit dem folgenden Skript wird das erste Arbeitsblatt in der Arbeitsmappe entfernt.
 
-```typescript
+```TypeScript
 function main(workbook: ExcelScript.Workbook) {
     // Get first worksheet.
     let sheet = workbook.getWorksheets()[0];
