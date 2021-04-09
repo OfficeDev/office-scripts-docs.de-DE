@@ -3,12 +3,13 @@ title: Erste Schritte mit Office-Skripts
 description: Grundlagen zu Office-Skripts, einschließlich Zugriffs-, Umgebungs- und Skriptmustern.
 ms.date: 04/01/2021
 localization_priority: Normal
-ms.openlocfilehash: f954ee67aa486e4b8185047738ef3d15319a94ae
-ms.sourcegitcommit: 5d24e77df70aa2c1c982275d53213c2a9323ff86
+ROBOTS: NOINDEX
+ms.openlocfilehash: c1c4675b2fdc1f5ebd9e86f04f5fb011c27a3f1b
+ms.sourcegitcommit: 190ae1c071243f4638d0d650e35f1425914b0156
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51571328"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "51650367"
 ---
 # <a name="getting-started"></a>Erste Schritte
 
@@ -20,7 +21,7 @@ Erfahren Sie mehr über die Grundlagen des Zugriffs, der Umgebung und des Skript
 
 [![Grundlagen der Office Scripts-Anwendung](../../images/getting-started-env.png)](https://youtu.be/vvCtxsjPxo8 "Grundlagen der Office Scripts-Anwendung")
 
-### <a name="access"></a>Zugriff
+### <a name="access"></a>Access
 
 Für Office-Skripts sind Administratoreinstellungen erforderlich, die für Microsoft 365-Administrator unter **Einstellungen**  >  **Organisationseinstellungen**  >  **Office-Skripts verfügbar sind.** Standardmäßig ist es für alle Benutzer aktiviert. Es gibt zwei Untereinstellungen, die der Administrator ein- und ausschalten kann.
 
