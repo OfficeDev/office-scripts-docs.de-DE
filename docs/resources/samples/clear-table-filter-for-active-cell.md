@@ -3,12 +3,12 @@ title: Löschen des Tabellenspaltenfilters basierend auf der aktiven Zellenposit
 description: Erfahren Sie, wie Sie den Tabellenspaltenfilter basierend auf der aktiven Zellenposition löschen.
 ms.date: 03/04/2021
 localization_priority: Normal
-ms.openlocfilehash: 5da3cdfe753f254c7f9ec97bea384b77ccaff09e
-ms.sourcegitcommit: 5d24e77df70aa2c1c982275d53213c2a9323ff86
+ms.openlocfilehash: 4f8353fb5480812b7b63e7a9b3ffb11ece2a8c6c
+ms.sourcegitcommit: 45ffe3dbd2c834b78592ad35928cf8096f5e80bc
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51571358"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51755084"
 ---
 # <a name="clear-table-column-filter-based-on-active-cell-location"></a>Löschen des Tabellenspaltenfilters basierend auf der aktiven Zellenposition
 
@@ -18,11 +18,11 @@ Wenn Sie mehr darüber erfahren möchten, wie Sie den Filter speichern, bevor Si
 
 _Vor dem Löschen des Spaltenfilters (beachten Sie die aktive Zelle)_
 
-![Vor dem Löschen des Spaltenfilters](../../images/before-filter-applied.png)
+:::image type="content" source="../../images/before-filter-applied.png" alt-text="Eine aktive Zelle vor dem Löschen des Spaltenfilters.":::
 
 _Nach dem Löschen des Spaltenfilters_
 
-![Nach dem Löschen des Spaltenfilters](../../images/after-filter-cleared.png)
+:::image type="content" source="../../images/after-filter-cleared.png" alt-text="Eine aktive Zelle nach dem Löschen des Spaltenfilters.":::
 
 ## <a name="sample-code-clear-table-column-filter-based-on-active-cell"></a>Beispielcode: Tabellenspaltenfilter basierend auf aktiver Zelle löschen
 

@@ -3,12 +3,12 @@ title: E-Mail der Bilder eines Excel-Diagramms und einer Tabelle
 description: Erfahren Sie, wie Sie Office-Skripts und Power Automate verwenden, um die Bilder eines Excel-Diagramms und einer Tabelle zu extrahieren und per E-Mail zu senden.
 ms.date: 04/01/2021
 localization_priority: Normal
-ms.openlocfilehash: 7eb12526f97d72de31acdc3c9a4228c670875e2b
-ms.sourcegitcommit: 5d24e77df70aa2c1c982275d53213c2a9323ff86
+ms.openlocfilehash: de3cf16537cb12db45d4d465d367d797d053afc4
+ms.sourcegitcommit: 45ffe3dbd2c834b78592ad35928cf8096f5e80bc
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51571376"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51754810"
 ---
 # <a name="use-office-scripts-and-power-automate-to-email-images-of-a-chart-and-table"></a>Verwenden von Office-Skripts und Power Automate zum E-Mail-Senden von Bildern eines Diagramms und einer Tabelle
 
@@ -23,15 +23,15 @@ In diesem Beispiel werden Office-Skripts und Power Automate zum Erstellen eines 
 
 _Eingabedaten_
 
-![Eingabedaten](../../images/input-data.png)
+:::image type="content" source="../../images/input-data.png" alt-text="Ein Arbeitsblatt mit einer Tabelle mit Eingabedaten.":::
 
 _Ausgabediagramm_
 
-![Diagramm erstellt](../../images/chart-created.png)
+:::image type="content" source="../../images/chart-created.png" alt-text="Das vom Kunden fällige Spaltendiagramm.":::
 
 _E-Mails, die über den Power Automate-Fluss empfangen wurden_
 
-![Empfangene E-Mails](../../images/email-received.png)
+:::image type="content" source="../../images/email-received.png" alt-text="Die vom Fluss gesendete E-Mail, die das im Textkörper eingebettete Excel-Diagramm zeigt.":::
 
 ## <a name="solution"></a>Lösung
 

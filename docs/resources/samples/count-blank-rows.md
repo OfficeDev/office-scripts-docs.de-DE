@@ -3,12 +3,12 @@ title: Zählen leerer Zeilen in Blättern
 description: Erfahren Sie, wie Sie mithilfe von Office-Skripts ermitteln, ob leere Zeilen anstelle von Daten in Arbeitsblättern vorhanden sind, und dann die Anzahl leerer Zeilen melden, die in einem Power Automate-Fluss verwendet werden soll.
 ms.date: 03/31/2021
 localization_priority: Normal
-ms.openlocfilehash: 1f52b9c4d538d5d3e64dc61dae3e27d046b56862
-ms.sourcegitcommit: 5d24e77df70aa2c1c982275d53213c2a9323ff86
+ms.openlocfilehash: 088ab97c686484ca5c13c875b80431ac28d20736
+ms.sourcegitcommit: 45ffe3dbd2c834b78592ad35928cf8096f5e80bc
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51571400"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51754831"
 ---
 # <a name="count-blank-rows-on-sheets"></a>Zählen leerer Zeilen in Blättern
 
@@ -22,11 +22,11 @@ Dieses Projekt umfasst zwei Skripts:
 
 _Dieses Blatt gibt die Anzahl von 4 leeren Zeilen zurück._
 
-![Daten mit leeren Zeilen](../../images/blank-rows.png)
+:::image type="content" source="../../images/blank-rows.png" alt-text="Ein Arbeitsblatt mit Daten mit leeren Zeilen.":::
 
 _Dieses Blatt gibt die Anzahl von 0 leeren Zeilen zurück (alle Zeilen haben einige Daten)_
 
-![Daten ohne leere Zeilen](../../images/no-blank-rows.png)
+:::image type="content" source="../../images/no-blank-rows.png" alt-text="Ein Arbeitsblatt mit Daten ohne leere Zeilen.":::
 
 ## <a name="sample-code-count-blank-rows-on-a-given-sheet"></a>Beispielcode: Zählen leerer Zeilen auf einem bestimmten Blatt
 
@@ -92,4 +92,4 @@ function main(workbook: ExcelScript.Workbook): number
 
 ## <a name="use-with-power-automate"></a>Verwenden mit Power Automate
 
-![Screenshot der Einrichtung in Power Automate](../../images/use-in-power-automate.png)
+:::image type="content" source="../../images/use-in-power-automate.png" alt-text="Ein Power Automate-Fluss, der zeigt, wie Sie ein Office-Skript ausführen.":::

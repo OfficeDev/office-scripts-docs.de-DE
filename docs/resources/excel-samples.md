@@ -3,12 +3,12 @@ title: Grundlegende Skripts für Office-Skripts in Excel im Web
 description: Eine Sammlung von Codebeispielen, die mit Office Scripts in Excel im Web verwendet werden.
 ms.date: 04/01/2021
 localization_priority: Normal
-ms.openlocfilehash: f52500f480b7e7fa637a606b99de035da326a4ba
-ms.sourcegitcommit: 5d24e77df70aa2c1c982275d53213c2a9323ff86
+ms.openlocfilehash: 32c380a2abdb0596bbfdb387768735fbfdcf7c08
+ms.sourcegitcommit: 45ffe3dbd2c834b78592ad35928cf8096f5e80bc
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51570516"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51755091"
 ---
 # <a name="basic-scripts-for-office-scripts-in-excel-on-the-web"></a>Grundlegende Skripts für Office-Skripts in Excel im Web
 
@@ -20,7 +20,7 @@ Die folgenden Beispiele sind einfache Skripts, die Sie in Ihren eigenen Arbeitsm
 4. Ersetzen Sie das gesamte Skript durch das Beispiel Ihrer Wahl.
 5. Drücken **Sie im** Aufgabenbereich des Code-Editors die Ausführung.
 
-## <a name="scripting-basics"></a>Grundlagen der Skripterstellung
+## <a name="scripting-basics"></a>Skripting-Grundlagen
 
 In diesen Beispielen werden grundlegende Bausteine für Office-Skripts gezeigt. Fügen Sie diese zu Ihren Skripts hinzu, um Ihre Lösung zu erweitern und häufige Probleme zu lösen.
 
@@ -296,7 +296,7 @@ function main(workbook: ExcelScript.Workbook) {
 
 In diesem Beispiel wird die erste PivotTable in der Arbeitsmappe gefunden und die Werte in den Zellen "Grand Total" protokolliert (wie im folgenden Bild grün hervorgehoben).
 
-![Eine PivotTable für den Obstverkauf, bei der die Zeile "Grand Total" grün hervorgehoben ist.](../images/sample-pivottable-grand-total-row.png)
+:::image type="content" source="../images/sample-pivottable-grand-total-row.png" alt-text="Eine PivotTable mit Obstverkäufen, deren Zeile &quot;Grand Total&quot; grün hervorgehoben ist.":::
 
 ```TypeScript
 function main(workbook: ExcelScript.Workbook) {
@@ -324,7 +324,7 @@ function main(workbook: ExcelScript.Workbook) {
 
 Dieses Skript erstellt eine Dropdownauswahlliste für eine Zelle. Es verwendet die vorhandenen Werte des ausgewählten Bereichs als Auswahlmöglichkeiten für die Liste.
 
-![Ein Vorher-Nach-Nach-Satz von Screenshots, der drei Wörter in einem Bereich und dann dieselben Wörter in einer Dropdownliste zeigt.](../images/sample-data-validation.png)
+:::image type="content" source="../images/sample-data-validation.png" alt-text="Ein Arbeitsblatt mit einem Bereich von drei Zellen, die die Farbauswahl &quot;Rot, Blau, Grün&quot; enthalten, und daneben die gleichen Optionen, die in einer Dropdownliste angezeigt werden.":::
 
 ```TypeScript
 function main(workbook: ExcelScript.Workbook) {

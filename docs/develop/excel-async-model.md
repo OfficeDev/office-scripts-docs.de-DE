@@ -3,12 +3,12 @@ title: Unterstützen älterer Office-Skripts, die die asynchronen APIs verwenden
 description: Eine Einführung in die Office Scripts Async-APIs und die Verwendung des Lade-/Synchronisierungsmusters für ältere Skripts.
 ms.date: 02/08/2021
 localization_priority: Normal
-ms.openlocfilehash: d61a5d8affae2077b23e140645c19dac977ff0d2
-ms.sourcegitcommit: 5d24e77df70aa2c1c982275d53213c2a9323ff86
+ms.openlocfilehash: 143f52a7ffefb4f19ee36ba4343fd7c2f1cbdffe
+ms.sourcegitcommit: 45ffe3dbd2c834b78592ad35928cf8096f5e80bc
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51570283"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51755077"
 ---
 # <a name="support-older-office-scripts-that-use-the-async-apis"></a>Unterstützen älterer Office-Skripts, die die asynchronen APIs verwenden
 
@@ -42,7 +42,7 @@ Da Ihr Skript und die Arbeitsmappe an unterschiedlichen Orten ausgeführt werden
 
 In der folgenden Abbildung wird ein Beispiel für eine Ablaufsteuerung zwischen dem Skript und der Arbeitsmappe dargestellt:
 
-![Ein Diagramm mit Lese- und Schreibvorgängen, die vom Skript in der Arbeitsmappe ausgeführt werden.](../images/load-sync.png)
+:::image type="content" source="../images/load-sync.png" alt-text="Ein Diagramm mit Lese- und Schreibvorgängen, die vom Skript in der Arbeitsmappe ausgeführt werden.":::
 
 ### <a name="sync"></a>Synchronisierung
 

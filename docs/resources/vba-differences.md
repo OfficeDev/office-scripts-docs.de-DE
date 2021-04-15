@@ -1,47 +1,49 @@
 ---
 title: Unterschiede zwischen Office-Skripts und VBA-Makros
 description: Das Verhalten und die API-Unterschiede zwischen Office-Skripts und Excel-VBA-Makros.
-ms.date: 11/13/2020
+ms.date: 12/14/2020
 localization_priority: Normal
-ms.openlocfilehash: 7b9186d03489a43836c6e9da7bd28e0abc135f63
-ms.sourcegitcommit: 82d3c0ef1e187bcdeceb2b5fc3411186674fe150
+ms.openlocfilehash: a56409a5de3eb07876faa88bfbfe78eeca59f70f
+ms.sourcegitcommit: 45ffe3dbd2c834b78592ad35928cf8096f5e80bc
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/18/2020
-ms.locfileid: "49342885"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51755021"
 ---
 # <a name="differences-between-office-scripts-and-vba-macros"></a>Unterschiede zwischen Office-Skripts und VBA-Makros
 
-Office-Skripts und VBA-Makros haben viele Gemeinsamkeiten. Beide ermöglichen Benutzern das Automatisieren von Lösungen über einen einfach zu bedienende Action Recorder und erlauben das Bearbeiten dieser Aufzeichnungen. Beide Frameworks sind darauf ausgelegt, Personen, die sich möglicherweise nicht als Programmierer bezeichnen, das Erstellen von kleinen Programmen in Excel zu ermöglichen.
-Der wesentliche Unterschied besteht darin, dass VBA-Makros für Desktop Lösungen entwickelt werden und Office-Skripts mit plattformübergreifender Unterstützung und Sicherheit als Leitprinzipien konzipiert wurden. Zurzeit werden Office-Skripts nur in Excel im Internet unterstützt.
+Office-Skripts und VBA-Makros haben viele gemeinsam. Sie ermöglichen es Benutzern, Lösungen mithilfe einer einfach zu verwendenden Aktionsaufzeichnung zu automatisieren und Bearbeitungen dieser Aufzeichnungen zu ermöglichen. Beide Frameworks sollen Personen, die sich möglicherweise nicht als Programmierer betrachten, die Erstellung kleiner Programme in Excel ermöglichen.
+Der wesentliche Unterschied besteht in der Entwicklung von VBA-Makros für Desktoplösungen, und Office-Skripts sind mit plattformübergreifender Unterstützung und Sicherheit als Leitprinzipien konzipiert. Derzeit werden Office-Skripts nur in Excel im Web unterstützt.
 
-![Ein Diagramm mit vier Quadranten, in dem die Fokusbereiche für unterschiedliche Office-Erweiterbarkeits Lösungen dargestellt werden. Sowohl Office-Skripts als auch VBA-Makros sollen Endbenutzern beim Erstellen von Lösungen helfen, aber Office-Skripts werden für das Internet und die Zusammenarbeit erstellt (während VBA für den Desktop gilt).)](../images/office-programmability-diagram.png)
+:::image type="content" source="../images/office-programmability-diagram.png" alt-text="Ein Diagramm mit vier Quadranten, das die Fokusbereiche für verschiedene Office-Erweiterbarkeitslösungen zeigt. Sowohl Office-Skripts als auch VBA-Makros sollen Endbenutzern beim Erstellen von Lösungen helfen, aber Office-Skripts sind für das Web und die Zusammenarbeit entwickelt (während VBA für den Desktop verwendet wird).":::
 
-In diesem Artikel werden die wichtigsten Unterschiede zwischen VBA-Makros (sowie VBA im allgemeinen) und Office-Skripts beschrieben. Da Office-Skripts nur für Excel zur Verfügung stehen, ist dies der einzige Host, der hier erörtert wird.
+In diesem Artikel werden die wichtigsten Unterschiede zwischen VBA-Makros (sowie VBA im Allgemeinen) und Office-Skripts beschrieben. Da Office-Skripts nur für Excel verfügbar sind, ist dies der einzige Host, der hier behandelt wird.
 
 ## <a name="platform-and-ecosystem"></a>Plattform und Ökosystem
 
-VBA wurde für den Desktop entwickelt, und Office-Skripts sind für das Internet konzipiert. VBA kann mit dem Desktop eines Benutzers interagieren, um eine Verbindung mit ähnlichen Technologien wie com und OLE herzustellen. VBA verfügt jedoch nicht über eine bequeme Möglichkeit zum Aufrufen des Internets.
+VBA ist für den Desktop konzipiert, und Office-Skripts sind für das Web konzipiert. VBA kann mit dem Desktop eines Benutzers interagieren, um eine Verbindung mit ähnlichen Technologien wie COM und OLE herzustellen. VBA hat jedoch keine bequeme Möglichkeit, das Internet an sich zu rufen.
 
-Office-Skripts verwenden eine universelle Laufzeit für JavaScript. Dadurch wird konsistentes Verhalten und Barrierefreiheit gewährleistet, unabhängig davon, welcher Computer zum Ausführen des Skripts verwendet wird. Sie können auch Anrufe an andere Webdienste vornehmen.
+Office-Skripts verwenden eine universelle Laufzeit für JavaScript. Dies bietet konsistentes Verhalten und Barrierefreiheit, unabhängig vom Computer, der zum Ausführen des Skripts verwendet wird. Sie können auch Anrufe an andere Webdienste nehmen.
 
 ## <a name="security"></a>Sicherheit
 
-VBA-Makros haben denselben Sicherheitsabstand wie Excel. Dadurch erhalten Sie vollen Zugriff auf Ihren Desktop. Office-Skripts haben nur Zugriff auf die Arbeitsmappe, nicht auf den Computer, der die Arbeitsmappe hostet. Darüber hinaus können keine JavaScript-Authentifizierungstoken für Skripts freigegeben werden. Dies bedeutet, dass das Skript weder über die Token des angemeldeten Benutzers verfügt noch über API-Funktionen für die Anmeldung bei einem externen Dienst verfügt, sodass Sie keine vorhandenen Token verwenden können, um externe Anrufe im Namen des Benutzers zu tätigen.
+VBA-Makros haben die gleiche Sicherheitsfreigabe wie Excel. Dadurch erhalten sie vollzugriff auf Ihren Desktop. Office-Skripts haben nur Zugriff auf die Arbeitsmappe, nicht auf den Computer, auf dem die Arbeitsmappe hostend ist. Darüber hinaus können keine JavaScript-Authentifizierungstoken für Skripts freigegeben werden. Dies bedeutet, dass das Skript weder über die Token des angemeldeten Benutzers noch über API-Funktionen für die Anmeldung bei einem externen Dienst verfügt, sodass es keine vorhandenen Token zum Ausführen externer Aufrufe im Namen des Benutzers verwenden kann.
 
-Administratoren haben drei Optionen für VBA-Makros: alle Makros im Mandanten zulassen, keine Makros auf dem Mandanten zulassen oder nur Makros mit signierten Zertifikaten zulassen. Durch diesen Mangel an Granularität ist es schwierig, einen einzelnen fehlerhaften Akteur zu isolieren. Office-Skripts sind derzeit entweder für einen Mandanten ein-oder ausgeschaltet. Wir arbeiten jedoch daran, Administratoren mehr Kontrolle über einzelne Skripts und Skriptersteller zu geben.
+Administratoren haben drei Optionen für VBA-Makros: Alle Makros für den Mandanten zulassen, keine Makros für den Mandanten zulassen oder nur Makros mit signierten Zertifikaten zulassen. Dieser Mangel an Granularität macht es schwierig, einen einzelnen schlechten Akteur zu isolieren. Derzeit sind Office-Skripts für einen Mandanten entweder ein- oder ausgeschaltet. Wir arbeiten jedoch daran, Administratoren mehr Kontrolle über einzelne Skripts und Skriptersteller zu geben.
 
 ## <a name="coverage"></a>Abdeckung
 
-Derzeit bietet VBA eine umfassendere Abdeckung der Excel-Features, insbesondere die auf dem Desktop Client verfügbaren. Office-Skripts umfassen nahezu alle Szenarien für Excel im Internet. Da neue Features im Internet debütieren, werden diese von Office-Skripts sowohl für die aktionsaufzeichnung als auch für JavaScript-APIs unterstützt.
+Derzeit bietet VBA eine vollständigere Abdeckung der Excel-Features, insbesondere derjenigen, die auf dem Desktopclient verfügbar sind. Office-Skripts umfassen fast alle Szenarien für Excel im Web. Darüber hinaus unterstützen Office-Skripts als debütierte neue Features im Web diese sowohl für die Action Recorder- als auch für die JavaScript-APIs.
+
+Office-Skripts unterstützen keine Ereignisse auf [Excel-Ebene.](/office/vba/excel/concepts/events-worksheetfunctions-shapes/using-events-with-excel-objects) Skripts werden nur ausgeführt, wenn ein Benutzer sie manuell startet oder wenn ein Power Automate-Fluss das Skript aufruft.
 
 ## <a name="power-automate"></a>Power Automate
 
-Office-Skripts können über Power Automation ausgeführt werden. Ihre Arbeitsmappe kann über geplante oder ereignisgesteuerte Abläufe aktualisiert werden, sodass Sie Workflows automatisieren können, ohne Excel zu öffnen. Dies bedeutet, dass, solange Ihre Arbeitsmappe in OneDrive gespeichert ist (und für Power Automation zugänglich), ein Flow Ihre Skripts ausführen kann, unabhängig davon, ob Sie und Ihre Organisation den Desktop, Mac oder Webclient von Excel verwenden.
+Office-Skripts können über Power Automate ausgeführt werden. Ihre Arbeitsmappe kann über geplante oder ereignisgesteuerte Flüsse aktualisiert werden, damit Sie Workflows automatisieren können, ohne excel zu öffnen. Dies bedeutet, dass ein Fluss Ihre Skripts unabhängig davon ausführen kann, ob Sie und Ihre Organisation den Desktop, Mac oder Webclient von Excel verwenden, solange Ihre Arbeitsmappe in OneDrive gespeichert ist (und auf den Power Automate zugegriffen werden kann).
 
-VBA verfügt über keinen Power Automation-Connector. Alle unterstützten VBA-Szenarien betrafen einen Benutzer, der die Ausführung des Makros teilgenommen hat.
+VBA hat keinen Power Automate-Connector. Bei allen unterstützten VBA-Szenarien musste ein Benutzer an der Ausführung des Makros teilnehmen.
 
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Weitere Informationen
 
 - [Office-Skripts in Excel im Web](../overview/excel.md)
 - [Unterschiede zwischen Office-Skripts und Office-Add-Ins](add-ins-differences.md)

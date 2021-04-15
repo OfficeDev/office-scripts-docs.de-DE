@@ -1,54 +1,54 @@
 ---
 title: 'Beispielszenario für Office-Skripts: Analysieren von Webdownloads'
-description: Ein Beispiel, das Rohdaten im Internet Datenverkehr in einer Excel-Arbeitsmappe verwendet und den Ursprungsort bestimmt, bevor diese Informationen in einer Tabelle organisiert werden.
-ms.date: 07/10/2020
+description: Ein Beispiel, das unformatierte Internetdaten in einer Excel-Arbeitsmappe verwendet und den Ursprung bestimmt, bevor diese Informationen in einer Tabelle organisiert werden.
+ms.date: 12/17/2020
 localization_priority: Normal
-ms.openlocfilehash: adc2cb401830b66b245c0dfcc4441b7ac9c8c61f
-ms.sourcegitcommit: 009935c5773761c5833e5857491af47e2c95d851
+ms.openlocfilehash: e351cd6c4a12e83a07a2f4ce5678d7aa10625118
+ms.sourcegitcommit: 45ffe3dbd2c834b78592ad35928cf8096f5e80bc
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "49408966"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51755035"
 ---
 # <a name="office-scripts-sample-scenario-analyze-web-downloads"></a>Beispielszenario für Office-Skripts: Analysieren von Webdownloads
 
-In diesem Szenario haben Sie die Aufgabe, Download Berichte von der Website Ihres Unternehmens zu analysieren. Das Ziel dieser Analyse besteht darin zu ermitteln, ob der Webdatenverkehr aus den USA oder anderswo in der Welt stammt.
+In diesem Szenario haben Sie die Aufgabe, Downloadberichte von der Website Ihres Unternehmens zu analysieren. Das Ziel dieser Analyse besteht in der Ermittlung, ob der Webdatenverkehr aus den USA oder anderen Ländern der Welt kommt.
 
-Ihre Kollegen laden die Rohdaten in Ihre Arbeitsmappe hoch. Die Datenmenge jeder Woche verfügt über ein eigenes Arbeitsblatt. Es gibt auch das **Zusammenfassungs** Arbeitsblatt mit einer Tabelle und einem Diagramm, in denen Wochen überwochen Trends angezeigt werden.
+Ihre Kollegen laden die Rohdaten in Ihre Arbeitsmappe hoch. Der Datensatz jeder Woche verfügt über ein eigenes Arbeitsblatt. Es gibt  auch das Zusammenfassungsarbeitsblatt mit einer Tabelle und einem Diagramm, das Wochentrends zeigt.
 
-Sie entwickeln ein Skript, mit dem wöchentliche Downloads von Daten im aktiven Arbeitsblatt analysiert werden. Er analysiert die IP-Adresse, die jedem Download zugeordnet ist, und ermittelt, ob er aus den USA stammt oder nicht. Die Antwort wird als boolescher Wert in das Arbeitsblatt eingefügt ("true" oder "false"), und die bedingte Formatierung wird auf diese Zellen angewendet. Die Ergebnisse der IP-Adressposition werden auf dem Arbeitsblatt summiert und in die Zusammenfassungstabelle kopiert.
+Sie entwickeln ein Skript, das wöchentliche Downloadsdaten im aktiven Arbeitsblatt analysiert. Sie analysiert die jedem Download zugeordnete IP-Adresse und bestimmt, ob sie aus den USA stammt. Die Antwort wird als boolescher Wert ("TRUE" oder "FALSE") in das Arbeitsblatt eingefügt, und die bedingte Formatierung wird auf diese Zellen angewendet. Die Ergebnisse des IP-Adressspeicherorts werden auf dem Arbeitsblatt zusammengefasst und in die Zusammenfassungstabelle kopiert.
 
-## <a name="scripting-skills-covered"></a>Abgedeckte Skript Fertigkeiten
+## <a name="scripting-skills-covered"></a>Abgedeckte Skriptkenntnisse
 
-- Text Analyse
-- Unter Funktionen in Skripts
+- Textparsing
+- Unterfunktion in Skripts
 - Bedingte Formatierung
 - Tabellen
 
-## <a name="demo-video"></a>Demo Video
+## <a name="demo-video"></a>Demovideo
 
-Dieses Beispiel wurde als Teil des Office-Add-ins Entwickler-Community-Aufrufs für den 2020. Februar verdemot.
+Dieses Beispiel wurde im Rahmen des Aufrufs der Office-Add-Ins-Entwicklergemeinschaft für Februar 2020 demoed.
 
 > [!VIDEO https://www.youtube.com/embed/vPEqbb7t6-Y?start=154]
 
 > [!NOTE]
-> Der in diesem Video gezeigte Code verwendet ein älteres API-Modell (die [Office Scripts Async-APIs](../../develop/excel-async-model.md)). Das auf dieser Seite vorgestellte Beispiel wurde aktualisiert, der Code sieht jedoch etwas anders aus als die Aufzeichnung. Die Änderungen wirken sich nicht auf das Verhalten des Skripts oder die anderen Inhalte in der Demo des Referenten aus.
+> Der in diesem Video gezeigte Code verwendet ein älteres API-Modell [(die Office Scripts Async-APIs](../../develop/excel-async-model.md)). Das auf dieser Seite dargestellte Beispiel wurde aktualisiert, aber der Code sieht etwas anders aus als die Aufzeichnung. Die Änderungen wirken sich nicht auf das Verhalten des Skripts oder der anderen Inhalte in der Demo des Presenters aus.
 
-## <a name="setup-instructions"></a>Setup Anweisungen
+## <a name="setup-instructions"></a>Setupanweisungen
 
-1. Laden Sie <a href="analyze-web-downloads.xlsx">analyze-web-downloads.xlsx</a> auf Ihre OneDrive herunter.
+1. Laden <a href="analyze-web-downloads.xlsx">analyze-web-downloads.xlsx</a> auf Ihr OneDrive herunter.
 
-2. Öffnen Sie die Arbeitsmappe mit Excel für das Internet.
+2. Öffnen Sie die Arbeitsmappe mit Excel für das Web.
 
-3. Öffnen Sie auf der Registerkarte **automatisieren** den **Code-Editor**.
+3. Öffnen Sie **auf** der Registerkarte Automatisieren **alle Skripts**.
 
-4. Klicken Sie im Aufgabenbereich **Code-Editor** auf **Neues Skript** , und fügen Sie das folgende Skript in den Editor ein.
+4. Drücken Sie **im Aufgabenbereich Code-Editor** die **Taste Neues Skript,** und fügen Sie das folgende Skript in den Editor ein.
 
     ```TypeScript
     function main(workbook: ExcelScript.Workbook) {
       /* Get the Summary worksheet and table.
-       * End the script early if either object is not in the workbook.
-       */
+        * End the script early if either object is not in the workbook.
+        */
       let summaryWorksheet = workbook.getWorksheet("Summary");
       if (!summaryWorksheet) {
         console.log("The script expects a worksheet named \"Summary\". Please download the correct template and try again.");
@@ -59,39 +59,39 @@ Dieses Beispiel wurde als Teil des Office-Add-ins Entwickler-Community-Aufrufs f
         console.log("The script expects a summary table named \"Table1\". Please download the correct template and try again.");
         return;
       }
-
+  
       // Get the current worksheet.
       let currentWorksheet = workbook.getActiveWorksheet();
       if (currentWorksheet.getName().toLocaleLowerCase().indexOf("week") !== 0) {
         console.log("Please switch worksheet to one of the weekly data sheets and try again.")
         return;
       }
-
+  
       // Get the values of the active range of the active worksheet.
       let logRange = currentWorksheet.getUsedRange();
-
+  
       if (logRange.getColumnCount() !== 8) {
         console.log(`Verify that you are on the correct worksheet. Either the week's data has been already processed or the content is incorrect. The following columns are expected: ${[
-          "Time Stamp", "IP Address", "kilobytes", "user agent code", "milliseconds", "Request", "Results", "Referrer"
+            "Time Stamp", "IP Address", "kilobytes", "user agent code", "milliseconds", "Request", "Results", "Referrer"
         ]}`);
         return;
       }
       // Get the range that will contain TRUE/FALSE if the IP address is from the United States (US).
       let isUSColumn = logRange
-        .getLastColumn()
-        .getOffsetRange(0, 1);
-
+          .getLastColumn()
+          .getOffsetRange(0, 1);
+  
       // Get the values of all the US IP addresses.
       let ipRange = workbook.getWorksheet("USIPAddresses").getUsedRange();
-      let ipRangeValues = ipRange.getValues();
-      let logRangeValues = logRange.getValues();
+      let ipRangeValues = ipRange.getValues() as number[][];
+      let logRangeValues = logRange.getValues() as string[][];
       // Remove the first row.
       let topRow = logRangeValues.shift();
       console.log(`Analyzing ${logRangeValues.length} entries.`);
-
+  
       // Create a new array to contain the boolean representing if this is a US IP address.
       let newCol = [];
-
+  
       // Go through each row in worksheet and add Boolean.
       for (let i = 0; i < logRangeValues.length; i++) {
         let curRowIP = logRangeValues[i][1];
@@ -101,43 +101,43 @@ Dieses Beispiel wurde als Teil des Office-Add-ins Entwickler-Community-Aufrufs f
           newCol.push([false]);
         }
       }
-
+  
       // Remove the empty column header and add proper heading.
       newCol = [["Is US IP"], ...newCol];
-
+  
       // Write the result to the spreadsheet.
       console.log(`Adding column to indicate whether IP belongs to US region or not at address: ${isUSColumn.getAddress()}`);
       console.log(newCol.length);
       console.log(newCol);
       isUSColumn.setValues(newCol);
-
+  
       // Call the local function to add summary data to the worksheet.
       addSummaryData();
-
+  
       // Call the local function to apply conditional formatting.
       applyConditionalFormatting(isUSColumn);
-
+  
       // Autofit columns.
       currentWorksheet.getUsedRange().getFormat().autofitColumns();
-
+  
       // Get the calculated summary data.
       let summaryRangeValues = currentWorksheet.getRange("J2:M2").getValues();
-
+  
       // Add the corresponding row to the summary table.
       summaryTable.addRow(null, summaryRangeValues[0]);
       console.log("Complete.");
       return;
-
+  
       /**
        * A function to add summary data on the worksheet.
-       */
+        */
       function addSummaryData() {
         // Add a summary row and table.
         let summaryHeader = [["Year", "Week", "US", "Other"]];
         let countTrueFormula =
-          "=COUNTIF(" + isUSColumn.getAddress() + ', "=TRUE")/' + (newCol.length - 1);
+            "=COUNTIF(" + isUSColumn.getAddress() + ', "=TRUE")/' + (newCol.length - 1);
         let countFalseFormula =
-          "=COUNTIF(" + isUSColumn.getAddress() + ', "=FALSE")/' + (newCol.length - 1);
+            "=COUNTIF(" + isUSColumn.getAddress() + ', "=FALSE")/' + (newCol.length - 1);
 
         let summaryContent = [
           [
@@ -147,10 +147,8 @@ Dieses Beispiel wurde als Teil des Office-Add-ins Entwickler-Community-Aufrufs f
             countFalseFormula
           ]
         ];
-        let summaryHeaderRow = currentWorksheet
-          .getRange("J1:M1");
-        let summaryContentRow = currentWorksheet
-          .getRange("J2:M2");
+        let summaryHeaderRow = currentWorksheet.getRange("J1:M1");
+        let summaryContentRow = currentWorksheet.getRange("J2:M2");
         console.log("2");
 
         summaryHeaderRow.setValues(summaryHeader);
@@ -161,8 +159,8 @@ Dieses Beispiel wurde als Teil des Office-Add-ins Entwickler-Community-Aufrufs f
 
         let formats = [[".000", ".000"]];
         summaryContentRow
-          .getOffsetRange(0, 2)
-          .getResizedRange(0, -2).setNumberFormats(formats);
+            .getOffsetRange(0, 2)
+            .getResizedRange(0, -2).setNumberFormats(formats);
       }
     }
     /**
@@ -171,21 +169,21 @@ Dieses Beispiel wurde als Teil des Office-Add-ins Entwickler-Community-Aufrufs f
     function applyConditionalFormatting(isUSColumn: ExcelScript.Range) {
       // Add conditional formatting to the new column.
       let conditionalFormatTrue = isUSColumn.addConditionalFormat(
-        ExcelScript.ConditionalFormatType.cellValue
+          ExcelScript.ConditionalFormatType.cellValue
       );
       let conditionalFormatFalse = isUSColumn.addConditionalFormat(
-        ExcelScript.ConditionalFormatType.cellValue
+          ExcelScript.ConditionalFormatType.cellValue
       );
       // Set TRUE to light blue and FALSE to light orange.
       conditionalFormatTrue.getCellValue().getFormat().getFill().setColor("#8FA8DB");
       conditionalFormatTrue.getCellValue().setRule({
-        formula1: "=TRUE",
-        operator: ExcelScript.ConditionalCellValueOperator.equalTo
+          formula1: "=TRUE",
+          operator: ExcelScript.ConditionalCellValueOperator.equalTo
       });
       conditionalFormatFalse.getCellValue().getFormat().getFill().setColor("#F8CCAD");
       conditionalFormatFalse.getCellValue().setRule({
-        formula1: "=FALSE",
-        operator: ExcelScript.ConditionalCellValueOperator.equalTo
+          formula1: "=FALSE",
+          operator: ExcelScript.ConditionalCellValueOperator.equalTo
       });
     }
     /**
@@ -195,14 +193,14 @@ Dieses Beispiel wurde als Teil des Office-Add-ins Entwickler-Community-Aufrufs f
     function ipAddressToInteger(ipAddress: string): number {
       // Split the IP address into octets.
       let octets = ipAddress.split(".");
-
+  
       // Create a number for each octet and do the math to create the integer value of the IP address.
       let fullNum =
-        // Define an arbitrary number for the last octet.
-        111 +
-        parseInt(octets[2]) * 256 +
-        parseInt(octets[1]) * 65536 +
-        parseInt(octets[0]) * 16777216;
+          // Define an arbitrary number for the last octet.
+          111 +
+          parseInt(octets[2]) * 256 +
+          parseInt(octets[1]) * 65536 +
+          parseInt(octets[0]) * 16777216;
       return fullNum;
     }
     /**
@@ -220,18 +218,18 @@ Dieses Beispiel wurde als Teil des Office-Add-ins Entwickler-Community-Aufrufs f
     }
     ```
 
-5. Benennen Sie das Skript zum **Analysieren von Webdownloads** um, und speichern Sie es.
+5. Benennen Sie das Skript in **Analysieren von Webdownloads um,** und speichern Sie es.
 
 ## <a name="running-the-script"></a>Ausführen des Skripts
 
-Navigieren Sie zu einem der **Wochen \* \*** Arbeitsblätter, und führen Sie das Skript zum **Analysieren von Webdownloads** aus. Das Skript wendet die bedingte Formatierung und die Speicherort Kennzeichnung auf dem aktuellen Blatt an. Außerdem wird das **Zusammenfassungs** Arbeitsblatt aktualisiert.
+Navigieren Sie zu einem der Wochenarbeitsblätter, **\* \*** und führen Sie das **Skript Zum Analysieren von Webdownloads** aus. Das Skript wird die bedingte Formatierung und die Beschriftung des Speicherorts auf das aktuelle Blatt anwenden. Außerdem wird das Arbeitsblatt **Zusammenfassung** aktualisiert.
 
 ### <a name="before-running-the-script"></a>Vor dem Ausführen des Skripts
 
-![Ein Arbeitsblatt, das Rohdaten von Webdatenverkehr anzeigt.](../../images/scenario-analyze-web-downloads-before.png)
+:::image type="content" source="../../images/scenario-analyze-web-downloads-before.png" alt-text="Ein Arbeitsblatt mit unformatiertem Webdatenverkehr.":::
 
 ### <a name="after-running-the-script"></a>Nach dem Ausführen des Skripts
 
-![Ein Arbeitsblatt, in dem formatierte IP-Standortinformationen mit den vorherigen Zeilen des Webdatenverkehrs angezeigt werden.](../../images/scenario-analyze-web-downloads-after.png)
+:::image type="content" source="../../images/scenario-analyze-web-downloads-after.png" alt-text="Ein Arbeitsblatt, das formatierte IP-Standortinformationen mit den vorherigen Webdatenverkehrzeilen zeigt.":::
 
-![Die Zusammenfassungstabelle und das Diagramm, in dem die Arbeitsblätter zusammengefasst werden, in denen das Skript ausgeführt wurde.](../../images/scenario-analyze-web-downloads-table.png)
+:::image type="content" source="../../images/scenario-analyze-web-downloads-table.png" alt-text="Die Zusammenfassungstabelle und das Diagramm, in der die Arbeitsblätter zusammengefasst sind, in denen das Skript ausgeführt wurde.":::

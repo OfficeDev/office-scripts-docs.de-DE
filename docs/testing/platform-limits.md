@@ -3,12 +3,12 @@ title: Plattformbeschränkungen und -anforderungen mit Office-Skripts
 description: Ressourcenbeschränkungen und Browserunterstützung für Office-Skripts bei Verwendung mit Excel im Web
 ms.date: 03/12/2021
 localization_priority: Normal
-ms.openlocfilehash: 93307b6204f409f26c77b5ead33188205d5c4b4d
-ms.sourcegitcommit: 5bde455b06ee2ed007f3e462d8ad485b257774ef
+ms.openlocfilehash: ef733562fb3caa8261fbbd8382923927a46cb7d4
+ms.sourcegitcommit: 5ca286615a11d282e3f80023d22d36a039800eed
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/17/2021
-ms.locfileid: "50837265"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51689766"
 ---
 # <a name="platform-limits-and-requirements-with-office-scripts"></a>Plattformbeschränkungen und -anforderungen mit Office-Skripts
 
@@ -49,14 +49,14 @@ Wenn beim Umgang mit großen Datasets Fehler auftreten, versuchen Sie, mehrere k
 
 ### <a name="power-automate"></a>Power Automate
 
-Bei verwendung von Office Scripts mit Power Automate ist jeder Benutzer auf **200** Anrufe pro Tag beschränkt. Dieser Grenzwert wird um 12:00 Uhr UTC zurückgesetzt.
+Bei verwendung von Office Scripts mit Power Automate ist jeder Benutzer auf **400** Aufrufe der Aktion Skript ausführen pro Tag beschränkt. Dieser Grenzwert wird um 12:00 Uhr UTC zurückgesetzt.
 
 Die Power Automate-Plattform hat auch Nutzungseinschränkungen, die in den folgenden Artikeln zu finden sind:
 
 - [Grenzwerte und Konfiguration in Power Automate](/power-automate/limits-and-config)
 - [Bekannte Probleme und Einschränkungen für den Excel Online (Business)-Connector](/connectors/excelonlinebusiness/#known-issues-and-limitations)
 
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Weitere Informationen
 
 - [Behandeln von Problemen mit Office-Skripts](troubleshooting.md)
 - [Rückgängigmachen der Auswirkungen eines Office-Skripts](undo.md)

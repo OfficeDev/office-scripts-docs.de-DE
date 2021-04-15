@@ -4,12 +4,12 @@ description: Grundlagen zu Office-Skripts, einschließlich Zugriffs-, Umgebungs-
 ms.date: 04/01/2021
 localization_priority: Normal
 ROBOTS: NOINDEX
-ms.openlocfilehash: c1c4675b2fdc1f5ebd9e86f04f5fb011c27a3f1b
-ms.sourcegitcommit: 190ae1c071243f4638d0d650e35f1425914b0156
+ms.openlocfilehash: 42b71a21470ac38535e3e95f091ec6267806e54a
+ms.sourcegitcommit: 45ffe3dbd2c834b78592ad35928cf8096f5e80bc
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/09/2021
-ms.locfileid: "51650367"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51755056"
 ---
 # <a name="getting-started"></a>Erste Schritte
 
@@ -97,7 +97,7 @@ Zusammenfassung:
 * Die `main` Funktion ist der Einstiegspunkt für jedes Skript. Wenn die Funktion ausgeführt wird, ruft die Excel-Anwendung diese Hauptfunktion auf, indem die Arbeitsmappe als erster Parameter angegeben wird.
 * Es ist wichtig, das erste Argument und seine Typdeklaration so zu behalten, `workbook` wie es angezeigt wird. Sie können der Funktion neue Argumente hinzufügen (siehe den nächsten Abschnitt), aber behalten Sie `main` das erste Argument wie folgt bei.
 
-![Die Hauptfunktion ist der Einstiegspunkt des Skripts.](../../images/getting-started-main-introduction.png)
+:::image type="content" source="../../images/getting-started-main-introduction.png" alt-text="Die Hauptfunktion ist der Einstiegspunkt des Skripts.":::
 
 #### <a name="send-or-receive-data-from-other-apps"></a>Senden oder Empfangen von Daten von anderen Apps
 
@@ -105,13 +105,13 @@ Sie können Excel mit anderen Teilen Ihrer Organisation verbinden, indem Sie Skr
 
 Die Möglichkeit, Daten von und an Excel zu empfangen oder zu senden, ist über die `main` Funktion. Denken Sie daran, dass es das Informationsgateway ist, mit dem eingehende und ausgehende Daten im Skript beschrieben und verwendet werden können. Sie können Daten von außerhalb des Skripts mithilfe des Datentyps empfangen und typeScript-erkannte Daten wie , , oder alle Objekte in Form von Schnittstellen zurückgeben, die Sie im Skript `string` `string` `number` `boolean` definieren.
 
-![Die Eingaben und Ausgaben eines Skripts](../../images/getting-started-data-in-out.png)
+:::image type="content" source="../../images/getting-started-data-in-out.png" alt-text="Die Eingaben und Ausgaben eines Skripts":::
 
 #### <a name="use-functions-to-organize-and-reuse-code"></a>Verwenden von Funktionen zum Organisieren und Wiederverwenden von Code
 
 Sie können Funktionen verwenden, um Code innerhalb Ihres Skripts zu organisieren und wiederzuverwenden.
 
-![Verwenden von Funktionen in einem Skript](../../images/getting-started-use-functions.png)
+:::image type="content" source="../../images/getting-started-use-functions.png" alt-text="Verwenden von Funktionen in einem Skript":::
 
 ### <a name="objects-hierarchy-methods-properties-collections"></a>Objekte, Hierarchie, Methoden, Eigenschaften, Auflistungen
 
@@ -496,9 +496,9 @@ let someVariable: any;
 
 Der `any` Typ stellt die Art und Weise, wie Office Scripts die Excel-APIs verarbeitet, vor Herausforderungen. Es verursacht Probleme, wenn die Variablen zur Verarbeitung an Excel-APIs gesendet werden. Das Wissen über den Typ von Variablen, die im Skript verwendet werden, ist für die Verarbeitung des Skripts unerlässlich, und daher ist eine explizite Definition jeder Variablen mit Typ `any` nicht zulässig. Sie erhalten einen Kompilierungszeitfehler (Fehler vor dem Ausführen des Skripts), wenn eine Variable mit dem typ im `any` Skript deklariert ist. Es wird auch ein Fehler im Editor angezeigt.
 
-![Expliziter "beliebiger" Fehler](../../images/getting-started-eanyi.png)
+:::image type="content" source="../../images/getting-started-eanyi.png" alt-text="Expliziter &quot;beliebiger&quot; Fehler":::
 
-![Expliziter "beliebiger" Fehler, der in Ausgabe angezeigt wird](../../images/getting-started-expany.png)
+:::image type="content" source="../../images/getting-started-expany.png" alt-text="Expliziter &quot;beliebiger&quot; Fehler, der in Ausgabe angezeigt wird":::
 
 Gibt im Code, der in der vorherigen Abbildung angezeigt wird, an, dass Zeile `[5, 16] Explicit Any is not allowed` 5 Spalte 16 den Typ `any` deklariert. Dadurch können Sie die Codezeile finden, die den Fehler enthält.
 
@@ -529,7 +529,7 @@ Diese Art von Rückschluss erfolgt beim Initialisieren von Variablen und Membern
 
 Für ein Skript sind die Typen der Variablen erforderlich, die explizit oder implizit deklariert werden. Wenn der TypeScript-Compiler den Typ einer Variablen nicht ermitteln kann (entweder, weil typ nicht explizit deklariert ist oder ein Typverweis nicht möglich ist), erhalten Sie einen Kompilierungszeitfehler (Fehler vor dem Ausführen des Skripts). Es wird auch ein Fehler im Editor angezeigt.
 
-![Impliziter "beliebiger" Fehler, der im Editor angezeigt wird](../../images/getting-started-iany.png)
+:::image type="content" source="../../images/getting-started-iany.png" alt-text="Der implizite &quot;any&quot;-Fehler, der im Editor angezeigt wird.":::
 
 Die folgenden Skripts haben Kompilierungszeitfehler, da Variablen ohne Typen deklariert werden und TypeScript den Typ zum Zeitpunkt der Deklaration nicht bestimmen kann.
 
@@ -590,15 +590,15 @@ Der Fehler "Office-Skripts" kann in eine der folgenden Kategorien unterteilt wer
 
 Editorwarnungen können mithilfe der wellenroten Unterstreichungen im Editor identifiziert werden:
 
-![Im Editor angezeigte Warnung zur Kompilierungszeit](../../images/getting-started-eanyi.png)
+:::image type="content" source="../../images/getting-started-eanyi.png" alt-text="Im Editor angezeigte Warnung zur Kompilierungszeit":::
 
 Manchmal werden auch orangefarbene Warnmeldungen und graue Informationsmeldungen angezeigt. Sie sollten genau untersucht werden, obwohl sie keine Fehler verursachen werden.
 
 Es ist nicht möglich, zwischen Kompilierungszeit- und Laufzeitfehlern zu unterscheiden, da beide Fehlermeldungen identisch aussehen. Beide treten auf, wenn Sie das Skript tatsächlich ausführen. Die folgenden Bilder zeigen Beispiele für einen Kompilierungszeitfehler und einen Laufzeitfehler.
 
-![Beispiel für einen Kompilierungszeitfehler](../../images/getting-started-expany.png)
+:::image type="content" source="../../images/getting-started-expany.png" alt-text="Beispiel für einen Kompilierungszeitfehler":::
 
-![Beispiel für einen Laufzeitfehler](../../images/getting-started-error-basic.png)
+:::image type="content" source="../../images/getting-started-error-basic.png" alt-text="Beispiel für einen Laufzeitfehler":::
 
 In beiden Fällen wird die Zeilennummer angezeigt, in der der Fehler aufgetreten ist. Anschließend können Sie den Code untersuchen, das Problem beheben und erneut ausführen.
 

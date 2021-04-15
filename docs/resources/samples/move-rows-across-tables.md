@@ -3,12 +3,12 @@ title: Verschieben von Zeilen über Tabellen mithilfe von Office-Skripts
 description: Erfahren Sie, wie Sie Zeilen über Tabellen verschieben, indem Sie Filter speichern und anschließend die Filter verarbeiten und erneut anwenden.
 ms.date: 03/30/2021
 localization_priority: Normal
-ms.openlocfilehash: 0a66c8ff0f8e0e7b7f074ad77e8c660fc80b50a9
-ms.sourcegitcommit: 5d24e77df70aa2c1c982275d53213c2a9323ff86
+ms.openlocfilehash: 1adaeee1c8307d7775529496df115563831aed4d
+ms.sourcegitcommit: 45ffe3dbd2c834b78592ad35928cf8096f5e80bc
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51571299"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51755042"
 ---
 # <a name="move-rows-across-tables-by-saving-filters-then-processing-and-reapplying-the-filters"></a>Verschieben von Zeilen über Tabellen durch Speichern von Filtern und anschließende Verarbeitung und erneutes Anwenden der Filter
 
@@ -18,7 +18,7 @@ In diesem Skript werden folgende Schritte ausgeführt:
 * Verschiebt alle ausgewählten Zeilen in eine andere (Ziel-)Tabelle eines anderen Arbeitsblatts.
 * Verwendet die relevanten Filter in der Quelltabelle erneut.
 
-![Screenshots der Arbeitsmappe vor und nach](../../images/table-filter-before-after.png)
+:::image type="content" source="../../images/table-filter-before-after.png" alt-text="Screenshots der Arbeitsmappe vor und nach":::
 
 Diese Lösung enthält zwei Skripts. Der Hauptunterschied besteht in der Auswahl der Zeilen.
 

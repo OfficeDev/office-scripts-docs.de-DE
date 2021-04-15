@@ -1,37 +1,37 @@
 ---
-title: 'Beispielszenario für Office-Skripts: Grade Calculator'
-description: Ein Beispiel, das die Prozent-und Buchstaben Noten für eine Kursteilnehmer Klasse bestimmt.
-ms.date: 07/24/2020
+title: 'Beispielszenario für Office-Skripts: Notenrechner'
+description: Ein Beispiel, das die Prozent- und Buchstabennoten für eine Schülerklasse bestimmt.
+ms.date: 12/17/2020
 localization_priority: Normal
-ms.openlocfilehash: 4e488c6cc67bda9122b88c55070654632d9c7fa2
-ms.sourcegitcommit: ff7fde04ce5a66d8df06ed505951c8111e2e9833
+ms.openlocfilehash: b8c45ad405c06a943c75e76391c1160ecb1bd18e
+ms.sourcegitcommit: 45ffe3dbd2c834b78592ad35928cf8096f5e80bc
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/11/2020
-ms.locfileid: "46616741"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51755028"
 ---
-# <a name="office-scripts-sample-scenario-grade-calculator"></a>Beispielszenario für Office-Skripts: Grade Calculator
+# <a name="office-scripts-sample-scenario-grade-calculator"></a>Beispielszenario für Office-Skripts: Notenrechner
 
-In diesem Szenario sind Sie ein Kursleiter, der die Auszählung jedes Schülers angeht. Sie haben die Noten für ihre Zuweisungen und Tests eingegeben, während Sie gehen. Nun ist es an der Zeit, die Schicksale der Schüler zu bestimmen.
+In diesem Szenario sind Sie ein Kursleiter, der die End-of-Term-Noten jedes Schülers abfüllt. Sie haben die Noten für ihre Zuordnungen und Tests während Ihres Wegs eingeben. Jetzt ist es an der Zeit, die Schicksale der Schüler zu bestimmen.
 
-Sie entwickeln ein Skript, das die Noten für jede Punkte Kategorie summiert. Anschließend wird jedem Schüler basierend auf der Gesamtzahl ein Brief Grad zugewiesen. Um die Genauigkeit sicherzustellen, fügen Sie ein paar Schecks hinzu, um zu sehen, ob einzelne Noten zu niedrig oder hoch sind. Wenn die Punktzahl eines Schülers kleiner als 0 (null) oder größer als der mögliche Punktwert ist, wird die Zelle durch das Skript mit einer roten Füllung markiert und nicht mit der Summe der Punkte des Schülers. Dies ist ein klarer Hinweis darauf, welche Datensätze Sie doppelt überprüfen müssen. Sie fügen auch einige grundlegende Formatierungen zu den Noten hinzu, damit Sie den oberen und unteren Teil der Klasse schnell anzeigen können.
+Sie entwickeln ein Skript, das die Noten für jede Punktkategorie insgesamt auflisten kann. Anschließend wird jedem Schüler basierend auf der Gesamtsumme eine Briefnote zugewiesen. Um die Genauigkeit sicherzustellen, fügen Sie ein paar Prüfungen hinzu, um zu überprüfen, ob einzelne Bewertungen zu niedrig oder zu hoch sind. Wenn die Punktzahl eines Schülers kleiner als null oder mehr als der mögliche Punktwert ist, markiert das Skript die Zelle mit einer roten Füllung und nicht die Punkte dieses Kursteilnehmers. Dies ist ein eindeutiger Hinweis darauf, welche Datensätze Sie überprüfen müssen. Sie fügen den Noten auch einige grundlegende Formatierungen hinzu, damit Sie den oberen und unteren Teil der Klasse schnell anzeigen können.
 
-## <a name="scripting-skills-covered"></a>Abgedeckte Skript Fertigkeiten
+## <a name="scripting-skills-covered"></a>Abgedeckte Skriptkenntnisse
 
 - Zellenformatierung
 - Fehlerüberprüfung
 - Reguläre Ausdrücke
 - Bedingte Formatierung
 
-## <a name="setup-instructions"></a>Setup Anweisungen
+## <a name="setup-instructions"></a>Setupanweisungen
 
-1. Laden Sie <a href="grade-calculator.xlsx">grade-calculator.xlsx</a> auf Ihre OneDrive herunter.
+1. Laden <a href="grade-calculator.xlsx">grade-calculator.xlsx</a> auf Ihr OneDrive herunter.
 
-2. Öffnen Sie die Arbeitsmappe mit Excel für das Internet.
+2. Öffnen Sie die Arbeitsmappe mit Excel für das Web.
 
-3. Öffnen Sie auf der Registerkarte **automatisieren** den **Code-Editor**.
+3. Öffnen Sie **auf** der Registerkarte Automatisieren **alle Skripts**.
 
-4. Klicken Sie im Aufgabenbereich **Code-Editor** auf **Neues Skript** , und fügen Sie das folgende Skript in den Editor ein.
+4. Drücken Sie **im Aufgabenbereich Code-Editor** die **Taste Neues Skript,** und fügen Sie das folgende Skript in den Editor ein.
 
     ```TypeScript
     function main(workbook: ExcelScript.Workbook) {
@@ -51,9 +51,9 @@ Sie entwickeln ein Skript, das die Noten für jede Punkte Kategorie summiert. An
 
       // Use regular expressions to read the max score from the assignment, mid-term, and final scores columns.
       let maxScores: string[] = [];
-      const assignmentMaxMatches = studentData[0][1].match(/\d+/);
-      const midtermMaxMatches = studentData[0][2].match(/\d+/);
-      const finalMaxMatches = studentData[0][3].match(/\d+/);
+      const assignmentMaxMatches = (studentData[0][1] as string).match(/\d+/);
+      const midtermMaxMatches = (studentData[0][2] as string).match(/\d+/);
+      const finalMaxMatches = (studentData[0][3] as string).match(/\d+/);
 
       // Check the matches happened before proceeding.
       if (!(assignmentMaxMatches && midtermMaxMatches && finalMaxMatches)) {
@@ -89,7 +89,7 @@ Sie entwickeln ein Skript, das die Noten für jede Punkte Kategorie summiert. An
           studentData[i][3] > maxScores[2]) {
           continue;
         }
-        const total = studentData[i][1] + studentData[i][2] + studentData[i][3];
+        const total = (studentData[i][1] as number) + (studentData[i][2] as number) + (studentData[i][3] as number);
         let grade: string;
         switch (true) {
           case total < 60:
@@ -108,7 +108,7 @@ Sie entwickeln ein Skript, das die Noten für jede Punkte Kategorie summiert. An
             grade = "A";
             break;
         }
-
+    
         // Set total score formula.
         studentsRangeFormulas[i][0] = '=RC[-2]+RC[-1]';
         // Set grade cell.
@@ -166,24 +166,24 @@ Sie entwickeln ein Skript, das die Noten für jede Punkte Kategorie summiert. An
       }
 
       // Apply conditional formatting.
-      let conditionalFormatting : ExcelScript.ConditionalFormat;
+      let conditionalFormatting: ExcelScript.ConditionalFormat;
       conditionalFormatting = range.addConditionalFormat(ExcelScript.ConditionalFormatType.cellValue);
       conditionalFormatting.getCellValue().getFormat().getFont().setColor(fontColor);
       conditionalFormatting.getCellValue().getFormat().getFill().setColor(fillColor);
-      conditionalFormatting.getCellValue().setRule({formula1, operator});
+      conditionalFormatting.getCellValue().setRule({ formula1, operator });
     }
     ```
 
-5. Benennen Sie das Skript in den **Grade Calculator** um, und speichern Sie es.
+5. Benennen Sie das Skript in **Notenrechner um,** und speichern Sie es.
 
 ## <a name="running-the-script"></a>Ausführen des Skripts
 
-Führen Sie das **Grade Calculator** -Skript auf dem einzigen Arbeitsblatt aus. Das Skript summiert die Noten und weist jedem Schüler eine Note zu. Wenn einzelne Noten mehr Punkte aufweisen als die Zuordnung oder der Test Wert ist, wird die betroffene Note rot markiert, und die Summe wird nicht berechnet. Außerdem werden alle "A"-Noten in grün hervorgehoben, während 'd-und F-Noten in gelb markiert sind.
+Führen Sie das **Skript Notenrechner** im einzigen Arbeitsblatt aus. Das Skript gesamt die Noten und weisen jedem Schüler eine Briefnote zu. Wenn einzelne Noten mehr Punkte haben, als die Zuordnung oder der Test wert ist, wird die beleidigungswürdige Note rot markiert, und die Summe wird nicht berechnet. Außerdem werden alle "A"-Noten grün hervorgehoben, während die Noten "D" und "F" gelb hervorgehoben sind.
 
 ### <a name="before-running-the-script"></a>Vor dem Ausführen des Skripts
 
-![Ein Arbeitsblatt, in dem Zeilen mit Partituren für Schüler angezeigt werden.](../../images/scenario-grade-calculator-before.png)
+:::image type="content" source="../../images/scenario-grade-calculator-before.png" alt-text="Ein Arbeitsblatt, das Zeilen mit Noten für Schüler und Studenten zeigt.":::
 
 ### <a name="after-running-the-script"></a>Nach dem Ausführen des Skripts
 
-![Ein Arbeitsblatt, in dem die Kursteilnehmerdaten mit ungültigen Zellen in roten Gesamtzahlen für gültige Schüler Zeilen angezeigt werden.](../../images/scenario-grade-calculator-after.png)
+:::image type="content" source="../../images/scenario-grade-calculator-after.png" alt-text="Ein Arbeitsblatt, das die Schülerergebnisdaten mit ungültigen Zellen in roten Zahlen für gültige Schülerzeilen zeigt.":::

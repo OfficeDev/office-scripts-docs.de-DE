@@ -3,12 +3,12 @@ title: 'Beispielszenario für Office-Skripts: Automatisierte Aufgabenerinnerunge
 description: Ein Beispiel, das Power Automate und adaptive Karten verwendet, automatisiert Aufgabenerinnerungen in einer Projektverwaltungskalkulationstabelle.
 ms.date: 11/30/2020
 localization_priority: Normal
-ms.openlocfilehash: 342abced09119ff286f87c1425e44f9186dc4488
-ms.sourcegitcommit: 5d24e77df70aa2c1c982275d53213c2a9323ff86
+ms.openlocfilehash: a229a06e9f1f9118d57dadac8864bbc7eae7315b
+ms.sourcegitcommit: 45ffe3dbd2c834b78592ad35928cf8096f5e80bc
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51570227"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51755154"
 ---
 # <a name="office-scripts-sample-scenario-automated-task-reminders"></a>Beispielszenario für Office-Skripts: Automatisierte Aufgabenerinnerungen
 
@@ -161,7 +161,7 @@ In diesem Szenario werden [Power Automate und](https://flow.microsoft.com) Micro
     - **Datei**: task-reminders.xlsx *(über den Dateibrowser ausgewählt)*
     - **Skript**: Get People
 
-    ![Der erste Schritt zum Ausführen des Skriptflusses.](../../images/scenario-task-reminders-first-flow-step.png)
+    :::image type="content" source="../../images/scenario-task-reminders-first-flow-step.png" alt-text="Der Power Automate-Fluss, der den ersten Schritt zum Ausführen des Skriptflusses zeigt.":::
 
 12. Als Nächstes muss der Fluss jeden Mitarbeiter im vom Skript zurückgegebenen Array verarbeiten. Drücken **Sie den Schritt Neu,** und wählen Sie Adaptive Karte an einen Teams-Benutzer posten **aus, und warten Sie auf eine Antwort.**
 
@@ -222,7 +222,7 @@ In diesem Szenario werden [Power Automate und](https://flow.microsoft.com) Micro
     - **senderEmail**: E-Mail *(dynamischer Inhalt aus Excel)*
     - **statusReportResponse**: response *(dynamischer Inhalt aus Teams)*
 
-    ![Der Schritt apply-to-each flow.](../../images/scenario-task-reminders-last-flow-step.png)
+    :::image type="content" source="../../images/scenario-task-reminders-last-flow-step.png" alt-text="Der Power Automate-Fluss, der den jeweiligen Schritt zeigt.":::
 
 17. Speichern Sie den Fluss.
 
@@ -234,12 +234,12 @@ Sie können entweder **test aus** dem Fluss-Designer auswählen oder den Fluss a
 
 ### <a name="before-running-the-flow"></a>Vor dem Ausführen des Datenflusses
 
-![Ein Arbeitsblatt mit einem Statusbericht mit einem fehlenden Statuseintrag.](../../images/scenario-task-reminders-spreadsheet-before.png)
+:::image type="content" source="../../images/scenario-task-reminders-spreadsheet-before.png" alt-text="Ein Arbeitsblatt mit einem Statusbericht mit einem fehlenden Statuseintrag.":::
 
 ### <a name="receiving-the-adaptive-card"></a>Empfangen der adaptiven Karte
 
-![Eine adaptive Karte in Teams, die den Mitarbeiter um eine Statusaktualisierung bittet.](../../images/scenario-task-reminders-adaptive-card.png)
+:::image type="content" source="../../images/scenario-task-reminders-adaptive-card.png" alt-text="Eine adaptive Karte in Teams, die den Mitarbeiter um eine Statusaktualisierung bittet.":::
 
 ### <a name="after-running-the-flow"></a>Nach dem Ausführen des Datenflusses
 
-![Ein Arbeitsblatt mit einem Statusbericht mit einem jetzt ausgefüllten Statuseintrag.](../../images/scenario-task-reminders-spreadsheet-after.png)
+:::image type="content" source="../../images/scenario-task-reminders-spreadsheet-after.png" alt-text="Ein Arbeitsblatt mit einem Statusbericht mit einem jetzt ausgefüllten Statuseintrag.":::

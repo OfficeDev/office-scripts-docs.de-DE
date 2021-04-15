@@ -3,12 +3,12 @@ title: TypeScript-Einschränkungen in Office-Skripts
 description: Die Spezifischen des TypeScript-Compilers und Linters, die vom Office Scripts Code Editor verwendet werden.
 ms.date: 02/05/2021
 localization_priority: Normal
-ms.openlocfilehash: 8c9d1beafb236e7ba10dedf00fab944c40fb954d
-ms.sourcegitcommit: 5d24e77df70aa2c1c982275d53213c2a9323ff86
+ms.openlocfilehash: 88d0b5873a2f7350f88417d2e340343dbd183606
+ms.sourcegitcommit: 45ffe3dbd2c834b78592ad35928cf8096f5e80bc
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51570276"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51755049"
 ---
 # <a name="typescript-restrictions-in-office-scripts"></a>TypeScript-Einschränkungen in Office-Skripts
 
@@ -22,11 +22,11 @@ Office-Skripts verwenden die TypeScript-Sprache. In den meisten Beispielen funkt
 
 Sie können eine Variable nicht explizit als Typ `any` in Office Scripts deklarieren (d. h. `let someVariable: any;` ). Der `any` Typ verursacht Probleme bei der Verarbeitung durch Excel. Beispielsweise muss ein wissen, dass `Range` ein Wert ein , oder `string` `number` `boolean` ist. Sie erhalten einen Kompilierungszeitfehler (ein Fehler vor dem Ausführen des Skripts), wenn eine Variable explizit als Typ `any` im Skript definiert ist.
 
-![Die explizite beliebige Nachricht im Hovertext des Code-Editors](../images/explicit-any-editor-message.png)
+:::image type="content" source="../images/explicit-any-editor-message.png" alt-text="Die explizite &quot;any&quot;-Nachricht im Hovertext des Code-Editors":::
 
-![Der explizite Fehler im Konsolenfenster](../images/explicit-any-error-message.png)
+:::image type="content" source="../images/explicit-any-error-message.png" alt-text="Der Fehler Explicit Any im Konsolenfenster.":::
 
-Im obigen Screenshot `[5, 16] Explicit Any is not allowed` wird angegeben, dass #5, #16 Typ definiert `any` wird. Auf diese Weise können Sie den Fehler ermitteln.
+Im vorherigen Screenshot `[5, 16] Explicit Any is not allowed` wird angegeben, dass #5, #16 Typ definiert `any` wird. Auf diese Weise können Sie den Fehler ermitteln.
 
 Um dieses Problem zu beheben, definieren Sie immer den Typ der Variablen. Wenn Sie unsicher sind, welche Art von Variable Sie haben, können Sie einen [Union-Typ verwenden.](https://www.typescriptlang.org/docs/handbook/unions-and-intersections.html) Dies kann für Variablen nützlich sein, die Werte enthalten, die vom Typ , oder sein können (der Typ für Werte ist eine `Range` `string` Vereinigung der `number` `boolean` `Range` werte: `string | number | boolean` ).
 

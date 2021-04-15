@@ -3,12 +3,12 @@ title: 'Beispielszenario für Office-Skripts: Graphen von Daten auf Wasserebene 
 description: Ein Beispiel, das JSON-Daten aus einer NOAA-Datenbank abruft und zum Erstellen eines Diagramms verwendet.
 ms.date: 01/11/2021
 localization_priority: Normal
-ms.openlocfilehash: 1b9ad9115efe5b1924499f160f39d4b8fe654763
-ms.sourcegitcommit: 5d24e77df70aa2c1c982275d53213c2a9323ff86
+ms.openlocfilehash: ba4836cd0782ab7f2158aeaaa562c851927b90f7
+ms.sourcegitcommit: 45ffe3dbd2c834b78592ad35928cf8096f5e80bc
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51570164"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51755119"
 ---
 # <a name="office-scripts-sample-scenario-fetch-and-graph-water-level-data-from-noaa"></a>Beispielszenario für Office-Skripts: Abrufen und Graphen von Daten auf Wasserebene aus NOAA
 
@@ -108,4 +108,4 @@ Führen Sie auf einem beliebigen Arbeitsblatt das **NOAA Water Level Chart-Skrip
 
 ### <a name="after-running-the-script"></a>Nach dem Ausführen des Skripts
 
-![Das Arbeitsblatt nach dem Ausführen des Skripts zeigt einige Wasserstandsdaten und ein Diagramm an.](../../images/scenario-noaa-water-level-after.png)
+:::image type="content" source="../../images/scenario-noaa-water-level-after.png" alt-text="Das Arbeitsblatt nach dem Ausführen des Skripts zeigt einige Wasserstandsdaten und ein Diagramm an.":::

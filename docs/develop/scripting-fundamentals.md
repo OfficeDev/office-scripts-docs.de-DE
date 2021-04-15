@@ -3,12 +3,12 @@ title: Grundlegendes zur Skripterstellung für Office-Skripts in Excel im Web
 description: Informationen zu Objektmodellen und andere Grundlagen, die Sie vor dem Schreiben von Office-Skripts benötigen.
 ms.date: 07/08/2020
 localization_priority: Priority
-ms.openlocfilehash: 4609dce617d18f7a7c9d2868a24792c51fb048c6
-ms.sourcegitcommit: 5d24e77df70aa2c1c982275d53213c2a9323ff86
+ms.openlocfilehash: 2c2fd683e77a0dfbfd3e9df8c79db31e78ceee8b
+ms.sourcegitcommit: 45ffe3dbd2c834b78592ad35928cf8096f5e80bc
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51570234"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51755063"
 ---
 # <a name="scripting-fundamentals-for-office-scripts-in-excel-on-the-web-preview"></a>Grundlegendes zur Skripterstellung für Office-Skripts in Excel im Web (Vorschau)
 
@@ -109,7 +109,7 @@ function main(workbook: ExcelScript.Workbook) {
 
 Wenn Sie dieses Skript ausführen, werden die folgenden Daten im aktuellen Arbeitsblatt erstellt:
 
-![Ein Umsatzdatensatz mit Wert-Zeilen, einer Formelspalte sowie formatierten Überschriften.](../images/range-sample.png)
+:::image type="content" source="../images/range-sample.png" alt-text="Ein Arbeitsblatt mit einem Verkaufsdatensatz, der aus Zeilen mit Werten, einer Spalte mit Formeln und formatierten Überschriften besteht.":::
 
 ### <a name="charts-tables-and-other-data-objects"></a>Diagramme, Tabellen und andere Datenobjekte
 
@@ -133,7 +133,7 @@ function main(workbook: ExcelScript.Workbook) {
 
 Wenn Sie dieses Skript auf das Arbeitsblatt mit den vorherigen Daten anwenden, wird die folgende Tabelle erstellt:
 
-![Eine Tabelle aus dem vorherigen Umsatzeintrag.](../images/table-sample.png)
+:::image type="content" source="../images/table-sample.png" alt-text="Ein Arbeitsblatt, das eine Tabelle enthält, die aus dem vorherigen Verkaufsdatensatz erstellt wurde.":::
 
 #### <a name="creating-a-chart"></a>Erstellen eines Diagramms
 
@@ -159,7 +159,7 @@ function main(workbook: ExcelScript.Workbook) {
 
 Wenn Sie dieses Skript auf das Arbeitsblatt mit der vorherigen Tabelle anwenden, wird das folgende Diagramm erstellt:
 
-![Ein Säulendiagramm, in dem die Mengenangaben zu drei Elementen aus dem vorherigen Umsatzeintrag angezeigt werden.](../images/chart-sample.png)
+:::image type="content" source="../images/chart-sample.png" alt-text="Ein Säulendiagramm mit den Mengen von drei Elementen aus dem vorherigen Verkaufsdatensatz.":::
 
 ### <a name="collections-and-other-object-relations"></a>Sammlungen und andere Objektbeziehungen
 

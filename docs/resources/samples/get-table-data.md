@@ -3,12 +3,12 @@ title: Ausgabe von Excel-Daten als JSON
 description: Erfahren Sie, wie Sie Excel-Tabellendaten als JSON zur Verwendung in Power Automate aus.
 ms.date: 03/18/2021
 localization_priority: Normal
-ms.openlocfilehash: 678506fee0b6a41ede8245fb360d485d635e2d64
-ms.sourcegitcommit: 5d24e77df70aa2c1c982275d53213c2a9323ff86
+ms.openlocfilehash: db6eb8f8645079eebc369e0a0622539075853953
+ms.sourcegitcommit: 45ffe3dbd2c834b78592ad35928cf8096f5e80bc
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51571430"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51754796"
 ---
 # <a name="output-excel-table-data-as-json-for-usage-in-power-automate"></a>Ausgabe von Excel-Tabellendaten als JSON für die Verwendung in Power Automate
 
@@ -16,17 +16,17 @@ Excel-Tabellendaten können als Array von Objekten in Form von JSON dargestellt 
 
 _Eingabetabelle_
 
-![Screenshot zum Anzeigen von Eingabetabellesdaten](../../images/table-input.png)
+:::image type="content" source="../../images/table-input.png" alt-text="Ein Arbeitsblatt mit Eingabetabellesdaten.":::
 
 Eine Variante dieses Beispiels enthält auch die Hyperlinks in einer der Tabellenspalten. Dadurch können zusätzliche Ebenen von Zelldaten im JSON angezeigt werden.
 
 _Eingabetabelle mit Hyperlinks_
 
-![Screenshot mit Tabellendaten, die Hyperlinks enthalten](../../images/table-hyperlink-view.png)
+:::image type="content" source="../../images/table-hyperlink-view.png" alt-text="Ein Arbeitsblatt mit einer Spalte mit Tabellendaten, die als Hyperlinks formatiert sind.":::
 
 _Dialogfeld zum Bearbeiten von Hyperlinks_
 
-![Screenshot des Dialogfelds zum Bearbeiten des Hyperlinks](../../images/table-hyperlink-edit.png)
+:::image type="content" source="../../images/table-hyperlink-edit.png" alt-text="Im Dialogfeld Hyperlink bearbeiten werden Optionen zum Ändern von Hyperlinks angezeigt.":::
 
 ## <a name="sample-excel-file"></a>Beispiel-Excel-Datei
 
@@ -89,49 +89,49 @@ interface TableData {
     "Date": "2020-12-10",
     "Location": "Montgomery",
     "Capacity": "10",
-    "Speakers": "Debra Berger"
+    "Speakers&quot;: &quot;Debra Berger"
 }, {
     "Event ID": "E108",
     "Date": "2020-12-11",
     "Location": "Montgomery",
     "Capacity": "10",
-    "Speakers": "Delia Dennis"
+    "Speakers&quot;: &quot;Delia Dennis"
 }, {
     "Event ID": "E109",
     "Date": "2020-12-12",
     "Location": "Montgomery",
     "Capacity": "10",
-    "Speakers": "Diego Siciliani"
+    "Speakers&quot;: &quot;Diego Siciliani"
 }, {
     "Event ID": "E110",
     "Date": "2020-12-13",
     "Location": "Boise",
     "Capacity": "25",
-    "Speakers": "Gerhart Moller"
+    "Speakers&quot;: &quot;Gerhart Moller"
 }, {
     "Event ID": "E111",
     "Date": "2020-12-14",
     "Location": "Salt Lake City",
     "Capacity": "20",
-    "Speakers": "Grady Archie"
+    "Speakers&quot;: &quot;Grady Archie"
 }, {
     "Event ID": "E112",
     "Date": "2020-12-15",
     "Location": "Fremont",
     "Capacity": "25",
-    "Speakers": "Irvin Sayers"
+    "Speakers&quot;: &quot;Irvin Sayers"
 }, {
     "Event ID": "E113",
     "Date": "2020-12-16",
     "Location": "Salt Lake City",
     "Capacity": "20",
-    "Speakers": "Isaiah Langer"
+    "Speakers&quot;: &quot;Isaiah Langer"
 }, {
     "Event ID": "E114",
     "Date": "2020-12-17",
     "Location": "Salt Lake City",
     "Capacity": "20",
-    "Speakers": "Johanna Lorenz"
+    "Speakers&quot;: &quot;Johanna Lorenz"
 }]
 ```
 
@@ -200,56 +200,56 @@ interface TableData {
     "Location": "Montgomery",
     "Capacity": "10",
     "Search link": "https://www.google.com/search?q=Montgomery",
-    "Speakers": "Debra Berger"
+    "Speakers&quot;: &quot;Debra Berger"
 }, {
     "Event ID": "E108",
     "Date": "2020-12-11",
     "Location": "Montgomery",
     "Capacity": "10",
     "Search link": "https://www.google.com/search?q=Montgomery",
-    "Speakers": "Delia Dennis"
+    "Speakers&quot;: &quot;Delia Dennis"
 }, {
     "Event ID": "E109",
     "Date": "2020-12-12",
     "Location": "Montgomery",
     "Capacity": "10",
     "Search link": "https://www.google.com/search?q=Montgomery",
-    "Speakers": "Diego Siciliani"
+    "Speakers&quot;: &quot;Diego Siciliani"
 }, {
     "Event ID": "E110",
     "Date": "2020-12-13",
     "Location": "Boise",
     "Capacity": "25",
     "Search link": "https://www.google.com/search?q=Boise",
-    "Speakers": "Gerhart Moller"
+    "Speakers&quot;: &quot;Gerhart Moller"
 }, {
     "Event ID": "E111",
     "Date": "2020-12-14",
     "Location": "Salt Lake City",
     "Capacity": "20",
     "Search link": "https://www.google.com/search?q=salt+lake+city",
-    "Speakers": "Grady Archie"
+    "Speakers&quot;: &quot;Grady Archie"
 }, {
     "Event ID": "E112",
     "Date": "2020-12-15",
     "Location": "Fremont",
     "Capacity": "25",
     "Search link": "https://www.google.com/search?q=Fremont",
-    "Speakers": "Irvin Sayers"
+    "Speakers&quot;: &quot;Irvin Sayers"
 }, {
     "Event ID": "E113",
     "Date": "2020-12-16",
     "Location": "Salt Lake City",
     "Capacity": "20",
     "Search link": "https://www.google.com/search?q=salt+lake+city",
-    "Speakers": "Isaiah Langer"
+    "Speakers&quot;: &quot;Isaiah Langer"
 }, {
     "Event ID": "E114",
     "Date": "2020-12-17",
     "Location": "Salt Lake City",
     "Capacity": "20",
     "Search link": "https://www.google.com/search?q=salt+lake+city",
-    "Speakers": "Johanna Lorenz"
+    "Speakers&quot;: &quot;Johanna Lorenz"
 }]
 ```
 
