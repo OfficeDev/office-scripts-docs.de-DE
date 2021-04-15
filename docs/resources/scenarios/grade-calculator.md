@@ -1,37 +1,37 @@
 ---
-title: 'Beispielszenario für Office-Skripts: Grade Calculator'
-description: Ein Beispiel, das die Prozent-und Buchstaben Noten für eine Kursteilnehmer Klasse bestimmt.
-ms.date: 07/24/2020
+title: 'Beispielszenario für Office-Skripts: Notenrechner'
+description: Ein Beispiel, das die Prozent- und Buchstabennoten für eine Schülerklasse bestimmt.
+ms.date: 12/17/2020
 localization_priority: Normal
-ms.openlocfilehash: 4e488c6cc67bda9122b88c55070654632d9c7fa2
-ms.sourcegitcommit: ff7fde04ce5a66d8df06ed505951c8111e2e9833
+ms.openlocfilehash: b8c45ad405c06a943c75e76391c1160ecb1bd18e
+ms.sourcegitcommit: 45ffe3dbd2c834b78592ad35928cf8096f5e80bc
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/11/2020
-ms.locfileid: "46616741"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51755028"
 ---
-# <a name="office-scripts-sample-scenario-grade-calculator"></a><span data-ttu-id="90876-103">Beispielszenario für Office-Skripts: Grade Calculator</span><span class="sxs-lookup"><span data-stu-id="90876-103">Office Scripts sample scenario: Grade calculator</span></span>
+# <a name="office-scripts-sample-scenario-grade-calculator"></a><span data-ttu-id="d74e3-103">Beispielszenario für Office-Skripts: Notenrechner</span><span class="sxs-lookup"><span data-stu-id="d74e3-103">Office Scripts sample scenario: Grade calculator</span></span>
 
-<span data-ttu-id="90876-104">In diesem Szenario sind Sie ein Kursleiter, der die Auszählung jedes Schülers angeht.</span><span class="sxs-lookup"><span data-stu-id="90876-104">In this scenario, you're an instructor tallying every student's end-of-term grades.</span></span> <span data-ttu-id="90876-105">Sie haben die Noten für ihre Zuweisungen und Tests eingegeben, während Sie gehen.</span><span class="sxs-lookup"><span data-stu-id="90876-105">You've been entering the scores for their assignments and tests as you go.</span></span> <span data-ttu-id="90876-106">Nun ist es an der Zeit, die Schicksale der Schüler zu bestimmen.</span><span class="sxs-lookup"><span data-stu-id="90876-106">Now, it is time to determine the students' fates.</span></span>
+<span data-ttu-id="d74e3-104">In diesem Szenario sind Sie ein Kursleiter, der die End-of-Term-Noten jedes Schülers abfüllt.</span><span class="sxs-lookup"><span data-stu-id="d74e3-104">In this scenario, you're an instructor tallying every student's end-of-term grades.</span></span> <span data-ttu-id="d74e3-105">Sie haben die Noten für ihre Zuordnungen und Tests während Ihres Wegs eingeben.</span><span class="sxs-lookup"><span data-stu-id="d74e3-105">You've been entering the scores for their assignments and tests as you go.</span></span> <span data-ttu-id="d74e3-106">Jetzt ist es an der Zeit, die Schicksale der Schüler zu bestimmen.</span><span class="sxs-lookup"><span data-stu-id="d74e3-106">Now, it is time to determine the students' fates.</span></span>
 
-<span data-ttu-id="90876-107">Sie entwickeln ein Skript, das die Noten für jede Punkte Kategorie summiert.</span><span class="sxs-lookup"><span data-stu-id="90876-107">You'll develop a script that totals the grades for each point category.</span></span> <span data-ttu-id="90876-108">Anschließend wird jedem Schüler basierend auf der Gesamtzahl ein Brief Grad zugewiesen.</span><span class="sxs-lookup"><span data-stu-id="90876-108">It will then assign a letter grade to each student based on the total.</span></span> <span data-ttu-id="90876-109">Um die Genauigkeit sicherzustellen, fügen Sie ein paar Schecks hinzu, um zu sehen, ob einzelne Noten zu niedrig oder hoch sind.</span><span class="sxs-lookup"><span data-stu-id="90876-109">To help ensure accuracy, you'll add a couple checks to see if any individual scores are too low or high.</span></span> <span data-ttu-id="90876-110">Wenn die Punktzahl eines Schülers kleiner als 0 (null) oder größer als der mögliche Punktwert ist, wird die Zelle durch das Skript mit einer roten Füllung markiert und nicht mit der Summe der Punkte des Schülers.</span><span class="sxs-lookup"><span data-stu-id="90876-110">If a student's score is less than zero or more than the possible point value, the script will flag the cell with a red fill and not total that student's points.</span></span> <span data-ttu-id="90876-111">Dies ist ein klarer Hinweis darauf, welche Datensätze Sie doppelt überprüfen müssen.</span><span class="sxs-lookup"><span data-stu-id="90876-111">This will be a clear indication of which records you need to double-check.</span></span> <span data-ttu-id="90876-112">Sie fügen auch einige grundlegende Formatierungen zu den Noten hinzu, damit Sie den oberen und unteren Teil der Klasse schnell anzeigen können.</span><span class="sxs-lookup"><span data-stu-id="90876-112">You'll also add some basic formatting to the grades so you can quickly view the top and bottom of the class.</span></span>
+<span data-ttu-id="d74e3-107">Sie entwickeln ein Skript, das die Noten für jede Punktkategorie insgesamt auflisten kann.</span><span class="sxs-lookup"><span data-stu-id="d74e3-107">You'll develop a script that totals the grades for each point category.</span></span> <span data-ttu-id="d74e3-108">Anschließend wird jedem Schüler basierend auf der Gesamtsumme eine Briefnote zugewiesen.</span><span class="sxs-lookup"><span data-stu-id="d74e3-108">It will then assign a letter grade to each student based on the total.</span></span> <span data-ttu-id="d74e3-109">Um die Genauigkeit sicherzustellen, fügen Sie ein paar Prüfungen hinzu, um zu überprüfen, ob einzelne Bewertungen zu niedrig oder zu hoch sind.</span><span class="sxs-lookup"><span data-stu-id="d74e3-109">To help ensure accuracy, you'll add a couple checks to see if any individual scores are too low or high.</span></span> <span data-ttu-id="d74e3-110">Wenn die Punktzahl eines Schülers kleiner als null oder mehr als der mögliche Punktwert ist, markiert das Skript die Zelle mit einer roten Füllung und nicht die Punkte dieses Kursteilnehmers.</span><span class="sxs-lookup"><span data-stu-id="d74e3-110">If a student's score is less than zero or more than the possible point value, the script will flag the cell with a red fill and not total that student's points.</span></span> <span data-ttu-id="d74e3-111">Dies ist ein eindeutiger Hinweis darauf, welche Datensätze Sie überprüfen müssen.</span><span class="sxs-lookup"><span data-stu-id="d74e3-111">This will be a clear indication of which records you need to double-check.</span></span> <span data-ttu-id="d74e3-112">Sie fügen den Noten auch einige grundlegende Formatierungen hinzu, damit Sie den oberen und unteren Teil der Klasse schnell anzeigen können.</span><span class="sxs-lookup"><span data-stu-id="d74e3-112">You'll also add some basic formatting to the grades so you can quickly view the top and bottom of the class.</span></span>
 
-## <a name="scripting-skills-covered"></a><span data-ttu-id="90876-113">Abgedeckte Skript Fertigkeiten</span><span class="sxs-lookup"><span data-stu-id="90876-113">Scripting skills covered</span></span>
+## <a name="scripting-skills-covered"></a><span data-ttu-id="d74e3-113">Abgedeckte Skriptkenntnisse</span><span class="sxs-lookup"><span data-stu-id="d74e3-113">Scripting skills covered</span></span>
 
-- <span data-ttu-id="90876-114">Zellenformatierung</span><span class="sxs-lookup"><span data-stu-id="90876-114">Cell formatting</span></span>
-- <span data-ttu-id="90876-115">Fehlerüberprüfung</span><span class="sxs-lookup"><span data-stu-id="90876-115">Error checking</span></span>
-- <span data-ttu-id="90876-116">Reguläre Ausdrücke</span><span class="sxs-lookup"><span data-stu-id="90876-116">Regular expressions</span></span>
-- <span data-ttu-id="90876-117">Bedingte Formatierung</span><span class="sxs-lookup"><span data-stu-id="90876-117">Conditional formatting</span></span>
+- <span data-ttu-id="d74e3-114">Zellenformatierung</span><span class="sxs-lookup"><span data-stu-id="d74e3-114">Cell formatting</span></span>
+- <span data-ttu-id="d74e3-115">Fehlerüberprüfung</span><span class="sxs-lookup"><span data-stu-id="d74e3-115">Error checking</span></span>
+- <span data-ttu-id="d74e3-116">Reguläre Ausdrücke</span><span class="sxs-lookup"><span data-stu-id="d74e3-116">Regular expressions</span></span>
+- <span data-ttu-id="d74e3-117">Bedingte Formatierung</span><span class="sxs-lookup"><span data-stu-id="d74e3-117">Conditional formatting</span></span>
 
-## <a name="setup-instructions"></a><span data-ttu-id="90876-118">Setup Anweisungen</span><span class="sxs-lookup"><span data-stu-id="90876-118">Setup instructions</span></span>
+## <a name="setup-instructions"></a><span data-ttu-id="d74e3-118">Setupanweisungen</span><span class="sxs-lookup"><span data-stu-id="d74e3-118">Setup instructions</span></span>
 
-1. <span data-ttu-id="90876-119">Laden Sie <a href="grade-calculator.xlsx">grade-calculator.xlsx</a> auf Ihre OneDrive herunter.</span><span class="sxs-lookup"><span data-stu-id="90876-119">Download <a href="grade-calculator.xlsx">grade-calculator.xlsx</a> to your OneDrive.</span></span>
+1. <span data-ttu-id="d74e3-119">Laden <a href="grade-calculator.xlsx">grade-calculator.xlsx</a> auf Ihr OneDrive herunter.</span><span class="sxs-lookup"><span data-stu-id="d74e3-119">Download <a href="grade-calculator.xlsx">grade-calculator.xlsx</a> to your OneDrive.</span></span>
 
-2. <span data-ttu-id="90876-120">Öffnen Sie die Arbeitsmappe mit Excel für das Internet.</span><span class="sxs-lookup"><span data-stu-id="90876-120">Open the workbook with Excel for the web.</span></span>
+2. <span data-ttu-id="d74e3-120">Öffnen Sie die Arbeitsmappe mit Excel für das Web.</span><span class="sxs-lookup"><span data-stu-id="d74e3-120">Open the workbook with Excel for the web.</span></span>
 
-3. <span data-ttu-id="90876-121">Öffnen Sie auf der Registerkarte **automatisieren** den **Code-Editor**.</span><span class="sxs-lookup"><span data-stu-id="90876-121">Under the **Automate** tab, open the **Code Editor**.</span></span>
+3. <span data-ttu-id="d74e3-121">Öffnen Sie **auf** der Registerkarte Automatisieren **alle Skripts**.</span><span class="sxs-lookup"><span data-stu-id="d74e3-121">Under the **Automate** tab, open **All Scripts**.</span></span>
 
-4. <span data-ttu-id="90876-122">Klicken Sie im Aufgabenbereich **Code-Editor** auf **Neues Skript** , und fügen Sie das folgende Skript in den Editor ein.</span><span class="sxs-lookup"><span data-stu-id="90876-122">In the **Code Editor** task pane, press **New Script** and paste the following script into the editor.</span></span>
+4. <span data-ttu-id="d74e3-122">Drücken Sie **im Aufgabenbereich Code-Editor** die **Taste Neues Skript,** und fügen Sie das folgende Skript in den Editor ein.</span><span class="sxs-lookup"><span data-stu-id="d74e3-122">In the **Code Editor** task pane, press **New Script** and paste the following script into the editor.</span></span>
 
     ```TypeScript
     function main(workbook: ExcelScript.Workbook) {
@@ -51,9 +51,9 @@ ms.locfileid: "46616741"
 
       // Use regular expressions to read the max score from the assignment, mid-term, and final scores columns.
       let maxScores: string[] = [];
-      const assignmentMaxMatches = studentData[0][1].match(/\d+/);
-      const midtermMaxMatches = studentData[0][2].match(/\d+/);
-      const finalMaxMatches = studentData[0][3].match(/\d+/);
+      const assignmentMaxMatches = (studentData[0][1] as string).match(/\d+/);
+      const midtermMaxMatches = (studentData[0][2] as string).match(/\d+/);
+      const finalMaxMatches = (studentData[0][3] as string).match(/\d+/);
 
       // Check the matches happened before proceeding.
       if (!(assignmentMaxMatches && midtermMaxMatches && finalMaxMatches)) {
@@ -89,7 +89,7 @@ ms.locfileid: "46616741"
           studentData[i][3] > maxScores[2]) {
           continue;
         }
-        const total = studentData[i][1] + studentData[i][2] + studentData[i][3];
+        const total = (studentData[i][1] as number) + (studentData[i][2] as number) + (studentData[i][3] as number);
         let grade: string;
         switch (true) {
           case total < 60:
@@ -108,7 +108,7 @@ ms.locfileid: "46616741"
             grade = "A";
             break;
         }
-
+    
         // Set total score formula.
         studentsRangeFormulas[i][0] = '=RC[-2]+RC[-1]';
         // Set grade cell.
@@ -166,24 +166,24 @@ ms.locfileid: "46616741"
       }
 
       // Apply conditional formatting.
-      let conditionalFormatting : ExcelScript.ConditionalFormat;
+      let conditionalFormatting: ExcelScript.ConditionalFormat;
       conditionalFormatting = range.addConditionalFormat(ExcelScript.ConditionalFormatType.cellValue);
       conditionalFormatting.getCellValue().getFormat().getFont().setColor(fontColor);
       conditionalFormatting.getCellValue().getFormat().getFill().setColor(fillColor);
-      conditionalFormatting.getCellValue().setRule({formula1, operator});
+      conditionalFormatting.getCellValue().setRule({ formula1, operator });
     }
     ```
 
-5. <span data-ttu-id="90876-123">Benennen Sie das Skript in den **Grade Calculator** um, und speichern Sie es.</span><span class="sxs-lookup"><span data-stu-id="90876-123">Rename the script to **Grade Calculator** and save it.</span></span>
+5. <span data-ttu-id="d74e3-123">Benennen Sie das Skript in **Notenrechner um,** und speichern Sie es.</span><span class="sxs-lookup"><span data-stu-id="d74e3-123">Rename the script to **Grade Calculator** and save it.</span></span>
 
-## <a name="running-the-script"></a><span data-ttu-id="90876-124">Ausführen des Skripts</span><span class="sxs-lookup"><span data-stu-id="90876-124">Running the script</span></span>
+## <a name="running-the-script"></a><span data-ttu-id="d74e3-124">Ausführen des Skripts</span><span class="sxs-lookup"><span data-stu-id="d74e3-124">Running the script</span></span>
 
-<span data-ttu-id="90876-125">Führen Sie das **Grade Calculator** -Skript auf dem einzigen Arbeitsblatt aus.</span><span class="sxs-lookup"><span data-stu-id="90876-125">Run the **Grade Calculator** script on the only worksheet.</span></span> <span data-ttu-id="90876-126">Das Skript summiert die Noten und weist jedem Schüler eine Note zu.</span><span class="sxs-lookup"><span data-stu-id="90876-126">The script will total the grades and assign each student a letter grade.</span></span> <span data-ttu-id="90876-127">Wenn einzelne Noten mehr Punkte aufweisen als die Zuordnung oder der Test Wert ist, wird die betroffene Note rot markiert, und die Summe wird nicht berechnet.</span><span class="sxs-lookup"><span data-stu-id="90876-127">If any individual grades have more points than the assignment or test is worth, then the offending grade is marked red and the total is not calculated.</span></span> <span data-ttu-id="90876-128">Außerdem werden alle "A"-Noten in grün hervorgehoben, während 'd-und F-Noten in gelb markiert sind.</span><span class="sxs-lookup"><span data-stu-id="90876-128">Also, any 'A' grades are highlighted in green, while 'D' and 'F' grades are highlighted in yellow.</span></span>
+<span data-ttu-id="d74e3-125">Führen Sie das **Skript Notenrechner** im einzigen Arbeitsblatt aus.</span><span class="sxs-lookup"><span data-stu-id="d74e3-125">Run the **Grade Calculator** script on the only worksheet.</span></span> <span data-ttu-id="d74e3-126">Das Skript gesamt die Noten und weisen jedem Schüler eine Briefnote zu.</span><span class="sxs-lookup"><span data-stu-id="d74e3-126">The script will total the grades and assign each student a letter grade.</span></span> <span data-ttu-id="d74e3-127">Wenn einzelne Noten mehr Punkte haben, als die Zuordnung oder der Test wert ist, wird die beleidigungswürdige Note rot markiert, und die Summe wird nicht berechnet.</span><span class="sxs-lookup"><span data-stu-id="d74e3-127">If any individual grades have more points than the assignment or test is worth, then the offending grade is marked red and the total is not calculated.</span></span> <span data-ttu-id="d74e3-128">Außerdem werden alle "A"-Noten grün hervorgehoben, während die Noten "D" und "F" gelb hervorgehoben sind.</span><span class="sxs-lookup"><span data-stu-id="d74e3-128">Also, any 'A' grades are highlighted in green, while 'D' and 'F' grades are highlighted in yellow.</span></span>
 
-### <a name="before-running-the-script"></a><span data-ttu-id="90876-129">Vor dem Ausführen des Skripts</span><span class="sxs-lookup"><span data-stu-id="90876-129">Before running the script</span></span>
+### <a name="before-running-the-script"></a><span data-ttu-id="d74e3-129">Vor dem Ausführen des Skripts</span><span class="sxs-lookup"><span data-stu-id="d74e3-129">Before running the script</span></span>
 
-![Ein Arbeitsblatt, in dem Zeilen mit Partituren für Schüler angezeigt werden.](../../images/scenario-grade-calculator-before.png)
+:::image type="content" source="../../images/scenario-grade-calculator-before.png" alt-text="Ein Arbeitsblatt, das Zeilen mit Noten für Schüler und Studenten zeigt.":::
 
-### <a name="after-running-the-script"></a><span data-ttu-id="90876-131">Nach dem Ausführen des Skripts</span><span class="sxs-lookup"><span data-stu-id="90876-131">After running the script</span></span>
+### <a name="after-running-the-script"></a><span data-ttu-id="d74e3-131">Nach dem Ausführen des Skripts</span><span class="sxs-lookup"><span data-stu-id="d74e3-131">After running the script</span></span>
 
-![Ein Arbeitsblatt, in dem die Kursteilnehmerdaten mit ungültigen Zellen in roten Gesamtzahlen für gültige Schüler Zeilen angezeigt werden.](../../images/scenario-grade-calculator-after.png)
+:::image type="content" source="../../images/scenario-grade-calculator-after.png" alt-text="Ein Arbeitsblatt, das die Schülerergebnisdaten mit ungültigen Zellen in roten Zahlen für gültige Schülerzeilen zeigt.":::
