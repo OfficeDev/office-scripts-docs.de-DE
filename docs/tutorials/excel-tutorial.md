@@ -3,12 +3,12 @@ title: Aufzeichnen, Bearbeiten und Erstellen von Office-Skripts in Excel im Web
 description: Dies ist ein Lernprogramm zu den Grundlagen von Office-Skripts, einschließlich dem Aufzeichnen von Skripts mithilfe der Aktionsaufzeichnung und dem Schreiben von Daten in eine Arbeitsmappe.
 ms.date: 01/06/2021
 localization_priority: Priority
-ms.openlocfilehash: fa2fec54cdb0289590868ee6848a942401f21665
-ms.sourcegitcommit: 9df67e007ddbfec79a7360df9f4ea5ac6c86fb08
+ms.openlocfilehash: ae864cc08453a9c8a2538f15ceee1275e131725d
+ms.sourcegitcommit: 45ffe3dbd2c834b78592ad35928cf8096f5e80bc
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "49772978"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51754845"
 ---
 # <a name="record-edit-and-create-office-scripts-in-excel-on-the-web"></a>Aufzeichnen, Bearbeiten und Erstellen von Office-Skripts in Excel im Web
 
@@ -49,7 +49,7 @@ Zuerst benötigen wir einige Daten und ein kleines Startskript.
 
     Ihr Arbeitsblatt sollte wie folgt aussehen (machen Sie sich keine Sorgen, wenn die Farbe anders ist):
 
-    ![Eine Zeile mit Obst-Umsatzdaten mit hervorgehobener orangefarbener Zeile „Orangen“](../images/tutorial-1.png)
+    :::image type="content" source="../images/tutorial-1.png" alt-text="Ein Arbeitsblatt mit der Datenzeile mit den Verkaufszahlen für Obst, in der die Zeile „Orangen“ in der Farbe Orange hervorgehoben ist.":::
 
 ## <a name="edit-an-existing-script"></a>Bearbeiten eines vorhandenen Skripts
 
@@ -78,7 +78,7 @@ Das vorherige Skript hat die Zeile "Orangen" orangefarben eingefärbt. Jetzt fü
 
 4. Testen Sie das Skript, indem Sie **Ausführen** drücken. Ihre Arbeitsmappe sollte nun wie folgt aussehen:
 
-    ![Eine Zeile mit Obst-Umsatzdaten mit orangefarben hervorgehobener Zeile „Orangen“ und einer gelb hervorgehobenen Zeile „Zitronen“](../images/tutorial-2.png)
+    :::image type="content" source="../images/tutorial-2.png" alt-text="Ein Arbeitsblatt mit der Datenzeile mit den Verkaufszahlen für Obst, in der die Zeile „Orangen“ in der Farbe Orange und die Zeile „Zitronen“ in der Farbe Gelb hervorgehoben ist.":::
 
 ## <a name="create-a-table"></a>Erstellen einer Tabelle
 
@@ -113,7 +113,7 @@ Wandeln wir diese Obst-Umsatzdaten in eine Tabelle um. Wir verwenden unser Skrip
 
 3. Führen Sie das Skript aus. Es sollte eine Tabelle wie die folgende angezeigt werden:
 
-    ![Eine Tabelle mit sortierten Obst-Umsatzdaten](../images/tutorial-3.png)
+    :::image type="content" source="../images/tutorial-3.png" alt-text="Ein Arbeitsblatt mit der sortierten Tabelle zum Verkauf von Obst.":::
 
     > [!NOTE]
     > Wenn Sie das Skript erneut ausführen, wird eine Fehlermeldung angezeigt. Der Grund dafür ist, dass Sie keine Tabelle über eine andere Tabelle erstellen können. Sie können das Skript jedoch auf ein anderes Arbeitsblatt oder eine andere Arbeitsmappe anwenden.
