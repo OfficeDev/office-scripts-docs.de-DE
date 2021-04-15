@@ -3,12 +3,12 @@ title: Übergeben von Daten zu Skripts in einem automatisch ausgeführten Power 
 description: Ein Lernprogramm zum Ausführen von Office-Skripts für Excel im Web mithilfe von Power Automate, wenn E-Mails empfangen und Flussdaten an das Skript übergeben werden.
 ms.date: 12/28/2020
 localization_priority: Priority
-ms.openlocfilehash: 3f81ac13b0827f27adc611895d6bb090df10da5c
-ms.sourcegitcommit: 9df67e007ddbfec79a7360df9f4ea5ac6c86fb08
+ms.openlocfilehash: c67c1f958099698201db91f368a287805d5aea0d
+ms.sourcegitcommit: 45ffe3dbd2c834b78592ad35928cf8096f5e80bc
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "49772992"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51754894"
 ---
 # <a name="pass-data-to-scripts-in-an-automatically-run-power-automate-flow-preview"></a>Übergeben von Daten zu Skripts in einem automatisch ausgeführten Power Automate-Datenfluss (Vorschau)
 
@@ -156,15 +156,15 @@ function main(
 
 2. Klicken Sie in dem Menü, das auf der linken Seite des Bildschirms angezeigt wird, auf **Create**. Damit gelangen Sie zur Liste der Möglichkeiten zum Erstellen neuer Workflows.
 
-    ![Die Schaltfläche „Erstellen“ in Power Automate](../images/power-automate-tutorial-1.png)
+    :::image type="content" source="../images/power-automate-tutorial-1.png" alt-text="Die Power Automate-Schaltfläche „Erstellen“.":::
 
 3. Wählen Sie im Abschnitt **Start from blank** die Option **Automated flow** aus. Dadurch wird ein Workflow erstellt, der von einem Ereignis ausgelöst wird, z. B. das Empfangen einer E-Mail.
 
-    ![Die Option für den automatisierten Flow in Power Automate](../images/power-automate-params-tutorial-1.png)
+    :::image type="content" source="../images/power-automate-params-tutorial-1.png" alt-text="Die Option für den automatisierten Fluss in Power Automate":::
 
 4. Geben Sie im daraufhin angezeigten Dialogfenster einen Namen für den Fluss im Textfeld **Flow name** ein. Wählen Sie dann **When a new email arrives** aus der Liste der Optionen unter **Choose your flow's trigger** aus. Möglicherweise müssen Sie mithilfe des Suchfelds nach der Option suchen. Klicken Sie abschließend **Create**.
 
-    ![Ein Teil des Fensters zum Erstellen eines automatisierten Flows in Power Automate, das die Option „Neue E-Mail trifft ein“ zeigt](../images/power-automate-params-tutorial-2.png)
+    :::image type="content" source="../images/power-automate-params-tutorial-2.png" alt-text="Ein Teil des Power Automate-Flusses zeigt den ‚Flussnamen‘ und die Optionen zum Auswählen des Triggers für den Fluss. Der Flussname ist ‚E-Mail-Fluss-Datensatz‘, und der Trigger ist die Option ‚Wenn eine neue E-Mail in Outlook eintrifft‘.":::
 
     > [!NOTE]
     > In diesem Lernprogramm wird Outlook verwendet. Sie können stattdessen Ihren bevorzugten E-Mail-Dienst verwenden, obwohl einige Optionen unterschiedlich sein können.
@@ -173,11 +173,11 @@ function main(
 
 6. Wählen Sie die Registerkarte **Standard** aus, und wählen Sie dann **Excel Online (Business)** aus.
 
-    ![Excel Online (Business)-Option in Power Automate](../images/power-automate-tutorial-4.png)
+    :::image type="content" source="../images/power-automate-tutorial-4.png" alt-text="Excel Online (Business)-Option in Power Automate":::
 
-7. Wählen Sie unter **Actions** die Option **Run script (preview)** aus.
+7. Wählen Sie unter **Aktionen** die Option **Skript ausführen (Vorschau)** aus.
 
-    ![Aktionsoption „Skript ausführen (Vorschau)“ in Power Automate](../images/power-automate-tutorial-5.png)
+    :::image type="content" source="../images/power-automate-tutorial-5.png" alt-text="Aktionsoption „Skript ausführen“ (Vorschau) in Power Automate":::
 
 8. Als Nächstes wählen Sie die Arbeitsmappe, das Skript und die Eingabeargumente für das Skript aus, die im Datenfluss-Schritt verwendet werden sollen. In diesem Lernprogramm verwenden Sie die Arbeitsmappe, die Sie in Ihrem OneDrive erstellt haben. Sie könnten jedoch jede beliebige Arbeitsmappe auf einer OneDrive- oder SharePoint-Website verwenden. Geben Sie die folgenden Einstellungen für den Konnektor **Run script** an:
 
@@ -191,7 +191,7 @@ function main(
 
     *Beachten Sie, dass die Parameter für das Skript nur angezeigt werden, wenn das Skript ausgewählt wurde.*
 
-    ![Parameter der Aktionsoption „Skript ausführen (Vorschau)“ in Power Automate](../images/power-automate-params-tutorial-3.png)
+    :::image type="content" source="../images/power-automate-params-tutorial-3.png" alt-text="Die Aktion zum Ausführen eines Skripts in PowerAutomate zeigt die Optionen an, die erscheinen, nachdem das Skript ausgewählt wurde.":::
 
 9. Klicken Sie auf **Save**.
 
@@ -201,15 +201,15 @@ Der Fluss ist nun aktiviert. Er wird das Skript automatisch jedes Mal ausführen
 
 1. Wählen Sie auf der Hauptseite der Power Automate-Seite **My Flows** aus.
 
-    ![Die Schaltfläche „Meine Flows“ in Power Automate](../images/power-automate-tutorial-7.png)
+    :::image type="content" source="../images/power-automate-tutorial-7.png" alt-text="Die Schaltfläche „Meine Flüsse“ in Power Automate":::
 
 2. Wählen Sie Ihren Flow aus. Hier sehen Sie den Ausführungsverlauf. Sie können die Seite aktualisieren, oder Sie können auf die Schaltfläche **All runs** klicken, um den Verlauf zu aktualisieren. Der Flow wird kurz nach Empfang einer E-Mail ausgelöst. Testen Sie den Flow durch Senden von E-Mails.
 
 Wenn der Flow ausgelöst und das Skript erfolgreich ausgeführt wird, sollten die Tabelle und die PivotTable der Arbeitsmappe aktualisiert werden.
 
-![Die E-Mail-Tabelle nach dem Flow wurde mehrere Male ausgeführt.](../images/power-automate-params-tutorial-4.png)
+:::image type="content" source="../images/power-automate-params-tutorial-4.png" alt-text="Ein Arbeitsblatt, auf dem die E-Mail-Tabelle angezeigt wird, nachdem der Fluss dreimal ausgeführt wurde.":::
 
-![Die PivotTable nach dem Flow wurde mehrere Male ausgeführt.](../images/power-automate-params-tutorial-5.png)
+:::image type="content" source="../images/power-automate-params-tutorial-5.png" alt-text="Ein Arbeitsblatt, auf dem die PivotTable angezeigt wird, nachdem der Fluss dreimal ausgeführt wurde":::
 
 ## <a name="next-steps"></a>Nächste Schritte
 
