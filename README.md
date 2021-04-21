@@ -25,7 +25,7 @@ Wenn Ihr Problem nicht mit der Dokumentation zu Office-Skripts in Zusammenhang s
 
 - Um eine Frage zum Entwerfen von Office-Skripts oder der Office.js-API zu stellen, in der Office-Skripts ausgeführt werden, stellen Sie Ihre Frage an Stack Overflow, und kennzeichnen Sie sie mit dem Tag "office-scripts" ( https://stackoverflow.com/questions/tagged/office-scripts) .
 - Um ein Problem mit der Office.js-API zu melden, erstellen Sie das Problem im [OfficeDev/office-js-Repository,](https://github.com/OfficeDev/office-js)das von Mitgliedern des Produktteams auf kundenspezifische Probleme überwacht wird.
-- Um eine Featureanforderung für Office-Skripts zu übermitteln, posten Sie Ihre Idee an [Microsoft Q&A](https://docs.microsoft.com/answers/products/m365), oder wenn die Featureanforderung bereits vorhanden ist, fügen Sie Ihre Stimme dafür hinzu. Achten Sie darauf, das Tag "Office-Scripts-Dev" zu verwenden, wenn Sie nach Ihrem Feature fragen.
+- Wenn Sie eine Featureanforderung für Office-Skripts übermitteln möchten, posten Sie Ihre Idee auf unserer User [Voice-Seite,](https://excel.uservoice.com/forums/274580-excel-for-the-web?category_id=143439)oder wenn die Featureanforderung bereits vorhanden ist, fügen Sie Ihre Stimme dafür hinzu, oder wenn die Featureanforderung bereits vorhanden ist, fügen Sie Ihre Stimme dafür hinzu. Stellen Sie sicher, dass Sie die Anforderung unter Excel für das Web in der Kategorie "Makros, Skripts und Add-Ins" senden.
 
 ## <a name="copyright"></a>Copyright
 
