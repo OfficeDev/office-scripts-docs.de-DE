@@ -990,9 +990,9 @@ DIESE SOFTWARE WIRD VON DEN URHEBERRECHTSINHABERN UND MITWIRKENDEN "WIE VORHANDE
 
 @hapi/Adresse 2.1.4 - BSD-3-Clause https://github.com/hapijs/address#readme
 
-Copyright (c) 2019, Project contributors Copyright (c) 2008-2019, Eli Skeggs, Dominic Sayers, GlobeSherpa
+Copyright (c) 2019, Project Mitwirkende Copyright (c) 2008-2019, Eli Skeggs, Dominic Sayers, GlobeSherpa
 
-Copyright (c) 2019, Project contributors Alle Rechte vorbehalten.
+Copyright (c) 2019, Project Mitwirkenden Alle Rechte vorbehalten.
 
 Umverteilung und Verwendung in Quell- und Binärformularen mit oder ohne Änderung sind zulässig, sofern die folgenden Bedingungen erfüllt sind:
  * Die Neuverteilung des Quellcodes muss den obigen Urheberrechtshinweis, diese Liste der Bedingungen und den folgenden Haftungsausschluss beibehalten.
@@ -4011,7 +4011,7 @@ Der oben beschriebene Urheberrechtsvermerk und dieser Berechtigungsvermerk sind 
 
 DIE SOFTWARE WIRD WIE FOLGT *BEREITGESTELLT,* OHNE GEWÄHRLEISTUNG JEGLICHER ART, AUSDRÜCKLICH ODER STILLSCHWEIGEND, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GEWÄHRLEISTUNG DER HANDELSIERBARKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHT VERLETZTE. IN KEINEM FALL SIND DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER SONSTIGE HAFTUNGEN HAFTBAR, SEI ES IN EINER VERTRAGS-, UNERLAUBTEN ODER SONSTIGEN HANDLUNG, DIE SICH AUS, AUS ODER IN VERBINDUNG MIT DER SOFTWARE ODER DER VERWENDUNG ODER ANDEREN STREITIGKEITEN IN DER SOFTWARE ERGEBENDE.
 
-Hinweis: Die Verwendung der Schriftarten und Symbole, auf die in Fluent UI React verwiesen wird, unterliegt den unter aufgeführten Begriffen. https://aka.ms/fluentui-assets-license
+Hinweis: Die Verwendung der Schriftarten und Symbole, auf die in fluent ui React verwiesen wird, unterliegt den unter aufgeführten Begriffen.https://aka.ms/fluentui-assets-license
 
 
 ---------------------------------------------------------
@@ -4036,7 +4036,7 @@ Der oben beschriebene Urheberrechtsvermerk und dieser Berechtigungsvermerk sind 
 
 DIE SOFTWARE WIRD WIE FOLGT *BEREITGESTELLT,* OHNE GEWÄHRLEISTUNG JEGLICHER ART, AUSDRÜCKLICH ODER STILLSCHWEIGEND, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GEWÄHRLEISTUNG DER HANDELSIERBARKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHT VERLETZTE. IN KEINEM FALL SIND DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER SONSTIGE HAFTUNGEN HAFTBAR, SEI ES IN EINER VERTRAGS-, UNERLAUBTEN ODER SONSTIGEN HANDLUNG, DIE SICH AUS, AUS ODER IN VERBINDUNG MIT DER SOFTWARE ODER DER VERWENDUNG ODER ANDEREN STREITIGKEITEN IN DER SOFTWARE ERGEBENDE.
 
-Hinweis: Die Verwendung der Schriftarten und Symbole, auf die in Fluent UI React verwiesen wird, unterliegt den unter aufgeführten Begriffen. https://aka.ms/fluentui-assets-license
+Hinweis: Die Verwendung der Schriftarten und Symbole, auf die in fluent ui React verwiesen wird, unterliegt den unter aufgeführten Begriffen.https://aka.ms/fluentui-assets-license
 
 
 ---------------------------------------------------------
@@ -4061,7 +4061,7 @@ Der oben beschriebene Urheberrechtsvermerk und dieser Berechtigungsvermerk sind 
 
 DIE SOFTWARE WIRD WIE FOLGT *BEREITGESTELLT,* OHNE GEWÄHRLEISTUNG JEGLICHER ART, AUSDRÜCKLICH ODER STILLSCHWEIGEND, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GEWÄHRLEISTUNG DER HANDELSIERBARKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHT VERLETZTE. IN KEINEM FALL SIND DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER SONSTIGE HAFTUNGEN HAFTBAR, SEI ES IN EINER VERTRAGS-, UNERLAUBTEN ODER SONSTIGEN HANDLUNG, DIE SICH AUS, AUS ODER IN VERBINDUNG MIT DER SOFTWARE ODER DER VERWENDUNG ODER ANDEREN STREITIGKEITEN IN DER SOFTWARE ERGEBENDE.
 
-Hinweis: Die Verwendung der Schriftarten und Symbole, auf die in Fluent UI React verwiesen wird, unterliegt den unter aufgeführten Begriffen. https://aka.ms/fluentui-assets-license
+Hinweis: Die Verwendung der Schriftarten und Symbole, auf die in fluent ui React verwiesen wird, unterliegt den unter aufgeführten Begriffen.https://aka.ms/fluentui-assets-license
 
 
 ---------------------------------------------------------
@@ -4473,7 +4473,7 @@ Der oben beschriebene Urheberrechtsvermerk und dieser Berechtigungsvermerk sind 
 
 DIE SOFTWARE WIRD WIE FOLGT *BEREITGESTELLT,* OHNE GEWÄHRLEISTUNG JEGLICHER ART, AUSDRÜCKLICH ODER STILLSCHWEIGEND, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GEWÄHRLEISTUNG DER HANDELSIERBARKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHT VERLETZTE. IN KEINEM FALL SIND DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER SONSTIGE HAFTUNGEN HAFTBAR, SEI ES IN EINER VERTRAGS-, UNERLAUBTEN ODER SONSTIGEN HANDLUNG, DIE SICH AUS, AUS ODER IN VERBINDUNG MIT DER SOFTWARE ODER DER VERWENDUNG ODER ANDEREN STREITIGKEITEN IN DER SOFTWARE ERGEBENDE.
 
-Hinweis: Die Verwendung der Schriftarten und Symbole, auf die in Fluent UI React verwiesen wird, unterliegt den unter aufgeführten Begriffen. https://aka.ms/fluentui-assets-license
+Hinweis: Die Verwendung der Schriftarten und Symbole, auf die in fluent ui React verwiesen wird, unterliegt den unter aufgeführten Begriffen.https://aka.ms/fluentui-assets-license
 
 
 ---------------------------------------------------------
@@ -4484,7 +4484,7 @@ Hinweis: Die Verwendung der Schriftarten und Symbole, auf die in Fluent UI React
 
 Copyright (c) Microsoft Corporation
 
-Fluent UI React – Symbole
+Fluent UI React - Symbole
 
 Copyright (c) Microsoft Corporation
 
@@ -4498,7 +4498,7 @@ Der oben beschriebene Urheberrechtsvermerk und dieser Berechtigungsvermerk sind 
 
 DIE SOFTWARE WIRD WIE FOLGT *BEREITGESTELLT,* OHNE GEWÄHRLEISTUNG JEGLICHER ART, AUSDRÜCKLICH ODER STILLSCHWEIGEND, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GEWÄHRLEISTUNG DER HANDELSIERBARKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHT VERLETZTE. IN KEINEM FALL SIND DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER SONSTIGE HAFTUNGEN HAFTBAR, SEI ES IN EINER VERTRAGS-, UNERLAUBTEN ODER SONSTIGEN HANDLUNG, DIE SICH AUS, AUS ODER IN VERBINDUNG MIT DER SOFTWARE ODER DER VERWENDUNG ODER ANDEREN STREITIGKEITEN IN DER SOFTWARE ERGEBENDE.
 
-Hinweis: Die Verwendung der Schriftarten und Symbole, auf die in Fluent UI React verwiesen wird, unterliegt den unter aufgeführten Begriffen. https://aka.ms/fluentui-assets-license
+Hinweis: Die Verwendung der Schriftarten und Symbole, auf die in fluent ui React verwiesen wird, unterliegt den unter aufgeführten Begriffen.https://aka.ms/fluentui-assets-license
 
 
 ---------------------------------------------------------
@@ -4509,7 +4509,7 @@ Hinweis: Die Verwendung der Schriftarten und Symbole, auf die in Fluent UI React
 
 Copyright (c) Microsoft Corporation.
 
-Fluent UI React – Seriendruckstile
+Fluent UI React - Merge-Styles
 
 Copyright (c) Microsoft Corporation
 
@@ -4523,7 +4523,7 @@ Der oben beschriebene Urheberrechtsvermerk und dieser Berechtigungsvermerk sind 
 
 DIE SOFTWARE WIRD WIE FOLGT *BEREITGESTELLT,* OHNE GEWÄHRLEISTUNG JEGLICHER ART, AUSDRÜCKLICH ODER STILLSCHWEIGEND, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GEWÄHRLEISTUNG DER HANDELSIERBARKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHT VERLETZTE. IN KEINEM FALL SIND DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER SONSTIGE HAFTUNGEN HAFTBAR, SEI ES IN EINER VERTRAGS-, UNERLAUBTEN ODER SONSTIGEN HANDLUNG, DIE SICH AUS, AUS ODER IN VERBINDUNG MIT DER SOFTWARE ODER DER VERWENDUNG ODER ANDEREN STREITIGKEITEN IN DER SOFTWARE ERGEBENDE.
 
-Hinweis: Die Verwendung der Schriftarten und Symbole, auf die in Fluent UI React verwiesen wird, unterliegt den unter aufgeführten Begriffen. https://aka.ms/fluentui-assets-license
+Hinweis: Die Verwendung der Schriftarten und Symbole, auf die in fluent ui React verwiesen wird, unterliegt den unter aufgeführten Begriffen.https://aka.ms/fluentui-assets-license
 
 
 ---------------------------------------------------------
@@ -4548,7 +4548,7 @@ Der oben beschriebene Urheberrechtsvermerk und dieser Berechtigungsvermerk sind 
 
 DIE SOFTWARE WIRD WIE FOLGT *BEREITGESTELLT,* OHNE GEWÄHRLEISTUNG JEGLICHER ART, AUSDRÜCKLICH ODER STILLSCHWEIGEND, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GEWÄHRLEISTUNG DER HANDELSIERBARKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHT VERLETZTE. IN KEINEM FALL SIND DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER SONSTIGE HAFTUNGEN HAFTBAR, SEI ES IN EINER VERTRAGS-, UNERLAUBTEN ODER SONSTIGEN HANDLUNG, DIE SICH AUS, AUS ODER IN VERBINDUNG MIT DER SOFTWARE ODER DER VERWENDUNG ODER ANDEREN STREITIGKEITEN IN DER SOFTWARE ERGEBENDE.
 
-Hinweis: Die Verwendung der Schriftarten und Symbole, auf die in Fluent UI React verwiesen wird, unterliegt den unter aufgeführten Begriffen. https://aka.ms/fluentui-assets-license
+Hinweis: Die Verwendung der Schriftarten und Symbole, auf die in fluent ui React verwiesen wird, unterliegt den unter aufgeführten Begriffen.https://aka.ms/fluentui-assets-license
 
 
 ---------------------------------------------------------
@@ -4573,7 +4573,7 @@ Der oben beschriebene Urheberrechtsvermerk und dieser Berechtigungsvermerk sind 
 
 DIE SOFTWARE WIRD WIE FOLGT *BEREITGESTELLT,* OHNE GEWÄHRLEISTUNG JEGLICHER ART, AUSDRÜCKLICH ODER STILLSCHWEIGEND, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GEWÄHRLEISTUNG DER HANDELSIERBARKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHT VERLETZTE. IN KEINEM FALL SIND DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER SONSTIGE HAFTUNGEN HAFTBAR, SEI ES IN EINER VERTRAGS-, UNERLAUBTEN ODER SONSTIGEN HANDLUNG, DIE SICH AUS, AUS ODER IN VERBINDUNG MIT DER SOFTWARE ODER DER VERWENDUNG ODER ANDEREN STREITIGKEITEN IN DER SOFTWARE ERGEBENDE.
 
-Hinweis: Die Verwendung der Schriftarten und Symbole, auf die in Fluent UI React verwiesen wird, unterliegt den unter aufgeführten Begriffen. https://aka.ms/fluentui-assets-license
+Hinweis: Die Verwendung der Schriftarten und Symbole, auf die in fluent ui React verwiesen wird, unterliegt den unter aufgeführten Begriffen.https://aka.ms/fluentui-assets-license
 
 
 ---------------------------------------------------------
@@ -4584,7 +4584,7 @@ Hinweis: Die Verwendung der Schriftarten und Symbole, auf die in Fluent UI React
 
 Copyright (c) Microsoft Corporation
 
-Fluent UI React – Styling
+Fluent UI React - Styling
 
 Copyright (c) Microsoft Corporation
 
@@ -4598,7 +4598,7 @@ Der oben beschriebene Urheberrechtsvermerk und dieser Berechtigungsvermerk sind 
 
 DIE SOFTWARE WIRD WIE FOLGT *BEREITGESTELLT,* OHNE GEWÄHRLEISTUNG JEGLICHER ART, AUSDRÜCKLICH ODER STILLSCHWEIGEND, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GEWÄHRLEISTUNG DER HANDELSIERBARKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHT VERLETZTE. IN KEINEM FALL SIND DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER SONSTIGE HAFTUNGEN HAFTBAR, SEI ES IN EINER VERTRAGS-, UNERLAUBTEN ODER SONSTIGEN HANDLUNG, DIE SICH AUS, AUS ODER IN VERBINDUNG MIT DER SOFTWARE ODER DER VERWENDUNG ODER ANDEREN STREITIGKEITEN IN DER SOFTWARE ERGEBENDE.
 
-Hinweis: Die Verwendung der Schriftarten und Symbole, auf die in Fluent UI React verwiesen wird, unterliegt den unter aufgeführten Begriffen. https://aka.ms/fluentui-assets-license
+Hinweis: Die Verwendung der Schriftarten und Symbole, auf die in fluent ui React verwiesen wird, unterliegt den unter aufgeführten Begriffen.https://aka.ms/fluentui-assets-license
 
 
 ---------------------------------------------------------
@@ -4609,7 +4609,7 @@ Hinweis: Die Verwendung der Schriftarten und Symbole, auf die in Fluent UI React
 
 Copyright (c) Microsoft Corporation
 
-Fluent UI React – Hilfsprogramme
+Fluent UI React - Hilfsprogramme
 
 Copyright (c) Microsoft Corporation
 
@@ -4623,7 +4623,7 @@ Der oben beschriebene Urheberrechtsvermerk und dieser Berechtigungsvermerk sind 
 
 DIE SOFTWARE WIRD WIE FOLGT *BEREITGESTELLT,* OHNE GEWÄHRLEISTUNG JEGLICHER ART, AUSDRÜCKLICH ODER STILLSCHWEIGEND, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GEWÄHRLEISTUNG DER HANDELSIERBARKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHT VERLETZTE. IN KEINEM FALL SIND DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER SONSTIGE HAFTUNGEN HAFTBAR, SEI ES IN EINER VERTRAGS-, UNERLAUBTEN ODER SONSTIGEN HANDLUNG, DIE SICH AUS, AUS ODER IN VERBINDUNG MIT DER SOFTWARE ODER DER VERWENDUNG ODER ANDEREN STREITIGKEITEN IN DER SOFTWARE ERGEBENDE.
 
-Hinweis: Die Verwendung der Schriftarten und Symbole, auf die in Fluent UI React verwiesen wird, unterliegt den unter aufgeführten Begriffen. https://aka.ms/fluentui-assets-license
+Hinweis: Die Verwendung der Schriftarten und Symbole, auf die in fluent ui React verwiesen wird, unterliegt den unter aufgeführten Begriffen.https://aka.ms/fluentui-assets-license
 
 
 ---------------------------------------------------------
@@ -8035,11 +8035,11 @@ DIE SOFTWARE WIRD "WIE VORHANDEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDR�
 
 eventsource 1.0.7 - MIT http://github.com/EventSource/eventsource
 
-Copyright (c) EventSource GitHub Copyright Joyent, Inc. und andere Node-Mitwirkende.
+Copyright (c) EventSource GitHub Copyright Joyent, Inc. und andere #A0
 
 Die MIT-Lizenz
 
-Copyright (c) #A0
+Copyright (c) EventSource GitHub Organisation
 
 Jeder Person, die eine Kopie dieser Software und der zugehörigen Dokumentationsdateien (die "Software") erhält, wird die Kostenlose Genehmigung erteilt, um uneingeschränkt in der Software zu arbeiten, einschließlich der Rechte zur Verwendung, zum Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software sowie zum Zulassen von Personen, denen die Software zur Verfügung gestellt wird, vorbehaltlich der folgenden Bedingungen:
 
@@ -11397,7 +11397,7 @@ DIE SOFTWARE WIRD "WIE VORHANDEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDR�
 
 ---------------------------------------------------------
 
-monaco-editor 0.18.1 - MIT https://github.com/Microsoft/monaco-editor#readme
+monaco-editor 0.20.0 - MIT https://github.com/Microsoft/monaco-editor#readme
 
 Copyright (c) 2015 Copyright (c) Joshaven #A0 (c) 2014 Taylor Hakes Copyright (c) Artyom Shalchakov.
 Copyright (c) 2015 David Owens II Copyright (c) 2014 Forbes#A0 Copyright (c) 2015 Nicholas Bevacqua Copyright (c) Microsoft Corporation.
@@ -11423,7 +11423,7 @@ DIE SOFTWARE WIRD "WIE VORHANDEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDR�
 
 ---------------------------------------------------------
 
-monaco-editor 0.20.0 - MIT https://github.com/Microsoft/monaco-editor#readme
+monaco-editor 0.18.1 - MIT https://github.com/Microsoft/monaco-editor#readme
 
 Copyright (c) 2015 Copyright (c) Joshaven #A0 (c) 2014 Taylor Hakes Copyright (c) Artyom Shalchakov.
 Copyright (c) 2015 David Owens II Copyright (c) 2014 Forbes#A0 Copyright (c) 2015 Nicholas Bevacqua Copyright (c) Microsoft Corporation.
@@ -12032,7 +12032,7 @@ Der oben beschriebene Urheberrechtsvermerk und dieser Berechtigungsvermerk sind 
 
 DIE SOFTWARE WIRD WIE FOLGT *BEREITGESTELLT,* OHNE GEWÄHRLEISTUNG JEGLICHER ART, AUSDRÜCKLICH ODER STILLSCHWEIGEND, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GEWÄHRLEISTUNG DER HANDELSIERBARKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHT VERLETZTE. IN KEINEM FALL SIND DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER SONSTIGE HAFTUNGEN HAFTBAR, SEI ES IN EINER VERTRAGS-, UNERLAUBTEN ODER SONSTIGEN HANDLUNG, DIE SICH AUS, AUS ODER IN VERBINDUNG MIT DER SOFTWARE ODER DER VERWENDUNG ODER ANDEREN STREITIGKEITEN IN DER SOFTWARE ERGEBENDE.
 
-Hinweis: Die Verwendung der Schriftarten und Symbole, auf die in Fluent UI React verwiesen wird, unterliegt den unter aufgeführten Begriffen. https://aka.ms/fluentui-assets-license
+Hinweis: Die Verwendung der Schriftarten und Symbole, auf die in fluent ui React verwiesen wird, unterliegt den unter aufgeführten Begriffen.https://aka.ms/fluentui-assets-license
 
 
 ---------------------------------------------------------
@@ -13564,6 +13564,54 @@ prepend-http 1.0.4 - MIT https://github.com/sindresorhus/prepend-http#readme
 Die MIT-Lizenz (MIT)
 
 Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
+
+Jeder Person, die eine Kopie dieser Software und der zugehörigen Dokumentationsdateien (die "Software") erhält, wird die Kostenlose Genehmigung erteilt, um uneingeschränkt in der Software zu arbeiten, einschließlich der Rechte zur Verwendung, zum Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software sowie zum Zulassen von Personen, denen die Software zur Verfügung gestellt wird, vorbehaltlich der folgenden Bedingungen:
+
+Der oben beschriebene Urheberrechtsvermerk und dieser Berechtigungsvermerk sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
+
+DIE SOFTWARE WIRD "WIE VORHANDEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER IMPLIZIT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GEWÄHRLEISTUNG DER MARKTIERBARKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHT VERLETZTER. IN KEINEM FALL SIND DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER SONSTIGE HAFTUNGEN HAFTBAR, SEI ES IN EINER VERTRAGS-, UNERLAUBTEN ODER SONSTIGEN HANDLUNG, DIE SICH AUS, AUS ODER IN VERBINDUNG MIT DER SOFTWARE ODER DER VERWENDUNG ODER ANDEREN STREITIGKEITEN IN DER SOFTWARE ERGEBENDE.
+
+
+---------------------------------------------------------
+
+---------------------------------------------------------
+
+prettier 2.0.5 - MIT https://prettier.io/
+
+Copyright Google Inc. Copyright (c) 2014-2016 Teambition Copyright (c) Microsoft Corporation.
+Copyright (c) 2014-2015, Jon Schlinkert.
+Copyright (c) 2014-2016, Jon Schlinkert.
+Copyright (c) 2014-2017, Jon Schlinkert.
+Copyright (c) 2015-2017, Jon Schlinkert.
+Copyright (c) James Long und Mitwirkende Copyright (c) 2014-present, Jon Schlinkert.
+Copyright (c) Facebook, Inc. und seine Partner.
+Copyright (c) 2014 Copyright <ifaaan@gmail.com> 2014, 2015, 2016, 2017, 2018 Simon Lydell Copyright (c) 2013 Yusuke <utatane.tea@gmail.com> #A0 (c) 2013-2014 Yusuke <utatane.tea@gmail.com>
+
+Copyright © Von James Long und Mitwirkenden
+
+Jeder Person, die eine Kopie dieser Software und der zugehörigen Dokumentationsdateien (die "Software") erhält, wird die Kostenlose Genehmigung erteilt, um uneingeschränkt in der Software zu arbeiten, einschließlich der Rechte zur Verwendung, zum Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software sowie zum Zulassen von Personen, denen die Software zur Verfügung gestellt wird, vorbehaltlich der folgenden Bedingungen:
+
+Der oben beschriebene Urheberrechtsvermerk und dieser Berechtigungsvermerk sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
+
+DIE SOFTWARE WIRD "WIE VORHANDEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER IMPLIZIT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GEWÄHRLEISTUNG DER MARKTIERBARKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHT VERLETZTER. IN KEINEM FALL SIND DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER SONSTIGE HAFTUNGEN HAFTBAR, SEI ES IN EINER VERTRAGS-, UNERLAUBTEN ODER SONSTIGEN HANDLUNG, DIE SICH AUS, AUS ODER IN VERBINDUNG MIT DER SOFTWARE ODER DER VERWENDUNG ODER ANDEREN STREITIGKEITEN IN DER SOFTWARE ERGEBENDE.
+
+
+---------------------------------------------------------
+
+---------------------------------------------------------
+
+prettier 2.2.1 - MIT https://prettier.io/
+
+(c) bv u Copyright Google LLC Copyright Google Inc. (c) bv(u,t),function t,r (c) Kr Cr t,zr Cr a,your Cr (c) Kr Tr t,zr Tr a,your Tr Copyright (c) Microsoft Corporation.
+Copyright (c) 2014-2015, Jon Schlinkert.
+Copyright (c) 2014-2016, Jon Schlinkert.
+Copyright (c) 2014-2017, Jon Schlinkert.
+Copyright (c) 2015-2017, Jon Schlinkert.
+Copyright (c) James Long und Mitwirkende Copyright (c) 2014-present, Jon Schlinkert.
+Copyright (c) Facebook, Inc. und seine Partner.
+Copyright (c) 2014 Copyright <ifaaan@gmail.com> 2014, 2015, 2016, 2017, 2018 Simon Lydell Copyright (c) 2013 Yusuke <utatane.tea@gmail.com> #A0 (c) 2013-2014 Yusuke <utatane.tea@gmail.com>
+
+Copyright © Von James Long und Mitwirkenden
 
 Jeder Person, die eine Kopie dieser Software und der zugehörigen Dokumentationsdateien (die "Software") erhält, wird die Kostenlose Genehmigung erteilt, um uneingeschränkt in der Software zu arbeiten, einschließlich der Rechte zur Verwendung, zum Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software sowie zum Zulassen von Personen, denen die Software zur Verfügung gestellt wird, vorbehaltlich der folgenden Bedingungen:
 
@@ -16622,7 +16670,7 @@ DIE SOFTWARE WIRD "WIE VORHANDEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDR�
 
 ---------------------------------------------------------
 
-url-polyfill 1.1.9 - MIT https://github.com/lifaon74/url-polyfill#readme
+url-polyfill 1.1.12 - MIT https://github.com/lifaon74/url-polyfill#readme
 
 Copyright (c) 2017: Valentin Richard
 
