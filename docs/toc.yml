@@ -89,6 +89,8 @@ items:
                 href: resources/samples/automate-tasks-on-all-excel-files-in-folder.md
               - name: Senden von Teams-Einladungen aus Excel-Daten
                 href: resources/samples/send-teams-invite-from-excel-data.md
+              - name: Verwenden von externen Abrufanrufen in Office-Skripts
+                href: resources/samples/external-fetch-calls.md
           - name: Szenarien
             items:
               - name: Analysieren von Webdownloads
