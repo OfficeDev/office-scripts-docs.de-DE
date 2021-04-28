@@ -1,16 +1,16 @@
 ---
-title: 'Beispielszenario für Office-Skripts: Graphen von Daten auf Wasserebene aus NOAA'
+title: 'Office Beispielszenario für Skripts: Graph daten auf Wasserebene aus NOAA'
 description: Ein Beispiel, das JSON-Daten aus einer NOAA-Datenbank abruft und zum Erstellen eines Diagramms verwendet.
-ms.date: 01/11/2021
+ms.date: 04/26/2021
 localization_priority: Normal
-ms.openlocfilehash: ba4836cd0782ab7f2158aeaaa562c851927b90f7
-ms.sourcegitcommit: 45ffe3dbd2c834b78592ad35928cf8096f5e80bc
+ms.openlocfilehash: 8aea11f42bf2a81fa53cbf4f6ee7280213b97085
+ms.sourcegitcommit: d466b82f27bc61aeba193f902c9bc65ecbf60e4e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51755119"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "52066301"
 ---
-# <a name="office-scripts-sample-scenario-fetch-and-graph-water-level-data-from-noaa"></a>Beispielszenario für Office-Skripts: Abrufen und Graphen von Daten auf Wasserebene aus NOAA
+# <a name="office-scripts-sample-scenario-fetch-and-graph-water-level-data-from-noaa"></a>Office Skriptbeispielszenario: Abrufen und Graphen von Daten auf Wasserebene aus NOAA
 
 In diesem Szenario müssen Sie den Wasserstand an der Station der [National Oceanic and Atmospheric Administration in Seattle plotten.](https://tidesandcurrents.noaa.gov/stationhome.html?id=9447130) Sie verwenden externe Daten, um eine Tabellenkalkulation auffüllen und ein Diagramm zu erstellen.
 
@@ -54,11 +54,13 @@ Sie entwickeln ein Skript, das den Befehl zum Abfragen der `fetch` [NOAA-Flutung
     
       // Resolve the Promises returned by the fetch operation.
       const response = await fetch(strQuery);
-      const rawJson = await response.json();
+      const rawJson: string = await response.json();
     
       // Translate the raw JSON into a usable state.
       const stringifiedJson = JSON.stringify(rawJson);
-      const noaaData = JSON.parse(stringifiedJson);
+    
+      // Note that we're only taking the data part of the JSON and excluding the metadata.
+      const noaaData: NOAAData[] = JSON.parse(stringifiedJson).data;
     
       // Create table headers and format them to stand out.
       let headers = [["Time", "Level"]];
@@ -68,21 +70,21 @@ Sie entwickeln ein Skript, das den Befehl zum Abfragen der `fetch` [NOAA-Flutung
       headerRange.getFormat().getFont().setColor("white");
     
       // Insert all the data in rows from JSON.
-      let noaaDataCount = noaaData.data.length;
+      let noaaDataCount = noaaData.length;
       let dataToEnter = [[], []]
       for (let i = 0; i < noaaDataCount; i++) {
-        let currentDataPiece = noaaData.data[i];
+        let currentDataPiece = noaaData[i];
         dataToEnter[i] = [currentDataPiece.t, currentDataPiece.v];
       }
     
       let dataRange = currentSheet.getRange("A2:B" + String(noaaDataCount + 1)); /* +1 to account for the title row */
       dataRange.setValues(dataToEnter);
-      
+    
       // Format the "Time" column for timestamps.
       dataRange.getColumn(0).setNumberFormatLocal("[$-en-US]mm/dd/yyyy hh:mm AM/PM;@");
     
       // Create and format a chart with the level data.
-      let chart = currentSheet.addChart(ExcelScript.ChartType.xyscatterSmooth,dataRange);
+      let chart = currentSheet.addChart(ExcelScript.ChartType.xyscatterSmooth, dataRange);
       chart.getTitle().setText("Water Level - Seattle");
       chart.setTop(0);
       chart.setLeft(300);
@@ -91,12 +93,21 @@ Sie entwickeln ein Skript, das den Befehl zum Abfragen der `fetch` [NOAA-Flutung
       chart.getAxes().getValueAxis().setShowDisplayUnitLabel(false);
       chart.getAxes().getCategoryAxis().setTextOrientation(60);
       chart.getLegend().setVisible(false);
-
+    
       // Add a comment with the data attribution.
       currentSheet.addComment(
-        "A1", 
+        "A1",
         `This data was taken from the National Oceanic and Atmospheric Administration's Tides and Currents database on ${new Date(Date.now())}.`
       );
+    
+      /**
+       * An interface to wrap the parts of the JSON we need.
+       * These properties must match the names used in the JSON.
+       */ 
+      interface NOAAData {
+        t: string; // Time
+        v: number; // Level
+      }
     }
     ```
 
