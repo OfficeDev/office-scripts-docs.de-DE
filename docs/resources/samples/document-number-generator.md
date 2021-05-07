@@ -1,46 +1,46 @@
 ---
 title: Generieren eines eindeutigen Bezeichners in einer Arbeitsmappe
-description: Erfahren Sie, wie Sie Office-Skripts verwenden, um einen eindeutigen Bezeichner zu generieren und einer Tabelle und einem Bereich eine Zeile hinzuzufügen.
+description: Erfahren Sie, wie Sie Office Skripts verwenden, um einen eindeutigen Bezeichner zu generieren und einer Tabelle und einem Bereich eine Zeile hinzuzufügen.
 ms.date: 03/18/2021
 localization_priority: Normal
-ms.openlocfilehash: c75eba551cc1c05426db613c78d41431b5177842
-ms.sourcegitcommit: 45ffe3dbd2c834b78592ad35928cf8096f5e80bc
+ms.openlocfilehash: 62c930bfc638dc46b36daf81b6d1ec976c90a8d0
+ms.sourcegitcommit: f7a7aebfb687f2a35dbed07ed62ff352a114525a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51754838"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52232480"
 ---
-# <a name="generate-a-unique-identifier-in-a-workbook"></a><span data-ttu-id="15162-103">Generieren eines eindeutigen Bezeichners in einer Arbeitsmappe</span><span class="sxs-lookup"><span data-stu-id="15162-103">Generate a unique identifier in a workbook</span></span>
+# <a name="generate-a-unique-identifier-in-a-workbook"></a><span data-ttu-id="f8e47-103">Generieren eines eindeutigen Bezeichners in einer Arbeitsmappe</span><span class="sxs-lookup"><span data-stu-id="f8e47-103">Generate a unique identifier in a workbook</span></span>
 
-<span data-ttu-id="15162-104">Dieses Szenario hilft einem Benutzer, eine eindeutige Dokumentnummer mit einem bestimmten Format zu generieren und sie als Eintrag zu einem Bereich oder einer Tabelle hinzuzufügen.</span><span class="sxs-lookup"><span data-stu-id="15162-104">This scenario helps a user generate a unique document number with a specific format and add it as an entry to a range or table.</span></span> <span data-ttu-id="15162-105">Der neue Eintrag oder die neue Hinzugefügte Zeile enthält die neu generierte eindeutige Dokumentnummer und einige andere Attribute, die an das Skript übergeben werden.</span><span class="sxs-lookup"><span data-stu-id="15162-105">The new entry or row added will contain the newly generated unique document number and a few other attributes passed to the script.</span></span>
+<span data-ttu-id="f8e47-104">Dieses Szenario hilft einem Benutzer, eine eindeutige Dokumentnummer mit einem bestimmten Format zu generieren und sie als Eintrag zu einem Bereich oder einer Tabelle hinzuzufügen.</span><span class="sxs-lookup"><span data-stu-id="f8e47-104">This scenario helps a user generate a unique document number with a specific format and add it as an entry to a range or table.</span></span> <span data-ttu-id="f8e47-105">Der neue Eintrag oder die neue Hinzugefügte Zeile enthält die neu generierte eindeutige Dokumentnummer und einige andere Attribute, die an das Skript übergeben werden.</span><span class="sxs-lookup"><span data-stu-id="f8e47-105">The new entry or row added will contain the newly generated unique document number and a few other attributes passed to the script.</span></span>
 
-<span data-ttu-id="15162-106">Es gibt zwei Versionen des Beispiels für dieses Szenario.</span><span class="sxs-lookup"><span data-stu-id="15162-106">There are two versions of the sample for this scenario.</span></span>
+<span data-ttu-id="f8e47-106">Es gibt zwei Versionen des Beispiels für dieses Szenario.</span><span class="sxs-lookup"><span data-stu-id="f8e47-106">There are two versions of the sample for this scenario.</span></span>
 
-* [<span data-ttu-id="15162-107">Version 1: Lesen und Hinzufügen einer Zeile zu einem Arbeitsblatt mit einem einfachen Bereich</span><span class="sxs-lookup"><span data-stu-id="15162-107">Version 1: Read and add a row to a worksheet containing plain range</span></span>](#sample-code-generate-key-and-add-row-to-range)
+* [<span data-ttu-id="f8e47-107">Version 1: Lesen und Hinzufügen einer Zeile zu einem Arbeitsblatt mit einem einfachen Bereich</span><span class="sxs-lookup"><span data-stu-id="f8e47-107">Version 1: Read and add a row to a worksheet containing plain range</span></span>](#sample-code-generate-key-and-add-row-to-range)
 
-    <span data-ttu-id="15162-108">_Bevor die neue Zeile hinzugefügt wird_</span><span class="sxs-lookup"><span data-stu-id="15162-108">_Before the new row is added_</span></span>
+    <span data-ttu-id="f8e47-108">_Bevor die neue Zeile hinzugefügt wird_</span><span class="sxs-lookup"><span data-stu-id="f8e47-108">_Before the new row is added_</span></span>
 
-    :::image type="content" source="../../images/document-number-generator-range-before.png" alt-text="Ein Arbeitsblatt mit einem Datenbereich, bevor eine Zeile hinzugefügt wird.":::
+    :::image type="content" source="../../images/document-number-generator-range-before.png" alt-text="Ein Arbeitsblatt mit einem Datenbereich, bevor eine Zeile hinzugefügt wird":::
 
-    <span data-ttu-id="15162-110">_Nachdem die neue Zeile hinzugefügt wurde_</span><span class="sxs-lookup"><span data-stu-id="15162-110">_After the new row is added_</span></span>
+    <span data-ttu-id="f8e47-110">_Nachdem die neue Zeile hinzugefügt wurde_</span><span class="sxs-lookup"><span data-stu-id="f8e47-110">_After the new row is added_</span></span>
 
-    :::image type="content" source="../../images/document-number-generator-range-after.png" alt-text="Ein Arbeitsblatt mit einem Datenbereich nach dem Hinzufügen der Zeile.":::
+    :::image type="content" source="../../images/document-number-generator-range-after.png" alt-text="Ein Arbeitsblatt mit einem Datenbereich nach dem Hinzufügen einer Zeile":::
 
-* [<span data-ttu-id="15162-112">Version 2: Lesen und Hinzufügen einer Zeile zu einer Tabelle</span><span class="sxs-lookup"><span data-stu-id="15162-112">Version 2: Read and add a row to a table</span></span>](#sample-code-generate-key-and-add-row-to-table)
+* [<span data-ttu-id="f8e47-112">Version 2: Lesen und Hinzufügen einer Zeile zu einer Tabelle</span><span class="sxs-lookup"><span data-stu-id="f8e47-112">Version 2: Read and add a row to a table</span></span>](#sample-code-generate-key-and-add-row-to-table)
 
-    <span data-ttu-id="15162-113">_Bevor die neue Zeile hinzugefügt wird_</span><span class="sxs-lookup"><span data-stu-id="15162-113">_Before the new row is added_</span></span>
+    <span data-ttu-id="f8e47-113">_Bevor die neue Zeile hinzugefügt wird_</span><span class="sxs-lookup"><span data-stu-id="f8e47-113">_Before the new row is added_</span></span>
 
-    :::image type="content" source="../../images/document-number-generator-table-before.png" alt-text="Ein Arbeitsblatt mit einer Tabelle, bevor eine Zeile hinzugefügt wird.":::
+    :::image type="content" source="../../images/document-number-generator-table-before.png" alt-text="Ein Arbeitsblatt mit einer Tabelle, bevor eine Zeile hinzugefügt wird":::
 
-    <span data-ttu-id="15162-115">_Nachdem die neue Zeile hinzugefügt wurde_</span><span class="sxs-lookup"><span data-stu-id="15162-115">_After the new row is added_</span></span>
+    <span data-ttu-id="f8e47-115">_Nachdem die neue Zeile hinzugefügt wurde_</span><span class="sxs-lookup"><span data-stu-id="f8e47-115">_After the new row is added_</span></span>
 
-    :::image type="content" source="../../images/document-number-generator-table-after.png" alt-text="Ein Arbeitsblatt mit einer Tabelle, nachdem eine Zeile hinzugefügt wurde.":::
+    :::image type="content" source="../../images/document-number-generator-table-after.png" alt-text="Ein Arbeitsblatt mit einer Tabelle nach dem Hinzufügen einer Zeile":::
 
-## <a name="sample-excel-file"></a><span data-ttu-id="15162-117">Beispiel-Excel-Datei</span><span class="sxs-lookup"><span data-stu-id="15162-117">Sample Excel file</span></span>
+## <a name="sample-excel-file"></a><span data-ttu-id="f8e47-117">Beispieldatei Excel Datei</span><span class="sxs-lookup"><span data-stu-id="f8e47-117">Sample Excel file</span></span>
 
-<span data-ttu-id="15162-118">Laden Sie die Datei <a href="document-number-generator.xlsx">document-number-generator.xlsx, </a> die in dieser Lösung verwendet wird, um sie selbst auszuprobieren!</span><span class="sxs-lookup"><span data-stu-id="15162-118">Download the file <a href="document-number-generator.xlsx">document-number-generator.xlsx</a> used in this solution to try it out yourself!</span></span>
+<span data-ttu-id="f8e47-118">Laden Sie die Datei <a href="document-number-generator.xlsx">document-number-generator.xlsx, </a> die in dieser Lösung verwendet wird, um sie selbst auszuprobieren!</span><span class="sxs-lookup"><span data-stu-id="f8e47-118">Download the file <a href="document-number-generator.xlsx">document-number-generator.xlsx</a> used in this solution to try it out yourself!</span></span>
 
-## <a name="sample-code-generate-key-and-add-row-to-range"></a><span data-ttu-id="15162-119">Beispielcode: Generieren des Schlüssels und Hinzufügen einer Zeile zum Bereich</span><span class="sxs-lookup"><span data-stu-id="15162-119">Sample code: Generate key and add row to range</span></span>
+## <a name="sample-code-generate-key-and-add-row-to-range"></a><span data-ttu-id="f8e47-119">Beispielcode: Generieren des Schlüssels und Hinzufügen einer Zeile zum Bereich</span><span class="sxs-lookup"><span data-stu-id="f8e47-119">Sample code: Generate key and add row to range</span></span>
 
 ```TypeScript
 function main(workbook: ExcelScript.Workbook, inputString: string): string {
@@ -115,7 +115,7 @@ interface RequestData {
 }
 ```
 
-## <a name="sample-code-generate-key-and-add-row-to-table"></a><span data-ttu-id="15162-120">Beispielcode: Generieren des Schlüssels und Hinzufügen einer Zeile zur Tabelle</span><span class="sxs-lookup"><span data-stu-id="15162-120">Sample code: Generate key and add row to table</span></span>
+## <a name="sample-code-generate-key-and-add-row-to-table"></a><span data-ttu-id="f8e47-120">Beispielcode: Generieren des Schlüssels und Hinzufügen einer Zeile zur Tabelle</span><span class="sxs-lookup"><span data-stu-id="f8e47-120">Sample code: Generate key and add row to table</span></span>
 
 ```TypeScript
 function main(workbook: ExcelScript.Workbook, inputString: string): string {

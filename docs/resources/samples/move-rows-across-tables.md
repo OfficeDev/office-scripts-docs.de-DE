@@ -1,35 +1,35 @@
 ---
-title: Verschieben von Zeilen über Tabellen mithilfe von Office-Skripts
+title: Verschieben von Zeilen über Tabellen mithilfe Office Skripts
 description: Erfahren Sie, wie Sie Zeilen über Tabellen verschieben, indem Sie Filter speichern und anschließend die Filter verarbeiten und erneut anwenden.
-ms.date: 03/30/2021
+ms.date: 04/28/2021
 localization_priority: Normal
-ms.openlocfilehash: 1adaeee1c8307d7775529496df115563831aed4d
-ms.sourcegitcommit: 45ffe3dbd2c834b78592ad35928cf8096f5e80bc
+ms.openlocfilehash: 959fb002b0ba485b43f4de7de3004e1074f768a7
+ms.sourcegitcommit: f7a7aebfb687f2a35dbed07ed62ff352a114525a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51755042"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52232753"
 ---
-# <a name="move-rows-across-tables-by-saving-filters-then-processing-and-reapplying-the-filters"></a><span data-ttu-id="08a99-103">Verschieben von Zeilen über Tabellen durch Speichern von Filtern und anschließende Verarbeitung und erneutes Anwenden der Filter</span><span class="sxs-lookup"><span data-stu-id="08a99-103">Move rows across tables by saving filters, then processing and reapplying the filters</span></span>
+# <a name="move-rows-across-tables-by-saving-filters-then-processing-and-reapplying-the-filters"></a><span data-ttu-id="6f5eb-103">Verschieben von Zeilen über Tabellen durch Speichern von Filtern und anschließende Verarbeitung und erneutes Anwenden der Filter</span><span class="sxs-lookup"><span data-stu-id="6f5eb-103">Move rows across tables by saving filters, then processing and reapplying the filters</span></span>
 
-<span data-ttu-id="08a99-104">In diesem Skript werden folgende Schritte ausgeführt:</span><span class="sxs-lookup"><span data-stu-id="08a99-104">This script does the following:</span></span>
+<span data-ttu-id="6f5eb-104">In diesem Skript werden folgende Schritte ausgeführt:</span><span class="sxs-lookup"><span data-stu-id="6f5eb-104">This script does the following:</span></span>
 
-* <span data-ttu-id="08a99-105">Wählt Zeilen aus der Quelltabelle aus, in denen der Wert in einer Spalte einem _Wert entspricht._</span><span class="sxs-lookup"><span data-stu-id="08a99-105">Selects rows from the source table where the value in a column is equal to _some value_.</span></span>
-* <span data-ttu-id="08a99-106">Verschiebt alle ausgewählten Zeilen in eine andere (Ziel-)Tabelle eines anderen Arbeitsblatts.</span><span class="sxs-lookup"><span data-stu-id="08a99-106">Moves all selected rows into another (target) table on another worksheet.</span></span>
-* <span data-ttu-id="08a99-107">Verwendet die relevanten Filter in der Quelltabelle erneut.</span><span class="sxs-lookup"><span data-stu-id="08a99-107">Reapplies the relevant filters on the source table.</span></span>
+* <span data-ttu-id="6f5eb-105">Wählt Zeilen aus der Quelltabelle aus, in denen der Wert in einer Spalte einem _Wert entspricht._</span><span class="sxs-lookup"><span data-stu-id="6f5eb-105">Selects rows from the source table where the value in a column is equal to _some value_.</span></span>
+* <span data-ttu-id="6f5eb-106">Verschiebt alle ausgewählten Zeilen in eine andere (Ziel-)Tabelle eines anderen Arbeitsblatts.</span><span class="sxs-lookup"><span data-stu-id="6f5eb-106">Moves all selected rows into another (target) table on another worksheet.</span></span>
+* <span data-ttu-id="6f5eb-107">Verwendet die relevanten Filter in der Quelltabelle erneut.</span><span class="sxs-lookup"><span data-stu-id="6f5eb-107">Reapplies the relevant filters on the source table.</span></span>
 
 :::image type="content" source="../../images/table-filter-before-after.png" alt-text="Screenshots der Arbeitsmappe vor und nach":::
 
-<span data-ttu-id="08a99-109">Diese Lösung enthält zwei Skripts.</span><span class="sxs-lookup"><span data-stu-id="08a99-109">There are two scripts in this solution.</span></span> <span data-ttu-id="08a99-110">Der Hauptunterschied besteht in der Auswahl der Zeilen.</span><span class="sxs-lookup"><span data-stu-id="08a99-110">The main difference is how the rows are selected.</span></span>
+<span data-ttu-id="6f5eb-109">Diese Lösung enthält zwei Skripts.</span><span class="sxs-lookup"><span data-stu-id="6f5eb-109">There are two scripts in this solution.</span></span> <span data-ttu-id="6f5eb-110">Der Hauptunterschied besteht in der Auswahl der Zeilen.</span><span class="sxs-lookup"><span data-stu-id="6f5eb-110">The main difference is how the rows are selected.</span></span>
 
-* <span data-ttu-id="08a99-111">In der [ersten Variante](#sample-code-move-rows-using-table-filter)werden die Zeilen durch Anwenden des Tabellenfilters und Lesen des sichtbaren Bereichs ausgewählt.</span><span class="sxs-lookup"><span data-stu-id="08a99-111">In the [first variant](#sample-code-move-rows-using-table-filter), the rows are selected by applying the table filter and reading the visible range.</span></span>
-* <span data-ttu-id="08a99-112">Im zweiten [werden](#sample-code-move-rows-using-range-values)die Zeilen durch Lesen der Werte und Extrahieren der Zeilenwerte ausgewählt.</span><span class="sxs-lookup"><span data-stu-id="08a99-112">In the [second](#sample-code-move-rows-using-range-values), the rows are selected by reading the values and extracting the row values.</span></span>
+* <span data-ttu-id="6f5eb-111">In der [ersten Variante](#sample-code-move-rows-using-table-filter)werden die Zeilen durch Anwenden des Tabellenfilters und Lesen des sichtbaren Bereichs ausgewählt.</span><span class="sxs-lookup"><span data-stu-id="6f5eb-111">In the [first variant](#sample-code-move-rows-using-table-filter), the rows are selected by applying the table filter and reading the visible range.</span></span>
+* <span data-ttu-id="6f5eb-112">Im zweiten [werden](#sample-code-move-rows-using-range-values)die Zeilen durch Lesen der Werte und Extrahieren der Zeilenwerte ausgewählt.</span><span class="sxs-lookup"><span data-stu-id="6f5eb-112">In the [second](#sample-code-move-rows-using-range-values), the rows are selected by reading the values and extracting the row values.</span></span>
 
-## <a name="sample-excel-file"></a><span data-ttu-id="08a99-113">Beispiel-Excel-Datei</span><span class="sxs-lookup"><span data-stu-id="08a99-113">Sample Excel file</span></span>
+## <a name="sample-excel-file"></a><span data-ttu-id="6f5eb-113">Beispieldatei Excel Datei</span><span class="sxs-lookup"><span data-stu-id="6f5eb-113">Sample Excel file</span></span>
 
-<span data-ttu-id="08a99-114">Laden Sie die Datei <a href="input-table-filters.xlsx">input-table-filters.xlsx, </a> die in dieser Lösung verwendet wird, um sie selbst auszuprobieren!</span><span class="sxs-lookup"><span data-stu-id="08a99-114">Download the file <a href="input-table-filters.xlsx">input-table-filters.xlsx</a> used in this solution to try it out yourself!</span></span>
+<span data-ttu-id="6f5eb-114">Laden Sie die Datei <a href="input-table-filters.xlsx">input-table-filters.xlsx, </a> die in dieser Lösung verwendet wird, um sie selbst auszuprobieren!</span><span class="sxs-lookup"><span data-stu-id="6f5eb-114">Download the file <a href="input-table-filters.xlsx">input-table-filters.xlsx</a> used in this solution to try it out yourself!</span></span>
 
-## <a name="sample-code-move-rows-using-table-filter"></a><span data-ttu-id="08a99-115">Beispielcode: Verschieben von Zeilen mithilfe eines Tabellenfilters</span><span class="sxs-lookup"><span data-stu-id="08a99-115">Sample code: Move rows using table filter</span></span>
+## <a name="sample-code-move-rows-using-table-filter"></a><span data-ttu-id="6f5eb-115">Beispielcode: Verschieben von Zeilen mithilfe eines Tabellenfilters</span><span class="sxs-lookup"><span data-stu-id="6f5eb-115">Sample code: Move rows using table filter</span></span>
 
 ```TypeScript
 function main(workbook: ExcelScript.Workbook) {
@@ -146,7 +146,7 @@ function reApplyFilters(sourceTable: ExcelScript.Table, columnNameFilteredOn: st
 }
 ```
 
-## <a name="sample-code-move-rows-using-range-values"></a><span data-ttu-id="08a99-116">Beispielcode: Verschieben von Zeilen mithilfe von Bereichswerten</span><span class="sxs-lookup"><span data-stu-id="08a99-116">Sample code: Move rows using range values</span></span>
+## <a name="sample-code-move-rows-using-range-values"></a><span data-ttu-id="6f5eb-116">Beispielcode: Verschieben von Zeilen mithilfe von Bereichswerten</span><span class="sxs-lookup"><span data-stu-id="6f5eb-116">Sample code: Move rows using range values</span></span>
 
 ```TypeScript
 function main(workbook: ExcelScript.Workbook) {
@@ -247,6 +247,6 @@ function reApplyFilters(sourceTable: ExcelScript.Table, columnNameFilteredOn: st
 }
 ```
 
-## <a name="training-video-move-rows-across-tables"></a><span data-ttu-id="08a99-117">Schulungsvideo: Verschieben von Zeilen über Tabellen</span><span class="sxs-lookup"><span data-stu-id="08a99-117">Training video: Move rows across tables</span></span>
+## <a name="training-video-move-rows-across-tables"></a><span data-ttu-id="6f5eb-117">Schulungsvideo: Verschieben von Zeilen über Tabellen</span><span class="sxs-lookup"><span data-stu-id="6f5eb-117">Training video: Move rows across tables</span></span>
 
-<span data-ttu-id="08a99-118">[![Schritt-für-Schritt-Video zum Verschieben von Zeilen über Tabellen ansehen](../../images/move-rows-filters-vid.jpg)](https://youtu.be/_3t3Pk4i2L0 "Schritt-für-Schritt-Video zum Verschieben von Zeilen über Tabellen")</span><span class="sxs-lookup"><span data-stu-id="08a99-118">[![Watch step-by-step video on how to move rows across tables](../../images/move-rows-filters-vid.jpg)](https://youtu.be/_3t3Pk4i2L0 "Step-by-step video on how to move rows across tables")</span></span>
+<span data-ttu-id="6f5eb-118">[Sehen Sie sich an, wie Sudhi Ramamurthy dieses Beispiel auf YouTube durchspazieren.](https://youtu.be/_3t3Pk4i2L0)</span><span class="sxs-lookup"><span data-stu-id="6f5eb-118">[Watch Sudhi Ramamurthy walk through this sample on YouTube](https://youtu.be/_3t3Pk4i2L0).</span></span>

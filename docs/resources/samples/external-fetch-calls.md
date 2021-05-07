@@ -1,24 +1,24 @@
 ---
-title: Verwenden externer Abrufaufrufe in Office Skripts
+title: Verwenden von externen Abrufanrufen in Office-Skripts
 description: Erfahren Sie, wie Sie externe API-Aufrufe in Office ausführen.
-ms.date: 04/05/2021
+ms.date: 04/28/2021
 localization_priority: Normal
-ms.openlocfilehash: a77ceb61c2ff46a7b6226b798462b7be2c8e1c54
-ms.sourcegitcommit: 1f003c9924e651600c913d84094506125f1055ab
+ms.openlocfilehash: 721bfa39eea1e9973efc7fd13efa5bac734b76dd
+ms.sourcegitcommit: f7a7aebfb687f2a35dbed07ed62ff352a114525a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "52026994"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52232522"
 ---
-# <a name="use-external-fetch-calls-in-office-scripts"></a><span data-ttu-id="a1650-103">Verwenden externer Abrufaufrufe in Office Skripts</span><span class="sxs-lookup"><span data-stu-id="a1650-103">Use external fetch calls in Office Scripts</span></span>
+# <a name="use-external-fetch-calls-in-office-scripts"></a><span data-ttu-id="3dd82-103">Verwenden von externen Abrufanrufen in Office-Skripts</span><span class="sxs-lookup"><span data-stu-id="3dd82-103">Use external fetch calls in Office Scripts</span></span>
 
-<span data-ttu-id="a1650-104">Dieses Skript ruft grundlegende Informationen zu den Repositorys eines Benutzers GitHub ab.</span><span class="sxs-lookup"><span data-stu-id="a1650-104">This script gets basic information about a user's GitHub repositories.</span></span> <span data-ttu-id="a1650-105">Es zeigt, wie sie `fetch` in einem einfachen Szenario verwendet werden.</span><span class="sxs-lookup"><span data-stu-id="a1650-105">It shows how to use `fetch` in a simple scenario.</span></span>
+<span data-ttu-id="3dd82-104">Dieses Skript ruft grundlegende Informationen zu den Repositorys eines Benutzers GitHub ab.</span><span class="sxs-lookup"><span data-stu-id="3dd82-104">This script gets basic information about a user's GitHub repositories.</span></span> <span data-ttu-id="3dd82-105">Es zeigt, wie sie `fetch` in einem einfachen Szenario verwendet werden.</span><span class="sxs-lookup"><span data-stu-id="3dd82-105">It shows how to use `fetch` in a simple scenario.</span></span>
 
-<span data-ttu-id="a1650-106">Sie können mehr über die GItHub-APIs erfahren, die in der [GitHub-API-Referenz verwendet werden.](https://docs.github.com/rest/reference/repos#list-repositories-for-a-user)</span><span class="sxs-lookup"><span data-stu-id="a1650-106">You can learn more about the GItHub APIs being used in the [GitHub API reference](https://docs.github.com/rest/reference/repos#list-repositories-for-a-user).</span></span> <span data-ttu-id="a1650-107">Sie können auch die Ausgabe von unformatiertem API-Aufruf anzeigen, indem Sie einen Webbrowser aufrufen (stellen Sie sicher, dass Sie den `https://api.github.com/users/{USERNAME}/repos` Platzhalter {USERNAME} durch Ihre Github-ID ersetzen).</span><span class="sxs-lookup"><span data-stu-id="a1650-107">You can also see the raw API call output by visiting `https://api.github.com/users/{USERNAME}/repos` in a web browser (be sure to replace the {USERNAME} placeholder with your Github ID).</span></span>
+<span data-ttu-id="3dd82-106">Sie können mehr über die GItHub-APIs erfahren, die in der [GitHub-API-Referenz verwendet werden.](https://docs.github.com/rest/reference/repos#list-repositories-for-a-user)</span><span class="sxs-lookup"><span data-stu-id="3dd82-106">You can learn more about the GItHub APIs being used in the [GitHub API reference](https://docs.github.com/rest/reference/repos#list-repositories-for-a-user).</span></span> <span data-ttu-id="3dd82-107">Sie können auch die Ausgabe von unformatiertem API-Aufruf anzeigen, indem Sie einen Webbrowser aufrufen (stellen Sie sicher, dass Sie den `https://api.github.com/users/{USERNAME}/repos` Platzhalter {USERNAME} durch Ihre Github-ID ersetzen).</span><span class="sxs-lookup"><span data-stu-id="3dd82-107">You can also see the raw API call output by visiting `https://api.github.com/users/{USERNAME}/repos` in a web browser (be sure to replace the {USERNAME} placeholder with your Github ID).</span></span>
 
 ![Get repositorys info example](../../images/git.png)
 
-## <a name="sample-code-get-basic-information-about-users-github-repositories"></a><span data-ttu-id="a1650-109">Beispielcode: Grundlegende Informationen zum Benutzerrepository GitHub erhalten</span><span class="sxs-lookup"><span data-stu-id="a1650-109">Sample code: Get basic information about user's GitHub repositories</span></span>
+## <a name="sample-code-get-basic-information-about-users-github-repositories"></a><span data-ttu-id="3dd82-109">Beispielcode: Grundlegende Informationen zum Benutzerrepository GitHub erhalten</span><span class="sxs-lookup"><span data-stu-id="3dd82-109">Sample code: Get basic information about user's GitHub repositories</span></span>
 
 ```TypeScript
 async function main(workbook: ExcelScript.Workbook) {
@@ -49,6 +49,6 @@ interface License {
 }
 ```
 
-## <a name="training-video-how-to-make-external-api-calls"></a><span data-ttu-id="a1650-110">Schulungsvideo: So nehmen Sie externe API-Aufrufe vor</span><span class="sxs-lookup"><span data-stu-id="a1650-110">Training video: How to make external API calls</span></span>
+## <a name="training-video-how-to-make-external-api-calls"></a><span data-ttu-id="3dd82-110">Schulungsvideo: So nehmen Sie externe API-Aufrufe vor</span><span class="sxs-lookup"><span data-stu-id="3dd82-110">Training video: How to make external API calls</span></span>
 
-<span data-ttu-id="a1650-111">[![Video zum Erstellen externer API-Aufrufe ansehen](../../images/api-vid.png)](https://youtu.be/fulP29J418E "Video zum Erstellen externer API-Aufrufe")</span><span class="sxs-lookup"><span data-stu-id="a1650-111">[![Watch video on how to make external API calls](../../images/api-vid.png)](https://youtu.be/fulP29J418E "Video on how to make external API calls")</span></span>
+<span data-ttu-id="3dd82-111">[Sehen Sie sich an, wie Sudhi Ramamurthy dieses Beispiel auf YouTube durchspazieren.](https://youtu.be/fulP29J418E)</span><span class="sxs-lookup"><span data-stu-id="3dd82-111">[Watch Sudhi Ramamurthy walk through this sample on YouTube](https://youtu.be/fulP29J418E).</span></span>

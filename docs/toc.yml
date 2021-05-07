@@ -58,15 +58,13 @@ items:
           - name: Grundlagen
             items:
               - name: Skripting-Grundlagen
-                href: resources/excel-samples.md
-              - name: Grundlagen des Bereichs
-                href: resources/samples/range-basics.md
-          - name: Weitere Tipps und Tricks
-            items:
+                href: resources/samples/excel-samples.md
               - name: Kommentare hinzufügen
                 href: resources/samples/add-excel-comments.md
               - name: Mehrere Tabellen in eine einzige Tabelle kopieren
                 href: resources/samples/copy-tables-combine.md
+          - name: Weitere Tipps und Tricks
+            items:
               - name: Leere Zeilen in Arbeitsblättern zählen
                 href: resources/samples/count-blank-rows.md
               - name: Querverweise und Formatierung von Excel-Dateien
