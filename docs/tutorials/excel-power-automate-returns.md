@@ -3,12 +3,12 @@ title: Zurückgeben von Daten aus einem Skript an einen automatisch ausgeführte
 description: Ein Tutorial, das zeigt, wie Sie Erinnerungs-E-Mails senden, indem Sie Office-Skripts für Excel im Web über Power Automate ausführen.
 ms.date: 12/15/2020
 localization_priority: Priority
-ms.openlocfilehash: 0c8d8f308147d727a0a5880c11c9c0d924149fb2
-ms.sourcegitcommit: 45ffe3dbd2c834b78592ad35928cf8096f5e80bc
+ms.openlocfilehash: 54fcfc773d4d2a8d352f7bd22593ac817e7ded0e
+ms.sourcegitcommit: f7a7aebfb687f2a35dbed07ed62ff352a114525a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51754901"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52232879"
 ---
 # <a name="return-data-from-a-script-to-an-automatically-run-power-automate-flow-preview"></a>Zurückgeben von Daten aus einem Skript an einen automatisch ausgeführten Power Automate-Flow (Vorschau)
 
@@ -36,7 +36,7 @@ In diesem Tutorial erfahren Sie, wie Sie Informationen eines Office-Skripts für
     > [!IMPORTANT]
     > Das Skript, das Sie schreiben, verwendet den ersten übereinstimmenden Eintrag in der Tabelle, stellen Sie also sicher, dass Ihr Name über einer Zeile mit der aktuellen Woche steht.
 
-    :::image type="content" source="../images/power-automate-return-tutorial-1.png" alt-text="Ein Arbeitsblatt mit den Daten der Rotationstabelle auf Abruf.":::
+    :::image type="content" source="../images/power-automate-return-tutorial-1.png" alt-text="Ein Arbeitsblatt mit den Daten der Rotationstabelle auf Abruf":::
 
 ## <a name="create-an-office-script"></a>Erstellen eines Office-Skripts
 
@@ -142,7 +142,7 @@ In diesem Tutorial erfahren Sie, wie Sie Informationen eines Office-Skripts für
     - **Wiederholen**: 1-mal wöchentlich
     - **an diesen Tagen**: Mo
 
-    :::image type="content" source="../images/power-automate-return-tutorial-3.png" alt-text="Das Power Automate-Dialogfeld ‚Erstellen eines geplanten Cloudflusses‘ mit Optionen. Zu den Optionen gehören der Flussname, die Anfangszeit, die Wiederholungszeit und ein Wochentag, an dem der Fluss ausgeführt werden soll.":::
+    :::image type="content" source="../images/power-automate-return-tutorial-3.png" alt-text="Das Power Automate-Dialogfeld ‚Erstellen eines geplanten Cloud-Flows‘ mit Optionen. Zu den Optionen gehören der Name des Flows, die Anfangszeit, die Wiederholungszeit und ein Wochentag, an dem der Flow ausgeführt werden soll":::
 
 1. Drücken Sie **Erstellen**.
 
@@ -163,16 +163,16 @@ In diesem Tutorial erfahren Sie, wie Sie Informationen eines Office-Skripts für
     - **Datei**: MyWorkbook.xlsx *(ausgewählt über den Dateibrowser)*
     - **Skript**: Person mit Rufbereitschaft abrufen
 
-    :::image type="content" source="../images/power-automate-return-tutorial-4.png" alt-text="Die Einstellungen des Power Automate-Connectors zum Ausführen eines Skripts.":::
+    :::image type="content" source="../images/power-automate-return-tutorial-4.png" alt-text="Die Einstellungen des Power Automate-Connectors zum Ausführen eines Skripts":::
 
 1. Klicken Sie auf **Neuer Schritt**.
 
 1. Der Flow wird mit dem Senden der Erinnerungs-E-Mail beendet. Wählen Sie **E-Mail senden (V2)** über die Suchleiste des Connectors aus. Verwenden Sie das Steuerelement **Dynamischen Inhalt hinzufügen**, um die vom Skript zurückgegebene E-Mail-Adresse hinzuzufügen. Dies wird mit dem Excel-Symbol daneben als **Ergebnis** gekennzeichnet. Sie können einen beliebigen Betreff und Text eingeben.
 
-    :::image type="content" source="../images/power-automate-return-tutorial-5.png" alt-text="Die Power Automate Outlook Connector-Einstellungen zum Senden einer E-Mail. Zu den Optionen gehören die zu sendende Datei, der Betreff der E-Mail und der Textkörper der E-Mail sowie erweiterte Optionen.":::
+    :::image type="content" source="../images/power-automate-return-tutorial-5.png" alt-text="Die Power Automate Outlook Connector-Einstellungen zum Senden einer E-Mail. Zu den Optionen gehören die zu sendende Datei, der Betreff der E-Mail und der Textkörper der E-Mail sowie erweiterte Optionen":::
 
     > [!NOTE]
-    > In diesem Lernprogramm wird Outlook verwendet. Sie können stattdessen Ihren bevorzugten E-Mail-Dienst verwenden, obwohl einige Optionen unterschiedlich sein können.
+    > In diesem Tutorial wird Outlook verwendet. Sie können stattdessen auch Ihren bevorzugten E-Mail-Dienst verwenden, obwohl einige Optionen anders sein können.
 
 1. Klicken Sie auf **Speichern**.
 

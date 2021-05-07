@@ -3,12 +3,12 @@ title: Grundlegendes zur Skripterstellung für Office-Skripts in Excel im Web
 description: Informationen zu Objektmodellen und andere Grundlagen, die Sie vor dem Schreiben von Office-Skripts benötigen.
 ms.date: 07/08/2020
 localization_priority: Priority
-ms.openlocfilehash: 2c2fd683e77a0dfbfd3e9df8c79db31e78ceee8b
-ms.sourcegitcommit: 45ffe3dbd2c834b78592ad35928cf8096f5e80bc
+ms.openlocfilehash: 685f83952fa6aecc660524a95dec57e149522820
+ms.sourcegitcommit: f7a7aebfb687f2a35dbed07ed62ff352a114525a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51755063"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52232389"
 ---
 # <a name="scripting-fundamentals-for-office-scripts-in-excel-on-the-web-preview"></a>Grundlegendes zur Skripterstellung für Office-Skripts in Excel im Web (Vorschau)
 
@@ -109,7 +109,7 @@ function main(workbook: ExcelScript.Workbook) {
 
 Wenn Sie dieses Skript ausführen, werden die folgenden Daten im aktuellen Arbeitsblatt erstellt:
 
-:::image type="content" source="../images/range-sample.png" alt-text="Ein Arbeitsblatt mit einem Verkaufsdatensatz, der aus Zeilen mit Werten, einer Spalte mit Formeln und formatierten Überschriften besteht.":::
+:::image type="content" source="../images/range-sample.png" alt-text="Ein Arbeitsblatt mit einem Verkaufsdatensatz, der aus Zeilen mit Werten, einer Spalte mit Formeln und formatierten Überschriften besteht":::
 
 ### <a name="charts-tables-and-other-data-objects"></a>Diagramme, Tabellen und andere Datenobjekte
 
@@ -117,7 +117,7 @@ Skripts können die Datenstrukturen und -visualisierungen in Excel erstellen und
 
 #### <a name="creating-a-table"></a>Erstellen einer Tabelle
 
-Erstellen Sie Tabellen mithilfe von mit Daten ausgefüllten Bereichen. Auf den Bereich werden automatisch Formatierungs- und Tabellen-Steuerelemente (wie z. B. Filter) angewendet.
+Erstellen Sie Tabellen mithilfe von mit Daten gefüllten Bereichen. Formatierungen und Tabellensteuerelemente (z. B. Filter) werden automatisch auf den Bereich angewendet.
 
 Durch das folgende Skript wird eine Tabelle auf Grundlage der Bereiche aus dem vorherigen Beispiel erstellt.
 
@@ -159,7 +159,7 @@ function main(workbook: ExcelScript.Workbook) {
 
 Wenn Sie dieses Skript auf das Arbeitsblatt mit der vorherigen Tabelle anwenden, wird das folgende Diagramm erstellt:
 
-:::image type="content" source="../images/chart-sample.png" alt-text="Ein Säulendiagramm mit den Mengen von drei Elementen aus dem vorherigen Verkaufsdatensatz.":::
+:::image type="content" source="../images/chart-sample.png" alt-text="Ein Säulendiagramm mit den Mengen von drei Elementen aus dem vorherigen Verkaufsdatensatz":::
 
 ### <a name="collections-and-other-object-relations"></a>Sammlungen und andere Objektbeziehungen
 
@@ -167,7 +167,7 @@ Auf jedes untergeordnete Objekt kann über das übergeordnete Objekt zugegriffen
 
 Sobald die Sammlung abgerufen wurde, können Sie reguläre Arrayoperationen wie das Abrufen der `length` oder die Verwendung von `for`, `for..of`, `while` Schleifen für Iterationen oder die Verwendung von TypeScript-Arraymethoden wie `map` oder `forEach` verwenden. Sie können auch auf einzelne Objekte innerhalb der Sammlung zugreifen, indem Sie den Arrayindexwert verwenden. `workbook.getTables()[0]` gibt beispielsweise die erste Tabelle in der Sammlung zurück. Lesen Sie den Abschnitt [„Arbeiten mit Sammlungen“ des Artikels „Verwenden von integrierten JavaScript-Objekten in Office-Skripts“](javascript-objects.md#working-with-collections), um weitere Informationen zur Verwendung der integrierten Arrayfunktionen mit dem Office-Skripts-Framework zu erhalten.
 
-Das folgende Skript ruft alle Tabellen in der Arbeitsmappe ab. Dann wird sichergestellt, dass die Kopfzeilen angezeigt werden, die Filterschaltflächen sichtbar sind und das Tabellenformat auf „TableStyleLight1“ festgelegt ist.
+Das folgende Skript ruft alle Tabellen in der Arbeitsmappe ab. Dadurch wird sichergestellt, dass die Kopfzeilen angezeigt werden, die Filterschaltflächen sichtbar sind und das Tabellenformat auf „TableStyleLight1“ festgelegt ist.
 
 ```TypeScript
 function main(workbook: ExcelScript.Workbook) {

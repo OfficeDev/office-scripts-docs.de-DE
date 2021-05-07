@@ -1,16 +1,16 @@
 ---
-title: 'Beispielszenario für Office-Skripts: Notenrechner'
+title: 'Office Skriptbeispielszenario: Notenrechner'
 description: Ein Beispiel, das die Prozent- und Buchstabennoten für eine Schülerklasse bestimmt.
 ms.date: 12/17/2020
 localization_priority: Normal
-ms.openlocfilehash: b8c45ad405c06a943c75e76391c1160ecb1bd18e
-ms.sourcegitcommit: 45ffe3dbd2c834b78592ad35928cf8096f5e80bc
+ms.openlocfilehash: e2ef6e7522fc88219bf6ba40900a1ecceecb263b
+ms.sourcegitcommit: f7a7aebfb687f2a35dbed07ed62ff352a114525a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51755028"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52232697"
 ---
-# <a name="office-scripts-sample-scenario-grade-calculator"></a>Beispielszenario für Office-Skripts: Notenrechner
+# <a name="office-scripts-sample-scenario-grade-calculator"></a>Office Skriptbeispielszenario: Notenrechner
 
 In diesem Szenario sind Sie ein Kursleiter, der die End-of-Term-Noten jedes Schülers abfüllt. Sie haben die Noten für ihre Zuordnungen und Tests während Ihres Wegs eingeben. Jetzt ist es an der Zeit, die Schicksale der Schüler zu bestimmen.
 
@@ -25,7 +25,7 @@ Sie entwickeln ein Skript, das die Noten für jede Punktkategorie insgesamt aufl
 
 ## <a name="setup-instructions"></a>Setupanweisungen
 
-1. Laden <a href="grade-calculator.xlsx">grade-calculator.xlsx</a> auf Ihr OneDrive herunter.
+1. Laden <a href="grade-calculator.xlsx">grade-calculator.xlsx</a> auf Ihre OneDrive.
 
 2. Öffnen Sie die Arbeitsmappe mit Excel für das Web.
 
@@ -182,8 +182,8 @@ Führen Sie das **Skript Notenrechner** im einzigen Arbeitsblatt aus. Das Skript
 
 ### <a name="before-running-the-script"></a>Vor dem Ausführen des Skripts
 
-:::image type="content" source="../../images/scenario-grade-calculator-before.png" alt-text="Ein Arbeitsblatt, das Zeilen mit Noten für Schüler und Studenten zeigt.":::
+:::image type="content" source="../../images/scenario-grade-calculator-before.png" alt-text="Ein Arbeitsblatt, das Zeilen mit Noten für Schüler und Studenten zeigt":::
 
 ### <a name="after-running-the-script"></a>Nach dem Ausführen des Skripts
 
-:::image type="content" source="../../images/scenario-grade-calculator-after.png" alt-text="Ein Arbeitsblatt, das die Schülerergebnisdaten mit ungültigen Zellen in roten Zahlen für gültige Schülerzeilen zeigt.":::
+:::image type="content" source="../../images/scenario-grade-calculator-after.png" alt-text="Ein Arbeitsblatt, das die Schülerergebnisdaten mit ungültigen Zellen in roten Summen für gültige Schülerzeilen zeigt":::

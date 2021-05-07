@@ -1,30 +1,30 @@
 ---
-title: TypeScript-Einschränkungen in Office-Skripts
-description: Die Spezifischen des TypeScript-Compilers und Linters, die vom Office Scripts Code Editor verwendet werden.
+title: TypeScript-Einschränkungen in Office Skripts
+description: 'Die Spezifischen des TypeScript-Compilers und Linters, die vom #A0 Office skripts-Code-Editor verwendet werden.'
 ms.date: 02/05/2021
 localization_priority: Normal
-ms.openlocfilehash: 88d0b5873a2f7350f88417d2e340343dbd183606
-ms.sourcegitcommit: 45ffe3dbd2c834b78592ad35928cf8096f5e80bc
+ms.openlocfilehash: 40eb6923d7b0c47dfeb4c846cdcc745e5d893c13
+ms.sourcegitcommit: f7a7aebfb687f2a35dbed07ed62ff352a114525a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51755049"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52232459"
 ---
-# <a name="typescript-restrictions-in-office-scripts"></a>TypeScript-Einschränkungen in Office-Skripts
+# <a name="typescript-restrictions-in-office-scripts"></a>TypeScript-Einschränkungen in Office Skripts
 
-Office-Skripts verwenden die TypeScript-Sprache. In den meisten Beispielen funktioniert typeScript- oder JavaScript-Code in einem Office-Skript. Es gibt jedoch einige Einschränkungen, die vom Code-Editor erzwungen werden, um sicherzustellen, dass Ihr Skript konsistent und wie mit Ihrer Excel-Arbeitsmappe beabsichtigt funktioniert.
+Office Skripts verwenden die TypeScript-Sprache. In den meisten Beispielen funktioniert typeScript- oder JavaScript-Code in einem Office Skript. Es gibt jedoch einige Einschränkungen, die vom Code-Editor erzwungen werden, um sicherzustellen, dass Ihr Skript konsistent und wie mit Ihrer Arbeitsmappe Excel ist.
 
-## <a name="no-any-type-in-office-scripts"></a>Kein "beliebiger" Typ in Office-Skripts
+## <a name="no-any-type-in-office-scripts"></a>Kein "beliebiger" Typ in Office Skripts
 
-[Schreibtypen](https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html) sind in TypeScript optional, da die Typen abgeleitet werden können. Office Script erfordert jedoch, dass eine Variable keine vom [Typ sein darf.](https://www.typescriptlang.org/docs/handbook/basic-types.html#any) Sowohl explizit als auch implizit `any` sind in einem Office-Skript nicht zulässig. Diese Fälle werden als Fehler gemeldet.
+[Schreibtypen](https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html) sind in TypeScript optional, da die Typen abgeleitet werden können. Für Office Script ist jedoch erforderlich, dass eine Variable keine vom [Typ sein darf.](https://www.typescriptlang.org/docs/handbook/basic-types.html#any) Sowohl explizit als auch implizit `any` sind in einem Skript Office zulässig. Diese Fälle werden als Fehler gemeldet.
 
 ### <a name="explicit-any"></a>Explicit `any`
 
-Sie können eine Variable nicht explizit als Typ `any` in Office Scripts deklarieren (d. h. `let someVariable: any;` ). Der `any` Typ verursacht Probleme bei der Verarbeitung durch Excel. Beispielsweise muss ein wissen, dass `Range` ein Wert ein , oder `string` `number` `boolean` ist. Sie erhalten einen Kompilierungszeitfehler (ein Fehler vor dem Ausführen des Skripts), wenn eine Variable explizit als Typ `any` im Skript definiert ist.
+Sie können eine Variable nicht explizit als Typ in Office `any` (d. h. `let someVariable: any;` ) deklarieren. Der `any` Typ verursacht Probleme bei der Verarbeitung durch Excel. Beispielsweise muss ein wissen, dass `Range` ein Wert ein , oder `string` `number` `boolean` ist. Sie erhalten einen Kompilierungszeitfehler (ein Fehler vor dem Ausführen des Skripts), wenn eine Variable explizit als Typ `any` im Skript definiert ist.
 
 :::image type="content" source="../images/explicit-any-editor-message.png" alt-text="Die explizite &quot;any&quot;-Nachricht im Hovertext des Code-Editors":::
 
-:::image type="content" source="../images/explicit-any-error-message.png" alt-text="Der Fehler Explicit Any im Konsolenfenster.":::
+:::image type="content" source="../images/explicit-any-error-message.png" alt-text="Der Fehler Explicit Any im Konsolenfenster":::
 
 Im vorherigen Screenshot `[5, 16] Explicit Any is not allowed` wird angegeben, dass #5, #16 Typ definiert `any` wird. Auf diese Weise können Sie den Fehler ermitteln.
 
@@ -39,13 +39,13 @@ Der häufigste Fall für implizite `any` Deklarationen ist eine variable Deklara
 * Weisen Sie die Variable einem implizit identifizierbaren Typ zu ( `let value = 5;` oder `let value = workbook.getWorksheet();` ).
 * Geben Sie die Variable explizit ein ( `let value: number;` )
 
-## <a name="no-inheriting-office-script-classes-or-interfaces"></a>Keine erbenden Office Script-Klassen oder -Schnittstellen
+## <a name="no-inheriting-office-script-classes-or-interfaces"></a>Keine Vererbung Office Skriptklassen oder -schnittstellen
 
-Klassen und Schnittstellen, die in Ihrem Office Script erstellt werden, [können](https://www.typescriptlang.org/docs/handbook/classes.html#inheritance) Keine Office Scripts-Klassen oder -Schnittstellen erweitern oder implementieren. Anders ausgedrückt: Nichts im `ExcelScript` Namespace kann Unterklassen oder Unterwebsites enthalten.
+Klassen und Schnittstellen, die in Ihrem Skript erstellt Office [Skripts](https://www.typescriptlang.org/docs/handbook/classes.html#inheritance) können keine Skriptklassen oder -schnittstellen Office erweitern oder implementieren. Anders ausgedrückt: Nichts im `ExcelScript` Namespace kann Unterklassen oder Unterwebsites enthalten.
 
 ## <a name="incompatible-typescript-functions"></a>Inkompatible TypeScript-Funktionen
 
-Office-Skript-APIs können nicht wie folgt verwendet werden:
+Office Skript-APIs können nicht wie folgt verwendet werden:
 
 * [Generatorfunktionen](https://developer.mozilla.org/docs/Web/JavaScript/Guide/Iterators_and_Generators#generator_functions)
 * [Array.sort](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array/sort)
@@ -81,13 +81,13 @@ let filteredArray = myArray.filter((x) => {
 
 ## <a name="performance-warnings"></a>Leistungswarnungen
 
-Der Linter des [Code-Editors](https://wikipedia.org/wiki/Lint_(software)) gibt Warnungen an, wenn das Skript Leistungsprobleme haben kann. Die Fälle und ihre Funktionsweise sind unter Verbessern der Leistung Ihrer [Office-Skripts dokumentiert.](web-client-performance.md)
+Der Linter des [Code-Editors](https://wikipedia.org/wiki/Lint_(software)) gibt Warnungen an, wenn das Skript Leistungsprobleme haben kann. Die Fälle und deren Funktionsweise sind unter Verbessern der Leistung Ihrer Skripts [Office dokumentiert.](web-client-performance.md)
 
 ## <a name="external-api-calls"></a>Externe API-Aufrufe
 
-Weitere Informationen finden Sie [unter Unterstützung für externe API-Aufrufe in Office-Skripts.](external-calls.md)
+Weitere Informationen finden Sie unter Unterstützung für externe [OFFICE in Skripts.](external-calls.md)
 
 ## <a name="see-also"></a>Siehe auch
 
 * [Grundlagen der Skripterstellung für Office-Skripts in Excel im Web](scripting-fundamentals.md)
-* [Verbessern der Leistung Ihrer Office-Skripts](web-client-performance.md)
+* [Verbessern der Leistung Ihrer Office Skripts](web-client-performance.md)

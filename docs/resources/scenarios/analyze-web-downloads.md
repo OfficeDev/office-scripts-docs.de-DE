@@ -1,16 +1,16 @@
 ---
-title: 'Beispielszenario für Office-Skripts: Analysieren von Webdownloads'
-description: Ein Beispiel, das unformatierte Internetdaten in einer Excel-Arbeitsmappe verwendet und den Ursprung bestimmt, bevor diese Informationen in einer Tabelle organisiert werden.
-ms.date: 12/17/2020
+title: 'Office Skriptbeispielszenario: Analysieren von Webdownloads'
+description: Ein Beispiel, das unformatierte Internetdatendaten in einer Excel und den Ursprung bestimmt, bevor diese Informationen in einer Tabelle organisiert werden.
+ms.date: 04/27/2021
 localization_priority: Normal
-ms.openlocfilehash: e351cd6c4a12e83a07a2f4ce5678d7aa10625118
-ms.sourcegitcommit: 45ffe3dbd2c834b78592ad35928cf8096f5e80bc
+ms.openlocfilehash: 6c5958e9957ca49c370ae34456236bdd15f41c44
+ms.sourcegitcommit: f7a7aebfb687f2a35dbed07ed62ff352a114525a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51755035"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52232711"
 ---
-# <a name="office-scripts-sample-scenario-analyze-web-downloads"></a>Beispielszenario für Office-Skripts: Analysieren von Webdownloads
+# <a name="office-scripts-sample-scenario-analyze-web-downloads"></a>Office Skriptbeispielszenario: Analysieren von Webdownloads
 
 In diesem Szenario haben Sie die Aufgabe, Downloadberichte von der Website Ihres Unternehmens zu analysieren. Das Ziel dieser Analyse besteht in der Ermittlung, ob der Webdatenverkehr aus den USA oder anderen Ländern der Welt kommt.
 
@@ -23,20 +23,11 @@ Sie entwickeln ein Skript, das wöchentliche Downloadsdaten im aktiven Arbeitsbl
 - Textparsing
 - Unterfunktion in Skripts
 - Bedingte Formatierung
-- Tabellen
-
-## <a name="demo-video"></a>Demovideo
-
-Dieses Beispiel wurde im Rahmen des Aufrufs der Office-Add-Ins-Entwicklergemeinschaft für Februar 2020 demoed.
-
-> [!VIDEO https://www.youtube.com/embed/vPEqbb7t6-Y?start=154]
-
-> [!NOTE]
-> Der in diesem Video gezeigte Code verwendet ein älteres API-Modell [(die Office Scripts Async-APIs](../../develop/excel-async-model.md)). Das auf dieser Seite dargestellte Beispiel wurde aktualisiert, aber der Code sieht etwas anders aus als die Aufzeichnung. Die Änderungen wirken sich nicht auf das Verhalten des Skripts oder der anderen Inhalte in der Demo des Presenters aus.
+- Tables
 
 ## <a name="setup-instructions"></a>Setupanweisungen
 
-1. Laden <a href="analyze-web-downloads.xlsx">analyze-web-downloads.xlsx</a> auf Ihr OneDrive herunter.
+1. Laden <a href="analyze-web-downloads.xlsx">analyze-web-downloads.xlsx</a> auf Ihre OneDrive.
 
 2. Öffnen Sie die Arbeitsmappe mit Excel für das Web.
 
@@ -226,10 +217,10 @@ Navigieren Sie zu einem der Wochenarbeitsblätter, **\* \*** und führen Sie das
 
 ### <a name="before-running-the-script"></a>Vor dem Ausführen des Skripts
 
-:::image type="content" source="../../images/scenario-analyze-web-downloads-before.png" alt-text="Ein Arbeitsblatt mit unformatiertem Webdatenverkehr.":::
+:::image type="content" source="../../images/scenario-analyze-web-downloads-before.png" alt-text="Ein Arbeitsblatt mit unformatiertem Webdatenverkehr":::
 
 ### <a name="after-running-the-script"></a>Nach dem Ausführen des Skripts
 
-:::image type="content" source="../../images/scenario-analyze-web-downloads-after.png" alt-text="Ein Arbeitsblatt, das formatierte IP-Standortinformationen mit den vorherigen Webdatenverkehrzeilen zeigt.":::
+:::image type="content" source="../../images/scenario-analyze-web-downloads-after.png" alt-text="Ein Arbeitsblatt, das formatierte Informationen zum IP-Standort mit den vorherigen Webdatenverkehrzeilen zeigt":::
 
-:::image type="content" source="../../images/scenario-analyze-web-downloads-table.png" alt-text="Die Zusammenfassungstabelle und das Diagramm, in der die Arbeitsblätter zusammengefasst sind, in denen das Skript ausgeführt wurde.":::
+:::image type="content" source="../../images/scenario-analyze-web-downloads-table.png" alt-text="Die Zusammenfassungstabelle und das Diagramm, in der die Arbeitsblätter zusammengefasst sind, in denen das Skript ausgeführt wurde":::

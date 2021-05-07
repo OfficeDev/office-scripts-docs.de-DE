@@ -3,12 +3,12 @@ title: Office-Skripts in Excel im Web
 description: Eine kurze Einführung in den Action Recorder und den Code Editor für Office-Skripts.
 ms.date: 11/13/2020
 localization_priority: Priority
-ms.openlocfilehash: 726d5e2ea44f6e61708c9692826f37a526250670
-ms.sourcegitcommit: 45ffe3dbd2c834b78592ad35928cf8096f5e80bc
+ms.openlocfilehash: 233baf33648f5fc8358b2aa8ce063ad5cdd68499
+ms.sourcegitcommit: f7a7aebfb687f2a35dbed07ed62ff352a114525a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51755135"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52232662"
 ---
 # <a name="office-scripts-in-excel-on-the-web-preview"></a>Office-Skripts in Excel im Web (Vorschau)
 
@@ -50,13 +50,13 @@ Angenommen, Sie beginnen Ihren Arbeitstag, indem Sie eine .csv-Datei auf einer K
 
 ## <a name="action-recorder"></a>Action Recorder
 
-:::image type="content" source="../images/action-recorder-intro.png" alt-text="Eine Liste der vom Aktionsrekorder aufgezeichneten Aktionen.":::
+:::image type="content" source="../images/action-recorder-intro.png" alt-text="Eine Liste der vom Aktionsrekorder aufgezeichneten Aktionen":::
 
 Die Action Recorder zeichnet Aktionen auf, die Sie in Excel ausführen, und speichert diese als Skript. Während der Action Recorder ausgeführt wird, können Sie die Excel-Aktionen erfassen, während Sie Zellen bearbeiten, Formatierungen ändern und Tabellen erstellen. Das resultierende Skript kann in anderen Arbeitsblättern und Arbeitsmappen ausgeführt werden, um die ursprünglichen Aktionen neuerlich zu erstellen.
 
 ## <a name="code-editor"></a>Code Editor
 
-:::image type="content" source="../images/code-editor-intro.png" alt-text="Der Code-Editor mit dem in diesem Lernprogramm verwendeten Skriptcode.":::
+:::image type="content" source="../images/code-editor-intro.png" alt-text="Der Code Editor mit dem in diesem Lernprogramm verwendeten Skriptcode":::
 
 Alle mit dem Action Recorder aufgezeichneten Skripts können über den Code Editor bearbeitet werden. Auf diese Weise können Sie das Skript so optimieren und anpassen, so dass es Ihren genauen Anforderungen besser entspricht. Sie können auch Logiken und Funktionen hinzufügen, die nicht direkt über die Excel-Benutzeroberfläche zugänglich sind, z. B. bedingte Anweisungen (sofern/andernfalls) und Schleifen.
 
@@ -64,7 +64,7 @@ Eine einfache Möglichkeit, die Fähigkeiten von Office-Skripts zu erlernen best
 
 ## <a name="sharing-scripts"></a>Freigeben von Skripts
 
-:::image type="content" source="../images/script-sharing.png" alt-text="Die Seite „Skriptdetails“ mit der Option ‚Für andere Personen in dieser Arbeitsmappe freigeben‘":::
+:::image type="content" source="../images/script-sharing.png" alt-text="Die „Skriptdetails“-Seite mit der Option ‚Für andere Personen in dieser Arbeitsmappe freigeben‘":::
 
 Office-Skripts können für andere Benutzer einer Excel-Arbeitsmappe freigegeben werden. Wenn Sie ein Skript für andere Personen in einer Arbeitsmappe freigeben, wird das Skript an die Arbeitsmappe angefügt. Ihre Skripts werden in Ihrem OneDrive gespeichert. Wenn Sie ein Script freigeben, erstellen Sie einen Link zu diesem Skript in der geöffneten Arbeitsmappe.
 

@@ -1,14 +1,14 @@
 ---
 title: Office Skriptbeispiele
 description: Verfügbare Office Skripts Beispiele und Szenarien.
-ms.date: 04/05/2021
+ms.date: 04/28/2021
 localization_priority: Normal
-ms.openlocfilehash: dc09db00cb63e6873b255360aff17ad2a56fa89e
-ms.sourcegitcommit: 1f003c9924e651600c913d84094506125f1055ab
+ms.openlocfilehash: 625db792763606e8db77abdc4665b7db2732892f
+ms.sourcegitcommit: f7a7aebfb687f2a35dbed07ed62ff352a114525a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "52026828"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52232739"
 ---
 # <a name="office-scripts-samples-and-scenarios"></a>Office Skriptbeispiele und -szenarien
 
@@ -27,15 +27,15 @@ Wir freuen uns auch [über Beiträge von der Community](#community-contributions
 | Project | Details |
 |---------|---------|
 | [Skripting-Grundlagen](../excel-samples.md) | Diese Beispiele zeigen grundlegende Bausteine für Office Skripts. |
-| [Grundlegendes zur Verwendung des Range-Objekts in Office Skripts](range-basics.md) | In diesem Artikel werden die Grundlagen der Verwendung des Range-Objekts und seiner APIs erläutert. Dies ist ein Grundthema, das in allen anderen Projekten verwendet wird. |
+| [Hinzufügen von Kommentaren in Excel](add-excel-comments.md) | In diesem Beispiel wird gezeigt, wie Sie einer Zelle Kommentare hinzufügen, einschließlich @mentioning Kollegen. |
+| [Kopieren mehrerer Excel in eine einzelne Tabelle](copy-tables-combine.md) | In diesem Beispiel werden Daten aus Excel Tabellen in einer einzigen Tabelle kombiniert, die alle Zeilen enthält. |
 
 ## <a name="beyond-the-basics"></a>Weitere Tipps und Tricks
 
-Sehen Sie sich das folgende End-to-End-Projekt an, das Beispielszenarien zusammen mit vollständigen Skripts, Beispieldateien Excel verwendeten Dateien und Videos [automatisiert.](https://www.youtube.com/playlist?list=PLr3zVPZrMOUMl88fs8uc2GGAePRnNe6m0)
+Sehen Sie sich das folgende End-to-End-Projekt an, das Beispielszenarien zusammen mit vollständigen Skripts, Beispiel-Excel verwendeten Dateien und Videos [(gehostet auf YouTube)](https://www.youtube.com/playlist?list=PLr3zVPZrMOUMl88fs8uc2GGAePRnNe6m0)automatisiert.
 
 | Project | Details |
 |---------|---------|
-| [Hinzufügen von Kommentaren in Excel](add-excel-comments.md) | In diesem Beispiel wird gezeigt, wie Sie einer Zelle Kommentare hinzufügen, einschließlich @mentioning Kollegen. |
 | [Zählen leerer Zeilen in einem bestimmten Blatt oder in allen Blättern](count-blank-rows.md) | In diesem Beispiel wird ermittelt, ob leere Zeilen in Blättern vorhanden sind, in denen Daten vorhanden sein sollen, und anschließend die Leere Zeilenanzahl für die Verwendung in einem Power Automate melden. |
 | [Querverweis und Formatieren einer Excel Datei](excel-cross-reference.md) | Diese Lösung zeigt, wie zwei Excel mithilfe von Skripts und Office formatiert und formatiert werden Power Automate. |
 | [E-Mail-Diagramm- und Tabellenbilder](email-images-chart-table.md) | In diesem Beispiel werden Office Skripts und Power Automate verwendet, um ein Diagramm zu erstellen und dieses Diagramm als Bild per E-Mail zu senden. |
@@ -43,7 +43,6 @@ Sehen Sie sich das folgende End-to-End-Projekt an, das Beispielszenarien zusamme
 | [Filtern Excel Tabelle und Erhalten des sichtbaren Bereichs](filter-table-get-visible-range.md) | In diesem Beispiel wird eine Excel filtert und der sichtbare Bereich als JSON-Objekt zurückgegeben. Diese JSON könnte einem Power Automate als Teil einer größeren Lösung bereitgestellt werden. |
 | [Generieren eines eindeutigen Bezeichners in einer Arbeitsmappe](document-number-generator.md) | Dieses Szenario hilft einem Benutzer, eine eindeutige Dokumentnummer mit einem bestimmten Format zu generieren und einem Bereich oder einer Tabelle einen Eintrag hinzuzufügen. |
 | [Verwalten des Berechnungsmodus in Excel](excel-calculation.md) | In diesem Beispiel wird gezeigt, wie Sie den Berechnungsmodus verwenden und Methoden in Excel im Web mithilfe Office berechnen. |
-| [Zusammenführen mehrerer Excel Tabellen in eine einzelne Tabelle](copy-tables-combine.md) | In diesem Beispiel werden Daten aus Excel Tabellen in einer einzigen Tabelle kombiniert, die alle Zeilen enthält. |
 | [Verschieben von Zeilen über Tabellen](move-rows-across-tables.md) | In diesem Beispiel wird gezeigt, wie Sie Zeilen über Tabellen verschieben, indem Sie Filter speichern und anschließend die Filter verarbeiten und erneut anwenden. |
 | [Ausgabe Excel Daten als JSON](get-table-data.md) | Diese Lösung zeigt, wie Excel als JSON ausgegeben werden, die in der Power Automate. |
 | [Entfernen von Hyperlinks aus jeder Zelle in Excel Arbeitsblatt](remove-hyperlinks-from-cells.md) | In diesem Beispiel werden alle Hyperlinks aus dem aktuellen Arbeitsblatt entfernt. |

@@ -1,37 +1,37 @@
 ---
-title: Senden einer Teams-Besprechung aus Excel-Daten
-description: Erfahren Sie, wie Sie Office-Skripts verwenden, um eine Teams-Besprechung aus Excel-Daten zu senden.
-ms.date: 03/30/2021
+title: Senden einer Teams aus Excel Daten
+description: Erfahren Sie, wie Sie Office Skripts verwenden, um eine Teams aus Excel senden.
+ms.date: 04/28/2021
 localization_priority: Normal
-ms.openlocfilehash: 807c9228049504c089c8dafe63a5d9ccaab94399
-ms.sourcegitcommit: 5d24e77df70aa2c1c982275d53213c2a9323ff86
+ms.openlocfilehash: b0a3d5732727fd399fe34f3645336840ba4c156d
+ms.sourcegitcommit: f7a7aebfb687f2a35dbed07ed62ff352a114525a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51571533"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52232732"
 ---
-# <a name="send-teams-meeting-from-excel-data"></a>Senden von Teams-Besprechungen aus Excel-Daten
+# <a name="send-teams-meeting-from-excel-data"></a>Senden Teams Besprechung aus Excel Daten
 
-Diese Lösung zeigt, wie Sie Office-Skripts und Power Automate-Aktionen verwenden, um Zeilen aus der Excel-Datei auszuwählen und sie zum Senden einer Teams-Besprechungs-Einladung zu verwenden und dann Excel zu aktualisieren.
+Diese Lösung zeigt, wie Sie Office Skripts und Power Automate-Aktionen verwenden, um Zeilen aus der Excel-Datei auszuwählen und sie zu verwenden, um eine Teams-Besprechungs-Einladung zu senden und dann Excel.
 
 ## <a name="example-scenario"></a>Beispielszenario
 
-* Ein Personalreferent verwaltet den Interviewzeitplan von Kandidaten in einer Excel-Datei.
-* Der Personalreferent muss die Teams-Besprechungs-Einladung an den Kandidaten und die Interviewer senden. Die Geschäftsregeln sind:
+* Ein Personalreferent verwaltet den Interviewzeitplan der Kandidaten in einer Excel Datei.
+* Der Personalreferent muss die Teams an den Kandidaten und die Interviewer senden. Die Geschäftsregeln sind:
 
     (a) Lädt nur diejenigen ein, für die die Einladung noch nicht wie in der Dateispalte aufgezeichnet gesendet wurde.
 
     (b) Interviewtermine in der Zukunft (keine vergangenen Datumsangaben).
 
-* Der Personalreferent muss die Excel-Datei mit der Bestätigung aktualisieren, dass alle Teams-Besprechungen für die berechtigten Datensätze gesendet wurden.
+* Der Personalreferent muss die Excel mit der Bestätigung aktualisieren, dass alle Teams für die berechtigten Datensätze gesendet wurden.
 
 Die Lösung besteht aus drei Teilen:
 
-1. Office Script zum Extrahieren von Daten aus einer Tabelle basierend auf Bedingungen und gibt ein Array von Objekten als JSON-Daten zurück.
-1. Die Daten werden dann an die Teams **Create a Teams meeting action** to send invites gesendet. Senden Sie eine Teams-Besprechung pro Instanz im JSON-Array.
-1. Senden Sie dieselben JSON-Daten an ein anderes Office-Skript, um den Status der Einladung zu aktualisieren.
+1. Office Skript zum Extrahieren von Daten aus einer Tabelle basierend auf Bedingungen und gibt ein Array von Objekten als JSON-Daten zurück.
+1. Die Daten werden dann an die Teams **Erstellen** Teams Besprechungsaktion zum Senden von Einladungen gesendet. Senden Sie Teams Besprechung pro Instanz im JSON-Array.
+1. Senden Sie dieselben JSON-Daten an ein Office Skript, um den Status der Einladung zu aktualisieren.
 
-## <a name="sample-excel-file"></a>Beispiel-Excel-Datei
+## <a name="sample-excel-file"></a>Beispieldatei Excel Datei
 
 Laden Sie die Datei <a href="hr-schedule.xlsx">hr-schedule.xlsx, </a> die in dieser Lösung verwendet wird, herunter, und testen Sie sie selbst!
 
@@ -228,6 +228,6 @@ interface InterviewInvite  {
 }
 ```
 
-## <a name="training-video-send-a-teams-meeting-from-excel-data"></a>Schulungsvideo: Senden einer Teams-Besprechung aus Excel-Daten
+## <a name="training-video-send-a-teams-meeting-from-excel-data"></a>Schulungsvideo: Senden Teams Besprechung aus Excel Daten
 
-[![Schritt-für-Schritt-Video zum Senden einer Teams-Besprechung aus Excel-Daten ansehen](../../images/teams-invite-vid.jpg)](https://youtu.be/HyBdx52NOE8 "Schrittweises Video zum Senden einer Teams-Besprechung aus Excel-Daten")
+[Sehen Sie sich an, wie Sudhi Ramamurthy dieses Beispiel auf YouTube durchspazieren.](https://youtu.be/HyBdx52NOE8)

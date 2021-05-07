@@ -3,12 +3,12 @@ title: Löschen des Tabellenspaltenfilters basierend auf der aktiven Zellenposit
 description: Erfahren Sie, wie Sie den Tabellenspaltenfilter basierend auf der aktiven Zellenposition löschen.
 ms.date: 03/04/2021
 localization_priority: Normal
-ms.openlocfilehash: 4f8353fb5480812b7b63e7a9b3ffb11ece2a8c6c
-ms.sourcegitcommit: 45ffe3dbd2c834b78592ad35928cf8096f5e80bc
+ms.openlocfilehash: bbca4adce1de2cfade2c4f84273bf0bc06b5cc4b
+ms.sourcegitcommit: f7a7aebfb687f2a35dbed07ed62ff352a114525a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51755084"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52232501"
 ---
 # <a name="clear-table-column-filter-based-on-active-cell-location"></a>Löschen des Tabellenspaltenfilters basierend auf der aktiven Zellenposition
 
@@ -18,15 +18,15 @@ Wenn Sie mehr darüber erfahren möchten, wie Sie den Filter speichern, bevor Si
 
 _Vor dem Löschen des Spaltenfilters (beachten Sie die aktive Zelle)_
 
-:::image type="content" source="../../images/before-filter-applied.png" alt-text="Eine aktive Zelle vor dem Löschen des Spaltenfilters.":::
+:::image type="content" source="../../images/before-filter-applied.png" alt-text="Eine aktive Zelle vor dem Löschen des Spaltenfilters":::
 
 _Nach dem Löschen des Spaltenfilters_
 
-:::image type="content" source="../../images/after-filter-cleared.png" alt-text="Eine aktive Zelle nach dem Löschen des Spaltenfilters.":::
+:::image type="content" source="../../images/after-filter-cleared.png" alt-text="Eine aktive Zelle nach dem Löschen des Spaltenfilters":::
 
 ## <a name="sample-code-clear-table-column-filter-based-on-active-cell"></a>Beispielcode: Tabellenspaltenfilter basierend auf aktiver Zelle löschen
 
-Das folgende Skript entfernt den Tabellenspaltenfilter basierend auf der aktiven Zellenposition und kann auf jede Beliebige Excel-Datei mit einer Tabelle angewendet werden. Zur Vereinfachung können Sie die Datei herunterladen und <a href="table-with-filter.xlsx">table-with-filter.xlsx. </a>
+Das folgende Skript entfernt den Tabellenspaltenfilter basierend auf der aktiven Zellenposition und kann auf jede Excel tabelle angewendet werden. Zur Vereinfachung können Sie die Datei herunterladen und <a href="table-with-filter.xlsx">table-with-filter.xlsx. </a>
 
 ```TypeScript
 function main(workbook: ExcelScript.Workbook) {
@@ -63,7 +63,3 @@ function main(workbook: ExcelScript.Workbook) {
     col.getFilter().clear();
 }
 ```
-
-## <a name="training-video-clear-table-column-filter-based-on-active-cell-location"></a>Schulungsvideo: Löschen des Tabellenspaltenfilters basierend auf der position der aktiven Zelle
-
-Ein Beispiel für die Arbeit mit Bereichen finden Sie unter [Range basics training videos](range-basics.md#training-videos-range-basics).

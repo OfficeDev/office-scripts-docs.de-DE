@@ -1,62 +1,62 @@
 ---
-title: Erste Schritte mit Office-Skripts
-description: Grundlagen zu Office-Skripts, einschließlich Zugriffs-, Umgebungs- und Skriptmustern.
+title: Erste Schritte mit Office Skripts
+description: Grundlagen zum Office Skripts, einschließlich Zugriffs-, Umgebungs- und Skriptmustern.
 ms.date: 04/01/2021
 localization_priority: Normal
 ROBOTS: NOINDEX
-ms.openlocfilehash: 42b71a21470ac38535e3e95f091ec6267806e54a
-ms.sourcegitcommit: 45ffe3dbd2c834b78592ad35928cf8096f5e80bc
+ms.openlocfilehash: d30c4fb4523c49b559e057eede4d5de162b74f9c
+ms.sourcegitcommit: f7a7aebfb687f2a35dbed07ed62ff352a114525a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51755056"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52232760"
 ---
 # <a name="getting-started"></a>Erste Schritte
 
-Dieser Abschnitt enthält Details zu den Grundlagen von Office-Skripts, einschließlich Zugriff, Umgebung, Skriptgrundwerte und wenigen grundlegenden Skriptmustern.
+Dieser Abschnitt enthält Details zu den Grundlagen Office Skripts, einschließlich Zugriff, Umgebung, Skriptgrundwerte und wenigen grundlegenden Skriptmustern.
 
 ## <a name="environment-setup"></a>Umgebungseinrichtung
 
 Erfahren Sie mehr über die Grundlagen des Zugriffs, der Umgebung und des Skript-Editors.
 
-[![Grundlagen der Office Scripts-Anwendung](../../images/getting-started-env.png)](https://youtu.be/vvCtxsjPxo8 "Grundlagen der Office Scripts-Anwendung")
+[![Grundlagen Office Skriptanwendung](../../images/getting-started-env.png)](https://youtu.be/vvCtxsjPxo8 "Grundlagen Office Skriptanwendung")
 
-### <a name="access"></a>Access
+### <a name="access"></a>Zugriff
 
-Für Office-Skripts sind Administratoreinstellungen erforderlich, die für Microsoft 365-Administrator unter **Einstellungen**  >  **Organisationseinstellungen**  >  **Office-Skripts verfügbar sind.** Standardmäßig ist es für alle Benutzer aktiviert. Es gibt zwei Untereinstellungen, die der Administrator ein- und ausschalten kann.
+Office Skripts erfordern Administratoreinstellungen, die für Microsoft 365 administrator unter **Einstellungen**  >  **Org settings** Office Scripts verfügbar  >  **sind.** Standardmäßig ist es für alle Benutzer aktiviert. Es gibt zwei Untereinstellungen, die der Administrator ein- und ausschalten kann.
 
 * Möglichkeit zum Freigeben von Skripts innerhalb der Organisation
-* Möglichkeit zur Verwendung von Skripts in Power Automate
+* Möglichkeit der Verwendung von Skripts in Power Automate
 
-Sie können sehen, ob Sie Zugriff auf Office-Skripts haben, indem Sie  eine Datei in Excel im Web (Browser) öffnen und sehen, ob die Registerkarte Automatisieren im Excel-Menüband angezeigt wird oder nicht.
+Sie können sehen, ob Sie Zugriff auf Office-Skripts haben, indem Sie eine  Datei in Excel im Web (Browser) öffnen und sehen, ob die Registerkarte Automatisieren im Menüband Excel angezeigt wird oder nicht.
 Wenn die Registerkarte Automatisieren weiterhin nicht angezeigt **wird,** lesen Sie [diesen Abschnitt zur Problembehandlung](../../testing/troubleshooting.md#automate-tab-not-appearing-or-office-scripts-unavailable).
 
 ### <a name="availability"></a>Verfügbarkeit
 
-Office-Skripts sind nur in Excel im Web für Enterprise E3+-Lizenzen verfügbar (Consumer- und E1-Konten werden nicht unterstützt). Office-Skripts werden in Excel unter Windows und Mac noch nicht unterstützt.
+Office Skripts sind nur in der Excel im Web für Enterprise E3+-Lizenzen verfügbar (Consumer- und E1-Konten werden nicht unterstützt). Office Skripts werden noch nicht in Excel auf Windows und Mac unterstützt.
 
 ### <a name="scripts-and-editor"></a>Skripts und Editor
 
-Der Code-Editor ist direkt in Excel im Web (Onlineversion) integrierte. Wenn Sie Editoren wie Visual Studio Code oder Sublime verwendet haben, ist diese Bearbeitungserfahrung ziemlich ähnlich.
-Die meisten Tastenkombinationen, die Visual Studio Code-Editor verwenden, arbeiten auch in der Bearbeitungserfahrung von Office-Skripts. Sehen Sie sich die folgenden Tastenkombinationen an.
+Der Code-Editor ist direkt in Excel im Web (Onlineversion) integrierte. Wenn Sie Editoren wie "Visual Studio Code" oder "Sublime" verwendet haben, ist diese Bearbeitungserfahrung ziemlich ähnlich.
+Die meisten Tastenkombinationen, die Visual Studio Code Editor verwenden, arbeiten auch Office Skriptbearbeitung. Sehen Sie sich die folgenden Tastenkombinationen an.
 
 * [macOS](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf)
 * [Windows](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf)
 
 #### <a name="key-things-to-note"></a>Wichtige Dinge, die Sie beachten müssen
 
-* #A0 sind nur für Dateien verfügbar, die auf OneDrive for Business-, #A1 und Teamwebsites gespeichert sind.
+* Office Skripts sind nur für Dateien verfügbar, die auf OneDrive for Business, SharePoint und Teamwebsites gespeichert sind.
 * Der Editor zeigt die Erweiterung des Skripts nicht an. In Wirklichkeit handelt es sich dabei um TypeScript-Dateien, die jedoch mit einer benutzerdefinierten Erweiterung namens gespeichert `.osts` werden.
-* Die Skripts werden in Ihrem eigenen OneDrive for #A0 `My Files/Documents/OfficeScripts` gespeichert. Sie müssen diesen Ordner nicht verwalten. Sie können diesen Aspekt ignorieren, während der Editor die Anzeige-/Bearbeitungserfahrung verwaltet.
-* Skripts werden nicht als Teil von Excel-Dateien gespeichert. Sie werden separat gespeichert.
-* Sie können das Skript für eine Excel-Datei freigeben, was bedeutet, dass Sie das Skript mit der Datei verknüpfen und nicht anfügen. Wer Zugriff auf die Excel-Datei hat, kann auch  eine Kopie des Skripts **anzeigen,** ausführen oder erstellen. Dies ist ein wichtiger Unterschied im Vergleich zu VBA-Makros.
+* Die Skripts werden in Ihrem eigenen Ordner OneDrive for Business `My Files/Documents/OfficeScripts` gespeichert. Sie müssen diesen Ordner nicht verwalten. Sie können diesen Aspekt ignorieren, während der Editor die Anzeige-/Bearbeitungserfahrung verwaltet.
+* Skripts werden nicht als Teil der Excel gespeichert. Sie werden separat gespeichert.
+* Sie können das Skript für eine Excel freigeben, was bedeutet, dass Sie das Skript mit der Datei verknüpfen und nicht anfügen. Wer Zugriff auf die Excel hat, kann auch eine Kopie  des Skripts **anzeigen,** ausführen oder erstellen. Dies ist ein wichtiger Unterschied im Vergleich zu VBA-Makros.
 * Wenn Sie Ihre Skripts nicht freigeben, kann niemand darauf zugreifen, wie sie sich in Ihrer eigenen Bibliothek befinden.
-* Skripts können nicht von einem lokalen Datenträger oder benutzerdefinierten Cloudspeicherorten verknüpft werden. Office-Skripts erkennen und ausführen nur ein Skript, das sich am vordefinierten Speicherort (Ihr oben erwähnter #A0) oder freigegebenen Skripts befindet.
-* Während der Bearbeitung werden Dateien vorübergehend im Browser gespeichert, Aber Sie müssen das Skript speichern, bevor Sie das #A0 schließen, um es am #A1 zu speichern. Vergessen Sie nicht, die Datei nach den Bearbeitungen zu speichern.
+* Skripts können nicht von einem lokalen Datenträger oder benutzerdefinierten Cloudspeicherorten verknüpft werden. Office Skripts erkennen und ausführen nur ein Skript, das sich am vordefinierten Speicherort befindet (ihr OneDrive oben erwähnt) oder freigegebene Skripts.
+* Während der Bearbeitung werden Dateien vorübergehend im Browser gespeichert, Aber Sie müssen das Skript speichern, bevor Sie das Excel-Fenster schließen, um es am speicherort OneDrive speichern. Vergessen Sie nicht, die Datei nach den Bearbeitungen zu speichern.
 
 ## <a name="gentle-introduction-to-scripting"></a>Behutsame Einführung in skripterstellung
 
-Office-Skripts sind eigenständige Skripts, die in der TypeScript-Sprache geschrieben wurden und Anweisungen zum Ausführen einer Automatisierung für die ausgewählte Excel-Arbeitsmappe enthalten. Alle Automatisierungsanweisungen sind in einem Skript enthalten, und Skripts können keine anderen Skripts aufrufen oder aufrufen. Alle Skripts werden in eigenständigen Dateien gespeichert und im #A0 des Benutzers gespeichert. Sie können ein neues Skript aufzeichnen, ein aufgezeichnetes Skript bearbeiten oder ein ganz neues Skript in einer integrierten Editorschnittstelle von Grund auf neu schreiben. Der beste Teil von Office-Skripts ist, dass sie keine weiteren Setups von Benutzern benötigen. Keine externen Bibliotheken, Webseiten oder Benutzeroberflächenelemente, Setup usw. Alle Umgebungseinstellungen werden von Office-Skripts verarbeitet und ermöglichen einen einfachen und schnellen Zugriff auf automatisierung über eine einfache API-Schnittstelle.
+Office Skripts sind eigenständige Skripts, die in der TypeScript-Sprache geschrieben wurden und Anweisungen zum Ausführen einer Automatisierung für die ausgewählte Excel enthalten. Alle Automatisierungsanweisungen sind in einem Skript enthalten, und Skripts können keine anderen Skripts aufrufen oder aufrufen. Alle Skripts werden in eigenständigen Dateien gespeichert und im Ordner OneDrive gespeichert. Sie können ein neues Skript aufzeichnen, ein aufgezeichnetes Skript bearbeiten oder ein ganz neues Skript in einer integrierten Editorschnittstelle von Grund auf neu schreiben. Der beste Teil Office Skripts ist, dass sie keine weiteren Setups von Benutzern benötigen. Keine externen Bibliotheken, Webseiten oder Benutzeroberflächenelemente, Setup usw. Alle Umgebungseinstellungen werden von skripts Office und ermöglicht einen einfachen und schnellen Zugriff auf die Automatisierung über eine einfache API-Schnittstelle.
 
 Zu den grundlegenden Konzepten, die hilfreich sind, um das Bearbeiten und Navigieren in Skripts zu verstehen, gehören:
 
@@ -69,15 +69,15 @@ Zu den grundlegenden Konzepten, die hilfreich sind, um das Bearbeiten und Navigi
 
 In diesem Video und Abschnitt werden einige dieser Konzepte ausführlich erläutert.
 
-[![Grundlagen von Office-Skripts](../../images/getting-started-v_script.png)](https://youtu.be/8Zsrc1uaiiU "Grundlagen von Skripts")
+[![Grundlagen der Office Skripts](../../images/getting-started-v_script.png)](https://youtu.be/8Zsrc1uaiiU "Grundlagen von Skripts")
 
 ### <a name="language-typescript"></a>Sprache: TypeScript
 
-[Office Scripts](../../index.md) wird mit der [TypeScript-Sprache](https://www.typescriptlang.org/)geschrieben, einer Open-Source-Sprache, die auf JavaScript (eine der weltweit am häufigsten verwendeten) basiert, indem statische Typdefinitionen hinzugefügt werden. Wie die Website sagt, bieten Sie eine Möglichkeit, die Form eines Objekts zu beschreiben, eine bessere Dokumentation zur Verfügung zu stellen und TypeScript zu ermöglichen, um zu überprüfen, ob Ihr Code `Types` ordnungsgemäß funktioniert.
+[Office](../../index.md) Skripts werden mit der [TypeScript-Sprache](https://www.typescriptlang.org/)geschrieben, einer Open-Source-Sprache, die auf JavaScript (eine der weltweit am häufigsten verwendeten) basiert, indem statische Typdefinitionen hinzugefügt werden. Wie die Website sagt, bieten Sie eine Möglichkeit, die Form eines Objekts zu beschreiben, eine bessere Dokumentation zur Verfügung zu stellen und TypeScript zu ermöglichen, um zu überprüfen, ob Ihr Code `Types` ordnungsgemäß funktioniert.
 
-Die Sprachsyntax selbst wird mithilfe von [JavaScript mit](https://developer.mozilla.org/docs/Web/JavaScript) zusätzlichen Eingaben geschrieben, die im Skript mithilfe von TypeScript-Konventionen definiert sind. In den meisten Beispielen können Sie sich Office-Skripts so ausdingen, wie sie in JavaScript geschrieben wurden. Es ist wichtig, dass Sie die Grundlagen der JavaScript-Sprache verstehen, um Ihre Office #A0 zu beginnen. Sie müssen sich jedoch nicht damit ausgnüssen, um Ihren Automatisierungsweg zu beginnen. Mit der Aktionsaufzeichnung der Office-Skripts können Sie die Skriptanweisungen verstehen, da Codekommentare enthalten sind und Sie kleine Bearbeitungen verfolgen und ausführen können.
+Die Sprachsyntax selbst wird mithilfe von [JavaScript mit](https://developer.mozilla.org/docs/Web/JavaScript) zusätzlichen Eingaben geschrieben, die im Skript mithilfe von TypeScript-Konventionen definiert sind. In den meisten Beispielen können Sie sich Office Skripts wie in JavaScript geschrieben. Es ist wichtig, dass Sie die Grundlagen der JavaScript-Sprache verstehen, um Ihre Office Skripts zu beginnen. Sie müssen sich jedoch nicht damit ausgnüssen, um Ihren Automatisierungsweg zu beginnen. Mit dem Office Skripts können Sie die Skriptanweisungen verstehen, da Codekommentare enthalten sind und Sie kleine Änderungen mit verfolgen und ausführen können.
 
-Office-Skript-APIs, mit denen das Skript mit Excel interagieren kann, sind für Endbenutzer gedacht, die möglicherweise nicht über einen großen Codierungshintergrund verfügen. APIs können synchron aufgerufen werden, und Sie benötigen keine erweiterten Themen wie Zusagen oder Rückrufe. Das Office Scripts-API-Design bietet:
+Office Skript-APIs, mit denen das Skript mit Excel interagieren kann, sind für Endbenutzer konzipiert, die möglicherweise nicht über einen großen Codierungshintergrund verfügen. APIs können synchron aufgerufen werden, und Sie benötigen keine erweiterten Themen wie Zusagen oder Rückrufe. Office Das Skript-API-Design bietet:
 
 * Einfaches Objektmodell mit Methoden, Getters/Setters.
 * Leicht zugängliche Objektsammlungen als reguläre Arrays.
@@ -86,22 +86,22 @@ Office-Skript-APIs, mit denen das Skript mit Excel interagieren kann, sind für 
 
 ### <a name="main-function-the-scripts-starting-point"></a>`main` Funktion: Ausgangspunkt des Skripts
 
-Die Ausführung von Office Scripts beginnt mit der `main` Funktion. Ein Skript ist eine einzelne Datei, die eine oder mehrere Funktionen zusammen mit Deklarationen von Typen, Schnittstellen, Variablen usw. enthält. Um dem Skript zu folgen, beginnen Sie mit der Funktion, da Excel beim Ausführen eines Skripts immer zuerst die `main` `main` Funktion aufruft. Die Funktion hat immer mindestens ein Argument (oder Parameter) namens , bei dem es sich nur um einen Variablennamen handelt, der die aktuelle Arbeitsmappe identifiziert, für die `main` `workbook` das Skript ausgeführt wird. Sie können zusätzliche Argumente für die Verwendung mit Power Automate (Offline)-Ausführung definieren.
+Office Die Ausführung von Skripts beginnt bei der `main` Funktion. Ein Skript ist eine einzelne Datei, die eine oder mehrere Funktionen zusammen mit Deklarationen von Typen, Schnittstellen, Variablen usw. enthält. Um dem Skript zu folgen, beginnen Sie mit der Funktion als Excel die Funktion immer zuerst aufruft, wenn `main` `main` Sie ein Skript ausführen. Die Funktion hat immer mindestens ein Argument (oder Parameter) namens , bei dem es sich nur um einen Variablennamen handelt, der die aktuelle Arbeitsmappe identifiziert, für die `main` `workbook` das Skript ausgeführt wird. Sie können zusätzliche Argumente für die Verwendung mit Power Automate (Offline)-Ausführung definieren.
 
 * `function main(workbook: ExcelScript.Workbook)`
 
-Ein Skript kann in kleinere Funktionen organisiert werden, um code reusability, clarity usw. zu unterstützen. Andere Funktionen können sich innerhalb oder außerhalb der Hauptfunktion, aber immer in derselben Datei enthalten. Ein Skript ist eigenständiges Skript und kann nur funktionen verwenden, die in derselben Datei definiert sind. Skripts können kein anderes Office-Skript aufrufen oder aufrufen.
+Ein Skript kann in kleinere Funktionen organisiert werden, um code reusability, clarity usw. zu unterstützen. Andere Funktionen können sich innerhalb oder außerhalb der Hauptfunktion, aber immer in derselben Datei enthalten. Ein Skript ist eigenständiges Skript und kann nur funktionen verwenden, die in derselben Datei definiert sind. Skripts können kein anderes Skript aufrufen oder Office aufrufen.
 
 Zusammenfassung:
 
-* Die `main` Funktion ist der Einstiegspunkt für jedes Skript. Wenn die Funktion ausgeführt wird, ruft die Excel-Anwendung diese Hauptfunktion auf, indem die Arbeitsmappe als erster Parameter angegeben wird.
+* Die `main` Funktion ist der Einstiegspunkt für jedes Skript. Wenn die Funktion ausgeführt wird, ruft Excel diese Hauptfunktion auf, indem die Arbeitsmappe als erster Parameter angegeben wird.
 * Es ist wichtig, das erste Argument und seine Typdeklaration so zu behalten, `workbook` wie es angezeigt wird. Sie können der Funktion neue Argumente hinzufügen (siehe den nächsten Abschnitt), aber behalten Sie `main` das erste Argument wie folgt bei.
 
 :::image type="content" source="../../images/getting-started-main-introduction.png" alt-text="Die Hauptfunktion ist der Einstiegspunkt des Skripts.":::
 
 #### <a name="send-or-receive-data-from-other-apps"></a>Senden oder Empfangen von Daten von anderen Apps
 
-Sie können Excel mit anderen Teilen Ihrer Organisation verbinden, indem Sie Skripts in [Power Automate ausführen.](https://flow.microsoft.com) Erfahren Sie mehr über [das Ausführen von Office-Skripts in Power Automate-Flüssen.](../../develop/power-automate-integration.md)
+Sie können Excel mit anderen Teilen Ihrer Organisation verbinden, indem Sie Skripts in [Power Automate.](https://flow.microsoft.com) Erfahren Sie mehr über [das Ausführen Office Skripts in Power Automate Flüssen](../../develop/power-automate-integration.md).
 
 Die Möglichkeit, Daten von und an Excel zu empfangen oder zu senden, ist über die `main` Funktion. Denken Sie daran, dass es das Informationsgateway ist, mit dem eingehende und ausgehende Daten im Skript beschrieben und verwendet werden können. Sie können Daten von außerhalb des Skripts mithilfe des Datentyps empfangen und typeScript-erkannte Daten wie , , oder alle Objekte in Form von Schnittstellen zurückgeben, die Sie im Skript `string` `string` `number` `boolean` definieren.
 
@@ -115,7 +115,7 @@ Sie können Funktionen verwenden, um Code innerhalb Ihres Skripts zu organisiere
 
 ### <a name="objects-hierarchy-methods-properties-collections"></a>Objekte, Hierarchie, Methoden, Eigenschaften, Auflistungen
 
-Das objektmodell von Excel ist in einer hierarchischen Struktur von Objekten definiert, beginnend mit dem Arbeitsmappenobjekt vom Typ `ExcelScript.Workbook` . Ein Objekt kann Methoden, Eigenschaften und andere Objekte enthalten. Objekte werden mithilfe der Methoden miteinander verknüpft. Die Methode eines Objekts kann ein anderes Objekt oder eine Auflistung von Objekten zurückgeben. Die Verwendung der IntelliSense (Codeabschluss)-Funktion des Code-Editors ist eine hervorragende Möglichkeit, die Objekthierarchie zu erkunden. Sie können auch die offizielle [Referenzdokumentationswebsite verwenden,](/javascript/api/office-scripts/overview) um die Beziehungen zwischen Objekten zu verfolgen.
+Das objektmodell Excel ist in einer hierarchischen Struktur von Objekten definiert, beginnend mit dem Arbeitsmappenobjekt vom Typ `ExcelScript.Workbook` . Ein Objekt kann Methoden, Eigenschaften und andere Objekte enthalten. Objekte werden mithilfe der Methoden miteinander verknüpft. Die Methode eines Objekts kann ein anderes Objekt oder eine Auflistung von Objekten zurückgeben. Die Verwendung der IntelliSense (Codeabschluss)-Funktion des Code-Editors ist eine hervorragende Möglichkeit, die Objekthierarchie zu erkunden. Sie können auch die offizielle [Referenzdokumentationswebsite verwenden,](/javascript/api/office-scripts/overview) um die Beziehungen zwischen Objekten zu verfolgen.
 
 Ein [Objekt](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object) ist eine Auflistung von Eigenschaften, und eine Eigenschaft ist eine Zuordnung zwischen einem Namen (oder Schlüssel) und einem Wert. Der Wert einer Eigenschaft kann eine Funktion sein, in diesem Fall wird die Eigenschaft als Methode bezeichnet. Im Fall des Office Scripts-Objektmodells stellt ein Objekt eine Sache in der Excel-Datei dar, mit der Benutzer interagieren, z. B. ein Diagramm, ein Hyperlink, eine Pivottabelle usw. Sie kann auch das Verhalten eines Objekts darstellen, z. B. die Schutzattribute eines Arbeitsblatts.
 
@@ -125,8 +125,8 @@ Das Thema typeScript-Objekte und -Eigenschaften im Vergleich zu Methoden ist seh
 * Eigenschaften sind skalar in der Natur (Zeichenfolgen, boolesche Werte, Zahlen). Beispielsweise name of a workbook, position of a worksheet, the value of whether the table has a footer or not.
 * Methoden werden mithilfe der klammern geöffneten Klammern "aufgerufen" oder "ausgeführt". Beispiel: `table.delete()`. Manchmal wird ein Argument an eine Funktion übergeben, indem sie zwischen offenen Klammern einschleiert wird: `range.setValue('Hello')` . Sie können viele Argumente an eine Funktion übergeben (wie durch ihren Vertrag/ihre Signatur definiert) und diese mithilfe von `,` trennen.  Zum Beispiel: `worksheet.addTable('A1:D6', true)`. Sie können Argumente eines beliebigen Typs übergeben, wie dies von der Methode erforderlich ist, z. B. Zeichenfolgen, Zahlen, boolesche Objekte oder sogar andere Objekte, z. B. , wobei ein An anderer Stelle im Skript erstelltes Objekt `worksheet.addTable(targetRange, true)` `targetRange` ist.
 * Methoden können ein Objekt wie eine skalare Eigenschaft (Name, Adresse usw.) oder ein anderes Objekt (Bereich, Diagramm) oder gar nichts zurückgeben (z. B. bei `delete` Methoden). Sie erhalten, was die Methode zurückgibt, indem Sie eine Variable deklarieren oder einer vorhandenen Variablen zuweisen. Sie können dies auf der linken Seite der Anweisung wie `const table = worksheet.addTable('A1:D6', true)` sehen.
-* Das Office Scripts-Objektmodell besteht hauptsächlich aus Objekten mit Methoden, die verschiedene Teile des Excel-Objektmodells verknüpfen. Sehr selten werden Ihnen Eigenschaften mit skalaren oder Objektwerten angezeigt.
-* In Office Scripts muss eine Excel-Objektmodellmethode offene Klammern enthalten. Die Verwendung von Methoden ohne diese ist nicht zulässig (z. B. das Zuweisen einer Methode zu einer Variablen).
+* In den meisten Teilen besteht das Office Scripts-Objektmodell aus Objekten mit Methoden, die verschiedene Teile des Excel verknüpfen. Sehr selten werden Ihnen Eigenschaften mit skalaren oder Objektwerten angezeigt.
+* In Office Skripts muss Excel Objektmodellmethode offene Klammern enthalten. Die Verwendung von Methoden ohne diese ist nicht zulässig (z. B. das Zuweisen einer Methode zu einer Variablen).
 
 Sehen wir uns einige Methoden für das Objekt `workbook` an.
 
@@ -152,7 +152,7 @@ In diesem Beispiel:
 * Die Methode akzeptiert ein Argument (in diesem `getTable()` Fall Tabellenname) und gibt eine bestimmte Tabelle in der Arbeitsmappe zurück.
 * Die Methode gibt ein Array (an vielen Stellen als Auflistung bezeichnet) aller `getSlicers()` Datenschnittobjekte in der Arbeitsmappe zurück.
 
-Sie werden feststellen, dass alle diese Methoden ein Präfix haben, was nur eine Konvention ist, die im Office Scripts-Objektmodell verwendet wird, um zu vermitteln, dass die `get` Methode etwas zurück gibt. Sie werden auch häufig als "Getter" bezeichnet.
+Sie werden feststellen, dass alle diese Methoden ein Präfix haben. Dies ist nur eine Konvention, die im Office Scripts-Objektmodell verwendet wird, um zu vermitteln, dass die Methode etwas `get` zurück gibt. Sie werden auch häufig als "Getter" bezeichnet.
 
 Es gibt zwei weitere Methodentypen, die wir nun im nächsten Beispiel sehen werden:
 
@@ -170,7 +170,7 @@ function main(workbook: ExcelScript.Workbook) {
 In diesem Beispiel:
 
 * Die `setName()` Methode legt einen neuen Namen für das Arbeitsblatt fest. `setPosition()` legt die Position auf die erste Zelle fest.
-* Diese Methoden ändern die Excel-Datei, indem sie eine Eigenschaft oder ein Verhalten der Arbeitsmappe festlegen. Diese Methoden werden als "Setter" bezeichnet.
+* Diese Methoden ändern die Excel, indem sie eine Eigenschaft oder ein Verhalten der Arbeitsmappe festlegen. Diese Methoden werden als "Setter" bezeichnet.
 * In der Regel verfügen "Setter" beispielsweise über einen Begleiter "Getter", und , beide `worksheet.getPosition` `worksheet.setPosition` sind Methoden.
 
 #### <a name="undefined-and-null-primitive-types"></a>`undefined` und `null` primitive Typen
@@ -319,7 +319,7 @@ Auflistungen sind Objekte wie Tabellen, Diagramme, Spalten usw., die als Array a
 
 * [Sprachgrundkenntnisse von Arrays](https://developer.mozilla.org//docs/Learn/JavaScript/First_steps/Arrays)
 
-Dieses Skript veranschaulicht die Verwendung von Sammlungen, die in Office Scripts-APIs unterstützt werden. Sie farben jede Arbeitsblattregisterkarte in der Datei mit einer zufälligen Farbe.
+Dieses Skript veranschaulicht die Verwendung von Sammlungen, die in Office Skript-APIs unterstützt werden. Sie farben jede Arbeitsblattregisterkarte in der Datei mit einer zufälligen Farbe.
 
 ```TypeScript
 function main(workbook: ExcelScript.Workbook) {
@@ -355,14 +355,14 @@ Beispiele:
 
 Sie können die Typen einfach im Code-Editor identifizieren, da sie in der Regel in einer anderen Farbe deutlich angezeigt werden. Ein Doppelpunkt `:` steht in der Regel vor der Typdeklaration.  
 
-Schreibtypen können in TypeScript optional sein, da der Typinferenz ihnen viel Leistung ermöglicht, ohne zusätzlichen Code zu schreiben. Die TypeScript-Sprache kann die Variablentypen meist gut abhingen. In bestimmten Fällen erfordern Office-Skripts jedoch, dass die Typdeklarationen explizit definiert werden, wenn die Sprache den Typ nicht eindeutig identifizieren kann. Außerdem ist explizit oder implizit `any` in Office Script nicht zulässig. Weitere Informationen dazu später.
+Schreibtypen können in TypeScript optional sein, da der Typinferenz ihnen viel Leistung ermöglicht, ohne zusätzlichen Code zu schreiben. Die TypeScript-Sprache kann die Variablentypen meist gut abhingen. In bestimmten Fällen erfordern Office Skripts jedoch, dass die Typdeklarationen explizit definiert werden, wenn die Sprache den Typ nicht eindeutig identifizieren kann. Darüber hinaus sind explizite oder `any` implizite Skripts in Office zulässig. Weitere Informationen dazu später.
 
 ### <a name="excelscript-types"></a>`ExcelScript` types
 
-In Office Scripts verwenden Sie die folgenden Typen.
+In Office Skripts verwenden Sie die folgenden Typen.
 
 * Systemeigene Sprachtypen wie `number` , , , , , `string` `object` `boolean` `null` usw.
-* Excel-API-Typen. Sie beginnen mit `ExcelScript` . Beispiel: `ExcelScript.Range` , `ExcelScript.Table` , usw.
+* Excel API-Typen. Sie beginnen mit `ExcelScript` . Beispiel: `ExcelScript.Range` , `ExcelScript.Table` , usw.
 * Alle benutzerdefinierten Schnittstellen, die Sie im Skript mithilfe von Anweisungen definiert `interface` haben.
 
 Weitere Informationen finden Sie unter Beispiele für jede dieser Gruppen.
@@ -494,7 +494,7 @@ Die [TypeScript-Website gibt an:](https://www.typescriptlang.org/docs/handbook/b
 let someVariable: any; 
 ```
 
-Der `any` Typ stellt die Art und Weise, wie Office Scripts die Excel-APIs verarbeitet, vor Herausforderungen. Es verursacht Probleme, wenn die Variablen zur Verarbeitung an Excel-APIs gesendet werden. Das Wissen über den Typ von Variablen, die im Skript verwendet werden, ist für die Verarbeitung des Skripts unerlässlich, und daher ist eine explizite Definition jeder Variablen mit Typ `any` nicht zulässig. Sie erhalten einen Kompilierungszeitfehler (Fehler vor dem Ausführen des Skripts), wenn eine Variable mit dem typ im `any` Skript deklariert ist. Es wird auch ein Fehler im Editor angezeigt.
+Der Typ stellt die Art und Weise vor Office `any` Skripts die Excel verarbeitet. Es verursacht Probleme, wenn die Variablen zur Verarbeitung an Excel apIs gesendet werden. Das Wissen über den Typ von Variablen, die im Skript verwendet werden, ist für die Verarbeitung des Skripts unerlässlich, und daher ist eine explizite Definition jeder Variablen mit Typ `any` nicht zulässig. Sie erhalten einen Kompilierungszeitfehler (Fehler vor dem Ausführen des Skripts), wenn eine Variable mit dem typ im `any` Skript deklariert ist. Es wird auch ein Fehler im Editor angezeigt.
 
 :::image type="content" source="../../images/getting-started-eanyi.png" alt-text="Expliziter &quot;beliebiger&quot; Fehler":::
 
@@ -529,7 +529,7 @@ Diese Art von Rückschluss erfolgt beim Initialisieren von Variablen und Membern
 
 Für ein Skript sind die Typen der Variablen erforderlich, die explizit oder implizit deklariert werden. Wenn der TypeScript-Compiler den Typ einer Variablen nicht ermitteln kann (entweder, weil typ nicht explizit deklariert ist oder ein Typverweis nicht möglich ist), erhalten Sie einen Kompilierungszeitfehler (Fehler vor dem Ausführen des Skripts). Es wird auch ein Fehler im Editor angezeigt.
 
-:::image type="content" source="../../images/getting-started-iany.png" alt-text="Der implizite &quot;any&quot;-Fehler, der im Editor angezeigt wird.":::
+:::image type="content" source="../../images/getting-started-iany.png" alt-text="Der implizite &quot;beliebige&quot;-Fehler, der im Editor angezeigt wird":::
 
 Die folgenden Skripts haben Kompilierungszeitfehler, da Variablen ohne Typen deklariert werden und TypeScript den Typ zum Zeitpunkt der Deklaration nicht bestimmen kann.
 
@@ -582,7 +582,7 @@ function main(workbook: ExcelScript.Workbook) {
 
 ## <a name="error-handling"></a>Fehlerbehandlung
 
-Der Fehler "Office-Skripts" kann in eine der folgenden Kategorien unterteilt werden.
+Office Skriptfehler können in eine der folgenden Kategorien klassifiziert werden.
 
 1. Im Editor angezeigte Warnung zur Kompilierungszeit
 1. Kompilierungszeitfehler, der angezeigt wird, wenn Sie ausgeführt werden, aber vor Beginn der Ausführung auftritt
@@ -621,7 +621,7 @@ if (indexSheet) {
 
 ### <a name="do-pre-checks-at-the-beginning-of-the-script"></a>Durchführen von Vorabüberprüfungen am Anfang des Skripts
 
-Als bewährte Methode sollten Sie vor dem Ausführen des Skripts immer sicherstellen, dass alle Eingaben in der Excel-Datei vorhanden sind. Möglicherweise haben Sie bestimmte Annahmen dazu gemacht, dass Objekte in der Arbeitsmappe vorhanden sind. Wenn diese Objekte nicht vorhanden sind, tritt in Ihrem Skript möglicherweise ein Fehler auf, wenn Sie das Objekt oder dessen Daten lesen. Anstatt die Verarbeitung und Fehler in der Mitte zu beginnen, nachdem ein Teil der Updates oder Verarbeitung bereits abgeschlossen ist, ist es besser, alle Vorabüberprüfungen zu Beginn des Skripts durchzuführen.
+Als bewährte Methode sollten Sie vor dem Ausführen des Skripts immer sicherstellen, dass alle Eingaben in Excel vorhanden sind. Möglicherweise haben Sie bestimmte Annahmen dazu gemacht, dass Objekte in der Arbeitsmappe vorhanden sind. Wenn diese Objekte nicht vorhanden sind, tritt in Ihrem Skript möglicherweise ein Fehler auf, wenn Sie das Objekt oder dessen Daten lesen. Anstatt die Verarbeitung und Fehler in der Mitte zu beginnen, nachdem ein Teil der Updates oder Verarbeitung bereits abgeschlossen ist, ist es besser, alle Vorabüberprüfungen zu Beginn des Skripts durchzuführen.
 
 Für das folgende Skript müssen beispielsweise zwei Tabellen mit dem Namen Table1 und Table2 vorhanden sein. Daher überprüft das Skript auf seine Anwesenheit und endet mit der Anweisung und einer entsprechenden `return` Nachricht, wenn sie nicht vorhanden sind.
 
@@ -682,7 +682,7 @@ function inputPresent( workbook: ExcelScript.Workbook): boolean {
 
 In den meisten Prozenten müssen Sie das Skript nicht aborten ( `throw` ). Dies liegt daran, dass das Skript in der Regel den Benutzer darüber informiert, dass das Skript aufgrund eines Problems nicht ausgeführt werden konnte. In den meisten Fällen reicht es aus, das Skript mit einer Fehlermeldung und einer Anweisung aus `return` der Funktion zu `main` beenden.
 
-Wenn Ihr Skript jedoch im Rahmen von Power Automate ausgeführt wird, sollten Sie den Fluss abbrechen, wenn bestimmte Bedingungen nicht erfüllt sind. Es ist daher wichtig, keinen Fehler zu verwenden, sondern eine Anweisung aus, um das Skript abbricht, damit nachfolgende Codeanweisungen `return` `throw` nicht ausgeführt werden.
+Wenn Ihr Skript jedoch als Teil der Power Automate ausgeführt wird, sollten Sie den Fluss abbrechen, wenn bestimmte Bedingungen nicht erfüllt sind. Es ist daher wichtig, keinen Fehler zu verwenden, sondern eine Anweisung aus, um das Skript abbricht, damit nachfolgende Codeanweisungen `return` `throw` nicht ausgeführt werden.
 
 ```TypeScript
 function main(workbook: ExcelScript.Workbook) {
@@ -776,10 +776,6 @@ function updateTargetRange(
 
 *Warnung:* Die `try..catch` Verwendung innerhalb einer Schleife verlangsamt ihr Skript. Vermeiden Sie dies innerhalb oder um Schleifen.
 
-## <a name="range-basics"></a>Grundlagen des Bereichs
-
-Weitere Informationen finden Sie unter [Range Basics.](range-basics.md)
-
 ## <a name="basic-performance-considerations"></a>Grundlegende Leistungsüberlegungen
 
 ### <a name="avoid-slow-operations-in-the-loop"></a>Vermeiden langsamer Vorgänge in der Schleife
@@ -837,4 +833,4 @@ Einige Dinge, die Sie über TypeScript herausrufen müssen:
 * Die Codeblöcke werden durch geschweifte geschweifte Geschweifte mit offenem Schließen definiert und identifiziert: `{` `}` . Blöcke sind für `if` Bedingungen, `while` Anweisungen, `for` Schleifen, Funktionsdefinitionen usw. erforderlich.
 * Funktionen können andere Funktionen aufrufen, und Sie können sogar Funktionen innerhalb einer Funktion definieren.
 
-Insgesamt ist TypeScript eine andere Sprache, und es gibt nur wenige Ähnlichkeiten zwischen ihnen. Die Office Scripts-API selbst verwendet jedoch ähnliche Terminologie- und Datenmodellhierarchien (Objektmodell) wie VBA-APIs, und dies sollte Ihnen beim Navigieren helfen.
+Insgesamt ist TypeScript eine andere Sprache, und es gibt nur wenige Ähnlichkeiten zwischen ihnen. Die skripts-API Office verwendet jedoch eine ähnliche Terminologie- und Datenmodellhierarchie (Objektmodell) wie VBA-APIs, und dies sollte Ihnen bei der Navigation helfen.

@@ -1,28 +1,28 @@
 ---
-title: Querverweis und Formatieren einer Excel-Datei
-description: Erfahren Sie, wie Sie Office-Skripts und Power Automate zum Querverweisen und Formatieren einer Excel-Datei verwenden.
-ms.date: 03/18/2021
+title: Querverweis und Formatieren einer Excel Datei
+description: Erfahren Sie, wie Sie Office Skripts und Power Automate verwenden, um eine Datei querverweisen und Excel formatieren.
+ms.date: 04/28/2021
 localization_priority: Normal
-ms.openlocfilehash: 287de604733b7e6a126d0c81cb4e23351e558c61
-ms.sourcegitcommit: 5d24e77df70aa2c1c982275d53213c2a9323ff86
+ms.openlocfilehash: 858fe561c1a82f471bc3c0f43d81e457fb02b627
+ms.sourcegitcommit: f7a7aebfb687f2a35dbed07ed62ff352a114525a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51571514"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52232382"
 ---
-# <a name="cross-reference-and-format-an-excel-file"></a>Querverweis und Formatieren einer Excel-Datei
+# <a name="cross-reference-and-format-an-excel-file"></a>Querverweis und Formatieren einer Excel Datei
 
-Diese Lösung zeigt, wie zwei Excel-Dateien mithilfe von Office-Skripts und Power Automate querverweisen und formatiert werden können.
+Diese Lösung zeigt, wie zwei Excel mithilfe von Skripts und Office formatiert und formatiert werden Power Automate.
 
 Das Projekt erreicht Folgendes:
 
 1. Extrahiert Ereignisdaten <a href="events.xlsx"> aus </a>events.xlsxmit einer Ausführungsskriptaktion.
-1. Übergibt diese Daten an die zweite Excel-Datei, die Ereignistransaktionsdaten enthält, und verwendet diese Daten zur grundlegenden Überprüfung von Daten und formatierungen fehlender oder falscher Daten mithilfe von Office-Skripts.
+1. Übergibt diese Daten an die zweite Excel-Datei, die Ereignistransaktionsdaten enthält, und verwendet diese Daten zur grundlegenden Überprüfung der Daten und Formatierung fehlender oder falscher Daten mithilfe von Office Skripts.
 1. E-Mails des Ergebnisses an einen Prüfer.
 
-Weitere Informationen finden Sie unter [Querverweis und Formatieren von zwei Excel-Dateien mithilfe von Office-Skripts.](https://powerusers.microsoft.com/t5/Power-Automate-Cookbook/Cross-Reference-and-formatting-two-Excel-files-using-Office/td-p/728535)
+Weitere Informationen finden Sie unter [Querverweis und Formatierung von zwei Excel mit Office Skripts](https://powerusers.microsoft.com/t5/Power-Automate-Cookbook/Cross-Reference-and-formatting-two-Excel-files-using-Office/td-p/728535).
 
-## <a name="sample-excel-files"></a>Beispiel-Excel-Dateien
+## <a name="sample-excel-files"></a>Beispieldateien Excel
 
 Laden Sie die folgenden Dateien herunter, die in dieser Lösung verwendet werden, um es selbst auszuprobieren.
 
@@ -125,6 +125,6 @@ capacity: number
 }
 ```
 
-## <a name="training-video-cross-reference-and-format-an-excel-file"></a>Schulungsvideo: Querverweis und Formatieren einer Excel-Datei
+## <a name="training-video-cross-reference-and-format-an-excel-file"></a>Schulungsvideo: Querverweis und Formatieren einer Excel Datei
 
-[![Schritt-für-Schritt-Video zum Querverweis und Formatieren einer Excel-Datei ansehen](../../images/cross-ref-tables-vid.jpg)](https://youtu.be/dVwqBf483qo "Schrittweises Video zum Querverweis und Formatieren einer Excel-Datei")
+[Sehen Sie sich an, wie Sudhi Ramamurthy dieses Beispiel auf YouTube durchspazieren.](https://youtu.be/dVwqBf483qo")

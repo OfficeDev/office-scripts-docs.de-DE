@@ -1,26 +1,26 @@
 ---
 title: Verwalten des Berechnungsmodus in Excel
-description: Erfahren Sie, wie Sie Office-Skripts verwenden, um den Berechnungsmodus in Excel im Web zu verwalten.
-ms.date: 03/18/2021
+description: Erfahren Sie, wie Sie Office Skripts verwenden, um den Berechnungsmodus in Excel im Web.
+ms.date: 04/28/2021
 localization_priority: Normal
-ms.openlocfilehash: 0239437c7b52dca1fd8d1a4fc66bab7965cbd91a
-ms.sourcegitcommit: 5d24e77df70aa2c1c982275d53213c2a9323ff86
+ms.openlocfilehash: 34a14874197ffda8487df5e450e3dcab980f7ed5
+ms.sourcegitcommit: f7a7aebfb687f2a35dbed07ed62ff352a114525a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51571527"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52232452"
 ---
 # <a name="manage-calculation-mode-in-excel"></a>Verwalten des Berechnungsmodus in Excel
 
-In diesem Beispiel wird gezeigt, wie Sie den [Berechnungsmodus verwenden](/javascript/api/office-scripts/excelscript/excelscript.calculationmode) und Methoden in Excel im Web mithilfe von Office-Skripts berechnen. Sie können das Skript in einer beliebigen Excel-Datei ausprobieren.
+In diesem Beispiel wird gezeigt, wie Sie den [Berechnungsmodus](/javascript/api/office-scripts/excelscript/excelscript.calculationmode) verwenden und Methoden in Excel im Web mithilfe Office berechnen. Sie können das Skript in einer beliebigen Excel testen.
 
 ## <a name="scenario"></a>Szenario
 
-In Excel im Web kann der Berechnungsmodus einer Datei mithilfe von APIs programmgesteuert gesteuert werden. Die folgenden Aktionen sind mit Office-Skripts möglich.
+In Excel im Web kann der Berechnungsmodus einer Datei mithilfe von APIs programmgesteuert gesteuert werden. Die folgenden Aktionen sind mithilfe von skripts Office möglich.
 
 1. Den Berechnungsmodus erhalten.
 1. Legen Sie den Berechnungsmodus ein.
-1. Berechnen Sie Excel-Formeln für Dateien, die auf den manuellen Modus festgelegt sind (auch als Neuberechnung bezeichnet).
+1. Berechnen Excel Formeln für Dateien, die auf den manuellen Modus festgelegt sind (auch als Neuberechnung bezeichnet).
 
 ## <a name="sample-code-control-calculation-mode"></a>Beispielcode: Steuerelementberechnungsmodus
 
@@ -38,4 +38,4 @@ function main(workbook: ExcelScript.Workbook) {
 
 ## <a name="training-video-manage-calculation-mode"></a>Schulungsvideo: Verwalten des Berechnungsmodus
 
-[![Schritt-für-Schritt-Video zur Verwaltung des Berechnungsmodus in Excel im Web ansehen](../../images/calc-mode-vid.jpg)](https://youtu.be/iw6O8QH01CI "Schritt-für-Schritt-Video zum Verwalten des Berechnungsmodus in Excel im Web")
+[Sehen Sie sich an, wie Sudhi Ramamurthy dieses Beispiel auf YouTube durchspazieren.](https://youtu.be/iw6O8QH01CI)

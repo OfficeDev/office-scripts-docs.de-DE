@@ -1,34 +1,34 @@
 ---
-title: Ausgabe von Excel-Daten als JSON
-description: Erfahren Sie, wie Sie Excel-Tabellendaten als JSON zur Verwendung in Power Automate aus.
+title: Ausgabe Excel Daten als JSON
+description: Erfahren Sie, wie Excel tabellendaten als JSON ausgegeben werden, die in der Power Automate.
 ms.date: 03/18/2021
 localization_priority: Normal
-ms.openlocfilehash: db6eb8f8645079eebc369e0a0622539075853953
-ms.sourcegitcommit: 45ffe3dbd2c834b78592ad35928cf8096f5e80bc
+ms.openlocfilehash: c6b033a68fdbde2b053f65d1a54db58da6c93b2e
+ms.sourcegitcommit: f7a7aebfb687f2a35dbed07ed62ff352a114525a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51754796"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52232536"
 ---
-# <a name="output-excel-table-data-as-json-for-usage-in-power-automate"></a>Ausgabe von Excel-Tabellendaten als JSON für die Verwendung in Power Automate
+# <a name="output-excel-table-data-as-json-for-usage-in-power-automate"></a>Ausgabe Excel Tabellendaten als JSON für die Verwendung in Power Automate
 
-Excel-Tabellendaten können als Array von Objekten in Form von JSON dargestellt werden. Jedes Objekt stellt eine Zeile in der Tabelle dar. Dadurch werden die Daten aus Excel in einem konsistenten Format extrahiert, das für den Benutzer sichtbar ist. Die Daten können dann über Power Automate-Flüsse an andere Systeme gegeben werden.
+Excel Tabellendaten können als Array von Objekten in Form von JSON dargestellt werden. Jedes Objekt stellt eine Zeile in der Tabelle dar. Dadurch werden die Daten aus Excel in einem konsistenten Format extrahiert, das für den Benutzer sichtbar ist. Die Daten können dann an andere Systeme über Power Automate werden.
 
 _Eingabetabelle_
 
-:::image type="content" source="../../images/table-input.png" alt-text="Ein Arbeitsblatt mit Eingabetabellesdaten.":::
+:::image type="content" source="../../images/table-input.png" alt-text="Ein Arbeitsblatt mit Eingabetabellesdaten":::
 
 Eine Variante dieses Beispiels enthält auch die Hyperlinks in einer der Tabellenspalten. Dadurch können zusätzliche Ebenen von Zelldaten im JSON angezeigt werden.
 
 _Eingabetabelle mit Hyperlinks_
 
-:::image type="content" source="../../images/table-hyperlink-view.png" alt-text="Ein Arbeitsblatt mit einer Spalte mit Tabellendaten, die als Hyperlinks formatiert sind.":::
+:::image type="content" source="../../images/table-hyperlink-view.png" alt-text="Ein Arbeitsblatt mit einer Spalte mit Tabellendaten, die als Hyperlinks formatiert sind":::
 
 _Dialogfeld zum Bearbeiten von Hyperlinks_
 
-:::image type="content" source="../../images/table-hyperlink-edit.png" alt-text="Im Dialogfeld Hyperlink bearbeiten werden Optionen zum Ändern von Hyperlinks angezeigt.":::
+:::image type="content" source="../../images/table-hyperlink-edit.png" alt-text="Im Dialogfeld Hyperlink bearbeiten werden Optionen zum Ändern von Hyperlinks angezeigt":::
 
-## <a name="sample-excel-file"></a>Beispiel-Excel-Datei
+## <a name="sample-excel-file"></a>Beispieldatei Excel Datei
 
 Laden Sie die Datei <a href="table-data-with-hyperlinks.xlsx">table-data-with-hyperlinks.xlsx, </a> die in diesen Beispielen verwendet wird, herunter, und testen Sie sie selbst!
 
@@ -255,4 +255,4 @@ interface TableData {
 
 ## <a name="use-in-power-automate"></a>Verwenden in Power Automate
 
-Informationen zur Verwendung eines solchen Skripts in Power Automate finden Sie unter [Erstellen eines automatisierten Workflows mit Power Automate](../../tutorials/excel-power-automate-returns.md#create-an-automated-workflow-with-power-automate).
+Informationen zur Verwendung eines solchen Skripts in Power Automate finden Sie unter [Create an automated workflow with Power Automate](../../tutorials/excel-power-automate-returns.md#create-an-automated-workflow-with-power-automate).

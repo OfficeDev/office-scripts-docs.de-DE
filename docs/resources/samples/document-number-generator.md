@@ -1,14 +1,14 @@
 ---
 title: Generieren eines eindeutigen Bezeichners in einer Arbeitsmappe
-description: Erfahren Sie, wie Sie Office-Skripts verwenden, um einen eindeutigen Bezeichner zu generieren und einer Tabelle und einem Bereich eine Zeile hinzuzufügen.
+description: Erfahren Sie, wie Sie Office Skripts verwenden, um einen eindeutigen Bezeichner zu generieren und einer Tabelle und einem Bereich eine Zeile hinzuzufügen.
 ms.date: 03/18/2021
 localization_priority: Normal
-ms.openlocfilehash: c75eba551cc1c05426db613c78d41431b5177842
-ms.sourcegitcommit: 45ffe3dbd2c834b78592ad35928cf8096f5e80bc
+ms.openlocfilehash: 62c930bfc638dc46b36daf81b6d1ec976c90a8d0
+ms.sourcegitcommit: f7a7aebfb687f2a35dbed07ed62ff352a114525a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51754838"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52232480"
 ---
 # <a name="generate-a-unique-identifier-in-a-workbook"></a>Generieren eines eindeutigen Bezeichners in einer Arbeitsmappe
 
@@ -20,23 +20,23 @@ Es gibt zwei Versionen des Beispiels für dieses Szenario.
 
     _Bevor die neue Zeile hinzugefügt wird_
 
-    :::image type="content" source="../../images/document-number-generator-range-before.png" alt-text="Ein Arbeitsblatt mit einem Datenbereich, bevor eine Zeile hinzugefügt wird.":::
+    :::image type="content" source="../../images/document-number-generator-range-before.png" alt-text="Ein Arbeitsblatt mit einem Datenbereich, bevor eine Zeile hinzugefügt wird":::
 
     _Nachdem die neue Zeile hinzugefügt wurde_
 
-    :::image type="content" source="../../images/document-number-generator-range-after.png" alt-text="Ein Arbeitsblatt mit einem Datenbereich nach dem Hinzufügen der Zeile.":::
+    :::image type="content" source="../../images/document-number-generator-range-after.png" alt-text="Ein Arbeitsblatt mit einem Datenbereich nach dem Hinzufügen einer Zeile":::
 
 * [Version 2: Lesen und Hinzufügen einer Zeile zu einer Tabelle](#sample-code-generate-key-and-add-row-to-table)
 
     _Bevor die neue Zeile hinzugefügt wird_
 
-    :::image type="content" source="../../images/document-number-generator-table-before.png" alt-text="Ein Arbeitsblatt mit einer Tabelle, bevor eine Zeile hinzugefügt wird.":::
+    :::image type="content" source="../../images/document-number-generator-table-before.png" alt-text="Ein Arbeitsblatt mit einer Tabelle, bevor eine Zeile hinzugefügt wird":::
 
     _Nachdem die neue Zeile hinzugefügt wurde_
 
-    :::image type="content" source="../../images/document-number-generator-table-after.png" alt-text="Ein Arbeitsblatt mit einer Tabelle, nachdem eine Zeile hinzugefügt wurde.":::
+    :::image type="content" source="../../images/document-number-generator-table-after.png" alt-text="Ein Arbeitsblatt mit einer Tabelle nach dem Hinzufügen einer Zeile":::
 
-## <a name="sample-excel-file"></a>Beispiel-Excel-Datei
+## <a name="sample-excel-file"></a>Beispieldatei Excel Datei
 
 Laden Sie die Datei <a href="document-number-generator.xlsx">document-number-generator.xlsx, </a> die in dieser Lösung verwendet wird, um sie selbst auszuprobieren!
 

@@ -1,14 +1,14 @@
 ---
-title: Verschieben von Zeilen über Tabellen mithilfe von Office-Skripts
+title: Verschieben von Zeilen über Tabellen mithilfe Office Skripts
 description: Erfahren Sie, wie Sie Zeilen über Tabellen verschieben, indem Sie Filter speichern und anschließend die Filter verarbeiten und erneut anwenden.
-ms.date: 03/30/2021
+ms.date: 04/28/2021
 localization_priority: Normal
-ms.openlocfilehash: 1adaeee1c8307d7775529496df115563831aed4d
-ms.sourcegitcommit: 45ffe3dbd2c834b78592ad35928cf8096f5e80bc
+ms.openlocfilehash: 959fb002b0ba485b43f4de7de3004e1074f768a7
+ms.sourcegitcommit: f7a7aebfb687f2a35dbed07ed62ff352a114525a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51755042"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52232753"
 ---
 # <a name="move-rows-across-tables-by-saving-filters-then-processing-and-reapplying-the-filters"></a>Verschieben von Zeilen über Tabellen durch Speichern von Filtern und anschließende Verarbeitung und erneutes Anwenden der Filter
 
@@ -25,7 +25,7 @@ Diese Lösung enthält zwei Skripts. Der Hauptunterschied besteht in der Auswahl
 * In der [ersten Variante](#sample-code-move-rows-using-table-filter)werden die Zeilen durch Anwenden des Tabellenfilters und Lesen des sichtbaren Bereichs ausgewählt.
 * Im zweiten [werden](#sample-code-move-rows-using-range-values)die Zeilen durch Lesen der Werte und Extrahieren der Zeilenwerte ausgewählt.
 
-## <a name="sample-excel-file"></a>Beispiel-Excel-Datei
+## <a name="sample-excel-file"></a>Beispieldatei Excel Datei
 
 Laden Sie die Datei <a href="input-table-filters.xlsx">input-table-filters.xlsx, </a> die in dieser Lösung verwendet wird, um sie selbst auszuprobieren!
 
@@ -249,4 +249,4 @@ function reApplyFilters(sourceTable: ExcelScript.Table, columnNameFilteredOn: st
 
 ## <a name="training-video-move-rows-across-tables"></a>Schulungsvideo: Verschieben von Zeilen über Tabellen
 
-[![Schritt-für-Schritt-Video zum Verschieben von Zeilen über Tabellen ansehen](../../images/move-rows-filters-vid.jpg)](https://youtu.be/_3t3Pk4i2L0 "Schritt-für-Schritt-Video zum Verschieben von Zeilen über Tabellen")
+[Sehen Sie sich an, wie Sudhi Ramamurthy dieses Beispiel auf YouTube durchspazieren.](https://youtu.be/_3t3Pk4i2L0)

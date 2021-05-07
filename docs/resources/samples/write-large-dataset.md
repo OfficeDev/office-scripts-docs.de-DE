@@ -1,20 +1,20 @@
 ---
 title: Leistungsoptimierung beim Schreiben eines großen Datasets
-description: Erfahren Sie, wie Sie die Leistung beim Schreiben eines großen Datasets in Office-Skripts optimieren.
-ms.date: 03/04/2021
+description: Erfahren Sie, wie Sie die Leistung beim Schreiben eines großen Datasets in skripts Office optimieren.
+ms.date: 04/28/2021
 localization_priority: Normal
-ms.openlocfilehash: 190072e58238be95a2939f73dcda077ed91db848
-ms.sourcegitcommit: 5d24e77df70aa2c1c982275d53213c2a9323ff86
+ms.openlocfilehash: dcbcf156ef624c4c5ce35c44d501286d507d9c40
+ms.sourcegitcommit: f7a7aebfb687f2a35dbed07ed62ff352a114525a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51571496"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52232718"
 ---
 # <a name="performance-optimization-when-writing-a-large-dataset"></a>Leistungsoptimierung beim Schreiben eines großen Datasets
 
 ## <a name="basic-performance-optimization"></a>Grundlegende Leistungsoptimierung
 
-Grundlegende Informationen zur Leistung in Office-Skripts finden Sie im Abschnitt ["Leistung"](getting-started.md#basic-performance-considerations) im Artikel Erste Schritte.
+Grundlegende Informationen zur Leistung in Office Finden Sie im Abschnitt [Leistung](getting-started.md#basic-performance-considerations) im Artikel Erste Schritte.
 
 ## <a name="sample-code-optimize-performance-of-a-large-dataset"></a>Beispielcode: Optimieren der Leistung eines großen Datasets
 
@@ -153,4 +153,4 @@ function getRandomString(length: number): string {
 
 ## <a name="training-video-optimize-performance-when-writing-a-large-dataset"></a>Schulungsvideo: Optimieren der Leistung beim Schreiben eines großen Datasets
 
-[![Video zur Optimierung der Leistung beim Schreiben eines großen Datasets ansehen](../../images/largedata-vid.png)](https://youtu.be/BP9Kp0Ltj7U "Video zur Optimierung der Leistung beim Schreiben eines großen Datasets")
+[Sehen Sie sich an, wie Sudhi Ramamurthy dieses Beispiel auf YouTube durchspazieren.](https://youtu.be/BP9Kp0Ltj7U)

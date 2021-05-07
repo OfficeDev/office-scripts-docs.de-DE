@@ -1,18 +1,18 @@
 ---
-title: Filtern der Excel-Tabelle und Erhalten des sichtbaren Bereichs
-description: Erfahren Sie, wie Sie Office-Skripts verwenden, um eine Excel-Tabelle zu filtern und den sichtbaren Bereich als Array von Objekten zu erhalten.
-ms.date: 03/16/2021
+title: Filtern Excel Tabelle und Erhalten des sichtbaren Bereichs
+description: Erfahren Sie, Office Skripts verwenden, um eine Excel zu filtern und den sichtbaren Bereich als Array von Objekten zu erhalten.
+ms.date: 04/28/2021
 localization_priority: Normal
-ms.openlocfilehash: c0a5842af4a62162225e3fc10203c261b91e010a
-ms.sourcegitcommit: 5d24e77df70aa2c1c982275d53213c2a9323ff86
+ms.openlocfilehash: a310857e6055b3da57c353dc7ad78a6fbdd86d4e
+ms.sourcegitcommit: f7a7aebfb687f2a35dbed07ed62ff352a114525a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51571467"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52232375"
 ---
-# <a name="filter-excel-table-and-get-visible-range-as-a-json-object"></a>Filtern der Excel-Tabelle und Erhalten des sichtbaren Bereichs als JSON-Objekt
+# <a name="filter-excel-table-and-get-visible-range-as-a-json-object"></a>Filtern Excel Tabelle und Erhalten des sichtbaren Bereichs als JSON-Objekt
 
-In diesem Beispiel wird eine Excel-Tabelle filtert und der sichtbare Bereich als JSON-Objekt zurückgegeben. Diese JSON könnte einem Power Automate-Fluss als Teil einer größeren Lösung bereitgestellt werden.
+In diesem Beispiel wird eine Excel filtert und der sichtbare Bereich als JSON-Objekt zurückgegeben. Diese JSON könnte einem Power Automate als Teil einer größeren Lösung bereitgestellt werden.
 
 ## <a name="example-scenario"></a>Beispielszenario
 
@@ -83,43 +83,43 @@ Jeder Schlüssel stellt einen eindeutigen Wert einer Tabelle dar. Jede Arrayinst
     "Shift": "Morning",
     "Date": "27-Oct-20",
     "Responsible": "Debra Berger",
-    "Reason": ""
+    "Reason&quot;: &quot;"
   }, {
     "Station": "Station-1",
     "Shift": "Afternoon",
     "Date": "27-Oct-20",
     "Responsible": "Delia Dennis",
-    "Reason": ""
+    "Reason&quot;: &quot;"
   }, {
     "Station": "Station-1",
     "Shift": "Afternoon",
     "Date": "28-Oct-20",
     "Responsible": "Lidia Holloway",
-    "Reason": ""
+    "Reason&quot;: &quot;"
   }],
   "Station-2": [{
     "Station": "Station-2",
     "Shift": "Morning",
     "Date": "27-Oct-20",
     "Responsible": "Gerhart Moller",
-    "Reason": ""
+    "Reason&quot;: &quot;"
   }, {
     "Station": "Station-2",
     "Shift": "Afternoon",
     "Date": "28-Oct-20",
     "Responsible": "Grady Archie",
-    "Reason": ""
+    "Reason&quot;: &quot;"
   }],
   "Station-3": [{
     "Station": "Station-3",
     "Shift": "Morning",
     "Date": "27-Oct-20",
     "Responsible": "Isaiah Langer",
-    "Reason": ""
+    "Reason&quot;: &quot;"
   }]
 }
 ```
 
-## <a name="training-video-filter-an-excel-table-and-get-the-visible-range"></a>Schulungsvideo: Filtern einer Excel-Tabelle und Erhalten des sichtbaren Bereichs
+## <a name="training-video-filter-an-excel-table-and-get-the-visible-range"></a>Schulungsvideo: Filtern einer Excel Tabelle und Erhalten des sichtbaren Bereichs
 
-[![Schritt-für-Schritt-Video zum Filtern einer Excel-Tabelle und zum Erhalten des sichtbaren Bereichs ansehen](../../images/visible-range-as-objects-vid.jpg)](https://youtu.be/Mv7BrvPq84A "Schritt-für-Schritt-Video zum Filtern einer Excel-Tabelle und zum Erhalten des sichtbaren Bereichs")
+[Sehen Sie sich an, wie Sudhi Ramamurthy dieses Beispiel auf YouTube durchspazieren.](https://youtu.be/Mv7BrvPq84A)

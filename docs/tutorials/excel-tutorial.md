@@ -3,12 +3,12 @@ title: Aufzeichnen, Bearbeiten und Erstellen von Office-Skripts in Excel im Web
 description: Dies ist ein Lernprogramm zu den Grundlagen von Office-Skripts, einschließlich dem Aufzeichnen von Skripts mithilfe der Aktionsaufzeichnung und dem Schreiben von Daten in eine Arbeitsmappe.
 ms.date: 01/06/2021
 localization_priority: Priority
-ms.openlocfilehash: ae864cc08453a9c8a2538f15ceee1275e131725d
-ms.sourcegitcommit: 45ffe3dbd2c834b78592ad35928cf8096f5e80bc
+ms.openlocfilehash: 9f1b2e29d60ec0e370bdb29fde0f04be831a222b
+ms.sourcegitcommit: f7a7aebfb687f2a35dbed07ed62ff352a114525a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51754845"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52232865"
 ---
 # <a name="record-edit-and-create-office-scripts-in-excel-on-the-web"></a>Aufzeichnen, Bearbeiten und Erstellen von Office-Skripts in Excel im Web
 
@@ -49,7 +49,7 @@ Zuerst benötigen wir einige Daten und ein kleines Startskript.
 
     Ihr Arbeitsblatt sollte wie folgt aussehen (machen Sie sich keine Sorgen, wenn die Farbe anders ist):
 
-    :::image type="content" source="../images/tutorial-1.png" alt-text="Ein Arbeitsblatt mit der Datenzeile mit den Verkaufszahlen für Obst, in der die Zeile „Orangen“ in der Farbe Orange hervorgehoben ist.":::
+    :::image type="content" source="../images/tutorial-1.png" alt-text="Ein Arbeitsblatt mit der Datenzeile mit den Verkaufszahlen für Obst, in der die Zeile ‚Orangen‘ in der Farbe Orange hervorgehoben ist":::
 
 ## <a name="edit-an-existing-script"></a>Bearbeiten eines vorhandenen Skripts
 
@@ -78,7 +78,7 @@ Das vorherige Skript hat die Zeile "Orangen" orangefarben eingefärbt. Jetzt fü
 
 4. Testen Sie das Skript, indem Sie **Ausführen** drücken. Ihre Arbeitsmappe sollte nun wie folgt aussehen:
 
-    :::image type="content" source="../images/tutorial-2.png" alt-text="Ein Arbeitsblatt mit der Datenzeile mit den Verkaufszahlen für Obst, in der die Zeile „Orangen“ in der Farbe Orange und die Zeile „Zitronen“ in der Farbe Gelb hervorgehoben ist.":::
+    :::image type="content" source="../images/tutorial-2.png" alt-text="Ein Arbeitsblatt mit der Datenzeile mit den Verkaufszahlen für Obst, in der die Zeile ‚Orangen‘ in der Farbe Orange und die Zeile ‚Zitronen‘ in der Farbe Gelb hervorgehoben ist":::
 
 ## <a name="create-a-table"></a>Erstellen einer Tabelle
 
@@ -111,9 +111,9 @@ Wandeln wir diese Obst-Umsatzdaten in eine Tabelle um. Wir verwenden unser Skrip
 
     Tabellen beinhalten ein `TableSort`-Objekt, auf das über die `Table.getSort`-Methode zugegriffen wird. Sie können auf dieses Objekt Sortierkriterien anwenden. Die `apply`-Methode bezieht eine Reihe von `SortField`-Objekten ein. In diesem Fall gibt es nur ein Sortierkriterium, also verwenden wir nur ein `SortField`. `key: 0` legt für die Spalte mit den die Sortierung bestimmenden Werten "0" fest (dies ist die erste Spalte in der Tabelle, in diesem Fall **A**). `ascending: true` sortiert die Daten in aufsteigender Reihenfolge (statt in absteigender Reihenfolge).
 
-3. Führen Sie das Skript aus. Es sollte eine Tabelle wie die folgende angezeigt werden:
+3. Führen Sie das Skript aus. Sie sollten eine Tabelle wie diese sehen:
 
-    :::image type="content" source="../images/tutorial-3.png" alt-text="Ein Arbeitsblatt mit der sortierten Tabelle zum Verkauf von Obst.":::
+    :::image type="content" source="../images/tutorial-3.png" alt-text="Ein Arbeitsblatt mit der sortierten Tabelle zum Verkauf von Obst":::
 
     > [!NOTE]
     > Wenn Sie das Skript erneut ausführen, wird eine Fehlermeldung angezeigt. Der Grund dafür ist, dass Sie keine Tabelle über eine andere Tabelle erstellen können. Sie können das Skript jedoch auf ein anderes Arbeitsblatt oder eine andere Arbeitsmappe anwenden.

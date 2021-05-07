@@ -3,12 +3,12 @@ title: 'Office Beispielszenario für Skripts: Graph daten auf Wasserebene aus NO
 description: Ein Beispiel, das JSON-Daten aus einer NOAA-Datenbank abruft und zum Erstellen eines Diagramms verwendet.
 ms.date: 04/26/2021
 localization_priority: Normal
-ms.openlocfilehash: 8aea11f42bf2a81fa53cbf4f6ee7280213b97085
-ms.sourcegitcommit: d466b82f27bc61aeba193f902c9bc65ecbf60e4e
+ms.openlocfilehash: d35af59d9eed1abc9f3844834c92752ed80de80f
+ms.sourcegitcommit: f7a7aebfb687f2a35dbed07ed62ff352a114525a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "52066301"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52232690"
 ---
 # <a name="office-scripts-sample-scenario-fetch-and-graph-water-level-data-from-noaa"></a>Office Skriptbeispielszenario: Abrufen und Graphen von Daten auf Wasserebene aus NOAA
 

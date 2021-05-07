@@ -3,12 +3,12 @@ title: Aufrufen von Skripts aus einem manuellen Power Automate-Datenfluss
 description: Ein Lernprogramm zur Verwendung von Office-Skripts in Power Automate durch einen manuellen Auslöser.
 ms.date: 12/28/2020
 localization_priority: Priority
-ms.openlocfilehash: fd3a4758e9d90f5eb40de9c9665c197cfae93740
-ms.sourcegitcommit: 45ffe3dbd2c834b78592ad35928cf8096f5e80bc
+ms.openlocfilehash: 0a5fc93dbad1ee9804840fa11a06b689b7e7abda
+ms.sourcegitcommit: f7a7aebfb687f2a35dbed07ed62ff352a114525a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51754915"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52232872"
 ---
 # <a name="call-scripts-from-a-manual-power-automate-flow-preview"></a>Aufrufen von Skripts aus einem manuellen Power Automate-Datenfluss (Vorschau)
 
@@ -67,15 +67,15 @@ Power Automate sollte für den Zugriff auf Arbeitsmappenkomponenten keine [relat
 
 2. Klicken Sie in dem Menü, das auf der linken Seite des Bildschirms angezeigt wird, auf **Create**. Damit gelangen Sie zur Liste der Möglichkeiten zum Erstellen neuer Workflows.
 
-    :::image type="content" source="../images/power-automate-tutorial-1.png" alt-text="Die Schaltfläche „Erstellen“ in Power Automate.":::
+    :::image type="content" source="../images/power-automate-tutorial-1.png" alt-text="Die Schaltfläche „Erstellen“ in Power Automate":::
 
 3. Wählen Sie im Abschnitt **Start from blank** die Option **Instant flow** aus. Dadurch wird ein manuell aktivierter Workflow erstellt.
 
-    :::image type="content" source="../images/power-automate-tutorial-2.png" alt-text="Die Option „Direktflow“ zum Erstellen eines neuen Workflows in Power Automate.":::
+    :::image type="content" source="../images/power-automate-tutorial-2.png" alt-text="Die Option „Direktflow“ zum Erstellen eines neuen Workflows in Power Automate":::
 
 4. Geben Sie im daraufhin angezeigten Dialogfenster einen Namen für den Flow in das Textfeld **Flow name** ein, wählen Sie in der Liste der Optionen unter **Choose how to trigger the flow** die Option **Manually trigger a flow** aus, und klicken Sie auf **Create**.
 
-    :::image type="content" source="../images/power-automate-tutorial-3.png" alt-text="Die Option „Einen Flow manuell auslösen“ in Power Automate.":::
+    :::image type="content" source="../images/power-automate-tutorial-3.png" alt-text="Die Option „Einen Flow manuell auslösen“ in Power Automate":::
 
     Beachten Sie, dass ein manuell ausgelöster Flow nur einer von vielen Arten von Flows ist. Im nächsten Lernprogramm erstellen Sie einen Flow, der automatisch ausgeführt wird, wenn Sie eine E-Mail erhalten.
 
@@ -96,7 +96,7 @@ Power Automate sollte für den Zugriff auf Arbeitsmappenkomponenten keine [relat
     - **File**: MyWorkbook.xlsx *(Ausgewählt über den Dateibrowser)*
     - **Script**: Datum und Uhrzeit festlegen
 
-    :::image type="content" source="../images/power-automate-tutorial-6.png" alt-text="Die Einstellungen des Power Automate-Connectors zum Ausführen eines Skripts.":::
+    :::image type="content" source="../images/power-automate-tutorial-6.png" alt-text="Die Einstellungen des Power Automate-Connectors zum Ausführen eines Skripts":::
 
 9. Klicken Sie auf **Save**.
 

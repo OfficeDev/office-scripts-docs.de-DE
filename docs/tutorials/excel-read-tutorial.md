@@ -3,12 +3,12 @@ title: Lesen Sie Arbeitsmappendaten mit Office-Skripts in Excel im Web
 description: Ein Office Skripts-Lernprogramm zum Lesen von Daten aus Arbeitsmappen und zum Auswerten dieser Daten im Skript.
 ms.date: 01/06/2021
 localization_priority: Priority
-ms.openlocfilehash: d6321cb91a425da3fd45329d5171f1d5694b2b99
-ms.sourcegitcommit: 45ffe3dbd2c834b78592ad35928cf8096f5e80bc
+ms.openlocfilehash: 979ad949f999f67ee9de750c53ba4690ce6294e6
+ms.sourcegitcommit: f7a7aebfb687f2a35dbed07ed62ff352a114525a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51754856"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52232851"
 ---
 # <a name="read-workbook-data-with-office-scripts-in-excel-on-the-web"></a>Lesen Sie Arbeitsmappendaten mit Office-Skripts in Excel im Web
 
@@ -71,7 +71,7 @@ Im weiteren Verlauf des Lernprogramms werden diese Daten mithilfe eines Skripts 
 6. Führen Sie das Skript aus.
 7. Sie sollten `[Array[1]]` in der Konsole sehen. Dies ist keine Zahl, da Bereiche zweidimensionale Datenfelder sind. Dieser zweidimensionale Bereich wird direkt in der Konsole protokolliert. Glücklicherweise können Sie mit dem Code-Editor den Inhalt des Arrays anzeigen.
 8. Wenn ein zweidimensionales Array in der Konsole protokolliert wird, werden Spaltenwerte unter jeder Zeile gruppiert. Erweitern Sie das Array-Protokoll, indem Sie auf das blaue Dreieck klicken.
-9. Erweitern Sie die zweite Ebene des Arrays, indem Sie auf das neu aufgedeckte blaue Dreieck klicken. Sie sollten jetzt Folgendes sehen:
+9. Erweitern Sie die zweite Ebene des Arrays, indem Sie auf das neu aufgedeckte blaue Dreieck klicken. Jetzt sollten Sie folgendes sehen:
 
     :::image type="content" source="../images/tutorial-4.png" alt-text="Das Konsolenprotokoll mit der Ausgabe „-20,05“, verschachtelt unter zwei Arrays":::
 
@@ -143,10 +143,10 @@ Nachdem wir nun wissen, wie man in eine einzelne Zelle liest und schreibt, veral
 
     Ihr Kontoauszug sollte nun folgendermaßen aussehen:
 
-    :::image type="content" source="../images/tutorial-5.png" alt-text="Ein Arbeitsblatt, auf dem der Kontoauszug als formatierte Tabelle mit nur positiven Werten angezeigt wird.":::
+    :::image type="content" source="../images/tutorial-5.png" alt-text="Ein Arbeitsblatt, auf dem der Kontoauszug als formatierte Tabelle mit nur positiven Werten angezeigt wird":::
 
 ## <a name="next-steps"></a>Nächste Schritte
 
-Öffnen Sie den Code-Editor, und probieren Sie einige unserer [Beispielskripts für Office-Skripts in Excel im Web](../resources/excel-samples.md)aus. Sie können auch [Skripting-Grundlagen für Office-Skripts in Excel im Web](../develop/scripting-fundamentals.md) aufrufen, um weitere Informationen zum Erstellen von Office-Skripts zu erhalten.
+Öffnen Sie den Code-Editor, und probieren Sie einige unserer [Beispielskripts für Office-Skripts in Excel im Web](../resources/samples/excel-samples.md)aus. Sie können auch [Skripting-Grundlagen für Office-Skripts in Excel im Web](../develop/scripting-fundamentals.md) aufrufen, um weitere Informationen zum Erstellen von Office-Skripts zu erhalten.
 
 Die nächste Reihe von Office-Skripts-Lernprogrammen konzentriert sich auf die Verwendung von Office-Skripts mit Power Automate. Weitere Informationen über die Vorteile, diese beiden Plattformen miteinander zu kombinieren, finden Sie in [Ausführen von Office-Skripts mit Power Automate](../develop/power-automate-integration.md), oder sehen Sie sich das Lernprogramm [Aufrufen von Skripts aus einem manuellen Power Automate-Datenfluss](excel-power-automate-manual.md) an, um einen Power Automate-Datenfluss zu erstellen, der ein Office-Skript verwendet.

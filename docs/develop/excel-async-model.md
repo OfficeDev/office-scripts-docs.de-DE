@@ -1,16 +1,16 @@
 ---
-title: Unterstützen älterer Office-Skripts, die die asynchronen APIs verwenden
-description: Eine Einführung in die Office Scripts Async-APIs und die Verwendung des Lade-/Synchronisierungsmusters für ältere Skripts.
+title: Unterstützung älterer Office Skripts, die die asynchronen APIs verwenden
+description: Eine Einführung in die Office Skripts Async-APIs und die Verwendung des Lade-/Synchronisierungsmusters für ältere Skripts.
 ms.date: 02/08/2021
 localization_priority: Normal
-ms.openlocfilehash: 143f52a7ffefb4f19ee36ba4343fd7c2f1cbdffe
-ms.sourcegitcommit: 45ffe3dbd2c834b78592ad35928cf8096f5e80bc
+ms.openlocfilehash: 437fb2e389d6d3963f93cdb44c5529749c4d3569
+ms.sourcegitcommit: f7a7aebfb687f2a35dbed07ed62ff352a114525a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51755077"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52232410"
 ---
-# <a name="support-older-office-scripts-that-use-the-async-apis"></a>Unterstützen älterer Office-Skripts, die die asynchronen APIs verwenden
+# <a name="support-older-office-scripts-that-use-the-async-apis"></a>Unterstützung älterer Office Skripts, die die asynchronen APIs verwenden
 
 In diesem Artikel erfahren Sie, wie Sie Skripts verwalten und aktualisieren, die die asynchronen APIs des älteren Modells verwenden. Diese APIs verfügen über die gleiche Kernfunktionalität wie die jetzt standardmäßigen synchronen Office Scripts-APIs, sie erfordern jedoch, dass Ihr Skript die Datensynchronisierung zwischen dem Skript und der Arbeitsmappe steuern kann.
 
@@ -42,7 +42,7 @@ Da Ihr Skript und die Arbeitsmappe an unterschiedlichen Orten ausgeführt werden
 
 In der folgenden Abbildung wird ein Beispiel für eine Ablaufsteuerung zwischen dem Skript und der Arbeitsmappe dargestellt:
 
-:::image type="content" source="../images/load-sync.png" alt-text="Ein Diagramm mit Lese- und Schreibvorgängen, die vom Skript in der Arbeitsmappe ausgeführt werden.":::
+:::image type="content" source="../images/load-sync.png" alt-text="Ein Diagramm mit Lese- und Schreibvorgängen, die über das Skript zur Arbeitsmappe gehen":::
 
 ### <a name="sync"></a>Synchronisierung
 
@@ -55,7 +55,7 @@ await context.sync();
 > [!NOTE]
 > `context.sync()` wird implizit aufgerufen, wenn ein Skript endet.
 
-Nachdem der `sync`-Vorgang abgeschlossen ist, wird die Arbeitsmappe entsprechend den Schreibvorgängen aktualisiert, die vom Skript angegeben wurden. Ein Schreibvorgang setzt eine beliebige Eigenschaft für ein Excel-Objekt (z. B. ) oder ruft eine Methode auf, die eine Eigenschaft `range.format.fill.color = "red"` ändert (z. B. `range.format.autoFitColumns()` ). Der `sync`-Vorgang liest auch alle Werte aus der Arbeitsmappe, die das Skript angefordert hat, indem es einen `load`-Vorgang oder eine Methode verwendet, die ein `ClientResult` zurückgibt (wie in den nächsten Abschnitten besprochen).
+Nachdem der `sync`-Vorgang abgeschlossen ist, wird die Arbeitsmappe entsprechend den Schreibvorgängen aktualisiert, die vom Skript angegeben wurden. Ein Schreibvorgang setzt eine beliebige Eigenschaft für ein Excel -Objekt (z. B. ) oder ruft eine Methode auf, die eine Eigenschaft `range.format.fill.color = "red"` ändert (z. B. `range.format.autoFitColumns()` ). Der `sync`-Vorgang liest auch alle Werte aus der Arbeitsmappe, die das Skript angefordert hat, indem es einen `load`-Vorgang oder eine Methode verwendet, die ein `ClientResult` zurückgibt (wie in den nächsten Abschnitten besprochen).
 
 Je nach Netzwerk kann es einige Zeit dauern, bis das Skript mit der Arbeitsmappe synchronisiert wurde. Minimieren Sie die Anzahl `sync` der Aufrufe, damit Ihr Skript schnell ausgeführt werden kann. Andernfalls sind die asynchronen APIs nicht schneller als die standardmäßigen synchronen APIs.
 
@@ -149,8 +149,8 @@ Das aktuelle API-Modell verwendet keine `load` , `sync` oder einen `RequestConte
 
 4. Auflistungsklassen wurden durch Arrays ersetzt. Die `add` Und-Methoden dieser Auflistungsklassen wurden in das Objekt verschoben, das im Besitz der Auflistung war, sodass Ihre `get` Verweise entsprechend aktualisiert werden müssen. Verwenden Sie beispielsweise den folgenden Code, um ein Diagramm mit dem Namen "MyChart" aus dem ersten Arbeitsblatt in der Arbeitsmappe zu erhalten: `workbook.getWorksheets()[0].getChart("MyChart");` . Notieren `[0]` Sie sich den, um auf den ersten Wert des `Worksheet[]` zurückgegebenen von zu `getWorksheets()` zugreifen.
 
-5. Einige Methoden wurden aus Gründen der Übersichtlichkeit umbenannt und zur Vereinfachung hinzugefügt. Weitere Informationen finden Sie in [der Office Scripts-API-Referenz.](/javascript/api/office-scripts/overview)
+5. Einige Methoden wurden aus Gründen der Übersichtlichkeit umbenannt und zur Vereinfachung hinzugefügt. Weitere Informationen finden Sie [Office skripts-API-Referenz.](/javascript/api/office-scripts/overview)
 
-## <a name="office-scripts-async-api-reference-documentation"></a>Dokumentation zur asynchronen API-Referenz für Office Scripts
+## <a name="office-scripts-async-api-reference-documentation"></a>Office Dokumentation zu Skripts zur asynchronen API
 
-Die asynchronen APIs entsprechen denen in Office-Add-Ins. Die Referenzdokumentation finden Sie im [Abschnitt Excel der JavaScript-API-Referenz für Office-Add-Ins.](/javascript/api/excel?view=excel-js-online&preserve-view=true)
+Die asynchronen APIs entsprechen denen in Office Add-Ins. Die Referenzdokumentation finden Sie im [abschnitt Excel der Office-Add-Ins-JavaScript-API-Referenz](/javascript/api/excel?view=excel-js-online&preserve-view=true).
