@@ -69,8 +69,6 @@ items:
                 href: resources/samples/count-blank-rows.md
               - name: Querverweise und Formatierung von Excel-Dateien
                 href: resources/samples/excel-cross-reference.md
-              - name: Dokumentnummerngenerator
-                href: resources/samples/document-number-generator.md
               - name: Bilder von Diagramm und Tabelle per E-Mail senden
                 href: resources/samples/email-images-chart-table.md
               - name: Tabelle filtern und sichtbaren Bereich erhalten
