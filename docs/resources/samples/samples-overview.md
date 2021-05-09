@@ -1,14 +1,14 @@
 ---
 title: Office Skriptbeispiele
 description: Verfügbare Office Skripts Beispiele und Szenarien.
-ms.date: 04/28/2021
+ms.date: 05/07/2021
 localization_priority: Normal
-ms.openlocfilehash: 625db792763606e8db77abdc4665b7db2732892f
-ms.sourcegitcommit: f7a7aebfb687f2a35dbed07ed62ff352a114525a
+ms.openlocfilehash: 6df28f3b9d88f202b3b16661a36296bb8bee6c73
+ms.sourcegitcommit: 763d341857bcb209b2f2c278a82fdb63d0e18f0a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52232739"
+ms.lasthandoff: 05/08/2021
+ms.locfileid: "52285843"
 ---
 # <a name="office-scripts-samples-and-scenarios"></a>Office Skriptbeispiele und -szenarien
 
@@ -41,7 +41,6 @@ Sehen Sie sich das folgende End-to-End-Projekt an, das Beispielszenarien zusamme
 | [E-Mail-Diagramm- und Tabellenbilder](email-images-chart-table.md) | In diesem Beispiel werden Office Skripts und Power Automate verwendet, um ein Diagramm zu erstellen und dieses Diagramm als Bild per E-Mail zu senden. |
 | [Externe Abrufaufrufe](external-fetch-calls.md) | In diesem Beispiel `fetch` werden Informationen aus GitHub Skripts erhalten. |
 | [Filtern Excel Tabelle und Erhalten des sichtbaren Bereichs](filter-table-get-visible-range.md) | In diesem Beispiel wird eine Excel filtert und der sichtbare Bereich als JSON-Objekt zurückgegeben. Diese JSON könnte einem Power Automate als Teil einer größeren Lösung bereitgestellt werden. |
-| [Generieren eines eindeutigen Bezeichners in einer Arbeitsmappe](document-number-generator.md) | Dieses Szenario hilft einem Benutzer, eine eindeutige Dokumentnummer mit einem bestimmten Format zu generieren und einem Bereich oder einer Tabelle einen Eintrag hinzuzufügen. |
 | [Verwalten des Berechnungsmodus in Excel](excel-calculation.md) | In diesem Beispiel wird gezeigt, wie Sie den Berechnungsmodus verwenden und Methoden in Excel im Web mithilfe Office berechnen. |
 | [Verschieben von Zeilen über Tabellen](move-rows-across-tables.md) | In diesem Beispiel wird gezeigt, wie Sie Zeilen über Tabellen verschieben, indem Sie Filter speichern und anschließend die Filter verarbeiten und erneut anwenden. |
 | [Ausgabe Excel Daten als JSON](get-table-data.md) | Diese Lösung zeigt, wie Excel als JSON ausgegeben werden, die in der Power Automate. |

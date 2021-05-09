@@ -3,12 +3,12 @@ title: Leistungsoptimierung beim Schreiben eines großen Datasets
 description: Erfahren Sie, wie Sie die Leistung beim Schreiben eines großen Datasets in skripts Office optimieren.
 ms.date: 04/28/2021
 localization_priority: Normal
-ms.openlocfilehash: dcbcf156ef624c4c5ce35c44d501286d507d9c40
-ms.sourcegitcommit: f7a7aebfb687f2a35dbed07ed62ff352a114525a
+ms.openlocfilehash: 9622494378a24db16ea43b5500d6efa156726ff8
+ms.sourcegitcommit: 763d341857bcb209b2f2c278a82fdb63d0e18f0a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52232718"
+ms.lasthandoff: 05/08/2021
+ms.locfileid: "52285948"
 ---
 # <a name="performance-optimization-when-writing-a-large-dataset"></a>Leistungsoptimierung beim Schreiben eines großen Datasets
 
@@ -39,10 +39,8 @@ function main(workbook: ExcelScript.Workbook) {
   console.log(`Calling update range function...`);
   const updated = updateRangeInChunks(sheet.getRange("B2"), data);
   if (!updated) {
-    console.log(`Update did not take place or complete. Check and run again.`)
+    console.log(`Update did not take place or complete. Check and run again.`);
   }
-
-  return;
 }
 
 function updateRangeInChunks(

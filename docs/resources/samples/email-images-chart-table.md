@@ -1,14 +1,14 @@
 ---
 title: E-Mail der Bilder eines Excel Und Tabelle
 description: Erfahren Sie, wie Sie Office Skripts und Power Automate verwenden, um die Bilder eines Diagramms und einer Tabelle Excel zu extrahieren und per E-Mail zu senden.
-ms.date: 04/28/2021
+ms.date: 05/06/2021
 localization_priority: Normal
-ms.openlocfilehash: b49b6670562d117bb3dd6dcf894c54432bc5ceaa
-ms.sourcegitcommit: f7a7aebfb687f2a35dbed07ed62ff352a114525a
+ms.openlocfilehash: f8b52cbf8c19b93c5fc4288fe97775a25e922ab9
+ms.sourcegitcommit: 763d341857bcb209b2f2c278a82fdb63d0e18f0a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52232592"
+ms.lasthandoff: 05/08/2021
+ms.locfileid: "52285857"
 ---
 # <a name="use-office-scripts-and-power-automate-to-email-images-of-a-chart-and-table"></a>Verwenden Office Skripts und Power Automate, um Bilder eines Diagramms und einer Tabelle per E-Mail zu senden
 
@@ -48,13 +48,15 @@ Laden Sie die Beispieldatei <a href="email-chart-table.xlsx">email-chart-table.x
 
 ```TypeScript
 function main(workbook: ExcelScript.Workbook): ReportImages {
-
+  // Recalculate the workbook to ensure all tables and charts are updated.
   workbook.getApplication().calculate(ExcelScript.CalculationType.full);
   
+  // Get the data from the "InvoiceAmounts" table.
   let sheet1 = workbook.getWorksheet("Sheet1");
   const table = workbook.getWorksheet('InvoiceAmounts').getTables()[0];
   const rows = table.getRange().getTexts();
 
+  // Get only the "Customer Name" and "Amount due" columns, then remove the "Total" row.
   const selectColumns = rows.map((row) => {
     return [row[2], row[5]];
   });
@@ -62,27 +64,25 @@ function main(workbook: ExcelScript.Workbook): ReportImages {
   selectColumns.splice(selectColumns.length-1, 1);
   console.log(selectColumns);
 
+  // Delete the "ChartSheet" worksheet if it's present, then recreate it.
   workbook.getWorksheet('ChartSheet')?.delete();
   const chartSheet = workbook.addWorksheet('ChartSheet');
-  const targetRange = updateRange(chartSheet, selectColumns);
 
-  // Insert chart on sheet 'Sheet1'.
+  // Add the selected data to the new worksheet.
+  const targetRange = chartSheet.getRange('A1').getResizedRange(selectColumns.length-1, selectColumns[0].length-1);
+  targetRange.setValues(selectColumns);
+
+  // Insert the chart on sheet 'ChartSheet' at cell "D1".
   let chart_2 = chartSheet.addChart(ExcelScript.ChartType.columnClustered, targetRange);
   chart_2.setPosition('D1');
+
+  // Get images of the chart and table, then return them for a Power Automate flow.
   const chartImage = chart_2.getImage();
   const tableImage = table.getRange().getImage();
-  return {
-    chartImage,
-    tableImage
-  }
+  return {chartImage, tableImage};
 }
 
-function updateRange(sheet: ExcelScript.Worksheet, data: string[][]): ExcelScript.Range {
-  const targetRange = sheet.getRange('A1').getResizedRange(data.length-1, data[0].length-1);
-  targetRange.setValues(data);
-  return targetRange;
-}
-
+// The interface for table and chart images.
 interface ReportImages {
   chartImage: string
   tableImage: string
