@@ -21,6 +21,8 @@ items:
         href: develop/scripting-fundamentals.md
       - name: Konzepte
         items:
+          - name: Bewährte Methoden in Office-Skripts
+            href: develop/best-practices.md
           - name: Integrierte JavaScript-Objekte
             href: develop/javascript-objects.md
           - name: Umgebung des Code Editor
@@ -47,7 +49,7 @@ items:
             href: testing/platform-limits.md
           - name: TypeScript-Einschränkungen
             href: develop/typescript-restrictions.md
-          - name: Rückgängigmachen der Auswirkungen eines Office-Skripts
+          - name: Auswirkungen von Office-Skripts rückgängig machen
             href: testing/undo.md
           - name: Unterstützung älterer Office-Skripts
             href: develop/excel-async-model.md
@@ -61,14 +63,14 @@ items:
                 href: resources/samples/excel-samples.md
               - name: Kommentare hinzufügen
                 href: resources/samples/add-excel-comments.md
+              - name: Hinzufügen von Bildern zu einer Arbeitsmappe
+                href: resources/samples/add-image-to-workbook.md
               - name: Mehrere Tabellen in eine einzige Tabelle kopieren
                 href: resources/samples/copy-tables-combine.md
           - name: Weitere Tipps und Tricks
             items:
               - name: Leere Zeilen in Arbeitsblättern zählen
                 href: resources/samples/count-blank-rows.md
-              - name: Querverweise und Formatierung von Excel-Dateien
-                href: resources/samples/excel-cross-reference.md
               - name: Bilder von Diagramm und Tabelle per E-Mail senden
                 href: resources/samples/email-images-chart-table.md
               - name: Tabelle filtern und sichtbaren Bereich erhalten
@@ -83,10 +85,10 @@ items:
                 href: resources/samples/remove-hyperlinks-from-cells.md
               - name: Ausführen eines Scripts für alle Excel-Dateien in einem Ordner
                 href: resources/samples/automate-tasks-on-all-excel-files-in-folder.md
-              - name: Senden von Teams-Einladungen aus Excel-Daten
-                href: resources/samples/send-teams-invite-from-excel-data.md
               - name: Verwenden von externen Abrufanrufen in Office-Skripts
                 href: resources/samples/external-fetch-calls.md
+              - name: Erstellen eines großen Datasets
+                href: resources/samples/write-large-dataset.md
           - name: Szenarien
             items:
               - name: Analysieren von Webdownloads
