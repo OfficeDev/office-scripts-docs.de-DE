@@ -1,31 +1,31 @@
 ---
-title: Problembehandlungsinformationen für Power Automate mit Office Skripts
+title: Beheben Office Skripts, die in Power Automate ausgeführt werden
 description: Tipps, Plattforminformationen und bekannte Probleme bei der Integration zwischen Office Skripts und Power Automate.
-ms.date: 01/14/2021
+ms.date: 05/17/2021
 localization_priority: Normal
-ms.openlocfilehash: bcfedb8db88d74f16e46c604121bceff3c7c7382
-ms.sourcegitcommit: f7a7aebfb687f2a35dbed07ed62ff352a114525a
+ms.openlocfilehash: e26378051c764d97b4e8d748abc85fbe095c7b03
+ms.sourcegitcommit: 4687693f02fc90a57ba30c461f35046e02e6f5fb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52232648"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52545570"
 ---
-# <a name="troubleshooting-information-for-power-automate-with-office-scripts"></a>Problembehandlungsinformationen für Power Automate mit Office Skripts
+# <a name="troubleshoot-office-scripts-running-in-power-automate"></a>Beheben Office Skripts, die in Power Automate ausgeführt werden
 
-Power Automate können Sie Ihre Office Skriptautomatisierung auf die nächste Ebene bringen. Da Power Automate Skripts in Ihrem Namen in unabhängigen Sitzungen Excel, müssen Sie jedoch einige wichtige Dinge beachten.
+Power Automate können Sie Ihre Office Script-Automatisierung auf die nächste Stufe bringen. Da Power Automate Skripts in Ihrem Namen in unabhängigen Excel Sitzungen ausführt, gibt es jedoch einige wichtige Dinge zu beachten.
 
 > [!TIP]
-> Wenn Sie gerade beginnen, Office Skripts mit Power Automate zu verwenden, beginnen Sie mit Ausführen von [Office Skripts](../develop/power-automate-integration.md) mit Power Automate, um mehr über die Plattformen zu erfahren.
+> Wenn Sie gerade erst anfangen, Office Scripts mit Power Automate zu verwenden, beginnen Sie bitte mit [Ausführen Office Skripts mit Power Automate,](../develop/power-automate-integration.md) um mehr über die Plattformen zu erfahren.
 
-## <a name="avoid-using-relative-references"></a>Vermeiden der Verwendung relativer Verweise
+## <a name="avoid-relative-references"></a>Vermeiden Sie relative Referenzen
 
-Power Automate führt Ihr Skript in der ausgewählten Excel in Ihrem Namen aus. In diesem Fall wird die Arbeitsmappe möglicherweise geschlossen. Jede API, die auf dem aktuellen Status des Benutzers basiert, z. B. , verhält sich in der `Workbook.getActiveWorksheet` Power Automate. Dies liegt daran, dass die APIs auf einer relativen Position der Ansicht oder des Cursors des Benutzers basieren und dieser Verweis nicht in einem Power Automate ist.
+Power Automate führt Ihr Skript in der ausgewählten arbeitsmappe Excel in Ihrem Namen aus. Die Arbeitsmappe wird möglicherweise geschlossen, wenn dies geschieht. Jede API, die auf dem aktuellen Status des Benutzers basiert, z. `Workbook.getActiveWorksheet` B. , verhält sich in Power Automate möglicherweise anders. Dies liegt daran, dass die APIs auf einer relativen Position der Ansicht oder des Cursors des Benutzers basieren und dieser Verweis in einem Power Automate-Flow nicht vorhanden ist.
 
-Einige relative Referenz-APIs verursachen Fehler in Power Automate. Andere haben ein Standardverhalten, das den Status eines Benutzers impliziert. Achten Sie beim Entwerfen ihrer Skripts darauf, absolute Verweise für Arbeitsblätter und Bereiche zu verwenden. Dadurch wird der Power Automate, auch wenn Arbeitsblätter neu angeordnet werden, konsistent.
+Einige relative Referenz-APIs werfen Fehler in Power Automate aus. Andere haben ein Standardverhalten, das den Status eines Benutzers impliziert. Achten Sie beim Entwerfen Ihrer Skripts darauf, absolute Referenzen für Arbeitsblätter und Bereiche zu verwenden. Dadurch wird ihr Power Automate Fluss konsistent, auch wenn Arbeitsblätter neu angeordnet werden.
 
-### <a name="script-methods-that-fail-when-run-power-automate-flows"></a>Skriptmethoden, die beim Ausführen von Power Automate fehlschlagen
+### <a name="script-methods-that-fail-when-run-power-automate-flows"></a>Skriptmethoden, die beim Ausführen Power Automate-Flows fehlschlagen
 
-Die folgenden Methoden führen zu einem Fehler und einem Fehler, wenn sie von einem Skript in einem Power Automate werden.
+Die folgenden Methoden werden einen Fehler auslösen und schlagen fehl, wenn sie von einem Skript in einem Power Automate-Flow aufgerufen werden.
 
 | Klasse | Methode |
 |--|--|
@@ -37,31 +37,31 @@ Die folgenden Methoden führen zu einem Fehler und einem Fehler, wenn sie von ei
 | [Workbook](/javascript/api/office-scripts/excelscript/excelscript.workbook) | `getSelectedRange` |
 | [Workbook](/javascript/api/office-scripts/excelscript/excelscript.workbook) | `getSelectedRanges` |
 
-### <a name="script-methods-with-a-default-behavior-in-power-automate-flows"></a>Skriptmethoden mit einem Standardverhalten in Power Automate Flüssen
+### <a name="script-methods-with-a-default-behavior-in-power-automate-flows"></a>Skriptmethoden mit einem Standardverhalten in Power Automate-Flows
 
-Die folgenden Methoden verwenden ein Standardverhalten statt des aktuellen Status eines Benutzers.
+Die folgenden Methoden verwenden ein Standardverhalten anstelle des aktuellen Status eines Benutzers.
 
 | Klasse | Methode | Power Automate Verhalten |
 |--|--|--|
-| [Workbook](/javascript/api/office-scripts/excelscript/excelscript.workbook) | `getActiveWorksheet` | Gibt entweder das erste Arbeitsblatt in der Arbeitsmappe oder das Arbeitsblatt zurück, das derzeit von der Methode aktiviert `Worksheet.activate` wird. |
-| [Arbeitsblatt](/javascript/api/office-scripts/excelscript/excelscript.worksheet) | `activate` | Markiert das Arbeitsblatt zu Zwecken von als aktives `Workbook.getActiveWorksheet` Arbeitsblatt. |
+| [Workbook](/javascript/api/office-scripts/excelscript/excelscript.workbook) | `getActiveWorksheet` | Gibt entweder das erste Arbeitsblatt in der Arbeitsmappe oder das Arbeitsblatt zurück, das derzeit von der Methode aktiviert `Worksheet.activate` ist. |
+| [Arbeitsblatt](/javascript/api/office-scripts/excelscript/excelscript.worksheet) | `activate` | Markiert das Arbeitsblatt als aktives Arbeitsblatt für die Zwecke `Workbook.getActiveWorksheet` von . |
 
 ## <a name="select-workbooks-with-the-file-browser-control"></a>Auswählen von Arbeitsmappen mit dem Dateibrowsersteuerelement
 
-Wenn Sie den **Schritt Skript ausführen** eines Power Automate erstellen, müssen Sie auswählen, welche Arbeitsmappe Teil des Ablaufs ist. Verwenden Sie den Dateibrowser, um Ihre Arbeitsmappe auszuwählen, anstatt den Namen der Arbeitsmappe manuell eintippen zu müssen.
+Beim Erstellen des **Run-Skriptschritts** eines Power Automate-Flows müssen Sie auswählen, welche Arbeitsmappe Teil des Flows ist. Verwenden Sie den Dateibrowser, um Ihre Arbeitsmappe auszuwählen, anstatt den Namen der Arbeitsmappe manuell einzugeben.
 
-:::image type="content" source="../images/power-automate-file-browser.png" alt-text="Die Power Automate Ausführen der Skriptaktion mit der Option Dateiauswahl anzeigen":::
+:::image type="content" source="../images/power-automate-file-browser.png" alt-text="Die Power Automate Skriptaktion ausführen, die die Browseroption &quot;Auswahldatei anzeigen&quot; anzeigt":::
 
-Weitere Kontexte zur Power Automate und eine Diskussion über mögliche Problemumgehungen für die dynamische Auswahl von Arbeitsmappen finden Sie in diesem Thread [im Microsoft Power Automate Community](https://powerusers.microsoft.com/t5/Power-Automate-Ideas/Allow-for-dynamic-quot-file-quot-value-for-excel-quot-get-a-row/idi-p/103091#).
+Weitere Kontextinformationen zur Power Automate Einschränkung und eine Erläuterung möglicher Problemumgehungen für die dynamische Auswahl von Arbeitsmappen finden Sie [in diesem Thread im Microsoft Power Automate Community](https://powerusers.microsoft.com/t5/Power-Automate-Ideas/Allow-for-dynamic-quot-file-quot-value-for-excel-quot-get-a-row/idi-p/103091#).
 
 ## <a name="time-zone-differences"></a>Zeitzonenunterschiede
 
-Excel Dateien verfügen nicht über einen inhärenten Speicherort oder eine Zeitzone. Jedes Mal, wenn ein Benutzer die Arbeitsmappe öffnet, verwendet seine Sitzung die lokale Zeitzone dieses Benutzers für Datumsberechnungen. Power Automate verwendet immer UTC.
+Excel Dateien haben keinen inhärenten Speicherort oder keine Zeitzone. Jedes Mal, wenn ein Benutzer die Arbeitsmappe öffnet, verwendet seine Sitzung die lokale Zeitzone dieses Benutzers für Datumsberechnungen. Power Automate verwendet immer UTC.
 
-Wenn Ihr Skript Datums- oder Zeitangaben verwendet, können Verhaltensunterschiede auftreten, wenn das Skript lokal getestet wird, im Vergleich zum Ausführen von Power Automate. Power Automate können Sie Zeiten konvertieren, formatieren und anpassen. Anweisungen zur Verwendung dieser Funktionen in Power Automate und [ `main` Parameters: Passing data](../develop/power-automate-integration.md#main-parameters-passing-data-to-a-script) to a script finden Sie unter Working with Dates and Times inside of your [flows,](https://flow.microsoft.com/blog/working-with-dates-and-times/) um zu erfahren, wie Sie diese Zeitinformationen für das Skript bereitstellen.
+Wenn Ihr Skript Datums- oder Uhrzeitangaben verwendet, kann es Verhaltensunterschiede geben, wenn das Skript lokal getestet wird, und wenn es durch Power Automate ausgeführt wird. Power Automate können Sie Die Zeiten konvertieren, formatieren und anpassen. Unter [Arbeiten mit Datumsangaben und Zeiten innerhalb Ihrer Flows](https://flow.microsoft.com/blog/working-with-dates-and-times/) finden Sie Anweisungen zur Verwendung dieser Funktionen in Power Automate und [ `main` Parametern: Übergeben Sie Daten an ein Skript,](../develop/power-automate-integration.md#main-parameters-pass-data-to-a-script) um zu erfahren, wie Sie diese Zeitinformationen für das Skript bereitstellen.
 
 ## <a name="see-also"></a>Siehe auch
 
-- [Behandeln von Problemen mit Office-Skripts](troubleshooting.md)
+- [Fehlerbehebung Office Skripts](troubleshooting.md)
 - [Ausführen Office Skripts mit Power Automate](../develop/power-automate-integration.md)
-- [Excel Referenzdokumentation zu Onlineconnector (Business)](/connectors/excelonlinebusiness/)
+- [Excel Online -Connector-Referenzdokumentation (Business)](/connectors/excelonlinebusiness/)

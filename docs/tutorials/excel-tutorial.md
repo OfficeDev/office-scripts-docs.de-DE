@@ -1,14 +1,14 @@
 ---
 title: Aufzeichnen, Bearbeiten und Erstellen von Office-Skripts in Excel im Web
 description: Dies ist ein Lernprogramm zu den Grundlagen von Office-Skripts, einschließlich dem Aufzeichnen von Skripts mithilfe der Aktionsaufzeichnung und dem Schreiben von Daten in eine Arbeitsmappe.
-ms.date: 01/06/2021
+ms.date: 05/17/2021
 localization_priority: Priority
-ms.openlocfilehash: 9f1b2e29d60ec0e370bdb29fde0f04be831a222b
-ms.sourcegitcommit: f7a7aebfb687f2a35dbed07ed62ff352a114525a
+ms.openlocfilehash: 957a36d56af476bafe2c11e7c89a37e79b820cce
+ms.sourcegitcommit: 4687693f02fc90a57ba30c461f35046e02e6f5fb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52232865"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52545026"
 ---
 # <a name="record-edit-and-create-office-scripts-in-excel-on-the-web"></a>Aufzeichnen, Bearbeiten und Erstellen von Office-Skripts in Excel im Web
 
@@ -39,13 +39,6 @@ Zuerst benötigen wir einige Daten und ein kleines Startskript.
 4. Klicken Sie auf die Schaltfläche **Aktionen aufzeichnen**.
 5. Wählen Sie Zellen **A2:C2** (die Zeile "Orangen") aus, und legen Sie die Füllfarbe auf Orange fest.
 6. Beenden Sie die Aufzeichnung, indem Sie die Schaltfläche **Stopp** drücken.
-7. Geben Sie in das Feld **Skriptnamen** einen einprägsamen Namen ein.
-8. *Optional:* Füllen Sie das Feld **Beschreibung** mit einer aussagekräftigen Beschreibung aus. Diese wird verwendet, um den Kontext des Skripts bereitzustellen. Für dieses Lernprogramm können Sie "Farbcodierte Zeilen einer Tabelle" verwenden.
-
-   > [!TIP]
-   > Sie können die Beschreibung eines Skripts später im Bereich **Skriptdetails** bearbeiten, der sich im Menü **...** des Code-Editors befindet.
-
-9. Klicken Sie auf die Schaltfläche **Speichern**, um das Skript zu speichern.
 
     Ihr Arbeitsblatt sollte wie folgt aussehen (machen Sie sich keine Sorgen, wenn die Farbe anders ist):
 

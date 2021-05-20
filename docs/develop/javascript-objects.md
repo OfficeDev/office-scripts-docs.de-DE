@@ -1,31 +1,31 @@
 ---
 title: Verwenden von integrierten JavaScript-Objekten in Office-Skripts
-description: Aufrufen von integrierten JavaScript-APIs aus einem Office skript in Excel im Web.
-ms.date: 07/16/2020
+description: So rufen Sie integrierte JavaScript-APIs aus einem Office Skript in Excel im Web auf.
+ms.date: 05/17/2021
 localization_priority: Normal
-ms.openlocfilehash: e3b36265f235678eee18fbf369058b165da46210
-ms.sourcegitcommit: f7a7aebfb687f2a35dbed07ed62ff352a114525a
+ms.openlocfilehash: 680dd326e357bd06e2fc66cba5bd6745bbd33c24
+ms.sourcegitcommit: 4687693f02fc90a57ba30c461f35046e02e6f5fb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52232403"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52545047"
 ---
-# <a name="using-built-in-javascript-objects-in-office-scripts"></a>Verwenden von integrierten JavaScript-Objekten in Office-Skripts
+# <a name="use-built-in-javascript-objects-in-office-scripts"></a>Verwenden integrierter JavaScript-Objekte in Office Skripts
 
-JavaScript stellt mehrere integrierte Objekte zur Verfügung, die Sie in Ihren Office-Skripts verwenden können, unabhängig davon, ob Sie In JavaScript oder [TypeScript](../overview/code-editor-environment.md) (eine Übersatz von JavaScript) skripten. In diesem Artikel wird beschrieben, wie Sie einige der integrierten JavaScript-Objekte in Office Skripts für Excel im Web.
+JavaScript stellt mehrere integrierte Objekte bereit, die Sie in Ihren Office Scripts verwenden können, unabhängig davon, ob Sie Skripts in JavaScript oder [TypeScript](../overview/code-editor-environment.md) (einer Übergruppe von JavaScript) erstellen. In diesem Artikel wird beschrieben, wie Sie einige der integrierten JavaScript-Objekte in Office Scripts für Excel im Web verwenden können.
 
 > [!NOTE]
-> Eine vollständige Liste aller integrierten JavaScript-Objekte finden Sie im Artikel standard [built-in objects von](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects) Mozilla.
+> Eine vollständige Liste aller integrierten JavaScript-Objekte finden Sie im Artikel ["Standard- "Standard"](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects) von Mozilla.
 
 ## <a name="array"></a>Array
 
-Das [Array-Objekt](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array) bietet eine standardisierte Möglichkeit, mit Arrays in Ihrem Skript zu arbeiten. Arrays sind zwar Standard-JavaScript-Konstrukte, beziehen sich jedoch auf zwei Office Skripts: Bereiche und Auflistungen.
+Das [Array-Objekt](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array) bietet eine standardisierte Möglichkeit, mit Arrays in Ihrem Skript zu arbeiten. Obwohl Arrays Standard-JavaScript-Konstrukte sind, beziehen sie sich auf zwei Hauptarten auf Office Skripts: Bereiche und Auflistungen.
 
-### <a name="working-with-ranges"></a>Arbeiten mit Bereichen
+### <a name="work-with-ranges"></a>Arbeiten mit Reichweiten
 
-Bereiche enthalten mehrere zweidimensionale Arrays, die den Zellen in diesem Bereich direkt zuordnungen. Diese Arrays enthalten spezifische Informationen zu jeder Zelle in diesem Bereich. Gibt beispielsweise alle Werte in diesen Zellen zurück (mit den Zeilen und Spalten der zweidimensionalen Arrayzuordnung zu den Zeilen und Spalten dieses `Range.getValues` Arbeitsblattunterabschnitts). `Range.getFormulas` und `Range.getNumberFormats` sind andere häufig verwendete Methoden, die Arrays wie `Range.getValues` zurückgeben.
+Bereiche enthalten mehrere zweidimensionale Arrays, die direkt den Zellen in diesem Bereich zugeordnet werden. Diese Arrays enthalten spezifische Informationen zu jeder Zelle in diesem Bereich. Gibt z. B. `Range.getValues` alle Werte in diesen Zellen zurück (mit den Zeilen und Spalten des zweidimensionalen Arrays, die den Zeilen und Spalten dieses Arbeitsblattunterabschnitts zugeordnet sind). `Range.getFormulas` und `Range.getNumberFormats` sind andere häufig verwendete Methoden, die Arrays wie `Range.getValues` zurückgeben.
 
-Das folgende Skript durchsucht den **A1:D4-Bereich** nach einem beliebigen Zahlenformat, das "$" enthält. Das Skript legt die Füllfarbe in diesen Zellen auf "gelb" fest.
+Das folgende Skript durchsucht den **A1:D4-Bereich** nach einem beliebigen Zahlenformat, das ein "$" enthält. Das Skript legt die Füllfarbe in diesen Zellen auf "gelb" fest.
 
 ```TypeScript
 function main(workbook: ExcelScript.Workbook) {
@@ -48,14 +48,14 @@ function main(workbook: ExcelScript.Workbook) {
 }
 ```
 
-### <a name="working-with-collections"></a>Arbeiten mit Sammlungen
+### <a name="work-with-collections"></a>Arbeiten mit Sammlungen
 
-Viele Excel sind in einer Auflistung enthalten. Die Auflistung wird von der Office Skripts-API verwaltet und als Array verfügbar gemacht. Beispielsweise sind alle [Shapes](/javascript/api/office-scripts/excelscript/excelscript.shape) in einem Arbeitsblatt in einer enthalten, die von `Shape[]` der Methode zurückgegeben `Worksheet.getShapes` wird. Sie können dieses Array verwenden, um Werte aus der Auflistung zu lesen, oder Sie können über die Methoden des übergeordneten Objekts auf bestimmte Objekte `get*` zugreifen.
+Viele Excel Objekte sind in einer Auflistung enthalten. Die Auflistung wird von der Office Scripts-API verwaltet und als Array verfügbar gemacht. Beispielsweise sind alle [Shapes](/javascript/api/office-scripts/excelscript/excelscript.shape) in einem Arbeitsblatt in einem `Shape[]` enthalten, das von der Methode zurückgegeben `Worksheet.getShapes` wird. Sie können dieses Array verwenden, um Werte aus der Auflistung zu lesen, oder Sie können auf bestimmte Objekte aus den Methoden des übergeordneten Objekts `get*` zugreifen.
 
 > [!NOTE]
-> Fügen Sie keine Objekte manuell aus diesen Auflistungsarrays hinzu oder entfernen Sie sie nicht. Verwenden Sie `add` die Methoden für die übergeordneten Objekte und die Methoden für die Objekte des `delete` Auflistungstyps. Fügen Sie z. B. ein [Table-Arbeitsblatt](/javascript/api/office-scripts/excelscript/excelscript.table) mit [der](/javascript/api/office-scripts/excelscript/excelscript.worksheet) `Worksheet.addTable` -Methode hinzu, und entfernen Sie `Table` die using `Table.delete` -Methode.
+> Fügen Sie keine Objekte manuell zu diesen Auflistungsarrays hinzu oder entfernen Sie sie. Verwenden Sie die `add` Methoden für die übergeordneten Objekte und die `delete` Methoden für die Auflistungsobjekte. Fügen Sie beispielsweise eine [Tabelle](/javascript/api/office-scripts/excelscript/excelscript.table) zu einem [Arbeitsblatt](/javascript/api/office-scripts/excelscript/excelscript.worksheet) mit der `Worksheet.addTable` Methode hinzu, und entfernen Sie die `Table` verwendung `Table.delete` .
 
-Das folgende Skript protokolliert den Typ jeder Form im aktuellen Arbeitsblatt.
+Das folgende Skript protokolliert den Typ jedes Shapes im aktuellen Arbeitsblatt.
 
 ```TypeScript
 function main(workbook: ExcelScript.Workbook) {
@@ -72,7 +72,7 @@ function main(workbook: ExcelScript.Workbook) {
 }
 ```
 
-Mit dem folgenden Skript wird die älteste Form im aktuellen Arbeitsblatt gelöscht.
+Das folgende Skript löscht die älteste Form im aktuellen Arbeitsblatt.
 
 ```Typescript
 function main(workbook: ExcelScript.Workbook) {
@@ -90,9 +90,9 @@ function main(workbook: ExcelScript.Workbook) {
 
 ## <a name="date"></a>Datum
 
-Das [Date-Objekt](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date) bietet eine standardisierte Möglichkeit, mit Datumsangaben in Ihrem Skript zu arbeiten. `Date.now()` generiert ein Objekt mit dem aktuellen Datum und der aktuellen Uhrzeit, was beim Hinzufügen von Zeitstempeln zum Dateneintrag Ihres Skripts hilfreich ist.
+Das [Date-Objekt](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date) bietet eine standardisierte Möglichkeit, mit Datumsangaben in Ihrem Skript zu arbeiten. `Date.now()` generiert ein Objekt mit dem aktuellen Datum und der aktuellen Uhrzeit, was nützlich ist, wenn Sie dem Dateneintrag Ihres Skripts Zeitstempel hinzufügen.
 
-Das folgende Skript fügt dem Arbeitsblatt das aktuelle Datum hinzu. Beachten Sie, dass Excel methode den Wert als Datum erkennt und das Zahlenformat `toLocaleDateString` der Zelle automatisch ändert.
+Das folgende Skript fügt dem Arbeitsblatt das aktuelle Datum hinzu. Beachten Sie, dass Excel mit der `toLocaleDateString` Methode den Wert als Datum erkennt und das Zahlenformat der Zelle automatisch ändert.
 
 ```TypeScript
 function main(workbook: ExcelScript.Workbook) {
@@ -107,13 +107,13 @@ function main(workbook: ExcelScript.Workbook) {
 }
 ```
 
-Der [Abschnitt Mit Datumsangaben](../resources/samples/excel-samples.md#dates) arbeiten in den Beispielen enthält mehr datumsbezogene Skripts.
+Der Abschnitt [Arbeiten mit Datumsangaben](../resources/samples/excel-samples.md#dates) in den Beispielen enthält weitere datumsbezogene Skripts.
 
 ## <a name="math"></a>Mathematik
 
-Das [Math-Objekt](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Math) stellt Methoden und Konstanten für allgemeine mathematische Vorgänge zur Verfügung. Diese bieten viele Funktionen, die auch in Excel verfügbar sind, ohne das Berechnungsmodul der Arbeitsmappe verwenden zu müssen. Dadurch wird das Skript vor der Abfrage der Arbeitsmappe bewahrt, wodurch die Leistung verbessert wird.
+Das [Math-Objekt](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Math) stellt Methoden und Konstanten für allgemeine mathematische Operationen bereit. Diese bieten viele Funktionen, die auch in Excel verfügbar sind, ohne dass das Berechnungsmodul der Arbeitsmappe verwendet werden muss. Dadurch wird verhindert, dass Das Skript die Arbeitsmappe abfragen muss, was die Leistung verbessert.
 
-Das folgende Skript verwendet, um die kleinste Zahl im `Math.min` **A1:D4-Bereich** zu finden und zu protokollieren. Beachten Sie, dass in diesem Beispiel davon ausgegangen wird, dass der gesamte Bereich nur Zahlen und keine Zeichenfolgen enthält.
+Das folgende Skript `Math.min` verwendet, um die kleinste Zahl im **A1:D4-Bereich** zu suchen und zu protokollieren. Beachten Sie, dass in diesem Beispiel davon ausgegangen wird, dass der gesamte Bereich nur Zahlen und keine Zeichenfolgen enthält.
 
 ```TypeScript
 function main(workbook: ExcelScript.Workbook) {
@@ -140,11 +140,11 @@ function main(workbook: ExcelScript.Workbook) {
 
 ```
 
-## <a name="use-of-external-javascript-libraries-is-not-supported"></a>Die Verwendung externer JavaScript-Bibliotheken wird nicht unterstützt.
+## <a name="use-of-external-javascript-libraries-is-not-supported"></a>Die Verwendung externer JavaScript-Bibliotheken wird nicht unterstützt
 
-Office Skripts unterstützen die Verwendung externer Drittanbieterbibliotheken nicht. Ihr Skript kann nur die integrierten JavaScript-Objekte und die Office Skript-APIs verwenden.
+Office Skripts unterstützen nicht die Verwendung externer Bibliotheken von Drittanbietern. Ihr Skript kann nur die integrierten JavaScript-Objekte und die Office Scripts-APIs verwenden.
 
 ## <a name="see-also"></a>Siehe auch
 
-- [Integrierte Standardobjekte](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects)
-- [Office Skripts-Code-Editor-Umgebung](../overview/code-editor-environment.md)
+- [Standard-Einbauobjekte](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects)
+- [Office Skriptcode-Editor-Umgebung](../overview/code-editor-environment.md)

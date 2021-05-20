@@ -1,20 +1,20 @@
 ---
-title: Verbessern der Leistung Ihrer Office-Skripts
-description: Erstellen Sie schnellere Skripts, indem Sie die Kommunikation zwischen der Arbeitsmappe in Excel und Ihrem Skript verstehen.
-ms.date: 06/15/2020
+title: Verbessern Sie die Leistung Ihrer Office Scripts
+description: Erstellen Sie schnellere Skripts, indem Sie die Kommunikation zwischen der arbeitsmappe Excel und Ihrem Skript verstehen.
+ms.date: 05/17/2021
 localization_priority: Normal
-ms.openlocfilehash: ce50a6fd7ad02ddcd2dd304be8b4dd8fa3d0acf3
-ms.sourcegitcommit: 7580dcb8f2f97974c2a9cce25ea30d6526730e28
+ms.openlocfilehash: 512e2108cb81cf9ac8ae98980951d5d01b3d2de9
+ms.sourcegitcommit: 4687693f02fc90a57ba30c461f35046e02e6f5fb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/14/2021
-ms.locfileid: "49867870"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52544991"
 ---
-# <a name="improve-the-performance-of-your-office-scripts"></a>Verbessern der Leistung Ihrer Office-Skripts
+# <a name="improve-the-performance-of-your-office-scripts"></a>Verbessern Sie die Leistung Ihrer Office Scripts
 
-Der Zweck von Office Scripts besteht in der Automatisierung häufig ausgeführter Aufgabenreihen, um Zeit zu sparen. Ein langsames Skript kann den Workflow nicht beschleunigen. In den meisten Zeiten ist Ihr Skript völlig in Ordnung und wird wie erwartet ausgeführt. Es gibt jedoch einige vermeidbare Szenarien, die sich auf die Leistung auswirken können.
+Der Zweck von Office Scripts besteht darin, häufig ausgeführte Aufgabenserien zu automatisieren, um Ihnen Zeit zu sparen. Ein langsames Skript kann sich so anfühlen, als würde es Ihren Workflow nicht beschleunigen. Meistens ist Ihr Skript vollkommen in Ordnung und wird wie erwartet ausgeführt. Es gibt jedoch einige vermeidbare Szenarien, die sich auf die Leistung auswirken können.
 
-Der häufigste Grund für ein langsames Skript ist die übermäßige Kommunikation mit der Arbeitsmappe. Ihr Skript wird auf Dem lokalen Computer ausgeführt, während die Arbeitsmappe in der Cloud vorhanden ist. Zu bestimmten Zeiten synchronisiert das Skript seine lokalen Daten mit dem der Arbeitsmappe. Dies bedeutet, dass alle Schreibvorgänge (z. B. ) nur auf die Arbeitsmappe angewendet werden, wenn diese `workbook.addWorksheet()` Hintergrundsynchronisierung erfolgt. Ebenso erhalten alle Lesevorgänge (z. B. ) nur zu diesen Zeiten Daten aus der Arbeitsmappe für `myRange.getValues()` das Skript. In beiden Fällen ruft das Skript Informationen ab, bevor es für die Daten agiert. Mit dem folgenden Code wird beispielsweise die Anzahl der Zeilen im verwendeten Bereich genau protokolliert.
+Der häufigste Grund für ein langsames Skript ist eine übermäßige Kommunikation mit der Arbeitsmappe. Das Skript wird auf dem lokalen Computer ausgeführt, während die Arbeitsmappe in der Cloud vorhanden ist. Zu bestimmten Zeiten synchronisiert das Skript seine lokalen Daten mit denen der Arbeitsmappe. Dies bedeutet, dass alle Schreibvorgänge (z. B. `workbook.addWorksheet()` ) nur dann auf die Arbeitsmappe angewendet werden, wenn diese Synchronisierung hinter den Kulissen stattfindet. Ebenso erhalten alle Lesevorgänge (z. B. `myRange.getValues()` ) zu diesem Zeitpunkt nur Daten aus der Arbeitsmappe für das Skript. In beiden Fällen ruft das Skript Informationen ab, bevor es auf die Daten einwirkt. Der folgende Code protokolliert z. B. die Anzahl der Zeilen im verwendeten Bereich genau.
 
 ```TypeScript
 let usedRange = workbook.getActiveWorksheet().getUsedRange();
@@ -24,21 +24,21 @@ let rowCount = usedRange.getRowCount();
 console.log(rowCount);
 ```
 
-Office-Skript-APIs stellen sicher, dass alle Daten in der Arbeitsmappe oder dem Skript bei Bedarf korrekt und aktuell sind. Sie müssen sich keine Gedanken über diese Synchronisierungen machen, damit Ihr Skript ordnungsgemäß ausgeführt wird. Die Kenntnis dieser Skript-zu-Cloud-Kommunikation kann Ihnen jedoch helfen, unnötige Netzwerkanrufe zu vermeiden.
+Office Skript-APIs stellen sicher, dass alle Daten in der Arbeitsmappe oder im Skript korrekt und aktuell sind, wenn dies erforderlich ist. Sie müssen sich keine Gedanken über diese Synchronisierungen machen, damit Ihr Skript ordnungsgemäß ausgeführt werden kann. Ein Bewusstsein für diese Skript-zu-Cloud-Kommunikation kann Ihnen jedoch helfen, unnötige Netzwerkaufrufe zu vermeiden.
 
 ## <a name="performance-optimizations"></a>Leistungsoptimierungen
 
-Sie können einfache Techniken anwenden, um die Kommunikation mit der Cloud zu reduzieren. Die folgenden Muster beschleunigen Ihre Skripts.
+Sie können einfache Techniken anwenden, um die Kommunikation mit der Cloud zu reduzieren. Die folgenden Muster helfen Ihnen dabei, Ihre Skripts zu beschleunigen.
 
-- Lesen Sie Arbeitsmappendaten einmal, anstatt wiederholt in einer Schleife.
+- Lesen Sie Arbeitsmappendaten einmal statt wiederholt in einer Schleife.
 - Entfernen Sie unnötige `console.log` Anweisungen.
-- Vermeiden Sie try/catch-Blöcke.
+- Vermeiden Sie die Verwendung von try/catch-Blöcken.
 
 ### <a name="read-workbook-data-outside-of-a-loop"></a>Lesen von Arbeitsmappendaten außerhalb einer Schleife
 
-Jede Methode, die Daten aus der Arbeitsmappe abruft, kann einen Netzwerkaufruf auslösen. Anstatt denselben Aufruf wiederholt zu machen, sollten Sie Daten nach Möglichkeit lokal speichern. Dies gilt insbesondere für Schleifen.
+Jede Methode, die Daten aus der Arbeitsmappe abruft, kann einen Netzwerkaufruf auslösen. Anstatt wiederholt denselben Aufruf zu tätigen, sollten Sie Daten nach Möglichkeit lokal speichern. Dies gilt insbesondere für den Umgang mit Schleifen.
 
-Stellen Sie sich ein Skript vor, um die Anzahl negativer Zahlen im verwendeten Bereich eines Arbeitsblatts zu erhalten. Das Skript muss jede Zelle im verwendeten Bereich durch iterieren. Dazu sind der Bereich, die Anzahl der Zeilen und die Anzahl der Spalten benötigt. Sie sollten diese als lokale Variablen speichern, bevor Sie die Schleife starten. Andernfalls wird bei jeder Iteration der Schleife eine Rückgabe an die Arbeitsmappe erzwingen.
+Betrachten Sie ein Skript, um die Anzahl negativer Zahlen im verwendeten Bereich eines Arbeitsblatts abzubekommen. Das Skript muss über jede Zelle im verwendeten Bereich iterieren. Dazu benötigt es den Bereich, die Anzahl der Zeilen und die Anzahl der Spalten. Sie sollten diese als lokale Variablen speichern, bevor Sie die Schleife starten. Andernfalls erzwingt jede Iteration der Schleife eine Rückkehr zur Arbeitsmappe.
 
 ```TypeScript
 /**
@@ -70,15 +70,11 @@ function main(workbook: ExcelScript.Workbook) {
 ```
 
 > [!NOTE]
-> Versuchen Sie als Experiment, `usedRangeValues` in der Schleife durch zu `usedRange.getValues()` ersetzen. Sie werden feststellen, dass die Ausführung des Skripts bei großen Bereichen erheblich länger dauert.
+> Versuchen Sie als Experiment, `usedRangeValues` in der Schleife durch zu `usedRange.getValues()` ersetzen. Sie können feststellen, dass die Ausführung des Skripts erheblich länger dauert, wenn es um große Bereiche geht.
 
-### <a name="remove-unnecessary-consolelog-statements"></a>Entfernen unnötiger `console.log` Anweisungen
+### <a name="avoid-using-trycatch-blocks-in-or-surrounding-loops"></a>Vermeiden Sie die Verwendung von `try...catch` Blöcken in oder umgebenden Schleifen
 
-Die Konsolenprotokollierung ist ein wichtiges Tool zum [Debuggen Ihrer Skripts.](../testing/troubleshooting.md) Es wird jedoch die Synchronisierung des Skripts mit der Arbeitsmappe erzwingen, um sicherzustellen, dass die protokollierten Informationen auf dem neuesten Stand sind. Ziehen Sie in Betracht, unnötige Protokollierungsanweisungen (z. B. zu Testzwecken) zu entfernen, bevor Sie ihr Skript freigeben. Dies verursacht in der Regel kein erkennbares Leistungsproblem, es sei denn, die `console.log()` Anweisung befindet sich in einer Schleife.
-
-### <a name="avoid-using-trycatch-blocks"></a>Vermeiden der Verwendung von try/catch-Blöcken
-
-Es wird nicht empfohlen, Blöcke [ `try` / `catch` als](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Statements/try...catch) Teil des erwarteten Steuerungsflusses eines Skripts zu verwenden. Die meisten Fehler können vermieden werden, indem Objekte überprüft werden, die von der Arbeitsmappe zurückgegeben werden. Mit dem folgenden Skript wird beispielsweise überprüft, ob die von der Arbeitsmappe zurückgegebene Tabelle vorhanden ist, bevor versucht wird, eine Zeile hinzuzufügen.
+Es wird nicht empfohlen, Anweisungen entweder in Schleifen oder umgebenden Schleifen zu [`try...catch`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Statements/try...catch) verwenden. Dies ist aus dem gleichen Grund, aus dem Sie das Lesen von Daten in einer Schleife vermeiden sollten: Jede Iteration zwingt das Skript, mit der Arbeitsmappe zu synchronisieren, um sicherzustellen, dass kein Fehler ausgelöst wurde. Die meisten Fehler können vermieden werden, indem Objekte überprüft werden, die von der Arbeitsmappe zurückgegeben werden. Das folgende Skript überprüft beispielsweise, ob die von der Arbeitsmappe zurückgegebene Tabelle vorhanden ist, bevor versucht wird, eine Zeile hinzuzufügen.
 
 ```TypeScript
 /**
@@ -98,11 +94,15 @@ function main(workbook: ExcelScript.Workbook) {
 }
 ```
 
+### <a name="remove-unnecessary-consolelog-statements"></a>Entfernen unnötiger `console.log` Anweisungen
+
+Die Konsolenprotokollierung ist ein wichtiges Tool zum [Debuggen Ihrer Skripts](../testing/troubleshooting.md). Es erzwingt jedoch, dass das Skript mit der Arbeitsmappe synchronisiert wird, um sicherzustellen, dass die protokollierten Informationen auf dem neuesten Stand sind. Entfernen Sie unnötige Protokollierungsanweisungen (z. B. zum Testen), bevor Sie Ihr Skript freigeben. Dies verursacht in der Regel kein auffälliges Leistungsproblem, es sei denn, die `console.log()` Anweisung befindet sich in einer Schleife.
+
 ## <a name="case-by-case-help"></a>Fall-für-Fall-Hilfe
 
-Wenn die Office -Skript-Plattform erweitert wird, um [mit Power Automate,](https://flow.microsoft.com/) [adaptiven](/adaptive-cards)Karten und anderen produktübergreifenden Features zu arbeiten, werden die Details der Skriptarbeitsmappenkommunikation komplizierter. Wenn Sie Hilfe benötigen, damit Ihr Skript schneller ausgeführt wird, wenden Sie sich an [Stack Overflow.](https://stackoverflow.com/questions/tagged/office-scripts) Markieren Sie Ihre Frage unbedingt mit "Office-Skripts", damit Experten sie finden und Hilfe erhalten können.
+Wenn die Office Scripts-Plattform erweitert wird, um mit [Power Automate](https://flow.microsoft.com/), [Adaptive Cards](/adaptive-cards)und anderen produktübergreifenden Funktionen zu arbeiten, werden die Details der Skriptarbeitsmappenkommunikation komplizierter. Wenn Sie Hilfe benötigen, damit Ihr Skript schneller ausgeführt wird, wenden Sie sich bitte an [Microsoft Q&A](/answers/topics/office-scripts-dev.html). Markieren Sie Ihre Frage mit "office-scripts-dev", damit Experten sie finden und helfen können.
 
 ## <a name="see-also"></a>Siehe auch
 
 - [Grundlagen der Skripterstellung für Office-Skripts in Excel im Web](scripting-fundamentals.md)
-- [MDN-Web-Dokumente: Schleifen und Iteration](https://developer.mozilla.org/docs/Web/JavaScript/Guide/Loops_and_iteration)
+- [MDN-Webdokumente: Schleifen und Iteration](https://developer.mozilla.org/docs/Web/JavaScript/Guide/Loops_and_iteration)

@@ -1,35 +1,36 @@
 ---
 title: Querverweis und Formatieren einer Excel Datei
-description: Erfahren Sie, wie Sie Office Skripts und Power Automate verwenden, um eine Datei querverweisen und Excel formatieren.
+description: Erfahren Sie, wie Sie Office Skripts und Power Automate verwenden, um eine Excel Datei querzuverweisen und zu formatieren.
 ms.date: 05/06/2021
 localization_priority: Normal
-ms.openlocfilehash: 7cc10787190e7ba8f5984ddda8b3c770eb0f7d8a
-ms.sourcegitcommit: 763d341857bcb209b2f2c278a82fdb63d0e18f0a
+ROBOTS: NOINDEX
+ms.openlocfilehash: f07395eb4e6c77b7aee3776e3252d135bc690a6f
+ms.sourcegitcommit: 4687693f02fc90a57ba30c461f35046e02e6f5fb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/08/2021
-ms.locfileid: "52285906"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52545766"
 ---
 # <a name="cross-reference-and-format-an-excel-file"></a>Querverweis und Formatieren einer Excel Datei
 
-Diese Lösung zeigt, wie zwei Excel mithilfe von Skripts und Office formatiert und formatiert werden Power Automate.
+Diese Lösung zeigt, wie zwei Excel Dateien mithilfe von Office Skripts und Power Automate referenziert und formatiert werden können.
 
 Das Projekt erreicht Folgendes:
 
-1. Extrahiert Ereignisdaten <a href="events.xlsx"> aus </a>events.xlsxmit einer Ausführungsskriptaktion.
-1. Übergibt diese Daten an die zweite Excel-Datei, die Ereignistransaktionsdaten enthält, und verwendet diese Daten zur grundlegenden Überprüfung der Daten und Formatierung fehlender oder falscher Daten mithilfe von Office Skripts.
-1. E-Mails des Ergebnisses an einen Prüfer.
+1. Extrahiert Ereignisdaten aus <a href="events.xlsx">events.xlsx</a> mit einer Skriptaktion ausführen.
+1. Übergibt diese Daten an die zweite Excel Datei, die Ereignistransaktionsdaten enthält, und verwendet diese Daten, um die grundlegende Überprüfung von Daten und die Formatierung fehlender oder falscher Daten mithilfe von Office Skripts durchzuführen.
+1. E-Mails an einen Beprüfer.
 
-Weitere Informationen finden Sie unter [Querverweis und Formatierung von zwei Excel mit Office Skripts](https://powerusers.microsoft.com/t5/Power-Automate-Cookbook/Cross-Reference-and-formatting-two-Excel-files-using-Office/td-p/728535).
+Weitere Informationen finden Sie unter [Querverweis und Formatieren von zwei Excel Dateien mit Office Scripts](https://powerusers.microsoft.com/t5/Power-Automate-Cookbook/Cross-Reference-and-formatting-two-Excel-files-using-Office/td-p/728535).
 
-## <a name="sample-excel-files"></a>Beispieldateien Excel
+## <a name="sample-excel-files"></a>Beispiel Excel Dateien
 
-Laden Sie die folgenden Dateien herunter, die in dieser Lösung verwendet werden, um es selbst auszuprobieren.
+Laden Sie die folgenden Dateien herunter, die in dieser Lösung verwendet werden, um es selbst auszuprobieren!
 
 1. <a href="events.xlsx">events.xlsx</a>
 1. <a href="event-transactions.xlsx">event-transactions.xlsx</a>
 
-## <a name="sample-code-get-event-data"></a>Beispielcode: Get event data
+## <a name="sample-code-get-event-data"></a>Beispielcode: Abrufen von Ereignisdaten
 
 ```TypeScript
 function main(workbook: ExcelScript.Workbook): EventData[] {
@@ -149,6 +150,6 @@ interface EventData {
 }
 ```
 
-## <a name="training-video-cross-reference-and-format-an-excel-file"></a>Schulungsvideo: Querverweis und Formatieren einer Excel Datei
+## <a name="training-video-cross-reference-and-format-an-excel-file"></a>Schulungsvideo: Querverweis und Formatierung einer Excel Datei
 
-[Sehen Sie sich an, wie Sudhi Ramamurthy dieses Beispiel auf YouTube durchspazieren.](https://youtu.be/dVwqBf483qo")
+[Sehen Sie Sudhi Ramamurthy zu Fuß durch dieses Beispiel auf YouTube](https://youtu.be/dVwqBf483qo").

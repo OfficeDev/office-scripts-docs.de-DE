@@ -1,41 +1,42 @@
 ---
-title: Senden einer Teams aus Excel Daten
-description: Erfahren Sie, wie Sie Office Skripts verwenden, um eine Teams aus Excel senden.
+title: Senden einer Teams Besprechung aus Excel Daten
+description: Erfahren Sie, wie Sie mithilfe von Office Skripts eine Teams Besprechung aus Excel Daten senden.
 ms.date: 05/06/2021
 localization_priority: Normal
-ms.openlocfilehash: d366da45618f211450a4779bc3a1aec4297eb376
-ms.sourcegitcommit: 763d341857bcb209b2f2c278a82fdb63d0e18f0a
+ROBOTS: NOINDEX
+ms.openlocfilehash: 85b39d7e3d1008dee01e7fe9c690116be1d7e5d8
+ms.sourcegitcommit: 4687693f02fc90a57ba30c461f35046e02e6f5fb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/08/2021
-ms.locfileid: "52285829"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52545630"
 ---
 # <a name="send-teams-meeting-from-excel-data"></a>Senden Teams Besprechung aus Excel Daten
 
-Diese Lösung zeigt, wie Sie Office Skripts und Power Automate-Aktionen verwenden, um Zeilen aus der Excel-Datei auszuwählen und sie zu verwenden, um eine Teams-Besprechungs-Einladung zu senden und dann Excel.
+Diese Lösung zeigt, wie Sie Office Skripts verwenden und Aktionen Power Automate verwenden, um Zeilen aus Excel Datei auszuwählen und sie zum Senden einer Teams Besprechungseinladung und anschließend Excel zu aktualisieren.
 
 ## <a name="example-scenario"></a>Beispielszenario
 
-* Ein Personalreferent verwaltet den Interviewzeitplan der Kandidaten in einer Excel Datei.
-* Der Personalreferent muss die Teams an den Kandidaten und die Interviewer senden. Die Geschäftsregeln sind:
+* Ein PERSONALreferent verwaltet den Interviewplan der Kandidaten in einer Excel-Datei.
+* Der Personalvermittler muss den Kandidaten und Interviewern die Teams Besprechungseinladung zusenden. Die Geschäftsregeln sind zu wählen:
 
-    (a) Lädt nur diejenigen ein, für die die Einladung noch nicht wie in der Dateispalte aufgezeichnet gesendet wurde.
+    (a) Lädt nur diejenigen ein, für die die Einladung nicht bereits gesendet wurde, wie in der Dateispalte aufgezeichnet.
 
-    (b) Interviewtermine in der Zukunft (keine vergangenen Datumsangaben).
+    b) Interviewtermine in der Zukunft (keine früheren Termine).
 
-* Der Personalreferent muss die Excel mit der Bestätigung aktualisieren, dass alle Teams für die berechtigten Datensätze gesendet wurden.
+* Der Personalvermittler muss die Excel-Datei mit der Bestätigung aktualisieren, dass alle Teams Besprechungen für die berechtigten Datensätze gesendet wurden.
 
-Die Lösung besteht aus drei Teilen:
+Die Lösung besteht aus 3 Teilen:
 
 1. Office Skript zum Extrahieren von Daten aus einer Tabelle basierend auf Bedingungen und gibt ein Array von Objekten als JSON-Daten zurück.
-1. Die Daten werden dann an die Teams **Erstellen** Teams Besprechungsaktion zum Senden von Einladungen gesendet. Senden Sie Teams Besprechung pro Instanz im JSON-Array.
-1. Senden Sie dieselben JSON-Daten an ein Office Skript, um den Status der Einladung zu aktualisieren.
+1. Die Daten werden dann an die Teams **Erstellen einer Teams Besprechungsaktion** zum Senden von Einladungen gesendet. Senden Sie eine Teams Besprechung pro Instanz im JSON-Array.
+1. Senden Sie dieselben JSON-Daten an ein anderes Office Skript, um den Status der Einladung zu aktualisieren.
 
-## <a name="sample-excel-file"></a>Beispieldatei Excel Datei
+## <a name="sample-excel-file"></a>Beispiel Excel Datei
 
-Laden Sie die Datei <a href="hr-schedule.xlsx">hr-schedule.xlsx, </a> die in dieser Lösung verwendet wird, herunter, und testen Sie sie selbst!
+Laden Sie die Datei <a href="hr-schedule.xlsx">hr-schedule.xlsx</a> in dieser Lösung verwendet und probieren Sie es selbst aus!
 
-## <a name="sample-code-select-filtered-rows-from-table-as-json"></a>Beispielcode: Wählen Sie gefilterte Zeilen aus der Tabelle als JSON aus.
+## <a name="sample-code-select-filtered-rows-from-table-as-json"></a>Beispielcode: Ausgewählte gefilterte Zeilen aus der Tabelle als JSON
 
 ```TypeScript
 function main(workbook: ExcelScript.Workbook): InterviewInvite[] {
@@ -173,7 +174,7 @@ interface InterviewInvite extends BasicObj {
 }
 ```
 
-## <a name="sample-code-mark-as-invited"></a>Beispielcode: Als eingeladen markieren
+## <a name="sample-code-mark-as-invited"></a>Beispielcode: Mark als eingeladen markieren
 
 ```TypeScript
 function main(workbook: ExcelScript.Workbook, completedInvitesString: string) {
@@ -227,6 +228,6 @@ interface InterviewInvite  {
 }
 ```
 
-## <a name="training-video-send-a-teams-meeting-from-excel-data"></a>Schulungsvideo: Senden Teams Besprechung aus Excel Daten
+## <a name="training-video-send-a-teams-meeting-from-excel-data"></a>Schulungsvideo: Senden eines Teams Meetings aus Excel Daten
 
-[Sehen Sie sich an, wie Sudhi Ramamurthy dieses Beispiel auf YouTube durchspazieren.](https://youtu.be/HyBdx52NOE8)
+[Sehen Sie Sudhi Ramamurthy zu Fuß durch dieses Beispiel auf YouTube](https://youtu.be/HyBdx52NOE8).

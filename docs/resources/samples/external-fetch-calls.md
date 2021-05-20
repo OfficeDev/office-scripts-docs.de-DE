@@ -1,24 +1,24 @@
 ---
 title: Verwenden von externen Abrufanrufen in Office-Skripts
-description: Erfahren Sie, wie Sie externe API-Aufrufe in Office ausführen.
-ms.date: 05/06/2021
+description: Erfahren Sie, wie Sie externe API-Aufrufe in Office Skripts tätigen.
+ms.date: 05/14/2021
 localization_priority: Normal
-ms.openlocfilehash: e8f46f552dee2c1ea43a321c968b00f02ffba49a
-ms.sourcegitcommit: 763d341857bcb209b2f2c278a82fdb63d0e18f0a
+ms.openlocfilehash: df8814cbab16969a1140aecfe526fd68e609d43c
+ms.sourcegitcommit: 4687693f02fc90a57ba30c461f35046e02e6f5fb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/08/2021
-ms.locfileid: "52285822"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52545752"
 ---
 # <a name="use-external-fetch-calls-in-office-scripts"></a>Verwenden von externen Abrufanrufen in Office-Skripts
 
-Dieses Skript ruft grundlegende Informationen zu den Repositorys eines Benutzers GitHub ab. Es zeigt, wie sie `fetch` in einem einfachen Szenario verwendet werden.
+Dieses Skript ruft grundlegende Informationen über die GitHub-Repositorys eines Benutzers ab. Es zeigt, wie in einem einfachen Szenario verwendet `fetch` wird. Weitere Informationen zur Verwendung `fetch` oder zu anderen externen Aufrufen finden Sie unter Unterstützung für externe [API-Aufrufe in Office Skripts](../../develop/external-calls.md)
 
-Sie können mehr über die GItHub-APIs erfahren, die in der [GitHub-API-Referenz verwendet werden.](https://docs.github.com/rest/reference/repos#list-repositories-for-a-user) Sie können auch die Ausgabe von unformatiertem API-Aufruf anzeigen, indem Sie einen Webbrowser aufrufen (stellen Sie sicher, dass Sie den `https://api.github.com/users/{USERNAME}/repos` Platzhalter {USERNAME} durch Ihre Github-ID ersetzen).
+Weitere Informationen zu den GItHub-APIs, die in der [GitHub-API-Referenz](https://docs.github.com/rest/reference/repos#list-repositories-for-a-user)verwendet werden. Sie können die Ausgabe des rohen API-Aufrufs auch anzeigen, indem Sie in einem Webbrowser einen Besuch vornehmen `https://api.github.com/users/{USERNAME}/repos` (stellen Sie sicher, dass Sie den Platzhalter "USERNAME" durch Ihre GitHub-ID ersetzen).
 
-![Get repositorys info example](../../images/git.png)
+![Abrufen von Repository-Infobeispiel](../../images/git.png)
 
-## <a name="sample-code-get-basic-information-about-users-github-repositories"></a>Beispielcode: Grundlegende Informationen zum Benutzerrepository GitHub erhalten
+## <a name="sample-code-get-basic-information-about-users-github-repositories"></a>Beispielcode: Abrufen grundlegender Informationen über GitHub-Repositorys des Benutzers
 
 ```TypeScript
 async function main(workbook: ExcelScript.Workbook) {
@@ -55,6 +55,6 @@ interface License {
 }
 ```
 
-## <a name="training-video-how-to-make-external-api-calls"></a>Schulungsvideo: So nehmen Sie externe API-Aufrufe vor
+## <a name="training-video-how-to-make-external-api-calls"></a>Schulungsvideo: So führen Sie externe API-Aufrufe durch
 
-[Sehen Sie sich an, wie Sudhi Ramamurthy dieses Beispiel auf YouTube durchspazieren.](https://youtu.be/fulP29J418E)
+[Sehen Sie Sudhi Ramamurthy zu Fuß durch dieses Beispiel auf YouTube](https://youtu.be/fulP29J418E).

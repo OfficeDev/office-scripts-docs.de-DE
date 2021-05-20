@@ -1,32 +1,32 @@
 ---
 title: Grundlegende Skripts für Office Skripts in Excel im Web
-description: Eine Auflistung von Codebeispielen, die mit Office Skripts in Excel im Web.
-ms.date: 04/28/2021
+description: Eine Auflistung von Codebeispielen, die mit Office Skripts in Excel im Web verwendet werden sollen.
+ms.date: 05/17/2021
 localization_priority: Normal
-ms.openlocfilehash: ea0430910aa16ef8a0eed04cf9ebcab7d611ae62
-ms.sourcegitcommit: f7a7aebfb687f2a35dbed07ed62ff352a114525a
+ms.openlocfilehash: f252934a92126212b9520223826b3b2f5161ed57
+ms.sourcegitcommit: 4687693f02fc90a57ba30c461f35046e02e6f5fb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52233009"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52545759"
 ---
 # <a name="basic-scripts-for-office-scripts-in-excel-on-the-web"></a>Grundlegende Skripts für Office Skripts in Excel im Web
 
-Die folgenden Beispiele sind einfache Skripts, die Sie in Ihren eigenen Arbeitsmappen ausprobieren können. So verwenden Sie sie in Excel im Web:
+Die folgenden Beispiele sind einfache Skripts, mit denen Sie Ihre eigenen Arbeitsmappen ausprobieren können. So verwenden Sie sie in Excel im Web:
 
 1. Öffnen Sie die Registerkarte **Automatisieren**.
-2. Drücken **Sie den Code-Editor**.
-3. Drücken **Sie neues Skript** im Aufgabenbereich des Code-Editors.
+2. Drücken Sie **den Code-Editor**.
+3. Drücken Sie im Aufgabenbereich des Code-Editors auf **Neues Skript.**
 4. Ersetzen Sie das gesamte Skript durch das Beispiel Ihrer Wahl.
-5. Drücken **Sie im** Aufgabenbereich des Code-Editors die Ausführung.
+5. Drücken Sie im Aufgabenbereich des Code-Editors auf **Ausführen.**
 
-## <a name="scripting-basics"></a>Skripting-Grundlagen
+## <a name="script-basics"></a>Skriptgrundlagen
 
 Diese Beispiele zeigen grundlegende Bausteine für Office Skripts. Fügen Sie diese zu Ihren Skripts hinzu, um Ihre Lösung zu erweitern und häufige Probleme zu lösen.
 
 ### <a name="read-and-log-one-cell"></a>Lesen und Protokollieren einer Zelle
 
-In diesem Beispiel wird der Wert von **A1 gelesen** und in der Konsole gedruckt.
+In diesem Beispiel wird der Wert von **A1** gelesen und auf der Konsole gedruckt.
 
 ```TypeScript
 function main(workbook: ExcelScript.Workbook) {
@@ -43,7 +43,7 @@ function main(workbook: ExcelScript.Workbook) {
 
 ### <a name="read-the-active-cell"></a>Lesen der aktiven Zelle
 
-Dieses Skript protokolliert den Wert der aktuellen aktiven Zelle. Wenn mehrere Zellen ausgewählt sind, wird die zelle ganz oben links protokolliert.
+Dieses Skript protokolliert den Wert der aktuellen aktiven Zelle. Wenn mehrere Zellen ausgewählt sind, wird die Zelle oben links protokolliert.
 
 ```TypeScript
 function main(workbook: ExcelScript.Workbook) {
@@ -57,7 +57,7 @@ function main(workbook: ExcelScript.Workbook) {
 
 ### <a name="change-an-adjacent-cell"></a>Ändern einer benachbarten Zelle
 
-Dieses Skript ruft benachbarte Zellen mithilfe relativer Verweise ab. Beachten Sie, dass, wenn sich die aktive Zelle in der oberen Zeile befindet, ein Teil des Skripts fehlschlägt, da es auf die Zelle über der aktuell ausgewählten Zelle verweist.
+Dieses Skript ruft benachbarte Zellen mithilfe relativer Referenzen ab. Beachten Sie, dass ein Teil des Skripts fehlschlägt, wenn sich die aktive Zelle in der obersten Zeile befindet, da sie auf die Zelle über der aktuell ausgewählten Zelle verweist.
 
 ```TypeScript
 function main(workbook: ExcelScript.Workbook) {
@@ -82,7 +82,7 @@ function main(workbook: ExcelScript.Workbook) {
 }
 ```
 
-### <a name="change-all-adjacent-cells"></a>Ändern aller benachbarten Zellen
+### <a name="change-all-adjacent-cells"></a>Alle benachbarten Zellen ändern
 
 Dieses Skript kopiert die Formatierung in der aktiven Zelle in die benachbarten Zellen. Beachten Sie, dass dieses Skript nur funktioniert, wenn sich die aktive Zelle nicht an einem Rand des Arbeitsblatts befindet.
 
@@ -105,9 +105,9 @@ function main(workbook: ExcelScript.Workbook) {
 }
 ```
 
-### <a name="change-each-individual-cell-in-a-range"></a>Ändern der einzelnen Zellen in einem Bereich
+### <a name="change-each-individual-cell-in-a-range"></a>Ändern jeder einzelnen Zelle in einem Bereich
 
-Dieses Skript übernimmt eine Schleife über den aktuell ausgewählten Bereich. Es wird die aktuelle Formatierung entfernt und die Füllfarbe in jeder Zelle auf eine zufällige Farbe fest.
+Dieses Skript wird über den aktuell ausgewählten Bereich geschleift. Es löscht die aktuelle Formatierung und legt die Füllfarbe in jeder Zelle auf eine zufällige Farbe fest.
 
 ```TypeScript
 function main(workbook: ExcelScript.Workbook) {
@@ -134,9 +134,9 @@ function main(workbook: ExcelScript.Workbook) {
 }
 ```
 
-### <a name="get-groups-of-cells-based-on-special-criteria"></a>Gruppen von Zellen basierend auf speziellen Kriterien erhalten
+### <a name="get-groups-of-cells-based-on-special-criteria"></a>Abrufen von Zellengruppen auf der Grundlage spezieller Kriterien
 
-Dieses Skript ruft alle leeren Zellen im verwendeten Bereich des aktuellen Arbeitsblatts ab. Anschließend werden alle zellen mit gelbem Hintergrund hervorgehoben.
+Dieses Skript ruft alle leeren Zellen im verwendeten Bereich des aktuellen Arbeitsblatts ab. Anschließend werden alle Zellen mit einem gelben Hintergrund hervorgehoben.
 
 ```TypeScript
 function main(workbook: ExcelScript.Workbook) {
@@ -153,11 +153,11 @@ function main(workbook: ExcelScript.Workbook) {
 
 ## <a name="collections"></a>Auflistungen
 
-Diese Beispiele funktionieren mit Auflistungen von Objekten in der Arbeitsmappe.
+Diese Beispiele arbeiten mit Auflistungen von Objekten in der Arbeitsmappe.
 
-### <a name="iterating-over-collections"></a>Iterieren über Sammlungen
+### <a name="iterate-over-collections"></a>Iterieren über Sammlungen
 
-Dieses Skript ruft die Namen aller Arbeitsblätter in der Arbeitsmappe ab und protokolliert sie. Außerdem werden die Registerkartenfarben auf eine zufällige Farbe fest.
+Dieses Skript ruft die Namen aller Arbeitsblätter in der Arbeitsmappe ab und protokolliert sie. Außerdem werden die Tabulatorfarben auf eine zufällige Farbe festgelegt.
 
 ```TypeScript
 function main(workbook: ExcelScript.Workbook) {
@@ -182,9 +182,9 @@ function main(workbook: ExcelScript.Workbook) {
 }
 ```
 
-### <a name="querying-and-deleting-from-a-collection"></a>Abfragen und Löschen aus einer Auflistung
+### <a name="query-and-delete-from-a-collection"></a>Abfragen und Löschen aus einer Auflistung
 
-Mit diesem Skript wird ein neues Arbeitsblatt erstellt. Es wird nach einer vorhandenen Kopie des Arbeitsblatts überprüft und gelöscht, bevor ein neues Blatt erstellt wird.
+Dieses Skript erstellt ein neues Arbeitsblatt. Es wird nach einer vorhandenen Kopie des Arbeitsblatts gesucht und gelöscht, bevor ein neues Blatt erstellt wird.
 
 ```TypeScript
 function main(workbook: ExcelScript.Workbook) {
@@ -213,7 +213,7 @@ function main(workbook: ExcelScript.Workbook) {
 
 ## <a name="dates"></a>Datumsangaben
 
-In den Beispielen in diesem Abschnitt wird die Verwendung des JavaScript [Date-Objekts](https://developer.mozilla.org/docs/web/javascript/reference/global_objects/date) gezeigt.
+Die Beispiele in diesem Abschnitt zeigen, wie sie das JavaScript [Date-Objekt](https://developer.mozilla.org/docs/web/javascript/reference/global_objects/date) verwenden.
 
 Das folgende Beispiel ruft das aktuelle Datum und die aktuelle Uhrzeit ab und schreibt diese Werte dann in zwei Zellen im aktiven Arbeitsblatt.
 
@@ -248,13 +248,13 @@ function main(workbook: ExcelScript.Workbook) {
 }
 ```
 
-## <a name="display-data"></a>Anzeigen von Daten
+## <a name="display-data"></a>Anzeigevon Daten
 
-In diesen Beispielen wird gezeigt, wie Sie mit Arbeitsblattdaten arbeiten und Benutzern eine bessere Ansicht oder Organisation bieten.
+In diesen Beispielen wird veranschaulicht, wie sie mit Arbeitsblattdaten arbeiten und Benutzern eine bessere Ansicht oder Organisation bieten.
 
 ### <a name="apply-conditional-formatting"></a>Anwenden bedingter Formatierung
 
-In diesem Beispiel wird bedingte Formatierung auf den derzeit im Arbeitsblatt verwendeten Bereich angewendet. Die bedingte Formatierung ist eine grüne Füllung für die obersten 10 % der Werte.
+In diesem Beispiel wird die bedingte Formatierung auf den aktuell verwendeten Bereich im Arbeitsblatt angewendet. Die bedingte Formatierung ist eine grüne Füllung für die obersten 10 % der Werte.
 
 ```TypeScript
 function main(workbook: ExcelScript.Workbook) {
@@ -276,7 +276,7 @@ function main(workbook: ExcelScript.Workbook) {
 
 ### <a name="create-a-sorted-table"></a>Erstellen einer sortierten Tabelle
 
-In diesem Beispiel wird eine Tabelle aus dem verwendeten Bereich des aktuellen Arbeitsblatts erstellt und anschließend basierend auf der ersten Spalte sortiert.
+In diesem Beispiel wird eine Tabelle aus dem verwendeten Bereich des aktuellen Arbeitsblatts erstellt und dann basierend auf der ersten Spalte sortiert.
 
 ```TypeScript
 function main(workbook: ExcelScript.Workbook) {
@@ -292,11 +292,11 @@ function main(workbook: ExcelScript.Workbook) {
 }
 ```
 
-### <a name="log-the-grand-total-values-from-a-pivottable"></a>Protokollieren der "Grand Total"-Werte aus einer PivotTable
+### <a name="log-the-grand-total-values-from-a-pivottable"></a>Protokollieren der "Gesamtwerte" aus einer PivotTable
 
-In diesem Beispiel wird die erste PivotTable in der Arbeitsmappe gefunden und die Werte in den Zellen "Grand Total" protokolliert (wie im folgenden Bild grün hervorgehoben).
+In diesem Beispiel wird die erste PivotTable in der Arbeitsmappe gefunden und die Werte in den Zellen "Gesamtsumme" protokolliert (wie in der Abbildung unten grün hervorgehoben).
 
-:::image type="content" source="../../images/sample-pivottable-grand-total-row.png" alt-text="Eine PivotTable mit Obstverkäufen, deren Zeile &quot;Grand Total&quot; grün hervorgehoben ist":::
+:::image type="content" source="../../images/sample-pivottable-grand-total-row.png" alt-text="Eine PivotTable mit Obstverkäufen, wobei die Zeile &quot;Gesamt&quot; grün hervorgehoben ist":::
 
 ```TypeScript
 function main(workbook: ExcelScript.Workbook) {
@@ -320,11 +320,11 @@ function main(workbook: ExcelScript.Workbook) {
 }
 ```
 
-### <a name="use-data-validation-to-create-a-drop-down-list"></a>Verwenden der Datenüberprüfung zum Erstellen einer Dropdownliste
+### <a name="create-a-drop-down-list-using-data-validation"></a>Erstellen einer Dropdown-Liste mithilfe der Datenvalidierung
 
-Dieses Skript erstellt eine Dropdownauswahlliste für eine Zelle. Es verwendet die vorhandenen Werte des ausgewählten Bereichs als Auswahlmöglichkeiten für die Liste.
+Dieses Skript erstellt eine Dropdown-Auswahlliste für eine Zelle. Es verwendet die vorhandenen Werte des ausgewählten Bereichs als Auswahl für die Liste.
 
-:::image type="content" source="../../images/sample-data-validation.png" alt-text="Ein Arbeitsblatt, das einen Bereich von drei Zellen mit der Farbauswahl &quot;Rot, Blau, Grün&quot; und daneben enthält, die gleichen Optionen, die in einer Dropdownliste angezeigt werden":::
+:::image type="content" source="../../images/sample-data-validation.png" alt-text="Ein Arbeitsblatt mit einem Bereich von drei Zellen, die Farbauswahlen &quot;rot, blau, grün&quot; und daneben die gleichen Auswahlmöglichkeiten in einer Dropdownliste enthalten":::
 
 ```TypeScript
 function main(workbook: ExcelScript.Workbook) {
@@ -359,11 +359,11 @@ function main(workbook: ExcelScript.Workbook) {
 
 ## <a name="formulas"></a>Formeln
 
-Diese Beispiele verwenden Excel Formeln und zeigen, wie sie in Skripts verwendet werden.
+Diese Beispiele verwenden Excel Formeln und zeigen, wie Sie mit ihnen in Skripts arbeiten.
 
-### <a name="single-formula"></a>Einzelne Formel
+### <a name="single-formula"></a>Einheitliche Formel
 
-Dieses Skript legt die Formel einer Zelle fest und zeigt dann an, Excel Formel und Wert der Zelle separat speichert.
+Dieses Skript legt die Formel einer Zelle fest und zeigt dann an, wie Excel die Formel und den Wert der Zelle separat speichert.
 
 ```TypeScript
 function main(workbook: ExcelScript.Workbook) {
@@ -382,9 +382,9 @@ function main(workbook: ExcelScript.Workbook) {
 }
 ```
 
-### <a name="spilling-results-from-a-formula"></a>Spilling results from a formula
+### <a name="handle-a-spill-error-returned-from-a-formula"></a>Behandeln eines `#SPILL!` Fehlers, der von einer Formel zurückgegeben wird
 
-Dieses Skript transponiert den Bereich "A1:D2" mithilfe der TRANSPOSE-Funktion in "A4:B7". Wenn die Transponieren zu einem fehler #SPILL, wird der Zielbereich geleert und die Formel erneut angewendet.
+Dieses Skript transponiert den Bereich "A1:D2" auf "A4:B7" mithilfe der TRANSPOSE-Funktion. Wenn die Transponierung zu einem `#SPILL` Fehler führt, wird der Zielbereich gecleart und die Formel erneut angewendet.
 
 ```TypeScript
 function main(workbook: ExcelScript.Workbook) {
@@ -418,10 +418,10 @@ function main(workbook: ExcelScript.Workbook) {
 
 ## <a name="suggest-new-samples"></a>Vorschlagen neuer Beispiele
 
-Wir freuen uns über Vorschläge für neue Beispiele. Wenn es ein gängiges Szenario gibt, das anderen Skriptentwicklern helfen würde, teilen Sie uns dies bitte im Abschnitt Feedback am unteren Rand der Seite mit.
+Wir freuen uns über Vorschläge für neue Muster. Wenn es ein häufiges Szenario gibt, das anderen Skriptentwicklern helfen würde, teilen Sie uns dies bitte im Feedback-Abschnitt am Ende der Seite mit.
 
 ## <a name="see-also"></a>Siehe auch
 
-* [Die "Range Basics" von Sudhi Ramamurthy auf YouTube](https://youtu.be/4emjkOFdLBA)
-* [Office Skriptbeispiele und -szenarien](samples-overview.md)
+* [Sudhi Ramamurthys "Range Basics" auf YouTube](https://youtu.be/4emjkOFdLBA)
+* [Office Skriptbeispiele und Szenarien](samples-overview.md)
 * [Aufzeichnen, Bearbeiten und Erstellen von Office-Skripts in Excel im Web](../../tutorials/excel-tutorial.md)

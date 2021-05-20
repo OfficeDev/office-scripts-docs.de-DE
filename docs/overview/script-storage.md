@@ -1,38 +1,36 @@
 ---
-title: Office Speicher und Besitz von Skripts
-description: Informationen dazu, Office Skripts in Microsoft OneDrive zwischen Besitzern gespeichert und übertragen werden.
-ms.date: 11/13/2020
+title: Office Skripts-Dateispeicherung und -besitz
+description: Informationen darüber, wie Office Skripts in Microsoft OneDrive gespeichert und zwischen Besitzern übertragen werden.
+ms.date: 05/17/2021
 localization_priority: Normal
-ms.openlocfilehash: 47b732399c3068bea78b027e01324bbd73a83bc7
-ms.sourcegitcommit: f7a7aebfb687f2a35dbed07ed62ff352a114525a
+ms.openlocfilehash: 556d784dc1fe64873866c49ab2726a4c68abc1a7
+ms.sourcegitcommit: 4687693f02fc90a57ba30c461f35046e02e6f5fb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52232529"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52545801"
 ---
-# <a name="office-scripts-file-storage-and-ownership"></a>Office Speicher und Besitz von Skripts
+# <a name="office-scripts-file-storage-and-ownership"></a>Office Skripts-Dateispeicherung und -besitz
 
-Office Skripts werden als **OSTS-Dateien** in Ihrem Microsoft OneDrive. Dadurch können Ihre Skripts außerhalb einer bestimmten Arbeitsmappe vorhanden sein. Ihre OneDrive steuern den freigegebenen Zugriff und die Berechtigungen für alle **#A0 des Skripts.** unabhängig von den Excel werden.
+Office Skripts werden als **.osts-Dateien** in Ihrem Microsoft OneDrive gespeichert. Sie werden getrennt von einer Arbeitsmappe gespeichert. Um anderen Zugriff zu gewähren, [geben Sie das Skript für eine Excel Arbeitsmappe](excel.md#sharing-scripts). Dies bedeutet, dass Sie das Skript mit der Datei verknüpfen und nicht anfügen. Wer Zugriff auf die Excel Datei hat, kann auch das Skript anzeigen, ausführen oder eine Kopie erstellen.
+
+Wenn Sie Ihre Skripts nicht freigeben, kann niemand sonst darauf zugreifen. Ihre OneDrive Einstellungen steuern den freigegebenen Zugriff und die Berechtigungen für alle **Skript.osts-Dateien,** unabhängig von Excel Einstellungen. Skripts können nicht von einem lokalen Datenträger oder benutzerdefinierten Cloudspeicherorten verknüpft werden. Office Skripts erkennt und führt ein Skript nur aus, wenn es sich in Ihrem OneDrive Ordner befindet oder für die Arbeitsmappe freigegeben ist.
 
 ## <a name="file-storage"></a>Dateispeicher
 
-Sie Office Skripts in Ihrem OneDrive. Die **OSTS-Dateien** befinden sich im Ordner **/Documents/Office Scripts/.** Alle an diesen **OSTS-Dateien** vorgenommenen Änderungen, z. B. das Umbenennen oder Löschen von Dateien, werden im Code-Editor und im Skriptkatalog angezeigt.
+Sie Office Skripts in Ihrem OneDrive gespeichert werden. Die **.osts-Dateien** befinden sich im Ordner **/Documents/Office Scripts/.** Alle an diesen **.osts-Dateien vorgenommenen** Bearbeitungen, wie z. B. das Umbenennen oder Löschen von Dateien, werden im Code-Editor und im Skriptkatalog widergespiegelt.
 
-Skripts, die für eine Ihrer Arbeitsmappen freigegeben werden, verbleiben in der OneDrive. Sie werden nicht in einen Ihrer lokalen oder OneDrive kopiert, wenn Sie das freigegebene Skript in Excel. Die **Schaltfläche Kopieren erstellen** des Code-Editors speichert eine separate Kopie des Skripts in OneDrive. Änderungen an der Kopie wirken sich nicht auf das ursprüngliche Skript aus.
+Skripts, die für eine Ihrer Arbeitsmappen freigegeben sind, verbleiben im OneDrive des Skripters. Sie werden nicht in einen Ihrer lokalen oder OneDrive Ordner kopiert, wenn Sie das freigegebene Skript in Excel ausführen. Mit der Schaltfläche **Kopieren** des Code-Editors wird eine separate Kopie des Skripts in Ihrem OneDrive. Änderungen an der Kopie wirken sich nicht auf das ursprüngliche Skript aus.
 
-### <a name="script-folders"></a>Skriptordner
+## <a name="file-ownership-and-retention"></a>Dateibesitz und -aufbewahrung
 
-Das Hinzufügen von Ordnern zu OneDrive trägt dazu bei, ihre Skripts organisiert zu halten. Alle Ordner unter **/Documents/Office Scripts/** werden im Abschnitt **Meine Skripts** des Code-Editors angezeigt. Beachten Sie, dass diese Ordner nicht mithilfe des Code-Editors erstellt oder gelöscht werden können. Ebenso können Skripts nicht in Ordnern platziert oder mithilfe des Code-Editors über Ordner verschoben werden.
+Office Skripts werden im OneDrive eines Benutzers gespeichert. Sie folgen den von Microsoft OneDrive angegebenen Aufbewahrungs- und Löschrichtlinien. Wenn Sie wissen möchten, wie Skripts behandelt werden, die von einem Benutzer erstellt und freigegeben wurden, der aus Ihrer Organisation entfernt wird, lesen Sie [OneDrive Aufbewahrungs-und Löschvorgänge](/onedrive/retention-and-deletion).
 
-:::image type="content" source="../images/script-folders.png" alt-text="Das Dialogfeld Neues Skript im Code-Editor, in dem Skripts in Ordnern angezeigt werden, wie im Aufgabenbereich angezeigt":::
-
-## <a name="file-ownership-and-retention"></a>Dateibesitz und Aufbewahrung
-
-Office Skripts werden in der Datei eines Benutzers OneDrive. Sie folgen den aufbewahrungs- und löschungsrichtlinien, die von Microsoft OneDrive. Wenn Sie wissen möchten, wie Skripts behandelt werden, die von einem Benutzer erstellt und freigegeben wurden, der aus Ihrer Organisation entfernt wird, lesen Sie [OneDrive Aufbewahrungs-und Löschvorgänge](/onedrive/retention-and-deletion).
+Während der Bearbeitung werden Dateien vorübergehend im Browser gespeichert. Sie müssen das Skript speichern, bevor Sie das Excel Fenster schließen, um es am OneDrive Speicherort zu speichern. Vergessen Sie nicht, die Datei nach Denkarbeiten zu speichern, sonst befinden sich diese Änderungen nur in der Browserversion der Datei.
 
 ## <a name="see-also"></a>Siehe auch
 
 - [Office-Skripts in Excel für das Web](https://support.microsoft.com/office/sharing-office-scripts-in-excel-for-the-web-226eddbc-3a44-4540-acfe-fccda3d1122b)
 - [Behandeln von Problemen mit Office-Skripts](../testing/troubleshooting.md)
 - [Office-Skripts-Einstellungen in M365](https://support.office.com/article/office-scripts-settings-in-m365-19d3c51a-6ca2-40ab-978d-60fa49554dcf)
-- [Rückgängigmachen der Auswirkungen eines Office-Skripts](../testing/undo.md)
+- [Auswirkungen von Office-Skripts rückgängig machen](../testing/undo.md)
