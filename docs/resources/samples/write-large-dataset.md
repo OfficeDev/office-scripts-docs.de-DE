@@ -1,6 +1,6 @@
 ---
 title: Erstellen eines großen Datasets
-description: Erfahren Sie, wie Sie ein großes Dataset in kleinere Schreibvorgänge in Office Skripts aufteilen.
+description: Erfahren Sie, wie Sie ein großes Dataset in kleinere Schreibvorgänge in skripts Office teilen.
 ms.date: 05/13/2021
 localization_priority: Normal
 ms.openlocfilehash: 06abb58c61c18620d638ab3eb61ea68398bf20aa
@@ -12,16 +12,16 @@ ms.locfileid: "52545623"
 ---
 # <a name="write-a-large-dataset"></a>Erstellen eines großen Datasets
 
-Die `Range.setValues()` API legt Daten in einen Bereich. Diese API hat Einschränkungen, die von verschiedenen Faktoren abhängen, z. B. Datengröße und Netzwerkeinstellungen. Wenn Sie also versuchen, eine große Menge an Informationen als einzelnen Vorgang in eine Arbeitsmappe zu schreiben, müssen Sie die Daten in kleinere Batches schreiben, um einen [großen Bereich](../../testing/platform-limits.md)zuverlässig zu aktualisieren.
+Die `Range.setValues()` API legt Daten in einen Bereich. Diese API hat Einschränkungen in Abhängigkeit von verschiedenen Faktoren, z. B. Datengröße und Netzwerkeinstellungen. Dies bedeutet, dass Sie die Daten in kleineren Batches schreiben müssen, um einen großen Bereich zuverlässig zu aktualisieren, wenn Sie versuchen, eine große Menge an Informationen in eine Arbeitsmappe als einzelnen Vorgang zu [schreiben.](../../testing/platform-limits.md)
 
-Informationen zu den Leistungsgrundlagen in Office Skripts finden Sie unter [Verbessern der Leistung Ihrer Office Scripts](../../develop/web-client-performance.md).
+Grundlegende Informationen zur Leistung in Office Skripts finden Sie unter Verbessern der Leistung Ihrer [Office Skripts.](../../develop/web-client-performance.md)
 
 ## <a name="sample-code-write-a-large-dataset"></a>Beispielcode: Schreiben eines großen Datasets
 
-Dieses Skript schreibt Zeilen eines Bereichs in kleinere Teile. Es wählt 1000 Zellen aus, die gleichzeitig geschrieben werden sollen. Führen Sie das Skript in einem leeren Arbeitsblatt aus, um die Aktualisierungsbatches in Aktion zu sehen. Die Konsolenausgabe gibt weitere Einblicke in das Geschehen.
+Dieses Skript schreibt Zeilen eines Bereichs in kleineren Teilen. Es wählt 1000 Zellen aus, die gleichzeitig geschrieben werden müssen. Führen Sie das Skript auf einem leeren Arbeitsblatt aus, um die Aktualisierungsbatches in Aktion zu sehen. Die Konsolenausgabe gibt weitere Einblicke in das Geschehen.
 
 > [!NOTE]
-> Sie können die Anzahl der zu schreibenden Gesamtzeilen ändern, indem Sie den Wert von `SAMPLE_ROWS` ändern. Sie können die Anzahl der Zellen ändern, die als einzelne Aktion geschrieben werden sollen, indem Sie den Wert von `CELLS_IN_BATCH` ändern.
+> Sie können die Anzahl der zu schreibenden Gesamtzeilen ändern, indem Sie den Wert von `SAMPLE_ROWS` ändern. Sie können die Anzahl der Zu schreibenden Zellen als einzelne Aktion ändern, indem Sie den Wert von `CELLS_IN_BATCH` ändern.
 
 ```TypeScript
 function main(workbook: ExcelScript.Workbook) {
@@ -148,4 +148,4 @@ function getRandomString(length: number): string {
 
 ## <a name="training-video-write-a-large-dataset"></a>Schulungsvideo: Schreiben eines großen Datasets
 
-[Sehen Sie Sudhi Ramamurthy zu Fuß durch dieses Beispiel auf YouTube](https://youtu.be/BP9Kp0Ltj7U).
+[Sehen Sie sich an, wie Sudhi Ramamurthy dieses Beispiel auf YouTube durchspazieren.](https://youtu.be/BP9Kp0Ltj7U)

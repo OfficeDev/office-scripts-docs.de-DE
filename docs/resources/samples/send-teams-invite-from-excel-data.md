@@ -1,6 +1,6 @@
 ---
-title: Senden einer Teams Besprechung aus Excel Daten
-description: Erfahren Sie, wie Sie mithilfe von Office Skripts eine Teams Besprechung aus Excel Daten senden.
+title: Senden einer Teams aus Excel Daten
+description: Erfahren Sie, wie Sie Office Skripts verwenden, um eine Teams aus Excel senden.
 ms.date: 05/06/2021
 localization_priority: Normal
 ROBOTS: NOINDEX
@@ -13,30 +13,30 @@ ms.locfileid: "52545630"
 ---
 # <a name="send-teams-meeting-from-excel-data"></a>Senden Teams Besprechung aus Excel Daten
 
-Diese Lösung zeigt, wie Sie Office Skripts verwenden und Aktionen Power Automate verwenden, um Zeilen aus Excel Datei auszuwählen und sie zum Senden einer Teams Besprechungseinladung und anschließend Excel zu aktualisieren.
+Diese Lösung zeigt, wie Sie Office Skripts und Power Automate-Aktionen verwenden, um Zeilen aus der Excel-Datei auszuwählen und sie zu verwenden, um eine Teams-Besprechungs-Einladung zu senden und dann Excel.
 
 ## <a name="example-scenario"></a>Beispielszenario
 
-* Ein PERSONALreferent verwaltet den Interviewplan der Kandidaten in einer Excel-Datei.
-* Der Personalvermittler muss den Kandidaten und Interviewern die Teams Besprechungseinladung zusenden. Die Geschäftsregeln sind zu wählen:
+* Ein Personalreferent verwaltet den Interviewzeitplan der Kandidaten in einer Excel Datei.
+* Der Personalreferent muss die Teams an den Kandidaten und die Interviewer senden. Die Geschäftsregeln sind:
 
-    (a) Lädt nur diejenigen ein, für die die Einladung nicht bereits gesendet wurde, wie in der Dateispalte aufgezeichnet.
+    (a) Lädt nur diejenigen ein, für die die Einladung noch nicht wie in der Dateispalte aufgezeichnet gesendet wurde.
 
-    b) Interviewtermine in der Zukunft (keine früheren Termine).
+    (b) Interviewtermine in der Zukunft (keine vergangenen Datumsangaben).
 
-* Der Personalvermittler muss die Excel-Datei mit der Bestätigung aktualisieren, dass alle Teams Besprechungen für die berechtigten Datensätze gesendet wurden.
+* Der Personalreferent muss die Excel mit der Bestätigung aktualisieren, dass alle Teams für die berechtigten Datensätze gesendet wurden.
 
-Die Lösung besteht aus 3 Teilen:
+Die Lösung besteht aus drei Teilen:
 
 1. Office Skript zum Extrahieren von Daten aus einer Tabelle basierend auf Bedingungen und gibt ein Array von Objekten als JSON-Daten zurück.
-1. Die Daten werden dann an die Teams **Erstellen einer Teams Besprechungsaktion** zum Senden von Einladungen gesendet. Senden Sie eine Teams Besprechung pro Instanz im JSON-Array.
-1. Senden Sie dieselben JSON-Daten an ein anderes Office Skript, um den Status der Einladung zu aktualisieren.
+1. Die Daten werden dann an die Teams **Erstellen** Teams Besprechungsaktion zum Senden von Einladungen gesendet. Senden Sie Teams Besprechung pro Instanz im JSON-Array.
+1. Senden Sie dieselben JSON-Daten an ein Office Skript, um den Status der Einladung zu aktualisieren.
 
-## <a name="sample-excel-file"></a>Beispiel Excel Datei
+## <a name="sample-excel-file"></a>Beispieldatei Excel Datei
 
-Laden Sie die Datei <a href="hr-schedule.xlsx">hr-schedule.xlsx</a> in dieser Lösung verwendet und probieren Sie es selbst aus!
+Laden Sie die Datei <a href="hr-schedule.xlsx">hr-schedule.xlsx, </a> die in dieser Lösung verwendet wird, herunter, und testen Sie sie selbst!
 
-## <a name="sample-code-select-filtered-rows-from-table-as-json"></a>Beispielcode: Ausgewählte gefilterte Zeilen aus der Tabelle als JSON
+## <a name="sample-code-select-filtered-rows-from-table-as-json"></a>Beispielcode: Wählen Sie gefilterte Zeilen aus der Tabelle als JSON aus.
 
 ```TypeScript
 function main(workbook: ExcelScript.Workbook): InterviewInvite[] {
@@ -174,7 +174,7 @@ interface InterviewInvite extends BasicObj {
 }
 ```
 
-## <a name="sample-code-mark-as-invited"></a>Beispielcode: Mark als eingeladen markieren
+## <a name="sample-code-mark-as-invited"></a>Beispielcode: Als eingeladen markieren
 
 ```TypeScript
 function main(workbook: ExcelScript.Workbook, completedInvitesString: string) {
@@ -228,6 +228,6 @@ interface InterviewInvite  {
 }
 ```
 
-## <a name="training-video-send-a-teams-meeting-from-excel-data"></a>Schulungsvideo: Senden eines Teams Meetings aus Excel Daten
+## <a name="training-video-send-a-teams-meeting-from-excel-data"></a>Schulungsvideo: Senden Teams Besprechung aus Excel Daten
 
-[Sehen Sie Sudhi Ramamurthy zu Fuß durch dieses Beispiel auf YouTube](https://youtu.be/HyBdx52NOE8).
+[Sehen Sie sich an, wie Sudhi Ramamurthy dieses Beispiel auf YouTube durchspazieren.](https://youtu.be/HyBdx52NOE8)

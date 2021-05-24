@@ -1,14 +1,14 @@
 ---
 title: Grundlegendes zur Skripterstellung für Office-Skripts in Excel im Web
 description: Informationen zu Objektmodellen und andere Grundlagen, die Sie vor dem Schreiben von Office-Skripts benötigen.
-ms.date: 07/08/2020
+ms.date: 05/10/2021
 localization_priority: Priority
-ms.openlocfilehash: 685f83952fa6aecc660524a95dec57e149522820
-ms.sourcegitcommit: f7a7aebfb687f2a35dbed07ed62ff352a114525a
+ms.openlocfilehash: d930c9ee36933cb0458de8cce4f1d1adc7b6a001
+ms.sourcegitcommit: 4687693f02fc90a57ba30c461f35046e02e6f5fb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52232389"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52545100"
 ---
 # <a name="scripting-fundamentals-for-office-scripts-in-excel-on-the-web-preview"></a>Grundlegendes zur Skripterstellung für Office-Skripts in Excel im Web (Vorschau)
 
@@ -16,9 +16,15 @@ In diesem Artikel werden die technischen Aspekte von Office-Skripts vorgestellt.
 
 [!INCLUDE [Preview note](../includes/preview-note.md)]
 
-## <a name="main-function"></a>Die `main`-Funktion
+## <a name="typescript-the-language-of-office-scripts"></a>TypeScript: Die Sprache von Office-Skripts
 
-Jedes Office-Skript muss eine `main`-Funktion mit dem `ExcelScript.Workbook`-Typ als ersten Parameter enthalten. Wenn die Funktion ausgeführt wird, ruft die Excel-Anwendung diese `main`-Funktion auf, indem sie die Arbeitsmappe als ersten Parameter bereitstellt. Deshalb ist es wichtig, dass Sie die Standardsignatur der `main`-Funktion nicht ändern, nachdem Sie das Skript aufgezeichnet oder im Code-Editor ein neues Skript erstellt haben.
+Office-Skripts werden in [TypeScript](https://www.typescriptlang.org/docs/home.html) geschrieben, einer Obermenge von [JavaScript-](https://developer.mozilla.org/docs/Web/JavaScript). Wenn Sie mit JavaScript vertraut sind, können Sie dieses Wissen nutzen, da ein Teil des Codes in beiden Sprachen identisch ist. Es empfiehlt sich, über Programmierkenntnisse auf Anfängerniveau zu verfügen, bevor Sie mit dem Codieren von Office Scripts beginnen. Die folgenden Ressourcen können Ihnen dabei helfen, das Coding von Office-Skripts zu verstehen.
+
+[!INCLUDE [Preview note](../includes/coding-basics-references.md)]
+
+## <a name="main-function-the-scripts-starting-point"></a>`main`-Funktion: Ausgangspunkt des Skripts
+
+Jedes Skript muss eine `main`-Funktion mit dem `ExcelScript.Workbook`-Typ als ersten Parameter enthalten. Wenn die Funktion ausgeführt wird, ruft die Excel-Anwendung diese `main`-Funktion auf, indem sie die Arbeitsmappe als ersten Parameter bereitstellt. Ein `ExcelScript.Workbook` sollte immer der erste Parameter sein.
 
 ```TypeScript
 function main(workbook: ExcelScript.Workbook) {
@@ -26,14 +32,13 @@ function main(workbook: ExcelScript.Workbook) {
 }
 ```
 
-Der Code innerhalb der `main`-Funktion wird beim Ausführen des Skripts ausgeführt. `main` kann andere Funktionen in Ihrem Skript aufrufen, Code, der nicht in einer Funktion enthalten ist, wird jedoch nicht ausgeführt.
+Der Code innerhalb der `main`-Funktion wird beim Ausführen des Skripts ausgeführt. `main` kann andere Funktionen in Ihrem Skript aufrufen, Code, der nicht in einer Funktion enthalten ist, wird jedoch nicht ausgeführt. Skripts können keine anderen Office-Skripts aufrufen.
 
-> [!CAUTION]
-> Wenn die `main`-Funktion wie `async function main(context: Excel.RequestContext)` aussieht, verwendet das Skript das ältere asynchrone API-Modell. Weitere Informationen (auch Informationen zum Konvertieren Ihres Skripts in das aktuelle API-Modell) finden Sie unter [Unterstützung für ältere Office-Skripts, die die Async-APIs verwenden](excel-async-model.md).
+[Power Automate](https://flow.microsoft.com) ermöglicht es Ihnen, Skripts in Flüssen zu verbinden. Die Daten werden zwischen den Skripts und dem Fluss durch die Parameter und Rückgabewerte der `main`-Methode übergeben. Die Integration von Office-Skripts mit Power Automate wird im Detail unter [Ausführen von Office-Skripts mit Power Automate](power-automate-integration.md) behandelt.
 
-## <a name="object-model"></a>Objektmodell
+## <a name="object-model-overview"></a>Übersicht über das Objektmodell
 
-Wenn Sie ein Skript schreiben möchten, müssen Sie verstehen, wie die Office-Skript-APIs zusammenpassen. Die Komponenten einer Arbeitsmappe haben bestimmte Beziehungen zueinander. Auf vielerlei Weise entsprechen diese Beziehungen denen der Excel-Benutzeroberfläche.
+Wenn Sie ein Skript schreiben möchten, müssen Sie verstehen, wie die Office-Scripts-APIs zusammenpassen. Die Komponenten einer Arbeitsmappe haben bestimmte Beziehungen zueinander. Auf vielerlei Weise entsprechen diese Beziehungen denen der Excel-Benutzeroberfläche.
 
 - Eine **Arbeitsmappe** enthält mindestens ein **Arbeitsblatt**.
 - Ein **Arbeitsblatt** ermöglicht den Zugriff auf Zellen über **Bereichsobjekte**.
@@ -42,7 +47,7 @@ Wenn Sie ein Skript schreiben möchten, müssen Sie verstehen, wie die Office-Sk
 - Ein **Arbeitsblatt** enthält Sammlungen dieser Datenobjekte, die auf dem jeweiligen Blatt vorhanden sind.
 - **Arbeitsmappen** enthalten Sammlungen einiger dieser Datenobjekte (z. B. **Tabellen**) für die gesamte **Arbeitsmappe**.
 
-### <a name="workbook"></a>Arbeitsmappe
+## <a name="workbook"></a>Arbeitsmappe
 
 Jedes Skript wird von der `main`-Funktion als `workbook`-Objekt vom Typ `Workbook` bereitgestellt. Damit wird das Objekt der obersten Ebene dargestellt, durch das das Skript mit der Excel-Arbeitsmappe interagiert.
 
@@ -58,15 +63,15 @@ function main(workbook: ExcelScript.Workbook) {
 }
 ```
 
-### <a name="ranges"></a>Bereiche
+## <a name="ranges"></a>Bereiche
 
 Ein Bereich ist eine Gruppe zusammenhängender Zellen in der Arbeitsmappe. In Skripts wird in der Regel eine Notation im A1-Format verwendet (z. B. **B3** für die einzelne Zelle in Spalte **B** und Zeile **3** oder **C2:F4** für die Zellen in den Spalten **C** bis **F** und den Zeilen **2** bis **4**), um Bereiche zu definieren.
 
 Bereiche besitzen drei Haupteigenschaften: Werte, Formeln und Format. Durch diese Eigenschaften können die Zellwerte, die zu prüfenden Formeln sowie die visuelle Formatierung der Zellen abgerufen oder festgelegt werden. Sie können über `getValues`, `getFormulas` und `getFormat`auf sie zugreifen. Werte und Formeln können mit `setValues` und `setFormulas`geändert werden, wohingegen das Format ein `RangeFormat`-Objekt ist, das aus mehreren kleineren Objekten besteht, die einzeln festgelegt werden.
 
-Bereiche verwenden zweidimensionale Arrays zum Verwalten von Informationen. Lesen Sie den Abschnitt [„Arbeiten mit Bereichen“ des Artikels „Verwenden von integrierten JavaScript-Objekten in Office-Skripts“](javascript-objects.md#working-with-ranges), um weitere Informationen zum Umgang mit diesen Arrays im Office-Skripts-Framework zu erhalten.
+Bereiche verwenden zweidimensionale Arrays zum Verwalten von Informationen. Weitere Informationen zum Umgang mit Arrays im Office Scripts-Framework finden Sie unter [Arbeiten mit Bereichen](javascript-objects.md#work-with-ranges).
 
-#### <a name="range-sample"></a>Beispiel für einen Bereich
+### <a name="range-sample"></a>Beispiel für einen Bereich
 
 Das folgende Beispiel zeigt, wie Sie Verkaufsdatensätze erstellen können. In diesem Skript werden `Range`-Objekte zum Festlegen der Werte, Formeln und Teilen des Formats verwendet.
 
@@ -111,11 +116,11 @@ Wenn Sie dieses Skript ausführen, werden die folgenden Daten im aktuellen Arbei
 
 :::image type="content" source="../images/range-sample.png" alt-text="Ein Arbeitsblatt mit einem Verkaufsdatensatz, der aus Zeilen mit Werten, einer Spalte mit Formeln und formatierten Überschriften besteht":::
 
-### <a name="charts-tables-and-other-data-objects"></a>Diagramme, Tabellen und andere Datenobjekte
+## <a name="charts-tables-and-other-data-objects"></a>Diagramme, Tabellen und andere Datenobjekte
 
 Skripts können die Datenstrukturen und -visualisierungen in Excel erstellen und ändern. Tabellen und Diagramme sind zwei der am häufigsten verwendeten Objekte, die APIs unterstützen aber auch PivotTables, Formen, Bilder und vieles mehr. Diese werden in Sammlungen gespeichert, die weiter unten in diesem Artikel erläutert werden.
 
-#### <a name="creating-a-table"></a>Erstellen einer Tabelle
+### <a name="create-a-table"></a>Erstellen einer Tabelle
 
 Erstellen Sie Tabellen mithilfe von mit Daten gefüllten Bereichen. Formatierungen und Tabellensteuerelemente (z. B. Filter) werden automatisch auf den Bereich angewendet.
 
@@ -135,7 +140,7 @@ Wenn Sie dieses Skript auf das Arbeitsblatt mit den vorherigen Daten anwenden, w
 
 :::image type="content" source="../images/table-sample.png" alt-text="Ein Arbeitsblatt, das eine Tabelle enthält, die aus dem vorherigen Verkaufsdatensatz erstellt wurde.":::
 
-#### <a name="creating-a-chart"></a>Erstellen eines Diagramms
+### <a name="create-a-chart"></a>Erstellen eines Diagramms
 
 Erstellen Sie Diagramme, um die Daten in einem Bereich darzustellen. In Skripts sind Dutzende von Diagrammvarianten zulässig, die jeweils an Ihre Anforderungen angepasst werden können.
 
@@ -161,19 +166,22 @@ Wenn Sie dieses Skript auf das Arbeitsblatt mit der vorherigen Tabelle anwenden,
 
 :::image type="content" source="../images/chart-sample.png" alt-text="Ein Säulendiagramm mit den Mengen von drei Elementen aus dem vorherigen Verkaufsdatensatz":::
 
-### <a name="collections-and-other-object-relations"></a>Sammlungen und andere Objektbeziehungen
+## <a name="collections"></a>Sammlungen
 
-Auf jedes untergeordnete Objekt kann über das übergeordnete Objekt zugegriffen werden. Sie können z. B. `Worksheets` aus dem `Workbook`-Objekt lesen. Für die übergeordnete Klasse gibt eine zugehörige `get`-Methode vorhanden sein (z. B. `Workbook.getWorksheets()` oder `Workbook.getWorksheet(name)`). `get`-Methoden im Singular geben ein einzelnes Objekt zurück und benötigen eine ID oder einen Namen für das jeweilige Objekt (z. B. den Namen eines Arbeitsblatts). `get`-Methoden im Plural geben die gesamte Objektsammlung als Array zurück. Wenn die Sammlung leer ist, erhalten Sie ein leeres Array (`[]`).
+Wenn ein Excel-Objekt eine Sammlung von mindestens einem Objekt desselben Typs enthält, werden diese in einem Array gespeichert. Beispielsweise enthält ein `Workbook`-Objekt ein `Worksheet[]`. Auf dieses Array wird über die `Workbook.getWorksheets()`-Methode zugegriffen. `get`-Methoden im Plural (z. B. `Worksheet.getCharts()`) geben die gesamte Objektsammlung als Array zurück. Dieses Muster gilt für alle Office Scripts-APIs: Das `Worksheet`-Objekt beinhaltet eine `getTables()`-Methode, die ein `Table[]` zurückgibt, das `Table`-Objekt beinhaltet eine `getColumns()`-Methode, die ein `TableColumn[]` zurückgibt, und so weiter.
 
-Sobald die Sammlung abgerufen wurde, können Sie reguläre Arrayoperationen wie das Abrufen der `length` oder die Verwendung von `for`, `for..of`, `while` Schleifen für Iterationen oder die Verwendung von TypeScript-Arraymethoden wie `map` oder `forEach` verwenden. Sie können auch auf einzelne Objekte innerhalb der Sammlung zugreifen, indem Sie den Arrayindexwert verwenden. `workbook.getTables()[0]` gibt beispielsweise die erste Tabelle in der Sammlung zurück. Lesen Sie den Abschnitt [„Arbeiten mit Sammlungen“ des Artikels „Verwenden von integrierten JavaScript-Objekten in Office-Skripts“](javascript-objects.md#working-with-collections), um weitere Informationen zur Verwendung der integrierten Arrayfunktionen mit dem Office-Skripts-Framework zu erhalten.
+Das zurückgegebene Array ist ein normales Array, daher stehen alle normalen Arrayoperationen für Ihr Skript zur Verfügung. Sie können auch auf einzelne Objekte innerhalb der Sammlung zugreifen, indem Sie den Arrayindexwert verwenden. `workbook.getTables()[0]` gibt beispielsweise die erste Tabelle in der Sammlung zurück. Weitere Informationen zur Verwendung der integrierten Arrayfunktionen mit dem Office Scripts-Framework finden Sie unter [Arbeiten mit Sammlungen](javascript-objects.md#work-with-collections). 
+
+Der Zugriff auf einzelne Objekte über die Sammlung erfolgt auch über eine `get`-Methode. `get`-Methoden im Singular (z. B. `Worksheet.getTable(name)`) geben ein einzelnes Objekt zurück und benötigen eine ID oder einen Namen für das jeweilige Objekt. Diese ID oder dieser Name wird normalerweise durch das Skript oder über die Excel-Benutzeroberfläche festgelegt.
 
 Das folgende Skript ruft alle Tabellen in der Arbeitsmappe ab. Dadurch wird sichergestellt, dass die Kopfzeilen angezeigt werden, die Filterschaltflächen sichtbar sind und das Tabellenformat auf „TableStyleLight1“ festgelegt ist.
 
 ```TypeScript
 function main(workbook: ExcelScript.Workbook) {
-  /* Get table collection */
-  const tables = workbook.getTables();
-  /* Set table formatting properties */
+  // Get the table collection.
+  let tables = workbook.getTables();
+
+  // Set the table formatting properties for every table.
   tables.forEach(table => {
     table.setShowHeaders(true);
     table.setShowFilterButton(true);
@@ -182,11 +190,11 @@ function main(workbook: ExcelScript.Workbook) {
 }
 ```
 
-#### <a name="adding-excel-objects-with-a-script"></a>Hinzufügen von Excel-Objekten mit einem Skript
+## <a name="add-excel-objects-with-a-script"></a>Hinzufügen von Excel-Objekten mit einem Skript
 
 Sie können Dokumentobjekte, z. B. Tabellen oder Diagramme, programmgesteuert hinzufügen, indem Sie die entsprechende `add`-Methode aufrufen, die für das übergeordnete Objekt verfügbar ist.
 
-> [!NOTE]
+> [!IMPORTANT]
 > Fügen Sie keine Objekte manuell zu Sammlungsarrays hinzu. Verwenden Sie die `add`-Methoden in den übergeordneten Objekten. Fügen Sie z. B. `Table` mit der `Worksheet.addTable`-Methode zu `Worksheet` hinzu.
 
 Mit dem folgenden Skript wird eine Tabelle in Excel auf dem ersten Arbeitsblatt in der Arbeitsmappe erstellt. Beachten Sie, dass die erstellte Tabelle von der `addTable`-Methode zurückgegeben wird.
@@ -196,15 +204,65 @@ function main(workbook: ExcelScript.Workbook) {
     // Get the first worksheet.
     let sheet = workbook.getWorksheets()[0];
 
-    // Add a table that uses the data in C3:G10.
+    // Add a table that uses the data in A1:G10.
     let table = sheet.addTable(
-      "C3:G10",
+      "A1:G10",
        true /* True because the table has headers. */
     );
+    
+    // Give the table a name for easy reference in other scripts.
+    table.setName("MyTable");
 }
 ```
 
-## <a name="removing-excel-objects-with-a-script"></a>Entfernen von Excel-Objekten mit einem Skript
+> [!TIP]
+> Die meisten Excel-Objekte besitzen eine `setName`-Methode. Dies bietet Ihnen eine einfache Möglichkeit, später im Skript oder in anderen Skripts für dieselbe Arbeitsmappe auf Excel-Objekte zuzugreifen.
+
+### <a name="verify-an-object-exists-in-the-collection"></a>Überprüfen, ob ein Objekt in der Sammlung vorhanden ist
+
+Skripts müssen häufig überprüfen, ob eine Tabelle oder ein ähnliches Objekt vorhanden ist, bevor sie fortfahren. Verwenden Sie die Namen, die in Skripts oder über die Excel-Benutzeroberfläche angegeben sind, um erforderliche Objekte zu identifizieren und entsprechend zu handeln. `get`-Methoden geben `undefined` zurück, wenn sich das angeforderte Objekt nicht in der Sammlung befindet.
+
+Das folgende Skript fordert eine Tabelle namens "MyTable" an und verwendet eine `if...else`-Anweisung, um zu überprüfen, ob die Tabelle gefunden wurde.
+
+```TypeScript
+function main(workbook: ExcelScript.Workbook) {
+  // Get the table named "MyTable".
+  let myTable = workbook.getTable("MyTable");
+
+  // If the table is in the workbook, myTable will have a value.
+  // Otherwise, the variable will be undefined and go to the else clause.
+  if (myTable) {
+    let worksheetName = myTable.getWorksheet().getName();
+    console.log(`MyTable is on the ${worksheetName} worksheet`);
+  } else {
+    console.log(`MyTable is not in the workbook.`);
+  }
+}
+```
+
+Ein gängiges Muster in Office-Skripts besteht in der Neuerstellung einer Tabelle, eines Diagramms oder eines anderen Objekts bei jeder Ausführung des Skripts. Wenn Sie die alten Daten nicht benötigen, ist es am besten, das alte Objekt zu löschen, bevor Sie das neue erstellen. Dadurch werden Namenskonflikte oder andere Abweichungen vermieden, die evtl. durch andere Benutzern eingeführt wurden.
+
+Das folgende Skript entfernt die Tabelle mit dem Namen "MyTable", wenn sie vorhanden ist, und fügt dann eine neue Tabelle mit demselben Namen hinzu.
+
+```TypeScript
+function main(workbook: ExcelScript.Workbook) {
+  // Get the table named "MyTable" from the first worksheet.
+  let sheet = workbook.getWorksheets()[0];
+  let tableName = "MyTable";
+  let oldTable = sheet.getTable(tableName);
+
+  // If the table exists, remove it.
+  if (oldTable) {
+    oldTable.delete();
+  }
+
+  // Add a new table with the same name.
+  let newTable = sheet.addTable("A1:G10", true);
+  newTable.setName(tableName);
+}
+```
+
+## <a name="remove-excel-objects-with-a-script"></a>Entfernen von Excel-Objekten mit einem Skript
 
 Wenn Sie ein Objekt löschen möchten, rufen Sie die `delete`-Methode des Objekts auf.
 
@@ -223,7 +281,7 @@ function main(workbook: ExcelScript.Workbook) {
 }
 ```
 
-### <a name="further-reading-on-the-object-model"></a>Weitere Informationen zum Objektmodell
+## <a name="further-reading-on-the-object-model"></a>Weitere Informationen zum Objektmodell
 
 Die [Referenzdokumentation zur Office Scripts-API](/javascript/api/office-scripts/overview) besteht aus einer umfassender Liste der Objekte, die in Office-Skripts verwendet werden. Dort können Sie über das Inhaltsverzeichnis zu jedem Thema navigieren, über das Sie mehr erfahren möchten. Nachstehend finden Sie einige häufig besuchte Seiten.
 
@@ -243,3 +301,4 @@ Die [Referenzdokumentation zur Office Scripts-API](/javascript/api/office-script
 - [Auslesen von Arbeitsmappendaten mit Office-Skripts in Excel im Web](../tutorials/excel-read-tutorial.md)
 - [Referenzdokumentation zur Office Scripts-API](/javascript/api/office-scripts/overview)
 - [Verwenden von integrierten JavaScript-Objekten in Office-Skripts](javascript-objects.md)
+- [Bewährte Methoden in Office-Skripts](best-practices.md)
