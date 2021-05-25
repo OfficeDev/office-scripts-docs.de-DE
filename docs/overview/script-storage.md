@@ -1,14 +1,14 @@
 ---
 title: Office Speicher und Besitz von Skripts
 description: Informationen dazu, Office Skripts in Microsoft OneDrive zwischen Besitzern gespeichert und übertragen werden.
-ms.date: 05/17/2021
+ms.date: 05/21/2021
 localization_priority: Normal
-ms.openlocfilehash: 556d784dc1fe64873866c49ab2726a4c68abc1a7
-ms.sourcegitcommit: 4687693f02fc90a57ba30c461f35046e02e6f5fb
+ms.openlocfilehash: 25683d2b6ac2e8ac47b465b24fa087af83175806
+ms.sourcegitcommit: 09d8859d5269ada8f1d0e141f6b5a4f96d95a739
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52545801"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52631657"
 ---
 # <a name="office-scripts-file-storage-and-ownership"></a>Office Speicher und Besitz von Skripts
 
@@ -28,7 +28,16 @@ Office Skripts werden in der Datei eines Benutzers OneDrive. Sie folgen den aufb
 
 Während der Bearbeitung werden Dateien vorübergehend im Browser gespeichert. Sie müssen das Skript speichern, bevor Sie das Excel schließen, um es am speicherort OneDrive speichern. Vergessen Sie nicht, die Datei nach den Bearbeitungen zu speichern, da sich diese Bearbeitungen sonst nur in der Version der Datei des Browsers finden.
 
-## <a name="see-also"></a>Siehe auch
+## <a name="audit-office-scripts-usage-at-the-admin-level"></a>Überwachen Office Skriptverwendung auf Administratorebene
+
+Ermitteln Sie, welche Mandanten Office Skripts mit dem Überwachungsprotokoll im Compliance Center verwenden. Informationen zur Verwendung dieses Tools finden Sie unter Durchsuchen des Überwachungsprotokolls im [Security & Compliance Center](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance?view=o365-worldwide#search-the-audit-log).
+
+Um zu finden, wer Office Skripts mit dem Suchtool verwendet, fügen Sie das Feld `.osts` **Datei, Ordner oder Website** hinzu. Dadurch werden alle Dateien mit der Dateierweiterung Office Skripts gesucht. Wenn jemand in Ihrer Organisation das Feature Office Skripts verwendet hat, wird die Benutzeraktivität in den Suchergebnissen des Überwachungsprotokolls angezeigt.
+
+> [!NOTE]
+> Das Ausführen eines Skripts wird derzeit nicht protokolliert. Nur die Aktionen zum Erstellen, Anzeigen und Ändern werden protokolliert.
+
+## <a name="see-also"></a>Sehen Sie ebenfalls
 
 - [Office-Skripts in Excel für das Web](https://support.microsoft.com/office/sharing-office-scripts-in-excel-for-the-web-226eddbc-3a44-4540-acfe-fccda3d1122b)
 - [Behandeln von Problemen mit Office-Skripts](../testing/troubleshooting.md)

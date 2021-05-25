@@ -1,14 +1,14 @@
 ---
 title: Behandeln von Office skripts, die in Power Automate
 description: Tipps, Plattforminformationen und bekannte Probleme bei der Integration zwischen Office Skripts und Power Automate.
-ms.date: 05/17/2021
+ms.date: 05/18/2021
 localization_priority: Normal
-ms.openlocfilehash: e26378051c764d97b4e8d748abc85fbe095c7b03
-ms.sourcegitcommit: 4687693f02fc90a57ba30c461f35046e02e6f5fb
+ms.openlocfilehash: 3d114b8b9aceb95285ecfc78ddbd868541b9f04c
+ms.sourcegitcommit: 09d8859d5269ada8f1d0e141f6b5a4f96d95a739
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52545570"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52631664"
 ---
 # <a name="troubleshoot-office-scripts-running-in-power-automate"></a>Behandeln von Office skripts, die in Power Automate
 
@@ -23,7 +23,7 @@ Power Automate führt Ihr Skript in der ausgewählten Excel in Ihrem Namen aus. 
 
 Einige relative Referenz-APIs verursachen Fehler in Power Automate. Andere haben ein Standardverhalten, das den Status eines Benutzers impliziert. Achten Sie beim Entwerfen ihrer Skripts darauf, absolute Verweise für Arbeitsblätter und Bereiche zu verwenden. Dadurch wird der Power Automate, auch wenn Arbeitsblätter neu angeordnet werden, konsistent.
 
-### <a name="script-methods-that-fail-when-run-power-automate-flows"></a>Skriptmethoden, die beim Ausführen von Power Automate fehlschlagen
+### <a name="script-methods-that-fail-when-run-in-power-automate-flows"></a>Skriptmethoden, die fehlschlagen, wenn sie in Power Automate werden
 
 Die folgenden Methoden führen zu einem Fehler und einem Fehler, wenn sie von einem Skript in einem Power Automate werden.
 
@@ -46,6 +46,21 @@ Die folgenden Methoden verwenden ein Standardverhalten statt des aktuellen Statu
 | [Workbook](/javascript/api/office-scripts/excelscript/excelscript.workbook) | `getActiveWorksheet` | Gibt entweder das erste Arbeitsblatt in der Arbeitsmappe oder das Arbeitsblatt zurück, das derzeit von der Methode aktiviert `Worksheet.activate` wird. |
 | [Arbeitsblatt](/javascript/api/office-scripts/excelscript/excelscript.worksheet) | `activate` | Markiert das Arbeitsblatt zu Zwecken von als aktives `Workbook.getActiveWorksheet` Arbeitsblatt. |
 
+## <a name="data-refresh-not-supported-in-power-automate"></a>Datenaktualisierung wird in der Power Automate
+
+Office Skripts können Daten nicht aktualisieren, wenn sie in einem Power Automate. Methoden, z. `PivotTable.refresh` B. nichts tun, wenn sie in einem Fluss aufgerufen werden. Darüber hinaus löst Power Automate keine Datenaktualisierung für Formeln aus, die Arbeitsmappenlinks verwenden.
+
+### <a name="script-methods-that-do-nothing-when-run-in-power-automate-flows"></a>Skriptmethoden, die nichts tun, wenn sie in Power Automate werden
+
+Die folgenden Methoden tun nichts in einem Skript, wenn sie über Power Automate. Sie kehren weiterhin erfolgreich zurück und führen keine Fehler aus.
+
+| Klasse | Methode |
+|--|--|
+| [PivotTable](/javascript/api/office-scripts/excelscript/excelscript.pivottable) | `refresh` |
+| [Workbook](/javascript/api/office-scripts/excelscript/excelscript.workbook) | `refreshAllDataConnections` |
+| [Workbook](/javascript/api/office-scripts/excelscript/excelscript.workbook) | `refreshAllPivotTables` |
+| [Arbeitsblatt](/javascript/api/office-scripts/excelscript/excelscript.worksheet) | `refreshAllPivotTables` |
+
 ## <a name="select-workbooks-with-the-file-browser-control"></a>Auswählen von Arbeitsmappen mit dem Dateibrowsersteuerelement
 
 Wenn Sie den **Schritt Skript ausführen** eines Power Automate erstellen, müssen Sie auswählen, welche Arbeitsmappe Teil des Ablaufs ist. Verwenden Sie den Dateibrowser, um Ihre Arbeitsmappe auszuwählen, anstatt den Namen der Arbeitsmappe manuell eintippen zu müssen.
@@ -60,7 +75,7 @@ Excel Dateien verfügen nicht über einen inhärenten Speicherort oder eine Zeit
 
 Wenn Ihr Skript Datums- oder Zeitangaben verwendet, können Verhaltensunterschiede auftreten, wenn das Skript lokal getestet wird, im Vergleich zum Ausführen von Power Automate. Power Automate können Sie Zeiten konvertieren, formatieren und anpassen. Anweisungen zur Verwendung dieser Funktionen in Power Automate und [ `main` Parameters: Übergeben](../develop/power-automate-integration.md#main-parameters-pass-data-to-a-script) von Daten an ein Skript finden Sie unter Working with Dates and Times inside of [your flows,](https://flow.microsoft.com/blog/working-with-dates-and-times/) um zu erfahren, wie Sie diese Zeitinformationen für das Skript bereitstellen.
 
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Sehen Sie ebenfalls
 
 - [Problembehandlung Office Skripts](troubleshooting.md)
 - [Ausführen Office Skripts mit Power Automate](../develop/power-automate-integration.md)

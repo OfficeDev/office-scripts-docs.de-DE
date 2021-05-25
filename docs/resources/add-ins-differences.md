@@ -3,12 +3,12 @@ title: Unterschiede zwischen Office-Skripts und Office-Add-Ins
 description: Das Verhalten und die API-Unterschiede zwischen Office Skripts und Office Add-Ins.
 ms.date: 06/01/2020
 localization_priority: Normal
-ms.openlocfilehash: 45993d08d85cfceb299216dddbe2e7da9fd2e404
-ms.sourcegitcommit: f7a7aebfb687f2a35dbed07ed62ff352a114525a
+ms.openlocfilehash: 5c30406867da05952dedda684f765df5e7a7e53f
+ms.sourcegitcommit: 09d8859d5269ada8f1d0e141f6b5a4f96d95a739
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52232634"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52631678"
 ---
 # <a name="differences-between-office-scripts-and-office-add-ins"></a>Unterschiede zwischen Office-Skripts und Office-Add-Ins
 
@@ -28,9 +28,7 @@ Office Skripts werden derzeit nur für Excel im Web. Die Aufzeichnung, Bearbeitu
 
 ## <a name="apis"></a>APIs
 
-Es gibt keine synchrone Version der Office JavaScript-APIs für Office-Add-Ins. Die standardmäßigen Office Skript-APIs sind für die Plattform einzigartig und verfügen über zahlreiche Optimierungen und Änderungen, um die Verwendung des Paradigmas zu `load` / `sync` vermeiden.
-
-Einige der Excel [JavaScript-APIs](/javascript/api/excel?view=excel-js-preview&preserve-view=true) sind mit den Office [Skripts Async-APIs kompatibel.](../develop/excel-async-model.md) Einige Beispiele und Add-In-Codeblöcke können in Blöcke mit `Excel.run` minimaler Übersetzung portiert werden. Während die beiden Plattformen die Funktionalität gemeinsam nutzen, gibt es Lücken. Die beiden wichtigsten API-Sätze, die Office Add-Ins haben, aber Office Skripts sind keine Ereignisse und die allgemeinen APIs.
+Während die Office JavaScript-APIs für Office-Add-Ins und die Office-Skript-APIs einige Funktionen gemeinsam nutzen, sind sie unterschiedliche Plattformen. Die Office Skript-APIs sind eine optimierte, synchrone Version des Excel JavaScript-API-Modells. Der Hauptunterschied besteht in der Verwendung des `load` / `sync` Paradigmas mit Add-Ins. Darüber hinaus bieten Add-Ins APIs für Ereignisse und einen umfassenderen Funktionsumfang außerhalb von Excel, die als allgemeine APIs bezeichnet werden.
 
 ### <a name="events"></a>Ereignisse
 
@@ -40,7 +38,7 @@ Office Skripts unterstützen keine [Ereignisse](/office/dev/add-ins/excel/excel-
 
 Office Skripts können keine [allgemeinen APIs verwenden.](/javascript/api/office) Wenn Sie Authentifizierung, Dialogfelder oder andere Features benötigen, die nur von allgemeinen APIs unterstützt werden, müssen Sie wahrscheinlich ein Office-Add-In anstelle eines Office erstellen.
 
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Sehen Sie ebenfalls
 
 - [Office-Skripts in Excel im Web](../overview/excel.md)
 - [Unterschiede zwischen Office Skripts und VBA-Makros](vba-differences.md)

@@ -1,14 +1,14 @@
 ---
 title: Unterschiede zwischen Office Skripts und VBA-Makros
 description: Das Verhalten und die API-Unterschiede zwischen Office Skripts und Excel VBA-Makros.
-ms.date: 05/18/2021
+ms.date: 05/21/2021
 localization_priority: Normal
-ms.openlocfilehash: 612a5f21d935fd262a6e9fd12a3431956105636a
-ms.sourcegitcommit: 4687693f02fc90a57ba30c461f35046e02e6f5fb
+ms.openlocfilehash: 8be7388221d0f1b9e8142177de526c5c7828b426
+ms.sourcegitcommit: 09d8859d5269ada8f1d0e141f6b5a4f96d95a739
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52545588"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52631670"
 ---
 # <a name="differences-between-office-scripts-and-vba-macros"></a>Unterschiede zwischen Office Skripts und VBA-Makros
 
@@ -29,7 +29,7 @@ Office Skripts verwenden eine universelle Laufzeit für JavaScript. Dies bietet 
 
 VBA-Makros verfügen über die gleiche Sicherheitsfreigabe wie Excel. Dadurch erhalten sie vollzugriff auf Ihren Desktop. Office Skripts haben nur Zugriff auf die Arbeitsmappe, nicht auf den Computer, auf dem die Arbeitsmappe hostend ist. Darüber hinaus können keine JavaScript-Authentifizierungstoken für Skripts freigegeben werden. Dies bedeutet, dass das Skript weder über die Token des angemeldeten Benutzers noch über API-Funktionen für die Anmeldung bei einem externen Dienst verfügt, sodass es keine vorhandenen Token zum Ausführen externer Aufrufe im Namen des Benutzers verwenden kann.
 
-Administratoren haben drei Optionen für VBA-Makros: Alle Makros für den Mandanten zulassen, keine Makros für den Mandanten zulassen oder nur Makros mit signierten Zertifikaten zulassen. Dieser Mangel an Granularität macht es schwierig, einen einzelnen schlechten Akteur zu isolieren. Derzeit sind Office Skripts für einen Mandanten ein- oder ausgeschaltet. Wir arbeiten jedoch daran, Administratoren mehr Kontrolle über einzelne Skripts und Skriptersteller zu geben.
+Administratoren haben drei Optionen für VBA-Makros: Alle Makros für den Mandanten zulassen, keine Makros für den Mandanten zulassen oder nur Makros mit signierten Zertifikaten zulassen. Dieser Mangel an Granularität macht es schwierig, einen einzelnen schlechten Akteur zu isolieren. Derzeit können Office Skripts für einen gesamten Mandanten, für einen gesamten Mandanten oder für eine Gruppe von Benutzern in einem Mandanten deaktiviert sein. Administratoren haben außerdem die Kontrolle darüber, wer Skripts für andere Benutzer freigeben kann und wer Skripts in Power Automate.
 
 ## <a name="coverage"></a>Abdeckung
 
@@ -45,7 +45,7 @@ VBA hat keinen Power Automate Connector. Alle unterstützten VBA-Szenarien umfas
 
 Probieren Sie [die Anrufskripts aus einem Power Automate-Fluss-Lernprogramm](../tutorials/excel-power-automate-manual.md) aus, um mehr über Power Automate. Sie können auch das Beispiel für automatische Aufgabenerinnerungen lesen, um Office [Skripts](scenarios/task-reminders.md) zu sehen, die mit Teams über Power Automate in einem realen Szenario verbunden sind.
 
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Sehen Sie ebenfalls
 
 - [Office-Skripts in Excel im Web](../overview/excel.md)
 - [Ausführen Office Skripts mit Power Automate](../develop/power-automate-integration.md)

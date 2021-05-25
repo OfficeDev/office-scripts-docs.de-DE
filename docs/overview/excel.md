@@ -1,16 +1,16 @@
 ---
 title: Office-Skripts in Excel im Web
 description: Eine kurze Einführung in den Action Recorder und den Code Editor für Office-Skripts.
-ms.date: 05/17/2021
+ms.date: 05/24/2021
 localization_priority: Priority
-ms.openlocfilehash: 36bf679c1778375ad2fb010d34efc88678fd9f57
-ms.sourcegitcommit: 4687693f02fc90a57ba30c461f35046e02e6f5fb
+ms.openlocfilehash: fe1552ca51e8ef251f029aa11968725ad466a841
+ms.sourcegitcommit: 90ca8cdf30f2065f63938f6bb6780d024c128467
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52545811"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "52639887"
 ---
-# <a name="office-scripts-in-excel-on-the-web-preview"></a>Office-Skripts in Excel im Web (Vorschau)
+# <a name="office-scripts-in-excel-on-the-web"></a>Office-Skripts in Excel im Web
 
 Mit Office-Skripts in Excel im Web können Sie Ihre täglichen Aufgaben automatisieren. Sie können Ihre Excel-Aktionen mit dem Action Recorder aufzeichnen, wodurch ein TypeScript-Sprachskript erstellt wird. Sie können Skripts auch mit dem Code Editor erstellen und bearbeiten. Ihre Skripts können dann für ihre gesamte Organisation freigegeben werden, sodass Ihre Kollegen den Workflow entsprechend automatisieren können.
 
@@ -21,8 +21,6 @@ In dieser Reihe von Dokumenten lernen Sie, wie Sie diese Tools verwenden. Sie we
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4qdFF]
 
 ## <a name="requirements"></a>Anforderungen
-
-[!INCLUDE [Preview note](../includes/preview-note.md)]
 
 Wenn Sie Office-Skripts verwenden möchten, benötigen Sie Folgendes.
 
@@ -68,7 +66,7 @@ Lesen Sie nach Abschluss des Lernprogramms die [Grundlagen der Skripterstellung 
 
 :::image type="content" source="../images/script-sharing.png" alt-text="Die „Skriptdetails“-Seite mit der Option ‚Für andere Personen in dieser Arbeitsmappe freigeben‘":::
 
-Office-Skripts können für andere Benutzer einer Excel-Arbeitsmappe freigegeben werden. Wenn Sie ein Skript für andere Personen in einer Arbeitsmappe freigeben, wird das Skript an die Arbeitsmappe angefügt. Ihre Skripts werden in Ihrem OneDrive gespeichert. Wenn Sie ein Script freigeben, erstellen Sie einen Link zu diesem Skript in der geöffneten Arbeitsmappe.
+Office-Skripts können für andere Benutzer einer Excel-Arbeitsmappe freigegeben werden. Wenn Sie ein Skript in einer geteilten Arbeitsmappe freigeben, kann auch jeder Benutzer mit Zugriff auf die Arbeitsmappe Ihr Skript anzeigen und ausführen.
 
 Weitere Informationen zur Freigabe und zum Aufheben der Freigabe von Skripts entnehmen Sie dem Artikel [Freigeben von Office-Skripts in Excel für das Web](https://support.microsoft.com/office/sharing-office-scripts-in-excel-for-the-web-226eddbc-3a44-4540-acfe-fccda3d1122b).
 
@@ -81,7 +79,7 @@ Weitere Informationen zur Freigabe und zum Aufheben der Freigabe von Skripts ent
 
 ## <a name="next-steps"></a>Nächste Schritte
 
-Führen Sie die [Office-Skripts in Excel im Web-Lernprogramm](../tutorials/excel-tutorial.md) aus, um zu erfahren, wie Sie Ihre ersten Office-Skripts erstellen können.
+Führen Sie die [Office-Skripts in Excel im Web-Lernprogramm](../tutorials/excel-tutorial.md) aus, um zu erfahren, wie Sie Ihr erstes Office-Skript erstellen können.
 
 ## <a name="see-also"></a>Siehe auch
 

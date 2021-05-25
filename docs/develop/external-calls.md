@@ -1,23 +1,24 @@
 ---
 title: Externe API-Anruf Unterstützung in Office-Skripts
 description: Unterstützung und Anleitung zum Ausführen externer API-Aufrufe in einem Office Skripts.
-ms.date: 05/17/2021
+ms.date: 05/21/2021
 localization_priority: Normal
-ms.openlocfilehash: fd6ba0c57bf4cabb2d07421355cacff373f6706c
-ms.sourcegitcommit: 4687693f02fc90a57ba30c461f35046e02e6f5fb
+ms.openlocfilehash: 5d768b53112473c1774f8fe8257b197ffead4a63
+ms.sourcegitcommit: 09d8859d5269ada8f1d0e141f6b5a4f96d95a739
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52545082"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52631643"
 ---
 # <a name="external-api-call-support-in-office-scripts"></a>Externe API-Anruf Unterstützung in Office-Skripts
 
-Skriptautoren sollten während der Vorschauphase der Plattform kein konsistentes Verhalten bei der Verwendung externer [APIs](https://developer.mozilla.org/docs/Web/API) erwarten. Verlassen Sie sich daher bei kritischen Skriptszenarien nicht auf externe APIs.
-
-Aufrufe an externe APIs können nur über die Excel und nicht über Power Automate unter normalen [Umständen vorgenommen werden.](#external-calls-from-power-automate)
+Skripts unterstützen Anrufe an externe Dienste. Verwenden Sie diese Dienste, um Ihrer Arbeitsmappe Daten und andere Informationen zur Verfügung zu stellen.
 
 > [!CAUTION]
 > Externe Anrufe können dazu führen, dass vertrauliche Daten unerwünschten Endpunkten ausgesetzt werden. Ihr Administrator kann einen Firewallschutz gegen solche Anrufe einrichten.
+
+> [!IMPORTANT]
+> Aufrufe an externe APIs können nur über die Excel und nicht über Power Automate unter normalen [Umständen vorgenommen werden.](#external-calls-from-power-automate)
 
 ## <a name="configure-your-script-for-external-calls"></a>Konfigurieren des Skripts für externe Anrufe
 
@@ -36,7 +37,7 @@ Sie müssen die Schnittstellen des externen Diensts erlernen, um Anrufe an diese
 
 * Es gibt keine Möglichkeit zum Anmelden oder Verwenden von OAuth2-Authentifizierungsflüssen. Alle Schlüssel und Anmeldeinformationen müssen hartcodiert sein (oder aus einer anderen Quelle gelesen werden).
 * Es gibt keine Infrastruktur zum Speichern von API-Anmeldeinformationen und -Schlüsseln. Dies muss vom Benutzer verwaltet werden.
-* Dokumentcookies `localStorage` und Objekte werden nicht `sessionStorage` unterstützt. 
+* Dokumentcookies `localStorage` und Objekte werden nicht `sessionStorage` unterstützt.
 * Externe Aufrufe können dazu führen, dass vertrauliche Daten unerwünschten Endpunkten ausgesetzt werden oder externe Daten in interne Arbeitsmappen gebracht werden. Ihr Administrator kann einen Firewallschutz gegen solche Anrufe einrichten. Überprüfen Sie unbedingt lokale Richtlinien, bevor Sie sich auf externe Anrufe verlassen.
 * Achten Sie darauf, den Datendurchsatz zu überprüfen, bevor Sie eine Abhängigkeit verwenden. Beispielsweise ist das Herunterziehen des gesamten externen Datasets möglicherweise nicht die beste Option, und stattdessen sollte die Paginierung verwendet werden, um Daten in Blöcken zu erhalten.
 
@@ -86,7 +87,7 @@ Sie müssen HTTP mit [Azure AD](/connectors/webcontents/) oder andere gleichwert
 > [!WARNING]
 > Externe Anrufe, die über den Power Automate [Excel Onlineconnector](/connectors/excelonlinebusiness) vorgenommen werden, führen zu einem Fehler, um vorhandene Richtlinien zur Verhinderung von Datenverlust zu unterstützen. Skripts, die durch Power Automate ausgeführt werden, werden jedoch außerhalb Ihrer Organisation und außerhalb der Firewalls Ihrer Organisation ausgeführt. Für zusätzlichen Schutz vor böswilligen Benutzern in dieser externen Umgebung kann Ihr Administrator die Verwendung von skripts Office steuern. Ihr Administrator kann entweder den Excel Onlineconnector in Power Automate deaktivieren oder Office Skripts für Excel im Web über die Office Scripts-Administratorsteuerelemente [deaktivieren.](/microsoft-365/admin/manage/manage-office-scripts-settings)
 
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Sehen Sie ebenfalls
 
 * [Verwenden von integrierten JavaScript-Objekten in Office-Skripts](javascript-objects.md)
 * [Verwenden von externen Abrufanrufen in Office-Skripts](../resources/samples/external-fetch-calls.md)

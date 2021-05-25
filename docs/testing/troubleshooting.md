@@ -3,12 +3,12 @@ title: Problembehandlung Office Skripts
 description: Debuggen von Tipps und Techniken für Office Skripts sowie Hilferessourcen.
 ms.date: 05/17/2021
 localization_priority: Normal
-ms.openlocfilehash: ff0ac1e63084c7c541d2a4925f1f011d16fa4992
-ms.sourcegitcommit: 4687693f02fc90a57ba30c461f35046e02e6f5fb
+ms.openlocfilehash: 04ea0ea5d49d40667d249a6f4f4b109e03362940
+ms.sourcegitcommit: 09d8859d5269ada8f1d0e141f6b5a4f96d95a739
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52545556"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52631702"
 ---
 # <a name="troubleshoot-office-scripts"></a>Problembehandlung Office Skripts
 
@@ -84,11 +84,13 @@ Informationen zum Ausführen von Skripts über Power Automate finden Sie unter [
 
 [Stack Overflow](https://stackoverflow.com/questions/tagged/office-scripts) ist eine Community von Entwicklern, die bei Codierungsproblemen helfen. Häufig können Sie die Lösung für Ihr Problem über eine schnelle Stack Overflow-Suche finden. Wenn nicht, stellen Sie Ihre Frage, und markieren Sie sie mit dem Tag "office-scripts". Achten Sie darauf, zu erwähnen, dass Sie ein *Office-Skript* erstellen, nicht ein *Office-Add-In .*
 
-Wenn ein Problem mit der Office JavaScript-API besteht, erstellen Sie ein Problem im [OfficeDev/office-js-GitHub](https://github.com/OfficeDev/office-js) Repository. Mitglieder des Produktteams reagieren auf Probleme und bieten weitere Unterstützung. Das Erstellen eines Problems im **OfficeDev/office-js-Repository** weist darauf hin, dass sie einen Fehler in der Office JavaScript-API-Bibliothek gefunden haben, die das Produktteam beheben sollte.
+Wenn Sie eine Featureanforderung für Office Skripts übermitteln möchten, posten Sie Ihre Idee auf unserer [User Voice-Seite,](https://excel.uservoice.com/forums/274580-excel-for-the-web?category_id=143439)oder wenn die Featureanforderung bereits vorhanden ist, fügen Sie Ihre Stimme dafür hinzu. Stellen Sie sicher, dass Sie die Anforderung unter Excel für das Web in der Kategorie "Makros, Skripts und Add-Ins" speichern.
 
-Wenn ein Problem mit der Aktionsaufzeichnung oder dem Editor vor liegt, senden Sie Feedback über die Schaltfläche Hilfe **> Feedback** in Excel.
+Wenn ein Problem mit der Aktionsaufzeichnung oder dem Editor vor liegt, teilen Sie uns dies bitte mit. Wählen Sie im Menü Code-Editor-Aufgabenbereich **...** die **Schaltfläche** Feedback senden aus, um Probleme zu teilen.
 
-## <a name="see-also"></a>Siehe auch
+:::image type="content" source="../images/code-editor-feedback.png" alt-text="Das Überlaufmenü des Code-Editors mit der Schaltfläche &quot;Feedback senden&quot;":::
+
+## <a name="see-also"></a>Sehen Sie ebenfalls
 
 - [Bewährte Methoden in Office-Skripts](../develop/best-practices.md)
 - [Plattformbeschränkungen mit Office Skripts](platform-limits.md)
