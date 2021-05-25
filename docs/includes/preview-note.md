@@ -1,2 +1,0 @@
-> [!NOTE]
-> Office-Skripts in Excel im Web befinden sich in der öffentlichen Vorschau und müssen vom Administrator aktiviert werden. Die hier beschriebenen Funktionen können sich durch die Weiterentwicklung des Features ändern. Sie können Feedback zu Office-Skripts über die Schaltfläche **Hilfe > Feedback** in Excel senden. Sie können Feedback zur Dokumentation an das GitHub-Repository [OfficeDev/office-scripts-docs](https://github.com/OfficeDev/office-scripts-docs/issues) senden.
