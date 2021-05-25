@@ -1,26 +1,24 @@
 ---
 title: Grundlegendes zur Skripterstellung für Office-Skripts in Excel im Web
 description: Informationen zu Objektmodellen und andere Grundlagen, die Sie vor dem Schreiben von Office-Skripts benötigen.
-ms.date: 05/10/2021
+ms.date: 05/24/2021
 localization_priority: Priority
-ms.openlocfilehash: d930c9ee36933cb0458de8cce4f1d1adc7b6a001
-ms.sourcegitcommit: 4687693f02fc90a57ba30c461f35046e02e6f5fb
+ms.openlocfilehash: 629e816ea988d6b8ffe5264c701e3a1eba6c6feb
+ms.sourcegitcommit: 90ca8cdf30f2065f63938f6bb6780d024c128467
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52545100"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "52639894"
 ---
-# <a name="scripting-fundamentals-for-office-scripts-in-excel-on-the-web-preview"></a>Grundlegendes zur Skripterstellung für Office-Skripts in Excel im Web (Vorschau)
+# <a name="scripting-fundamentals-for-office-scripts-in-excel-on-the-web"></a>Grundlegendes zur Skripterstellung für Office-Skripts in Excel im Web
 
 In diesem Artikel werden die technischen Aspekte von Office-Skripts vorgestellt. Sie erfahren, wie die einzelnen Excel-Objekte zusammenarbeiten und wie der Code-Editor mit einer Arbeitsmappe synchronisiert wird.
-
-[!INCLUDE [Preview note](../includes/preview-note.md)]
 
 ## <a name="typescript-the-language-of-office-scripts"></a>TypeScript: Die Sprache von Office-Skripts
 
 Office-Skripts werden in [TypeScript](https://www.typescriptlang.org/docs/home.html) geschrieben, einer Obermenge von [JavaScript-](https://developer.mozilla.org/docs/Web/JavaScript). Wenn Sie mit JavaScript vertraut sind, können Sie dieses Wissen nutzen, da ein Teil des Codes in beiden Sprachen identisch ist. Es empfiehlt sich, über Programmierkenntnisse auf Anfängerniveau zu verfügen, bevor Sie mit dem Codieren von Office Scripts beginnen. Die folgenden Ressourcen können Ihnen dabei helfen, das Coding von Office-Skripts zu verstehen.
 
-[!INCLUDE [Preview note](../includes/coding-basics-references.md)]
+[!INCLUDE [Recommended coding resources](../includes/coding-basics-references.md)]
 
 ## <a name="main-function-the-scripts-starting-point"></a>`main`-Funktion: Ausgangspunkt des Skripts
 
@@ -91,7 +89,7 @@ function main(workbook: ExcelScript.Workbook) {
     let productData = [
         ["Almonds", 6, 7.5],
         ["Coffee", 20, 34.5],
-        ["Chocolate", 10, 9.56],
+        ["Chocolate", 10, 9.54],
     ];
     let dataRange = sheet.getRange("B3:D5");
     dataRange.setValues(productData);
@@ -115,6 +113,32 @@ function main(workbook: ExcelScript.Workbook) {
 Wenn Sie dieses Skript ausführen, werden die folgenden Daten im aktuellen Arbeitsblatt erstellt:
 
 :::image type="content" source="../images/range-sample.png" alt-text="Ein Arbeitsblatt mit einem Verkaufsdatensatz, der aus Zeilen mit Werten, einer Spalte mit Formeln und formatierten Überschriften besteht":::
+
+### <a name="the-types-of-range-values"></a>Typen von Bereichswerten
+
+Jede Zelle verfügt über einen Wert. Dieser Wert ist der in die Zelle eingegebene zugrunde liegende Wert, der sich von dem in Excel angezeigten Text unterscheiden kann. Beispielsweise könnte "02.05.2021" in der Zelle als Datum angezeigt werden, aber der tatsächliche Wert ist "44318". Diese Darstellung kann über das Zahlenformat geändert werden, aber der tatsächliche Wert und Typ in der Zelle ändern sich nur, wenn ein neuer Wert festgelegt wird.
+
+Wenn Sie den Zellwert verwenden, ist es wichtig, TypeScript mitzuteilen, welchen Wert Sie von einer Zelle oder einem Bereich erhalten möchten. Eine Zelle enthält einen der folgenden Typen: `string`, `number` oder `boolean`. Damit die zurückgegebenen Werte vom Skript als einer dieser Typen behandelt werden, müssen Sie den Typ deklarieren.
+
+Das folgende Skript ruft den Durchschnittspreis aus der Tabelle aus dem vorherigen Beispiel ab. Beachten Sie den Code `priceRange.getValues() as number[][]`. Dieser [legt](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#type-assertions) für die Bereichswerte den Typ `number[][]` fest. Alle Werte in diesem Array können dann im Skript als Zahlen behandelt werden.
+
+```TypeScript
+function main(workbook: ExcelScript.Workbook) {
+  // Get the active worksheet.
+  let sheet = workbook.getActiveWorksheet();
+
+  // Get the "Unit Price" column. 
+  // The result of calling getValues is declared to be a number[][] so that we can perform arithmetic operations.
+  let priceRange = sheet.getRange("D3:D5");
+  let prices = priceRange.getValues() as number[][];
+
+  // Get the average price.
+  let totalPrices = 0;
+  prices.forEach((price) => totalPrices += price[0]);
+  let averagePrice = totalPrices / prices.length;
+  console.log(averagePrice);
+}
+```
 
 ## <a name="charts-tables-and-other-data-objects"></a>Diagramme, Tabellen und andere Datenobjekte
 
