@@ -3,16 +3,16 @@ layout: LandingPage
 ms.topic: landing-page
 title: Office Scripts-Dokumentation
 description: Ressourcen zum Erlernen von Office-Skripts in Excel im Web, einschließlich Lernprogrammen, konzeptionellen Artikeln und Codebeispielen.
-ms.date: 10/30/2020
+ms.date: 05/24/2021
 localization_priority: Priority
-ms.openlocfilehash: 0d75d1326db0399f64f53b0b25bd6c7b49296e0b
-ms.sourcegitcommit: f7a7aebfb687f2a35dbed07ed62ff352a114525a
+ms.openlocfilehash: baa015f7f6384ccc2cdd7d8a4cbadcbc16167828
+ms.sourcegitcommit: 90ca8cdf30f2065f63938f6bb6780d024c128467
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52232669"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "52639901"
 ---
-# <a name="office-scripts-documentation-preview"></a>Office Scripts-Dokumentation (Vorschau)
+# <a name="office-scripts-documentation"></a>Office-Skripts-Dokumentation
 
 Verwenden Sie Office-Skripts in Excel im Web, um Ihre täglichen Aufgaben zu automatisieren. Lesen Sie die folgenden Artikel, um zu erfahren, wie Sie Office-Skripts erstellen und bearbeiten und wie Sie die mit der Automatisierung noch heute loslegen können.
 
