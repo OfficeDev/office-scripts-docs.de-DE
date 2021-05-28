@@ -95,6 +95,8 @@ items:
                 href: resources/scenarios/noaa-data-fetch.md
               - name: Bewertungsrechner
                 href: resources/scenarios/grade-calculator.md
+              - name: Vorstellungsgespräche in Teams planen
+                href: resources/scenarios/schedule-interviews-in-teams.md
               - name: Aufgabenerinnerungen (mit Power Automate)
                 href: resources/scenarios/task-reminders.md
           - name: Beiträge der Community
