@@ -1,14 +1,14 @@
 ---
 title: Office Skriptbeispiele
 description: Verfügbare Office Skripts Beispiele und Szenarien.
-ms.date: 05/24/2021
+ms.date: 05/25/2021
 localization_priority: Normal
-ms.openlocfilehash: 6b91e20586faa57c389459b7b8bccf18e5c3bbfa
-ms.sourcegitcommit: 90ca8cdf30f2065f63938f6bb6780d024c128467
+ms.openlocfilehash: aac730fd8a0da76728e4a455339366a75b27a0b2
+ms.sourcegitcommit: 339ecbb9914d54f919e3475018888fb5d00abe89
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/25/2021
-ms.locfileid: "52639845"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "52697658"
 ---
 # <a name="office-scripts-samples-and-scenarios"></a>Office Skriptbeispiele und -szenarien
 
@@ -55,6 +55,7 @@ Office Skripts können Teile Ihrer täglichen Routine automatisieren. Diese täg
 | [Analysieren von Webdownloads](../scenarios/analyze-web-downloads.md) | Dieses Szenario verfügt über ein Skript, das Webdatenverkehrdatensätze analysiert, um das Ursprungsland eines Benutzers zu bestimmen. Es zeigt die Fähigkeiten der Textparsierung, unter Verwendung von Unterfunktion in Skripts, anwenden bedingter Formatierung und Arbeiten mit Tabellen. |
 | [Wasserstandsdaten von NOAA abrufen und grafisch darstellen](../scenarios/noaa-data-fetch.md) | In diesem Szenario wird ein Office-Skript verwendet, um Daten aus einer externen Quelle (der [NOAA-Flut-](https://tidesandcurrents.noaa.gov/)und Currents-Datenbank) zu ziehen und die resultierenden Informationen zu graphieren. Es hebt die Fähigkeiten der Verwendung von `fetch` Daten und der Verwendung von Diagrammen hervor. |
 | [Bewertungsrechner](../scenarios/grade-calculator.md) | Dieses Szenario verfügt über ein Skript, das den Datensatz eines Kursleiters für die Noten ihrer Klasse überprüft. Es zeigt die Fähigkeiten der Fehlerüberprüfung, der Zellformatierung und regulärer Ausdrücke. |
+| [Planen von Interviews in Teams](../scenarios/schedule-interviews-in-teams.md) | In diesem Szenario wird gezeigt, wie Sie eine Excel verwenden, um Besprechungszeiten zu verwalten und einen Fluss zum Planen von Besprechungen in Teams. |
 | [Aufgabenerinnerungen](../scenarios/task-reminders.md) | In diesem Szenario wird Office Skript in einem Power Automate verwendet, um Erinnerungen an Kollegen zu senden, um den Status eines Projekts zu aktualisieren. Es unterstreicht die Fähigkeiten Power Automate Integration und Datenübertragung zu und von Skripts. |
 
 ## <a name="community-contributions-and-fun-samples"></a>Community Beiträgen und lustigen Beispielen
