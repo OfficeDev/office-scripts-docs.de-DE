@@ -1,14 +1,14 @@
 ---
 title: Office Skripts-Code-Editor-Umgebung
 description: Die Voraussetzungen und Umgebungsinformationen für Office Skripts in Excel im Web.
-ms.date: 05/24/2021
+ms.date: 05/27/2021
 localization_priority: Normal
-ms.openlocfilehash: aca97c31ba970617a9fa270021a5b5b976ae4a57
-ms.sourcegitcommit: 90ca8cdf30f2065f63938f6bb6780d024c128467
+ms.openlocfilehash: 2334b0f98dfe03d97c35e6d1f54eeb45c06a134c
+ms.sourcegitcommit: c75f71b8abde962e922927a18145dd1d9b361b05
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/25/2021
-ms.locfileid: "52639880"
+ms.lasthandoff: 06/03/2021
+ms.locfileid: "52731141"
 ---
 # <a name="office-scripts-code-editor-environment"></a>Office Skripts-Code-Editor-Umgebung
 
@@ -32,9 +32,15 @@ Office Skripts unterstützen die Verwendung externer JavaScript-Bibliotheken von
 
 ## <a name="intellisense"></a>IntelliSense
 
-IntelliSense ist ein Code-Editor-Feature, das hilft, Tippfehler und Syntaxfehler beim Bearbeiten des Skripts zu verhindern. Bei der Eingabe werden mögliche Objekt- und Feldnamen sowie eine Inlinedokumentation für jede API angezeigt.
+IntelliSense ist eine Reihe von Code-Editor-Features, die Ihnen beim Schreiben von Code helfen. Es stellt eine Dokumentation zur automatischen Vervollständigen, Zur Hervorhebung von Syntaxfehlern und inline-API bereit.
 
-Der Excel-Code-Editor verwendet dasselbe IntelliSense-Modul wie Visual Studio Code. Weitere Informationen zum Feature finden Sie unter [Visual Studio Code IntelliSense Features](https://code.visualstudio.com/docs/editor/intellisense#_intellisense-features).
+IntelliSense beim Eingeben Vorschläge, ähnlich dem vorgeschlagenen Text in Excel. Durch Drücken der Tab- oder Eingabetaste wird das vorgeschlagene Element eingefügt. Trigger IntelliSense an der aktuellen Cursorposition durch Drücken der STRG+Leertasten. Diese Vorschläge sind besonders hilfreich, wenn Sie eine Methode abschließen. Die von IntelliSense angezeigte Methodensignatur enthält eine Liste der benötigten Argumente, den Typ jedes Arguments, ob ein bestimmtes Argument erforderlich oder optional ist, und den Rückgabetyp der Methode.
+
+Zeigen Sie den Cursor auf eine Methode, Klasse oder ein anderes Codeobjekt, um weitere Informationen zu erhalten. Zeigen Sie auf einen Syntaxfehler oder Codevorschlag, dargestellt durch eine rote oder gelbe Sprechlinie, um Vorschläge zur Behebung des Problems zu sehen. Häufig bietet IntelliSense die Option "Quick Fix", um den Code automatisch zu ändern.
+
+:::image type="content" source="../images/implicit-any-editor-message.png" alt-text="Eine Fehlermeldung im Hovertext des Code-Editors mit der Schaltfläche &quot;Schnellkorrektur&quot;":::
+
+Der Office Skript-Code-Editor verwendet dasselbe IntelliSense-Modul wie Visual Studio Code. Weitere Informationen zum Feature finden Sie unter [Visual Studio Code IntelliSense Features](https://code.visualstudio.com/docs/editor/intellisense#_intellisense-features).
 
 ## <a name="keyboard-shortcuts"></a>Tastenkombinationen
 
@@ -43,7 +49,7 @@ Die meisten Tastenkombinationen für Visual Studio Code funktionieren auch im Of
 - [Tastenkombinationen für macOS](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf).
 - [Tastenkombinationen für Windows](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf).
 
-## <a name="see-also"></a>Sehen Sie ebenfalls
+## <a name="see-also"></a>Siehe auch
 
 - [Referenzdokumentation zur Office Scripts-API](/javascript/api/office-scripts/overview)
 - [Behandeln von Problemen mit Office-Skripts](../testing/troubleshooting.md)
