@@ -3,12 +3,12 @@ title: Grundlegendes zur Skripterstellung für Office-Skripts in Excel im Web
 description: Informationen zu Objektmodellen und andere Grundlagen, die Sie vor dem Schreiben von Office-Skripts benötigen.
 ms.date: 05/24/2021
 localization_priority: Priority
-ms.openlocfilehash: 629e816ea988d6b8ffe5264c701e3a1eba6c6feb
-ms.sourcegitcommit: 90ca8cdf30f2065f63938f6bb6780d024c128467
+ms.openlocfilehash: 9c3c10e283e40f1e719e73106bcdacfcff44dbc9
+ms.sourcegitcommit: 4693c8f79428ec74695328275703af0ba1bfea8f
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/25/2021
-ms.locfileid: "52639894"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53074508"
 ---
 # <a name="scripting-fundamentals-for-office-scripts-in-excel-on-the-web"></a>Grundlegendes zur Skripterstellung für Office-Skripts in Excel im Web
 
@@ -112,7 +112,7 @@ function main(workbook: ExcelScript.Workbook) {
 
 Wenn Sie dieses Skript ausführen, werden die folgenden Daten im aktuellen Arbeitsblatt erstellt:
 
-:::image type="content" source="../images/range-sample.png" alt-text="Ein Arbeitsblatt mit einem Verkaufsdatensatz, der aus Zeilen mit Werten, einer Spalte mit Formeln und formatierten Überschriften besteht":::
+:::image type="content" source="../images/range-sample.png" alt-text="Ein Arbeitsblatt mit einem Verkaufsdatensatz, der aus Zeilen mit Werten, einer Spalte mit Formeln und formatierten Überschriften besteht.":::
 
 ### <a name="the-types-of-range-values"></a>Typen von Bereichswerten
 
@@ -188,7 +188,7 @@ function main(workbook: ExcelScript.Workbook) {
 
 Wenn Sie dieses Skript auf das Arbeitsblatt mit der vorherigen Tabelle anwenden, wird das folgende Diagramm erstellt:
 
-:::image type="content" source="../images/chart-sample.png" alt-text="Ein Säulendiagramm mit den Mengen von drei Elementen aus dem vorherigen Verkaufsdatensatz":::
+:::image type="content" source="../images/chart-sample.png" alt-text="Ein Säulendiagramm mit den Mengen von drei Elementen aus dem vorherigen Verkaufsdatensatz.":::
 
 ## <a name="collections"></a>Sammlungen
 

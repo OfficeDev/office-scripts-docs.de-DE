@@ -1,28 +1,28 @@
 ---
-title: Verschieben von Zeilen über Tabellen mithilfe Office Skripts
-description: Erfahren Sie, wie Sie Zeilen über Tabellen verschieben, indem Sie Filter speichern und anschließend die Filter verarbeiten und erneut anwenden.
+title: Verschieben von Zeilen über Tabellen mithilfe von Office Skripts
+description: Erfahren Sie, wie Sie Zeilen über Tabellen verschieben, indem Sie Filter speichern und dann die Filter verarbeiten und erneut anwenden.
 ms.date: 05/06/2021
 localization_priority: Normal
-ms.openlocfilehash: 02fa99ff0444924bd2d44ad4fa421fe66fbd7272
-ms.sourcegitcommit: 763d341857bcb209b2f2c278a82fdb63d0e18f0a
+ms.openlocfilehash: c850ed055457f6733694027469a96a87e74ef66a
+ms.sourcegitcommit: 4693c8f79428ec74695328275703af0ba1bfea8f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/08/2021
-ms.locfileid: "52285941"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53074452"
 ---
-# <a name="move-rows-across-tables-by-saving-filters-then-processing-and-reapplying-the-filters"></a>Verschieben von Zeilen über Tabellen durch Speichern von Filtern und anschließende Verarbeitung und erneutes Anwenden der Filter
+# <a name="move-rows-across-tables-by-saving-filters-then-processing-and-reapplying-the-filters"></a>Verschieben von Zeilen über Tabellen durch Speichern von Filtern, anschließendes Verarbeiten und erneutes Anwenden der Filter
 
 In diesem Skript werden folgende Schritte ausgeführt:
 
-* Wählt Zeilen aus der Quelltabelle aus, in denen der Wert in einer Spalte einem _Wert entspricht._
-* Verschiebt alle ausgewählten Zeilen in eine andere (Ziel-)Tabelle eines anderen Arbeitsblatts.
-* Verwendet die relevanten Filter in der Quelltabelle erneut.
+* Markiert Zeilen aus der Quelltabelle, in denen der Wert in einer Spalte gleich _einem Wert_ ist.
+* Verschiebt alle markierten Zeilen in eine andere (Ziel-)Tabelle eines anderen Arbeitsblatts.
+* Wendet die relevanten Filter erneut auf die Quelltabelle an.
 
-:::image type="content" source="../../images/table-filter-before-after.png" alt-text="Screenshots der Arbeitsmappe vor und nach":::
+:::image type="content" source="../../images/table-filter-before-after.png" alt-text="Screenshots der Arbeitsmappe vor und nach.":::
 
-## <a name="sample-excel-file"></a>Beispieldatei Excel Datei
+## <a name="sample-excel-file"></a>Beispieldatei für Excel
 
-Laden Sie die Datei <a href="input-table-filters.xlsx">input-table-filters.xlsx, </a> die in dieser Lösung verwendet wird, um sie selbst auszuprobieren!
+Laden Sie die Datei <a href="input-table-filters.xlsx"> herunter, die </a> in dieser Lösung verwendetinput-table-filters.xlsx, um sie selbst auszuprobieren!
 
 ## <a name="sample-code-move-rows-using-range-values"></a>Beispielcode: Verschieben von Zeilen mithilfe von Bereichswerten
 
@@ -108,7 +108,7 @@ function main(workbook: ExcelScript.Workbook) {
 
 ## <a name="training-video-move-rows-across-tables"></a>Schulungsvideo: Verschieben von Zeilen über Tabellen
 
-[Sehen Sie sich an, wie Sudhi Ramamurthy dieses Beispiel auf YouTube durchspazieren.](https://youtu.be/_3t3Pk4i2L0) Die Videolösung enthält zwei Skripts. Der Hauptunterschied besteht in der Auswahl der Zeilen.
+[Sehen Sie sich dieses Beispiel auf YouTube an.](https://youtu.be/_3t3Pk4i2L0) In der Videolösung werden zwei Skripts angezeigt. Der Hauptunterschied besteht darin, wie die Zeilen ausgewählt werden.
 
-* In der ersten Variante werden die Zeilen durch Anwenden des Tabellenfilters und Lesen des sichtbaren Bereichs ausgewählt.
-* In der zweiten werden die Zeilen durch Lesen der Werte und Extrahieren der Zeilenwerte ausgewählt (was im Beispiel auf dieser Seite verwendet wird).
+* In der ersten Variante werden die Zeilen ausgewählt, indem der Tabellenfilter angewendet und der sichtbare Bereich gelesen wird.
+* In der zweiten werden die Zeilen ausgewählt, indem die Werte gelesen und die Zeilenwerte extrahiert werden (dies wird im Beispiel auf dieser Seite verwendet).

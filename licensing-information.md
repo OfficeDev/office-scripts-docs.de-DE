@@ -59,7 +59,7 @@ DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, UND DER AUTOR LEHNT ALLE GEWÄHR
 
    3. Erteilung einer Patentlizenz. Vorbehaltlich der Bedingungen dieser Lizenz gewährt jeder Mitwirkende Ihnen eine unbefristete, weltweite, nicht exklusive, gebührenfreie, lizenzfreie, widerrufliche (außer in diesem Abschnitt aufgeführte) Lizenz zum Erteilen, Verwenden, Anbieten, Verkaufen, Importieren und anderweitigen Übertragen der Arbeit, wobei eine solche Lizenz nur für die von einem solchen Mitwirkenden lizenzierten Ansprüche gilt, die durch seinen Beitrag(n) allein oder durch kombination seiner Mitwirkenden notwendigerweise nicht unterstützt werden. die Arbeit, an die solche Beiträge übermittelt wurden. Wenn Sie einen Rechtsstreitigkeiten gegen eine Entität (einschließlich eines Kreuzanspruchs oder einer Gegenforderung in einer Rechtsstreitigkeiten) einreichen, die angibt, dass das in das Arbeitswerk eingebundene Projekt oder ein Beitrag eine direkte oder mitwirkende Verletzung des Urheberrechts darstellt, werden alle Ihnen unter dieser Lizenz für dieses Werk erteilten Lizenzen ab dem Datum, an dem ein solcher Rechtsstreitigkeiten eingereicht wird, beendet.
 
-   4. Umverteilung. Sie dürfen Kopien des Werks oder des Abgeleiteten Werks auf beliebigem Medium, mit oder ohne Änderungen und in Quell- oder Objektform reproduzieren und verteilen, vorausgesetzt, Dass Sie die folgenden Bedingungen erfüllen:
+   4. Umverteilung. Sie dürfen Kopien des Werks oder des Abgeleiteten Werks auf beliebigem Medium, mit oder ohne Änderungen und in Quell- oder Objektform reproduzieren und verteilen, sofern Sie die folgenden Bedingungen erfüllen:
 
       (a) Sie müssen allen anderen Empfängern der Arbeits- oder Ableitungsarbeiten eine Kopie dieser Lizenz erteilen; Und
 
@@ -157,7 +157,7 @@ Copyright (c) 2015-2018 Google, Inc., Netflix, Inc., Microsoft Corp. und Mitwirk
 
  3. Erteilung einer Patentlizenz. Vorbehaltlich der Bedingungen dieser Lizenz gewährt jeder Mitwirkende Ihnen eine unbefristete, weltweite, nicht exklusive, gebührenfreie, lizenzfreie, widerrufliche (außer in diesem Abschnitt aufgeführte) Lizenz zum Erteilen, Verwenden, Anbieten, Verkaufen, Importieren und anderweitigen Übertragen der Arbeit, wobei eine solche Lizenz nur für die von einem solchen Mitwirkenden lizenzierten Ansprüche gilt, die durch seinen Beitrag(n) allein oder durch kombination seiner Mitwirkenden notwendigerweise nicht unterstützt werden. die Arbeit, an die solche Beiträge übermittelt wurden. Wenn Sie einen Rechtsstreitigkeiten gegen eine Entität (einschließlich eines Kreuzanspruchs oder einer Gegenforderung in einer Rechtsstreitigkeiten) einreichen, die angibt, dass das in das Arbeitswerk eingebundene Projekt oder ein Beitrag eine direkte oder mitwirkende Verletzung des Urheberrechts darstellt, werden alle Ihnen unter dieser Lizenz für dieses Werk erteilten Lizenzen ab dem Datum, an dem ein solcher Rechtsstreitigkeiten eingereicht wird, beendet.
 
- 4. Umverteilung. Sie dürfen Kopien des Werks oder des Abgeleiteten Werks auf beliebigem Medium, mit oder ohne Änderungen und in Quell- oder Objektform reproduzieren und verteilen, vorausgesetzt, Dass Sie die folgenden Bedingungen erfüllen:
+ 4. Umverteilung. Sie dürfen Kopien des Werks oder des Abgeleiteten Werks auf beliebigem Medium, mit oder ohne Änderungen und in Quell- oder Objektform reproduzieren und verteilen, sofern Sie die folgenden Bedingungen erfüllen:
 
     (a) Sie müssen allen anderen Empfängern der Arbeits- oder Ableitungsarbeiten eine Kopie dieser Lizenz erteilen; Und
 
@@ -177,6 +177,152 @@ Copyright (c) 2015-2018 Google, Inc., Netflix, Inc., Microsoft Corp. und Mitwirk
  7. Haftungsausschluss. Sofern nicht nach geltendem Recht erforderlich oder schriftlich zugestimmt, stellt der Licensor die Arbeit (und jeder Mitwirkende stellt seine Beiträge bereit) "WIE BESEHEN", OHNE GEWÄHRLEISTUNGEN ODER BEDINGUNGEN JEGLICHEr Art, entweder ausdrücklich oder konkludent, einschließlich, ohne Einschränkung, jegliche Gewährleistungen oder Bedingungen des TITELs, NICHTVERLETZUNG, HANDELSÜBLICHKEIT oder EIGNUNG FÜR EINEN BESTIMMTEN ZWECK. Sie sind allein dafür verantwortlich, die Geeignetheit der Verwendung oder Verteilung der Arbeit zu bestimmen und alle Risiken im Zusammenhang mit Ihrer Ausübung von Berechtigungen unter dieser Lizenz zu übernehmen.
 
  8. Limitation of Liability. In keinem Fall und ohne rechtstheoretische Hinweise, sei es in Form von Unerlaubtem (einschließlich Fahrlässigkeit), Vertrag oder anderweitig, es sei denn, dies ist nach geltendem Recht erforderlich (z. B. absichtliche und grobe Handlungen) oder schriftlich vereinbart, hafte jedem Mitwirkenden für Schäden, einschließlich direkter, indirekter, spezieller, zufälliger oder Folgeschäden jeglicher Art, die als Ergebnis dieser Lizenz oder aufgrund der Nutzung oder Unfähigkeit zur Nutzung der Arbeit entstehen (einschließlich, aber nicht beschränkt auf Schäden aufgrund von Verlust des Firmenwerts, Arbeitsausfall, Computerfehler oder Fehlfunktion oder jeglichen anderen kommerziellen Schäden oder Verlusten), auch wenn dieser Mitwirkende auf die Möglichkeit solcher Schäden hingewiesen wurde.
+
+ 9. Akzeptieren von Garantie oder zusätzlicher Haftung. Während sie die Arbeit oder die abgeleiteten Arbeiten weitervertreiben, können Sie die Annahme des Supports, der Garantie, der Freistellung oder anderer Haftungsverpflichtungen und/oder Rechte, die mit dieser Lizenz in Einklang stehen, anbieten und eine Gebühr berechnen. Wenn Sie solche Verpflichtungen akzeptieren, dürfen Sie jedoch nur in Ihrem eigenen Namen und in Ihrer alleinigen Verantwortung handeln, nicht im Namen eines anderen Mitwirkenden, und nur, wenn Sie zustimmen, jeden Mitwirkenden für jegliche Haftung, die durch einen solchen Mitwirkenden entsteht, oder ansprüche, die gegen diesen Mitwirkenden entstehen, schadlos zu halten, indem Sie eine solche Garantie oder zusätzliche Haftung akzeptieren.
+
+ ENDE DER GESCHÄFTSBEDINGUNGEN
+
+ ANHANG: Anwenden der Apache-Lizenz auf Ihre Arbeit.
+
+    Um die Apache-Lizenz auf Ihre Arbeit anzuwenden, fügen Sie den folgenden Textbausteinhinweis an, wobei die Felder durch Klammern "[]" durch Ihre eigenen identifizierenden Informationen ersetzt werden. (Schließen Sie die Klammern nicht ein!)  Der Text sollte in die entsprechende Kommentarsyntax für das Dateiformat eingeschlossen werden. Es wird außerdem empfohlen, einen Datei- oder Klassennamen und eine Beschreibung des Zwecks auf derselben "gedruckten Seite" wie der Urheberrechtshinweis für eine einfachere Identifizierung in Archiven von Drittanbietern aufzunehmen.
+
+ Copyright (c) 2015-2018 Google, Inc., Netflix, Inc., Microsoft Corp. und Mitwirkende
+
+ Lizenziert unter der Apache-Lizenz, Version 2.0 (die "Lizenz"); Sie dürfen diese Datei nur in Übereinstimmung mit der Lizenz verwenden.
+ Eine Kopie der Lizenz erhalten Sie unter
+
+     http://www.apache.org/licenses/LICENSE-2.0
+
+ Sofern nicht nach geltendem Recht vorgeschrieben oder schriftlich zugestimmt wurde, wird die unter der Lizenz verteilte Software "WIE BESEHEN", OHNE GEWÄHRLEISTUNGEN ODER BEDINGUNGEN JEGLICHEr Art, entweder ausdrücklich oder konkludent, verteilt.
+ Informationen zu den spezifischen Berechtigungen und Einschränkungen unter der Lizenz finden Sie in der Lizenz.
+ 
+
+
+                               Apache License
+                         Version 2.0, January 2004
+                      http://www.apache.org/licenses/
+
+ NUTZUNGSBEDINGUNGEN, NUTZUNGSBEDINGUNGEN UND VERTEILUNG
+
+ 1. Definitionen.
+
+    "Lizenz" bezeichnet die Nutzungs-, Wiedergabe- und Verteilungsbedingungen gemäß den Abschnitten 1 bis 9 dieses Dokuments.
+
+    "Licensor" ist der Copyrightbesitzer oder die Entität, die vom Copyrightbesitzer autorisiert ist, der die Lizenz gewährt.
+
+    "Juristische Person" bezeichnet die Vereinigung der handelnden Entität und aller anderen Entitäten, die diese kontrollieren, von dieser gesteuert werden oder der gemeinsamen Kontrolle mit dieser Entität unterliegen. Im Sinne dieser Definition bedeutet "Kontrolle" (i) die Direkte oder indirekte Macht, die Richtung oder Verwaltung einer solchen Entität zu verursachen, sei es vertraglich oder anderweitig, oder (ii) den Besitz von 50 % (50 %) oder mehr der ausstehenden Aktien oder (iii) des nützbringenden Besitzes einer solchen Entität.
+
+    "Sie" (oder "Ihr") bezeichnet eine einzel- oder juristische Person, die die durch diese Lizenz erteilten Berechtigungen einbenennt.
+
+    "Quellformular" ist das bevorzugte Formular für Änderungen, einschließlich, aber nicht beschränkt auf Softwarequellcode, Dokumentationsquelle und Konfigurationsdateien.
+
+    Objekt bezeichnet jede Form, die sich aus der maschinellen Transformation oder Übersetzung eines Quellformulars ergibt, einschließlich, aber nicht beschränkt auf kompilierten Objektcode, generierte Dokumentation und Konvertierungen in andere Medientypen.
+
+    "Arbeit" bezeichnet die Arbeit der Autorenschaft, sei es im Quell- oder Objektformat, die unter der Lizenz zur Verfügung gestellt wird, wie durch einen Urheberrechtshinweis angegeben, der in dem Werk enthalten oder diesem zugeordnet ist (ein Beispiel finden Sie in der nachstehenden Anlage).
+
+    Abgeleitete Arbeiten sind alle Arbeiten, ob in Quell- oder Objektform, die auf dem Werk basieren (oder daraus abgeleitet sind), und für die die überarbeitungen, Anmerkungen, Ausführungen oder sonstigen Änderungen als Ganzes ein ursprüngliches Dokument darstellen. Im Sinne dieser Lizenz dürfen abgeleitete Arbeiten keine Arbeiten enthalten, die von den Schnittstellen der Arbeits- und Ableitungsarbeiten getrennt bleiben oder lediglich mit den Schnittstellen von "Work" und "Derivatives Works" verknüpft (oder durch Namen gebunden) werden.
+
+    "Beitrag" bezeichnet alle Arbeiten der Autorenschaft, einschließlich der ursprünglichen Version des Werks und alle Änderungen oder Ergänzungen an diesem Werk oder dieser Abgeleiteten Arbeit, die absichtlich an den Licensor übermittelt werden, um vom Copyrightbesitzer oder von einer Einzelperson oder juristischen Person, die berechtigt ist, diese im Namen des Copyrightbesitzers einzureichen, in das Werk aufzunehmen. Im Sinne dieser Definition bedeutet "übermittelt" jede Form von elektronischer, verbaler oder schriftlicher Kommunikation, die an den Licensor oder seine Vertreter gesendet wird, einschließlich, aber nicht beschränkt auf die Kommunikation über elektronische Adresslisten, Quellcodeverwaltungssysteme und Problemverfolgungssysteme, die vom Licensor oder im Auftrag des Licensors verwaltet werden, um die Arbeit zu besprechen und zu verbessern. , aber ohne Kommunikation, die vom Copyrightbesitzer auffallend gekennzeichnet oder anderweitig schriftlich als "Kein Beitrag" gekennzeichnet ist.
+
+    "Mitwirkender" ist ein Licensor und jede natürliche oder juristische Person, für die ein Beitrag vom Licensor empfangen und anschließend in die Arbeit eingebunden wurde.
+
+ 2. Erteilung einer Copyright-Lizenz. Vorbehaltlich der Bedingungen dieser Lizenz gewährt jeder Mitwirkende Ihnen eine unbefristete, weltweite, nicht exklusive, gebührenfreie, lizenzfreie, widerrufliche Copyrightlizenz zur Veröffentlichung, Vorbereitung von Ableitungsarbeiten von, öffentlicher Anzeige, öffentlicher Ausführung, Unterlizenz und Verteilung der Arbeit und solcher abgeleiteter Arbeiten in Quell- oder Objektform.
+
+ 3. Erteilung einer Patentlizenz. Vorbehaltlich der Bedingungen dieser Lizenz gewährt jeder Mitwirkende Ihnen eine unbefristete, weltweite, nicht exklusive, gebührenfreie, lizenzfreie, widerrufliche (außer in diesem Abschnitt aufgeführte) Lizenz zum Erteilen, Verwenden, Anbieten, Verkaufen, Importieren und anderweitigen Übertragen der Arbeit, wobei eine solche Lizenz nur für die von einem solchen Mitwirkenden lizenzierten Ansprüche gilt, die durch seinen Beitrag(n) allein oder durch kombination seiner Mitwirkenden notwendigerweise nicht unterstützt werden. die Arbeit, an die solche Beiträge übermittelt wurden. Wenn Sie einen Rechtsstreitigkeiten gegen eine Entität (einschließlich eines Kreuzanspruchs oder einer Gegenforderung in einer Rechtsstreitigkeiten) einreichen, die angibt, dass das in das Arbeitswerk eingebundene Werk oder ein Beitrag eine direkte oder mitwirkende Verletzung des Rechts darstellt, enden alle Ihnen unter dieser Lizenz für diese Arbeit erteilten Lizenzen ab dem Datum, an dem ein solcher Rechtsstreitigkeiten eingereicht wird.
+
+ 4. Umverteilung. Sie dürfen Kopien des Werks oder des Abgeleiteten Werks auf beliebigem Medium, mit oder ohne Änderungen und in Quell- oder Objektform reproduzieren und verteilen, sofern Sie die folgenden Bedingungen erfüllen:
+
+    (a) Sie müssen allen anderen Empfängern der Arbeits- oder Ableitungsarbeiten eine Kopie dieser Lizenz erteilen; Und
+
+    (b) Sie müssen dafür sorgen, dass alle geänderten Dateien hervorgehobene Benachrichtigungen enthalten, dass Sie die Dateien geändert haben; Und
+
+    (c) Sie müssen alle Copyright-, Patent-, Marken- und Zuschreibungshinweise aus dem Quellformular des Werks in form von abgeleiteten Arbeiten, die Sie vertreiben, aufbewahren, mit Ausnahme der Benachrichtigungen, die sich nicht auf einen Teil der Abgeleiteten Arbeiten beziehen; Und
+
+    (d) Wenn die Arbeit eine Textdatei vom Typ "NOTICE" als Teil ihrer Verteilung enthält, müssen alle von Ihnen verteilten abgeleiteten Arbeiten eine lesbare Kopie der in einer solchen NOTICE-Datei enthaltenen Attributionshinweise enthalten, mit Ausnahme der Benachrichtigungen, die sich nicht auf einen Teil der Abgeleiteten Arbeiten beziehen, an mindestens einem der folgenden Stellen : in einer NOTICE-Textdatei, die als Teil der Abgeleiteten Arbeiten verteilt wird; im Quellformular oder in der Dokumentation, sofern dies zusammen mit den Abgeleiteten Arbeiten bereitgestellt wird; oder innerhalb einer von den Abgeleiteten Arbeiten generierten Anzeige, ob und wo solche Drittanbieter-Benachrichtigungen normalerweise angezeigt werden. Der Inhalt der NOTICE-Datei dient nur zu Informationszwecken und ändert die Lizenz nicht. Sie können Ihre eigenen Attributionshinweise in "Ableitungsarbeiten" hinzufügen, die Sie zusammen oder als Nachtrag zum HINWEIS-Text aus dem Work verteilen, vorausgesetzt, dass solche zusätzlichen Attributionshinweise nicht als Änderung der Lizenz interpretiert werden können.
+
+    Sie können Ihre eigenen Urheberrechtsbestimmungen zu Ihren Änderungen hinzufügen und zusätzliche oder unterschiedliche Lizenzbedingungen für die Verwendung, Wiederverwendung oder Verteilung Ihrer Änderungen oder für alle derartigen abgeleiteten Arbeiten als Ganzes bereitstellen, sofern Ihre Nutzung, Vermehrung und Verteilung des Werks andernfalls den in dieser Lizenz angegebenen Bedingungen entspricht.
+
+ 5. Übermittlung von Beiträgen. Sofern Sie nichts anderes ausdrücklich angeben, gelten alle beiträge, die sie absichtlich zur Aufnahme in die Arbeit von Ihnen an den Licensor übermittelt haben, unter den Bedingungen dieser Lizenz, ohne dass zusätzliche Bedingungen gelten.
+    Ungeachtet der oben genannten Bestimmungen ersetzt oder ändert nichts die Bedingungen eines separaten Lizenzvertrags, den Sie möglicherweise mit dem Licensor in Bezug auf solche Beiträge ausgeführt haben.
+
+ 6. Marken. Diese Lizenz gewährt keine Berechtigung zur Verwendung der Handelsnamen, Marken, Dienstmarken oder Produktnamen des Licensors, es sei denn, dies ist für eine angemessene und übliche Verwendung erforderlich, um den Ursprung des Auftrags zu beschreiben und den Inhalt der NOTICE-Datei zu reproduzieren.
+
+ 7. Haftungsausschluss. Sofern nicht nach geltendem Recht erforderlich oder schriftlich zugestimmt, stellt der Licensor die Arbeit (und jeder Mitwirkende stellt seine Beiträge bereit) "WIE BESEHEN", OHNE GEWÄHRLEISTUNGEN ODER BEDINGUNGEN JEGLICHEr Art, entweder ausdrücklich oder konkludent, einschließlich, ohne Einschränkung, jegliche Gewährleistungen oder Bedingungen des TITELs, NICHTVERLETZUNG, HANDELSÜBLICHKEIT oder EIGNUNG FÜR EINEN BESTIMMTEN ZWECK. Sie sind allein dafür verantwortlich, die Geeignetheit der Verwendung oder Verteilung der Arbeit zu bestimmen und alle Risiken im Zusammenhang mit Ihrer Ausübung von Berechtigungen unter dieser Lizenz zu übernehmen.
+
+ 8. Limitation of Liability. In keinem Fall und ohne rechtstheoretische Hinweise, sei es in Form von Unerlaubtem (einschließlich Fahrlässigkeit), Vertrag oder anderweitig, es sei denn, dies ist nach geltendem Recht erforderlich (z. B. absichtliche und grobe Handlungen) oder schriftlich vereinbart, hafte jedem Mitwirkenden für Schäden, einschließlich direkter, indirekter, spezieller, zufälliger oder Folgeschäden jeglicher Art, die als Ergebnis dieser Lizenz oder aufgrund der Nutzung oder Unfähigkeit zur Nutzung der Arbeit entstehen (einschließlich, aber nicht beschränkt auf Schäden aufgrund von Verlust des Firmenwerts, Arbeitsausfall, Computerfehler oder Fehlfunktion oder jeglichen anderen kommerziellen Schäden oder Verlusten), auch wenn dieser Mitwirkende auf die Möglichkeit solcher Schäden hingewiesen wurde.
+
+ 9. Akzeptieren von Garantie oder zusätzlicher Haftung. Während sie die Arbeit oder die abgeleiteten Arbeiten weitervertreiben, können Sie die Annahme des Supports, der Garantie, der Freistellung oder anderer Haftungsverpflichtungen und/oder Rechte, die mit dieser Lizenz in Einklang stehen, anbieten und eine Gebühr berechnen. Wenn Sie solche Verpflichtungen akzeptieren, dürfen Sie jedoch nur in Ihrem eigenen Namen und in Ihrer alleinigen Verantwortung handeln, nicht im Namen eines anderen Mitwirkenden, und nur, wenn Sie zustimmen, jeden Mitwirkenden für jegliche Haftung, die durch einen solchen Mitwirkenden entsteht, oder ansprüche, die gegen diesen Mitwirkenden entstehen, schadlos zu halten, indem Sie eine solche Garantie oder zusätzliche Haftung akzeptieren.
+
+ ENDE DER GESCHÄFTSBEDINGUNGEN
+
+ ANHANG: Anwenden der Apache-Lizenz auf Ihre Arbeit.
+
+    Um die Apache-Lizenz auf Ihre Arbeit anzuwenden, fügen Sie den folgenden Textbausteinhinweis an, wobei die Felder durch Klammern "[]" durch Ihre eigenen identifizierenden Informationen ersetzt werden. (Schließen Sie die Klammern nicht ein!)  Der Text sollte in die entsprechende Kommentarsyntax für das Dateiformat eingeschlossen werden. Es wird außerdem empfohlen, einen Datei- oder Klassennamen und eine Beschreibung des Zwecks auf derselben "gedruckten Seite" wie der Urheberrechtshinweis für eine einfachere Identifizierung in Archiven von Drittanbietern aufzunehmen.
+
+ Copyright (c) 2015-2018 Google, Inc., Netflix, Inc., Microsoft Corp. und Mitwirkende
+
+ Lizenziert unter der Apache-Lizenz, Version 2.0 (die "Lizenz"); Sie dürfen diese Datei nur in Übereinstimmung mit der Lizenz verwenden.
+ Eine Kopie der Lizenz erhalten Sie unter
+
+     http://www.apache.org/licenses/LICENSE-2.0
+
+ Sofern nicht nach geltendem Recht vorgeschrieben oder schriftlich zugestimmt wurde, wird die unter der Lizenz verteilte Software "WIE BESEHEN", OHNE GEWÄHRLEISTUNGEN ODER BEDINGUNGEN JEGLICHEr Art, entweder ausdrücklich oder konkludent, verteilt.
+ Informationen zu den spezifischen Berechtigungen und Einschränkungen unter der Lizenz finden Sie in der Lizenz.
+ 
+
+
+                               Apache License
+                         Version 2.0, January 2004
+                      http://www.apache.org/licenses/
+
+ NUTZUNGSBEDINGUNGEN, NUTZUNGSBEDINGUNGEN UND VERTEILUNG
+
+ 1. Definitionen.
+
+    "Lizenz" bezeichnet die Nutzungs-, Wiedergabe- und Verteilungsbedingungen gemäß den Abschnitten 1 bis 9 dieses Dokuments.
+
+    "Licensor" ist der Copyrightbesitzer oder die Entität, die vom Copyrightbesitzer autorisiert ist, der die Lizenz gewährt.
+
+    "Juristische Person" bezeichnet die Vereinigung der handelnden Entität und aller anderen Entitäten, die diese kontrollieren, von dieser gesteuert werden oder der gemeinsamen Kontrolle mit dieser Entität unterliegen. Im Sinne dieser Definition bedeutet "Kontrolle" (i) die Direkte oder indirekte Macht, die Richtung oder Verwaltung einer solchen Entität zu verursachen, sei es vertraglich oder anderweitig, oder (ii) den Besitz von 50 % (50 %) oder mehr der ausstehenden Aktien oder (iii) des nützbringenden Besitzes einer solchen Entität.
+
+    "Sie" (oder "Ihr") bezeichnet eine einzel- oder juristische Person, die die durch diese Lizenz erteilten Berechtigungen einbenennt.
+
+    "Quellformular" ist das bevorzugte Formular für Änderungen, einschließlich, aber nicht beschränkt auf Softwarequellcode, Dokumentationsquelle und Konfigurationsdateien.
+
+    Objekt bezeichnet jede Form, die sich aus der maschinellen Transformation oder Übersetzung eines Quellformulars ergibt, einschließlich, aber nicht beschränkt auf kompilierten Objektcode, generierte Dokumentation und Konvertierungen in andere Medientypen.
+
+    "Arbeit" bezeichnet die Arbeit der Autorenschaft, sei es im Quell- oder Objektformat, die unter der Lizenz zur Verfügung gestellt wird, wie durch einen Urheberrechtshinweis angegeben, der in dem Werk enthalten oder diesem zugeordnet ist (ein Beispiel finden Sie in der nachstehenden Anlage).
+
+    Abgeleitete Arbeiten sind alle Arbeiten, ob in Quell- oder Objektform, die auf dem Werk basieren (oder daraus abgeleitet sind), und für die die überarbeitungen, Anmerkungen, Ausführungen oder sonstigen Änderungen als Ganzes ein ursprüngliches Dokument darstellen. Im Sinne dieser Lizenz dürfen abgeleitete Arbeiten keine Arbeiten enthalten, die von den Schnittstellen der Arbeits- und Ableitungsarbeiten getrennt bleiben oder lediglich mit den Schnittstellen von "Work" und "Derivatives Works" verknüpft (oder durch Namen gebunden) werden.
+
+    "Beitrag" bezeichnet alle Arbeiten der Autorenschaft, einschließlich der ursprünglichen Version des Werks und alle Änderungen oder Ergänzungen an diesem Werk oder dieser Abgeleiteten Arbeit, die absichtlich an den Licensor übermittelt werden, um vom Copyrightbesitzer oder von einer Einzelperson oder juristischen Person, die berechtigt ist, diese im Namen des Copyrightbesitzers einzureichen, in das Werk aufzunehmen. Im Sinne dieser Definition bedeutet "übermittelt" jede Form von elektronischer, verbaler oder schriftlicher Kommunikation, die an den Licensor oder seine Vertreter gesendet wird, einschließlich, aber nicht beschränkt auf die Kommunikation über elektronische Adresslisten, Quellcodeverwaltungssysteme und Problemverfolgungssysteme, die vom Licensor oder im Auftrag des Licensors verwaltet werden, um die Arbeit zu besprechen und zu verbessern. , aber ohne Kommunikation, die vom Copyrightbesitzer auffallend gekennzeichnet oder anderweitig schriftlich als "Kein Beitrag" gekennzeichnet ist.
+
+    "Mitwirkender" ist ein Licensor und jede natürliche oder juristische Person, für die ein Beitrag vom Licensor empfangen und anschließend in die Arbeit eingebunden wurde.
+
+ 2. Erteilung einer Copyright-Lizenz. Vorbehaltlich der Bedingungen dieser Lizenz gewährt jeder Mitwirkende Ihnen eine unbefristete, weltweite, nicht exklusive, gebührenfreie, lizenzfreie, widerrufliche Copyrightlizenz zur Veröffentlichung, Vorbereitung von Ableitungsarbeiten von, öffentlicher Anzeige, öffentlicher Ausführung, Unterlizenz und Verteilung der Arbeit und solcher abgeleiteter Arbeiten in Quell- oder Objektform.
+
+ 3. Erteilung einer Patentlizenz. Vorbehaltlich der Bedingungen dieser Lizenz gewährt jeder Mitwirkende Ihnen eine unbefristete, weltweite, nicht exklusive, gebührenfreie, lizenzfreie, widerrufliche (außer in diesem Abschnitt aufgeführte) Lizenz zum Erteilen, Verwenden, Anbieten, Verkaufen, Importieren und anderweitigen Übertragen der Arbeit, wobei eine solche Lizenz nur für die von einem solchen Mitwirkenden lizenzierten Ansprüche gilt, die durch seinen Beitrag(n) allein oder durch kombination seiner Mitwirkenden notwendigerweise nicht unterstützt werden. die Arbeit, an die solche Beiträge übermittelt wurden. Wenn Sie einen Rechtsstreitigkeiten gegen eine Entität (einschließlich eines Kreuzanspruchs oder einer Gegenforderung in einer Rechtsstreitigkeiten) einreichen, die angibt, dass das in das Arbeitswerk eingebundene Werk oder ein Beitrag eine direkte oder mitwirkende Verletzung des Rechts darstellt, enden alle Ihnen unter dieser Lizenz für diese Arbeit erteilten Lizenzen ab dem Datum, an dem ein solcher Rechtsstreitigkeiten eingereicht wird.
+
+ 4. Umverteilung. Sie dürfen Kopien des Werks oder des Abgeleiteten Werks auf beliebigem Medium, mit oder ohne Änderungen und in Quell- oder Objektform reproduzieren und verteilen, sofern Sie die folgenden Bedingungen erfüllen:
+
+    (a) Sie müssen allen anderen Empfängern der Arbeits- oder Ableitungsarbeiten eine Kopie dieser Lizenz erteilen; Und
+
+    (b) Sie müssen dafür sorgen, dass alle geänderten Dateien auffällige Benachrichtigungen enthalten, die darauf hinweisen, dass Sie die Dateien geändert haben; Und
+
+    (c) Sie müssen alle Copyright-, Patent-, Marken- und Zuschreibungshinweise aus dem Quellformular des Werks in form von abgeleiteten Arbeiten, die Sie vertreiben, aufbewahren, mit Ausnahme der Benachrichtigungen, die sich nicht auf einen Teil der Abgeleiteten Arbeiten beziehen; Und
+
+    (d) Wenn die Arbeit eine Textdatei vom Typ "NOTICE" als Teil ihrer Verteilung enthält, müssen alle von Ihnen verteilten abgeleiteten Arbeiten eine lesbare Kopie der in einer solchen NOTICE-Datei enthaltenen Attributionshinweise enthalten, mit Ausnahme der Benachrichtigungen, die sich nicht auf einen Teil der Abgeleiteten Arbeiten beziehen, an mindestens einem der folgenden Stellen : in einer NOTICE-Textdatei, die als Teil der Abgeleiteten Arbeiten verteilt wird; im Quellformular oder in der Dokumentation, sofern dies zusammen mit den Abgeleiteten Arbeiten bereitgestellt wird; oder innerhalb einer von den Abgeleiteten Arbeiten generierten Anzeige, ob und wo solche Drittanbieterbenachrichtigungen normalerweise angezeigt werden. Der Inhalt der NOTICE-Datei dient nur zu Informationszwecken und ändert die Lizenz nicht. Sie können Ihre eigenen Attributionshinweise in "Ableitungsarbeiten" hinzufügen, die Sie zusammen oder als Nachtrag zum HINWEIS-Text aus dem Work verteilen, vorausgesetzt, dass solche zusätzlichen Attributionshinweise nicht als Änderung der Lizenz interpretiert werden können.
+
+    Sie können Ihre eigenen Urheberrechtsbestimmungen zu Ihren Änderungen hinzufügen und zusätzliche oder unterschiedliche Lizenzbedingungen für die Verwendung, Wiederverwendung oder Verteilung Ihrer Änderungen oder für alle derartigen abgeleiteten Arbeiten als Ganzes bereitstellen, sofern Ihre Nutzung, Vermehrung und Verteilung des Werks andernfalls den in dieser Lizenz angegebenen Bedingungen entspricht.
+
+ 5. Übermittlung von Beiträgen. Sofern Sie nichts anderes ausdrücklich angeben, gelten alle Beiträge, die sie absichtlich zur Aufnahme in die Arbeit von Ihnen an den Licensor übermittelt haben, unter den Bedingungen dieser Lizenz, ohne dass zusätzliche Bedingungen gelten.
+    Ungeachtet der oben genannten Bestimmungen ersetzt oder ändert nichts die Bedingungen eines separaten Lizenzvertrags, den Sie möglicherweise mit dem Licensor bezüglich solcher Beiträge ausgeführt haben.
+
+ 6. Marken. Diese Lizenz gewährt keine Berechtigung zur Verwendung der Handelsnamen, Marken, Dienstmarken oder Produktnamen des Licensors, es sei denn, dies ist für eine angemessene und übliche Verwendung erforderlich, um den Ursprung des Auftrags zu beschreiben und den Inhalt der NOTICE-Datei zu reproduzieren.
+
+ 7. Haftungsausschluss. Sofern nicht nach geltendem Recht erforderlich oder schriftlich zugestimmt, stellt der Licensor die Arbeit (und jeder Mitwirkende stellt seine Beiträge bereit) "WIE BESEHEN", OHNE GEWÄHRLEISTUNGEN ODER BEDINGUNGEN JEGLICHEr Art, entweder ausdrücklich oder konkludent, einschließlich, ohne Einschränkung, garantien oder Bedingungen des TITELs, NICHTVERLETZUNG, HANDELSÜBLICHKEIT oder EIGNUNG FÜR EINEN BESTIMMTEN ZWECK. Sie sind allein dafür verantwortlich, die Geeignetheit der Verwendung oder Verteilung der Arbeit zu bestimmen und alle Risiken im Zusammenhang mit Ihrer Ausübung von Berechtigungen unter dieser Lizenz zu übernehmen.
+
+ 8. Limitation of Liability. In keinem Fall und ohne rechtstheoretische Hinweise, sei es in Form von Unerlaubtem (einschließlich Fahrlässigkeit), Vertrag oder anderweitig, es sei denn, dies ist nach geltendem Recht erforderlich (z. B. absichtliche und grobe Handlungen) oder schriftlich vereinbart, hafte jeder Mitwirkende Ihnen gegenüber für Schäden, einschließlich direkter, indirekter, spezieller, zufälliger oder Folgeschäden jeglicher Art, die als Ergebnis dieser Lizenz oder aufgrund der Nutzung oder Unfähigkeit zur Nutzung der Arbeit entstehen (einschließlich, aber nicht beschränkt auf Schäden aufgrund von Verlust des Firmenwerts, Arbeitsausfall, Computerfehler oder Fehlfunktion oder jeglichen anderen kommerziellen Schäden oder Verlusten), auch wenn dieser Mitwirkende auf die Möglichkeit solcher Schäden hingewiesen wurde.
 
  9. Akzeptieren von Garantie oder zusätzlicher Haftung. Während sie die Arbeit oder die abgeleiteten Arbeiten weitervertreiben, können Sie die Annahme des Supports, der Garantie, der Freistellung oder anderer Haftungsverpflichtungen und/oder Rechte, die mit dieser Lizenz in Einklang stehen, anbieten und eine Gebühr berechnen. Wenn Sie solche Verpflichtungen akzeptieren, dürfen Sie jedoch nur in Ihrem eigenen Namen und in Ihrer alleinigen Verantwortung handeln, nicht im Namen eines anderen Mitwirkenden, und nur, wenn Sie zustimmen, jeden Mitwirkenden für jegliche Haftung, die durch einen solchen Mitwirkenden entsteht, oder ansprüche, die gegen diesen Mitwirkenden entstehen, schadlos zu halten, indem Sie eine solche Garantie oder zusätzliche Haftung akzeptieren.
 
@@ -242,160 +388,14 @@ Copyright (c) 2015-2018 Google, Inc., Netflix, Inc., Microsoft Corp. und Mitwirk
 
     Sie können Ihre eigenen Urheberrechtsbestimmungen zu Ihren Änderungen hinzufügen und zusätzliche oder unterschiedliche Lizenzbedingungen für die Verwendung, Wiederverwendung oder Verteilung Ihrer Änderungen oder für alle derartigen abgeleiteten Arbeiten als Ganzes bereitstellen, sofern Ihre Nutzung, Vermehrung und Verteilung des Werks andernfalls den in dieser Lizenz angegebenen Bedingungen entspricht.
 
- 5. Übermittlung von Beiträgen. Sofern Sie nichts anderes ausdrücklich angeben, gelten alle beiträge, die sie absichtlich zur Aufnahme in die Arbeit von Ihnen an den Licensor übermittelt haben, unter den Bedingungen dieser Lizenz, ohne dass zusätzliche Bedingungen gelten.
-    Ungeachtet der oben genannten Bestimmungen ersetzt oder ändert nichts die Bedingungen eines separaten Lizenzvertrags, den Sie möglicherweise mit dem Licensor in Bezug auf solche Beiträge ausgeführt haben.
+ 5. Übermittlung von Beiträgen. Sofern Sie nichts anderes ausdrücklich angeben, gelten alle Beiträge, die sie absichtlich zur Aufnahme in die Arbeit von Ihnen an den Licensor übermittelt haben, unter den Bedingungen dieser Lizenz, ohne dass zusätzliche Bedingungen gelten.
+    Ungeachtet der oben genannten Bestimmungen ersetzt oder ändert nichts die Bedingungen eines separaten Lizenzvertrags, den Sie möglicherweise mit dem Licensor bezüglich solcher Beiträge ausgeführt haben.
 
  6. Marken. Diese Lizenz gewährt keine Berechtigung zur Verwendung der Handelsnamen, Marken, Dienstmarken oder Produktnamen des Licensors, es sei denn, dies ist für eine angemessene und übliche Verwendung erforderlich, um den Ursprung des Auftrags zu beschreiben und den Inhalt der NOTICE-Datei zu reproduzieren.
 
- 7. Haftungsausschluss. Sofern nicht nach geltendem Recht erforderlich oder schriftlich zugestimmt, stellt der Licensor die Arbeit (und jeder Mitwirkende stellt seine Beiträge bereit) "WIE BESEHEN", OHNE GEWÄHRLEISTUNGEN ODER BEDINGUNGEN JEGLICHEr Art, entweder ausdrücklich oder konkludent, einschließlich, ohne Einschränkung, jegliche Gewährleistungen oder Bedingungen des TITELs, NICHTVERLETZUNG, HANDELSÜBLICHKEIT oder EIGNUNG FÜR EINEN BESTIMMTEN ZWECK. Sie sind allein dafür verantwortlich, die Geeignetheit der Verwendung oder Verteilung der Arbeit zu bestimmen und alle Risiken im Zusammenhang mit Ihrer Ausübung von Berechtigungen unter dieser Lizenz zu übernehmen.
+ 7. Haftungsausschluss. Sofern nicht nach geltendem Recht erforderlich oder schriftlich zugestimmt, stellt der Licensor die Arbeit (und jeder Mitwirkende stellt seine Beiträge bereit) "WIE BESEHEN", OHNE GEWÄHRLEISTUNGEN ODER BEDINGUNGEN JEGLICHEr Art, entweder ausdrücklich oder konkludent, einschließlich, ohne Einschränkung, garantien oder Bedingungen des TITELs, NICHTVERLETZUNG, HANDELSÜBLICHKEIT oder EIGNUNG FÜR EINEN BESTIMMTEN ZWECK. Sie sind allein dafür verantwortlich, die Geeignetheit der Verwendung oder Verteilung der Arbeit zu bestimmen und alle Risiken im Zusammenhang mit Ihrer Ausübung von Berechtigungen unter dieser Lizenz zu übernehmen.
 
- 8. Limitation of Liability. In keinem Fall und ohne rechtstheoretische Hinweise, sei es in Form von Unerlaubtem (einschließlich Fahrlässigkeit), Vertrag oder anderweitig, es sei denn, dies ist nach geltendem Recht erforderlich (z. B. absichtliche und grobe Handlungen) oder schriftlich vereinbart, hafte jedem Mitwirkenden für Schäden, einschließlich direkter, indirekter, spezieller, zufälliger oder Folgeschäden jeglicher Art, die als Ergebnis dieser Lizenz oder aufgrund der Nutzung oder Unfähigkeit zur Nutzung der Arbeit entstehen (einschließlich, aber nicht beschränkt auf Schäden aufgrund von Verlust des Firmenwerts, Arbeitsausfall, Computerfehler oder Fehlfunktion oder jeglichen anderen kommerziellen Schäden oder Verlusten), auch wenn dieser Mitwirkende auf die Möglichkeit solcher Schäden hingewiesen wurde.
-
- 9. Akzeptieren von Garantie oder zusätzlicher Haftung. Während sie die Arbeit oder die abgeleiteten Arbeiten weitervertreiben, können Sie die Annahme des Supports, der Garantie, der Freistellung oder anderer Haftungsverpflichtungen und/oder Rechte, die mit dieser Lizenz in Einklang stehen, anbieten und eine Gebühr berechnen. Wenn Sie solche Verpflichtungen akzeptieren, dürfen Sie jedoch nur in Ihrem eigenen Namen und in Ihrer alleinigen Verantwortung handeln, nicht im Namen eines anderen Mitwirkenden, und nur, wenn Sie zustimmen, jeden Mitwirkenden für jegliche Haftung, die durch einen solchen Mitwirkenden entsteht, oder ansprüche, die gegen diesen Mitwirkenden entstehen, schadlos zu halten, indem Sie eine solche Garantie oder zusätzliche Haftung akzeptieren.
-
- ENDE DER GESCHÄFTSBEDINGUNGEN
-
- ANHANG: Anwenden der Apache-Lizenz auf Ihre Arbeit.
-
-    Um die Apache-Lizenz auf Ihre Arbeit anzuwenden, fügen Sie den folgenden Textbausteinhinweis an, wobei die Felder durch Klammern "[]" durch Ihre eigenen identifizierenden Informationen ersetzt werden. (Schließen Sie die Klammern nicht ein!)  Der Text sollte in die entsprechende Kommentarsyntax für das Dateiformat eingeschlossen werden. Es wird außerdem empfohlen, einen Datei- oder Klassennamen und eine Beschreibung des Zwecks auf derselben "gedruckten Seite" wie der Urheberrechtshinweis für eine einfachere Identifizierung in Archiven von Drittanbietern aufzunehmen.
-
- Copyright (c) 2015-2018 Google, Inc., Netflix, Inc., Microsoft Corp. und Mitwirkende
-
- Lizenziert unter der Apache-Lizenz, Version 2.0 (die "Lizenz"); Sie dürfen diese Datei nur in Übereinstimmung mit der Lizenz verwenden.
- Eine Kopie der Lizenz erhalten Sie unter
-
-     http://www.apache.org/licenses/LICENSE-2.0
-
- Sofern nicht nach geltendem Recht vorgeschrieben oder schriftlich zugestimmt wurde, wird die unter der Lizenz verteilte Software "WIE BESEHEN", OHNE GEWÄHRLEISTUNGEN ODER BEDINGUNGEN JEGLICHEr Art, entweder ausdrücklich oder konkludent, verteilt.
- Informationen zu den spezifischen Berechtigungen und Einschränkungen unter der Lizenz finden Sie in der Lizenz.
- 
-
-
-                               Apache License
-                         Version 2.0, January 2004
-                      http://www.apache.org/licenses/
-
- NUTZUNGSBEDINGUNGEN, NUTZUNGSBEDINGUNGEN UND VERTEILUNG
-
- 1. Definitionen.
-
-    "Lizenz" bezeichnet die Nutzungs-, Wiedergabe- und Verteilungsbedingungen gemäß den Abschnitten 1 bis 9 dieses Dokuments.
-
-    "Licensor" ist der Copyrightbesitzer oder die Entität, die vom Copyrightbesitzer autorisiert ist, der die Lizenz gewährt.
-
-    "Juristische Person" bezeichnet die Vereinigung der handelnden Entität und aller anderen Entitäten, die diese kontrollieren, von dieser gesteuert werden oder der gemeinsamen Kontrolle mit dieser Entität unterliegen. Für die Zwecke dieser Definition bedeutet "Kontrolle" (i) die Direkte oder indirekte Macht, die Richtung oder Verwaltung einer solchen Entität zu verursachen, sei es vertraglich oder anderweitig, oder (ii) den Besitz von 50 % (50 %) oder mehr der ausstehenden Aktien oder (iii) des nützbringenden Besitzes einer solchen Entität.
-
-    "Sie" (oder "Ihr") bezeichnet eine einzel- oder juristische Person, die die durch diese Lizenz erteilten Berechtigungen einbenennt.
-
-    "Quellformular" ist das bevorzugte Formular für Änderungen, einschließlich, aber nicht beschränkt auf Softwarequellcode, Dokumentationsquelle und Konfigurationsdateien.
-
-    "Objektformular" ist jede Form, die sich aus der maschinellen Transformation oder Übersetzung eines Quellformulars ergibt, einschließlich, aber nicht beschränkt auf kompilierten Objektcode, generierte Dokumentation und Konvertierungen in andere Medientypen.
-
-    "Arbeit" bezeichnet die Arbeit der Autorenschaft, sei es im Quell- oder Objektformat, die unter der Lizenz zur Verfügung gestellt wird, wie durch einen Urheberrechtshinweis angegeben, der in dem Werk enthalten oder diesem zugeordnet ist (ein Beispiel finden Sie in der nachstehenden Anlage).
-
-    Abgeleitete Arbeiten sind alle Arbeiten, ob in Quell- oder Objektform, die auf dem Werk basieren (oder daraus abgeleitet sind), und für die die überarbeitungen, Anmerkungen, Ausführungen oder sonstigen Änderungen als Ganzes ein ursprüngliches Dokument darstellen. Im Sinne dieser Lizenz dürfen abgeleitete Arbeiten keine Arbeiten enthalten, die von den Schnittstellen der Arbeits- und Ableitungsarbeiten getrennt bleiben oder lediglich mit den Schnittstellen von "Work" und "Derivatives Works" verknüpft (oder durch Namen gebunden) werden.
-
-    "Beitrag" ist jede Arbeit der Autorenschaft, einschließlich der ursprünglichen Version des Werks und aller Änderungen oder Ergänzungen zu diesem Werk oder dieser Ableitung, die absichtlich an den Licensor zur Aufnahme in das Werk durch den Copyrightbesitzer oder durch eine Einzelperson oder juristische Person übermittelt wird, die berechtigt ist, im Namen des Copyrightbesitzers einzureichen. Im Sinne dieser Definition bedeutet "übermittelt" jede Form von elektronischer, verbaler oder schriftlicher Kommunikation, die an den Licensor oder seine Vertreter gesendet wird, einschließlich, aber nicht beschränkt auf die Kommunikation über elektronische Adresslisten, Quellcodeverwaltungssysteme und Problemverfolgungssysteme, die vom Licensor oder im Auftrag des Licensors verwaltet werden, um die Arbeit zu besprechen und zu verbessern. , aber ohne Kommunikation, die vom Copyrightbesitzer auffallend gekennzeichnet oder anderweitig schriftlich als "Kein Beitrag" gekennzeichnet ist.
-
-    "Mitwirkender" ist ein Licensor und jede natürliche oder juristische Person, für die ein Beitrag vom Licensor empfangen und anschließend in die Arbeit eingebunden wurde.
-
- 2. Erteilung einer Copyright-Lizenz. Vorbehaltlich der Geschäftsbedingungen dieser Lizenz gewährt jeder Mitwirkende Ihnen eine unbefristete, weltweite, nicht exklusive, gebührenfreie, lizenzfreie, widerrufliche Copyrightlizenz zur Veröffentlichung, Vorbereitung von Ableitungsarbeiten, öffentliches Anzeigen, öffentliches Ausführen, Unterlizenzieren und Verteilen der Arbeit und solcher abgeleiteter Arbeiten in Quell- oder Objektform.
-
- 3. Erteilung einer Patentlizenz. Vorbehaltlich der Bedingungen dieser Lizenz gewährt jeder Mitwirkende Ihnen eine unbefristete, weltweite, nicht exklusive, gebührenfreie, lizenzfreie, widerrufliche (außer in diesem Abschnitt aufgeführte) Lizenz zum Erteilen, Verwenden, Anbieten, Verkaufen, Importieren und anderweitigen Übertragen der Arbeit, wobei eine solche Lizenz nur für die von einem solchen Mitwirkenden lizenzierten Ansprüche gilt, die durch seinen Beitrag(n) allein oder durch kombination seiner Mitwirkenden notwendigerweise nicht unterstützt werden. die Arbeit, an die solche Beiträge übermittelt wurden. Wenn Sie einen Rechtsstreitigkeiten gegen eine Entität (einschließlich eines Kreuzanspruchs oder einer Gegenforderung in einer Rechtsstreitigkeiten) einreichen, die angibt, dass das in das Arbeitswerk eingebundene Projekt oder ein Beitrag eine direkte oder mitwirkende Verletzung des Urheberrechts darstellt, werden alle Ihnen unter dieser Lizenz für dieses Werk erteilten Lizenzen ab dem Datum, an dem ein solcher Rechtsstreitigkeiten eingereicht wird, beendet.
-
- 4. Umverteilung. Sie dürfen Kopien des Werks oder des Abgeleiteten Werks auf beliebigem Medium, mit oder ohne Änderungen und in Quell- oder Objektform reproduzieren und verteilen, vorausgesetzt, Dass Sie die folgenden Bedingungen erfüllen:
-
-    (a) Sie müssen allen anderen Empfängern der Arbeits- oder Ableitungsarbeiten eine Kopie dieser Lizenz erteilen; Und
-
-    (b) Sie müssen dafür sorgen, dass alle geänderten Dateien auffällige Benachrichtigungen enthalten, die darauf hinweisen, dass Sie die Dateien geändert haben; Und
-
-    (c) Sie müssen alle Copyright-, Patent-, Marken- und Zuschreibungshinweise aus dem Quellformular des Werks in form von abgeleiteten Arbeiten, die Sie vertreiben, aufbewahren, mit Ausnahme der Benachrichtigungen, die sich nicht auf einen Teil der Abgeleiteten Arbeiten beziehen; Und
-
-    (d) Wenn die Arbeit eine Textdatei vom Typ "NOTICE" als Teil ihrer Verteilung enthält, müssen alle von Ihnen verteilten abgeleiteten Arbeiten eine lesbare Kopie der in einer solchen NOTICE-Datei enthaltenen Attributionshinweise enthalten, mit Ausnahme der Benachrichtigungen, die sich nicht auf einen Teil der Abgeleiteten Arbeiten beziehen, an mindestens einem der folgenden Stellen : in einer NOTICE-Textdatei, die als Teil der Abgeleiteten Arbeiten verteilt wird; im Quellformular oder in der Dokumentation, sofern dies zusammen mit den Abgeleiteten Arbeiten bereitgestellt wird; oder innerhalb einer von den Abgeleiteten Arbeiten generierten Anzeige, ob und wo solche Drittanbieterbenachrichtigungen normalerweise angezeigt werden. Der Inhalt der NOTICE-Datei dient nur zu Informationszwecken und ändert die Lizenz nicht. Sie können Ihre eigenen Attributionshinweise in "Ableitungsarbeiten" hinzufügen, die Sie zusammen oder als Nachtrag zum HINWEIS-Text aus dem Work verteilen, vorausgesetzt, dass solche zusätzlichen Attributionshinweise nicht als Änderung der Lizenz interpretiert werden können.
-
-    Sie können Ihre eigenen Urheberrechtsbestimmungen zu Ihren Änderungen hinzufügen und zusätzliche oder unterschiedliche Lizenzbedingungen für die Verwendung, Wiederverwendung oder Verteilung Ihrer Änderungen oder für alle derartigen abgeleiteten Arbeiten als Ganzes bereitstellen, sofern Ihre Nutzung, Vermehrung und Verteilung des Werks andernfalls den in dieser Lizenz angegebenen Bedingungen entspricht.
-
- 5. Übermittlung von Beiträgen. Sofern Sie nichts anderes ausdrücklich angeben, gelten alle beiträge, die sie absichtlich zur Aufnahme in die Arbeit von Ihnen an den Licensor übermittelt haben, unter den Bedingungen dieser Lizenz, ohne dass zusätzliche Bedingungen gelten.
-    Ungeachtet der oben genannten Bestimmungen ersetzt oder ändert nichts die Bedingungen eines separaten Lizenzvertrags, den Sie möglicherweise mit dem Licensor in Bezug auf solche Beiträge ausgeführt haben.
-
- 6. Marken. Diese Lizenz gewährt keine Berechtigung zur Verwendung der Handelsnamen, Marken, Dienstmarken oder Produktnamen des Licensors, es sei denn, dies ist für eine angemessene und übliche Verwendung erforderlich, um den Ursprung des Auftrags zu beschreiben und den Inhalt der NOTICE-Datei zu reproduzieren.
-
- 7. Haftungsausschluss. Sofern nicht nach geltendem Recht erforderlich oder schriftlich zugestimmt, stellt der Licensor die Arbeit (und jeder Mitwirkende stellt seine Beiträge bereit) "WIE BESEHEN", OHNE GEWÄHRLEISTUNGEN ODER BEDINGUNGEN JEGLICHEr Art, entweder ausdrücklich oder konkludent, einschließlich, ohne Einschränkung, jegliche Gewährleistungen oder Bedingungen des TITELs, NICHTVERLETZUNG, HANDELSÜBLICHKEIT oder EIGNUNG FÜR EINEN BESTIMMTEN ZWECK. Sie sind allein dafür verantwortlich, die Geeignetheit der Verwendung oder Verteilung der Arbeit zu bestimmen und alle Risiken im Zusammenhang mit Ihrer Ausübung von Berechtigungen unter dieser Lizenz zu übernehmen.
-
- 8. Limitation of Liability. In keinem Fall und ohne rechtstheoretische Hinweise, sei es in Form von Unerlaubtem (einschließlich Fahrlässigkeit), Vertrag oder anderweitig, es sei denn, dies ist nach geltendem Recht erforderlich (z. B. absichtliche und grobe Handlungen) oder schriftlich vereinbart, hafte jedem Mitwirkenden für Schäden, einschließlich direkter, indirekter, spezieller, zufälliger oder Folgeschäden jeglicher Art, die als Ergebnis dieser Lizenz oder aufgrund der Nutzung oder Unfähigkeit zur Nutzung der Arbeit entstehen (einschließlich, aber nicht beschränkt auf Schäden aufgrund von Verlust des Firmenwerts, Arbeitsausfall, Computerfehler oder Fehlfunktion oder jeglichen anderen kommerziellen Schäden oder Verlusten), auch wenn dieser Mitwirkende auf die Möglichkeit solcher Schäden hingewiesen wurde.
-
- 9. Akzeptieren von Garantie oder zusätzlicher Haftung. Während sie die Arbeit oder die abgeleiteten Arbeiten weitervertreiben, können Sie die Annahme des Supports, der Garantie, der Freistellung oder anderer Haftungsverpflichtungen und/oder Rechte, die mit dieser Lizenz in Einklang stehen, anbieten und eine Gebühr berechnen. Wenn Sie solche Verpflichtungen akzeptieren, dürfen Sie jedoch nur in Ihrem eigenen Namen und in Ihrer alleinigen Verantwortung handeln, nicht im Namen eines anderen Mitwirkenden, und nur, wenn Sie zustimmen, jeden Mitwirkenden für jegliche Haftung, die durch einen solchen Mitwirkenden entsteht, oder ansprüche, die gegen diesen Mitwirkenden entstehen, schadlos zu halten, indem Sie eine solche Garantie oder zusätzliche Haftung akzeptieren.
-
- ENDE DER GESCHÄFTSBEDINGUNGEN
-
- ANHANG: Anwenden der Apache-Lizenz auf Ihre Arbeit.
-
-    Um die Apache-Lizenz auf Ihre Arbeit anzuwenden, fügen Sie den folgenden Textbausteinhinweis an, wobei die Felder durch Klammern "[]" durch Ihre eigenen identifizierenden Informationen ersetzt werden. (Schließen Sie die Klammern nicht ein!)  Der Text sollte in die entsprechende Kommentarsyntax für das Dateiformat eingeschlossen werden. Es wird außerdem empfohlen, einen Datei- oder Klassennamen und eine Beschreibung des Zwecks auf derselben "gedruckten Seite" wie der Urheberrechtshinweis für eine einfachere Identifizierung in Archiven von Drittanbietern aufzunehmen.
-
- Copyright (c) 2015-2018 Google, Inc., Netflix, Inc., Microsoft Corp. und Mitwirkende
-
- Lizenziert unter der Apache-Lizenz, Version 2.0 (die "Lizenz"); Sie dürfen diese Datei nur in Übereinstimmung mit der Lizenz verwenden.
- Eine Kopie der Lizenz erhalten Sie unter
-
-     http://www.apache.org/licenses/LICENSE-2.0
-
- Sofern nicht nach geltendem Recht vorgeschrieben oder schriftlich zugestimmt wurde, wird die unter der Lizenz verteilte Software "WIE BESEHEN", OHNE GEWÄHRLEISTUNGEN ODER BEDINGUNGEN JEGLICHEr Art, entweder ausdrücklich oder konkludent, verteilt.
- Informationen zu den spezifischen Berechtigungen und Einschränkungen unter der Lizenz finden Sie in der Lizenz.
- 
-
-
-                               Apache License
-                         Version 2.0, January 2004
-                      http://www.apache.org/licenses/
-
- NUTZUNGSBEDINGUNGEN, NUTZUNGSBEDINGUNGEN UND VERTEILUNG
-
- 1. Definitionen.
-
-    "Lizenz" bezeichnet die Nutzungs-, Wiedergabe- und Verteilungsbedingungen gemäß den Abschnitten 1 bis 9 dieses Dokuments.
-
-    "Licensor" ist der Copyrightbesitzer oder die Entität, die vom Copyrightbesitzer autorisiert ist, der die Lizenz gewährt.
-
-    "Juristische Person" bezeichnet die Vereinigung der handelnden Entität und aller anderen Entitäten, die diese kontrollieren, von dieser gesteuert werden oder der gemeinsamen Kontrolle mit dieser Entität unterliegen. Für die Zwecke dieser Definition bedeutet "Kontrolle" (i) die Direkte oder indirekte Macht, die Richtung oder Verwaltung einer solchen Entität zu verursachen, sei es vertraglich oder anderweitig, oder (ii) den Besitz von 50 % (50 %) oder mehr der ausstehenden Aktien oder (iii) des nützbringenden Besitzes einer solchen Entität.
-
-    "Sie" (oder "Ihr") bezeichnet eine einzel- oder juristische Person, die die durch diese Lizenz erteilten Berechtigungen einbenennt.
-
-    "Quellformular" ist das bevorzugte Formular für Änderungen, einschließlich, aber nicht beschränkt auf Softwarequellcode, Dokumentationsquelle und Konfigurationsdateien.
-
-    "Objektformular" ist jede Form, die sich aus der maschinellen Transformation oder Übersetzung eines Quellformulars ergibt, einschließlich, aber nicht beschränkt auf kompilierten Objektcode, generierte Dokumentation und Konvertierungen in andere Medientypen.
-
-    "Arbeit" bezeichnet die Arbeit der Autorenschaft, sei es im Quell- oder Objektformat, die unter der Lizenz zur Verfügung gestellt wird, wie durch einen Urheberrechtshinweis angegeben, der in dem Werk enthalten oder diesem zugeordnet ist (ein Beispiel finden Sie in der nachstehenden Anlage).
-
-    Abgeleitete Arbeiten sind alle Arbeiten, ob in Quell- oder Objektform, die auf dem Werk basieren (oder daraus abgeleitet sind), und für die die überarbeitungen, Anmerkungen, Ausführungen oder sonstigen Änderungen als Ganzes ein ursprüngliches Dokument darstellen. Im Sinne dieser Lizenz dürfen abgeleitete Arbeiten keine Arbeiten enthalten, die von den Schnittstellen der Arbeits- und Ableitungsarbeiten getrennt bleiben oder lediglich mit den Schnittstellen von "Work" und "Derivatives Works" verknüpft (oder durch Namen gebunden) werden.
-
-    "Beitrag" ist jede Arbeit der Autorenschaft, einschließlich der ursprünglichen Version des Werks und aller Änderungen oder Ergänzungen zu diesem Werk oder dieser Ableitung, die absichtlich an den Licensor zur Aufnahme in das Werk durch den Copyrightbesitzer oder durch eine Einzelperson oder juristische Person übermittelt wird, die berechtigt ist, im Namen des Copyrightbesitzers einzureichen. Im Sinne dieser Definition bedeutet "übermittelt" jede Form von elektronischer, verbaler oder schriftlicher Kommunikation, die an den Licensor oder seine Vertreter gesendet wird, einschließlich, aber nicht beschränkt auf die Kommunikation über elektronische Adresslisten, Quellcodeverwaltungssysteme und Problemverfolgungssysteme, die vom Licensor oder im Auftrag des Licensors verwaltet werden, um die Arbeit zu besprechen und zu verbessern. , aber ohne Kommunikation, die vom Copyrightbesitzer auffallend gekennzeichnet oder anderweitig schriftlich als "Kein Beitrag" gekennzeichnet ist.
-
-    "Mitwirkender" ist ein Licensor und jede natürliche oder juristische Person, für die ein Beitrag vom Licensor empfangen und anschließend in die Arbeit eingebunden wurde.
-
- 2. Erteilung einer Copyright-Lizenz. Vorbehaltlich der Geschäftsbedingungen dieser Lizenz gewährt jeder Mitwirkende Ihnen eine unbefristete, weltweite, nicht exklusive, gebührenfreie, lizenzfreie, widerrufliche Copyrightlizenz zur Veröffentlichung, Vorbereitung von Ableitungsarbeiten, öffentliches Anzeigen, öffentliches Ausführen, Unterlizenzieren und Verteilen der Arbeit und solcher abgeleiteter Arbeiten in Quell- oder Objektform.
-
- 3. Erteilung einer Patentlizenz. Vorbehaltlich der Bedingungen dieser Lizenz gewährt jeder Mitwirkende Ihnen eine unbefristete, weltweite, nicht exklusive, gebührenfreie, lizenzfreie, widerrufliche (außer in diesem Abschnitt aufgeführte) Lizenz zum Erteilen, Verwenden, Anbieten, Verkaufen, Importieren und anderweitigen Übertragen der Arbeit, wobei eine solche Lizenz nur für die von einem solchen Mitwirkenden lizenzierten Ansprüche gilt, die durch seinen Beitrag(n) allein oder durch kombination seiner Mitwirkenden notwendigerweise nicht unterstützt werden. die Arbeit, an die solche Beiträge übermittelt wurden. Wenn Sie einen Rechtsstreitigkeiten gegen eine Entität (einschließlich eines Kreuzanspruchs oder einer Gegenforderung in einer Rechtsstreitigkeiten) einreichen, die angibt, dass das in das Arbeitswerk eingebundene Projekt oder ein Beitrag eine direkte oder mitwirkende Verletzung des Urheberrechts darstellt, werden alle Ihnen unter dieser Lizenz für dieses Werk erteilten Lizenzen ab dem Datum, an dem ein solcher Rechtsstreitigkeiten eingereicht wird, beendet.
-
- 4. Umverteilung. Sie dürfen Kopien des Werks oder des Abgeleiteten Werks auf beliebigem Medium, mit oder ohne Änderungen und in Quell- oder Objektform reproduzieren und verteilen, vorausgesetzt, Dass Sie die folgenden Bedingungen erfüllen:
-
-    (a) Sie müssen allen anderen Empfängern der Arbeits- oder Ableitungsarbeiten eine Kopie dieser Lizenz erteilen; Und
-
-    (b) Sie müssen dafür sorgen, dass alle geänderten Dateien auffällige Benachrichtigungen enthalten, die darauf hinweisen, dass Sie die Dateien geändert haben; Und
-
-    (c) Sie müssen alle Copyright-, Patent-, Marken- und Zuschreibungshinweise aus dem Quellformular des Werks in form von abgeleiteten Arbeiten, die Sie vertreiben, aufbewahren, mit Ausnahme der Benachrichtigungen, die sich nicht auf einen Teil der Abgeleiteten Arbeiten beziehen; Und
-
-    (d) Wenn die Arbeit eine Textdatei vom Typ "NOTICE" als Teil ihrer Verteilung enthält, müssen alle von Ihnen verteilten abgeleiteten Arbeiten eine lesbare Kopie der in einer solchen NOTICE-Datei enthaltenen Attributionshinweise enthalten, mit Ausnahme der Benachrichtigungen, die sich nicht auf einen Teil der Abgeleiteten Arbeiten beziehen, an mindestens einem der folgenden Stellen : in einer NOTICE-Textdatei, die als Teil der Abgeleiteten Arbeiten verteilt wird; im Quellformular oder in der Dokumentation, sofern dies zusammen mit den Abgeleiteten Arbeiten bereitgestellt wird; oder innerhalb einer von den Abgeleiteten Arbeiten generierten Anzeige, ob und wo solche Drittanbieterbenachrichtigungen normalerweise angezeigt werden. Der Inhalt der NOTICE-Datei dient nur zu Informationszwecken und ändert die Lizenz nicht. Sie können Ihre eigenen Attributionshinweise in "Ableitungsarbeiten" hinzufügen, die Sie zusammen oder als Nachtrag zum HINWEIS-Text aus dem Work verteilen, vorausgesetzt, dass solche zusätzlichen Attributionshinweise nicht als Änderung der Lizenz interpretiert werden können.
-
-    Sie können Ihre eigenen Urheberrechtsbestimmungen zu Ihren Änderungen hinzufügen und zusätzliche oder unterschiedliche Lizenzbedingungen für die Verwendung, Wiederverwendung oder Verteilung Ihrer Änderungen oder für alle derartigen abgeleiteten Arbeiten als Ganzes bereitstellen, sofern Ihre Nutzung, Vermehrung und Verteilung des Werks andernfalls den in dieser Lizenz angegebenen Bedingungen entspricht.
-
- 5. Übermittlung von Beiträgen. Sofern Sie nichts anderes ausdrücklich angeben, gelten alle beiträge, die sie absichtlich zur Aufnahme in die Arbeit von Ihnen an den Licensor übermittelt haben, unter den Bedingungen dieser Lizenz, ohne dass zusätzliche Bedingungen gelten.
-    Ungeachtet der oben genannten Bestimmungen ersetzt oder ändert nichts die Bedingungen eines separaten Lizenzvertrags, den Sie möglicherweise mit dem Licensor in Bezug auf solche Beiträge ausgeführt haben.
-
- 6. Marken. Diese Lizenz gewährt keine Berechtigung zur Verwendung der Handelsnamen, Marken, Dienstmarken oder Produktnamen des Licensors, es sei denn, dies ist für eine angemessene und übliche Verwendung erforderlich, um den Ursprung des Auftrags zu beschreiben und den Inhalt der NOTICE-Datei zu reproduzieren.
-
- 7. Haftungsausschluss. Sofern nicht nach geltendem Recht erforderlich oder schriftlich zugestimmt, stellt der Licensor die Arbeit (und jeder Mitwirkende stellt seine Beiträge bereit) "WIE BESEHEN", OHNE GEWÄHRLEISTUNGEN ODER BEDINGUNGEN JEGLICHEr Art, entweder ausdrücklich oder konkludent, einschließlich, ohne Einschränkung, jegliche Gewährleistungen oder Bedingungen des TITELs, NICHTVERLETZUNG, HANDELSÜBLICHKEIT oder EIGNUNG FÜR EINEN BESTIMMTEN ZWECK. Sie sind allein dafür verantwortlich, die Geeignetheit der Verwendung oder Verteilung der Arbeit zu bestimmen und alle Risiken im Zusammenhang mit Ihrer Ausübung von Berechtigungen unter dieser Lizenz zu übernehmen.
-
- 8. Limitation of Liability. In keinem Fall und ohne rechtstheoretische Hinweise, sei es in Form von Unerlaubtem (einschließlich Fahrlässigkeit), Vertrag oder anderweitig, es sei denn, dies ist nach geltendem Recht erforderlich (z. B. absichtliche und grobe Handlungen) oder schriftlich vereinbart, hafte jedem Mitwirkenden für Schäden, einschließlich direkter, indirekter, spezieller, zufälliger oder Folgeschäden jeglicher Art, die als Ergebnis dieser Lizenz oder aufgrund der Nutzung oder Unfähigkeit zur Nutzung der Arbeit entstehen (einschließlich, aber nicht beschränkt auf Schäden aufgrund von Verlust des Firmenwerts, Arbeitsausfall, Computerfehler oder Fehlfunktion oder jeglichen anderen kommerziellen Schäden oder Verlusten), auch wenn dieser Mitwirkende auf die Möglichkeit solcher Schäden hingewiesen wurde.
+ 8. Limitation of Liability. In keinem Fall und ohne rechtstheoretische Hinweise, sei es in Form von Unerlaubtem (einschließlich Fahrlässigkeit), Vertrag oder anderweitig, es sei denn, dies ist nach geltendem Recht erforderlich (z. B. absichtliche und grobe Handlungen) oder schriftlich vereinbart, hafte jeder Mitwirkende Ihnen gegenüber für Schäden, einschließlich direkter, indirekter, spezieller, zufälliger oder Folgeschäden jeglicher Art, die als Ergebnis dieser Lizenz oder aufgrund der Nutzung oder Unfähigkeit zur Nutzung der Arbeit entstehen (einschließlich, aber nicht beschränkt auf Schäden aufgrund von Verlust des Firmenwerts, Arbeitsausfall, Computerfehler oder Fehlfunktion oder jeglichen anderen kommerziellen Schäden oder Verlusten), auch wenn dieser Mitwirkende auf die Möglichkeit solcher Schäden hingewiesen wurde.
 
  9. Akzeptieren von Garantie oder zusätzlicher Haftung. Während sie die Arbeit oder die abgeleiteten Arbeiten weitervertreiben, können Sie die Annahme des Supports, der Garantie, der Freistellung oder anderer Haftungsverpflichtungen und/oder Rechte, die mit dieser Lizenz in Einklang stehen, anbieten und eine Gebühr berechnen. Wenn Sie solche Verpflichtungen akzeptieren, dürfen Sie jedoch nur in Ihrem eigenen Namen und in Ihrer alleinigen Verantwortung handeln, nicht im Namen eines anderen Mitwirkenden, und nur, wenn Sie zustimmen, jeden Mitwirkenden für jegliche Haftung, die durch einen solchen Mitwirkenden entsteht, oder ansprüche, die gegen diesen Mitwirkenden entstehen, schadlos zu halten, indem Sie eine solche Garantie oder zusätzliche Haftung akzeptieren.
 
@@ -461,7 +461,7 @@ Abgeleitete Arbeiten sind alle Arbeiten, ob in Quell- oder Objektform, die auf d
 
 3. Erteilung einer Patentlizenz. Vorbehaltlich der Bedingungen dieser Lizenz gewährt jeder Mitwirkende Ihnen eine unbefristete, weltweite, nicht exklusive, gebührenfreie, lizenzfreie, widerrufliche (außer in diesem Abschnitt aufgeführte) Lizenz zum Erteilen, Verwenden, Anbieten, Verkaufen, Importieren und anderweitigen Übertragen der Arbeit, wobei eine solche Lizenz nur für die von einem solchen Mitwirkenden lizenzierten Ansprüche gilt, die durch seinen Beitrag(n) allein oder durch kombination seiner Mitwirkenden notwendigerweise nicht unterstützt werden. die Arbeit, an die solche Beiträge übermittelt wurden. Wenn Sie einen Rechtsstreitigkeiten gegen eine Entität (einschließlich eines Kreuzanspruchs oder einer Gegenforderung in einer Rechtsstreitigkeiten) einreichen, die angibt, dass das in das Arbeitswerk eingebundene Projekt oder ein Beitrag eine direkte oder mitwirkende Verletzung des Urheberrechts darstellt, werden alle Ihnen unter dieser Lizenz für dieses Werk erteilten Lizenzen ab dem Datum, an dem ein solcher Rechtsstreitigkeiten eingereicht wird, beendet.
 
-4. Umverteilung. Sie dürfen Kopien des Werks oder des Abgeleiteten Werks auf beliebigem Medium, mit oder ohne Änderungen und in Quell- oder Objektform reproduzieren und verteilen, vorausgesetzt, Dass Sie die folgenden Bedingungen erfüllen:
+4. Umverteilung. Sie dürfen Kopien des Werks oder des Abgeleiteten Werks auf beliebigem Medium, mit oder ohne Änderungen und in Quell- oder Objektform reproduzieren und verteilen, sofern Sie die folgenden Bedingungen erfüllen:
 
 Sie müssen allen anderen Empfängern der Arbeits- oder Ableitungsarbeiten eine Kopie dieser Lizenz erteilen; Und
 
@@ -469,15 +469,15 @@ Sie müssen dafür sorgen, dass alle geänderten Dateien hervorgehobene Benachri
 
 Sie müssen alle Copyright-, Patent-, Marken- und Zuschreibungshinweise aus dem Quellformular des Werks in der Quellform aller von Ihnen verteilten abgeleiteten Arbeiten aufbewahren, mit Ausnahme der Hinweise, die sich nicht auf einen Teil der Abgeleiteten Arbeiten beziehen; Und
 
-Wenn die Arbeit eine Textdatei vom Typ "NOTICE" als Teil ihrer Verteilung enthält, müssen alle von Ihnen verteilten abgeleiteten Arbeiten eine lesbare Kopie der in dieser NOTICE-Datei enthaltenen Attributionshinweise enthalten, mit Ausnahme der Benachrichtigungen, die sich nicht auf einen Teil der Abgeleiteten Arbeiten beziehen, an mindestens einem der folgenden Stellen : in einer NOTICE-Textdatei, die als Teil der Abgeleiteten Arbeiten verteilt wird; im Quellformular oder in der Dokumentation, sofern dies zusammen mit den Abgeleiteten Arbeiten bereitgestellt wird; oder innerhalb einer von den Abgeleiteten Arbeiten generierten Anzeige, ob und wo solche Drittanbieterbenachrichtigungen normalerweise angezeigt werden. Der Inhalt der NOTICE-Datei dient nur zu Informationszwecken und ändert die Lizenz nicht. Sie können Ihre eigenen Attributionshinweise in "Ableitungsarbeiten" hinzufügen, die Sie zusammen oder als Nachtrag zum HINWEIS-Text aus dem Work verteilen, vorausgesetzt, dass solche zusätzlichen Attributionshinweise nicht als Änderung der Lizenz interpretiert werden können. Sie können Ihre eigenen Urheberrechtsbestimmungen zu Ihren Änderungen hinzufügen und zusätzliche oder unterschiedliche Lizenzbedingungen für die Verwendung, Wiederverwendung oder Verteilung Ihrer Änderungen oder für alle derartigen abgeleiteten Arbeiten als Ganzes bereitstellen, sofern Ihre Nutzung, Vermehrung und Verteilung des Werks andernfalls den in dieser Lizenz angegebenen Bedingungen entspricht.
+Wenn die Arbeit eine Textdatei vom Typ "NOTICE" als Teil ihrer Verteilung enthält, müssen alle von Ihnen verteilten abgeleiteten Arbeiten eine lesbare Kopie der in einer solchen NOTICE-Datei enthaltenen Attributionshinweise enthalten, mit Ausnahme der Benachrichtigungen, die sich nicht auf einen Teil der Abgeleiteten Arbeiten beziehen, an mindestens einem der folgenden Stellen : in einer NOTICE-Textdatei, die als Teil der Abgeleiteten Arbeiten verteilt wird; im Quellformular oder in der Dokumentation, sofern dies zusammen mit den Abgeleiteten Arbeiten bereitgestellt wird; oder innerhalb einer von den Abgeleiteten Arbeiten generierten Anzeige, ob und wo solche Drittanbieterbenachrichtigungen normalerweise angezeigt werden. Der Inhalt der NOTICE-Datei dient nur zu Informationszwecken und ändert die Lizenz nicht. Sie können Ihre eigenen Attributionshinweise in "Ableitungsarbeiten" hinzufügen, die Sie zusammen oder als Nachtrag zum HINWEIS-Text aus dem Work verteilen, vorausgesetzt, dass solche zusätzlichen Attributionshinweise nicht als Änderung der Lizenz interpretiert werden können. Sie können Ihre eigenen Urheberrechtsbestimmungen zu Ihren Änderungen hinzufügen und zusätzliche oder unterschiedliche Lizenzbedingungen für die Verwendung, Wiederverwendung oder Verteilung Ihrer Änderungen oder für alle derartigen abgeleiteten Arbeiten als Ganzes bereitstellen, sofern Ihre Nutzung, Vermehrung und Verteilung des Werks andernfalls den in dieser Lizenz angegebenen Bedingungen entspricht.
 
-5. Übermittlung von Beiträgen. Sofern Sie nichts anderes ausdrücklich angeben, gelten alle beiträge, die sie absichtlich zur Aufnahme in die Arbeit von Ihnen an den Licensor übermittelt haben, unter den Bedingungen dieser Lizenz, ohne dass zusätzliche Bedingungen gelten. Ungeachtet der oben genannten Bestimmungen ersetzt oder ändert nichts die Bedingungen eines separaten Lizenzvertrags, den Sie möglicherweise mit dem Licensor in Bezug auf solche Beiträge ausgeführt haben.
+5. Übermittlung von Beiträgen. Sofern Sie nichts anderes ausdrücklich angeben, gelten alle Beiträge, die sie absichtlich zur Aufnahme in die Arbeit von Ihnen an den Licensor übermittelt haben, unter den Bedingungen dieser Lizenz, ohne dass zusätzliche Bedingungen gelten. Ungeachtet der oben genannten Bestimmungen ersetzt oder ändert nichts die Bedingungen eines separaten Lizenzvertrags, den Sie möglicherweise mit dem Licensor bezüglich solcher Beiträge ausgeführt haben.
 
 6. Marken. Diese Lizenz gewährt keine Berechtigung zur Verwendung der Handelsnamen, Marken, Dienstmarken oder Produktnamen des Licensors, es sei denn, dies ist für eine angemessene und übliche Verwendung erforderlich, um den Ursprung des Auftrags zu beschreiben und den Inhalt der NOTICE-Datei zu reproduzieren.
 
-7. Haftungsausschluss. Sofern nicht nach geltendem Recht erforderlich oder schriftlich zugestimmt, stellt der Licensor die Arbeit (und jeder Mitwirkende stellt seine Beiträge bereit) "WIE BESEHEN", OHNE GEWÄHRLEISTUNGEN ODER BEDINGUNGEN JEGLICHEr Art, entweder ausdrücklich oder konkludent, einschließlich, ohne Einschränkung, jegliche Gewährleistungen oder Bedingungen des TITELs, NICHTVERLETZUNG, HANDELSÜBLICHKEIT oder EIGNUNG FÜR EINEN BESTIMMTEN ZWECK. Sie sind allein dafür verantwortlich, die Geeignetheit der Verwendung oder Verteilung der Arbeit zu bestimmen und alle Risiken im Zusammenhang mit Ihrer Ausübung von Berechtigungen unter dieser Lizenz zu übernehmen.
+7. Haftungsausschluss. Sofern nicht nach geltendem Recht erforderlich oder schriftlich zugestimmt, stellt der Licensor die Arbeit (und jeder Mitwirkende stellt seine Beiträge bereit) "WIE BESEHEN", OHNE GEWÄHRLEISTUNGEN ODER BEDINGUNGEN JEGLICHEr Art, entweder ausdrücklich oder konkludent, einschließlich, ohne Einschränkung, garantien oder Bedingungen des TITELs, NICHTVERLETZUNG, HANDELSÜBLICHKEIT oder EIGNUNG FÜR EINEN BESTIMMTEN ZWECK. Sie sind allein dafür verantwortlich, die Geeignetheit der Verwendung oder Verteilung der Arbeit zu bestimmen und alle Risiken im Zusammenhang mit Ihrer Ausübung von Berechtigungen unter dieser Lizenz zu übernehmen.
 
-8. Limitation of Liability. In keinem Fall und ohne rechtstheoretische Hinweise, sei es in Form von Unerlaubtem (einschließlich Fahrlässigkeit), Vertrag oder anderweitig, es sei denn, dies ist nach geltendem Recht erforderlich (z. B. absichtliche und grobe Handlungen) oder schriftlich vereinbart, hafte jedem Mitwirkenden für Schäden, einschließlich direkter, indirekter, spezieller, zufälliger oder Folgeschäden jeglicher Art, die als Ergebnis dieser Lizenz oder aufgrund der Nutzung oder Unfähigkeit zur Nutzung der Arbeit entstehen (einschließlich, aber nicht beschränkt auf Schäden aufgrund von Verlust des Firmenwerts, Arbeitsausfall, Computerfehler oder Fehlfunktion oder jeglichen anderen kommerziellen Schäden oder Verlusten), auch wenn dieser Mitwirkende auf die Möglichkeit solcher Schäden hingewiesen wurde.
+8. Limitation of Liability. In keinem Fall und ohne rechtstheoretische Hinweise, sei es in Form von Unerlaubtem (einschließlich Fahrlässigkeit), Vertrag oder anderweitig, es sei denn, dies ist nach geltendem Recht erforderlich (z. B. absichtliche und grobe Handlungen) oder schriftlich vereinbart, hafte jeder Mitwirkende Ihnen gegenüber für Schäden, einschließlich direkter, indirekter, spezieller, zufälliger oder Folgeschäden jeglicher Art, die als Ergebnis dieser Lizenz oder aufgrund der Nutzung oder Unfähigkeit zur Nutzung der Arbeit entstehen (einschließlich, aber nicht beschränkt auf Schäden aufgrund von Verlust des Firmenwerts, Arbeitsausfall, Computerfehler oder Fehlfunktion oder jeglichen anderen kommerziellen Schäden oder Verlusten), auch wenn dieser Mitwirkende auf die Möglichkeit solcher Schäden hingewiesen wurde.
 
 9. Akzeptieren von Garantie oder zusätzlicher Haftung. Während sie die Arbeit oder die abgeleiteten Arbeiten weitervertreiben, können Sie die Annahme des Supports, der Garantie, der Freistellung oder anderer Haftungsverpflichtungen und/oder Rechte, die mit dieser Lizenz in Einklang stehen, anbieten und eine Gebühr berechnen. Wenn Sie solche Verpflichtungen akzeptieren, dürfen Sie jedoch nur in Ihrem eigenen Namen und in Ihrer alleinigen Verantwortung handeln, nicht im Namen eines anderen Mitwirkenden, und nur, wenn Sie zustimmen, jeden Mitwirkenden für jegliche Haftung, die durch einen solchen Mitwirkenden entsteht, oder ansprüche, die gegen diesen Mitwirkenden entstehen, schadlos zu halten, indem Sie eine solche Garantie oder zusätzliche Haftung akzeptieren.
 
@@ -841,7 +841,7 @@ DIESE SOFTWARE WIRD VOM URHEBERRECHTSINHABER UND DEN MITWIRKENDEN "WIE BESEHEN" 
 
 esutils 2.0.3 - BSD-2-Clause https://github.com/estools/esutils
 
-Copyright (c) 2014 Maustaste Nik copyright <ifaaan@gmail.com> (c) 2013 Yusuke Copyright <utatane.tea@gmail.com> (c) 2013-2014 Yusuke Copyright <utatane.tea@gmail.com> (c) 2013 Yusuke Maustaste (http://github.com/Constellation)
+Copyright (c) 2014 Maustaste Nik copyright <ifaaan@gmail.com> (c) 2013 Yusuke Copyright <utatane.tea@gmail.com> (c) 2013-2014 Yusuke Copyright <utatane.tea@gmail.com> (c) 2013 Yusuke Copyright (http://github.com/Constellation)
 
 Die Weiterverteilung und Verwendung in Quell- und Binärformularen mit oder ohne Änderung ist zulässig, sofern die folgenden Bedingungen erfüllt sind:
 
@@ -990,14 +990,14 @@ DIESE SOFTWARE WIRD VOM URHEBERRECHTSINHABER UND DEN MITWIRKENDEN "WIE BESEHEN" 
 
 @hapi/address 2.1.4 – BSD-3-Clause https://github.com/hapijs/address#readme
 
-Copyright (c) 2019, Project Mitwirkenden Copyright (c) 2008-2019, Eli Sk dropdowns, Theamal Sayers, GlobeSherpa
+Copyright (c) 2019, Project Mitwirkenden Copyright (c) 2008-2019, Eli Skeggs, Maustaste Sayers, GlobeSherpa
 
 Copyright (c) 2019, Project Mitwirkenden alle Rechte vorbehalten.
 
 Die Weiterverteilung und Verwendung in Quell- und Binärformularen mit oder ohne Änderung ist zulässig, sofern die folgenden Bedingungen erfüllt sind:
  * Die Weiterverteilung des Quellcodes muss den obigen Urheberrechtshinweis, diese Liste der Bedingungen und den folgenden Haftungsausschluss beibehalten.
  * Weitervertreibungen in binärer Form müssen den obigen Urheberrechtshinweis, diese Liste der Bedingungen und den folgenden Haftungsausschluss in der Dokumentation und/oder anderen Materialien, die mit der Verteilung bereitgestellt werden, reproduzieren.
- * Die Namen von Mitwirkenden dürfen nicht verwendet werden, um produkte, die von dieser Software abgeleitet sind, ohne eine bestimmte vorherige schriftliche Genehmigung zu unterstützen oder zu bewerben.
+ * Die Namen von Mitwirkenden dürfen nicht verwendet werden, um Produkte, die von dieser Software abgeleitet sind, ohne eine bestimmte vorherige schriftliche Genehmigung zu unterstützen oder zu bewerben.
 
 DIESE SOFTWARE WIRD VOM URHEBERRECHTSINHABER UND DEN MITWIRKENDEN "WIE BESEHEN" BEREITGESTELLT, UND ALLE AUSDRÜCKLICHEN ODER KONKLUDENTEN GEWÄHRLEISTUNGEN, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF, DIE KONKLUDENTEN GARANTIEN DER HANDELSÜBLICHKEIT UND EIGNUNG FÜR EINEN BESTIMMTEN ZWECK WERDEN NICHT ÜBERNOMMEN. IN KEINEM FALL HAFTE DER URHEBERRECHTSINHABER UND MITWIRKENDE FÜR DIREKTE, INDIREKTE, ZUFÄLLIGE, BESONDERE, EXEMPLARISCHE ODER FOLGESCHÄDEN (EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE BESCHAFFUNG VON ERSATZARTIKELN ODER -DIENSTLEISTUNGEN); VERLUST DER NUTZUNG, DER DATEN ODER DES GEWINNS; ODER BETRIEBSUNTERBRECHUNG) JEDOCH VERURSACHT UND AUF IRGENDEINE WEISE AUS DER NUTZUNG DIESER SOFTWARE, OB VERTRAGLICH, STRENGER HAFTUNG ODER UNERLAUBTER SCHÄDEN (EINSCHLIEßLICH FAHRLÄSSIGKEIT ODER ANDERWEITIG), DIE IN IRGENDEINER WEISE AUS DER VERWENDUNG DIESER SOFTWARE ENTSTEHEN, AUCH WENN AUF DIE MÖGLICHKEIT EINES SOLCHEN SCHADENS HINGEWIESEN WIRD.
 
@@ -1016,7 +1016,7 @@ Alle Rechte vorbehalten.
 Die Weiterverteilung und Verwendung in Quell- und Binärformularen mit oder ohne Änderung ist zulässig, sofern die folgenden Bedingungen erfüllt sind:
 * Die Weiterverteilung des Quellcodes muss den obigen Urheberrechtshinweis, diese Liste der Bedingungen und den folgenden Haftungsausschluss beibehalten.
 * Weitervertreibungen in binärer Form müssen den obigen Urheberrechtshinweis, diese Liste der Bedingungen und den folgenden Haftungsausschluss in der Dokumentation und/oder anderen Materialien, die mit der Verteilung bereitgestellt werden, reproduzieren.
-* Die Namen von Mitwirkenden dürfen nicht verwendet werden, um produkte, die von dieser Software abgeleitet sind, ohne eine bestimmte vorherige schriftliche Genehmigung zu unterstützen oder zu bewerben.
+* Die Namen von Mitwirkenden dürfen nicht verwendet werden, um Produkte, die von dieser Software abgeleitet sind, ohne eine bestimmte vorherige schriftliche Genehmigung zu unterstützen oder zu bewerben.
 
 DIESE SOFTWARE WIRD VOM URHEBERRECHTSINHABER UND DEN MITWIRKENDEN "WIE BESEHEN" BEREITGESTELLT, UND ALLE AUSDRÜCKLICHEN ODER KONKLUDENTEN GEWÄHRLEISTUNGEN, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF, DIE KONKLUDENTEN GARANTIEN DER HANDELSÜBLICHKEIT UND EIGNUNG FÜR EINEN BESTIMMTEN ZWECK WERDEN NICHT ÜBERNOMMEN. IN KEINEM FALL HAFTE DER URHEBERRECHTSINHABER UND MITWIRKENDE FÜR DIREKTE, INDIREKTE, ZUFÄLLIGE, BESONDERE, EXEMPLARISCHE ODER FOLGESCHÄDEN (EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE BESCHAFFUNG VON ERSATZARTIKELN ODER -DIENSTLEISTUNGEN); VERLUST DER NUTZUNG, DER DATEN ODER DES GEWINNS; ODER BETRIEBSUNTERBRECHUNG) JEDOCH VERURSACHT UND AUF IRGENDEINE WEISE AUS DER NUTZUNG DIESER OFTWARE, SEI ES VERTRAGLICH, STRENGER HAFTUNG ODER UNERLAUBTER SCHÄDEN (EINSCHLIEßLICH FAHRLÄSSIGKEIT ODER ANDERWEITIG), DIE IN IRGENDEINER WEISE AUS DER NUTZUNG DIESER OFTWARE ENTSTEHEN, AUCH WENN AUF DIE MÖGLICHKEIT EINES SOLCHEN SCHADENS HINGEWIESEN WIRD.
 
@@ -1038,7 +1038,7 @@ Alle Rechte vorbehalten.
 Die Weiterverteilung und Verwendung in Quell- und Binärformularen mit oder ohne Änderung ist zulässig, sofern die folgenden Bedingungen erfüllt sind:
 * Die Weiterverteilung des Quellcodes muss den obigen Urheberrechtshinweis, diese Liste der Bedingungen und den folgenden Haftungsausschluss beibehalten.
 * Weitervertreibungen in binärer Form müssen den obigen Urheberrechtshinweis, diese Liste der Bedingungen und den folgenden Haftungsausschluss in der Dokumentation und/oder anderen Materialien, die mit der Verteilung bereitgestellt werden, reproduzieren.
-* Die Namen von Mitwirkenden dürfen nicht verwendet werden, um produkte, die von dieser Software abgeleitet sind, ohne eine bestimmte vorherige schriftliche Genehmigung zu unterstützen oder zu bewerben.
+* Die Namen von Mitwirkenden dürfen nicht verwendet werden, um Produkte, die von dieser Software abgeleitet sind, ohne eine bestimmte vorherige schriftliche Genehmigung zu unterstützen oder zu bewerben.
 
 DIESE SOFTWARE WIRD VOM URHEBERRECHTSINHABER UND DEN MITWIRKENDEN "WIE BESEHEN" BEREITGESTELLT, UND ALLE AUSDRÜCKLICHEN ODER KONKLUDENTEN GEWÄHRLEISTUNGEN, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF, DIE KONKLUDENTEN GARANTIEN DER HANDELSÜBLICHKEIT UND EIGNUNG FÜR EINEN BESTIMMTEN ZWECK WERDEN NICHT ÜBERNOMMEN. IN KEINEM FALL HAFTE DER URHEBERRECHTSINHABER UND MITWIRKENDE FÜR DIREKTE, INDIREKTE, ZUFÄLLIGE, BESONDERE, EXEMPLARISCHE ODER FOLGESCHÄDEN (EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE BESCHAFFUNG VON ERSATZARTIKELN ODER -DIENSTLEISTUNGEN); VERLUST DER NUTZUNG, DER DATEN ODER DES GEWINNS; ODER BETRIEBSUNTERBRECHUNG) JEDOCH VERURSACHT UND AUF IRGENDEINE WEISE AUS DER NUTZUNG DIESER OFTWARE, SEI ES VERTRAGLICH, STRENGER HAFTUNG ODER UNERLAUBTER SCHÄDEN (EINSCHLIEßLICH FAHRLÄSSIGKEIT ODER ANDERWEITIG), DIE IN IRGENDEINER WEISE AUS DER NUTZUNG DIESER OFTWARE ENTSTEHEN, AUCH WENN AUF DIE MÖGLICHKEIT EINES SOLCHEN SCHADENS HINGEWIESEN WIRD.
 
@@ -1047,7 +1047,7 @@ DIESE SOFTWARE WIRD VOM URHEBERRECHTSINHABER UND DEN MITWIRKENDEN "WIE BESEHEN" 
 
 ---------------------------------------------------------
 
-@hapi/joi 15.1.1 – BSD-3-Klausel https://github.com/hapijs/joi
+@hapi/joi 15.1.1 - BSD-3-Clause https://github.com/hapijs/joi
 
 Copyright (c) 2012-2014, Walmart.
 Copyright (c) 2012-2019, Sideway Inc. und Projektmitwirkende
@@ -1059,7 +1059,7 @@ Alle Rechte vorbehalten.
 Die Weiterverteilung und Verwendung in Quell- und Binärformularen mit oder ohne Änderung ist zulässig, sofern die folgenden Bedingungen erfüllt sind:
 * Die Weiterverteilung des Quellcodes muss den obigen Urheberrechtshinweis, diese Liste der Bedingungen und den folgenden Haftungsausschluss beibehalten.
 * Weitervertreibungen in binärer Form müssen den obigen Urheberrechtshinweis, diese Liste der Bedingungen und den folgenden Haftungsausschluss in der Dokumentation und/oder anderen Materialien, die mit der Verteilung bereitgestellt werden, reproduzieren.
-* Die Namen von Mitwirkenden dürfen nicht verwendet werden, um produkte, die von dieser Software abgeleitet sind, ohne eine bestimmte vorherige schriftliche Genehmigung zu unterstützen oder zu bewerben.
+* Die Namen von Mitwirkenden dürfen nicht verwendet werden, um Produkte, die von dieser Software abgeleitet sind, ohne eine bestimmte vorherige schriftliche Genehmigung zu unterstützen oder zu bewerben.
 
 DIESE SOFTWARE WIRD VOM URHEBERRECHTSINHABER UND DEN MITWIRKENDEN "WIE BESEHEN" BEREITGESTELLT, UND ALLE AUSDRÜCKLICHEN ODER KONKLUDENTEN GEWÄHRLEISTUNGEN, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF, DIE KONKLUDENTEN GARANTIEN DER HANDELSÜBLICHKEIT UND EIGNUNG FÜR EINEN BESTIMMTEN ZWECK WERDEN NICHT ÜBERNOMMEN. IN KEINEM FALL HAFTE DER URHEBERRECHTSINHABER UND MITWIRKENDE FÜR DIREKTE, INDIREKTE, ZUFÄLLIGE, BESONDERE, EXEMPLARISCHE ODER FOLGESCHÄDEN (EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE BESCHAFFUNG VON ERSATZARTIKELN ODER -DIENSTLEISTUNGEN); VERLUST DER NUTZUNG, DER DATEN ODER DES GEWINNS; ODER BETRIEBSUNTERBRECHUNG) JEDOCH VERURSACHT UND AUF IRGENDEINE WEISE AUS DER NUTZUNG DIESER OFTWARE, SEI ES VERTRAGLICH, STRENGER HAFTUNG ODER UNERLAUBTER SCHÄDEN (EINSCHLIEßLICH FAHRLÄSSIGKEIT ODER ANDERWEITIG), DIE IN IRGENDEINER WEISE AUS DER NUTZUNG DIESER OFTWARE ENTSTEHEN, AUCH WENN AUF DIE MÖGLICHKEIT EINES SOLCHEN SCHADENS HINGEWIESEN WIRD.
 
@@ -1210,7 +1210,7 @@ Die Weiterverteilung und Verwendung in Quell- und Binärformularen mit oder ohne
 
 * Weitervertreibungen in binärer Form müssen den obigen Urheberrechtshinweis, diese Liste der Bedingungen und den folgenden Haftungsausschluss in der Dokumentation und/oder anderen Materialien, die mit der Verteilung bereitgestellt werden, reproduzieren.
 
-* Weder die Namen der Mozilla Foundation noch die Namen der Projektmitwirkenden dürfen verwendet werden, um Produkte, die von dieser Software abgeleitet werden, ohne bestimmte vorherige schriftliche Genehmigung zu unterstützen oder zu bewerben.
+* Weder die Namen der Mozilla Foundation noch die Namen der Projektmitwirkenden dürfen verwendet werden, um Produkte, die von dieser Software abgeleitet wurden, ohne bestimmte vorherige schriftliche Genehmigung zu unterstützen oder zu bewerben.
 
 DIESE SOFTWARE WIRD VOM URHEBERRECHTSINHABER UND DEN MITWIRKENDEN "WIE BESEHEN" BEREITGESTELLT, UND ALLE AUSDRÜCKLICHEN ODER KONKLUDENTEN GEWÄHRLEISTUNGEN, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF, DIE KONKLUDENTEN GARANTIEN DER HANDELSÜBLICHKEIT UND EIGNUNG FÜR EINEN BESTIMMTEN ZWECK WERDEN NICHT ÜBERNOMMEN. IN KEINEM FALL HAFTE DER URHEBERRECHTSINHABER ODER MITWIRKENDE FÜR DIREKTE, INDIREKTE, ZUFÄLLIGE, BESONDERE, EXEMPLARISCHE ODER FOLGESCHÄDEN (EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE BESCHAFFUNG VON ERSATZARTIKELN ODER -DIENSTLEISTUNGEN; VERLUST DER NUTZUNG, DER DATEN ODER DES GEWINNS; ODER BETRIEBSUNTERBRECHUNG) JEDOCH VERURSACHT UND AUF IRGENDEINE WEISE AUS DER NUTZUNG DIESER SOFTWARE, OB VERTRAGLICH, STRENGER HAFTUNG ODER UNERLAUBTER SCHÄDEN (EINSCHLIEßLICH FAHRLÄSSIGKEIT ODER ANDERWEITIG), DIE IN IRGENDEINER WEISE AUS DER VERWENDUNG DIESER SOFTWARE ENTSTEHEN, AUCH WENN AUF DIE MÖGLICHKEIT EINES SOLCHEN SCHADENS HINGEWIESEN WIRD.
 
@@ -1232,7 +1232,7 @@ Die Weiterverteilung und Verwendung in Quell- und Binärformularen mit oder ohne
 
 * Weitervertreibungen in binärer Form müssen den obigen Urheberrechtshinweis, diese Liste der Bedingungen und den folgenden Haftungsausschluss in der Dokumentation und/oder anderen Materialien, die mit der Verteilung bereitgestellt werden, reproduzieren.
 
-* Weder die Namen der Mozilla Foundation noch die Namen der Projektmitwirkenden dürfen verwendet werden, um Produkte, die von dieser Software abgeleitet werden, ohne bestimmte vorherige schriftliche Genehmigung zu unterstützen oder zu bewerben.
+* Weder die Namen der Mozilla Foundation noch die Namen der Projektmitwirkenden dürfen verwendet werden, um Produkte, die von dieser Software abgeleitet wurden, ohne bestimmte vorherige schriftliche Genehmigung zu unterstützen oder zu bewerben.
 
 DIESE SOFTWARE WIRD VOM URHEBERRECHTSINHABER UND DEN MITWIRKENDEN "WIE BESEHEN" BEREITGESTELLT, UND ALLE AUSDRÜCKLICHEN ODER KONKLUDENTEN GEWÄHRLEISTUNGEN, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF, DIE KONKLUDENTEN GARANTIEN DER HANDELSÜBLICHKEIT UND EIGNUNG FÜR EINEN BESTIMMTEN ZWECK WERDEN NICHT ÜBERNOMMEN. IN KEINEM FALL HAFTE DER URHEBERRECHTSINHABER ODER MITWIRKENDE FÜR DIREKTE, INDIREKTE, ZUFÄLLIGE, BESONDERE, EXEMPLARISCHE ODER FOLGESCHÄDEN (EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE BESCHAFFUNG VON ERSATZARTIKELN ODER -DIENSTLEISTUNGEN; VERLUST DER NUTZUNG, DER DATEN ODER DES GEWINNS; ODER BETRIEBSUNTERBRECHUNG) JEDOCH VERURSACHT UND AUF IRGENDEINE WEISE AUS DER NUTZUNG DIESER SOFTWARE, OB VERTRAGLICH, STRENGER HAFTUNG ODER UNERLAUBTER SCHÄDEN (EINSCHLIEßLICH FAHRLÄSSIGKEIT ODER ANDERWEITIG), DIE IN IRGENDEINER WEISE AUS DER VERWENDUNG DIESER SOFTWARE ENTSTEHEN, AUCH WENN AUF DIE MÖGLICHKEIT EINES SOLCHEN SCHADENS HINGEWIESEN WIRD.
 
@@ -1254,7 +1254,7 @@ Die Weiterverteilung und Verwendung in Quell- und Binärformularen mit oder ohne
 
 * Weitervertreibungen in binärer Form müssen den obigen Urheberrechtshinweis, diese Liste der Bedingungen und den folgenden Haftungsausschluss in der Dokumentation und/oder anderen Materialien, die mit der Verteilung bereitgestellt werden, reproduzieren.
 
-* Weder die Namen der Mozilla Foundation noch die Namen der Projektmitwirkenden dürfen verwendet werden, um Produkte, die von dieser Software abgeleitet werden, ohne bestimmte vorherige schriftliche Genehmigung zu unterstützen oder zu bewerben.
+* Weder die Namen der Mozilla Foundation noch die Namen der Projektmitwirkenden dürfen verwendet werden, um Produkte, die von dieser Software abgeleitet wurden, ohne bestimmte vorherige schriftliche Genehmigung zu unterstützen oder zu bewerben.
 
 DIESE SOFTWARE WIRD VOM URHEBERRECHTSINHABER UND DEN MITWIRKENDEN "WIE BESEHEN" BEREITGESTELLT, UND ALLE AUSDRÜCKLICHEN ODER KONKLUDENTEN GEWÄHRLEISTUNGEN, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF, DIE KONKLUDENTEN GARANTIEN DER HANDELSÜBLICHKEIT UND EIGNUNG FÜR EINEN BESTIMMTEN ZWECK WERDEN NICHT ÜBERNOMMEN. IN KEINEM FALL HAFTE DER URHEBERRECHTSINHABER ODER MITWIRKENDE FÜR DIREKTE, INDIREKTE, ZUFÄLLIGE, BESONDERE, EXEMPLARISCHE ODER FOLGESCHÄDEN (EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE BESCHAFFUNG VON ERSATZARTIKELN ODER -DIENSTLEISTUNGEN; VERLUST DER NUTZUNG, DER DATEN ODER DES GEWINNS; ODER BETRIEBSUNTERBRECHUNG) JEDOCH VERURSACHT UND AUF IRGENDEINE WEISE AUS DER NUTZUNG DIESER SOFTWARE, OB VERTRAGLICH, STRENGER HAFTUNG ODER UNERLAUBTER SCHÄDEN (EINSCHLIEßLICH FAHRLÄSSIGKEIT ODER ANDERWEITIG), DIE IN IRGENDEINER WEISE AUS DER VERWENDUNG DIESER SOFTWARE ENTSTEHEN, AUCH WENN AUF DIE MÖGLICHKEIT EINES SOLCHEN SCHADENS HINGEWIESEN WIRD.
 
@@ -1326,7 +1326,7 @@ Weitere Informationen finden Sie unter http://creativecommons.org/publicdomain/z
 
 # <a name="the-mit-license-mit"></a>Die MIT-Lizenz (MIT)
 
-Copyright © Nl Neal und Marshallagher
+Copyright © Wiesn Neal und Marshallagher
 
 Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, sich uneingeschränkt mit der Software zu befassen, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und Personen, denen die Software dazu berechtigt ist, dies zu gestatten, unter den folgenden Bedingungen:
 
@@ -1580,7 +1580,7 @@ Zu diesen und/oder anderen Zwecken und Motivationen und ohne erwartungsgemäß z
 
 2. Verzicht. Im größtmöglichen Umfang, der durch, aber nicht gegen geltendes Recht verstößt, willentlich, vollständig, dauerhaft, endgültig, unaufgerufen und bedingungslos alle Copyright- und verwandten Rechte sowie die zugehörigen Ansprüche und Aktionsursachen, ob jetzt bekannt oder unbekannt (einschließlich bestehender sowie zukünftiger Ansprüche und Ursachen von Maßnahmen), in der Arbeit (i) in allen Ländern weltweit aufgehoben, aber nicht verletzt werden. , (ii) für die maximale Dauer nach geltendem Recht oder Vertrag (einschließlich künftiger Zeiterweiterungen), (iii) in einem aktuellen oder zukünftigen Medium und für eine beliebige Anzahl von Kopien und (iv) für jegliche Zwecke, einschließlich ohne Einschränkung kommerzieller, Werbe- oder Werbezwecke (der "Versendung"). Der Bestätigungsbeschwörer macht den Widerruf zum Vorteil jedes Mitglieds der allgemein zugänglichen Öffentlichkeit und zum Nachteil der Nachfolger und Nachfolger von Bestätigungen und beabsichtigt, dass ein solcher Widerruf nicht widerruflich, widerruflich, absagen, beenden oder andere rechtliche oder behördliche Maßnahmen ergreifen darf, um die stille Stille des Wirkens durch die Öffentlichkeit zu unterbrechen, wie dies in der ausdrücklichen Zweckserklärung von Statementer bestätigt wird.
 
-3. Fallback für öffentliche Lizenzen. Sollte ein Teil des Widerrufs aus irgendeinem Grund gesetzlich ungültig oder nach geltendem Recht wirkungslos sein, so bleibt der Widerruf in dem maximal zulässigen Umfang unter Berücksichtigung der ausdrücklichen Zweckserklärung des Bestätigers erhalten. In dem Umfang, in dem der Widerruf so erfolgreich ist, gewährt jeder betroffenen Person eine lizenzfreie, nicht übertragbare, nicht unterlizenzierbare, nicht ausschließliche, nicht widerrufliche und bedingungslose Lizenz zur Ausübung des Copyrights und verwandter Rechte von Attester an der Arbeit (i) in allen Ländern weltweit, (ii) für die maximale Dauer gemäß geltendem Recht oder Vertrag (einschließlich künftiger Zeiterweiterungen) , (iii) in einem aktuellen oder zukünftigen Medium und für eine beliebige Anzahl von Kopien und (iv) für jegliche Zwecke, einschließlich ohne Einschränkung kommerzieller, Werbe- oder Werbezwecke (die "Lizenz"). Die Lizenz gilt ab dem Datum, an dem CC0 von Attester auf die Arbeit angewendet wurde, als wirksam. Sollte ein Teil der Lizenz aus irgendeinem Grund rechtlich ungültig oder nach geltendem Recht wirkungslos sein, so ist eine solche teilweise Ineffektivität oder Ineffektivität nicht ungültig für den Rest der Lizenz, und in diesem Fall bestätigt Die Bestätigung, dass sie (i) keines seiner verbleibenden Copyright- und verwandten Rechte an der Arbeit ausüben wird oder (ii) alle zugehörigen Ansprüche und Ursachen der Aktion in Bezug auf das Werk bestätigen wird. , in beiden Fällen entgegen der ausdrücklichen Zweckerklärung von Statementer.
+3. Fallback für öffentliche Lizenzen. Sollte ein Teil des Widerrufs aus irgendeinem Grund gesetzlich ungültig oder nach geltendem Recht wirkungslos sein, so bleibt der Widerruf in dem maximal zulässigen Umfang unter Berücksichtigung der ausdrücklichen Zweckserklärung des Bestätigers erhalten. In dem Umfang, in dem der Widerruf so erfolgreich ist, gewährt jeder betroffenen Person eine lizenzfreie, nicht übertragbare, nicht unterlizenzierbare, nicht ausschließliche, nicht widerrufliche und bedingungslose Lizenz zur Ausübung des Copyrights und verwandter Rechte von Attester an der Arbeit (i) in allen Ländern weltweit, (ii) für die maximale Dauer gemäß geltendem Recht oder Vertrag (einschließlich künftiger Zeiterweiterungen) , (iii) in einem aktuellen oder zukünftigen Medium und für eine beliebige Anzahl von Kopien und (iv) zu beliebigen Zwecken, einschließlich ohne Einschränkung kommerzieller, Werbe- oder Werbezwecke (die "Lizenz"). Die Lizenz gilt ab dem Datum, an dem CC0 von Attester auf die Arbeit angewendet wurde, als wirksam. Sollte ein Teil der Lizenz aus irgendeinem Grund rechtlich ungültig oder nach geltendem Recht wirkungslos sein, so ist eine solche teilweise Ineffektivität oder Ineffektivität nicht ungültig für den Rest der Lizenz, und in diesem Fall bestätigt Die Bestätigung, dass sie (i) keines seiner verbleibenden Copyright- und verwandten Rechte an der Arbeit ausüben wird oder (ii) alle zugehörigen Ansprüche und Ursachen der Aktion in Bezug auf das Werk bestätigen wird. , in beiden Fällen entgegen der ausdrücklichen Zweckerklärung von Statementer.
 
 4. Einschränkungen und Haftungsausschlüsse.
 
@@ -2376,19 +2376,19 @@ Abschnitt 1 – Definitionen.
 
   b. Die Lizenz des Adapters bezeichnet die Lizenz, die Sie auf Ihr Copyright und ähnliche Rechte in Ihren Beiträgen für angepasstes Material in Übereinstimmung mit den Bedingungen dieser öffentlichen Lizenz anwenden.
 
-  c. Copyright- und ähnliche Rechte sind Copyright- und/oder ähnliche Rechte, die eng mit dem Urheberrecht verbunden sind, einschließlich, ohne Einschränkung, Leistung, Übertragung, Tonaufzeichnung und Sui Generis-Datenbankrechte, ohne Berücksichtigung der Bezeichnung oder Kategorisierung der Rechte. Für die Zwecke dieser öffentlichen Lizenz sind die in Abschnitt 2(b)(1)-(2) angegebenen Rechte kein Urheberrecht und ähnliche Rechte.
+  c. Copyright- und ähnliche Rechte sind Copyright- und/oder ähnliche Rechte, die eng mit dem Urheberrecht verbunden sind, einschließlich, ohne Einschränkung, Leistung, Übertragung, Tonaufzeichnung und Sui Generis Database Rights, ohne Berücksichtigung der Bezeichnung oder Kategorisierung der Rechte. Für die Zwecke dieser öffentlichen Lizenz sind die in Abschnitt 2(b)(1)-(2) angegebenen Rechte kein Urheberrecht und ähnliche Rechte.
 
-  d. Effektive Technische Maßnahmen bedeuten die Maßnahmen, die, falls keine ordnungsgemäße Autorität besteht, nicht durch Gesetze umgangen werden dürfen, die den Verpflichtungen gemäß Artikel 11 des AM 20. Dezember 1996 angenommenen COPYRIGHT-Vertrags UND/oder ähnlicher internationaler Vereinbarungen entsprechen.
+  d. Effektive Technische Maßnahmen bedeuten die Maßnahmen, die, wenn keine ordnungsgemäße Autorität besteht, nicht durch Gesetze umgangen werden dürfen, die den Verpflichtungen gemäß Artikel 11 des AM 20. Dezember 1996 angenommenen COPYRIGHT-Vertrags UND/oder ähnlicher internationaler Vereinbarungen entsprechen.
 
   e. Ausnahmen und Einschränkungen sind eine angemessene Nutzung, ein fairer Umgang und/oder eine andere Ausnahme oder Einschränkung des Urheberrechts und ähnlicher Rechte, die für Ihre Nutzung des lizenzierten Materials gelten.
 
-  f. Lizenziertes Material bezeichnet die arbeitenden oder öffentlichen Arbeiten, Datenbanken oder anderen Materialien, auf die der Licensor diese öffentliche Lizenz angewendet hat.
+  f. Lizenziertes Material bezeichnet die arbeitenden oder öffentlichen Arbeiten, Datenbanken oder sonstigen Materialien, auf die der Licensor diese öffentliche Lizenz angewendet hat.
 
   g. Lizenzierte Rechte sind die Ihnen gewährten Rechte, die den Bedingungen dieser öffentlichen Lizenz unterliegen, die auf alle Copyright- und ähnlichen Rechte beschränkt sind, die für Ihre Verwendung des lizenzierten Materials gelten und die der Licensor lizenzieren darf.
 
   h. "Licensor" bezeichnet die Person(en) oder Entität(en), die Rechte unter dieser öffentlichen Lizenz gewähren.
 
-  i. Teilen bedeutet, material für die Öffentlichkeit auf irgendeine Art und Weise bereitzustellen oder zu verarbeiten, die eine Berechtigung unter den lizenzierten Rechten erfordert, z. B. Veröffentlichung, öffentliche Anzeige, öffentliche Leistung, Verteilung, Verbreitung, Kommunikation oder Import, und material für die Öffentlichkeit verfügbar zu machen, einschließlich in einer Art und Weise, dass Mitglieder der Öffentlichkeit von einem Ort aus auf das Material zugreifen können und zu einem von ihnen einzeln ausgewählten Zeitpunkt.
+  i. Teilen bedeutet, material für die Öffentlichkeit auf irgendeine Art und Weise bereitzustellen oder zu verarbeiten, die eine Berechtigung unter den lizenzierten Rechten erfordert, z. B. Veröffentlichung, öffentliche Anzeige, öffentliche Leistung, Verteilung, Verbreitung, Kommunikation oder Import, und material für die Öffentlichkeit verfügbar zu machen, einschließlich in einer Weise, dass Mitglieder der Öffentlichkeit von einem Ort und zu einem von ihnen einzeln ausgewählten Zeitpunkt auf das Material zugreifen können.
 
   j. "Sui Generis Database Rights" bezeichnet andere Rechte als das Urheberrecht, die sich aus der Richtlinie 96/9/EG der Europäischen Kommission und des Rates vom 11. März 1996 über den rechtlichen Schutz von Datenbanken in der geänderten und/oder erfolgreichen Form ergeben, sowie andere im Wesentlichen gleichwertige Rechte überall auf der Welt.
 
@@ -2527,20 +2527,20 @@ Abschnitt 4 - Sui Generis Database Rights.
 
 Wenn die lizenzierten Rechte Sui Generis-Datenbankrechte umfassen, die für Ihre Verwendung des lizenzierten Materials gelten:
 
-  a. zur Vermeidung von Zweifeln gewährt Ihnen Abschnitt 2(a)(1) das Recht, den Gesamten oder einen erheblichen Teil des Inhalts der Datenbank zu extrahieren, wiederzuverwenden, zu reproduzieren und freizugeben;
+  a. zur Vermeidung von Zweifeln gewährt Ihnen Abschnitt 2(a)(1) das Recht, den gesamten oder einen erheblichen Teil des Inhalts der Datenbank zu extrahieren, wiederzuverwenden, zu reproduzieren und freizugeben;
 
   b. Wenn Sie den gesamten oder einen erheblichen Teil des Datenbankinhalts in eine Datenbank einschließen, in der Sie über Sui Generis-Datenbankrechte verfügen, ist die Datenbank, in der Sie über Sui Generis-Datenbankrechte verfügen (aber nicht deren einzelner Inhalt), adaptiertes Material; Und
 
   c. Sie müssen die Bedingungen in Abschnitt 3(a) erfüllen, wenn Sie den gesamten oder einen erheblichen Teil des Inhalts der Datenbank freigeben.
 
-Aus Gründen des Zweifels ergänzt dieser Abschnitt 4 Ihre Verpflichtungen aus dieser öffentlichen Lizenz nicht und ersetzt sie nicht, wenn die lizenzierten Rechte andere Copyright- und ähnliche Rechte umfassen.
+Aus Gründen des Zweifels ergänzt und ersetzt dieser Abschnitt 4 Ihre Verpflichtungen aus dieser öffentlichen Lizenz nicht, wenn die lizenzierten Rechte andere Urheberrechte und ähnliche Rechte umfassen.
 
 
 Abschnitt 5 – Haftungsausschluss und Haftungsbeschränkung.
 
-  a. SOFERN NICHT ANDERS VOM LICENSOR GETRENNT EINGEGANGEN WIRD, BIETET DER LICENSOR DAS LIZENZIERTE MATERIAL SOWEIT MÖGLICH IN DER VORLIEGENDEN UND VERFÜGBAREN FORM AN UND ÜBERNIMMT KEINERLEI ZUSICHERUNGEN ODER GEWÄHRLEISTUNGEN HINSICHTLICH DES LIZENZIERTEN MATERIALS, SEI ES AUSDRÜCKLICH, KONKLUDENT, GESETZLICH ODER ANDERWEITIG. DIES UMFASST, OHNE EINSCHRÄNKUNG, GARANTIEN DES TITELS, HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK, NICHTVERLETZUNG, FEHLEN LATENTER ODER ANDERER FEHLER, GENAUIGKEIT ODER DAS VORHANDENSEIN ODER FEHLEN VON FEHLERN, UNABHÄNGIG DAVON, OB BEKANNT ODER AUFFINDBAR. WENN HAFTUNGSAUSSCHLÜSSE NICHT VOLLSTÄNDIG ODER TEILWEISE ZULÄSSIG SIND, GILT DIESER HAFTUNGSAUSSCHLUSS MÖGLICHERWEISE NICHT FÜR SIE.
+  a. SOFERN DER LICENSOR NICHT ANDERWEITIG SEPARAT HANDELT, BIETET DER LICENSOR DAS LIZENZIERTE MATERIAL SOWEIT MÖGLICH IN DER VORLIEGENDEN UND VERFÜGBAREN FORM AN UND ÜBERNIMMT KEINERLEI ZUSICHERUNGEN ODER GEWÄHRLEISTUNGEN HINSICHTLICH DES LIZENZIERTEN MATERIALS, SEI ES AUSDRÜCKLICH, KONKLUDENT, GESETZLICH ODER ANDERWEITIG. DIES UMFASST, OHNE EINSCHRÄNKUNG, GARANTIEN DES TITELS, HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK, NICHTVERLETZUNG, FEHLEN LATENTER ODER ANDERER FEHLER, GENAUIGKEIT ODER DAS VORHANDENSEIN ODER FEHLEN VON FEHLERN, UNABHÄNGIG DAVON, OB BEKANNT ODER AUFFINDBAR. WENN HAFTUNGSAUSSCHLÜSSE NICHT VOLLSTÄNDIG ODER TEILWEISE ZULÄSSIG SIND, GILT DIESER HAFTUNGSAUSSCHLUSS MÖGLICHERWEISE NICHT FÜR SIE.
 
-  b. SOWEIT MÖGLICH, IST DER LICENSOR IHNEN IN KEINEM FALL IN RECHTLICHER HINSICHT (EINSCHLIEßLICH, OHNE EINSCHRÄNKUNG, NACHLÄSSIGKEIT) ODER ANDERWEITIG FÜR DIREKTE, SPEZIELLE, INDIREKTE, ZUFÄLLIGE, FOLGE-, FOLGE-,UNITIVE-, EXEMPLARISCHE ODER ANDERE SCHÄDEN, KOSTEN, AUSGABEN ODER SCHÄDEN, DIE AUS DIESER ÖFFENTLICHEN LIZENZ ODER DER VERWENDUNG DES LIZENZIERTEN MATERIALS ENTSTEHEN, VERANTWORTLICH, AUCH WENN DER LICENSOR AUF DIE MÖGLICHKEIT SOLCHER VERLUSTEN HINGEWIESEN WURDE. , KOSTEN, AUSGABEN ODER SCHÄDEN. WENN EINE BESCHRÄNKUNG DER HAFTUNG NICHT VOLLSTÄNDIG ODER TEILWEISE ZULÄSSIG IST, GILT DIESE EINSCHRÄNKUNG MÖGLICHERWEISE NICHT FÜR SIE.
+  b. SOWEIT MÖGLICH, IST DER LICENSOR IHNEN IN KEINEM FALL IN RECHTLICHER HINSICHT (EINSCHLIEßLICH, OHNE EINSCHRÄNKUNG, NACHLÄSSIGKEIT) ODER ANDERWEITIG FÜR DIREKTE, SPEZIELLE, INDIREKTE, ZUFÄLLIGE, FOLGE-, FOLGE-, STRAF-, EXEMPLARISCHE ODER ANDERE VERLUST-, KOSTEN-, AUSGABEN- ODER SCHÄDEN, DIE AUS DIESER ÖFFENTLICHEN LIZENZ ODER DER VERWENDUNG DES LIZENZIERTEN MATERIALS ENTSTEHEN, VERANTWORTLICH, AUCH WENN DER LICENSOR AUF DIE MÖGLICHKEIT SOLCHER VERLUSTEN HINGEWIESEN WURDE. , KOSTEN, AUSGABEN ODER SCHÄDEN. WENN EINE BESCHRÄNKUNG DER HAFTUNG NICHT VOLLSTÄNDIG ODER TEILWEISE ZULÄSSIG IST, GILT DIESE EINSCHRÄNKUNG MÖGLICHERWEISE NICHT FÜR SIE.
 
   c. Der oben aufgeführte Haftungsausschluss und die Haftungsbeschränkung sind so zu interpretieren, dass ein absoluter Haftungsausschluss und haftungsfreie Haftung möglichst nahe kommt.
 
@@ -2575,7 +2575,7 @@ Abschnitt 7 – Weitere Geschäftsbedingungen.
 
 Abschnitt 8 – Interpretation.
 
-  a. Aus Gründen des Zweifels gilt, dass diese öffentliche Lizenz für jede Verwendung des Lizenzierten Materials, die rechtmäßig ohne Genehmigung unter dieser öffentlichen Lizenz vorgenommen werden könnte, weder herabzusetzen, noch einzuschränken, einzuschränken oder Bedingungen auferlegen darf.
+  a. Aus Gründen des Zweifels gilt, dass diese öffentliche Lizenz für jede Verwendung des Lizenzierten Materials, die rechtmäßig ohne Genehmigung unter dieser öffentlichen Lizenz vorgenommen werden könnte, weder herabzusetzen noch einzuschränken, einzuschränken oder Bedingungen auferlegen darf.
 
   b. Wenn eine Bereitstellung dieser öffentlichen Lizenz als nicht durchsetzbar eingestuft wird, wird sie so weit wie möglich automatisch neu formatiert, um sie durchsetzbar zu machen. Wenn die Bereitstellung nicht neu formatiert werden kann, wird sie von dieser öffentlichen Lizenz getrennt, ohne die Erzwingung der verbleibenden Geschäftsbedingungen zu beeinträchtigen.
 
@@ -2603,9 +2603,9 @@ Die ISC-Lizenz
 
 Copyright (c) 2014 Elan Codker
 
-Die Berechtigung zum Verwenden, Kopieren, Ändern und/oder Verteilen dieser Software für einen beliebigen Zweck mit oder ohne Gebühr wird gewährt, vorausgesetzt, dass der obige Urheberrechtshinweis und dieser Berechtigungshinweis in allen Kopien angezeigt werden.
+Die Berechtigung zum Verwenden, Kopieren, Ändern und/oder Verteilen dieser Software für jeden Zweck mit oder ohne Gebühr wird gewährt, vorausgesetzt, dass der obige Urheberrechtshinweis und dieser Berechtigungshinweis in allen Kopien angezeigt werden.
 
-DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, UND DER AUTOR LEHNT ALLE GEWÄHRLEISTUNGEN IN BEZUG AUF DIESE SOFTWARE AB, EINSCHLIEßLICH ALLER KONKLUDENTEN GEWÄHRLEISTUNGEN DER HANDELSÜBLICHKEIT UND EIGNUNG. IN KEINEM FALL IST DER AUTOR FÜR BESONDERE, DIREKTE, INDIREKTE ODER FOLGESCHÄDEN ODER SCHÄDEN JEGLICHER ART, DIE SICH AUS DEM VERLUST DER NUTZUNG, DER DATEN ODER DES GEWINNS ERGEBEN, UNABHÄNGIG DAVON, OB ES SICH UM EINE VERTRAGSVERLETZUNG, EINE FAHRLÄSSIGKEIT ODER EINE ANDERE UNERLAUBTE AKTION HANDELT, DIE AUS ODER IN VERBINDUNG MIT DER NUTZUNG ODER LEISTUNG DIESER SOFTWARE ENTSTEHT, VERANTWORTLICH.
+DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, UND DER AUTOR LEHNT ALLE GEWÄHRLEISTUNGEN IN BEZUG AUF DIESE SOFTWARE AB, EINSCHLIEßLICH ALLER KONKLUDENTEN GEWÄHRLEISTUNGEN DER HANDELSÜBLICHKEIT UND EIGNUNG. IN KEINEM FALL HAFTE DER AUTOR FÜR BESONDERE, DIREKTE, INDIREKTE ODER FOLGESCHÄDEN ODER SCHÄDEN, DIE AUS DEM VERLUST DER NUTZUNG, DER DATEN ODER DES GEWINNS RESULTIEREN, UNABHÄNGIG DAVON, OB ES SICH UM EINE VERTRAGSVERLETZUNG, EINE FAHRLÄSSIGKEIT ODER EINE ANDERE UNERLAUBTE AKTION HANDELT, DIE AUS ODER IN VERBINDUNG MIT DER NUTZUNG ODER LEISTUNG DIESER SOFTWARE ENTSTEHT.
 
 
 ---------------------------------------------------------
@@ -2620,9 +2620,9 @@ Die ISC-Lizenz
 
 Copyright (c) 2019 Elan Codker, Paul Nut (https://paulmillr.com)
 
-Die Berechtigung zum Verwenden, Kopieren, Ändern und/oder Verteilen dieser Software für einen beliebigen Zweck mit oder ohne Gebühr wird gewährt, vorausgesetzt, dass der obige Urheberrechtshinweis und dieser Berechtigungshinweis in allen Kopien angezeigt werden.
+Die Berechtigung zum Verwenden, Kopieren, Ändern und/oder Verteilen dieser Software für jeden Zweck mit oder ohne Gebühr wird gewährt, vorausgesetzt, dass der obige Urheberrechtshinweis und dieser Berechtigungshinweis in allen Kopien angezeigt werden.
 
-DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, UND DER AUTOR LEHNT ALLE GEWÄHRLEISTUNGEN IN BEZUG AUF DIESE SOFTWARE AB, EINSCHLIEßLICH ALLER KONKLUDENTEN GEWÄHRLEISTUNGEN DER HANDELSÜBLICHKEIT UND EIGNUNG. IN KEINEM FALL IST DER AUTOR FÜR BESONDERE, DIREKTE, INDIREKTE ODER FOLGESCHÄDEN ODER SCHÄDEN JEGLICHER ART, DIE SICH AUS DEM VERLUST DER NUTZUNG, DER DATEN ODER DES GEWINNS ERGEBEN, UNABHÄNGIG DAVON, OB ES SICH UM EINE VERTRAGSVERLETZUNG, EINE FAHRLÄSSIGKEIT ODER EINE ANDERE UNERLAUBTE AKTION HANDELT, DIE AUS ODER IN VERBINDUNG MIT DER NUTZUNG ODER LEISTUNG DIESER SOFTWARE ENTSTEHT, VERANTWORTLICH.
+DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, UND DER AUTOR LEHNT ALLE GEWÄHRLEISTUNGEN IN BEZUG AUF DIESE SOFTWARE AB, EINSCHLIEßLICH ALLER KONKLUDENTEN GEWÄHRLEISTUNGEN DER HANDELSÜBLICHKEIT UND EIGNUNG. IN KEINEM FALL HAFTE DER AUTOR FÜR BESONDERE, DIREKTE, INDIREKTE ODER FOLGESCHÄDEN ODER SCHÄDEN, DIE AUS DEM VERLUST DER NUTZUNG, DER DATEN ODER DES GEWINNS RESULTIEREN, UNABHÄNGIG DAVON, OB ES SICH UM EINE VERTRAGSVERLETZUNG, EINE FAHRLÄSSIGKEIT ODER EINE ANDERE UNERLAUBTE AKTION HANDELT, DIE AUS ODER IN VERBINDUNG MIT DER NUTZUNG ODER LEISTUNG DIESER SOFTWARE ENTSTEHT.
 
 
 ---------------------------------------------------------
@@ -2635,9 +2635,9 @@ Copyright (c) 2015, Rebecca Turner <me@re-becca.org>
 
 Copyright (c) 2015, Rebecca Turner <me@re-becca.org>
 
-Die Berechtigung zum Verwenden, Kopieren, Ändern und/oder Verteilen dieser Software für einen beliebigen Zweck mit oder ohne Gebühr wird gewährt, vorausgesetzt, dass der obige Urheberrechtshinweis und dieser Berechtigungshinweis in allen Kopien angezeigt werden.
+Die Berechtigung zum Verwenden, Kopieren, Ändern und/oder Verteilen dieser Software für jeden Zweck mit oder ohne Gebühr wird gewährt, vorausgesetzt, dass der obige Urheberrechtshinweis und dieser Berechtigungshinweis in allen Kopien angezeigt werden.
 
-DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, UND DER AUTOR LEHNT ALLE GEWÄHRLEISTUNGEN IN BEZUG AUF DIESE SOFTWARE AB, EINSCHLIEßLICH ALLER KONKLUDENTEN GEWÄHRLEISTUNGEN DER HANDELSÜBLICHKEIT UND EIGNUNG. IN KEINEM FALL IST DER AUTOR FÜR BESONDERE, DIREKTE, INDIREKTE ODER FOLGESCHÄDEN ODER SCHÄDEN JEGLICHER ART, DIE SICH AUS DEM VERLUST DER NUTZUNG, DER DATEN ODER DES GEWINNS ERGEBEN, UNABHÄNGIG DAVON, OB ES SICH UM EINE VERTRAGSVERLETZUNG, EINE FAHRLÄSSIGKEIT ODER EINE ANDERE UNERLAUBTE AKTION HANDELT, DIE AUS ODER IN VERBINDUNG MIT DER NUTZUNG ODER LEISTUNG DIESER SOFTWARE ENTSTEHT, VERANTWORTLICH.
+DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, UND DER AUTOR LEHNT ALLE GEWÄHRLEISTUNGEN IN BEZUG AUF DIESE SOFTWARE AB, EINSCHLIEßLICH ALLER KONKLUDENTEN GEWÄHRLEISTUNGEN DER HANDELSÜBLICHKEIT UND EIGNUNG. IN KEINEM FALL HAFTE DER AUTOR FÜR BESONDERE, DIREKTE, INDIREKTE ODER FOLGESCHÄDEN ODER SCHÄDEN, DIE AUS DEM VERLUST DER NUTZUNG, DER DATEN ODER DES GEWINNS RESULTIEREN, UNABHÄNGIG DAVON, OB ES SICH UM EINE VERTRAGSVERLETZUNG, EINE FAHRLÄSSIGKEIT ODER EINE ANDERE UNERLAUBTE AKTION HANDELT, DIE AUS ODER IN VERBINDUNG MIT DER NUTZUNG ODER LEISTUNG DIESER SOFTWARE ENTSTEHT.
 
 
 
@@ -2656,7 +2656,7 @@ Copyright (c) 1995-2003 by Internet Software Consortium
 
 Die Berechtigung zum Verwenden, Kopieren, Ändern und/oder Verteilen dieser Software für jeden Zweck mit oder ohne Gebühr wird gewährt, vorausgesetzt, dass der obige Urheberrechtshinweis und dieser Berechtigungshinweis in allen Kopien angezeigt werden.
 
-DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT UND ISC LEHNT ALLE GEWÄHRLEISTUNGEN IN BEZUG AUF DIESE SOFTWARE AB, EINSCHLIEßLICH ALLER KONKLUDENTEN GEWÄHRLEISTUNGEN DER HANDELSÜBLICHKEIT UND EIGNUNG. IN KEINEM FALL IST ISC FÜR BESONDERE, DIREKTE, INDIREKTE ODER FOLGESCHÄDEN ODER SCHÄDEN, DIE AUS DEM VERLUST DER NUTZUNG, DER DATEN ODER DES GEWINNS RESULTIEREN, UNABHÄNGIG DAVON, OB ES SICH UM EINE VERTRAGSVERLETZUNG, EINE FAHRLÄSSIGKEIT ODER EINE ANDERE UNERLAUBTE AKTION HANDELT, DIE SICH AUS ODER IN VERBINDUNG MIT DER NUTZUNG ODER LEISTUNG DIESER SOFTWARE ERGIBT, VERANTWORTLICH.
+DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT UND ISC LEHNT ALLE GEWÄHRLEISTUNGEN IN BEZUG AUF DIESE SOFTWARE AB, EINSCHLIEßLICH ALLER KONKLUDENTEN GEWÄHRLEISTUNGEN DER HANDELSÜBLICHKEIT UND EIGNUNG. IN KEINEM FALL IST ISC FÜR BESONDERE, DIREKTE, INDIREKTE ODER FOLGESCHÄDEN ODER SCHÄDEN JEGLICHER ART, DIE AUS DEM VERLUST DER NUTZUNG, DER DATEN ODER DES GEWINNS RESULTIEREN, UNABHÄNGIG DAVON, OB ES SICH UM EINE VERTRAGSVERLETZUNG, EINE FAHRLÄSSIGKEIT ODER EINE ANDERE UNERLAUBTE AKTION HANDELT, DIE AUS ODER IN VERBINDUNG MIT DER VERWENDUNG ODER LEISTUNG DIESER SOFTWARE ENTSTEHT, VERANTWORTLICH.
 
 ---------------------------------------------------------
 
@@ -2668,9 +2668,9 @@ Copyright (c) 2014-2015 Metcalf und Browserify-Sign-Mitwirkende
 
 Copyright (c) 2014-2015 Metcalf und Browserify-Sign-Mitwirkende
 
-Die Berechtigung zum Verwenden, Kopieren, Ändern und/oder Verteilen dieser Software für einen beliebigen Zweck mit oder ohne Gebühr wird gewährt, vorausgesetzt, dass der obige Urheberrechtshinweis und dieser Berechtigungshinweis in allen Kopien angezeigt werden.
+Die Berechtigung zum Verwenden, Kopieren, Ändern und/oder Verteilen dieser Software für jeden Zweck mit oder ohne Gebühr wird gewährt, vorausgesetzt, dass der obige Urheberrechtshinweis und dieser Berechtigungshinweis in allen Kopien angezeigt werden.
 
-DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, UND DER AUTOR LEHNT ALLE GEWÄHRLEISTUNGEN IN BEZUG AUF DIESE SOFTWARE AB, EINSCHLIEßLICH ALLER KONKLUDENTEN GEWÄHRLEISTUNGEN DER HANDELSÜBLICHKEIT UND EIGNUNG. IN KEINEM FALL IST DER AUTOR FÜR BESONDERE, DIREKTE, INDIREKTE ODER FOLGESCHÄDEN ODER SCHÄDEN JEGLICHER ART, DIE SICH AUS DEM VERLUST DER NUTZUNG, DER DATEN ODER DES GEWINNS ERGEBEN, UNABHÄNGIG DAVON, OB ES SICH UM EINE VERTRAGSVERLETZUNG, EINE FAHRLÄSSIGKEIT ODER EINE ANDERE UNERLAUBTE AKTION HANDELT, DIE AUS ODER IN VERBINDUNG MIT DER NUTZUNG ODER LEISTUNG DIESER SOFTWARE ENTSTEHT, VERANTWORTLICH.
+DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, UND DER AUTOR LEHNT ALLE GEWÄHRLEISTUNGEN IN BEZUG AUF DIESE SOFTWARE AB, EINSCHLIEßLICH ALLER KONKLUDENTEN GEWÄHRLEISTUNGEN DER HANDELSÜBLICHKEIT UND EIGNUNG. IN KEINEM FALL HAFTE DER AUTOR FÜR BESONDERE, DIREKTE, INDIREKTE ODER FOLGESCHÄDEN ODER SCHÄDEN, DIE AUS DEM VERLUST DER NUTZUNG, DER DATEN ODER DES GEWINNS RESULTIEREN, UNABHÄNGIG DAVON, OB ES SICH UM EINE VERTRAGSVERLETZUNG, EINE FAHRLÄSSIGKEIT ODER EINE ANDERE UNERLAUBTE AKTION HANDELT, DIE AUS ODER IN VERBINDUNG MIT DER NUTZUNG ODER LEISTUNG DIESER SOFTWARE ENTSTEHT.
 
 
 ---------------------------------------------------------
@@ -2685,7 +2685,7 @@ ISC-Lizenz
 
 Copyright (c) npm, Inc.
 
-Die Berechtigung zum Verwenden, Kopieren, Ändern und/oder Verteilen dieser Software für einen beliebigen Zweck mit oder ohne Gebühr wird gewährt, vorausgesetzt, dass der obige Urheberrechtshinweis und dieser Berechtigungshinweis in allen Kopien angezeigt werden.
+Die Berechtigung zum Verwenden, Kopieren, Ändern und/oder Verteilen dieser Software für jeden Zweck mit oder ohne Gebühr wird gewährt, vorausgesetzt, dass der obige Urheberrechtshinweis und dieser Berechtigungshinweis in allen Kopien angezeigt werden.
 
 DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, UND DER URHEBERRECHTSINHABER LEHNT ALLE GEWÄHRLEISTUNGEN IN BEZUG AUF DIESE SOFTWARE AB, EINSCHLIEßLICH ALLER KONKLUDENTEN GEWÄHRLEISTUNGEN DER HANDELSÜBLICHKEIT UND EIGNUNG. IN KEINEM FALL HAFTE DER URHEBERRECHTSINHABER FÜR BESONDERE, DIREKTE, INDIREKTE ODER FOLGESCHÄDEN ODER SCHÄDEN JEGLICHER ART, DIE SICH AUS DEM VERLUST DER NUTZUNG, DER DATEN ODER DES GEWINNS ERGEBEN, UNABHÄNGIG DAVON, OB ES SICH UM EINE VERTRAGSVERLETZUNG, EINE VORSICHTSMAßNAHME ODER EINE ANDERE UNERLAUBTE AKTION HANDELT, DIE AUS ODER IN VERBINDUNG MIT DER NUTZUNG ODER LEISTUNG DIESER SOFTWARE ENTSTEHT.
 
@@ -2702,9 +2702,9 @@ Die ISC-Lizenz
 
 Copyright (c) Copyright Z. Schlueter und Mitwirkende
 
-Die Berechtigung zum Verwenden, Kopieren, Ändern und/oder Verteilen dieser Software für einen beliebigen Zweck mit oder ohne Gebühr wird gewährt, vorausgesetzt, dass der obige Urheberrechtshinweis und dieser Berechtigungshinweis in allen Kopien angezeigt werden.
+Die Berechtigung zum Verwenden, Kopieren, Ändern und/oder Verteilen dieser Software für jeden Zweck mit oder ohne Gebühr wird gewährt, vorausgesetzt, dass der obige Urheberrechtshinweis und dieser Berechtigungshinweis in allen Kopien angezeigt werden.
 
-DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, UND DER AUTOR LEHNT ALLE GEWÄHRLEISTUNGEN IN BEZUG AUF DIESE SOFTWARE AB, EINSCHLIEßLICH ALLER KONKLUDENTEN GEWÄHRLEISTUNGEN DER HANDELSÜBLICHKEIT UND EIGNUNG. IN KEINEM FALL IST DER AUTOR FÜR BESONDERE, DIREKTE, INDIREKTE ODER FOLGESCHÄDEN ODER SCHÄDEN JEGLICHER ART, DIE SICH AUS DEM VERLUST DER NUTZUNG, DER DATEN ODER DES GEWINNS ERGEBEN, UNABHÄNGIG DAVON, OB ES SICH UM EINE VERTRAGSVERLETZUNG, EINE FAHRLÄSSIGKEIT ODER EINE ANDERE UNERLAUBTE AKTION HANDELT, DIE AUS ODER IN VERBINDUNG MIT DER NUTZUNG ODER LEISTUNG DIESER SOFTWARE ENTSTEHT, VERANTWORTLICH.
+DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, UND DER AUTOR LEHNT ALLE GEWÄHRLEISTUNGEN IN BEZUG AUF DIESE SOFTWARE AB, EINSCHLIEßLICH ALLER KONKLUDENTEN GEWÄHRLEISTUNGEN DER HANDELSÜBLICHKEIT UND EIGNUNG. IN KEINEM FALL HAFTE DER AUTOR FÜR BESONDERE, DIREKTE, INDIREKTE ODER FOLGESCHÄDEN ODER SCHÄDEN, DIE AUS DEM VERLUST DER NUTZUNG, DER DATEN ODER DES GEWINNS RESULTIEREN, UNABHÄNGIG DAVON, OB ES SICH UM EINE VERTRAGSVERLETZUNG, EINE FAHRLÄSSIGKEIT ODER EINE ANDERE UNERLAUBTE AKTION HANDELT, DIE AUS ODER IN VERBINDUNG MIT DER NUTZUNG ODER LEISTUNG DIESER SOFTWARE ENTSTEHT.
 
 
 ---------------------------------------------------------
@@ -2717,9 +2717,9 @@ Copyright (c) 2015, Ilya Rad radius <ilya@burstcreations.com>
 
 Copyright (c) 2015, Ilya Rad radius <ilya@burstcreations.com>
 
-Die Berechtigung zum Verwenden, Kopieren, Ändern und/oder Verteilen dieser Software für einen beliebigen Zweck mit oder ohne Gebühr wird gewährt, vorausgesetzt, dass der obige Urheberrechtshinweis und dieser Berechtigungshinweis in allen Kopien angezeigt werden.
+Die Berechtigung zum Verwenden, Kopieren, Ändern und/oder Verteilen dieser Software für jeden Zweck mit oder ohne Gebühr wird gewährt, vorausgesetzt, dass der obige Urheberrechtshinweis und dieser Berechtigungshinweis in allen Kopien angezeigt werden.
 
-DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, UND DER AUTOR LEHNT ALLE GEWÄHRLEISTUNGEN IN BEZUG AUF DIESE SOFTWARE AB, EINSCHLIEßLICH ALLER KONKLUDENTEN GEWÄHRLEISTUNGEN DER HANDELSÜBLICHKEIT UND EIGNUNG. IN KEINEM FALL IST DER AUTOR FÜR BESONDERE, DIREKTE, INDIREKTE ODER FOLGESCHÄDEN ODER SCHÄDEN JEGLICHER ART, DIE SICH AUS DEM VERLUST DER NUTZUNG, DER DATEN ODER DES GEWINNS ERGEBEN, UNABHÄNGIG DAVON, OB ES SICH UM EINE VERTRAGSVERLETZUNG, EINE FAHRLÄSSIGKEIT ODER EINE ANDERE UNERLAUBTE AKTION HANDELT, DIE AUS ODER IN VERBINDUNG MIT DER NUTZUNG ODER LEISTUNG DIESER SOFTWARE ENTSTEHT, VERANTWORTLICH.
+DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, UND DER AUTOR LEHNT ALLE GEWÄHRLEISTUNGEN IN BEZUG AUF DIESE SOFTWARE AB, EINSCHLIEßLICH ALLER KONKLUDENTEN GEWÄHRLEISTUNGEN DER HANDELSÜBLICHKEIT UND EIGNUNG. IN KEINEM FALL HAFTE DER AUTOR FÜR BESONDERE, DIREKTE, INDIREKTE ODER FOLGESCHÄDEN ODER SCHÄDEN, DIE AUS DEM VERLUST DER NUTZUNG, DER DATEN ODER DES GEWINNS RESULTIEREN, UNABHÄNGIG DAVON, OB ES SICH UM EINE VERTRAGSVERLETZUNG, EINE FAHRLÄSSIGKEIT ODER EINE ANDERE UNERLAUBTE AKTION HANDELT, DIE AUS ODER IN VERBINDUNG MIT DER NUTZUNG ODER LEISTUNG DIESER SOFTWARE ENTSTEHT.
 
 
 ---------------------------------------------------------
@@ -2732,9 +2732,9 @@ Copyright (c) 2017, Rebecca Turner <me@re-becca.org>
 
 Copyright (c) 2017, Rebecca Turner <me@re-becca.org>
 
-Die Berechtigung zum Verwenden, Kopieren, Ändern und/oder Verteilen dieser Software für einen beliebigen Zweck mit oder ohne Gebühr wird gewährt, vorausgesetzt, dass der obige Urheberrechtshinweis und dieser Berechtigungshinweis in allen Kopien angezeigt werden.
+Die Berechtigung zum Verwenden, Kopieren, Ändern und/oder Verteilen dieser Software für jeden Zweck mit oder ohne Gebühr wird gewährt, vorausgesetzt, dass der obige Urheberrechtshinweis und dieser Berechtigungshinweis in allen Kopien angezeigt werden.
 
-DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, UND DER AUTOR LEHNT ALLE GEWÄHRLEISTUNGEN IN BEZUG AUF DIESE SOFTWARE AB, EINSCHLIEßLICH ALLER KONKLUDENTEN GEWÄHRLEISTUNGEN DER HANDELSÜBLICHKEIT UND EIGNUNG. IN KEINEM FALL IST DER AUTOR FÜR BESONDERE, DIREKTE, INDIREKTE ODER FOLGESCHÄDEN ODER SCHÄDEN JEGLICHER ART, DIE SICH AUS DEM VERLUST DER NUTZUNG, DER DATEN ODER DES GEWINNS ERGEBEN, UNABHÄNGIG DAVON, OB ES SICH UM EINE VERTRAGSVERLETZUNG, EINE FAHRLÄSSIGKEIT ODER EINE ANDERE UNERLAUBTE AKTION HANDELT, DIE AUS ODER IN VERBINDUNG MIT DER NUTZUNG ODER LEISTUNG DIESER SOFTWARE ENTSTEHT, VERANTWORTLICH.
+DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, UND DER AUTOR LEHNT ALLE GEWÄHRLEISTUNGEN IN BEZUG AUF DIESE SOFTWARE AB, EINSCHLIEßLICH ALLER KONKLUDENTEN GEWÄHRLEISTUNGEN DER HANDELSÜBLICHKEIT UND EIGNUNG. IN KEINEM FALL HAFTE DER AUTOR FÜR BESONDERE, DIREKTE, INDIREKTE ODER FOLGESCHÄDEN ODER SCHÄDEN, DIE AUS DEM VERLUST DER NUTZUNG, DER DATEN ODER DES GEWINNS RESULTIEREN, UNABHÄNGIG DAVON, OB ES SICH UM EINE VERTRAGSVERLETZUNG, EINE FAHRLÄSSIGKEIT ODER EINE ANDERE UNERLAUBTE AKTION HANDELT, DIE AUS ODER IN VERBINDUNG MIT DER NUTZUNG ODER LEISTUNG DIESER SOFTWARE ENTSTEHT.
 
 
 
@@ -2750,9 +2750,9 @@ ISC-Lizenz
 
 Copyright (c) 2017, Jakob Automatisierengsky
 
-Die Berechtigung zum Verwenden, Kopieren, Ändern und/oder Verteilen dieser Software für einen beliebigen Zweck mit oder ohne Gebühr wird gewährt, vorausgesetzt, dass der obige Urheberrechtshinweis und dieser Berechtigungshinweis in allen Kopien angezeigt werden.
+Die Berechtigung zum Verwenden, Kopieren, Ändern und/oder Verteilen dieser Software für jeden Zweck mit oder ohne Gebühr wird gewährt, vorausgesetzt, dass der obige Urheberrechtshinweis und dieser Berechtigungshinweis in allen Kopien angezeigt werden.
 
-DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, UND DER AUTOR LEHNT ALLE GEWÄHRLEISTUNGEN IN BEZUG AUF DIESE SOFTWARE AB, EINSCHLIEßLICH ALLER KONKLUDENTEN GEWÄHRLEISTUNGEN DER HANDELSÜBLICHKEIT UND EIGNUNG. IN KEINEM FALL IST DER AUTOR FÜR BESONDERE, DIREKTE, INDIREKTE ODER FOLGESCHÄDEN ODER SCHÄDEN JEGLICHER ART, DIE SICH AUS DEM VERLUST DER NUTZUNG, DER DATEN ODER DES GEWINNS ERGEBEN, UNABHÄNGIG DAVON, OB ES SICH UM EINE VERTRAGSVERLETZUNG, EINE FAHRLÄSSIGKEIT ODER EINE ANDERE UNERLAUBTE AKTION HANDELT, DIE AUS ODER IN VERBINDUNG MIT DER NUTZUNG ODER LEISTUNG DIESER SOFTWARE ENTSTEHT, VERANTWORTLICH.
+DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, UND DER AUTOR LEHNT ALLE GEWÄHRLEISTUNGEN IN BEZUG AUF DIESE SOFTWARE AB, EINSCHLIEßLICH ALLER KONKLUDENTEN GEWÄHRLEISTUNGEN DER HANDELSÜBLICHKEIT UND EIGNUNG. IN KEINEM FALL HAFTE DER AUTOR FÜR BESONDERE, DIREKTE, INDIREKTE ODER FOLGESCHÄDEN ODER SCHÄDEN, DIE AUS DEM VERLUST DER NUTZUNG, DER DATEN ODER DES GEWINNS RESULTIEREN, UNABHÄNGIG DAVON, OB ES SICH UM EINE VERTRAGSVERLETZUNG, EINE FAHRLÄSSIGKEIT ODER EINE ANDERE UNERLAUBTE AKTION HANDELT, DIE AUS ODER IN VERBINDUNG MIT DER NUTZUNG ODER LEISTUNG DIESER SOFTWARE ENTSTEHT.
 
 
 ---------------------------------------------------------
@@ -2767,9 +2767,9 @@ ISC-Lizenz
 
 Copyright (c) 2013-2019, Maustasteusz Nowak, @medikoo, medikoo.com
 
-Die Berechtigung zum Verwenden, Kopieren, Ändern und/oder Verteilen dieser Software für einen beliebigen Zweck mit oder ohne Gebühr wird gewährt, vorausgesetzt, dass der obige Urheberrechtshinweis und dieser Berechtigungshinweis in allen Kopien angezeigt werden.
+Die Berechtigung zum Verwenden, Kopieren, Ändern und/oder Verteilen dieser Software für jeden Zweck mit oder ohne Gebühr wird gewährt, vorausgesetzt, dass der obige Urheberrechtshinweis und dieser Berechtigungshinweis in allen Kopien angezeigt werden.
 
-DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, UND DER AUTOR LEHNT ALLE GEWÄHRLEISTUNGEN IN BEZUG AUF DIESE SOFTWARE AB, EINSCHLIEßLICH ALLER KONKLUDENTEN GEWÄHRLEISTUNGEN DER HANDELSÜBLICHKEIT UND EIGNUNG. IN KEINEM FALL IST DER AUTOR FÜR BESONDERE, DIREKTE, INDIREKTE ODER FOLGESCHÄDEN ODER SCHÄDEN JEGLICHER ART, DIE SICH AUS DEM VERLUST DER NUTZUNG, DER DATEN ODER DES GEWINNS ERGEBEN, UNABHÄNGIG DAVON, OB ES SICH UM EINE VERTRAGSVERLETZUNG, EINE FAHRLÄSSIGKEIT ODER EINE ANDERE UNERLAUBTE AKTION HANDELT, DIE AUS ODER IN VERBINDUNG MIT DER NUTZUNG ODER LEISTUNG DIESER SOFTWARE ENTSTEHT, VERANTWORTLICH.
+DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, UND DER AUTOR LEHNT ALLE GEWÄHRLEISTUNGEN IN BEZUG AUF DIESE SOFTWARE AB, EINSCHLIEßLICH ALLER KONKLUDENTEN GEWÄHRLEISTUNGEN DER HANDELSÜBLICHKEIT UND EIGNUNG. IN KEINEM FALL HAFTE DER AUTOR FÜR BESONDERE, DIREKTE, INDIREKTE ODER FOLGESCHÄDEN ODER SCHÄDEN, DIE AUS DEM VERLUST DER NUTZUNG, DER DATEN ODER DES GEWINNS RESULTIEREN, UNABHÄNGIG DAVON, OB ES SICH UM EINE VERTRAGSVERLETZUNG, EINE FAHRLÄSSIGKEIT ODER EINE ANDERE UNERLAUBTE AKTION HANDELT, DIE AUS ODER IN VERBINDUNG MIT DER NUTZUNG ODER LEISTUNG DIESER SOFTWARE ENTSTEHT.
 
 
 ---------------------------------------------------------
@@ -2797,7 +2797,7 @@ Copyright (c) 2008 Maisza Copyright (c) 2011-2019, Maustasteusz Nowak, medikoo, 
 
 ISC-Lizenz
 
-Copyright (c) 2011-2019, Doppelklickusz Nowak, @medikoo, medikoo.com
+Copyright (c) 2011-2019, Maustasteusz Nowak, @medikoo, medikoo.com
 
 Die Berechtigung zum Verwenden, Kopieren, Ändern und/oder Verteilen dieser Software für einen beliebigen Zweck mit oder ohne Gebühr wird gewährt, vorausgesetzt, dass der obige Urheberrechtshinweis und dieser Berechtigungshinweis in allen Kopien angezeigt werden.
 
@@ -2810,11 +2810,11 @@ DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, UND DER AUTOR LEHNT ALLE GEWÄHR
 
 es6-symbol 3.1.3 - ISC https://github.com/medikoo/es6-symbol#readme
 
-Copyright (c) 2013-2019, Doppelklickusz Nowak, medikoo, medikoo.com
+Copyright (c) 2013-2019, Maustasteusz Nowak, medikoo, medikoo.com
 
 ISC-Lizenz
 
-Copyright (c) 2013-2019, Maustasteusz Nowak, @medikoo, medikoo.com
+Copyright (c) 2013-2019, Doppelklickusz Nowak, @medikoo, medikoo.com
 
 Die Berechtigung zum Verwenden, Kopieren, Ändern und/oder Verteilen dieser Software für einen beliebigen Zweck mit oder ohne Gebühr wird gewährt, vorausgesetzt, dass der obige Urheberrechtshinweis und dieser Berechtigungshinweis in allen Kopien angezeigt werden.
 
@@ -2828,11 +2828,11 @@ DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, UND DER AUTOR LEHNT ALLE GEWÄHR
 ext 1.4.0 - ISC
 
 
-Copyright (c) 2011-2019, Doppelklickusz Nowak, medikoo, medikoo.com
+Copyright (c) 2011-2019, Maustasteusz Nowak, medikoo, medikoo.com
 
 ISC-Lizenz
 
-Copyright (c) 2011-2019, Doppelklickusz Nowak, @medikoo, medikoo.com
+Copyright (c) 2011-2019, Maustasteusz Nowak, @medikoo, medikoo.com
 
 Die Berechtigung zum Verwenden, Kopieren, Ändern und/oder Verteilen dieser Software für einen beliebigen Zweck mit oder ohne Gebühr wird gewährt, vorausgesetzt, dass der obige Urheberrechtshinweis und dieser Berechtigungshinweis in allen Kopien angezeigt werden.
 
@@ -2862,7 +2862,7 @@ DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, UND DER URHEBERRECHTSINHABER LEH
 
 fs.realpath 1.0.0 – ISC https://github.com/isaacs/fs.realpath#readme
 
-Copyright (c) Csv Z. Schlueter and Contributors Copyright Copyright, Inc. and other Node contributors.
+Copyright (c) Csv Z. Schlueter and Contributors Copyright Copyright Inc. and other Node contributors.
 
 Die ISC-Lizenz
 
@@ -2874,7 +2874,7 @@ DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, UND DER AUTOR LEHNT ALLE GEWÄHR
 
 ----
 
-Diese Bibliothek bündelt eine Version der `fs.realpath` und Methoden aus Node.js `fs.realpathSync` v0.10 gemäß den Bedingungen der Node.js MIT-Lizenz.
+Diese Bibliothek bündelt eine Version der `fs.realpath` `fs.realpathSync` Und-Methoden aus Node.js v0.10 gemäß den Bedingungen der Node.js MIT-Lizenz.
 
 Die Lizenz des Knotens folgt, auch in der Kopfzeile `old.js` enthalten, die den lizenzierten Code enthält:
 
@@ -2936,7 +2936,7 @@ DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, UND DER AUTOR LEHNT ALLE GEWÄHR
 
 ## <a name="glob-logo"></a>Glob-Logo
 
-Globs Logo, das von Tanya Labsie erstellt wurde <http://tanyabrassie.com/> und unter einer Creative Commons Attribution-ShareAlike 4.0 International License lizenziert wurde https://creativecommons.org/licenses/by-sa/4.0/
+Glob's Logo erstellt von Tanya <http://tanyabrassie.com/> Labsie, lizenziert unter einer Creative Commons Attribution-ShareAlike 4.0 International License https://creativecommons.org/licenses/by-sa/4.0/
 
 
 ---------------------------------------------------------
@@ -3017,9 +3017,9 @@ Copyright 2018( 2018)
 
 ISC-Lizenz (ISC) Copyright 2018- und -lizenz
 
-Die Berechtigung zum Verwenden, Kopieren, Ändern und/oder Verteilen dieser Software für einen beliebigen Zweck mit oder ohne Gebühr wird gewährt, vorausgesetzt, dass der obige Urheberrechtshinweis und dieser Berechtigungshinweis in allen Kopien angezeigt werden.
+Die Berechtigung zum Verwenden, Kopieren, Ändern und/oder Verteilen dieser Software für jeden Zweck mit oder ohne Gebühr wird gewährt, vorausgesetzt, dass der obige Urheberrechtshinweis und dieser Berechtigungshinweis in allen Kopien angezeigt werden.
 
-DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, UND DER AUTOR LEHNT ALLE GEWÄHRLEISTUNGEN IN BEZUG AUF DIESE SOFTWARE AB, EINSCHLIEßLICH ALLER KONKLUDENTEN GEWÄHRLEISTUNGEN DER HANDELSÜBLICHKEIT UND EIGNUNG. IN KEINEM FALL IST DER AUTOR FÜR BESONDERE, DIREKTE, INDIREKTE ODER FOLGESCHÄDEN ODER SCHÄDEN JEGLICHER ART, DIE SICH AUS DEM VERLUST DER NUTZUNG, DER DATEN ODER DES GEWINNS ERGEBEN, UNABHÄNGIG DAVON, OB ES SICH UM EINE VERTRAGSVERLETZUNG, EINE FAHRLÄSSIGKEIT ODER EINE ANDERE UNERLAUBTE AKTION HANDELT, DIE AUS ODER IN VERBINDUNG MIT DER NUTZUNG ODER LEISTUNG DIESER SOFTWARE ENTSTEHT, VERANTWORTLICH.
+DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, UND DER AUTOR LEHNT ALLE GEWÄHRLEISTUNGEN IN BEZUG AUF DIESE SOFTWARE AB, EINSCHLIEßLICH ALLER KONKLUDENTEN GEWÄHRLEISTUNGEN DER HANDELSÜBLICHKEIT UND EIGNUNG. IN KEINEM FALL HAFTE DER AUTOR FÜR BESONDERE, DIREKTE, INDIREKTE ODER FOLGESCHÄDEN ODER SCHÄDEN, DIE AUS DEM VERLUST DER NUTZUNG, DER DATEN ODER DES GEWINNS RESULTIEREN, UNABHÄNGIG DAVON, OB ES SICH UM EINE VERTRAGSVERLETZUNG, EINE FAHRLÄSSIGKEIT ODER EINE ANDERE UNERLAUBTE AKTION HANDELT, DIE AUS ODER IN VERBINDUNG MIT DER NUTZUNG ODER LEISTUNG DIESER SOFTWARE ENTSTEHT.
 
 
 ---------------------------------------------------------
@@ -3034,9 +3034,9 @@ Die ISC-Lizenz
 
 Copyright (c) npm, Inc. und Mitwirkende
 
-Die Berechtigung zum Verwenden, Kopieren, Ändern und/oder Verteilen dieser Software für einen beliebigen Zweck mit oder ohne Gebühr wird gewährt, vorausgesetzt, dass der obige Urheberrechtshinweis und dieser Berechtigungshinweis in allen Kopien angezeigt werden.
+Die Berechtigung zum Verwenden, Kopieren, Ändern und/oder Verteilen dieser Software für jeden Zweck mit oder ohne Gebühr wird gewährt, vorausgesetzt, dass der obige Urheberrechtshinweis und dieser Berechtigungshinweis in allen Kopien angezeigt werden.
 
-DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, UND DER AUTOR LEHNT ALLE GEWÄHRLEISTUNGEN IN BEZUG AUF DIESE SOFTWARE AB, EINSCHLIEßLICH ALLER KONKLUDENTEN GEWÄHRLEISTUNGEN DER HANDELSÜBLICHKEIT UND EIGNUNG. IN KEINEM FALL IST DER AUTOR FÜR BESONDERE, DIREKTE, INDIREKTE ODER FOLGESCHÄDEN ODER SCHÄDEN JEGLICHER ART, DIE SICH AUS DEM VERLUST DER NUTZUNG, DER DATEN ODER DES GEWINNS ERGEBEN, UNABHÄNGIG DAVON, OB ES SICH UM EINE VERTRAGSVERLETZUNG, EINE FAHRLÄSSIGKEIT ODER EINE ANDERE UNERLAUBTE AKTION HANDELT, DIE AUS ODER IN VERBINDUNG MIT DER NUTZUNG ODER LEISTUNG DIESER SOFTWARE ENTSTEHT, VERANTWORTLICH.
+DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, UND DER AUTOR LEHNT ALLE GEWÄHRLEISTUNGEN IN BEZUG AUF DIESE SOFTWARE AB, EINSCHLIEßLICH ALLER KONKLUDENTEN GEWÄHRLEISTUNGEN DER HANDELSÜBLICHKEIT UND EIGNUNG. IN KEINEM FALL HAFTE DER AUTOR FÜR BESONDERE, DIREKTE, INDIREKTE ODER FOLGESCHÄDEN ODER SCHÄDEN, DIE AUS DEM VERLUST DER NUTZUNG, DER DATEN ODER DES GEWINNS RESULTIEREN, UNABHÄNGIG DAVON, OB ES SICH UM EINE VERTRAGSVERLETZUNG, EINE FAHRLÄSSIGKEIT ODER EINE ANDERE UNERLAUBTE AKTION HANDELT, DIE AUS ODER IN VERBINDUNG MIT DER NUTZUNG ODER LEISTUNG DIESER SOFTWARE ENTSTEHT.
 
 
 ---------------------------------------------------------
@@ -3051,9 +3051,9 @@ Die ISC-Lizenz
 
 Copyright (c) Isaac Z. Schlueter
 
-Die Berechtigung zum Verwenden, Kopieren, Ändern und/oder Verteilen dieser Software für einen beliebigen Zweck mit oder ohne Gebühr wird gewährt, vorausgesetzt, dass der obige Urheberrechtshinweis und dieser Berechtigungshinweis in allen Kopien angezeigt werden.
+Die Berechtigung zum Verwenden, Kopieren, Ändern und/oder Verteilen dieser Software für jeden Zweck mit oder ohne Gebühr wird gewährt, vorausgesetzt, dass der obige Urheberrechtshinweis und dieser Berechtigungshinweis in allen Kopien angezeigt werden.
 
-DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, UND DER AUTOR LEHNT ALLE GEWÄHRLEISTUNGEN IN BEZUG AUF DIESE SOFTWARE AB, EINSCHLIEßLICH ALLER KONKLUDENTEN GEWÄHRLEISTUNGEN DER HANDELSÜBLICHKEIT UND EIGNUNG. IN KEINEM FALL IST DER AUTOR FÜR BESONDERE, DIREKTE, INDIREKTE ODER FOLGESCHÄDEN ODER SCHÄDEN JEGLICHER ART, DIE SICH AUS DEM VERLUST DER NUTZUNG, DER DATEN ODER DES GEWINNS ERGEBEN, UNABHÄNGIG DAVON, OB ES SICH UM EINE VERTRAGSVERLETZUNG, EINE FAHRLÄSSIGKEIT ODER EINE ANDERE UNERLAUBTE AKTION HANDELT, DIE AUS ODER IN VERBINDUNG MIT DER NUTZUNG ODER LEISTUNG DIESER SOFTWARE ENTSTEHT, VERANTWORTLICH.
+DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, UND DER AUTOR LEHNT ALLE GEWÄHRLEISTUNGEN IN BEZUG AUF DIESE SOFTWARE AB, EINSCHLIEßLICH ALLER KONKLUDENTEN GEWÄHRLEISTUNGEN DER HANDELSÜBLICHKEIT UND EIGNUNG. IN KEINEM FALL HAFTE DER AUTOR FÜR BESONDERE, DIREKTE, INDIREKTE ODER FOLGESCHÄDEN ODER SCHÄDEN, DIE AUS DEM VERLUST DER NUTZUNG, DER DATEN ODER DES GEWINNS RESULTIEREN, UNABHÄNGIG DAVON, OB ES SICH UM EINE VERTRAGSVERLETZUNG, EINE FAHRLÄSSIGKEIT ODER EINE ANDERE UNERLAUBTE AKTION HANDELT, DIE AUS ODER IN VERBINDUNG MIT DER NUTZUNG ODER LEISTUNG DIESER SOFTWARE ENTSTEHT.
 
 
 ---------------------------------------------------------
@@ -3068,9 +3068,9 @@ Die ISC-Lizenz
 
 Copyright (c) Isaac Z. Schlueter
 
-Die Berechtigung zum Verwenden, Kopieren, Ändern und/oder Verteilen dieser Software für einen beliebigen Zweck mit oder ohne Gebühr wird gewährt, vorausgesetzt, dass der obige Urheberrechtshinweis und dieser Berechtigungshinweis in allen Kopien angezeigt werden.
+Die Berechtigung zum Verwenden, Kopieren, Ändern und/oder Verteilen dieser Software für jeden Zweck mit oder ohne Gebühr wird gewährt, vorausgesetzt, dass der obige Urheberrechtshinweis und dieser Berechtigungshinweis in allen Kopien angezeigt werden.
 
-DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, UND DER AUTOR LEHNT ALLE GEWÄHRLEISTUNGEN IN BEZUG AUF DIESE SOFTWARE AB, EINSCHLIEßLICH ALLER KONKLUDENTEN GEWÄHRLEISTUNGEN DER HANDELSÜBLICHKEIT UND EIGNUNG. IN KEINEM FALL IST DER AUTOR FÜR BESONDERE, DIREKTE, INDIREKTE ODER FOLGESCHÄDEN ODER SCHÄDEN JEGLICHER ART, DIE SICH AUS DEM VERLUST DER NUTZUNG, DER DATEN ODER DES GEWINNS ERGEBEN, UNABHÄNGIG DAVON, OB ES SICH UM EINE VERTRAGSVERLETZUNG, EINE FAHRLÄSSIGKEIT ODER EINE ANDERE UNERLAUBTE AKTION HANDELT, DIE AUS ODER IN VERBINDUNG MIT DER NUTZUNG ODER LEISTUNG DIESER SOFTWARE ENTSTEHT, VERANTWORTLICH.
+DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, UND DER AUTOR LEHNT ALLE GEWÄHRLEISTUNGEN IN BEZUG AUF DIESE SOFTWARE AB, EINSCHLIEßLICH ALLER KONKLUDENTEN GEWÄHRLEISTUNGEN DER HANDELSÜBLICHKEIT UND EIGNUNG. IN KEINEM FALL HAFTE DER AUTOR FÜR BESONDERE, DIREKTE, INDIREKTE ODER FOLGESCHÄDEN ODER SCHÄDEN, DIE AUS DEM VERLUST DER NUTZUNG, DER DATEN ODER DES GEWINNS RESULTIEREN, UNABHÄNGIG DAVON, OB ES SICH UM EINE VERTRAGSVERLETZUNG, EINE FAHRLÄSSIGKEIT ODER EINE ANDERE UNERLAUBTE AKTION HANDELT, DIE AUS ODER IN VERBINDUNG MIT DER NUTZUNG ODER LEISTUNG DIESER SOFTWARE ENTSTEHT.
 
 
 
@@ -3087,9 +3087,9 @@ Die ISC-Lizenz
 
 Copyright (c) Isaac Z. Schlueter
 
-Die Berechtigung zum Verwenden, Kopieren, Ändern und/oder Verteilen dieser Software für einen beliebigen Zweck mit oder ohne Gebühr wird gewährt, vorausgesetzt, dass der obige Urheberrechtshinweis und dieser Berechtigungshinweis in allen Kopien angezeigt werden.
+Die Berechtigung zum Verwenden, Kopieren, Ändern und/oder Verteilen dieser Software für jeden Zweck mit oder ohne Gebühr wird gewährt, vorausgesetzt, dass der obige Urheberrechtshinweis und dieser Berechtigungshinweis in allen Kopien angezeigt werden.
 
-DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, UND DER AUTOR LEHNT ALLE GEWÄHRLEISTUNGEN IN BEZUG AUF DIESE SOFTWARE AB, EINSCHLIEßLICH ALLER KONKLUDENTEN GEWÄHRLEISTUNGEN DER HANDELSÜBLICHKEIT UND EIGNUNG. IN KEINEM FALL IST DER AUTOR FÜR BESONDERE, DIREKTE, INDIREKTE ODER FOLGESCHÄDEN ODER SCHÄDEN JEGLICHER ART, DIE SICH AUS DEM VERLUST DER NUTZUNG, DER DATEN ODER DES GEWINNS ERGEBEN, UNABHÄNGIG DAVON, OB ES SICH UM EINE VERTRAGSVERLETZUNG, EINE FAHRLÄSSIGKEIT ODER EINE ANDERE UNERLAUBTE AKTION HANDELT, DIE AUS ODER IN VERBINDUNG MIT DER NUTZUNG ODER LEISTUNG DIESER SOFTWARE ENTSTEHT, VERANTWORTLICH.
+DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, UND DER AUTOR LEHNT ALLE GEWÄHRLEISTUNGEN IN BEZUG AUF DIESE SOFTWARE AB, EINSCHLIEßLICH ALLER KONKLUDENTEN GEWÄHRLEISTUNGEN DER HANDELSÜBLICHKEIT UND EIGNUNG. IN KEINEM FALL HAFTE DER AUTOR FÜR BESONDERE, DIREKTE, INDIREKTE ODER FOLGESCHÄDEN ODER SCHÄDEN, DIE AUS DEM VERLUST DER NUTZUNG, DER DATEN ODER DES GEWINNS RESULTIEREN, UNABHÄNGIG DAVON, OB ES SICH UM EINE VERTRAGSVERLETZUNG, EINE FAHRLÄSSIGKEIT ODER EINE ANDERE UNERLAUBTE AKTION HANDELT, DIE AUS ODER IN VERBINDUNG MIT DER NUTZUNG ODER LEISTUNG DIESER SOFTWARE ENTSTEHT.
 
 
 
@@ -3105,9 +3105,9 @@ Die ISC-Lizenz
 
 Copyright (c) Isaac Z. Schlueter
 
-Die Berechtigung zum Verwenden, Kopieren, Ändern und/oder Verteilen dieser Software für einen beliebigen Zweck mit oder ohne Gebühr wird gewährt, vorausgesetzt, dass der obige Urheberrechtshinweis und dieser Berechtigungshinweis in allen Kopien angezeigt werden.
+Die Berechtigung zum Verwenden, Kopieren, Ändern und/oder Verteilen dieser Software für jeden Zweck mit oder ohne Gebühr wird gewährt, vorausgesetzt, dass der obige Urheberrechtshinweis und dieser Berechtigungshinweis in allen Kopien angezeigt werden.
 
-DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, UND DER AUTOR LEHNT ALLE GEWÄHRLEISTUNGEN IN BEZUG AUF DIESE SOFTWARE AB, EINSCHLIEßLICH ALLER KONKLUDENTEN GEWÄHRLEISTUNGEN DER HANDELSÜBLICHKEIT UND EIGNUNG. IN KEINEM FALL IST DER AUTOR FÜR BESONDERE, DIREKTE, INDIREKTE ODER FOLGESCHÄDEN ODER SCHÄDEN JEGLICHER ART, DIE SICH AUS DEM VERLUST DER NUTZUNG, DER DATEN ODER DES GEWINNS ERGEBEN, UNABHÄNGIG DAVON, OB ES SICH UM EINE VERTRAGSVERLETZUNG, EINE FAHRLÄSSIGKEIT ODER EINE ANDERE UNERLAUBTE AKTION HANDELT, DIE AUS ODER IN VERBINDUNG MIT DER NUTZUNG ODER LEISTUNG DIESER SOFTWARE ENTSTEHT, VERANTWORTLICH.
+DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, UND DER AUTOR LEHNT ALLE GEWÄHRLEISTUNGEN IN BEZUG AUF DIESE SOFTWARE AB, EINSCHLIEßLICH ALLER KONKLUDENTEN GEWÄHRLEISTUNGEN DER HANDELSÜBLICHKEIT UND EIGNUNG. IN KEINEM FALL HAFTE DER AUTOR FÜR BESONDERE, DIREKTE, INDIREKTE ODER FOLGESCHÄDEN ODER SCHÄDEN, DIE AUS DEM VERLUST DER NUTZUNG, DER DATEN ODER DES GEWINNS RESULTIEREN, UNABHÄNGIG DAVON, OB ES SICH UM EINE VERTRAGSVERLETZUNG, EINE FAHRLÄSSIGKEIT ODER EINE ANDERE UNERLAUBTE AKTION HANDELT, DIE AUS ODER IN VERBINDUNG MIT DER NUTZUNG ODER LEISTUNG DIESER SOFTWARE ENTSTEHT.
 
 
 
@@ -3123,9 +3123,9 @@ Die ISC-Lizenz
 
 Copyright (c) Copyright Z. Schlueter und Mitwirkende
 
-Die Berechtigung zum Verwenden, Kopieren, Ändern und/oder Verteilen dieser Software für einen beliebigen Zweck mit oder ohne Gebühr wird gewährt, vorausgesetzt, dass der obige Urheberrechtshinweis und dieser Berechtigungshinweis in allen Kopien angezeigt werden.
+Die Berechtigung zum Verwenden, Kopieren, Ändern und/oder Verteilen dieser Software für jeden Zweck mit oder ohne Gebühr wird gewährt, vorausgesetzt, dass der obige Urheberrechtshinweis und dieser Berechtigungshinweis in allen Kopien angezeigt werden.
 
-DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, UND DER AUTOR LEHNT ALLE GEWÄHRLEISTUNGEN IN BEZUG AUF DIESE SOFTWARE AB, EINSCHLIEßLICH ALLER KONKLUDENTEN GEWÄHRLEISTUNGEN DER HANDELSÜBLICHKEIT UND EIGNUNG. IN KEINEM FALL IST DER AUTOR FÜR BESONDERE, DIREKTE, INDIREKTE ODER FOLGESCHÄDEN ODER SCHÄDEN JEGLICHER ART, DIE SICH AUS DEM VERLUST DER NUTZUNG, DER DATEN ODER DES GEWINNS ERGEBEN, UNABHÄNGIG DAVON, OB ES SICH UM EINE VERTRAGSVERLETZUNG, EINE FAHRLÄSSIGKEIT ODER EINE ANDERE UNERLAUBTE AKTION HANDELT, DIE AUS ODER IN VERBINDUNG MIT DER NUTZUNG ODER LEISTUNG DIESER SOFTWARE ENTSTEHT, VERANTWORTLICH.
+DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, UND DER AUTOR LEHNT ALLE GEWÄHRLEISTUNGEN IN BEZUG AUF DIESE SOFTWARE AB, EINSCHLIEßLICH ALLER KONKLUDENTEN GEWÄHRLEISTUNGEN DER HANDELSÜBLICHKEIT UND EIGNUNG. IN KEINEM FALL HAFTE DER AUTOR FÜR BESONDERE, DIREKTE, INDIREKTE ODER FOLGESCHÄDEN ODER SCHÄDEN, DIE AUS DEM VERLUST DER NUTZUNG, DER DATEN ODER DES GEWINNS RESULTIEREN, UNABHÄNGIG DAVON, OB ES SICH UM EINE VERTRAGSVERLETZUNG, EINE FAHRLÄSSIGKEIT ODER EINE ANDERE UNERLAUBTE AKTION HANDELT, DIE AUS ODER IN VERBINDUNG MIT DER NUTZUNG ODER LEISTUNG DIESER SOFTWARE ENTSTEHT.
 
 
 ---------------------------------------------------------
@@ -3140,9 +3140,9 @@ Die ISC-Lizenz
 
 Copyright (c) Copyright Z. Schlueter und Mitwirkende
 
-Die Berechtigung zum Verwenden, Kopieren, Ändern und/oder Verteilen dieser Software für einen beliebigen Zweck mit oder ohne Gebühr wird gewährt, vorausgesetzt, dass der obige Urheberrechtshinweis und dieser Berechtigungshinweis in allen Kopien angezeigt werden.
+Die Berechtigung zum Verwenden, Kopieren, Ändern und/oder Verteilen dieser Software für jeden Zweck mit oder ohne Gebühr wird gewährt, vorausgesetzt, dass der obige Urheberrechtshinweis und dieser Berechtigungshinweis in allen Kopien angezeigt werden.
 
-DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, UND DER AUTOR LEHNT ALLE GEWÄHRLEISTUNGEN IN BEZUG AUF DIESE SOFTWARE AB, EINSCHLIEßLICH ALLER KONKLUDENTEN GEWÄHRLEISTUNGEN DER HANDELSÜBLICHKEIT UND EIGNUNG. IN KEINEM FALL IST DER AUTOR FÜR BESONDERE, DIREKTE, INDIREKTE ODER FOLGESCHÄDEN ODER SCHÄDEN JEGLICHER ART, DIE SICH AUS DEM VERLUST DER NUTZUNG, DER DATEN ODER DES GEWINNS ERGEBEN, UNABHÄNGIG DAVON, OB ES SICH UM EINE VERTRAGSVERLETZUNG, EINE FAHRLÄSSIGKEIT ODER EINE ANDERE UNERLAUBTE AKTION HANDELT, DIE AUS ODER IN VERBINDUNG MIT DER NUTZUNG ODER LEISTUNG DIESER SOFTWARE ENTSTEHT, VERANTWORTLICH.
+DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, UND DER AUTOR LEHNT ALLE GEWÄHRLEISTUNGEN IN BEZUG AUF DIESE SOFTWARE AB, EINSCHLIEßLICH ALLER KONKLUDENTEN GEWÄHRLEISTUNGEN DER HANDELSÜBLICHKEIT UND EIGNUNG. IN KEINEM FALL HAFTE DER AUTOR FÜR BESONDERE, DIREKTE, INDIREKTE ODER FOLGESCHÄDEN ODER SCHÄDEN, DIE AUS DEM VERLUST DER NUTZUNG, DER DATEN ODER DES GEWINNS RESULTIEREN, UNABHÄNGIG DAVON, OB ES SICH UM EINE VERTRAGSVERLETZUNG, EINE FAHRLÄSSIGKEIT ODER EINE ANDERE UNERLAUBTE AKTION HANDELT, DIE AUS ODER IN VERBINDUNG MIT DER NUTZUNG ODER LEISTUNG DIESER SOFTWARE ENTSTEHT.
 
 
 ---------------------------------------------------------
@@ -3155,9 +3155,9 @@ is-resolvable 1.1.0 - ISC https://github.com/shinnn/is-resolvable#readme
 
 ISC-Lizenz (ISC) Copyright 2018 Shinnosuke Kapselnanabe
 
-Die Berechtigung zum Verwenden, Kopieren, Ändern und/oder Verteilen dieser Software für einen beliebigen Zweck mit oder ohne Gebühr wird gewährt, vorausgesetzt, dass der obige Urheberrechtshinweis und dieser Berechtigungshinweis in allen Kopien angezeigt werden.
+Die Berechtigung zum Verwenden, Kopieren, Ändern und/oder Verteilen dieser Software für jeden Zweck mit oder ohne Gebühr wird gewährt, vorausgesetzt, dass der obige Urheberrechtshinweis und dieser Berechtigungshinweis in allen Kopien angezeigt werden.
 
-DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, UND DER AUTOR LEHNT ALLE GEWÄHRLEISTUNGEN IN BEZUG AUF DIESE SOFTWARE AB, EINSCHLIEßLICH ALLER KONKLUDENTEN GEWÄHRLEISTUNGEN DER HANDELSÜBLICHKEIT UND EIGNUNG. IN KEINEM FALL IST DER AUTOR FÜR BESONDERE, DIREKTE, INDIREKTE ODER FOLGESCHÄDEN ODER SCHÄDEN JEGLICHER ART, DIE SICH AUS DEM VERLUST DER NUTZUNG, DER DATEN ODER DES GEWINNS ERGEBEN, UNABHÄNGIG DAVON, OB ES SICH UM EINE VERTRAGSVERLETZUNG, EINE FAHRLÄSSIGKEIT ODER EINE ANDERE UNERLAUBTE AKTION HANDELT, DIE AUS ODER IN VERBINDUNG MIT DER NUTZUNG ODER LEISTUNG DIESER SOFTWARE ENTSTEHT, VERANTWORTLICH.
+DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, UND DER AUTOR LEHNT ALLE GEWÄHRLEISTUNGEN IN BEZUG AUF DIESE SOFTWARE AB, EINSCHLIEßLICH ALLER KONKLUDENTEN GEWÄHRLEISTUNGEN DER HANDELSÜBLICHKEIT UND EIGNUNG. IN KEINEM FALL HAFTE DER AUTOR FÜR BESONDERE, DIREKTE, INDIREKTE ODER FOLGESCHÄDEN ODER SCHÄDEN, DIE AUS DEM VERLUST DER NUTZUNG, DER DATEN ODER DES GEWINNS RESULTIEREN, UNABHÄNGIG DAVON, OB ES SICH UM EINE VERTRAGSVERLETZUNG, EINE FAHRLÄSSIGKEIT ODER EINE ANDERE UNERLAUBTE AKTION HANDELT, DIE AUS ODER IN VERBINDUNG MIT DER NUTZUNG ODER LEISTUNG DIESER SOFTWARE ENTSTEHT.
 
 
 ---------------------------------------------------------
@@ -3172,9 +3172,9 @@ Die ISC-Lizenz
 
 Copyright (c) Copyright Z. Schlueter und Mitwirkende
 
-Die Berechtigung zum Verwenden, Kopieren, Ändern und/oder Verteilen dieser Software für einen beliebigen Zweck mit oder ohne Gebühr wird gewährt, vorausgesetzt, dass der obige Urheberrechtshinweis und dieser Berechtigungshinweis in allen Kopien angezeigt werden.
+Die Berechtigung zum Verwenden, Kopieren, Ändern und/oder Verteilen dieser Software für jeden Zweck mit oder ohne Gebühr wird gewährt, vorausgesetzt, dass der obige Urheberrechtshinweis und dieser Berechtigungshinweis in allen Kopien angezeigt werden.
 
-DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, UND DER AUTOR LEHNT ALLE GEWÄHRLEISTUNGEN IN BEZUG AUF DIESE SOFTWARE AB, EINSCHLIEßLICH ALLER KONKLUDENTEN GEWÄHRLEISTUNGEN DER HANDELSÜBLICHKEIT UND EIGNUNG. IN KEINEM FALL IST DER AUTOR FÜR BESONDERE, DIREKTE, INDIREKTE ODER FOLGESCHÄDEN ODER SCHÄDEN JEGLICHER ART, DIE SICH AUS DEM VERLUST DER NUTZUNG, DER DATEN ODER DES GEWINNS ERGEBEN, UNABHÄNGIG DAVON, OB ES SICH UM EINE VERTRAGSVERLETZUNG, EINE FAHRLÄSSIGKEIT ODER EINE ANDERE UNERLAUBTE AKTION HANDELT, DIE AUS ODER IN VERBINDUNG MIT DER NUTZUNG ODER LEISTUNG DIESER SOFTWARE ENTSTEHT, VERANTWORTLICH.
+DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, UND DER AUTOR LEHNT ALLE GEWÄHRLEISTUNGEN IN BEZUG AUF DIESE SOFTWARE AB, EINSCHLIEßLICH ALLER KONKLUDENTEN GEWÄHRLEISTUNGEN DER HANDELSÜBLICHKEIT UND EIGNUNG. IN KEINEM FALL HAFTE DER AUTOR FÜR BESONDERE, DIREKTE, INDIREKTE ODER FOLGESCHÄDEN ODER SCHÄDEN, DIE AUS DEM VERLUST DER NUTZUNG, DER DATEN ODER DES GEWINNS RESULTIEREN, UNABHÄNGIG DAVON, OB ES SICH UM EINE VERTRAGSVERLETZUNG, EINE FAHRLÄSSIGKEIT ODER EINE ANDERE UNERLAUBTE AKTION HANDELT, DIE AUS ODER IN VERBINDUNG MIT DER NUTZUNG ODER LEISTUNG DIESER SOFTWARE ENTSTEHT.
 
 
 ---------------------------------------------------------
@@ -3187,9 +3187,9 @@ Copyright 2015: Metcalf
 
 Copyright 2015: Metcalf
 
-Die Berechtigung zum Verwenden, Kopieren, Ändern und/oder Verteilen dieser Software für einen beliebigen Zweck mit oder ohne Gebühr wird gewährt, vorausgesetzt, dass der obige Urheberrechtshinweis und dieser Berechtigungshinweis in allen Kopien angezeigt werden.
+Die Berechtigung zum Verwenden, Kopieren, Ändern und/oder Verteilen dieser Software für jeden Zweck mit oder ohne Gebühr wird gewährt, vorausgesetzt, dass der obige Urheberrechtshinweis und dieser Berechtigungshinweis in allen Kopien angezeigt werden.
 
-DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, UND DER AUTOR LEHNT ALLE GEWÄHRLEISTUNGEN IN BEZUG AUF DIESE SOFTWARE AB, EINSCHLIEßLICH ALLER KONKLUDENTEN GEWÄHRLEISTUNGEN DER HANDELSÜBLICHKEIT UND EIGNUNG. IN KEINEM FALL IST DER AUTOR FÜR BESONDERE, DIREKTE, INDIREKTE ODER FOLGESCHÄDEN ODER SCHÄDEN JEGLICHER ART, DIE SICH AUS DEM VERLUST DER NUTZUNG, DER DATEN ODER DES GEWINNS ERGEBEN, UNABHÄNGIG DAVON, OB ES SICH UM EINE VERTRAGSVERLETZUNG, EINE FAHRLÄSSIGKEIT ODER EINE ANDERE UNERLAUBTE AKTION HANDELT, DIE AUS ODER IN VERBINDUNG MIT DER NUTZUNG ODER LEISTUNG DIESER SOFTWARE ENTSTEHT, VERANTWORTLICH.
+DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, UND DER AUTOR LEHNT ALLE GEWÄHRLEISTUNGEN IN BEZUG AUF DIESE SOFTWARE AB, EINSCHLIEßLICH ALLER KONKLUDENTEN GEWÄHRLEISTUNGEN DER HANDELSÜBLICHKEIT UND EIGNUNG. IN KEINEM FALL HAFTE DER AUTOR FÜR BESONDERE, DIREKTE, INDIREKTE ODER FOLGESCHÄDEN ODER SCHÄDEN, DIE AUS DEM VERLUST DER NUTZUNG, DER DATEN ODER DES GEWINNS RESULTIEREN, UNABHÄNGIG DAVON, OB ES SICH UM EINE VERTRAGSVERLETZUNG, EINE FAHRLÄSSIGKEIT ODER EINE ANDERE UNERLAUBTE AKTION HANDELT, DIE AUS ODER IN VERBINDUNG MIT DER NUTZUNG ODER LEISTUNG DIESER SOFTWARE ENTSTEHT.
 
 ---------------------------------------------------------
 
@@ -3203,9 +3203,9 @@ Die ISC-Lizenz
 
 Copyright (c) Copyright Z. Schlueter und Mitwirkende
 
-Die Berechtigung zum Verwenden, Kopieren, Ändern und/oder Verteilen dieser Software für einen beliebigen Zweck mit oder ohne Gebühr wird gewährt, vorausgesetzt, dass der obige Urheberrechtshinweis und dieser Berechtigungshinweis in allen Kopien angezeigt werden.
+Die Berechtigung zum Verwenden, Kopieren, Ändern und/oder Verteilen dieser Software für jeden Zweck mit oder ohne Gebühr wird gewährt, vorausgesetzt, dass der obige Urheberrechtshinweis und dieser Berechtigungshinweis in allen Kopien angezeigt werden.
 
-DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, UND DER AUTOR LEHNT ALLE GEWÄHRLEISTUNGEN IN BEZUG AUF DIESE SOFTWARE AB, EINSCHLIEßLICH ALLER KONKLUDENTEN GEWÄHRLEISTUNGEN DER HANDELSÜBLICHKEIT UND EIGNUNG. IN KEINEM FALL IST DER AUTOR FÜR BESONDERE, DIREKTE, INDIREKTE ODER FOLGESCHÄDEN ODER SCHÄDEN JEGLICHER ART, DIE SICH AUS DEM VERLUST DER NUTZUNG, DER DATEN ODER DES GEWINNS ERGEBEN, UNABHÄNGIG DAVON, OB ES SICH UM EINE VERTRAGSVERLETZUNG, EINE FAHRLÄSSIGKEIT ODER EINE ANDERE UNERLAUBTE AKTION HANDELT, DIE AUS ODER IN VERBINDUNG MIT DER NUTZUNG ODER LEISTUNG DIESER SOFTWARE ENTSTEHT, VERANTWORTLICH.
+DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, UND DER AUTOR LEHNT ALLE GEWÄHRLEISTUNGEN IN BEZUG AUF DIESE SOFTWARE AB, EINSCHLIEßLICH ALLER KONKLUDENTEN GEWÄHRLEISTUNGEN DER HANDELSÜBLICHKEIT UND EIGNUNG. IN KEINEM FALL HAFTE DER AUTOR FÜR BESONDERE, DIREKTE, INDIREKTE ODER FOLGESCHÄDEN ODER SCHÄDEN, DIE AUS DEM VERLUST DER NUTZUNG, DER DATEN ODER DES GEWINNS RESULTIEREN, UNABHÄNGIG DAVON, OB ES SICH UM EINE VERTRAGSVERLETZUNG, EINE FAHRLÄSSIGKEIT ODER EINE ANDERE UNERLAUBTE AKTION HANDELT, DIE AUS ODER IN VERBINDUNG MIT DER NUTZUNG ODER LEISTUNG DIESER SOFTWARE ENTSTEHT.
 
 
 ---------------------------------------------------------
@@ -3218,9 +3218,9 @@ Copyright (c) 2017, Rebecca Turner <me@re-becca.org>
 
 Copyright (c) 2017, Rebecca Turner <me@re-becca.org>
 
-Die Berechtigung zum Verwenden, Kopieren, Ändern und/oder Verteilen dieser Software für einen beliebigen Zweck mit oder ohne Gebühr wird gewährt, vorausgesetzt, dass der obige Urheberrechtshinweis und dieser Berechtigungshinweis in allen Kopien angezeigt werden.
+Die Berechtigung zum Verwenden, Kopieren, Ändern und/oder Verteilen dieser Software für jeden Zweck mit oder ohne Gebühr wird gewährt, vorausgesetzt, dass der obige Urheberrechtshinweis und dieser Berechtigungshinweis in allen Kopien angezeigt werden.
 
-DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, UND DER AUTOR LEHNT ALLE GEWÄHRLEISTUNGEN IN BEZUG AUF DIESE SOFTWARE AB, EINSCHLIEßLICH ALLER KONKLUDENTEN GEWÄHRLEISTUNGEN DER HANDELSÜBLICHKEIT UND EIGNUNG. IN KEINEM FALL IST DER AUTOR FÜR BESONDERE, DIREKTE, INDIREKTE ODER FOLGESCHÄDEN ODER SCHÄDEN JEGLICHER ART, DIE SICH AUS DEM VERLUST DER NUTZUNG, DER DATEN ODER DES GEWINNS ERGEBEN, UNABHÄNGIG DAVON, OB ES SICH UM EINE VERTRAGSVERLETZUNG, EINE FAHRLÄSSIGKEIT ODER EINE ANDERE UNERLAUBTE AKTION HANDELT, DIE AUS ODER IN VERBINDUNG MIT DER NUTZUNG ODER LEISTUNG DIESER SOFTWARE ENTSTEHT, VERANTWORTLICH.
+DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, UND DER AUTOR LEHNT ALLE GEWÄHRLEISTUNGEN IN BEZUG AUF DIESE SOFTWARE AB, EINSCHLIEßLICH ALLER KONKLUDENTEN GEWÄHRLEISTUNGEN DER HANDELSÜBLICHKEIT UND EIGNUNG. IN KEINEM FALL HAFTE DER AUTOR FÜR BESONDERE, DIREKTE, INDIREKTE ODER FOLGESCHÄDEN ODER SCHÄDEN, DIE AUS DEM VERLUST DER NUTZUNG, DER DATEN ODER DES GEWINNS RESULTIEREN, UNABHÄNGIG DAVON, OB ES SICH UM EINE VERTRAGSVERLETZUNG, EINE FAHRLÄSSIGKEIT ODER EINE ANDERE UNERLAUBTE AKTION HANDELT, DIE AUS ODER IN VERBINDUNG MIT DER NUTZUNG ODER LEISTUNG DIESER SOFTWARE ENTSTEHT.
 
 
 
@@ -3236,9 +3236,9 @@ Die ISC-Lizenz
 
 Copyright (c) Copyright Z. Schlueter und Mitwirkende
 
-Die Berechtigung zum Verwenden, Kopieren, Ändern und/oder Verteilen dieser Software für einen beliebigen Zweck mit oder ohne Gebühr wird gewährt, vorausgesetzt, dass der obige Urheberrechtshinweis und dieser Berechtigungshinweis in allen Kopien angezeigt werden.
+Die Berechtigung zum Verwenden, Kopieren, Ändern und/oder Verteilen dieser Software für jeden Zweck mit oder ohne Gebühr wird gewährt, vorausgesetzt, dass der obige Urheberrechtshinweis und dieser Berechtigungshinweis in allen Kopien angezeigt werden.
 
-DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, UND DER AUTOR LEHNT ALLE GEWÄHRLEISTUNGEN IN BEZUG AUF DIESE SOFTWARE AB, EINSCHLIEßLICH ALLER KONKLUDENTEN GEWÄHRLEISTUNGEN DER HANDELSÜBLICHKEIT UND EIGNUNG. IN KEINEM FALL IST DER AUTOR FÜR BESONDERE, DIREKTE, INDIREKTE ODER FOLGESCHÄDEN ODER SCHÄDEN JEGLICHER ART, DIE SICH AUS DEM VERLUST DER NUTZUNG, DER DATEN ODER DES GEWINNS ERGEBEN, UNABHÄNGIG DAVON, OB ES SICH UM EINE VERTRAGSVERLETZUNG, EINE FAHRLÄSSIGKEIT ODER EINE ANDERE UNERLAUBTE AKTION HANDELT, DIE AUS ODER IN VERBINDUNG MIT DER NUTZUNG ODER LEISTUNG DIESER SOFTWARE ENTSTEHT, VERANTWORTLICH.
+DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, UND DER AUTOR LEHNT ALLE GEWÄHRLEISTUNGEN IN BEZUG AUF DIESE SOFTWARE AB, EINSCHLIEßLICH ALLER KONKLUDENTEN GEWÄHRLEISTUNGEN DER HANDELSÜBLICHKEIT UND EIGNUNG. IN KEINEM FALL HAFTE DER AUTOR FÜR BESONDERE, DIREKTE, INDIREKTE ODER FOLGESCHÄDEN ODER SCHÄDEN, DIE AUS DEM VERLUST DER NUTZUNG, DER DATEN ODER DES GEWINNS RESULTIEREN, UNABHÄNGIG DAVON, OB ES SICH UM EINE VERTRAGSVERLETZUNG, EINE FAHRLÄSSIGKEIT ODER EINE ANDERE UNERLAUBTE AKTION HANDELT, DIE AUS ODER IN VERBINDUNG MIT DER NUTZUNG ODER LEISTUNG DIESER SOFTWARE ENTSTEHT.
 
 
 ---------------------------------------------------------
@@ -3253,9 +3253,9 @@ Die ISC-Lizenz
 
 Copyright (c) Copyright Z. Schlueter und Mitwirkende
 
-Die Berechtigung zum Verwenden, Kopieren, Ändern und/oder Verteilen dieser Software für einen beliebigen Zweck mit oder ohne Gebühr wird gewährt, vorausgesetzt, dass der obige Urheberrechtshinweis und dieser Berechtigungshinweis in allen Kopien angezeigt werden.
+Die Berechtigung zum Verwenden, Kopieren, Ändern und/oder Verteilen dieser Software für jeden Zweck mit oder ohne Gebühr wird gewährt, vorausgesetzt, dass der obige Urheberrechtshinweis und dieser Berechtigungshinweis in allen Kopien angezeigt werden.
 
-DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, UND DER AUTOR LEHNT ALLE GEWÄHRLEISTUNGEN IN BEZUG AUF DIESE SOFTWARE AB, EINSCHLIEßLICH ALLER KONKLUDENTEN GEWÄHRLEISTUNGEN DER HANDELSÜBLICHKEIT UND EIGNUNG. IN KEINEM FALL IST DER AUTOR FÜR BESONDERE, DIREKTE, INDIREKTE ODER FOLGESCHÄDEN ODER SCHÄDEN JEGLICHER ART, DIE SICH AUS DEM VERLUST DER NUTZUNG, DER DATEN ODER DES GEWINNS ERGEBEN, UNABHÄNGIG DAVON, OB ES SICH UM EINE VERTRAGSVERLETZUNG, EINE FAHRLÄSSIGKEIT ODER EINE ANDERE UNERLAUBTE AKTION HANDELT, DIE AUS ODER IN VERBINDUNG MIT DER NUTZUNG ODER LEISTUNG DIESER SOFTWARE ENTSTEHT, VERANTWORTLICH.
+DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, UND DER AUTOR LEHNT ALLE GEWÄHRLEISTUNGEN IN BEZUG AUF DIESE SOFTWARE AB, EINSCHLIEßLICH ALLER KONKLUDENTEN GEWÄHRLEISTUNGEN DER HANDELSÜBLICHKEIT UND EIGNUNG. IN KEINEM FALL HAFTE DER AUTOR FÜR BESONDERE, DIREKTE, INDIREKTE ODER FOLGESCHÄDEN ODER SCHÄDEN, DIE AUS DEM VERLUST DER NUTZUNG, DER DATEN ODER DES GEWINNS RESULTIEREN, UNABHÄNGIG DAVON, OB ES SICH UM EINE VERTRAGSVERLETZUNG, EINE FAHRLÄSSIGKEIT ODER EINE ANDERE UNERLAUBTE AKTION HANDELT, DIE AUS ODER IN VERBINDUNG MIT DER NUTZUNG ODER LEISTUNG DIESER SOFTWARE ENTSTEHT.
 
 
 ---------------------------------------------------------
@@ -3449,7 +3449,7 @@ DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, UND DER AUTOR LEHNT ALLE GEWÄHR
 
 semver 5.7.1 - ISC https://github.com/npm/node-semver#readme
 
-Copyright Copyright Copyright Z. Copyright Copyright Z. Schlueter Copyright (c) Csv Z. Schlueter and Contributors
+Copyright Isaac Z. Copyright Isaac Z. Schlueter Copyright (c) Isaac Z. Schlueter and Contributors
 
 Die ISC-Lizenz
 
@@ -3538,9 +3538,9 @@ Copyright npm, Inc
 
 Copyright npm, Inc
 
-Die Berechtigung zum Verwenden, Kopieren, Ändern und/oder Verteilen dieser Software für einen beliebigen Zweck mit oder ohne Gebühr wird gewährt, vorausgesetzt, dass der obige Urheberrechtshinweis und dieser Berechtigungshinweis in allen Kopien angezeigt werden.
+Die Berechtigung zum Verwenden, Kopieren, Ändern und/oder Verteilen dieser Software für jeden Zweck mit oder ohne Gebühr wird gewährt, vorausgesetzt, dass der obige Urheberrechtshinweis und dieser Berechtigungshinweis in allen Kopien angezeigt werden.
 
-DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, UND DER AUTOR LEHNT ALLE GEWÄHRLEISTUNGEN IN BEZUG AUF DIESE SOFTWARE AB, EINSCHLIEßLICH ALLER KONKLUDENTEN GEWÄHRLEISTUNGEN DER HANDELSÜBLICHKEIT UND EIGNUNG. IN KEINEM FALL IST DER AUTOR FÜR BESONDERE, DIREKTE, INDIREKTE ODER FOLGESCHÄDEN ODER SCHÄDEN JEGLICHER ART, DIE SICH AUS DEM VERLUST DER NUTZUNG, DER DATEN ODER DES GEWINNS ERGEBEN, UNABHÄNGIG DAVON, OB ES SICH UM EINE VERTRAGSVERLETZUNG, EINE FAHRLÄSSIGKEIT ODER EINE ANDERE UNERLAUBTE AKTION HANDELT, DIE AUS ODER IN VERBINDUNG MIT DER NUTZUNG ODER LEISTUNG DIESER SOFTWARE ENTSTEHT, VERANTWORTLICH.
+DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, UND DER AUTOR LEHNT ALLE GEWÄHRLEISTUNGEN IN BEZUG AUF DIESE SOFTWARE AB, EINSCHLIEßLICH ALLER KONKLUDENTEN GEWÄHRLEISTUNGEN DER HANDELSÜBLICHKEIT UND EIGNUNG. IN KEINEM FALL HAFTE DER AUTOR FÜR BESONDERE, DIREKTE, INDIREKTE ODER FOLGESCHÄDEN ODER SCHÄDEN, DIE AUS DEM VERLUST DER NUTZUNG, DER DATEN ODER DES GEWINNS RESULTIEREN, UNABHÄNGIG DAVON, OB ES SICH UM EINE VERTRAGSVERLETZUNG, EINE FAHRLÄSSIGKEIT ODER EINE ANDERE UNERLAUBTE AKTION HANDELT, DIE AUS ODER IN VERBINDUNG MIT DER NUTZUNG ODER LEISTUNG DIESER SOFTWARE ENTSTEHT.
 
 
 ---------------------------------------------------------
@@ -3555,9 +3555,9 @@ Die ISC-Lizenz
 
 Copyright npm, Inc
 
-Die Berechtigung zum Verwenden, Kopieren, Ändern und/oder Verteilen dieser Software für einen beliebigen Zweck mit oder ohne Gebühr wird gewährt, vorausgesetzt, dass der obige Urheberrechtshinweis und dieser Berechtigungshinweis in allen Kopien angezeigt werden.
+Die Berechtigung zum Verwenden, Kopieren, Ändern und/oder Verteilen dieser Software für jeden Zweck mit oder ohne Gebühr wird gewährt, vorausgesetzt, dass der obige Urheberrechtshinweis und dieser Berechtigungshinweis in allen Kopien angezeigt werden.
 
-DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, UND DER AUTOR LEHNT ALLE GEWÄHRLEISTUNGEN IN BEZUG AUF DIESE SOFTWARE AB, EINSCHLIEßLICH ALLER KONKLUDENTEN GEWÄHRLEISTUNGEN DER HANDELSÜBLICHKEIT UND EIGNUNG. IN KEINEM FALL IST DER AUTOR FÜR BESONDERE, DIREKTE, INDIREKTE ODER FOLGESCHÄDEN ODER SCHÄDEN JEGLICHER ART, DIE SICH AUS DEM VERLUST DER NUTZUNG, DER DATEN ODER DES GEWINNS ERGEBEN, UNABHÄNGIG DAVON, OB ES SICH UM EINE VERTRAGSVERLETZUNG, EINE FAHRLÄSSIGKEIT ODER EINE ANDERE UNERLAUBTE AKTION HANDELT, DIE AUS ODER IN VERBINDUNG MIT DER NUTZUNG ODER LEISTUNG DIESER SOFTWARE ENTSTEHT, VERANTWORTLICH.
+DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, UND DER AUTOR LEHNT ALLE GEWÄHRLEISTUNGEN IN BEZUG AUF DIESE SOFTWARE AB, EINSCHLIEßLICH ALLER KONKLUDENTEN GEWÄHRLEISTUNGEN DER HANDELSÜBLICHKEIT UND EIGNUNG. IN KEINEM FALL HAFTE DER AUTOR FÜR BESONDERE, DIREKTE, INDIREKTE ODER FOLGESCHÄDEN ODER SCHÄDEN, DIE AUS DEM VERLUST DER NUTZUNG, DER DATEN ODER DES GEWINNS RESULTIEREN, UNABHÄNGIG DAVON, OB ES SICH UM EINE VERTRAGSVERLETZUNG, EINE FAHRLÄSSIGKEIT ODER EINE ANDERE UNERLAUBTE AKTION HANDELT, DIE AUS ODER IN VERBINDUNG MIT DER NUTZUNG ODER LEISTUNG DIESER SOFTWARE ENTSTEHT.
 
 
 ---------------------------------------------------------
@@ -3572,9 +3572,9 @@ Die ISC-Lizenz
 
 Copyright (c) Copyright Z. Schlueter und Mitwirkende
 
-Die Berechtigung zum Verwenden, Kopieren, Ändern und/oder Verteilen dieser Software für einen beliebigen Zweck mit oder ohne Gebühr wird gewährt, vorausgesetzt, dass der obige Urheberrechtshinweis und dieser Berechtigungshinweis in allen Kopien angezeigt werden.
+Die Berechtigung zum Verwenden, Kopieren, Ändern und/oder Verteilen dieser Software für jeden Zweck mit oder ohne Gebühr wird gewährt, vorausgesetzt, dass der obige Urheberrechtshinweis und dieser Berechtigungshinweis in allen Kopien angezeigt werden.
 
-DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, UND DER AUTOR LEHNT ALLE GEWÄHRLEISTUNGEN IN BEZUG AUF DIESE SOFTWARE AB, EINSCHLIEßLICH ALLER KONKLUDENTEN GEWÄHRLEISTUNGEN DER HANDELSÜBLICHKEIT UND EIGNUNG. IN KEINEM FALL IST DER AUTOR FÜR BESONDERE, DIREKTE, INDIREKTE ODER FOLGESCHÄDEN ODER SCHÄDEN JEGLICHER ART, DIE SICH AUS DEM VERLUST DER NUTZUNG, DER DATEN ODER DES GEWINNS ERGEBEN, UNABHÄNGIG DAVON, OB ES SICH UM EINE VERTRAGSVERLETZUNG, EINE FAHRLÄSSIGKEIT ODER EINE ANDERE UNERLAUBTE AKTION HANDELT, DIE AUS ODER IN VERBINDUNG MIT DER NUTZUNG ODER LEISTUNG DIESER SOFTWARE ENTSTEHT, VERANTWORTLICH.
+DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, UND DER AUTOR LEHNT ALLE GEWÄHRLEISTUNGEN IN BEZUG AUF DIESE SOFTWARE AB, EINSCHLIEßLICH ALLER KONKLUDENTEN GEWÄHRLEISTUNGEN DER HANDELSÜBLICHKEIT UND EIGNUNG. IN KEINEM FALL HAFTE DER AUTOR FÜR BESONDERE, DIREKTE, INDIREKTE ODER FOLGESCHÄDEN ODER SCHÄDEN, DIE AUS DEM VERLUST DER NUTZUNG, DER DATEN ODER DES GEWINNS RESULTIEREN, UNABHÄNGIG DAVON, OB ES SICH UM EINE VERTRAGSVERLETZUNG, EINE FAHRLÄSSIGKEIT ODER EINE ANDERE UNERLAUBTE AKTION HANDELT, DIE AUS ODER IN VERBINDUNG MIT DER NUTZUNG ODER LEISTUNG DIESER SOFTWARE ENTSTEHT.
 
 
 ---------------------------------------------------------
@@ -3589,9 +3589,9 @@ Die ISC-Lizenz
 
 Copyright (c) Copyright Z. Schlueter und Mitwirkende
 
-Die Berechtigung zum Verwenden, Kopieren, Ändern und/oder Verteilen dieser Software für einen beliebigen Zweck mit oder ohne Gebühr wird gewährt, vorausgesetzt, dass der obige Urheberrechtshinweis und dieser Berechtigungshinweis in allen Kopien angezeigt werden.
+Die Berechtigung zum Verwenden, Kopieren, Ändern und/oder Verteilen dieser Software für jeden Zweck mit oder ohne Gebühr wird gewährt, vorausgesetzt, dass der obige Urheberrechtshinweis und dieser Berechtigungshinweis in allen Kopien angezeigt werden.
 
-DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, UND DER AUTOR LEHNT ALLE GEWÄHRLEISTUNGEN IN BEZUG AUF DIESE SOFTWARE AB, EINSCHLIEßLICH ALLER KONKLUDENTEN GEWÄHRLEISTUNGEN DER HANDELSÜBLICHKEIT UND EIGNUNG. IN KEINEM FALL IST DER AUTOR FÜR BESONDERE, DIREKTE, INDIREKTE ODER FOLGESCHÄDEN ODER SCHÄDEN JEGLICHER ART, DIE SICH AUS DEM VERLUST DER NUTZUNG, DER DATEN ODER DES GEWINNS ERGEBEN, UNABHÄNGIG DAVON, OB ES SICH UM EINE VERTRAGSVERLETZUNG, EINE FAHRLÄSSIGKEIT ODER EINE ANDERE UNERLAUBTE AKTION HANDELT, DIE AUS ODER IN VERBINDUNG MIT DER NUTZUNG ODER LEISTUNG DIESER SOFTWARE ENTSTEHT, VERANTWORTLICH.
+DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, UND DER AUTOR LEHNT ALLE GEWÄHRLEISTUNGEN IN BEZUG AUF DIESE SOFTWARE AB, EINSCHLIEßLICH ALLER KONKLUDENTEN GEWÄHRLEISTUNGEN DER HANDELSÜBLICHKEIT UND EIGNUNG. IN KEINEM FALL HAFTE DER AUTOR FÜR BESONDERE, DIREKTE, INDIREKTE ODER FOLGESCHÄDEN ODER SCHÄDEN, DIE AUS DEM VERLUST DER NUTZUNG, DER DATEN ODER DES GEWINNS RESULTIEREN, UNABHÄNGIG DAVON, OB ES SICH UM EINE VERTRAGSVERLETZUNG, EINE FAHRLÄSSIGKEIT ODER EINE ANDERE UNERLAUBTE AKTION HANDELT, DIE AUS ODER IN VERBINDUNG MIT DER NUTZUNG ODER LEISTUNG DIESER SOFTWARE ENTSTEHT.
 
 
 ---------------------------------------------------------
@@ -3604,9 +3604,9 @@ Copyright (c) 2015
 
 Copyright (c) 2015, Mitwirkende
 
-Die Berechtigung zum Verwenden, Kopieren, Ändern und/oder Verteilen dieser Software für einen beliebigen Zweck mit oder ohne Gebühr wird gewährt, vorausgesetzt, dass der obige Urheberrechtshinweis und dieser Berechtigungshinweis in allen Kopien angezeigt werden.
+Die Berechtigung zum Verwenden, Kopieren, Ändern und/oder Verteilen dieser Software für jeden Zweck mit oder ohne Gebühr wird gewährt, vorausgesetzt, dass der obige Urheberrechtshinweis und dieser Berechtigungshinweis in allen Kopien angezeigt werden.
 
-DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, UND DER AUTOR LEHNT ALLE GEWÄHRLEISTUNGEN IN BEZUG AUF DIESE SOFTWARE AB, EINSCHLIEßLICH ALLER KONKLUDENTEN GEWÄHRLEISTUNGEN DER HANDELSÜBLICHKEIT UND EIGNUNG. IN KEINEM FALL IST DER AUTOR FÜR BESONDERE, DIREKTE, INDIREKTE ODER FOLGESCHÄDEN ODER SCHÄDEN JEGLICHER ART, DIE SICH AUS DEM VERLUST DER NUTZUNG, DER DATEN ODER DES GEWINNS ERGEBEN, UNABHÄNGIG DAVON, OB ES SICH UM EINE VERTRAGSVERLETZUNG, EINE FAHRLÄSSIGKEIT ODER EINE ANDERE UNERLAUBTE AKTION HANDELT, DIE AUS ODER IN VERBINDUNG MIT DER NUTZUNG ODER LEISTUNG DIESER SOFTWARE ENTSTEHT, VERANTWORTLICH.
+DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, UND DER AUTOR LEHNT ALLE GEWÄHRLEISTUNGEN IN BEZUG AUF DIESE SOFTWARE AB, EINSCHLIEßLICH ALLER KONKLUDENTEN GEWÄHRLEISTUNGEN DER HANDELSÜBLICHKEIT UND EIGNUNG. IN KEINEM FALL HAFTE DER AUTOR FÜR BESONDERE, DIREKTE, INDIREKTE ODER FOLGESCHÄDEN ODER SCHÄDEN, DIE AUS DEM VERLUST DER NUTZUNG, DER DATEN ODER DES GEWINNS RESULTIEREN, UNABHÄNGIG DAVON, OB ES SICH UM EINE VERTRAGSVERLETZUNG, EINE FAHRLÄSSIGKEIT ODER EINE ANDERE UNERLAUBTE AKTION HANDELT, DIE AUS ODER IN VERBINDUNG MIT DER NUTZUNG ODER LEISTUNG DIESER SOFTWARE ENTSTEHT.
 
 
 ---------------------------------------------------------
@@ -3621,9 +3621,9 @@ Die ISC-Lizenz
 
 Copyright (c) Copyright Z. Schlueter und Mitwirkende
 
-Die Berechtigung zum Verwenden, Kopieren, Ändern und/oder Verteilen dieser Software für einen beliebigen Zweck mit oder ohne Gebühr wird gewährt, vorausgesetzt, dass der obige Urheberrechtshinweis und dieser Berechtigungshinweis in allen Kopien angezeigt werden.
+Die Berechtigung zum Verwenden, Kopieren, Ändern und/oder Verteilen dieser Software für jeden Zweck mit oder ohne Gebühr wird gewährt, vorausgesetzt, dass der obige Urheberrechtshinweis und dieser Berechtigungshinweis in allen Kopien angezeigt werden.
 
-DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, UND DER AUTOR LEHNT ALLE GEWÄHRLEISTUNGEN IN BEZUG AUF DIESE SOFTWARE AB, EINSCHLIEßLICH ALLER KONKLUDENTEN GEWÄHRLEISTUNGEN DER HANDELSÜBLICHKEIT UND EIGNUNG. IN KEINEM FALL IST DER AUTOR FÜR BESONDERE, DIREKTE, INDIREKTE ODER FOLGESCHÄDEN ODER SCHÄDEN JEGLICHER ART, DIE SICH AUS DEM VERLUST DER NUTZUNG, DER DATEN ODER DES GEWINNS ERGEBEN, UNABHÄNGIG DAVON, OB ES SICH UM EINE VERTRAGSVERLETZUNG, EINE FAHRLÄSSIGKEIT ODER EINE ANDERE UNERLAUBTE AKTION HANDELT, DIE AUS ODER IN VERBINDUNG MIT DER NUTZUNG ODER LEISTUNG DIESER SOFTWARE ENTSTEHT, VERANTWORTLICH.
+DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, UND DER AUTOR LEHNT ALLE GEWÄHRLEISTUNGEN IN BEZUG AUF DIESE SOFTWARE AB, EINSCHLIEßLICH ALLER KONKLUDENTEN GEWÄHRLEISTUNGEN DER HANDELSÜBLICHKEIT UND EIGNUNG. IN KEINEM FALL HAFTE DER AUTOR FÜR BESONDERE, DIREKTE, INDIREKTE ODER FOLGESCHÄDEN ODER SCHÄDEN, DIE AUS DEM VERLUST DER NUTZUNG, DER DATEN ODER DES GEWINNS RESULTIEREN, UNABHÄNGIG DAVON, OB ES SICH UM EINE VERTRAGSVERLETZUNG, EINE FAHRLÄSSIGKEIT ODER EINE ANDERE UNERLAUBTE AKTION HANDELT, DIE AUS ODER IN VERBINDUNG MIT DER NUTZUNG ODER LEISTUNG DIESER SOFTWARE ENTSTEHT.
 
 
 ---------------------------------------------------------
@@ -3914,7 +3914,7 @@ DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜC
 
 ---------------------------------------------------------
 
-@babel/Types 7.10.2 – MIT https://babeljs.io/
+@babel/Typen 7.10.2 – MIT https://babeljs.io/
 
 Copyright (c) 2014-present Mv McKenzie und andere Mitwirkende
 
@@ -4323,8 +4323,7 @@ DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜC
 
 ---------------------------------------------------------
 
-@types/office-js-preview 1.0.220 – MIT
-
+@types/office-js-preview 1.0.224 – MIT https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/office-js-preview
 
 Copyright (c) Microsoft Corporation.
 
@@ -4510,7 +4509,7 @@ Hinweis: Die Verwendung der Schriftarten und Symbole, auf die in Fluent UI-React
 
 Copyright (c) Microsoft Corporation.
 
-Fluent UI-React – Seriendruckformatvorlagen
+Fluent UI-React – Seriendruckstile
 
 Copyright (c) Microsoft Corporation
 
@@ -4668,7 +4667,7 @@ DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜC
 
 ---------------------------------------------------------
 
-@webassemblyjs/helper-api-error 1.9.0 – MIT
+@webassemblyjs/helper-api-error 1.9.0 - MIT
 
 
 Copyright (c) 2018 Sven Sauleau <sven@sauleau.com>
@@ -4688,7 +4687,7 @@ DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜC
 
 ---------------------------------------------------------
 
-@webassemblyjs/Hilfspuffer 1.9.0 – MIT https://github.com/xtuc/webassemblyjs#readme
+@webassemblyjs/Hilfsprogrammpuffer 1.9.0 – MIT https://github.com/xtuc/webassemblyjs#readme
 
 Copyright (c) 2018 Sven Sauleau <sven@sauleau.com>
 
@@ -4726,7 +4725,7 @@ DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜC
 
 ---------------------------------------------------------
 
-@webassemblyjs/helper-module-context 1.9.0 - MIT https://github.com/xtuc/webassemblyjs#readme
+@webassemblyjs/helper-module-context 1.9.0 – MIT https://github.com/xtuc/webassemblyjs#readme
 
 Copyright (c) 2018 Sven Sauleau <sven@sauleau.com>
 
@@ -5186,11 +5185,11 @@ DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜC
 
 ---------------------------------------------------------
 
-ansi-regex 3.0.0 - MIT https://github.com/chalk/ansi-regex#readme
+ansi-regex 2.1.1 - MIT https://github.com/chalk/ansi-regex#readme
 
-Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
+(c) Sindre Sorhus ( http://sindresorhus.com) Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
 
-MIT-Lizenz
+Die MIT-Lizenz (MIT)
 
 Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
 
@@ -5205,11 +5204,11 @@ DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜC
 
 ---------------------------------------------------------
 
-ansi-regex 2.1.1 - MIT https://github.com/chalk/ansi-regex#readme
+ansi-regex 3.0.0 - MIT https://github.com/chalk/ansi-regex#readme
 
-(c) Sindre Sorhus ( http://sindresorhus.com) Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
+Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
 
-Die MIT-Lizenz (MIT)
+MIT-Lizenz
 
 Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
 
@@ -5490,7 +5489,7 @@ DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜC
 
 assert 1.4.1 - MIT https://github.com/defunctzombie/commonjs-assert
 
-Copyright (c) 2009Auferz<280north.com> CopyrightSingent, Inc. und andere Node-Mitwirkende.
+Copyright (c) 2009Aufz<280north.com> CopyrightSingent, Inc. und andere Node-Mitwirkende.
 
 Copyright Copyright, Inc. und andere Node-Mitwirkende. Alle Rechte vorbehalten.
 Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, sich uneingeschränkt mit der Software zu befassen, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und Personen, denen die Software dazu berechtigt ist, dies zu gestatten, unter den folgenden Bedingungen:
@@ -5601,7 +5600,7 @@ DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜC
 babel-plugin-styled-components 1.10.7 - MIT
 
 
-Copyright (c) 2016-present Doppelklick Danchenkov und Maustasteiber.
+Copyright (c) 2016-present Maustaste Danchenkov und Maustasteiber.
 
 MIT-Lizenz
 
@@ -6305,7 +6304,7 @@ DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜC
 
 ---------------------------------------------------------
 
-Camelcase 5.0.0 - MIT https://github.com/sindresorhus/camelcase#readme
+Camelcase 5.3.1 - MIT https://github.com/sindresorhus/camelcase#readme
 
 (c) Sindre Sorhus ( https://sindresorhus.com) Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
 
@@ -6324,7 +6323,7 @@ DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜC
 
 ---------------------------------------------------------
 
-Camelcase 5.3.1 - MIT https://github.com/sindresorhus/camelcase#readme
+Camelcase 5.0.0 - MIT https://github.com/sindresorhus/camelcase#readme
 
 (c) Sindre Sorhus ( https://sindresorhus.com) Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
 
@@ -6857,7 +6856,7 @@ compose-function 3.0.3 - MIT http://github.com/stoeffel/compose-function
 
 Copyright (c) 2015 Nutzungsrechte ( c) Automatisieren (http://stoeffel.github.io)
 
-Copyright © 2015 Einer der Autoren
+Copyright-© 2015 – Einer der Autoren
 
 Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, sich uneingeschränkt mit der Software zu befassen, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und Personen, denen die Software dazu berechtigt ist, dies zu gestatten, unter den folgenden Bedingungen:
 
@@ -7013,7 +7012,7 @@ core-util-is 1.0.2 - MIT https://github.com/isaacs/core-util-is#readme
 
 Copyright Copyright, Inc. und andere Node-Mitwirkende.
 
-Copyright Node.js Mitwirkenden. Alle Rechte vorbehalten.
+Autoren des Copyrights Node.js. Alle Rechte vorbehalten.
 
 Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, sich uneingeschränkt mit der Software zu befassen, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und Personen, denen die Software dazu berechtigt ist, dies zu gestatten, unter den folgenden Bedingungen:
 
@@ -7195,7 +7194,7 @@ DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜC
 
 ---------------------------------------------------------
 
-cssesc 2.0.0 - MIT https://mths.be/cssesc
+cssesc 3.0.0 - MIT https://mths.be/cssesc
 
 Copyright Mathias Bynens <https://mathiasbynens.be/>
 
@@ -7212,7 +7211,7 @@ DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜC
 
 ---------------------------------------------------------
 
-cssesc 3.0.0 - MIT https://mths.be/cssesc
+cssesc 2.0.0 - MIT https://mths.be/cssesc
 
 Copyright Mathias Bynens <https://mathiasbynens.be/>
 
@@ -7386,7 +7385,7 @@ DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜC
 
 css-to-react-native 2.3.2 – MIT https://github.com/styled-components/css-to-react-native#readme
 
-Copyright (c) 2016 Copyright (c) 2019 Maximer Enumeration Parker, and Gif Parker, and CsvIber.
+Copyright (c) 2016 Copyright (c) 2019 Maximer Enumeration Parker, andAufer- und JakobIber.
 
 MIT-Lizenz
 
@@ -7476,7 +7475,7 @@ DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜC
 
 ---------------------------------------------------------
 
-debug 4.1.1 - MIT https://github.com/visionmedia/debug#readme
+debug 3.2.6 - MIT https://github.com/visionmedia/debug#readme
 
 Copyright (c) 2014 TJ Holowaychuk <tj@vision-media.ca> Copyright (c) 2014-2017 TJ Holowaychuk <tj@vision-media.ca>
 
@@ -7496,7 +7495,7 @@ DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜC
 
 ---------------------------------------------------------
 
-debug 3.2.6 - MIT https://github.com/visionmedia/debug#readme
+debug 4.1.1 - MIT https://github.com/visionmedia/debug#readme
 
 Copyright (c) 2014 TJ Holowaychuk <tj@vision-media.ca> Copyright (c) 2014-2017 TJ Holowaychuk <tj@vision-media.ca>
 
@@ -8282,7 +8281,7 @@ IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, 
 
 ---------------------------------------------------------
 
-file-uri-to-path 1.0.0 – MIT https://github.com/TooTallNate/file-uri-to-path
+file-uri-to-path 1.0.0 - MIT https://github.com/TooTallNate/file-uri-to-path
 
 Copyright (c) 2014 Nathan Rajlich <nathan@tootallnate.net>
 
@@ -8994,7 +8993,7 @@ DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜC
 
 hex-color-regex 1.1.0 - MIT https://github.com/regexps/hex-color-regex#readme
 
-Copyright (c) 2015 Charlike Michael Reagent, Mitwirkende.
+Copyright (c) 2015 CharlikeJs Reagent, Mitwirkende.
 Copyright (c) 2015 Charlike Make Reagent ( http://j.mp/1stW47C) Copyright (c) 2015 CharlikeJs Reagent <@tunnckoCore> (http://www.tunnckocore.tk)
 
 # <a name="the-mit-license"></a>Die MIT-Lizenz
@@ -9468,26 +9467,6 @@ DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜC
 
 ---------------------------------------------------------
 
-is-accessor-descriptor 0.1.6 - MIT https://github.com/jonschlinkert/is-accessor-descriptor
-
-Copyright (c) 2015, Jon Schlinkert.
-Copyright (c) 2015 Jon Schlinkert (https://github.com/jonschlinkert)
-
-Die MIT-Lizenz (MIT)
-
-Copyright (c) 2015, Jon Schlinkert.
-
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, sich uneingeschränkt mit der Software zu befassen, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und Personen, denen die Software dazu berechtigt ist, dies zu gestatten, unter den folgenden Bedingungen:
-
-Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
-
-DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER AUS DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
-
-
----------------------------------------------------------
-
----------------------------------------------------------
-
 is-accessor-descriptor 1.0.0 – MIT https://github.com/jonschlinkert/is-accessor-descriptor
 
 Copyright (c) 2015-2017, Jon Schlinkert.
@@ -9508,7 +9487,27 @@ DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜC
 
 ---------------------------------------------------------
 
-isarray 1.0.0 - MIT https://github.com/juliangruber/isarray
+is-accessor-descriptor 0.1.6 - MIT https://github.com/jonschlinkert/is-accessor-descriptor
+
+Copyright (c) 2015, Jon Schlinkert.
+Copyright (c) 2015 Jon Schlinkert (https://github.com/jonschlinkert)
+
+Die MIT-Lizenz (MIT)
+
+Copyright (c) 2015, Jon Schlinkert.
+
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, sich uneingeschränkt mit der Software zu befassen, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und Personen, denen die Software dazu berechtigt ist, dies zu gestatten, unter den folgenden Bedingungen:
+
+Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
+
+DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER AUS DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
+
+
+---------------------------------------------------------
+
+---------------------------------------------------------
+
+isarray 0.0.1 - MIT https://github.com/juliangruber/isarray
 
 Copyright (c) 2013 Julian Gruber <julian@juliangruber.com>
 
@@ -9526,7 +9525,7 @@ DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜC
 
 ---------------------------------------------------------
 
-isarray 0.0.1 - MIT https://github.com/juliangruber/isarray
+isarray 1.0.0 - MIT https://github.com/juliangruber/isarray
 
 Copyright (c) 2013 Julian Gruber <julian@juliangruber.com>
 
@@ -9738,7 +9737,7 @@ DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜC
 
 ---------------------------------------------------------
 
-is-descriptor 0.1.6 - MIT https://github.com/jonschlinkert/is-descriptor
+is-descriptor 1.0.2 - MIT https://github.com/jonschlinkert/is-descriptor
 
 Copyright (c) 2015-2017, Jon Schlinkert.
 Copyright (c) 2017, Jon Schlinkert ( https://github.com/jonschlinkert) .
@@ -9757,7 +9756,7 @@ DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜC
 
 ---------------------------------------------------------
 
-is-descriptor 1.0.2 - MIT https://github.com/jonschlinkert/is-descriptor
+is-descriptor 0.1.6 - MIT https://github.com/jonschlinkert/is-descriptor
 
 Copyright (c) 2015-2017, Jon Schlinkert.
 Copyright (c) 2017, Jon Schlinkert ( https://github.com/jonschlinkert) .
@@ -9932,14 +9931,14 @@ DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜC
 
 ---------------------------------------------------------
 
-is-number 3.0.0 - MIT https://github.com/jonschlinkert/is-number
+is-number 7.0.0 - MIT https://github.com/jonschlinkert/is-number
 
-Copyright (c) 2014-2016, Jon Schlinkert Copyright (c) 2014-2015, Jon Schlinkert.
-Copyright (c) 2016, Jon Schlinkert ( https://github.com/jonschlinkert) .
+Copyright (c) 2014-present, Jon Schlinkert.
+Copyright (c) 2018, Jon Schlinkert ( https://github.com/jonschlinkert) .
 
 Die MIT-Lizenz (MIT)
 
-Copyright (c) 2014-2016, Jon Schlinkert
+Copyright (c) 2014-present, Jon Schlinkert.
 
 Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, sich uneingeschränkt mit der Software zu befassen, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und Personen, denen die Software dazu berechtigt ist, dies zu gestatten, unter den folgenden Bedingungen:
 
@@ -9952,14 +9951,14 @@ DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜC
 
 ---------------------------------------------------------
 
-is-number 7.0.0 - MIT https://github.com/jonschlinkert/is-number
+is-number 3.0.0 - MIT https://github.com/jonschlinkert/is-number
 
-Copyright (c) 2014-present, Jon Schlinkert.
-Copyright (c) 2018, Jon Schlinkert ( https://github.com/jonschlinkert) .
+Copyright (c) 2014-2016, Jon Schlinkert Copyright (c) 2014-2015, Jon Schlinkert.
+Copyright (c) 2016, Jon Schlinkert ( https://github.com/jonschlinkert) .
 
 Die MIT-Lizenz (MIT)
 
-Copyright (c) 2014-present, Jon Schlinkert.
+Copyright (c) 2014-2016, Jon Schlinkert
 
 Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, sich uneingeschränkt mit der Software zu befassen, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und Personen, denen die Software dazu berechtigt ist, dies zu gestatten, unter den folgenden Bedingungen:
 
@@ -10314,15 +10313,12 @@ DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜC
 
 ---------------------------------------------------------
 
-json3 3.3.3 - MIT https://bestiejs.github.io/json3
+json3 3.3.0 - MIT http://bestiejs.github.io/json3
 
-Copyright (c) 2013-2015 Doppelklick Tan. https://d10.github.io Copyright (c) 2012-2015 Kit Gif. http://kitcambridge.be Copyright 2012-2015, Kit Doppelklick, Maustaste Tan http://kit.mit-license.org (c) 2012-2015 http://kitcambridge.be/ ' Kit Maustaste, https://d10.github.io/ ' Doppelklick Tan
+Copyright (c) 2012-2014 Kit Mof. http://kitcambridge.be Copyright 2012-2014, Kit Kits http://kit.mit-license.org
 
-Copyright (c) 2012-2015 Kit Gif.
+Copyright (c) 2012-2014 Kit Mof.
 http://kitcambridge.be/
-
-Copyright (c) 2013-2015 Doppelklick Tan.
-https://d10.github.io/
 
 Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, sich uneingeschränkt mit der Software zu befassen, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und Personen, denen die Software dazu berechtigt ist, dies zu gestatten, unter den folgenden Bedingungen:
 
@@ -10334,12 +10330,15 @@ DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜC
 
 ---------------------------------------------------------
 
-json3 3.3.0 - MIT http://bestiejs.github.io/json3
+json3 3.3.3 - MIT https://bestiejs.github.io/json3
 
-Copyright (c) 2012-2014 Kit Mof. http://kitcambridge.be Copyright 2012-2014, Kit Kits http://kit.mit-license.org
+Copyright (c) 2013-2015 Doppelklick Tan. https://d10.github.io Copyright (c) 2012-2015 Kit Gif. http://kitcambridge.be Copyright 2012-2015, Kit Doppelklick, Maustaste Tan http://kit.mit-license.org (c) 2012-2015 http://kitcambridge.be/ ' Kit Maustaste, https://d10.github.io/ ' Doppelklick Tan
 
-Copyright (c) 2012-2014 Kit Mof.
+Copyright (c) 2012-2015 Kit Gif.
 http://kitcambridge.be/
+
+Copyright (c) 2013-2015 Doppelklick Tan.
+https://d10.github.io/
 
 Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, sich uneingeschränkt mit der Software zu befassen, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und Personen, denen die Software dazu berechtigt ist, dies zu gestatten, unter den folgenden Bedingungen:
 
@@ -10464,7 +10463,7 @@ DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜC
 
 js-tokens 3.0.2 - MIT https://github.com/lydell/js-tokens#readme
 
-Copyright 2014, 2015, 2016, 2017 Nutzungsrechte Lydell Copyright (c) 2014, 2015, 2016, 2017 Wiesn Lydell
+Copyright 2014, 2015, 2016, 2017 Kate Lydell Copyright (c) 2014, 2015, 2016, 2017 Wiesn Lydell
 
 Die MIT-Lizenz (MIT)
 
@@ -11398,7 +11397,7 @@ DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜC
 
 ---------------------------------------------------------
 
-monaco-editor 0.18.1 - MIT https://github.com/Microsoft/monaco-editor#readme
+monaco-editor 0.20.0 - MIT https://github.com/Microsoft/monaco-editor#readme
 
 Copyright (c) 2015 Copyright (c) Joshaven Copyright (c) 2014 Album Hakes Copyright (c) Artyom Shalomekov.
 Copyright (c) 2015 David Owens II Copyright (c) 2014 Forbes Webserversay Copyright (c) 2015 Csv Bevacqua Copyright (c) Microsoft Corporation.
@@ -11424,7 +11423,7 @@ DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜC
 
 ---------------------------------------------------------
 
-monaco-editor 0.20.0 - MIT https://github.com/Microsoft/monaco-editor#readme
+monaco-editor 0.18.1 - MIT https://github.com/Microsoft/monaco-editor#readme
 
 Copyright (c) 2015 Copyright (c) Joshaven Copyright (c) 2014 Album Hakes Copyright (c) Artyom Shalomekov.
 Copyright (c) 2015 David Owens II Copyright (c) 2014 Forbes Webserversay Copyright (c) 2015 Csv Bevacqua Copyright (c) Microsoft Corporation.
@@ -11709,7 +11708,7 @@ DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜC
 
 normalize-range 0.1.2 - MIT https://github.com/jamestalmage/normalize-range#readme
 
-Copyright (c) Jakob Talmage <james@talmage.io> (c) Jakob Talmage (http://github.com/jamestalmage)
+Copyright (c) James Talmage <james@talmage.io> (c) James Talmage (http://github.com/jamestalmage)
 
 Die MIT-Lizenz (MIT)
 
@@ -12061,7 +12060,7 @@ DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜC
 
 open 6.4.0 - MIT https://github.com/sindresorhus/open#readme
 
-Copyright 2006, Kevin Krammer <kevin.krammer@gmx.at> Copyright 2006, White Copyright <jwhite@codeweavers.com> 2009-2010, Fathi Boudra <fabo@freedesktop.org> Copyright 2009-2010, Rex Dieter <rdieter@fedoraproject.org> Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
+Copyright 2006, Kevin Krammer <kevin.krammer@gmx.at> Copyright 2006, White <jwhite@codeweavers.com> Copyright 2009-2010, Fathi Boudra <fabo@freedesktop.org> Copyright 2009-2010, Rex Dieter <rdieter@fedoraproject.org> Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
 
 MIT-Lizenz
 
@@ -12103,7 +12102,7 @@ Copyright (c) 2015 Unshift.io, Codut Kasemier
 
 Die MIT-Lizenz (MIT)
 
-Copyright (c) 2015 Unshift.io, Codut Kasemier, the Contributors.
+Copyright (c) 2015 Unshift.io, Csvut Kasemier, the Contributors.
 
 Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, sich uneingeschränkt mit der Software zu befassen, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und Personen, denen die Software dazu berechtigt ist, dies zu gestatten, unter den folgenden Bedingungen:
 
@@ -14979,24 +14978,6 @@ DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜC
 
 ---------------------------------------------------------
 
-schema-utils 2.7.0 - MIT https://github.com/webpack/schema-utils
-
-Copyright JS Foundation und andere Mitwirkende
-
-Copyright JS Foundation und andere Mitwirkende
-
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und personen, denen die Software dazu verpflichtet ist, dies zu gestatten, unter den folgenden Bedingungen:
-
-Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
-
-DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT.
-IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER AUS DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
-
-
----------------------------------------------------------
-
----------------------------------------------------------
-
 schema-utils 1.0.0 - MIT https://github.com/webpack-contrib/schema-utils
 
 Copyright JS Foundation und andere Mitwirkende
@@ -15016,6 +14997,24 @@ IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, 
 ---------------------------------------------------------
 
 schema-utils 0.4.7 - MIT https://github.com/webpack-contrib/schema-utils
+
+Copyright JS Foundation und andere Mitwirkende
+
+Copyright JS Foundation und andere Mitwirkende
+
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und personen, denen die Software dazu verpflichtet ist, dies zu gestatten, unter den folgenden Bedingungen:
+
+Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
+
+DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT.
+IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER AUS DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
+
+
+---------------------------------------------------------
+
+---------------------------------------------------------
+
+schema-utils 2.7.0 - MIT https://github.com/webpack/schema-utils
 
 Copyright JS Foundation und andere Mitwirkende
 
@@ -15484,7 +15483,7 @@ DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜC
 
 stream-http 2.8.3 - MIT https://github.com/jhiesey/stream-http#readme
 
-Copyright (c) 2015 John Hie copyright (c) John Hieej und andere Mitwirkende.
+Copyright (c) 2015 John Hiezar Copyright (c) John Hieej und andere Mitwirkende.
 
 Die MIT-Lizenz
 
@@ -15697,7 +15696,7 @@ DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜC
 
 ---------------------------------------------------------
 
-strip-ansi 5.2.0 - MIT https://github.com/chalk/strip-ansi#readme
+strip-ansi 4.0.0 - MIT https://github.com/chalk/strip-ansi#readme
 
 Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
 
@@ -15716,7 +15715,7 @@ DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜC
 
 ---------------------------------------------------------
 
-strip-ansi 4.0.0 - MIT https://github.com/chalk/strip-ansi#readme
+strip-ansi 5.2.0 - MIT https://github.com/chalk/strip-ansi#readme
 
 Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
 
@@ -15810,7 +15809,7 @@ DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜC
 
 ---------------------------------------------------------
 
-style-loader 1.0.0 – MIT https://github.com/webpack-contrib/style-loader
+style-loader 1.0.0 - MIT https://github.com/webpack-contrib/style-loader
 
 Copyright JS Foundation und andere Mitwirkende
 
@@ -15927,7 +15926,7 @@ copyright (c) 2012 Kir Maustaste über Copyright (c) 2012-2016 Kir Bel über
 
 Die MIT-Lizenz
 
-Copyright © 2012–2016 Kir Codanas
+Copyright © 2012–2016 Kir Bel cod
 
 Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, sich uneingeschränkt mit der Software zu befassen, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und Personen, denen die Software dazu berechtigt ist, dies zu gestatten, unter den folgenden Bedingungen:
 
@@ -16358,7 +16357,7 @@ Copyright (c) 2012, Zeichenfolge Bell Copyright (c) 2010, Linen Research, Inc.
  DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER AUS DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
 $/LicenseInfo$ */
 
-Original finden Sie unter:   https://bitbucket.org/lindenlab/llsd / / Modifications by Texture Bell inexorabletash@gmail.com /   https://github.com/inexorabletash/polyfill
+// Original can be found at: //   https://bitbucket.org/lindenlab/llsd // Modifications by Joshua Bell inexorabletash@gmail.com //   https://github.com/inexorabletash/polyfill
 
 ES3/ES5-Implementierung der Krhonos Typed Array Specification / Ref: http://www.khronos.org/registry/typedarray/specs/latest/ / Date: 2011-02-01 / / Variations: / * Allows typed_array.get/set() as alias for subscripts (typed_array[])
 
@@ -16653,7 +16652,7 @@ IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, 
 
 url-parse 1.4.7 - MIT https://github.com/unshiftio/url-parse#readme
 
-Copyright (c) 2015 Unshift.io, Dtut Kasemier
+Copyright (c) 2015 Unshift.io, Codut Kasemier
 
 Die MIT-Lizenz (MIT)
 
@@ -16913,7 +16912,7 @@ IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, 
 
 ---------------------------------------------------------
 
-vm-browserify 1.1.2 – MIT https://github.com/substack/vm-browserify#readme
+vm-browserify 1.1.2 - MIT https://github.com/substack/vm-browserify#readme
 
 
 MIT-Lizenz
@@ -17553,14 +17552,14 @@ DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜC
 
       Sie können Ihre eigenen Urheberrechtsbestimmungen zu Ihren Änderungen hinzufügen und zusätzliche oder unterschiedliche Lizenzbedingungen für die Verwendung, Wiederverwendung oder Verteilung Ihrer Änderungen oder für alle derartigen abgeleiteten Arbeiten als Ganzes bereitstellen, sofern Ihre Nutzung, Vermehrung und Verteilung des Werks andernfalls den in dieser Lizenz angegebenen Bedingungen entspricht.
 
-   5. Übermittlung von Beiträgen. Sofern Sie nichts anderes ausdrücklich angeben, gelten alle beiträge, die sie absichtlich zur Aufnahme in die Arbeit von Ihnen an den Licensor übermittelt haben, unter den Bedingungen dieser Lizenz, ohne dass zusätzliche Bedingungen gelten.
-      Ungeachtet der oben genannten Bestimmungen ersetzt oder ändert nichts die Bedingungen eines separaten Lizenzvertrags, den Sie möglicherweise mit dem Licensor in Bezug auf solche Beiträge ausgeführt haben.
+   5. Übermittlung von Beiträgen. Sofern Sie nichts anderes ausdrücklich angeben, gelten alle Beiträge, die sie absichtlich zur Aufnahme in die Arbeit von Ihnen an den Licensor übermittelt haben, unter den Bedingungen dieser Lizenz, ohne dass zusätzliche Bedingungen gelten.
+      Ungeachtet der oben genannten Bestimmungen ersetzt oder ändert nichts die Bedingungen eines separaten Lizenzvertrags, den Sie möglicherweise mit dem Licensor bezüglich solcher Beiträge ausgeführt haben.
 
    6. Marken. Diese Lizenz gewährt keine Berechtigung zur Verwendung der Handelsnamen, Marken, Dienstmarken oder Produktnamen des Licensors, es sei denn, dies ist für eine angemessene und übliche Verwendung erforderlich, um den Ursprung des Auftrags zu beschreiben und den Inhalt der NOTICE-Datei zu reproduzieren.
 
-   7. Haftungsausschluss. Sofern nicht nach geltendem Recht erforderlich oder schriftlich zugestimmt, stellt der Licensor die Arbeit (und jeder Mitwirkende stellt seine Beiträge bereit) "WIE BESEHEN", OHNE GEWÄHRLEISTUNGEN ODER BEDINGUNGEN JEGLICHEr Art, entweder ausdrücklich oder konkludent, einschließlich, ohne Einschränkung, jegliche Gewährleistungen oder Bedingungen des TITELs, NICHTVERLETZUNG, HANDELSÜBLICHKEIT oder EIGNUNG FÜR EINEN BESTIMMTEN ZWECK. Sie sind allein dafür verantwortlich, die Geeignetheit der Verwendung oder Verteilung der Arbeit zu bestimmen und alle Risiken im Zusammenhang mit Ihrer Ausübung von Berechtigungen unter dieser Lizenz zu übernehmen.
+   7. Haftungsausschluss. Sofern nicht nach geltendem Recht erforderlich oder schriftlich zugestimmt, stellt der Licensor die Arbeit (und jeder Mitwirkende stellt seine Beiträge bereit) "WIE BESEHEN", OHNE GEWÄHRLEISTUNGEN ODER BEDINGUNGEN JEGLICHEr Art, entweder ausdrücklich oder konkludent, einschließlich, ohne Einschränkung, garantien oder Bedingungen des TITELs, NICHTVERLETZUNG, HANDELSÜBLICHKEIT oder EIGNUNG FÜR EINEN BESTIMMTEN ZWECK. Sie sind allein dafür verantwortlich, die Geeignetheit der Verwendung oder Verteilung der Arbeit zu bestimmen und alle Risiken im Zusammenhang mit Ihrer Ausübung von Berechtigungen unter dieser Lizenz zu übernehmen.
 
-   8. Limitation of Liability. In keinem Fall und ohne rechtstheoretische Hinweise, sei es in Form von Unerlaubtem (einschließlich Fahrlässigkeit), Vertrag oder anderweitig, es sei denn, dies ist nach geltendem Recht erforderlich (z. B. absichtliche und grobe Handlungen) oder schriftlich vereinbart, hafte jedem Mitwirkenden für Schäden, einschließlich direkter, indirekter, spezieller, zufälliger oder Folgeschäden jeglicher Art, die als Ergebnis dieser Lizenz oder aufgrund der Nutzung oder Unfähigkeit zur Nutzung der Arbeit entstehen (einschließlich, aber nicht beschränkt auf Schäden aufgrund von Verlust des Firmenwerts, Arbeitsausfall, Computerfehler oder Fehlfunktion oder jeglichen anderen kommerziellen Schäden oder Verlusten), auch wenn dieser Mitwirkende auf die Möglichkeit solcher Schäden hingewiesen wurde.
+   8. Limitation of Liability. In keinem Fall und ohne rechtstheoretische Hinweise, sei es in Form von Unerlaubtem (einschließlich Fahrlässigkeit), Vertrag oder anderweitig, es sei denn, dies ist nach geltendem Recht erforderlich (z. B. absichtliche und grobe Handlungen) oder schriftlich vereinbart, hafte jeder Mitwirkende Ihnen gegenüber für Schäden, einschließlich direkter, indirekter, spezieller, zufälliger oder Folgeschäden jeglicher Art, die als Ergebnis dieser Lizenz oder aufgrund der Nutzung oder Unfähigkeit zur Nutzung der Arbeit entstehen (einschließlich, aber nicht beschränkt auf Schäden aufgrund von Verlust des Firmenwerts, Arbeitsausfall, Computerfehler oder Fehlfunktion oder jeglichen anderen kommerziellen Schäden oder Verlusten), auch wenn dieser Mitwirkende auf die Möglichkeit solcher Schäden hingewiesen wurde.
 
    9. Akzeptieren von Garantie oder zusätzlicher Haftung. Während sie die Arbeit oder die abgeleiteten Arbeiten weitervertreiben, können Sie die Annahme des Supports, der Garantie, der Freistellung oder anderer Haftungsverpflichtungen und/oder Rechte, die mit dieser Lizenz in Einklang stehen, anbieten und eine Gebühr berechnen. Wenn Sie solche Verpflichtungen akzeptieren, dürfen Sie jedoch nur in Ihrem eigenen Namen und in Ihrer alleinigen Verantwortung handeln, nicht im Namen eines anderen Mitwirkenden, und nur, wenn Sie zustimmen, jeden Mitwirkenden für jegliche Haftung, die durch einen solchen Mitwirkenden entsteht, oder ansprüche, die gegen diesen Mitwirkenden entstehen, schadlos zu halten, indem Sie eine solche Garantie oder zusätzliche Haftung akzeptieren.
 
@@ -17568,7 +17567,7 @@ DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜC
 
    ANHANG: Anwenden der Apache-Lizenz auf Ihre Arbeit.
 
-      Um die Apache-Lizenz auf Ihre Arbeit anzuwenden, fügen Sie den folgenden Textbausteinhinweis an, wobei die Felder durch die Klammern {} " " durch Ihre eigenen identifizierenden Informationen ersetzt werden. (Schließen Sie die Klammern nicht ein!)  Der Text sollte in die entsprechende Kommentarsyntax für das Dateiformat eingeschlossen werden. Es wird außerdem empfohlen, einen Datei- oder Klassennamen und eine Beschreibung des Zwecks auf derselben "gedruckten Seite" wie der Urheberrechtshinweis für eine einfachere Identifizierung in Archiven von Drittanbietern aufzunehmen.
+      Um die Apache-Lizenz auf Ihre Arbeit anzuwenden, fügen Sie den folgenden Textbausteinhinweis an, wobei die Felder durch Klammern {} " " durch Ihre eigenen identifizierenden Informationen ersetzt werden. (Schließen Sie die Klammern nicht ein!)  Der Text sollte in die entsprechende Kommentarsyntax für das Dateiformat eingeschlossen werden. Es wird außerdem empfohlen, einen Datei- oder Klassennamen und eine Beschreibung des Zwecks auf derselben "gedruckten Seite" wie der Urheberrechtshinweis für eine einfachere Identifizierung in Archiven von Drittanbietern aufzunehmen.
 
    Copyright 2015 AJ ONeal
 
@@ -17668,14 +17667,14 @@ DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜC
 
       Sie können Ihre eigenen Urheberrechtsbestimmungen zu Ihren Änderungen hinzufügen und zusätzliche oder unterschiedliche Lizenzbedingungen für die Verwendung, Wiederverwendung oder Verteilung Ihrer Änderungen oder für alle derartigen abgeleiteten Arbeiten als Ganzes bereitstellen, sofern Ihre Nutzung, Vermehrung und Verteilung des Werks andernfalls den in dieser Lizenz angegebenen Bedingungen entspricht.
 
-   5. Übermittlung von Beiträgen. Sofern Sie nichts anderes ausdrücklich angeben, gelten alle beiträge, die sie absichtlich zur Aufnahme in die Arbeit von Ihnen an den Licensor übermittelt haben, unter den Bedingungen dieser Lizenz, ohne dass zusätzliche Bedingungen gelten.
-      Ungeachtet der oben genannten Bestimmungen ersetzt oder ändert nichts die Bedingungen eines separaten Lizenzvertrags, den Sie möglicherweise mit dem Licensor in Bezug auf solche Beiträge ausgeführt haben.
+   5. Übermittlung von Beiträgen. Sofern Sie nichts anderes ausdrücklich angeben, gelten alle Beiträge, die sie absichtlich zur Aufnahme in die Arbeit von Ihnen an den Licensor übermittelt haben, unter den Bedingungen dieser Lizenz, ohne dass zusätzliche Bedingungen gelten.
+      Ungeachtet der oben genannten Bestimmungen ersetzt oder ändert nichts die Bedingungen eines separaten Lizenzvertrags, den Sie möglicherweise mit dem Licensor bezüglich solcher Beiträge ausgeführt haben.
 
    6. Marken. Diese Lizenz gewährt keine Berechtigung zur Verwendung der Handelsnamen, Marken, Dienstmarken oder Produktnamen des Licensors, es sei denn, dies ist für eine angemessene und übliche Verwendung erforderlich, um den Ursprung des Auftrags zu beschreiben und den Inhalt der NOTICE-Datei zu reproduzieren.
 
-   7. Haftungsausschluss. Sofern nicht nach geltendem Recht erforderlich oder schriftlich zugestimmt, stellt der Licensor die Arbeit (und jeder Mitwirkende stellt seine Beiträge bereit) "WIE BESEHEN", OHNE GEWÄHRLEISTUNGEN ODER BEDINGUNGEN JEGLICHEr Art, entweder ausdrücklich oder konkludent, einschließlich, ohne Einschränkung, jegliche Gewährleistungen oder Bedingungen des TITELs, NICHTVERLETZUNG, HANDELSÜBLICHKEIT oder EIGNUNG FÜR EINEN BESTIMMTEN ZWECK. Sie sind allein dafür verantwortlich, die Geeignetheit der Verwendung oder Verteilung der Arbeit zu bestimmen und alle Risiken im Zusammenhang mit Ihrer Ausübung von Berechtigungen unter dieser Lizenz zu übernehmen.
+   7. Haftungsausschluss. Sofern nicht nach geltendem Recht erforderlich oder schriftlich zugestimmt, stellt der Licensor die Arbeit (und jeder Mitwirkende stellt seine Beiträge bereit) "WIE BESEHEN", OHNE GEWÄHRLEISTUNGEN ODER BEDINGUNGEN JEGLICHEr Art, entweder ausdrücklich oder konkludent, einschließlich, ohne Einschränkung, garantien oder Bedingungen des TITELs, NICHTVERLETZUNG, HANDELSÜBLICHKEIT oder EIGNUNG FÜR EINEN BESTIMMTEN ZWECK. Sie sind allein dafür verantwortlich, die Geeignetheit der Verwendung oder Verteilung der Arbeit zu bestimmen und alle Risiken im Zusammenhang mit Ihrer Ausübung von Berechtigungen unter dieser Lizenz zu übernehmen.
 
-   8. Limitation of Liability. In keinem Fall und ohne rechtstheoretische Hinweise, sei es in Form von Unerlaubtem (einschließlich Fahrlässigkeit), Vertrag oder anderweitig, es sei denn, dies ist nach geltendem Recht erforderlich (z. B. absichtliche und grobe Handlungen) oder schriftlich vereinbart, hafte jedem Mitwirkenden für Schäden, einschließlich direkter, indirekter, spezieller, zufälliger oder Folgeschäden jeglicher Art, die als Ergebnis dieser Lizenz oder aufgrund der Nutzung oder Unfähigkeit zur Nutzung der Arbeit entstehen (einschließlich, aber nicht beschränkt auf Schäden aufgrund von Verlust des Firmenwerts, Arbeitsausfall, Computerfehler oder Fehlfunktion oder jeglichen anderen kommerziellen Schäden oder Verlusten), auch wenn dieser Mitwirkende auf die Möglichkeit solcher Schäden hingewiesen wurde.
+   8. Limitation of Liability. In keinem Fall und ohne rechtstheoretische Hinweise, sei es in Form von Unerlaubtem (einschließlich Fahrlässigkeit), Vertrag oder anderweitig, es sei denn, dies ist nach geltendem Recht erforderlich (z. B. absichtliche und grobe Handlungen) oder schriftlich vereinbart, hafte jeder Mitwirkende Ihnen gegenüber für Schäden, einschließlich direkter, indirekter, spezieller, zufälliger oder Folgeschäden jeglicher Art, die als Ergebnis dieser Lizenz oder aufgrund der Nutzung oder Unfähigkeit zur Nutzung der Arbeit entstehen (einschließlich, aber nicht beschränkt auf Schäden aufgrund von Verlust des Firmenwerts, Arbeitsausfall, Computerfehler oder Fehlfunktion oder jeglichen anderen kommerziellen Schäden oder Verlusten), auch wenn dieser Mitwirkende auf die Möglichkeit solcher Schäden hingewiesen wurde.
 
    9. Akzeptieren von Garantie oder zusätzlicher Haftung. Während sie die Arbeit oder die abgeleiteten Arbeiten weitervertreiben, können Sie die Annahme des Supports, der Garantie, der Freistellung oder anderer Haftungsverpflichtungen und/oder Rechte, die mit dieser Lizenz in Einklang stehen, anbieten und eine Gebühr berechnen. Wenn Sie solche Verpflichtungen akzeptieren, dürfen Sie jedoch nur in Ihrem eigenen Namen und in Ihrer alleinigen Verantwortung handeln, nicht im Namen eines anderen Mitwirkenden, und nur, wenn Sie zustimmen, jeden Mitwirkenden für jegliche Haftung, die durch einen solchen Mitwirkenden entsteht, oder ansprüche, die gegen diesen Mitwirkenden entstehen, schadlos zu halten, indem Sie eine solche Garantie oder zusätzliche Haftung akzeptieren.
 

@@ -1,50 +1,50 @@
 ---
-title: E-Mail der Bilder eines Excel Und Tabelle
-description: Erfahren Sie, wie Sie Office Skripts und Power Automate verwenden, um die Bilder eines Diagramms und einer Tabelle Excel zu extrahieren und per E-Mail zu senden.
+title: Senden einer E-Mail an die Bilder eines Excel Diagramms und einer Tabelle
+description: Erfahren Sie, wie Sie Office Skripts und Power Automate verwenden, um die Bilder eines Excel Diagramms und einer Tabelle zu extrahieren und per E-Mail zu senden.
 ms.date: 05/06/2021
 localization_priority: Normal
-ms.openlocfilehash: 54b6b67a0f211f2dc6c881bab17ff23220619e6e
-ms.sourcegitcommit: 4687693f02fc90a57ba30c461f35046e02e6f5fb
+ms.openlocfilehash: 5eb20025462614d62774ae6c088bdf397dcfb39d
+ms.sourcegitcommit: 4693c8f79428ec74695328275703af0ba1bfea8f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52545776"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53074592"
 ---
-# <a name="use-office-scripts-and-power-automate-to-email-images-of-a-chart-and-table"></a>Verwenden Office Skripts und Power Automate, um Bilder eines Diagramms und einer Tabelle per E-Mail zu senden
+# <a name="use-office-scripts-and-power-automate-to-email-images-of-a-chart-and-table"></a>Verwenden von Office Skripts und Power Automate zum Senden von E-Mail-Bildern eines Diagramms und einer Tabelle
 
-In diesem Beispiel werden Office Skripts und Power Automate zum Erstellen eines Diagramms verwendet. Anschließend werden Bilder des Diagramms und seiner Basistabelle per E-Mail gesendet.
+In diesem Beispiel werden Office Skripts und Power Automate zum Erstellen eines Diagramms verwendet. Anschließend werden Bilder des Diagramms und seiner Basistabelle e-Mails gesendet.
 
 ## <a name="example-scenario"></a>Beispielszenario
 
 * Berechnen Sie, um die neuesten Ergebnisse zu erhalten.
 * Diagramm erstellen.
-* Get chart and table images.
-* Senden Sie die Bilder per E-Mail Power Automate.
+* Abrufen von Diagramm- und Tabellenbildern.
+* Senden Sie eine E-Mail an die Bilder mit Power Automate.
 
 _Eingabedaten_
 
-:::image type="content" source="../../images/input-data.png" alt-text="Ein Arbeitsblatt mit einer Tabelle mit Eingabedaten":::
+:::image type="content" source="../../images/input-data.png" alt-text="Ein Arbeitsblatt mit einer Tabelle mit Eingabedaten.":::
 
 _Ausgabediagramm_
 
-:::image type="content" source="../../images/chart-created.png" alt-text="Das vom Kunden erstellte Spaltendiagramm mit dem fälligen Betrag":::
+:::image type="content" source="../../images/chart-created.png" alt-text="Das vom Kunden erstellte Säulendiagramm mit dem vom Kunden fälligen Betrag.":::
 
-_E-Mails, die über den Power Automate empfangen wurden_
+_E-Mail, die über Power Automate Fluss empfangen wurde_
 
-:::image type="content" source="../../images/email-received.png" alt-text="Die vom Fluss gesendete E-Mail mit dem Excel, das in den Textkörper eingebettet ist":::
+:::image type="content" source="../../images/email-received.png" alt-text="Die vom Fluss gesendete E-Mail mit dem Excel diagramm, das in den Textkörper eingebettet ist.":::
 
 ## <a name="solution"></a>Lösung
 
-Diese Lösung besteht aus zwei Teilen:
+Diese Lösung umfasst zwei Teile:
 
-1. [Ein Office Skript zum Berechnen und Extrahieren Excel Diagramms und der Tabelle](#sample-code-calculate-and-extract-excel-chart-and-table)
-1. Ein Power Automate zum Aufrufen des Skripts und zum Senden der Ergebnisse per E-Mail. Ein Beispiel dazu finden Sie unter Erstellen eines automatisierten [Workflows mit Power Automate](../../tutorials/excel-power-automate-returns.md#create-an-automated-workflow-with-power-automate).
+1. [Ein Office-Skript zum Berechnen und Extrahieren Excel Diagramms und der Tabelle](#sample-code-calculate-and-extract-excel-chart-and-table)
+1. Ein Power Automate Fluss, um das Skript aufzurufen und die Ergebnisse per E-Mail zu senden. Ein Beispiel dazu finden Sie unter [Erstellen eines automatisierten Workflows mit Power Automate.](../../tutorials/excel-power-automate-returns.md#create-an-automated-workflow-with-power-automate)
 
-## <a name="sample-code-calculate-and-extract-excel-chart-and-table"></a>Beispielcode: Berechnen und Extrahieren Excel Diagramm und Tabelle
+## <a name="sample-code-calculate-and-extract-excel-chart-and-table"></a>Beispielcode: Berechnen und Extrahieren Excel Diagramms und der Tabelle
 
-Das folgende Skript berechnet und extrahiert ein Excel Und Tabelle.
+Das folgende Skript berechnet und extrahiert ein Excel Diagramm und eine Tabelle.
 
-Laden Sie die Beispieldatei <a href="email-chart-table.xlsx">email-chart-table.xlsx</a> und verwenden Sie sie mit diesem Skript, um sie selbst auszuprobieren!
+Laden Sie die Beispieldatei <a href="email-chart-table.xlsx">email-chart-table.xlsx</a> herunter, und verwenden Sie sie mit diesem Skript, um sie selbst auszuprobieren!
 
 ```TypeScript
 function main(workbook: ExcelScript.Workbook): ReportImages {
@@ -89,23 +89,23 @@ interface ReportImages {
 }
 ```
 
-## <a name="power-automate-flow-email-the-chart-and-table-images"></a>Power Automate: E-Mail-E-Mail des Diagramms und der Tabellenbilder
+## <a name="power-automate-flow-email-the-chart-and-table-images"></a>Power Automate Fluss: Senden einer E-Mail an diagramm- und tabellenbilder
 
-In diesem Fluss wird das Skript ausgeführt und die zurückgegebenen Bilder per E-Mail gesendet.
+Dieser Fluss führt das Skript aus und sendet eine E-Mail an die zurückgegebenen Bilder.
 
-1. Erstellen Sie einen neuen **Instant Cloud Flow**.
-1. Wählen **Sie Manuellen Fluss auslösen aus,** und drücken Sie **die Create -Taste.**
-1. Fügen Sie einen **neuen Schritt** hinzu, der den Excel **Online (Business)-Connector** mit der **Skriptaktion Ausführen** verwendet. Verwenden Sie die folgenden Werte für die Aktion:
+1. Erstellen Sie einen neuen **Instant Cloud Flow.**
+1. Wählen Sie **manuell einen Fluss auslösen** und erstellen drücken. 
+1. Fügen Sie einen **neuen Schritt** hinzu, der den connector Excel **Online (Business)** mit der **Skriptaktion ausführen** verwendet. Verwenden Sie die folgenden Werte für die Aktion:
     * **Location**: OneDrive for Business
     * **Document Library**: OneDrive
-    * **Datei**: Ihre Arbeitsmappe ([ausgewählt mit der Datei-Auswahl](../../testing/power-automate-troubleshooting.md#select-workbooks-with-the-file-browser-control))
-    * **Skript**: Ihr Skriptname
+    * **Datei:** Ihre Arbeitsmappe ([ausgewählt mit der Dateiauswahl](../../testing/power-automate-troubleshooting.md#select-workbooks-with-the-file-browser-control))
+    * **Skript:** Ihr Skriptname
 
-    :::image type="content" source="../../images/email-chart-sample-flow-1.png" alt-text="Der abgeschlossene Excel Online (Business)-Connector in Power Automate":::
-1. In diesem Beispiel wird Outlook als E-Mail-Client verwendet. Sie können beliebige E-Mail-Power Automate verwenden, aber bei den restlichen Schritten wird davon ausgegangen, dass Sie Outlook. Fügen Sie einen **Neuen Schritt hinzu,** der den **Office 365 Outlook** und die Aktion Senden **und E-Mail (V2)** verwendet. Verwenden Sie die folgenden Werte für die Aktion:
-    * **An**: Ihr Test-E-Mail-Konto (oder persönliche E-Mail)
-    * **Betreff**: Please Review Report Data
-    * Wählen Sie **für das Feld Text** die Option "Codeansicht" ( ) `</>` aus, und geben Sie Folgendes ein:
+    :::image type="content" source="../../images/email-chart-sample-flow-1.png" alt-text="Der fertige Excel Online (Business)-Connector in Power Automate.":::
+1. In diesem Beispiel wird Outlook als E-Mail-Client verwendet. Sie können einen beliebigen E-Mail-Connector verwenden, der Power Automate unterstützt. Bei den restlichen Schritten wird jedoch davon ausgegangen, dass Sie Outlook ausgewählt haben. Fügen Sie einen **neuen Schritt** hinzu, der den **Office 365 Outlook** Connector und die Aktion **"Senden und E-Mail(V2)"** verwendet. Verwenden Sie die folgenden Werte für die Aktion:
+    * **An:** Ihr Test-E-Mail-Konto (oder persönliche E-Mail)
+    * **Betreff:** Bitte überprüfen Sie die Berichtsdaten
+    * Wählen Sie für das Feld **"Text"** die Option "Codeansicht" ( `</>` ) aus, und geben Sie Folgendes ein:
 
     ```HTML
     <p>Please review the following report data:<br>
@@ -121,9 +121,9 @@ In diesem Fluss wird das Skript ausgeführt und die zurückgegebenen Bilder per 
     </p>
     ```
 
-    :::image type="content" source="../../images/email-chart-sample-flow-2.png" alt-text="Der fertige Office 365 Outlook in Power Automate":::
-1. Speichern Sie den Fluss, und testen Sie ihn.
+    :::image type="content" source="../../images/email-chart-sample-flow-2.png" alt-text="Der fertige Office 365 Outlook-Connector in Power Automate.":::
+1. Speichern Sie den Flow, und testen Sie ihn.
 
-## <a name="training-video-extract-and-email-images-of-chart-and-table"></a>Schulungsvideo: Extrahieren und E-Mail-Bilder von Diagramm und Tabelle
+## <a name="training-video-extract-and-email-images-of-chart-and-table"></a>Schulungsvideo: Extrahieren und E-Mail-Bilder von Diagrammen und Tabellen
 
-[Sehen Sie sich an, wie Sudhi Ramamurthy dieses Beispiel auf YouTube durchspazieren.](https://youtu.be/152GJyqc-Kw)
+[Sehen Sie sich dieses Beispiel auf YouTube an.](https://youtu.be/152GJyqc-Kw)

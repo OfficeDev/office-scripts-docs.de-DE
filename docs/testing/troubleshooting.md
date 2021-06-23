@@ -1,37 +1,37 @@
 ---
-title: Problembehandlung Office Skripts
-description: Debuggen von Tipps und Techniken für Office Skripts sowie Hilferessourcen.
+title: Problembehandlung bei Office Skripts
+description: Debugtipps und -techniken für Office Skripts sowie Hilferessourcen.
 ms.date: 05/17/2021
 localization_priority: Normal
-ms.openlocfilehash: 04ea0ea5d49d40667d249a6f4f4b109e03362940
-ms.sourcegitcommit: 09d8859d5269ada8f1d0e141f6b5a4f96d95a739
+ms.openlocfilehash: 251ad72588422a86c52c81666164c2c4bd79bdb5
+ms.sourcegitcommit: 4693c8f79428ec74695328275703af0ba1bfea8f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52631702"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53074648"
 ---
-# <a name="troubleshoot-office-scripts"></a>Problembehandlung Office Skripts
+# <a name="troubleshoot-office-scripts"></a>Problembehandlung bei Office Skripts
 
-Wenn Sie skripts Office entwickeln, können Sie Fehler machen. Das ist okay. Sie verfügen über die Tools, um die Probleme zu finden und die Skripts optimal zu funktionieren.
+Wenn Sie Office Skripts entwickeln, machen Sie möglicherweise Fehler. Das ist okay. Sie verfügen über die Tools, mit denen Sie die Probleme finden und Ihre Skripts einwandfrei funktionieren können.
 
 ## <a name="types-of-errors"></a>Fehlertypen
 
-Office Skriptfehler fallen in eine von zwei Kategorien:
+Office Skriptfehler werden in eine von zwei Kategorien unterteilt:
 
-* Kompilierungszeitfehler oder -warnungen
+* Kompilierungszeitfehler oder Warnungen
 * Laufzeitfehler
 
 ### <a name="compile-time-errors"></a>Kompilierungszeitfehler
 
-Kompilierungsfehler und Warnungen werden zunächst im Code-Editor angezeigt. Diese werden durch die wellenförmigen roten Unterstreichungen im Editor angezeigt. Sie werden auch unten  im Aufgabenbereich des Code-Editors unter der Registerkarte Probleme angezeigt. Wenn Sie den Fehler auswählen, erhalten Sie weitere Details zum Problem und schlagen Lösungen vor. Kompilierungsfehler sollten vor dem Ausführen des Skripts behoben werden.
+Fehler und Warnungen zur Kompilierungszeit werden zunächst im Code-Editor angezeigt. Diese werden von den wellenförmigen roten Unterstreichungen im Editor angezeigt. Sie werden auch unter der Registerkarte **"Probleme"** am unteren Rand des Code-Editor-Aufgabenbereichs angezeigt. Wenn Sie den Fehler auswählen, erhalten Sie weitere Details zu dem Problem und schlagen Lösungen vor. Kompilierungszeitfehler sollten behoben werden, bevor das Skript ausgeführt wird.
 
-:::image type="content" source="../images/explicit-any-editor-message.png" alt-text="Ein Compilerfehler, der im #A0 angezeigt wird":::
+:::image type="content" source="../images/explicit-any-editor-message.png" alt-text="Ein Compilerfehler, der im Hovertext des Code-Editors angezeigt wird.":::
 
-Möglicherweise werden auch orangefarbene Warnmeldungen und graue Informationsmeldungen angezeigt. Diese zeigen Leistungsvorschläge oder andere Möglichkeiten an, bei denen das Skript unbeabsichtigte Auswirkungen haben kann. Solche Warnungen sollten vor dem Schließen genau geprüft werden.
+Möglicherweise werden auch orangefarbene Warnhinweise und graue Informationsmeldungen angezeigt. Diese deuten auf Leistungsvorschläge oder andere Möglichkeiten hin, bei denen das Skript unbeabsichtigte Effekte haben kann. Solche Warnungen sollten sorgfältig geprüft werden, bevor sie geschlossen werden.
 
 ### <a name="runtime-errors"></a>Laufzeitfehler
 
-Laufzeitfehler können aufgrund von Logikproblemen im Skript auftreten. Dies kann daran liegen, dass sich ein im Skript verwendetes Objekt nicht in der Arbeitsmappe befindet, eine Tabelle anders formatiert ist als erwartet oder eine andere geringfügige Diskrepanz zwischen den Anforderungen des Skripts und der aktuellen Arbeitsmappe besteht. Das folgende Skript generiert einen Fehler, wenn ein Arbeitsblatt mit dem Namen "TestSheet" nicht vorhanden ist.
+Laufzeitfehler treten aufgrund von Logikproblemen im Skript auf. Dies kann darauf zurückzuführen sein, dass sich ein im Skript verwendetes Objekt nicht in der Arbeitsmappe befindet, eine Tabelle anders formatiert ist als erwartet, oder eine andere geringfügige Abweichung zwischen den Anforderungen des Skripts und der aktuellen Arbeitsmappe. Das folgende Skript generiert einen Fehler, wenn kein Arbeitsblatt mit dem Namen "TestSheet" vorhanden ist.
 
 ```TypeScript
 function main(workbook: ExcelScript.Workbook) {
@@ -42,58 +42,58 @@ function main(workbook: ExcelScript.Workbook) {
 }
 ```
 
-### <a name="console-messages"></a>Konsolennachrichten
+### <a name="console-messages"></a>Konsolenmeldungen
 
-Sowohl Kompilierungszeit- als auch Laufzeitfehler zeigen Fehlermeldungen in der Konsole an, wenn ein Skript ausgeführt wird. Sie geben eine Zeilennummer, in der das Problem aufgetreten ist. Denken Sie daran, dass die Hauptursache eines Problems möglicherweise eine andere Codezeile als die in der Konsole angegebenen ist.
+Bei Kompilierungs- und Laufzeitfehlern werden Fehlermeldungen in der Konsole angezeigt, wenn ein Skript ausgeführt wird. Sie geben eine Zeilennummer an, in der das Problem aufgetreten ist. Beachten Sie, dass die Ursache eines Problems möglicherweise eine andere Codezeile als die in der Konsole angegebene ist.
 
-Die folgende Abbildung zeigt die Konsolenausgabe für den [expliziten `any` Compilerfehler.](../develop/typescript-restrictions.md) Notieren Sie sich `[5, 16]` den Text am Anfang der Fehlerzeichenfolge. Dies gibt an, dass sich der Fehler in Zeile 5 befindet, beginnend mit Zeichen 16.
-:::image type="content" source="../images/explicit-any-error-message.png" alt-text="Die Code-Editor-Konsole, in der eine explizite Fehlermeldung &quot;any&quot; angezeigt wird":::
+Die folgende Abbildung zeigt die Konsolenausgabe für den [expliziten `any` ](../develop/typescript-restrictions.md) Compilerfehler. Notieren Sie sich den Text `[5, 16]` am Anfang der Fehlerzeichenfolge. Dies weist darauf hin, dass sich der Fehler in Zeile 5 befindet, beginnend mit Zeichen 16.
+:::image type="content" source="../images/explicit-any-error-message.png" alt-text="In der Code-Editor-Konsole wird eine explizite Any-Fehlermeldung angezeigt.":::
 
-In der folgenden Abbildung wird die Konsolenausgabe für einen Laufzeitfehler angezeigt. Hier versucht das Skript, ein Arbeitsblatt mit dem Namen eines vorhandenen Arbeitsblatts hinzuzufügen. Notieren Sie sich erneut die Zeile 2 vor dem Fehler, um zu zeigen, welche Zeile untersucht werden soll.
-:::image type="content" source="../images/runtime-error-console.png" alt-text="Die Code-Editor-Konsole, in der ein Fehler aus dem Aufruf &quot;addWorksheet&quot; angezeigt wird":::
+Die folgende Abbildung zeigt die Konsolenausgabe für einen Laufzeitfehler. Hier versucht das Skript, ein Arbeitsblatt mit dem Namen eines vorhandenen Arbeitsblatts hinzuzufügen. Beachten Sie erneut die "Zeile 2" vor dem Fehler, um anzuzeigen, welche Zeile untersucht werden soll.
+:::image type="content" source="../images/runtime-error-console.png" alt-text="In der Code-Editor-Konsole wird ein Fehler aus dem Aufruf von &quot;addWorksheet&quot; angezeigt.":::
 
 ## <a name="console-logs"></a>Konsolenprotokolle
 
-Drucken von Nachrichten auf dem Bildschirm mit der `console.log` Anweisung. In diesen Protokollen können Sie den aktuellen Wert von Variablen oder die Codepfade anzeigen, die ausgelöst werden. Rufen Sie dazu ein `console.log` beliebiges Objekt als Parameter auf. In der Regel `string` ist a der einfachste Typ, der in der Konsole gelesen werden kann.
+Drucken Sie Nachrichten mit der Anweisung auf dem `console.log` Bildschirm. In diesen Protokollen können Sie den aktuellen Wert von Variablen anzeigen oder welche Codepfade ausgelöst werden. Rufen Sie dazu `console.log` ein beliebiges Objekt als Parameter auf. In der Regel ist a `string` der einfachste Typ, der in der Konsole gelesen werden kann.
 
 ```TypeScript
 console.log("Logging myRange's address.");
 console.log(myRange.getAddress());
 ```
 
-An übergebene Zeichenfolgen werden in der Protokollierungskonsole des Code-Editors am unteren Rand `console.log` des Aufgabenbereichs angezeigt. Protokolle werden auf der Registerkarte **Ausgabe** gefunden, die Registerkarte erhält jedoch automatisch den Fokus, wenn ein Protokoll geschrieben wird.
+Übergebene Zeichenfolgen `console.log` werden in der Protokollierungskonsole des Code-Editors am unteren Rand des Aufgabenbereichs angezeigt. Protokolle werden auf der Registerkarte **"Ausgabe"** gefunden, obwohl die Registerkarte automatisch den Fokus erhält, wenn ein Protokoll geschrieben wird.
 
 Protokolle wirken sich nicht auf die Arbeitsmappe aus.
 
-## <a name="automate-tab-not-appearing-or-office-scripts-unavailable"></a>Automatisieren der Registerkarte nicht angezeigt oder Office Skripts nicht verfügbar
+## <a name="automate-tab-not-appearing-or-office-scripts-unavailable"></a>Registerkarte "Automatisieren" wird nicht angezeigt, oder Office Skripts nicht verfügbar
 
-Die folgenden Schritte sollten bei der Problembehandlung bei Problemen im Zusammenhang mit der Registerkarte **Automatisieren** helfen, die nicht in der Excel im Web.
+Die folgenden Schritte sollten ihnen helfen, Probleme im Zusammenhang mit der Registerkarte **"Automatisieren"** zu beheben, die nicht in Excel im Web angezeigt wird.
 
-1. [Stellen Sie sicher, Microsoft 365 Ihre Lizenz skripts Office enthält.](../overview/excel.md#requirements)
+1. [Stellen Sie sicher, dass Ihre Microsoft 365-Lizenz Office Skripts enthält.](../overview/excel.md#requirements)
 1. [Überprüfen Sie, ob Ihr Browser unterstützt wird.](platform-limits.md#browser-support)
 1. [Stellen Sie sicher, dass Cookies von Drittanbietern aktiviert sind.](platform-limits.md#third-party-cookies)
-1. [Stellen Sie sicher, dass Ihr Administrator die Skripts im Office Admin Center Microsoft 365 deaktiviert hat.](/microsoft-365/admin/manage/manage-office-scripts-settings)
+1. [Stellen Sie sicher, dass Ihr Administrator Office Skripts im Microsoft 365 Admin Center nicht deaktiviert hat.](/microsoft-365/admin/manage/manage-office-scripts-settings)
 
 [!INCLUDE [Teams support note](../includes/teams-support-note.md)]
 
-## <a name="troubleshoot-scripts-in-power-automate"></a>Behandeln von Skripts in Power Automate
+## <a name="troubleshoot-scripts-in-power-automate"></a>Problembehandlung bei Skripts in Power Automate
 
-Informationen zum Ausführen von Skripts über Power Automate finden Sie unter [Troubleshoot Office Scripts running in Power Automate](power-automate-troubleshooting.md).
+Informationen zum Ausführen von Skripts über Power Automate finden Sie unter [Problembehandlung bei Office Skripts,](power-automate-troubleshooting.md)die in Power Automate ausgeführt werden.
 
 ## <a name="help-resources"></a>Hilferessourcen
 
-[Stack Overflow](https://stackoverflow.com/questions/tagged/office-scripts) ist eine Community von Entwicklern, die bei Codierungsproblemen helfen. Häufig können Sie die Lösung für Ihr Problem über eine schnelle Stack Overflow-Suche finden. Wenn nicht, stellen Sie Ihre Frage, und markieren Sie sie mit dem Tag "office-scripts". Achten Sie darauf, zu erwähnen, dass Sie ein *Office-Skript* erstellen, nicht ein *Office-Add-In .*
+[Stack Overflow](https://stackoverflow.com/questions/tagged/office-scripts) ist eine Community von Entwicklern, die bei Codierungsproblemen helfen möchten. Häufig können Sie die Lösung für Ihr Problem mithilfe einer schnellen Stack Overflow-Suche finden. Wenn nicht, stellen Sie Ihre Frage, und markieren Sie sie mit dem Tag "office-scripts". Erwähnen Sie unbedingt, dass Sie ein Office *Skript* erstellen, nicht ein *Office-Add-In.*
 
-Wenn Sie eine Featureanforderung für Office Skripts übermitteln möchten, posten Sie Ihre Idee auf unserer [User Voice-Seite,](https://excel.uservoice.com/forums/274580-excel-for-the-web?category_id=143439)oder wenn die Featureanforderung bereits vorhanden ist, fügen Sie Ihre Stimme dafür hinzu. Stellen Sie sicher, dass Sie die Anforderung unter Excel für das Web in der Kategorie "Makros, Skripts und Add-Ins" speichern.
+Um eine Featureanforderung für Office Skripts zu übermitteln, veröffentlichen Sie Ihre Idee auf unserer [User Voice-Seite,](https://excel.uservoice.com/forums/274580-excel-for-the-web?category_id=143439)oder wenn die Featureanforderung bereits vorhanden ist, fügen Sie Ihre Stimme dafür hinzu. Stellen Sie sicher, dass Sie die Anforderung unter Excel für das Web in der Kategorie "Makros, Skripts und Add-Ins" ablegen.
 
-Wenn ein Problem mit der Aktionsaufzeichnung oder dem Editor vor liegt, teilen Sie uns dies bitte mit. Wählen Sie im Menü Code-Editor-Aufgabenbereich **...** die **Schaltfläche** Feedback senden aus, um Probleme zu teilen.
+Wenn ein Problem mit dem Action Recorder oder Editor vorliegt, teilen Sie uns dies bitte mit. Wählen Sie im Aufgabenbereich des Code-Editors **im Menü ...** die Schaltfläche **"Feedback senden"** aus, um Probleme zu teilen.
 
-:::image type="content" source="../images/code-editor-feedback.png" alt-text="Das Überlaufmenü des Code-Editors mit der Schaltfläche &quot;Feedback senden&quot;":::
+:::image type="content" source="../images/code-editor-feedback.png" alt-text="Das Code-Editor-Überlaufmenü mit der Schaltfläche &quot;Feedback senden&quot;.":::
 
-## <a name="see-also"></a>Sehen Sie ebenfalls
+## <a name="see-also"></a>Siehe auch
 
 - [Bewährte Methoden in Office-Skripts](../develop/best-practices.md)
 - [Plattformbeschränkungen mit Office Skripts](platform-limits.md)
-- [Verbessern der Leistung Ihrer Office Skripts](../develop/web-client-performance.md)
-- [Problembehandlung Office in PowerAutomate ausgeführten Skripts](power-automate-troubleshooting.md)
+- [Verbessern der Leistung Ihrer Office-Skripts](../develop/web-client-performance.md)
+- [Problembehandlung bei Office Skripts, die in PowerAutomate ausgeführt werden](power-automate-troubleshooting.md)
 - [Auswirkungen von Office-Skripts rückgängig machen](undo.md)
