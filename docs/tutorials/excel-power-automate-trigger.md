@@ -3,12 +3,12 @@ title: Übergeben von Daten zu Skripts in einem automatisch ausgeführten Power 
 description: Ein Lernprogramm zum Ausführen von Office-Skripts für Excel im Web mithilfe von Power Automate, wenn E-Mails empfangen und Flussdaten an das Skript übergeben werden.
 ms.date: 12/28/2020
 localization_priority: Priority
-ms.openlocfilehash: 79686eacf4d38bd5db5e082a9bfb73edc969451d
-ms.sourcegitcommit: 4687693f02fc90a57ba30c461f35046e02e6f5fb
+ms.openlocfilehash: b459501a955f337c7a0ad4040c7d7f5d9e344b93
+ms.sourcegitcommit: 4693c8f79428ec74695328275703af0ba1bfea8f
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52545836"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53074683"
 ---
 # <a name="pass-data-to-scripts-in-an-automatically-run-power-automate-flow"></a>Übergeben von Daten zu Skripts in einem automatisch ausgeführten Power Automate-Datenfluss
 
@@ -156,15 +156,15 @@ function main(
 
 2. Klicken Sie in dem Menü, das auf der linken Seite des Bildschirms angezeigt wird, auf **Create**. Damit gelangen Sie zur Liste der Möglichkeiten zum Erstellen neuer Workflows.
 
-    :::image type="content" source="../images/power-automate-tutorial-1.png" alt-text="Die Schaltfläche „Erstellen“ in Power Automate":::
+    :::image type="content" source="../images/power-automate-tutorial-1.png" alt-text="Die Power Automate-Schaltfläche „Erstellen“.":::
 
 3. Wählen Sie im Abschnitt **Start from blank** die Option **Automated flow** aus. Dadurch wird ein Workflow erstellt, der von einem Ereignis ausgelöst wird, z. B. das Empfangen einer E-Mail.
 
-    :::image type="content" source="../images/power-automate-params-tutorial-1.png" alt-text="Die Option für den automatisierten Fluss in Power Automate":::
+    :::image type="content" source="../images/power-automate-params-tutorial-1.png" alt-text="Die Option für den automatisierten Fluss in Power Automate.":::
 
 4. Geben Sie im daraufhin angezeigten Dialogfenster einen Namen für den Fluss im Textfeld **Flow name** ein. Wählen Sie dann **When a new email arrives** aus der Liste der Optionen unter **Choose your flow's trigger** aus. Möglicherweise müssen Sie mithilfe des Suchfelds nach der Option suchen. Klicken Sie abschließend **Create**.
 
-    :::image type="content" source="../images/power-automate-params-tutorial-2.png" alt-text="Ein Teil des Power Automate-Flusses zeigt den ‚Flussnamen‘ und die Optionen zum Auswählen des Triggers für den Fluss. Der Flussname ist ‚E-Mail-Fluss-Datensatz‘, und der Trigger ist die Option ‚Wenn eine neue E-Mail in Outlook eintrifft‘":::
+    :::image type="content" source="../images/power-automate-params-tutorial-2.png" alt-text="Ein Teil des Power Automate-Flusses zeigt den ‚Flussnamen‘ und die Optionen zum Auswählen des Triggers für den Fluss. Der Flussname ist ‚E-Mail-Fluss-Datensatz‘, und der Trigger ist die Option ‚Wenn eine neue E-Mail in Outlook eintrifft‘.":::
 
     > [!NOTE]
     > In diesem Tutorial wird Outlook verwendet. Sie können stattdessen auch Ihren bevorzugten E-Mail-Dienst verwenden, obwohl einige Optionen anders sein können.
@@ -173,11 +173,11 @@ function main(
 
 6. Wählen Sie die Registerkarte **Standard** aus, und wählen Sie dann **Excel Online (Business)** aus.
 
-    :::image type="content" source="../images/power-automate-tutorial-4.png" alt-text="Excel Online (Business)-Option in Power Automate":::
+    :::image type="content" source="../images/power-automate-tutorial-4.png" alt-text="Excel Online (Business)-Option in Power Automate.":::
 
 7. Wählen Sie unter **Aktionen** die Option **Skript ausführen** aus.
 
-    :::image type="content" source="../images/power-automate-tutorial-5.png" alt-text="Aktionsoption „Skript ausführen“ in Power Automate":::
+    :::image type="content" source="../images/power-automate-tutorial-5.png" alt-text="Aktionsoption „Skript ausführen“ in Power Automate.":::
 
 8. Als Nächstes wählen Sie die Arbeitsmappe, das Skript und die Eingabeargumente für das Skript aus, die im Datenfluss-Schritt verwendet werden sollen. In diesem Lernprogramm verwenden Sie die Arbeitsmappe, die Sie in Ihrem OneDrive erstellt haben. Sie könnten jedoch jede beliebige Arbeitsmappe auf einer OneDrive- oder SharePoint-Website verwenden. Geben Sie die folgenden Einstellungen für den Konnektor **Run script** an:
 
@@ -191,7 +191,7 @@ function main(
 
     *Beachten Sie, dass die Parameter für das Skript nur angezeigt werden, wenn das Skript ausgewählt wurde.*
 
-    :::image type="content" source="../images/power-automate-params-tutorial-3.png" alt-text="Die Aktion zum Ausführen eines Skripts in PowerAutomate zeigt die Optionen an, die erscheinen, nachdem das Skript ausgewählt wurde":::
+    :::image type="content" source="../images/power-automate-params-tutorial-3.png" alt-text="Die Aktion zum Ausführen eines Skripts in PowerAutomate zeigt die Optionen an, die erscheinen, nachdem das Skript ausgewählt wurde.":::
 
 9. Klicken Sie auf **Speichern**.
 
@@ -201,13 +201,13 @@ Der Fluss ist nun aktiviert. Er wird das Skript automatisch jedes Mal ausführen
 
 1. Wählen Sie auf der Hauptseite der Power Automate-Seite **My Flows** aus.
 
-    :::image type="content" source="../images/power-automate-tutorial-7.png" alt-text="Die Schaltfläche „Meine Flüsse“ in Power Automate":::
+    :::image type="content" source="../images/power-automate-tutorial-7.png" alt-text="Die Schaltfläche „Meine Flows“ in Power Automate.":::
 
 2. Wählen Sie Ihren Flow aus. Hier sehen Sie den Ausführungsverlauf. Sie können die Seite aktualisieren, oder Sie können auf die Schaltfläche **All runs** klicken, um den Verlauf zu aktualisieren. Der Flow wird kurz nach Empfang einer E-Mail ausgelöst. Testen Sie den Flow durch Senden von E-Mails.
 
 Wenn der Flow ausgelöst und das Skript erfolgreich ausgeführt wird, sollten die Tabelle und die PivotTable der Arbeitsmappe aktualisiert werden.
 
-:::image type="content" source="../images/power-automate-params-tutorial-4.png" alt-text="Ein Arbeitsblatt, auf dem die E-Mail-Tabelle angezeigt wird, nachdem der Fluss dreimal ausgeführt wurde":::
+:::image type="content" source="../images/power-automate-params-tutorial-4.png" alt-text="Ein Arbeitsblatt, auf dem die E-Mail-Tabelle angezeigt wird, nachdem der Fluss dreimal ausgeführt wurde.":::
 
 :::image type="content" source="../images/power-automate-params-tutorial-5.png" alt-text="Ein Arbeitsblatt, auf dem die PivotTable angezeigt wird, nachdem der Fluss dreimal ausgeführt wurde":::
 

@@ -3,12 +3,12 @@ title: Aufrufen von Skripts aus einem manuellen Power Automate-Datenfluss
 description: Ein Lernprogramm zur Verwendung von Office-Skripts in Power Automate durch einen manuellen Auslöser.
 ms.date: 05/17/2021
 localization_priority: Priority
-ms.openlocfilehash: f4feb14f70c43497f40dae3a521353dfee63c082
-ms.sourcegitcommit: 4687693f02fc90a57ba30c461f35046e02e6f5fb
+ms.openlocfilehash: 6da852fd93599753592ea61eef443ef674ead8ef
+ms.sourcegitcommit: 4693c8f79428ec74695328275703af0ba1bfea8f
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52545829"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53074501"
 ---
 # <a name="call-scripts-from-a-manual-power-automate-flow"></a>Aufrufen von Skripts aus einem manuellen Power Automate-Datenfluss
 
@@ -67,15 +67,15 @@ Power Automate sollte für den Zugriff auf Arbeitsmappenkomponenten keine [relat
 
 2. Klicken Sie in dem Menü, das auf der linken Seite des Bildschirms angezeigt wird, auf **Create**. Damit gelangen Sie zur Liste der Möglichkeiten zum Erstellen neuer Workflows.
 
-    :::image type="content" source="../images/power-automate-tutorial-1.png" alt-text="Die Schaltfläche „Erstellen“ in Power Automate":::
+    :::image type="content" source="../images/power-automate-tutorial-1.png" alt-text="Die Schaltfläche „Erstellen“ in Power Automate.":::
 
 3. Wählen Sie im Abschnitt **Start from blank** die Option **Instant flow** aus. Dadurch wird ein manuell aktivierter Workflow erstellt.
 
-    :::image type="content" source="../images/power-automate-tutorial-2.png" alt-text="Die Option „Direktflow“ zum Erstellen eines neuen Workflows in Power Automate":::
+    :::image type="content" source="../images/power-automate-tutorial-2.png" alt-text="Die Option „Direktflow“ zum Erstellen eines neuen Workflows in Power Automate.":::
 
 4. Geben Sie im daraufhin angezeigten Dialogfenster einen Namen für den Flow in das Textfeld **Flow name** ein, wählen Sie in der Liste der Optionen unter **Choose how to trigger the flow** die Option **Manually trigger a flow** aus, und klicken Sie auf **Create**.
 
-    :::image type="content" source="../images/power-automate-tutorial-3.png" alt-text="Die Option „Einen Flow manuell auslösen“ in Power Automate":::
+    :::image type="content" source="../images/power-automate-tutorial-3.png" alt-text="Die Option „Einen Flow manuell auslösen“ in Power Automate.":::
 
     Beachten Sie, dass ein manuell ausgelöster Flow nur einer von vielen Arten von Flows ist. Im nächsten Lernprogramm erstellen Sie einen Flow, der automatisch ausgeführt wird, wenn Sie eine E-Mail erhalten.
 
@@ -83,11 +83,11 @@ Power Automate sollte für den Zugriff auf Arbeitsmappenkomponenten keine [relat
 
 6. Wählen Sie die Registerkarte **Standard** aus, und wählen Sie dann **Excel Online (Business)** aus.
 
-    :::image type="content" source="../images/power-automate-tutorial-4.png" alt-text="Excel Online (Business)-Option in Power Automate":::
+    :::image type="content" source="../images/power-automate-tutorial-4.png" alt-text="Excel Online (Business)-Option in Power Automate.":::
 
 7. Wählen Sie unter **Aktionen** die Option **Skript ausführen** aus.
 
-    :::image type="content" source="../images/power-automate-tutorial-5.png" alt-text="Aktionsoption „Skript ausführen“ in Power Automate":::
+    :::image type="content" source="../images/power-automate-tutorial-5.png" alt-text="Aktionsoption „Skript ausführen“ in Power Automate.":::
 
 8. Als nächstes wählen Sie die Arbeitsmappe und das Skript aus, die im Ablaufschritt verwendet werden sollen. Für das Tutorial verwenden Sie die Arbeitsmappe, die Sie in Ihrem OneDrive erstellt haben. Sie können auch eine beliebige Arbeitsmappe in einer OneDrive- oder SharePoint-Website verwenden. Geben Sie die folgenden Einstellungen für den Konnektor **Run script** an:
 
@@ -96,7 +96,7 @@ Power Automate sollte für den Zugriff auf Arbeitsmappenkomponenten keine [relat
     - **File**: MyWorkbook.xlsx *(Ausgewählt über den Dateibrowser)*
     - **Script**: Datum und Uhrzeit festlegen
 
-    :::image type="content" source="../images/power-automate-tutorial-6.png" alt-text="Die Einstellungen des Power Automate-Connectors zum Ausführen eines Skripts":::
+    :::image type="content" source="../images/power-automate-tutorial-6.png" alt-text="Die Einstellungen des Power Automate-Connectors zum Ausführen eines Skripts.":::
 
 9. Klicken Sie auf **Save**.
 
@@ -106,13 +106,13 @@ Jetzt kann ihr Flow über Power Automate ausgeführt werden. Sie können ihn mit
 
 1. Wählen Sie auf der Hauptseite der Power Automate-Seite **My Flows** aus.
 
-    :::image type="content" source="../images/power-automate-tutorial-7.png" alt-text="Die Schaltfläche „Meine Flows“ in Power Automate":::
+    :::image type="content" source="../images/power-automate-tutorial-7.png" alt-text="Die Schaltfläche „Meine Flows“ in Power Automate.":::
 
 2. Wählen Sie in der Liste der Flows, die auf der Registerkarte **My Flows** angezeigt werden, **Mein Lernprogramm-Flow** aus. Die Details des zuvor erstellten Flows werden angezeigt.
 
 3. Klicken Sie auf **Run**.
 
-    :::image type="content" source="../images/power-automate-tutorial-8.png" alt-text="Schaltfläche „Ausführen“ in Power Automate":::
+    :::image type="content" source="../images/power-automate-tutorial-8.png" alt-text="Schaltfläche „Ausführen“ in Power Automate.":::
 
 4. Für die Ausführung des Flows wird ein Aufgabenbereich angezeigt. Wenn Sie aufgefordert werden, sich bei Excel Online **anzumelden** klicken Sie auf **Continue**.
 
@@ -122,7 +122,7 @@ Jetzt kann ihr Flow über Power Automate ausgeführt werden. Sie können ihn mit
 
 7. Aktualisieren Sie die Seite, um die Ergebnisse von Power Automate anzuzeigen. Wenn der Vorgang erfolgreich war, wechseln Sie zur Arbeitsmappe, um die aktualisierten Zellen anzuzeigen. Falls ein Fehler aufgetreten ist, überprüfen Sie die Einstellungen des Flows, und führen Sie ihn ein zweites Mal aus.
 
-    :::image type="content" source="../images/power-automate-tutorial-9.png" alt-text="Power Automate-Ausgabe mit einer erfolgreichen Ausführung des Flows":::
+    :::image type="content" source="../images/power-automate-tutorial-9.png" alt-text="Power Automate-Ausgabe mit einer erfolgreichen Ausführung des Flows.":::
 
 ## <a name="next-steps"></a>Nächste Schritte
 

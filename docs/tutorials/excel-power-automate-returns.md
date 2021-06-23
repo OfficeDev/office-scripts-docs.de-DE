@@ -3,12 +3,12 @@ title: Zurückgeben von Daten aus einem Skript an einen automatisch ausgeführte
 description: Ein Tutorial, das zeigt, wie Sie Erinnerungs-E-Mails senden, indem Sie Office-Skripts für Excel im Web über Power Automate ausführen.
 ms.date: 12/15/2020
 localization_priority: Priority
-ms.openlocfilehash: e7f1051076bf84cfbbec0fcdd72777766dbcf152
-ms.sourcegitcommit: 4687693f02fc90a57ba30c461f35046e02e6f5fb
+ms.openlocfilehash: 6c1041ede630319f75ccdad453734828eaa8bd3d
+ms.sourcegitcommit: 4693c8f79428ec74695328275703af0ba1bfea8f
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52545004"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53074676"
 ---
 # <a name="return-data-from-a-script-to-an-automatically-run-power-automate-flow"></a>Zurückgeben von Daten aus einem Skript an einen automatisch ausgeführten Power Automate-Flow
 
@@ -36,7 +36,7 @@ In diesem Tutorial erfahren Sie, wie Sie Informationen eines Office-Skripts für
     > [!IMPORTANT]
     > Das Skript, das Sie schreiben, verwendet den ersten übereinstimmenden Eintrag in der Tabelle, stellen Sie also sicher, dass Ihr Name über einer Zeile mit der aktuellen Woche steht.
 
-    :::image type="content" source="../images/power-automate-return-tutorial-1.png" alt-text="Ein Arbeitsblatt mit den Daten der Rotationstabelle auf Abruf":::
+    :::image type="content" source="../images/power-automate-return-tutorial-1.png" alt-text="Ein Arbeitsblatt mit den Daten der Rotationstabelle auf Abruf.":::
 
 ## <a name="create-an-office-script"></a>Erstellen eines Office-Skripts
 
@@ -129,11 +129,11 @@ In diesem Tutorial erfahren Sie, wie Sie Informationen eines Office-Skripts für
 
 1. Klicken Sie in dem Menü, das auf der linken Seite des Bildschirms angezeigt wird, auf **Create**. Damit gelangen Sie zur Liste der Möglichkeiten zum Erstellen neuer Workflows.
 
-    :::image type="content" source="../images/power-automate-tutorial-1.png" alt-text="Schaltfläche „Erstellen“ in Power Automate":::
+    :::image type="content" source="../images/power-automate-tutorial-1.png" alt-text="Schaltfläche „Erstellen“ in Power Automate.":::
 
 1. Wählen Sie im Abschnitt **Ohne Vorlage anfangen** die Option **Automatisierter Cloudfluss** aus.
 
-    :::image type="content" source="../images/power-automate-return-tutorial-2.png" alt-text="Schaltfläche „Geplanter Cloudfluss“ in Power Automate":::
+    :::image type="content" source="../images/power-automate-return-tutorial-2.png" alt-text="Schaltfläche „Geplanter Cloudfluss“ in Power Automate.":::
 
 1. Nun müssen Sie den Zeitplan für diesen Flow festlegen. Unser Arbeitsblatt weist eine neue Rufbereitschaftszuweisung auf, die in der ersten Hälfte des Jahres 2021 jeweils montags beginnt. Legen Sie den Flow so fest, dass er montagmorgens als erstes ausgeführt wird. Verwenden Sie die folgenden Optionen, um den Flow so zu konfigurieren, dass er jede Woche montags ausgeführt wird.
 
@@ -142,7 +142,7 @@ In diesem Tutorial erfahren Sie, wie Sie Informationen eines Office-Skripts für
     - **Wiederholen**: 1-mal wöchentlich
     - **an diesen Tagen**: Mo
 
-    :::image type="content" source="../images/power-automate-return-tutorial-3.png" alt-text="Das Power Automate-Dialogfeld ‚Erstellen eines geplanten Cloud-Flows‘ mit Optionen. Zu den Optionen gehören der Name des Flows, die Anfangszeit, die Wiederholungszeit und ein Wochentag, an dem der Flow ausgeführt werden soll":::
+    :::image type="content" source="../images/power-automate-return-tutorial-3.png" alt-text="Das Power Automate-Dialogfeld ‚Erstellen eines geplanten Cloudflusses‘ mit Optionen. Zu den Optionen gehören der Flussname, die Anfangszeit, die Wiederholungszeit und ein Wochentag, an dem der Fluss ausgeführt werden soll.":::
 
 1. Drücken Sie **Erstellen**.
 
@@ -150,11 +150,11 @@ In diesem Tutorial erfahren Sie, wie Sie Informationen eines Office-Skripts für
 
 1. Wählen Sie die Registerkarte **Standard** aus, und wählen Sie dann **Excel Online (Business)** aus.
 
-    :::image type="content" source="../images/power-automate-tutorial-4.png" alt-text="Excel Online (Business)-Option in Power Automate":::
+    :::image type="content" source="../images/power-automate-tutorial-4.png" alt-text="Excel Online (Business)-Option in Power Automate.":::
 
 1. Wählen Sie unter **Aktionen** die Option **Skript ausführen** aus.
 
-    :::image type="content" source="../images/power-automate-tutorial-5.png" alt-text="Aktionsoption „Skript ausführen“ in Power Automate":::
+    :::image type="content" source="../images/power-automate-tutorial-5.png" alt-text="Aktionsoption „Skript ausführen“ in Power Automate.":::
 
 1. Als nächstes wählen Sie die Arbeitsmappe und das Skript aus, die im Flowschritt verwendet werden sollen. Verwenden Sie die Arbeitsmappe **on-call-rotation.xlsx**, die Sie in Ihrem OneDrive erstellt haben. Geben Sie die folgenden Einstellungen für den Konnektor **Run script** an:
 
@@ -163,13 +163,13 @@ In diesem Tutorial erfahren Sie, wie Sie Informationen eines Office-Skripts für
     - **Datei**: MyWorkbook.xlsx *(ausgewählt über den Dateibrowser)*
     - **Skript**: Person mit Rufbereitschaft abrufen
 
-    :::image type="content" source="../images/power-automate-return-tutorial-4.png" alt-text="Die Einstellungen des Power Automate-Connectors zum Ausführen eines Skripts":::
+    :::image type="content" source="../images/power-automate-return-tutorial-4.png" alt-text="Die Einstellungen des Power Automate-Connectors zum Ausführen eines Skripts.":::
 
 1. Klicken Sie auf **Neuer Schritt**.
 
 1. Der Flow wird mit dem Senden der Erinnerungs-E-Mail beendet. Wählen Sie **E-Mail senden (V2)** über die Suchleiste des Connectors aus. Verwenden Sie das Steuerelement **Dynamischen Inhalt hinzufügen**, um die vom Skript zurückgegebene E-Mail-Adresse hinzuzufügen. Dies wird mit dem Excel-Symbol daneben als **Ergebnis** gekennzeichnet. Sie können einen beliebigen Betreff und Text eingeben.
 
-    :::image type="content" source="../images/power-automate-return-tutorial-5.png" alt-text="Die Power Automate Outlook Connector-Einstellungen zum Senden einer E-Mail. Zu den Optionen gehören die zu sendende Datei, der Betreff der E-Mail und der Textkörper der E-Mail sowie erweiterte Optionen":::
+    :::image type="content" source="../images/power-automate-return-tutorial-5.png" alt-text="Die Power Automate Outlook Connector-Einstellungen zum Senden einer E-Mail. Zu den Optionen gehören die zu sendende Datei, der Betreff der E-Mail und der Textkörper der E-Mail sowie erweiterte Optionen.":::
 
     > [!NOTE]
     > In diesem Tutorial wird Outlook verwendet. Sie können stattdessen auch Ihren bevorzugten E-Mail-Dienst verwenden, obwohl einige Optionen anders sein können.
@@ -180,7 +180,7 @@ In diesem Tutorial erfahren Sie, wie Sie Informationen eines Office-Skripts für
 
 Ihr Flow wird jeden Montagmorgen ausgeführt. Sie können das Skript jetzt testen, indem Sie auf die Schaltfläche **Test** in der oberen rechten Ecke des Bildschirms drücken. Wählen Sie **Manuell** aus, und drücken Sie **Test ausführen**, um den Flow jetzt auszuführen und das Verhalten zu testen. Möglicherweise müssen Sie Excel und Outlook Berechtigungen erteilen, um fortzufahren.
 
-:::image type="content" source="../images/power-automate-return-tutorial-6.png" alt-text="Schaltfläche „Power Automate-Test“":::
+:::image type="content" source="../images/power-automate-return-tutorial-6.png" alt-text="Schaltfläche „Power Automate-Test“.":::
 
 > [!TIP]
 > Wenn Ihr Flow keine E-Mail senden kann, vergewissern Sie sich, dass in das Arbeitsblatt eine gültige E-Mail für den aktuellen Datumsbereich oben in der Tabelle aufgeführt ist.
