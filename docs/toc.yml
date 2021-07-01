@@ -67,6 +67,8 @@ items:
                 href: resources/samples/copy-tables-combine.md
           - name: Weitere Tipps und Tricks
             items:
+              - name: Querverweis-Arbeitsblätter
+                href: resources/samples/excel-cross-reference.md
               - name: Leere Zeilen in Arbeitsblättern zählen
                 href: resources/samples/count-blank-rows.md
               - name: Bilder von Diagramm und Tabelle per E-Mail senden
