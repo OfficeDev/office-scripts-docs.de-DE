@@ -1,14 +1,14 @@
 ---
 title: Zählen leerer Zeilen in Blättern
 description: In diesem Artikel erfahren Sie, wie Sie mithilfe von Office Skripts ermitteln, ob es leere Zeilen anstelle von Daten in Arbeitsblättern gibt, und dann die Anzahl leerer Zeilen melden, die in einem Power Automate-Fluss verwendet werden soll.
-ms.date: 05/04/2021
+ms.date: 06/29/2021
 localization_priority: Normal
-ms.openlocfilehash: 73fe0f995ee6ccaa1328b68983f0ec6887d96a09
-ms.sourcegitcommit: 4693c8f79428ec74695328275703af0ba1bfea8f
+ms.openlocfilehash: e5b60779d2ca2de5f4cf4e03ddd6ff7372515ad6
+ms.sourcegitcommit: 211c157ca746e266eeb079f5fa1925a1e35ab702
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53074578"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "53313806"
 ---
 # <a name="count-blank-rows-on-sheets"></a>Zählen leerer Zeilen in Blättern
 
@@ -122,7 +122,3 @@ function main(workbook: ExcelScript.Workbook): number
   return emptyRows;
 }
 ```
-
-## <a name="use-with-power-automate"></a>Verwenden mit Power Automate
-
-:::image type="content" source="../../images/use-in-power-automate.png" alt-text="Ein Power Automate-Ablauf, der zeigt, wie ein Office Skript ausgeführt werden kann.":::

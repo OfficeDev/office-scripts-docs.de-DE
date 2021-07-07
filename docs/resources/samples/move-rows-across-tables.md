@@ -1,14 +1,14 @@
 ---
 title: Verschieben von Zeilen über Tabellen mithilfe von Office Skripts
 description: Erfahren Sie, wie Sie Zeilen über Tabellen verschieben, indem Sie Filter speichern und dann die Filter verarbeiten und erneut anwenden.
-ms.date: 05/06/2021
+ms.date: 06/29/2021
 localization_priority: Normal
-ms.openlocfilehash: c850ed055457f6733694027469a96a87e74ef66a
-ms.sourcegitcommit: 4693c8f79428ec74695328275703af0ba1bfea8f
+ms.openlocfilehash: 860521de166108d5a8355ea246c1bfe77e0e064b
+ms.sourcegitcommit: 211c157ca746e266eeb079f5fa1925a1e35ab702
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53074452"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "53313757"
 ---
 # <a name="move-rows-across-tables-by-saving-filters-then-processing-and-reapplying-the-filters"></a>Verschieben von Zeilen über Tabellen durch Speichern von Filtern, anschließendes Verarbeiten und erneutes Anwenden der Filter
 
@@ -22,7 +22,7 @@ In diesem Skript werden folgende Schritte ausgeführt:
 
 ## <a name="sample-excel-file"></a>Beispieldatei für Excel
 
-Laden Sie die Datei <a href="input-table-filters.xlsx"> herunter, die </a> in dieser Lösung verwendetinput-table-filters.xlsx, um sie selbst auszuprobieren!
+Laden Sie die Datei <a href="input-table-filters.xlsx">input-table-filters.xlsx</a> für eine einsatzbereite Arbeitsmappe herunter. Fügen Sie das folgende Skript hinzu, um das Beispiel selbst auszuprobieren!
 
 ## <a name="sample-code-move-rows-using-range-values"></a>Beispielcode: Verschieben von Zeilen mithilfe von Bereichswerten
 

@@ -3,12 +3,12 @@ title: Lesen Sie Arbeitsmappendaten mit Office-Skripts in Excel im Web
 description: Ein Office Skripts-Lernprogramm zum Lesen von Daten aus Arbeitsmappen und zum Auswerten dieser Daten im Skript.
 ms.date: 01/06/2021
 localization_priority: Priority
-ms.openlocfilehash: aa05533f0d7cd3b53e4eb616ae3216d672d026f9
-ms.sourcegitcommit: 4693c8f79428ec74695328275703af0ba1bfea8f
+ms.openlocfilehash: 38a8c64fcf0ed998049c2b95c6d4ede148b6925b
+ms.sourcegitcommit: 211c157ca746e266eeb079f5fa1925a1e35ab702
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53074690"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "53313988"
 ---
 # <a name="read-workbook-data-with-office-scripts-in-excel-on-the-web"></a>Lesen Sie Arbeitsmappendaten mit Office-Skripts in Excel im Web
 
@@ -70,8 +70,8 @@ Im weiteren Verlauf des Lernprogramms werden diese Daten mithilfe eines Skripts 
 
 6. Führen Sie das Skript aus.
 7. Sie sollten `[Array[1]]` in der Konsole sehen. Dies ist keine Zahl, da Bereiche zweidimensionale Datenfelder sind. Dieser zweidimensionale Bereich wird direkt in der Konsole protokolliert. Glücklicherweise können Sie mit dem Code-Editor den Inhalt des Arrays anzeigen.
-8. Wenn ein zweidimensionales Array in der Konsole protokolliert wird, werden Spaltenwerte unter jeder Zeile gruppiert. Erweitern Sie das Array-Protokoll, indem Sie auf das blaue Dreieck klicken.
-9. Erweitern Sie die zweite Ebene des Arrays, indem Sie auf das neu aufgedeckte blaue Dreieck klicken. Jetzt sollten Sie folgendes sehen:
+8. Wenn ein zweidimensionales Array in der Konsole protokolliert wird, werden Spaltenwerte unter jeder Zeile gruppiert. Erweitern Sie das Array-Protokoll, indem Sie das blaue Dreieck auswählen.
+9. Erweitern Sie die zweite Ebene des Arrays, indem Sie das neu aufgedeckte, blaue Dreieck auswählen. Jetzt sollten Sie Folgendes sehen:
 
     :::image type="content" source="../images/tutorial-4.png" alt-text="Das Konsolenprotokoll mit der Ausgabe „-20,05“, verschachtelt unter zwei Arrays.":::
 

@@ -3,12 +3,12 @@ title: Aufzeichnen, Bearbeiten und Erstellen von Office-Skripts in Excel im Web
 description: Dies ist ein Lernprogramm zu den Grundlagen von Office-Skripts, einschließlich dem Aufzeichnen von Skripts mithilfe der Aktionsaufzeichnung und dem Schreiben von Daten in eine Arbeitsmappe.
 ms.date: 05/23/2021
 localization_priority: Priority
-ms.openlocfilehash: f9290a3d7dc723b72bfb4913171052472f2361c5
-ms.sourcegitcommit: 4693c8f79428ec74695328275703af0ba1bfea8f
+ms.openlocfilehash: 6bcf603211aa07920e99178c35c6f405224c29bd
+ms.sourcegitcommit: 211c157ca746e266eeb079f5fa1925a1e35ab702
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53074669"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "53313925"
 ---
 # <a name="record-edit-and-create-office-scripts-in-excel-on-the-web"></a>Aufzeichnen, Bearbeiten und Erstellen von Office-Skripts in Excel im Web
 
@@ -35,10 +35,10 @@ Zuerst benötigen wir einige Daten und ein kleines Startskript.
     |Limetten |600 |500 |
     |Grapefruits |900 |700 |
 
-3. Öffnen Sie die Registerkarte **Automatisieren**. Falls die Registerkarte **Automatisieren** nicht angezeigt wird, überprüfen Sie den Menüband-Überlauf, indem Sie auf den Dropdown-Pfeil klicken. Wenn die Registerkarte noch immer nicht angezeigt wird, befolgen Sie die Ratschläge im Artikel [Behandeln von Problemen mit Office-Skripts](../testing/troubleshooting.md#automate-tab-not-appearing-or-office-scripts-unavailable).
-4. Klicken Sie auf die Schaltfläche **Aktionen aufzeichnen**.
+3. Öffnen Sie die Registerkarte **Automatisieren**. Falls die Registerkarte **Automatisieren** nicht angezeigt wird, überprüfen Sie den Menübandüberlauf, indem Sie den Dropdownpfeil auswählen. Wenn die Registerkarte noch immer nicht angezeigt wird, befolgen Sie die Ratschläge im Artikel [Behandeln von Problemen mit Office-Skripts](../testing/troubleshooting.md#automate-tab-not-appearing-or-office-scripts-unavailable).
+4. Wählen Sie die Schaltfläche **Aktionen aufzeichnen** aus.
 5. Wählen Sie Zellen **A2:C2** (die Zeile "Orangen") aus, und legen Sie die Füllfarbe auf Orange fest.
-6. Beenden Sie die Aufzeichnung, indem Sie die Schaltfläche **Stopp** drücken.
+6. Beenden Sie die Aufzeichnung, indem Sie die Schaltfläche **Stopp** auswählen.
 
     Ihr Arbeitsblatt sollte wie folgt aussehen (machen Sie sich keine Sorgen, wenn die Farbe anders ist):
 
@@ -48,7 +48,7 @@ Zuerst benötigen wir einige Daten und ein kleines Startskript.
 
 Das vorherige Skript hat die Zeile "Orangen" orangefarben eingefärbt. Jetzt fügen wir eine gelbe Zeile für die "Zitronen" hinzu.
 
-1. Klicken Sie im nun geöffneten **Detailbereich** auf die Schaltfläche **Bearbeiten**.
+1. Wählen Sie im nun geöffneten **Detailbereich** die Schaltfläche **Bearbeiten** aus.
 2. Folgendes sollte nun auf dem Bildschirm angezeigt werden:
 
     ```TypeScript
@@ -69,7 +69,7 @@ Das vorherige Skript hat die Zeile "Orangen" orangefarben eingefärbt. Jetzt fü
     selectedSheet.getRange("A3:C3").getFormat().getFill().setColor("yellow");
     ```
 
-4. Testen Sie das Skript, indem Sie **Ausführen** drücken. Ihre Arbeitsmappe sollte nun wie folgt aussehen:
+4. Testen Sie das Skript, indem Sie **Ausführen** auswählen. Ihre Arbeitsmappe sollte nun wie folgt aussehen:
 
     :::image type="content" source="../images/tutorial-2.png" alt-text="Ein Arbeitsblatt mit der Datenzeile mit den Verkaufszahlen für Obst, in der die Zeile „Orangen“ in der Farbe Orange und die Zeile „Zitronen“ in der Farbe Gelb hervorgehoben ist.":::
 

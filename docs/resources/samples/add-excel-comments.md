@@ -1,34 +1,36 @@
 ---
 title: Hinzufügen von Kommentaren in Excel
-description: Erfahren Sie, wie Sie Office Skripts zum Hinzufügen von Kommentaren in einem Arbeitsblatt verwenden.
-ms.date: 05/03/2021
+description: Erfahren Sie, wie Sie Office Skripts verwenden, um Kommentare in einem Arbeitsblatt hinzuzufügen.
+ms.date: 06/29/2021
 localization_priority: Normal
-ms.openlocfilehash: e5e5d17c076eceaf06fddeea1a67d31ee3581f31
-ms.sourcegitcommit: 763d341857bcb209b2f2c278a82fdb63d0e18f0a
+ms.openlocfilehash: 77e308d020281c71751e2652f8dbaec00c263e44
+ms.sourcegitcommit: 211c157ca746e266eeb079f5fa1925a1e35ab702
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/08/2021
-ms.locfileid: "52285934"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "53313911"
 ---
 # <a name="add-comments-in-excel"></a>Hinzufügen von Kommentaren in Excel
 
-In diesem Beispiel wird gezeigt, wie Sie einer Zelle Kommentare hinzufügen, [einschließlich @mentioning](https://support.microsoft.com/office/90701709-5dc1-41c7-aa48-b01d4a46e8c7) Kollegen.
+In diesem Beispiel wird gezeigt, wie Sie einer Zelle, einschließlich [@mentioning](https://support.microsoft.com/office/90701709-5dc1-41c7-aa48-b01d4a46e8c7) eines Kollegen, Kommentare hinzufügen.
 
 ## <a name="example-scenario"></a>Beispielszenario
 
 * Der Teamleiter behält den Schichtplan bei. Der Teamleiter weist dem Schichtdatensatz eine Mitarbeiter-ID zu.
-* Der Teamleiter möchte den Mitarbeiter benachrichtigen. Durch Hinzufügen eines Kommentars, @mentions Mitarbeiter hinzugefügt wird, wird dem Mitarbeiter eine benutzerdefinierte Nachricht aus dem Arbeitsblatt per E-Mail gesendet.
-* Anschließend kann der Mitarbeiter die Arbeitsmappe anzeigen und nach Befreundlichkeit auf den Kommentar antworten.
+* Das Team leitet den Wunsch, den Mitarbeiter zu benachrichtigen. Durch Hinzufügen eines Kommentars, der den Mitarbeiter @mentions, wird dem Mitarbeiter eine benutzerdefinierte Nachricht aus dem Arbeitsblatt per E-Mail gesendet.
+* Anschließend kann der Mitarbeiter die Arbeitsmappe anzeigen und nach Belieben auf den Kommentar antworten.
 
 ## <a name="solution"></a>Lösung
 
 1. Das Skript extrahiert Mitarbeiterinformationen aus dem Mitarbeiterarbeitsblatt.
-1. Das Skript fügt dann der entsprechenden Zelle im Schichtdatensatz einen Kommentar (einschließlich der entsprechenden Mitarbeiter-E-Mail) hinzu.
-1. Vorhandene Kommentare in der Zelle werden entfernt, bevor der neue Kommentar hinzugefügt wird.
+1. Das Skript fügt dann einen Kommentar (einschließlich der entsprechenden Mitarbeiter-E-Mail) zur entsprechenden Zelle im Schichtdatensatz hinzu.
+1. Vorhandene Kommentare in der Zelle werden vor dem Hinzufügen des neuen Kommentars entfernt.
+
+## <a name="sample-excel-file"></a>Beispieldatei für Excel
+
+Laden Sie <a href="excel-comments.xlsx">excel-comments.xlsx</a> für eine einsatzbereite Arbeitsmappe herunter. Fügen Sie das folgende Skript hinzu, um das Beispiel selbst auszuprobieren!
 
 ## <a name="sample-code-add-comments"></a>Beispielcode: Hinzufügen von Kommentaren
-
-Laden Sie die Datei <a href="excel-comments.xlsx">excel-comments.xlsx</a> in diesem Beispiel verwendeten herunter, und testen Sie sie selbst!
 
 ```TypeScript
 function main(workbook: ExcelScript.Workbook) {
@@ -77,4 +79,4 @@ function main(workbook: ExcelScript.Workbook) {
 
 ## <a name="training-video-add-comments"></a>Schulungsvideo: Hinzufügen von Kommentaren
 
-[Sehen Sie sich an, wie Sudhi Ramamurthy dieses Beispiel auf YouTube durchspazieren.](https://youtu.be/CpR78nkaOFw)
+[Sehen Sie sich dieses Beispiel auf YouTube an.](https://youtu.be/CpR78nkaOFw)

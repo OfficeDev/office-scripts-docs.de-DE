@@ -1,25 +1,27 @@
 ---
-title: Entfernen von Hyperlinks aus jeder Zelle in Excel Arbeitsblatt
-description: Erfahren Sie, wie Sie Office Skripts verwenden, um Hyperlinks aus jeder Zelle in einem arbeitsblatt Excel entfernen.
-ms.date: 05/06/2021
+title: Entfernen von Hyperlinks aus jeder Zelle in einem Excel Arbeitsblatt
+description: Erfahren Sie, wie Sie Office Skripts verwenden, um Hyperlinks aus jeder Zelle in einem Excel Arbeitsblatt zu entfernen.
+ms.date: 06/29/2021
 localization_priority: Normal
-ms.openlocfilehash: 048d01691377a7086bdba9ceb87ca98839cfa4d1
-ms.sourcegitcommit: 763d341857bcb209b2f2c278a82fdb63d0e18f0a
+ms.openlocfilehash: dc33eb639edac8ada29824a53440031942e59179
+ms.sourcegitcommit: 211c157ca746e266eeb079f5fa1925a1e35ab702
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/08/2021
-ms.locfileid: "52285801"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "53313750"
 ---
-# <a name="remove-hyperlinks-from-each-cell-in-an-excel-worksheet"></a>Entfernen von Hyperlinks aus jeder Zelle in Excel Arbeitsblatt
+# <a name="remove-hyperlinks-from-each-cell-in-an-excel-worksheet"></a>Entfernen von Hyperlinks aus jeder Zelle in einem Excel Arbeitsblatt
 
- In diesem Beispiel werden alle Hyperlinks aus dem aktuellen Arbeitsblatt entfernt. Es durchläuft das Arbeitsblatt, und wenn der Zelle ein Hyperlink zugeordnet ist, wird der Hyperlink geräumt, der Zellwert wird jedoch beibehalten. Protokolliert außerdem die Zeit, die zum Abschließen der Durchquerung benötigt wird.
+ In diesem Beispiel werden alle Hyperlinks aus dem aktuellen Arbeitsblatt gelöscht. Es durchläuft das Arbeitsblatt, und wenn der Zelle ein Hyperlink zugeordnet ist, wird der Hyperlink gelöscht, der Zellwert wird jedoch beibehalten. Protokolliert außerdem die Zeit, die für die Durchführung der Durchquerung benötigt wird.
 
 > [!NOTE]
 > Dies funktioniert nur, wenn die Zellenanzahl < 10k beträgt.
 
-## <a name="sample-code-remove-hyperlinks"></a>Beispielcode: Entfernen von Hyperlinks
+## <a name="sample-excel-file"></a>Beispieldatei für Excel
 
-Laden Sie die Datei <a href="remove-hyperlinks.xlsx">remove-hyperlinks.xlsx</a> in diesem Beispiel verwendeten herunter, und testen Sie sie selbst!
+Laden Sie die Datei <a href="remove-hyperlinks.xlsx">remove-hyperlinks.xlsx</a> für eine einsatzbereite Arbeitsmappe herunter. Fügen Sie das folgende Skript hinzu, um das Beispiel selbst auszuprobieren!
+
+## <a name="sample-code-remove-hyperlinks"></a>Beispielcode: Entfernen von Hyperlinks
 
 ```TypeScript
 function main(workbook: ExcelScript.Workbook, sheetName: string = 'Sheet1') {
@@ -57,4 +59,4 @@ function main(workbook: ExcelScript.Workbook, sheetName: string = 'Sheet1') {
 
 ## <a name="training-video-remove-hyperlinks-from-each-cell-in-an-excel-worksheet"></a>Schulungsvideo: Entfernen von Hyperlinks aus jeder Zelle in einem Excel Arbeitsblatt
 
-[Sehen Sie sich an, wie Sudhi Ramamurthy dieses Beispiel auf YouTube durchspazieren.](https://youtu.be/v20fdinxpHU)
+[Sehen Sie sich dieses Beispiel auf YouTube an.](https://youtu.be/v20fdinxpHU)

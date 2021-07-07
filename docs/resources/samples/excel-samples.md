@@ -1,28 +1,27 @@
 ---
 title: Grundlegende Skripts für Office Skripts in Excel im Web
 description: Eine Sammlung von Codebeispielen, die mit Office Skripts in Excel im Web verwendet werden sollen.
-ms.date: 05/17/2021
+ms.date: 06/29/2021
 localization_priority: Normal
-ms.openlocfilehash: 3bf3bd5acd10bc5999db4746a2ed62af85237e48
-ms.sourcegitcommit: 4693c8f79428ec74695328275703af0ba1bfea8f
+ms.openlocfilehash: 3aaaa7fe8769f6dcd658ae91c577956b56033051
+ms.sourcegitcommit: 211c157ca746e266eeb079f5fa1925a1e35ab702
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53074557"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "53313939"
 ---
 # <a name="basic-scripts-for-office-scripts-in-excel-on-the-web"></a>Grundlegende Skripts für Office Skripts in Excel im Web
 
 Die folgenden Beispiele sind einfache Skripts, mit denen Sie Ihre eigenen Arbeitsmappen ausprobieren können. So verwenden Sie sie in Excel im Web:
 
 1. Öffnen Sie die Registerkarte **Automatisieren**.
-2. Drücken **Sie den Code-Editor.**
-3. Drücken Sie das **neue Skript** im Aufgabenbereich des Code-Editors.
-4. Ersetzen Sie das gesamte Skript durch das Beispiel Ihrer Wahl.
-5. Drücken **Sie "Ausführen"** im Aufgabenbereich des Code-Editors.
+1. Wählen Sie **New Script** aus.
+1. Ersetzen Sie das gesamte Skript durch das Beispiel Ihrer Wahl.
+1. Wählen Sie im Aufgabenbereich des Code-Editors **"Ausführen"** aus.
 
 ## <a name="script-basics"></a>Skriptgrundlagen
 
-Diese Beispiele veranschaulichen grundlegende Bausteine für Office Skripts. Fügen Sie diese zu Ihren Skripts hinzu, um Ihre Lösung zu erweitern und häufige Probleme zu lösen.
+Diese Beispiele veranschaulichen grundlegende Bausteine für Office Skripts. Erweitern Sie diese Skripts, um Ihre Lösung zu erweitern und allgemeine Probleme zu lösen.
 
 ### <a name="read-and-log-one-cell"></a>Lesen und Protokollieren einer Zelle
 
@@ -151,7 +150,7 @@ function main(workbook: ExcelScript.Workbook) {
 }
 ```
 
-## <a name="collections"></a>Sammlungen
+## <a name="collections"></a>Auflistungen
 
 Diese Beispiele funktionieren mit Auflistungen von Objekten in der Arbeitsmappe.
 
@@ -234,7 +233,7 @@ function main(workbook: ExcelScript.Workbook) {
 }
 ```
 
-Das nächste Beispiel liest ein Datum, das in Excel gespeichert ist, und übersetzt es in ein JavaScript Date-Objekt. Es verwendet die [numerische Seriennummer des Datums](https://support.office.com/article/now-function-3337fd29-145a-4347-b2e6-20c904739c46) als Eingabe für das JavaScript-Datum.
+Im nächsten Beispiel wird ein Datum gelesen, das in Excel gespeichert ist, und in ein JavaScript Date-Objekt übersetzt. Es verwendet die [numerische Seriennummer des Datums](https://support.office.com/article/now-function-3337fd29-145a-4347-b2e6-20c904739c46) als Eingabe für das JavaScript-Datum.
 
 ```TypeScript
 function main(workbook: ExcelScript.Workbook) {
@@ -276,7 +275,7 @@ function main(workbook: ExcelScript.Workbook) {
 
 ### <a name="create-a-sorted-table"></a>Erstellen einer sortierten Tabelle
 
-In diesem Beispiel wird eine Tabelle aus dem verwendeten Bereich des aktuellen Arbeitsblatts erstellt und dann basierend auf der ersten Spalte sortiert.
+In diesem Beispiel wird eine Tabelle aus dem verwendeten Bereich des aktuellen Arbeitsblatts erstellt und anschließend basierend auf der ersten Spalte sortiert.
 
 ```TypeScript
 function main(workbook: ExcelScript.Workbook) {

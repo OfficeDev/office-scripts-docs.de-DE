@@ -1,28 +1,28 @@
 ---
-title: Rückgängig machen der änderungen von Office Skripts
-description: Verwenden Sie den Versionsverlauf von Excel im Web, um die Durch ausführen eines Skripts vorgenommenen Änderungen rückgängig zu machen.
-ms.date: 01/08/2019
+title: Rückgängigmachen der von Office Skripts vorgenommenen Änderungen
+description: Verwenden Sie den Versionsverlauf von Excel im Web, um die Änderungen rückgängig zu machen, die durch Ausführen eines Skripts vorgenommen wurden.
+ms.date: 06/29/2021
 localization_priority: Normal
-ms.openlocfilehash: f9f22d4879f8a02c00a5bac9f58d9aa36ae03e38
-ms.sourcegitcommit: 4687693f02fc90a57ba30c461f35046e02e6f5fb
+ms.openlocfilehash: 86ce59ea4715ac6d8b56ca8d165a1e0451e4ee22
+ms.sourcegitcommit: 211c157ca746e266eeb079f5fa1925a1e35ab702
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52545546"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "53313967"
 ---
-# <a name="undo-the-changes-made-by-office-scripts"></a>Rückgängig machen der änderungen von Office Skripts
+# <a name="undo-the-changes-made-by-office-scripts"></a>Rückgängigmachen der von Office Skripts vorgenommenen Änderungen
 
-Änderungen an der Arbeitsmappe können nicht rückgängig gemacht Excel skripts mit dem Befehl **Excel rückgängig** gemacht werden. Stattdessen müssen Sie eine frühere Version der Arbeitsmappe aus Dem Cloudspeicher wiederherstellen.
+Änderungen, die an der Excel Arbeitsmappe von einem Skript mit dem Befehl **"Rückgängig"** des Excel vorgenommen wurden, können nicht rückgängig gemacht werden. Stattdessen müssen Sie eine frühere Version der Arbeitsmappe aus Ihrem Cloudspeicher wiederherstellen.
 
 ## <a name="version-history"></a>Versionsverlauf
 
-Office Versionsverlauf ist eine einfache Möglichkeit, eine ältere Arbeitsmappe über die benutzeroberfläche Excel wiederherstellen. Das Feature funktioniert nur für Dateien, die in OneDrive oder SharePoint online gespeichert sind.
+der Versionsverlauf Office ist eine einfache Möglichkeit zum Wiederherstellen einer älteren Arbeitsmappe über die Excel Benutzeroberfläche. Das Feature funktioniert nur für Dateien, die in OneDrive oder SharePoint Online gespeichert sind.
 
-Führen Sie in Excel Arbeitsmappe, in der das Skript ausgeführt wurde, die folgenden Schritte aus, um die Effekte rückgängig zu machen:
+Führen Sie in der Excel Arbeitsmappe, in der das Skript ausgeführt wurde, die folgenden Schritte aus, um die Effekte rückgängig zu machen:
 
-1. Wechseln Sie zu  >  **Dateiinfo**  >  **Versionsverlauf**.
-2. Wählen Sie eine Vor dem Ausführen des Skripts gespeicherte Version aus.
-3. Drücken Sie **die Wiederherstellung**.
+1. Wechseln Sie zum **Versionsverlauf** der  >  **Dateiinformationen.**  >  
+2. Wählen Sie eine Version aus, die vor der Ausführung des Skripts gespeichert wurde.
+3. Wählen Sie **"Wiederherstellen" aus.**
 
 ## <a name="see-also"></a>Siehe auch
 

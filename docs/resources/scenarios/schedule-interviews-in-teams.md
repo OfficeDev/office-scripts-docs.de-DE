@@ -1,14 +1,14 @@
 ---
 title: Vorstellungsgespräche in Teams planen
 description: Erfahren Sie, wie Sie Office Skripts verwenden, um eine Teams Besprechung aus Excel Daten zu senden.
-ms.date: 05/25/2021
+ms.date: 06/29/2021
 localization_priority: Normal
-ms.openlocfilehash: 66dae536c4a51ff3e028f06bf3aef3c7509d83bb
-ms.sourcegitcommit: 4693c8f79428ec74695328275703af0ba1bfea8f
+ms.openlocfilehash: cb24da12637add805d86da4d07ce878509c6a5f6
+ms.sourcegitcommit: 211c157ca746e266eeb079f5fa1925a1e35ab702
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53074431"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "53313729"
 ---
 # <a name="office-scripts-sample-scenario-schedule-interviews-in-teams"></a>Office Skripts-Beispielszenario: Planen von Interviews in Teams
 
@@ -32,7 +32,7 @@ Laden Sie die in dieser Lösung verwendete Datei <a href="hr-schedule.xlsx">hr-s
 
 ## <a name="sample-code-extract-table-data-to-schedule-invites"></a>Beispielcode: Extrahieren von Tabellendaten zum Planen von Einladungen
 
-Nennen Sie dieses Skript **"Interviews planen"** für den Fluss.
+Fügen Sie dieses Skript zu Ihrer Skriptsammlung hinzu. Nennen Sie es **"Planen von Interviews** für den Fluss".
 
 ```TypeScript
 function main(workbook: ExcelScript.Workbook): InterviewInvite[] {
@@ -93,7 +93,7 @@ interface InterviewInvite {
 
 ## <a name="sample-code-mark-rows-as-invited"></a>Beispielcode: Markieren von Zeilen als eingeladen
 
-Nennen Sie dieses Skript **"Gesendete Einladungen** aufzeichnen" für den Fluss.
+Fügen Sie dieses Skript zu Ihrer Skriptsammlung hinzu. Nennen Sie es **"Gesendete Einladungen** aufzeichnen" für den Fluss.
 
 ```TypeScript
 function main(workbook: ExcelScript.Workbook, invites: InterviewInvite[]) {
@@ -135,19 +135,19 @@ interface InterviewInvite {
 ## <a name="sample-flow-run-the-interview-scheduling-scripts-and-send-the-teams-meetings"></a>Beispielablauf: Ausführen der Skripts für die Planung von Gesprächen und Senden der Teams Besprechungen
 
 1. Erstellen Sie einen neuen **Instant Cloud Flow.**
-1. Wählen Sie **manuell einen Fluss auslösen** und erstellen drücken. 
-1. Fügen Sie einen **neuen Schritt** hinzu, der den Connector Excel **Online (Business)** und die **Skriptaktion ausführen** verwendet. Schließen Sie den Connector mit den folgenden Werten ab.
+1. Klicken Sie **auf "Manuell auslösen" und** wählen Sie **"Erstellen"** aus.
+1. Fügen Sie einen **neuen Schritt** hinzu, der den connector Excel **Online (Business)** und die **Skriptaktion ausführen verwendet.** Schließen Sie den Connector mit den folgenden Werten ab.
     1. **Location**: OneDrive for Business
     1. **Document Library**: OneDrive
     1. **Datei:** hr-interviews.xlsx *(über den Dateibrowser ausgewählt)*
     1. **Skript:** :::image type="content" source="../../images/schedule-interviews-1.png" alt-text="Screenshot des abgeschlossenen Excel Online (Business)-Connectors zum Abrufen von Interviewdaten aus der Arbeitsmappe in Power Automate.":::
-1. Fügen Sie einen **neuen Schritt** hinzu, in dem die Besprechungsaktion **"Teams erstellen"** verwendet wird. Wenn Sie dynamische Inhalte aus dem Excel Connector auswählen, wird für den Fluss ein **Apply-Element** für jeden Block generiert. Schließen Sie den Connector mit den folgenden Werten ab.
+1. Fügen Sie einen **neuen Schritt** hinzu, in dem die Besprechungsaktion **"Teams erstellen"** verwendet wird. Wenn Sie dynamische Inhalte aus dem Excel Connector auswählen, wird für den Flow ein **Apply-Element** für jeden Block generiert. Schließen Sie den Connector mit den folgenden Werten ab.
     1. **Kalender-ID**: Kalender
     1. **Betreff:** Contoso-Interview
     1. **Message**: **Message** (the Excel value)
     1. **Zeitzone:** Pazifische Standardzeit
-    1. **Startzeit:** **StartTime** (der Excel-Wert)
-    1. **Endzeit:** **FinishTime** (der wert Excel)
+    1. **Startzeit:** **StartTime** (der wert Excel)
+    1. **Endzeit:** **FinishTime** (der Excel Wert)
     1. **Erforderliche Teilnehmer:** **CandidateEmail** ; **InterviewerEmail** (die Excel Werte) :::image type="content" source="../../images/schedule-interviews-2.png" alt-text="Screenshot des abgeschlossenen Teams Connectors zum Planen von Besprechungen in Power Automate.":::
 1. Fügen Sie im selben **"Auf jeden** Block anwenden" einen weiteren **Excel Online(Business)-Connector** mit der **Skriptaktion ausführen** hinzu. Verwenden Sie die folgenden Werte.
     1. **Location**: OneDrive for Business
@@ -155,7 +155,7 @@ interface InterviewInvite {
     1. **Datei:** hr-interviews.xlsx *(über den Dateibrowser ausgewählt)*
     1. **Skript:** Gesendete Einladungen aufzeichnen
     1. **invites**: **result** (the Excel value) :::image type="content" source="../../images/schedule-interviews-3.png" alt-text="Screenshot des abgeschlossenen Excel Online (Business)-Connectors, um zu erfassen, dass Einladungen in Power Automate gesendet wurden.":::
-1. Speichern Sie den Flow, und testen Sie ihn.
+1. Speichern Sie den Flow, und testen Sie ihn. Verwenden Sie die Schaltfläche **"Test"** auf der Flow-Editor-Seite, oder führen Sie den Fluss über Ihre Registerkarte **"Meine Flüsse"** aus. Achten Sie darauf, den Zugriff zuzulassen, wenn Sie dazu aufgefordert werden.
 
 ## <a name="training-video-send-a-teams-meeting-from-excel-data"></a>Schulungsvideo: Senden einer Teams Besprechung aus Excel Daten
 

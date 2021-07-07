@@ -1,14 +1,14 @@
 ---
 title: 'Office Skript-Beispielszenario: Analysieren von Webdownloads'
-description: Ein Beispiel, das unformatierte Internetdatendaten in einer Excel Arbeitsmappe annimmt und den Ursprungsspeicherort ermittelt, bevor diese Informationen in einer Tabelle organisiert werden.
-ms.date: 04/27/2021
+description: Ein Beispiel, das unformatierte Internetdatenverkehrsdaten in einer Excel Arbeitsmappe annimmt und den Ursprungsspeicherort ermittelt, bevor diese Informationen in einer Tabelle organisiert werden.
+ms.date: 06/29/2021
 localization_priority: Normal
-ms.openlocfilehash: bdd6b43290e5432d87c4a85a35fbaf32967fbf03
-ms.sourcegitcommit: 4693c8f79428ec74695328275703af0ba1bfea8f
+ms.openlocfilehash: ec7ccd2a4f534be825ee4aa358f5d81becc53937
+ms.sourcegitcommit: 211c157ca746e266eeb079f5fa1925a1e35ab702
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53074459"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "53313932"
 ---
 # <a name="office-scripts-sample-scenario-analyze-web-downloads"></a>Office Skript-Beispielszenario: Analysieren von Webdownloads
 
@@ -16,7 +16,7 @@ In diesem Szenario haben Sie die Aufgabe, Downloadberichte von der Website Ihres
 
 Ihre Kollegen laden die Rohdaten in Ihre Arbeitsmappe hoch. Die Datengruppe jeder Woche verfügt über ein eigenes Arbeitsblatt. Es gibt auch das Arbeitsblatt **Zusammenfassung** mit einer Tabelle und einem Diagramm, in dem Die Wochen-über-Woche-Trends angezeigt werden.
 
-Sie entwickeln ein Skript, das wöchentliche Downloads von Daten im aktiven Arbeitsblatt analysiert. Sie analysiert die IP-Adresse, die jedem Download zugeordnet ist, und bestimmt, ob sie aus den USA stammt. Die Antwort wird als boolescher Wert ("TRUE" oder "FALSE") in das Arbeitsblatt eingefügt, und die bedingte Formatierung wird auf diese Zellen angewendet. Die Ergebnisse des IP-Adressspeicherorts werden auf dem Arbeitsblatt summiert und in die Zusammenfassungstabelle kopiert.
+Sie entwickeln ein Skript, das wöchentliche Downloads von Daten im aktiven Arbeitsblatt analysiert. Sie analysiert die ip-Adresse, die jedem Download zugeordnet ist, und bestimmt, ob sie aus den USA stammt. Die Antwort wird als boolescher Wert ("TRUE" oder "FALSE") in das Arbeitsblatt eingefügt, und die bedingte Formatierung wird auf diese Zellen angewendet. Die Ergebnisse des IP-Adressspeicherorts werden auf dem Arbeitsblatt summiert und in die Zusammenfassungstabelle kopiert.
 
 ## <a name="scripting-skills-covered"></a>Abgedeckte Skriptfähigkeiten
 
@@ -29,11 +29,9 @@ Sie entwickeln ein Skript, das wöchentliche Downloads von Daten im aktiven Arbe
 
 1. Laden Sie <a href="analyze-web-downloads.xlsx">analyze-web-downloads.xlsx</a> auf Ihre OneDrive herunter.
 
-2. Öffnen Sie die Arbeitsmappe mit Excel für das Web.
+1. Öffnen Sie die Arbeitsmappe mit Excel für das Web.
 
-3. Öffnen Sie auf der Registerkarte **"Automatisieren"** **alle Skripts.**
-
-4. Klicken Sie im **Code-Editor-Aufgabenbereich** auf **"Neues Skript",** und fügen Sie das folgende Skript in den Editor ein.
+1. Wählen Sie auf der Registerkarte **"Automatisieren"** die Option **"Neues Skript"** aus, und fügen Sie das folgende Skript in den Editor ein.
 
     ```TypeScript
     function main(workbook: ExcelScript.Workbook) {
@@ -209,7 +207,7 @@ Sie entwickeln ein Skript, das wöchentliche Downloads von Daten im aktiven Arbe
     }
     ```
 
-5. Benennen Sie das Skript um, um **Webdownloads** zu analysieren und zu speichern.
+1. Benennen Sie das Skript um, um **Webdownloads** zu analysieren und zu speichern.
 
 ## <a name="running-the-script"></a>Ausführen des Skripts
 

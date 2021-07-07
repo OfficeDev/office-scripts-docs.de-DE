@@ -1,32 +1,32 @@
 ---
 title: Hinzufügen von Bildern zu einer Arbeitsmappe
-description: Erfahren Sie, wie Sie Office Skripts verwenden, um einer Arbeitsmappe ein Bild hinzuzufügen und es über Blätter hinweg zu kopieren.
-ms.date: 05/17/2021
+description: Erfahren Sie, wie Sie Office Skripts verwenden, um einer Arbeitsmappe ein Bild hinzuzufügen und es blätterübergreifend zu kopieren.
+ms.date: 06/29/2021
 localization_priority: Normal
-ms.openlocfilehash: 64c356b2d76a561276b2955263555b16de27b3ba
-ms.sourcegitcommit: a2b85168d2b5e2c4e6951f808368f7d726400df0
+ms.openlocfilehash: 2ae77ca1295cf6e55443789506242d9cf888f9a1
+ms.sourcegitcommit: 211c157ca746e266eeb079f5fa1925a1e35ab702
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/21/2021
-ms.locfileid: "52592754"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "53313904"
 ---
 # <a name="add-images-to-a-workbook"></a>Hinzufügen von Bildern zu einer Arbeitsmappe
 
-In diesem Beispiel wird gezeigt, wie Sie mit Bildern mithilfe eines Office Skripts in Excel.
+In diesem Beispiel wird gezeigt, wie Sie mit Bildern mithilfe eines Office Skripts in Excel arbeiten.
 
 ## <a name="scenario"></a>Szenario
 
-Bilder helfen bei Branding, visueller Identität und Vorlagen. Sie helfen, eine Arbeitsmappe mehr als nur einen riesigen Tisch zu erstellen.
+Bilder helfen bei Branding, visueller Identität und Vorlagen. Sie tragen dazu bei, eine Arbeitsmappe nicht nur zu einer Tabellentabelle zu machen.
 
-Im ersten Beispiel wird ein Bild von einem Arbeitsblatt in ein anderes kopiert. Dies kann verwendet werden, um das Logo Ihres Unternehmens auf jedem Blatt an die gleiche Position zu setzen.
+Im ersten Beispiel wird ein Bild von einem Arbeitsblatt in ein anderes kopiert. Dies kann verwendet werden, um das Logo Ihres Unternehmens an der gleichen Position auf jedem Blatt zu platzieren.
 
-Im zweiten Beispiel wird ein Bild aus einer URL kopiert. Dies kann verwendet werden, um Fotos, die ein Kollege in einem freigegebenen Ordner gespeichert hat, in eine zugehörige Arbeitsmappe zu kopieren.
+Im zweiten Beispiel wird ein Bild von einer URL kopiert. Dies kann verwendet werden, um Fotos, die ein Kollege in einem freigegebenen Ordner gespeichert hat, in eine verwandte Arbeitsmappe zu kopieren.
 
-## <a name="sample-excel-file"></a>Beispieldatei Excel Datei
+## <a name="sample-excel-file"></a>Beispieldatei für Excel
 
-Laden Sie die Datei <a href="add-images.xlsx">add-images.xlsx, </a> die in diesen Beispielen verwendet wird, herunter, und testen Sie sie selbst!
+Laden Sie <a href="add-images.xlsx">add-images.xlsx</a> für eine einsatzbereite Arbeitsmappe herunter. Fügen Sie die folgenden Skripts hinzu, und testen Sie das Beispiel selbst!
 
-## <a name="sample-code-copy-an-image-across-worksheets"></a>Beispielcode: Kopieren eines Bilds über Arbeitsblätter hinweg
+## <a name="sample-code-copy-an-image-across-worksheets"></a>Beispielcode: Kopieren eines Bilds auf mehrere Arbeitsblätter
 
 ```TypeScript
 /**
@@ -52,7 +52,7 @@ function main(workbook: ExcelScript.Workbook)
 }
 ```
 
-## <a name="sample-code-add-an-image-from-a-url-to-a-workbook"></a>Beispielcode: Hinzufügen eines Bilds aus einer URL zu einer Arbeitsmappe
+## <a name="sample-code-add-an-image-from-a-url-to-a-workbook"></a>Beispielcode: Hinzufügen eines Bilds von einer URL zu einer Arbeitsmappe
 
 ```TypeScript
 async function main(workbook: ExcelScript.Workbook) {

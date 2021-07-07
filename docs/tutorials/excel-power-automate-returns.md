@@ -1,14 +1,14 @@
 ---
 title: Zurückgeben von Daten aus einem Skript an einen automatisch ausgeführten Power Automate-Flow
 description: Ein Tutorial, das zeigt, wie Sie Erinnerungs-E-Mails senden, indem Sie Office-Skripts für Excel im Web über Power Automate ausführen.
-ms.date: 12/15/2020
+ms.date: 06/29/2021
 localization_priority: Priority
-ms.openlocfilehash: 6c1041ede630319f75ccdad453734828eaa8bd3d
-ms.sourcegitcommit: 4693c8f79428ec74695328275703af0ba1bfea8f
+ms.openlocfilehash: 6c94ba4382f9d481c0064e89b5f7afa147ab23f4
+ms.sourcegitcommit: 211c157ca746e266eeb079f5fa1925a1e35ab702
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53074676"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "53314002"
 ---
 # <a name="return-data-from-a-script-to-an-automatically-run-power-automate-flow"></a>Zurückgeben von Daten aus einem Skript an einen automatisch ausgeführten Power Automate-Flow
 
@@ -127,7 +127,7 @@ In diesem Tutorial erfahren Sie, wie Sie Informationen eines Office-Skripts für
 
 1. Melden Sie sich an der [Power Automate-Website](https://flow.microsoft.com) an.
 
-1. Klicken Sie in dem Menü, das auf der linken Seite des Bildschirms angezeigt wird, auf **Create**. Damit gelangen Sie zur Liste der Möglichkeiten zum Erstellen neuer Workflows.
+1. Wählen Sie in dem Menü, das auf der linken Seite des Bildschirms angezeigt wird, **Erstellen** aus. Damit gelangen Sie zur Liste der Möglichkeiten zum Erstellen neuer Workflows.
 
     :::image type="content" source="../images/power-automate-tutorial-1.png" alt-text="Schaltfläche „Erstellen“ in Power Automate.":::
 
@@ -144,9 +144,9 @@ In diesem Tutorial erfahren Sie, wie Sie Informationen eines Office-Skripts für
 
     :::image type="content" source="../images/power-automate-return-tutorial-3.png" alt-text="Das Power Automate-Dialogfeld ‚Erstellen eines geplanten Cloudflusses‘ mit Optionen. Zu den Optionen gehören der Flussname, die Anfangszeit, die Wiederholungszeit und ein Wochentag, an dem der Fluss ausgeführt werden soll.":::
 
-1. Drücken Sie **Erstellen**.
+1. Wählen Sie **Erstellen** aus.
 
-1. Klicken Sie auf **New step**.
+1. Wählen Sie **Neuer Schritt** aus.
 
 1. Wählen Sie die Registerkarte **Standard** aus, und wählen Sie dann **Excel Online (Business)** aus.
 
@@ -165,7 +165,7 @@ In diesem Tutorial erfahren Sie, wie Sie Informationen eines Office-Skripts für
 
     :::image type="content" source="../images/power-automate-return-tutorial-4.png" alt-text="Die Einstellungen des Power Automate-Connectors zum Ausführen eines Skripts.":::
 
-1. Klicken Sie auf **Neuer Schritt**.
+1. Wählen Sie **Neuer Schritt** aus.
 
 1. Der Flow wird mit dem Senden der Erinnerungs-E-Mail beendet. Wählen Sie **E-Mail senden (V2)** über die Suchleiste des Connectors aus. Verwenden Sie das Steuerelement **Dynamischen Inhalt hinzufügen**, um die vom Skript zurückgegebene E-Mail-Adresse hinzuzufügen. Dies wird mit dem Excel-Symbol daneben als **Ergebnis** gekennzeichnet. Sie können einen beliebigen Betreff und Text eingeben.
 
@@ -174,11 +174,11 @@ In diesem Tutorial erfahren Sie, wie Sie Informationen eines Office-Skripts für
     > [!NOTE]
     > In diesem Tutorial wird Outlook verwendet. Sie können stattdessen auch Ihren bevorzugten E-Mail-Dienst verwenden, obwohl einige Optionen anders sein können.
 
-1. Klicken Sie auf **Speichern**.
+1. Wählen Sie **Speichern** aus.
 
 ## <a name="test-the-script-in-power-automate"></a>Testen des Skripts in Power Automate
 
-Ihr Flow wird jeden Montagmorgen ausgeführt. Sie können das Skript jetzt testen, indem Sie auf die Schaltfläche **Test** in der oberen rechten Ecke des Bildschirms drücken. Wählen Sie **Manuell** aus, und drücken Sie **Test ausführen**, um den Flow jetzt auszuführen und das Verhalten zu testen. Möglicherweise müssen Sie Excel und Outlook Berechtigungen erteilen, um fortzufahren.
+Ihr Flow wird jeden Montagmorgen ausgeführt. Sie können das Skript jetzt testen, indem Sie die Schaltfläche **Test** in der oberen rechten Ecke des Bildschirms auswählen. Wählen Sie **Manuell** und anschließend **Test ausführen** aus, um den Flow jetzt auszuführen und das Verhalten zu testen. Möglicherweise müssen Sie Excel und Outlook Berechtigungen erteilen, um fortzufahren.
 
 :::image type="content" source="../images/power-automate-return-tutorial-6.png" alt-text="Schaltfläche „Power Automate-Test“.":::
 

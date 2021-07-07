@@ -1,37 +1,35 @@
 ---
-title: 'Office Skriptbeispielszenario: Notenrechner'
-description: Ein Beispiel, das die Prozent- und Buchstabennoten für eine Schülerklasse bestimmt.
-ms.date: 12/17/2020
+title: 'Office Skript-Beispielszenario: Notenrechner'
+description: Ein Beispiel, das den Prozentsatz und die Buchstabennoten für einen Kurs von Schülern bestimmt.
+ms.date: 06/29/2021
 localization_priority: Normal
-ms.openlocfilehash: e2ef6e7522fc88219bf6ba40900a1ecceecb263b
-ms.sourcegitcommit: f7a7aebfb687f2a35dbed07ed62ff352a114525a
+ms.openlocfilehash: 2d98e68f37418ade238a707cb74cc7ccf47e8f59
+ms.sourcegitcommit: 211c157ca746e266eeb079f5fa1925a1e35ab702
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52232697"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "53313792"
 ---
-# <a name="office-scripts-sample-scenario-grade-calculator"></a>Office Skriptbeispielszenario: Notenrechner
+# <a name="office-scripts-sample-scenario-grade-calculator"></a>Office Skript-Beispielszenario: Notenrechner
 
-In diesem Szenario sind Sie ein Kursleiter, der die End-of-Term-Noten jedes Schülers abfüllt. Sie haben die Noten für ihre Zuordnungen und Tests während Ihres Wegs eingeben. Jetzt ist es an der Zeit, die Schicksale der Schüler zu bestimmen.
+In diesem Szenario sind Sie Kursleiter, der die Abschlussnoten jedes Kursteilnehmers anhört. Sie haben die Bewertungen für ihre Aufgaben und Tests während Ihres Vorgangs eingegeben. Jetzt ist es an der Zeit, die Schüler und Studenten zu ermitteln.
 
-Sie entwickeln ein Skript, das die Noten für jede Punktkategorie insgesamt auflisten kann. Anschließend wird jedem Schüler basierend auf der Gesamtsumme eine Briefnote zugewiesen. Um die Genauigkeit sicherzustellen, fügen Sie ein paar Prüfungen hinzu, um zu überprüfen, ob einzelne Bewertungen zu niedrig oder zu hoch sind. Wenn die Punktzahl eines Schülers kleiner als null oder mehr als der mögliche Punktwert ist, markiert das Skript die Zelle mit einer roten Füllung und nicht die Punkte dieses Kursteilnehmers. Dies ist ein eindeutiger Hinweis darauf, welche Datensätze Sie überprüfen müssen. Sie fügen den Noten auch einige grundlegende Formatierungen hinzu, damit Sie den oberen und unteren Teil der Klasse schnell anzeigen können.
+Sie entwickeln ein Skript, das die Noten für jede Punktekategorie summiert. Anschließend wird jedem Kursteilnehmer basierend auf der Summe eine Notenstufe zugewiesen. Um die Genauigkeit sicherzustellen, fügen Sie ein paar Prüfungen hinzu, um festzustellen, ob einzelne Bewertungen zu niedrig oder hoch sind. Wenn die Bewertung eines Schülers kleiner als Null oder mehr als der mögliche Punktwert ist, kennzeichnet das Skript die Zelle mit einer roten Füllung und nicht mit der Summe der Punkte dieses Schülers. Dies ist ein eindeutiger Hinweis darauf, welche Datensätze Sie überprüfen müssen. Außerdem fügen Sie den Noten einige grundlegende Formatierungen hinzu, damit Sie schnell die obere und untere Ebene der Klasse anzeigen können.
 
-## <a name="scripting-skills-covered"></a>Abgedeckte Skriptkenntnisse
+## <a name="scripting-skills-covered"></a>Abgedeckte Skriptfähigkeiten
 
 - Zellenformatierung
 - Fehlerüberprüfung
 - Reguläre Ausdrücke
 - Bedingte Formatierung
 
-## <a name="setup-instructions"></a>Setupanweisungen
+## <a name="setup-instructions"></a>Setup-Anweisungen
 
-1. Laden <a href="grade-calculator.xlsx">grade-calculator.xlsx</a> auf Ihre OneDrive.
+1. Laden Sie <a href="grade-calculator.xlsx">grade-calculator.xlsx</a> auf Ihre OneDrive herunter.
 
-2. Öffnen Sie die Arbeitsmappe mit Excel für das Web.
+1. Öffnen Sie die Arbeitsmappe mit Excel für das Web.
 
-3. Öffnen Sie **auf** der Registerkarte Automatisieren **alle Skripts**.
-
-4. Drücken Sie **im Aufgabenbereich Code-Editor** die **Taste Neues Skript,** und fügen Sie das folgende Skript in den Editor ein.
+1. Wählen Sie auf der Registerkarte **"Automatisieren"** die Option **"Neues Skript"** aus, und fügen Sie das folgende Skript in den Editor ein.
 
     ```TypeScript
     function main(workbook: ExcelScript.Workbook) {
@@ -174,16 +172,16 @@ Sie entwickeln ein Skript, das die Noten für jede Punktkategorie insgesamt aufl
     }
     ```
 
-5. Benennen Sie das Skript in **Notenrechner um,** und speichern Sie es.
+1. Benennen Sie das Skript in den **Notenrechner um,** und speichern Sie es.
 
 ## <a name="running-the-script"></a>Ausführen des Skripts
 
-Führen Sie das **Skript Notenrechner** im einzigen Arbeitsblatt aus. Das Skript gesamt die Noten und weisen jedem Schüler eine Briefnote zu. Wenn einzelne Noten mehr Punkte haben, als die Zuordnung oder der Test wert ist, wird die beleidigungswürdige Note rot markiert, und die Summe wird nicht berechnet. Außerdem werden alle "A"-Noten grün hervorgehoben, während die Noten "D" und "F" gelb hervorgehoben sind.
+Führen Sie das Skript **"Notenrechner"** auf dem einzigen Arbeitsblatt aus. Das Skript führt die Noten aus und weist jedem Schüler eine Buchstabennote zu. Wenn einzelne Noten mehr Punkte haben, als die Aufgabe oder der Test wert ist, wird die ungültige Noten als rot markiert, und die Summe wird nicht berechnet. Außerdem werden alle "A"-Noten grün hervorgehoben, während die Noten "D" und "F" gelb hervorgehoben sind.
 
 ### <a name="before-running-the-script"></a>Vor dem Ausführen des Skripts
 
-:::image type="content" source="../../images/scenario-grade-calculator-before.png" alt-text="Ein Arbeitsblatt, das Zeilen mit Noten für Schüler und Studenten zeigt":::
+:::image type="content" source="../../images/scenario-grade-calculator-before.png" alt-text="Ein Arbeitsblatt mit Zeilen mit Bewertungen für Schüler/Studenten.":::
 
 ### <a name="after-running-the-script"></a>Nach dem Ausführen des Skripts
 
-:::image type="content" source="../../images/scenario-grade-calculator-after.png" alt-text="Ein Arbeitsblatt, das die Schülerergebnisdaten mit ungültigen Zellen in roten Summen für gültige Schülerzeilen zeigt":::
+:::image type="content" source="../../images/scenario-grade-calculator-after.png" alt-text="Ein Arbeitsblatt, das die Schülerbewertungsdaten mit ungültigen Zellen in roten Summen für gültige Schülerzeilen anzeigt.":::

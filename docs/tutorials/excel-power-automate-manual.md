@@ -1,18 +1,18 @@
 ---
 title: Aufrufen von Skripts aus einem manuellen Power Automate-Datenfluss
 description: Ein Lernprogramm zur Verwendung von Office-Skripts in Power Automate durch einen manuellen Auslöser.
-ms.date: 05/17/2021
+ms.date: 06/29/2021
 localization_priority: Priority
-ms.openlocfilehash: 6da852fd93599753592ea61eef443ef674ead8ef
-ms.sourcegitcommit: 4693c8f79428ec74695328275703af0ba1bfea8f
+ms.openlocfilehash: 1a8b9659ec6f6354d583496ba0f3e94d4a13c01b
+ms.sourcegitcommit: 211c157ca746e266eeb079f5fa1925a1e35ab702
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53074501"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "53313995"
 ---
 # <a name="call-scripts-from-a-manual-power-automate-flow"></a>Aufrufen von Skripts aus einem manuellen Power Automate-Datenfluss
 
-In diesem Lernprogramm erfahren Sie, wie Sie ein Office-Skript für Excel im Web durch [Power Automate](https://flow.microsoft.com) ausführen. Sie erstellen ein Skript, das die Werte von zwei Zellen mit der aktuellen Zeit aktualisiert. Sie verbinden dieses Skript dann mit einem manuell ausgelösten Power Automate-Flow, so dass das Skript immer dann ausgeführt wird, wenn eine Taste in Power Automate gedrückt wird. Sobald Sie das Grundmuster verstanden haben, können Sie den Ablauf auf andere Anwendungen ausweiten und Ihren täglichen Arbeitsablauf stärker automatisieren.
+In diesem Lernprogramm erfahren Sie, wie Sie ein Office-Skript für Excel im Web durch [Power Automate](https://flow.microsoft.com) ausführen. Sie erstellen ein Skript, das die Werte von zwei Zellen mit der aktuellen Zeit aktualisiert. Sie verbinden dieses Skript dann mit einem manuell ausgelösten Power Automate-Flow, so dass das Skript immer dann ausgeführt wird, wenn eine Schaltfläche in Power Automate ausgewählt wird. Sobald Sie das Grundmuster verstanden haben, können Sie den Ablauf auf andere Anwendungen ausweiten und Ihren täglichen Arbeitsablauf stärker automatisieren.
 
 > [!TIP]
 > Wenn Sie mit Office-Skripten noch nicht vertraut sind, empfehlen wir, mit dem [Aufzeichnen, Bearbeiten und Erstellen von Office-Skripten in Excel im Web](excel-tutorial.md)-Lernprogramm zu beginnen. [Office-Skripts verwenden TypeScript](../overview/code-editor-environment.md), und dieses Lernprogramm richten sich an Anfänger bis Fortgeschrittene mit JavaScript oder TypeScript. Wenn Sie noch nicht mit JavaScript vertraut sind, empfehlen wir Ihnen, mit dem [Mozilla-JavaScript-Lernprogramm](https://developer.mozilla.org/docs/Web/JavaScript/Guide/Introduction) zu beginnen.
@@ -57,15 +57,15 @@ Power Automate sollte für den Zugriff auf Arbeitsmappenkomponenten keine [relat
     }
     ```
 
-4. Benennen Sie das Skript in **Datum und Uhrzeit festlegen** um. Klicken Sie auf den Skriptnamen, um ihn zu ändern.
+4. Benennen Sie das Skript in **Datum und Uhrzeit festlegen** um. Wählen Sie den Skriptnamen aus, um ihn zu ändern.
 
-5. Klicken Sie auf **Save Script**, um das Skript zu speichern.
+5. Wählen Sie **Skript speichern** aus, um das Skript zu speichern.
 
 ## <a name="create-an-automated-workflow-with-power-automate"></a>Erstellen eines automatisierten Workflows mit Power Automate
 
 1. Melden Sie sich an der [Power Automate-Website](https://flow.microsoft.com) an.
 
-2. Klicken Sie in dem Menü, das auf der linken Seite des Bildschirms angezeigt wird, auf **Create**. Damit gelangen Sie zur Liste der Möglichkeiten zum Erstellen neuer Workflows.
+2. Wählen Sie in dem Menü, das auf der linken Seite des Bildschirms angezeigt wird, **Erstellen** aus. Damit gelangen Sie zur Liste der Möglichkeiten zum Erstellen neuer Workflows.
 
     :::image type="content" source="../images/power-automate-tutorial-1.png" alt-text="Die Schaltfläche „Erstellen“ in Power Automate.":::
 
@@ -73,13 +73,13 @@ Power Automate sollte für den Zugriff auf Arbeitsmappenkomponenten keine [relat
 
     :::image type="content" source="../images/power-automate-tutorial-2.png" alt-text="Die Option „Direktflow“ zum Erstellen eines neuen Workflows in Power Automate.":::
 
-4. Geben Sie im daraufhin angezeigten Dialogfenster einen Namen für den Flow in das Textfeld **Flow name** ein, wählen Sie in der Liste der Optionen unter **Choose how to trigger the flow** die Option **Manually trigger a flow** aus, und klicken Sie auf **Create**.
+4. Geben Sie im daraufhin angezeigten Dialogfenster einen Namen für den Flow in das Textfeld **Flowname** ein, wählen Sie in der Liste der Optionen unter **Auswählen einer Triggermethode für den Flow** die Option **Einen Flow manuell auslösen** aus, und wählen Sie **Erstellen** aus.
 
     :::image type="content" source="../images/power-automate-tutorial-3.png" alt-text="Die Option „Einen Flow manuell auslösen“ in Power Automate.":::
 
     Beachten Sie, dass ein manuell ausgelöster Flow nur einer von vielen Arten von Flows ist. Im nächsten Lernprogramm erstellen Sie einen Flow, der automatisch ausgeführt wird, wenn Sie eine E-Mail erhalten.
 
-5. Klicken Sie auf **New step**.
+5. Wählen Sie **Neuer Schritt** aus.
 
 6. Wählen Sie die Registerkarte **Standard** aus, und wählen Sie dann **Excel Online (Business)** aus.
 
@@ -98,7 +98,7 @@ Power Automate sollte für den Zugriff auf Arbeitsmappenkomponenten keine [relat
 
     :::image type="content" source="../images/power-automate-tutorial-6.png" alt-text="Die Einstellungen des Power Automate-Connectors zum Ausführen eines Skripts.":::
 
-9. Klicken Sie auf **Save**.
+9. Wählen Sie **Speichern** aus.
 
 Jetzt kann ihr Flow über Power Automate ausgeführt werden. Sie können ihn mithilfe der Schaltfläche **Test** im Flow-Editor testen oder die weiteren Lernprogrammschritte zum Ausführen des Flows aus der Flow-Sammlung ausführen.
 
@@ -110,15 +110,15 @@ Jetzt kann ihr Flow über Power Automate ausgeführt werden. Sie können ihn mit
 
 2. Wählen Sie in der Liste der Flows, die auf der Registerkarte **My Flows** angezeigt werden, **Mein Lernprogramm-Flow** aus. Die Details des zuvor erstellten Flows werden angezeigt.
 
-3. Klicken Sie auf **Run**.
+3. Wählen Sie **Ausführen** aus.
 
     :::image type="content" source="../images/power-automate-tutorial-8.png" alt-text="Schaltfläche „Ausführen“ in Power Automate.":::
 
-4. Für die Ausführung des Flows wird ein Aufgabenbereich angezeigt. Wenn Sie aufgefordert werden, sich bei Excel Online **anzumelden** klicken Sie auf **Continue**.
+4. Für die Ausführung des Flows wird ein Aufgabenbereich angezeigt. Wenn Sie aufgefordert werden, sich bei Excel Online **anzumelden** klicken Sie auf **Weiter**.
 
-5. Klicken Sie auf **Run flow**. Damit wird der Flow ausgeführt, der das zugehörige Office-Skript ausführt.
+5. Wählen Sie **Flow ausführen** aus. Damit wird der Flow ausgeführt, der das zugehörige Office-Skript ausführt.
 
-6. Klicken Sie auf **Done**. Der Abschnitt **Runs** wird entsprechend aktualisiert.
+6. Wählen Sie **Fertig** aus. Der Abschnitt **Runs** wird entsprechend aktualisiert.
 
 7. Aktualisieren Sie die Seite, um die Ergebnisse von Power Automate anzuzeigen. Wenn der Vorgang erfolgreich war, wechseln Sie zur Arbeitsmappe, um die aktualisierten Zellen anzuzeigen. Falls ein Fehler aufgetreten ist, überprüfen Sie die Einstellungen des Flows, und führen Sie ihn ein zweites Mal aus.
 

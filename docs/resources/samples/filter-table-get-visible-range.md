@@ -1,30 +1,30 @@
 ---
-title: Filtern Excel Tabelle und Erhalten des sichtbaren Bereichs
-description: Erfahren Sie, Office Skripts verwenden, um eine Excel zu filtern und den sichtbaren Bereich als Array von Objekten zu erhalten.
-ms.date: 05/06/2021
+title: Filtern Excel Tabelle und Abrufen des sichtbaren Bereichs
+description: Erfahren Sie, wie Sie Office Skripts verwenden, um eine Excel Tabelle zu filtern und den sichtbaren Bereich als Array von Objekten abzurufen.
+ms.date: 06/29/2021
 localization_priority: Normal
-ms.openlocfilehash: 196e39ffdfb7e6ff2d0898802665d3c2eccc7dbe
-ms.sourcegitcommit: 763d341857bcb209b2f2c278a82fdb63d0e18f0a
+ms.openlocfilehash: b19b826f95c7e7aeb331130fde05afaafe500c3d
+ms.sourcegitcommit: 211c157ca746e266eeb079f5fa1925a1e35ab702
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/08/2021
-ms.locfileid: "52285794"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "53313953"
 ---
-# <a name="filter-excel-table-and-get-visible-range-as-a-json-object"></a>Filtern Excel Tabelle und Erhalten des sichtbaren Bereichs als JSON-Objekt
+# <a name="filter-excel-table-and-get-visible-range-as-a-json-object"></a>Filtern Excel Tabelle und Abrufen eines sichtbaren Bereichs als JSON-Objekt
 
-In diesem Beispiel wird eine Excel filtert und der sichtbare Bereich als JSON-Objekt zurückgegeben. Diese JSON könnte einem Power Automate als Teil einer größeren Lösung bereitgestellt werden.
+In diesem Beispiel wird eine Excel Tabelle gefiltert und der sichtbare Bereich als JSON-Objekt zurückgegeben. Dieser JSON-Code könnte einem Power Automate Fluss als Teil einer größeren Lösung bereitgestellt werden.
 
 ## <a name="example-scenario"></a>Beispielszenario
 
-* Wenden Sie einen Filter auf eine Tabellenspalte an.
+* Wendet einen Filter auf eine Tabellenspalte an.
 * Extrahieren Sie den sichtbaren Bereich nach dem Filtern.
-* Zusammenstellen und Zurückgeben eines Objekts mit einer [bestimmten JSON-Struktur](#sample-json).
+* Ein Objekt mit einer [bestimmten JSON-Struktur](#sample-json)zusammenstellen und zurückgeben.
 
-## <a name="sample-code-filter-a-table-and-get-visible-range"></a>Beispielcode: Filtern einer Tabelle und Erhalten eines sichtbaren Bereichs
+## <a name="sample-excel-file"></a>Beispieldatei für Excel
 
-Das folgende Skript filtert eine Tabelle und ruft den sichtbaren Bereich ab.
+Laden Sie <a href="table-filter.xlsx">table-filter.xlsx</a> für eine einsatzbereite Arbeitsmappe herunter. Fügen Sie das folgende Skript hinzu, um das Beispiel selbst auszuprobieren!
 
-Laden Sie die Beispieldatei <a href="table-filter.xlsx">table-filter.xlsx</a> und verwenden Sie sie mit diesem Skript, um sie selbst auszuprobieren!
+## <a name="sample-code-filter-a-table-and-get-visible-range"></a>Beispielcode: Filtern einer Tabelle und Abrufen des sichtbaren Bereichs
 
 ```TypeScript
 function main(workbook: ExcelScript.Workbook): ReturnTemplate {
@@ -88,7 +88,7 @@ interface ReturnTemplate {
 }
 ```
 
-### <a name="sample-json"></a>Beispiel-JSON
+### <a name="sample-json"></a>JSON-Beispiel
 
 Jeder Schlüssel stellt einen eindeutigen Wert einer Tabelle dar. Jede Arrayinstanz stellt die Zeile dar, die angezeigt wird, wenn der entsprechende Filter angewendet wird.
 
@@ -136,6 +136,6 @@ Jeder Schlüssel stellt einen eindeutigen Wert einer Tabelle dar. Jede Arrayinst
 }
 ```
 
-## <a name="training-video-filter-an-excel-table-and-get-the-visible-range"></a>Schulungsvideo: Filtern einer Excel Tabelle und Erhalten des sichtbaren Bereichs
+## <a name="training-video-filter-an-excel-table-and-get-the-visible-range"></a>Schulungsvideo: Filtern einer Excel Tabelle und Abrufen des sichtbaren Bereichs
 
-[Sehen Sie sich an, wie Sudhi Ramamurthy dieses Beispiel auf YouTube durchspazieren.](https://youtu.be/Mv7BrvPq84A)
+[Sehen Sie sich dieses Beispiel auf YouTube an.](https://youtu.be/Mv7BrvPq84A)

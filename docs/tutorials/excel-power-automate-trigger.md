@@ -1,14 +1,14 @@
 ---
 title: Übergeben von Daten zu Skripts in einem automatisch ausgeführten Power Automate-Datenfluss
 description: Ein Lernprogramm zum Ausführen von Office-Skripts für Excel im Web mithilfe von Power Automate, wenn E-Mails empfangen und Flussdaten an das Skript übergeben werden.
-ms.date: 12/28/2020
+ms.date: 06/29/2021
 localization_priority: Priority
-ms.openlocfilehash: b459501a955f337c7a0ad4040c7d7f5d9e344b93
-ms.sourcegitcommit: 4693c8f79428ec74695328275703af0ba1bfea8f
+ms.openlocfilehash: 27a028d3cc2af58ca158bb631b7b266cd2a3d488
+ms.sourcegitcommit: 211c157ca746e266eeb079f5fa1925a1e35ab702
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53074683"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "53313701"
 ---
 # <a name="pass-data-to-scripts-in-an-automatically-run-power-automate-flow"></a>Übergeben von Daten zu Skripts in einem automatisch ausgeführten Power Automate-Datenfluss
 
@@ -31,7 +31,7 @@ Power Automate sollte für den Zugriff auf Arbeitsmappenkomponenten keine [relat
 
 3. Wählen Sie **New Script** aus.
 
-4. Ersetzen Sie den vorhandenen Code durch den folgenden Code, und klicken Sie auf **Run**. Dadurch wird die Arbeitsmappe mit konsistenten Namen für Arbeitsblatt, Tabelle und PivotTable eingerichtet.
+4. Ersetzen Sie den vorhandenen Code durch den folgenden Code, und wählen Sie **Ausführen** aus. Dadurch wird die Arbeitsmappe mit konsistenten Namen für Arbeitsblatt, Tabelle und PivotTable eingerichtet.
 
     ```TypeScript
     function main(workbook: ExcelScript.Workbook) {
@@ -60,7 +60,7 @@ Power Automate sollte für den Zugriff auf Arbeitsmappenkomponenten keine [relat
 
 Jetzt erstellen Sie ein Skript, das Informationen aus einer E-Mail protokolliert. Wir möchten wissen, an welchen Wochentagen wir die meisten E-Mails empfangen, und wie viele eindeutige Absender diese E-Mails senden. Die Arbeitsmappe enthält eine Tabelle mit den Spalten **Date**, **Day of the week**, **Email address** und **Subject**. Unser Arbeitsblatt enthält außerdem eine PivotTable, die die Spalten **Day of the week** und **Email address** verwendet (dabei handelt es sich um die Zeilenhierarchien). Die Anzahl eindeutiger **Themen** entspricht den aggregierten Informationen, die angezeigt werden (die Datenhierarchie). Nachdem die E-Mail-Tabelle aktualisiert wurde, wird auch das Skript aktualisiert.
 
-1. Wählen Sie im Aufgabenbereich **Code-Editor** die Option **Neues Skript** aus.
+1. Wählen Sie im Aufgabenbereich Code-Editor die Option **Neues Skript** aus.
 
 2. Der Datenstrom, den wir später im Lernprogramm erstellen, sendet die Skriptinformationen zu jeder empfangenen E-Mail-Nachricht. Das Skript muss diese Eingabe über Parameter in der `main`-Funktion akzeptieren. Ersetzen Sie das Standardskript durch das folgende Skript:
 
@@ -116,7 +116,7 @@ Jetzt erstellen Sie ein Skript, das Informationen aus einer E-Mail protokolliert
     pivotTable.refresh();
     ```
 
-8. Benennen Sie das Skript in **E-Mail aufzeichnen** um, und klicken Sie auf **Save Script**.
+8. Benennen Sie das Skript in **E-Mail aufzeichnen** um, und wählen Sie **Skript speichern** aus.
 
 Jetzt ist Ihr Skript bereit für einen Power Automate-Workflow. Es sollte wie das folgende Skript aussehen:
 
@@ -154,7 +154,7 @@ function main(
 
 1. Melden Sie sich an der [Power Automate-Website](https://flow.microsoft.com) an.
 
-2. Klicken Sie in dem Menü, das auf der linken Seite des Bildschirms angezeigt wird, auf **Create**. Damit gelangen Sie zur Liste der Möglichkeiten zum Erstellen neuer Workflows.
+2. Wählen Sie in dem Menü, das auf der linken Seite des Bildschirms angezeigt wird, **Erstellen** aus. Damit gelangen Sie zur Liste der Möglichkeiten zum Erstellen neuer Workflows.
 
     :::image type="content" source="../images/power-automate-tutorial-1.png" alt-text="Die Power Automate-Schaltfläche „Erstellen“.":::
 
@@ -162,14 +162,14 @@ function main(
 
     :::image type="content" source="../images/power-automate-params-tutorial-1.png" alt-text="Die Option für den automatisierten Fluss in Power Automate.":::
 
-4. Geben Sie im daraufhin angezeigten Dialogfenster einen Namen für den Fluss im Textfeld **Flow name** ein. Wählen Sie dann **When a new email arrives** aus der Liste der Optionen unter **Choose your flow's trigger** aus. Möglicherweise müssen Sie mithilfe des Suchfelds nach der Option suchen. Klicken Sie abschließend **Create**.
+4. Geben Sie im daraufhin angezeigten Dialogfenster einen Namen für den Fluss im Textfeld **Flow name** ein. Wählen Sie dann **When a new email arrives** aus der Liste der Optionen unter **Choose your flow's trigger** aus. Möglicherweise müssen Sie mithilfe des Suchfelds nach der Option suchen. Wählen Sie abschließend **Erstellen** aus.
 
     :::image type="content" source="../images/power-automate-params-tutorial-2.png" alt-text="Ein Teil des Power Automate-Flusses zeigt den ‚Flussnamen‘ und die Optionen zum Auswählen des Triggers für den Fluss. Der Flussname ist ‚E-Mail-Fluss-Datensatz‘, und der Trigger ist die Option ‚Wenn eine neue E-Mail in Outlook eintrifft‘.":::
 
     > [!NOTE]
     > In diesem Tutorial wird Outlook verwendet. Sie können stattdessen auch Ihren bevorzugten E-Mail-Dienst verwenden, obwohl einige Optionen anders sein können.
 
-5. Klicken Sie auf **New step**.
+5. Wählen Sie **Neuer Schritt** aus.
 
 6. Wählen Sie die Registerkarte **Standard** aus, und wählen Sie dann **Excel Online (Business)** aus.
 
@@ -193,7 +193,7 @@ function main(
 
     :::image type="content" source="../images/power-automate-params-tutorial-3.png" alt-text="Die Aktion zum Ausführen eines Skripts in PowerAutomate zeigt die Optionen an, die erscheinen, nachdem das Skript ausgewählt wurde.":::
 
-9. Klicken Sie auf **Speichern**.
+9. Wählen Sie **Speichern** aus.
 
 Der Fluss ist nun aktiviert. Er wird das Skript automatisch jedes Mal ausführen, wenn Sie eine E-Mail über Outlook erhalten.
 
@@ -203,7 +203,7 @@ Der Fluss ist nun aktiviert. Er wird das Skript automatisch jedes Mal ausführen
 
     :::image type="content" source="../images/power-automate-tutorial-7.png" alt-text="Die Schaltfläche „Meine Flows“ in Power Automate.":::
 
-2. Wählen Sie Ihren Flow aus. Hier sehen Sie den Ausführungsverlauf. Sie können die Seite aktualisieren, oder Sie können auf die Schaltfläche **All runs** klicken, um den Verlauf zu aktualisieren. Der Flow wird kurz nach Empfang einer E-Mail ausgelöst. Testen Sie den Flow durch Senden von E-Mails.
+2. Wählen Sie Ihren Flow aus. Hier sehen Sie den Ausführungsverlauf. Sie können die Seite aktualisieren, oder Sie können die Schaltfläche **All runs** auswählen, um den Verlauf zu aktualisieren. Der Flow wird kurz nach Empfang einer E-Mail ausgelöst. Testen Sie den Flow durch Senden von E-Mails.
 
 Wenn der Flow ausgelöst und das Skript erfolgreich ausgeführt wird, sollten die Tabelle und die PivotTable der Arbeitsmappe aktualisiert werden.
 
