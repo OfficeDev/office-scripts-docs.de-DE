@@ -1,34 +1,34 @@
 ---
 title: Zählen leerer Zeilen in Blättern
 description: In diesem Artikel erfahren Sie, wie Sie mithilfe von Office Skripts ermitteln, ob es leere Zeilen anstelle von Daten in Arbeitsblättern gibt, und dann die Anzahl leerer Zeilen melden, die in einem Power Automate-Fluss verwendet werden soll.
-ms.date: 05/04/2021
+ms.date: 06/29/2021
 localization_priority: Normal
-ms.openlocfilehash: 73fe0f995ee6ccaa1328b68983f0ec6887d96a09
-ms.sourcegitcommit: 4693c8f79428ec74695328275703af0ba1bfea8f
+ms.openlocfilehash: e5b60779d2ca2de5f4cf4e03ddd6ff7372515ad6
+ms.sourcegitcommit: 211c157ca746e266eeb079f5fa1925a1e35ab702
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53074578"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "53313806"
 ---
-# <a name="count-blank-rows-on-sheets"></a><span data-ttu-id="20737-103">Zählen leerer Zeilen in Blättern</span><span class="sxs-lookup"><span data-stu-id="20737-103">Count blank rows on sheets</span></span>
+# <a name="count-blank-rows-on-sheets"></a><span data-ttu-id="8e562-103">Zählen leerer Zeilen in Blättern</span><span class="sxs-lookup"><span data-stu-id="8e562-103">Count blank rows on sheets</span></span>
 
-<span data-ttu-id="20737-104">Dieses Projekt enthält zwei Skripts:</span><span class="sxs-lookup"><span data-stu-id="20737-104">This project includes two scripts:</span></span>
+<span data-ttu-id="8e562-104">Dieses Projekt enthält zwei Skripts:</span><span class="sxs-lookup"><span data-stu-id="8e562-104">This project includes two scripts:</span></span>
 
-* <span data-ttu-id="20737-105">[Zählen leerer Zeilen auf einem bestimmten Blatt:](#sample-code-count-blank-rows-on-a-given-sheet)Durchläuft den verwendeten Bereich eines bestimmten Arbeitsblatts und gibt eine leere Zeilenanzahl zurück.</span><span class="sxs-lookup"><span data-stu-id="20737-105">[Count blank rows on a given sheet](#sample-code-count-blank-rows-on-a-given-sheet): Traverses the used range on a given worksheet and returns a blank row count.</span></span>
-* <span data-ttu-id="20737-106">[Leere Zeilen auf allen Blättern](#sample-code-count-blank-rows-on-all-sheets)zählen: Durchläuft den verwendeten Bereich _auf allen Arbeitsblättern_ und gibt eine leere Zeilenanzahl zurück.</span><span class="sxs-lookup"><span data-stu-id="20737-106">[Count blank rows on all sheets](#sample-code-count-blank-rows-on-all-sheets): Traverses the used range on _all of the worksheets_ and returns a blank row count.</span></span>
+* <span data-ttu-id="8e562-105">[Zählen leerer Zeilen auf einem bestimmten Blatt:](#sample-code-count-blank-rows-on-a-given-sheet)Durchläuft den verwendeten Bereich eines bestimmten Arbeitsblatts und gibt eine leere Zeilenanzahl zurück.</span><span class="sxs-lookup"><span data-stu-id="8e562-105">[Count blank rows on a given sheet](#sample-code-count-blank-rows-on-a-given-sheet): Traverses the used range on a given worksheet and returns a blank row count.</span></span>
+* <span data-ttu-id="8e562-106">[Leere Zeilen auf allen Blättern](#sample-code-count-blank-rows-on-all-sheets)zählen: Durchläuft den verwendeten Bereich _auf allen Arbeitsblättern_ und gibt eine leere Zeilenanzahl zurück.</span><span class="sxs-lookup"><span data-stu-id="8e562-106">[Count blank rows on all sheets](#sample-code-count-blank-rows-on-all-sheets): Traverses the used range on _all of the worksheets_ and returns a blank row count.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="20737-107">Für unser Skript ist eine leere Zeile eine Zeile, in der keine Daten vorhanden sind.</span><span class="sxs-lookup"><span data-stu-id="20737-107">For our script, a blank row is any row where there's no data.</span></span> <span data-ttu-id="20737-108">Die Zeile kann eine Formatierung aufweisen.</span><span class="sxs-lookup"><span data-stu-id="20737-108">The row can have formatting.</span></span>
+> <span data-ttu-id="8e562-107">Für unser Skript ist eine leere Zeile eine Zeile, in der keine Daten vorhanden sind.</span><span class="sxs-lookup"><span data-stu-id="8e562-107">For our script, a blank row is any row where there's no data.</span></span> <span data-ttu-id="8e562-108">Die Zeile kann eine Formatierung aufweisen.</span><span class="sxs-lookup"><span data-stu-id="8e562-108">The row can have formatting.</span></span>
 
-<span data-ttu-id="20737-109">_Dieses Blatt gibt die Anzahl von 4 leeren Zeilen zurück._</span><span class="sxs-lookup"><span data-stu-id="20737-109">_This sheet returns count of 4 blank rows_</span></span>
+<span data-ttu-id="8e562-109">_Dieses Blatt gibt die Anzahl von 4 leeren Zeilen zurück._</span><span class="sxs-lookup"><span data-stu-id="8e562-109">_This sheet returns count of 4 blank rows_</span></span>
 
 :::image type="content" source="../../images/blank-rows.png" alt-text="Ein Arbeitsblatt mit Daten mit leeren Zeilen.":::
 
-<span data-ttu-id="20737-111">_Dieses Blatt gibt die Anzahl von 0 leeren Zeilen zurück (alle Zeilen haben einige Daten)_</span><span class="sxs-lookup"><span data-stu-id="20737-111">_This sheet returns count of 0 blank rows (all rows have some data)_</span></span>
+<span data-ttu-id="8e562-111">_Dieses Blatt gibt die Anzahl von 0 leeren Zeilen zurück (alle Zeilen haben einige Daten)_</span><span class="sxs-lookup"><span data-stu-id="8e562-111">_This sheet returns count of 0 blank rows (all rows have some data)_</span></span>
 
 :::image type="content" source="../../images/no-blank-rows.png" alt-text="Ein Arbeitsblatt mit Daten ohne leere Zeilen.":::
 
-## <a name="sample-code-count-blank-rows-on-a-given-sheet"></a><span data-ttu-id="20737-113">Beispielcode: Zählen leerer Zeilen auf einem bestimmten Blatt</span><span class="sxs-lookup"><span data-stu-id="20737-113">Sample code: Count blank rows on a given sheet</span></span>
+## <a name="sample-code-count-blank-rows-on-a-given-sheet"></a><span data-ttu-id="8e562-113">Beispielcode: Zählen leerer Zeilen auf einem bestimmten Blatt</span><span class="sxs-lookup"><span data-stu-id="8e562-113">Sample code: Count blank rows on a given sheet</span></span>
 
 ```TypeScript
 function main(workbook: ExcelScript.Workbook): number
@@ -75,7 +75,7 @@ function main(workbook: ExcelScript.Workbook): number
 }
 ```
 
-## <a name="sample-code-count-blank-rows-on-all-sheets"></a><span data-ttu-id="20737-114">Beispielcode: Zählen leerer Zeilen auf allen Blättern</span><span class="sxs-lookup"><span data-stu-id="20737-114">Sample code: Count blank rows on all sheets</span></span>
+## <a name="sample-code-count-blank-rows-on-all-sheets"></a><span data-ttu-id="8e562-114">Beispielcode: Zählen leerer Zeilen auf allen Blättern</span><span class="sxs-lookup"><span data-stu-id="8e562-114">Sample code: Count blank rows on all sheets</span></span>
 
 ```TypeScript
 function main(workbook: ExcelScript.Workbook): number
@@ -122,7 +122,3 @@ function main(workbook: ExcelScript.Workbook): number
   return emptyRows;
 }
 ```
-
-## <a name="use-with-power-automate"></a><span data-ttu-id="20737-115">Verwenden mit Power Automate</span><span class="sxs-lookup"><span data-stu-id="20737-115">Use with Power Automate</span></span>
-
-:::image type="content" source="../../images/use-in-power-automate.png" alt-text="Ein Power Automate-Ablauf, der zeigt, wie ein Office Skript ausgeführt werden kann.":::

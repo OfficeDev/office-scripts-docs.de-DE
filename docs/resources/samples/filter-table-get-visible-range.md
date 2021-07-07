@@ -1,30 +1,30 @@
 ---
-title: Filtern Excel Tabelle und Erhalten des sichtbaren Bereichs
-description: Erfahren Sie, Office Skripts verwenden, um eine Excel zu filtern und den sichtbaren Bereich als Array von Objekten zu erhalten.
-ms.date: 05/06/2021
+title: Filtern Excel Tabelle und Abrufen des sichtbaren Bereichs
+description: Erfahren Sie, wie Sie Office Skripts verwenden, um eine Excel Tabelle zu filtern und den sichtbaren Bereich als Array von Objekten abzurufen.
+ms.date: 06/29/2021
 localization_priority: Normal
-ms.openlocfilehash: 196e39ffdfb7e6ff2d0898802665d3c2eccc7dbe
-ms.sourcegitcommit: 763d341857bcb209b2f2c278a82fdb63d0e18f0a
+ms.openlocfilehash: b19b826f95c7e7aeb331130fde05afaafe500c3d
+ms.sourcegitcommit: 211c157ca746e266eeb079f5fa1925a1e35ab702
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/08/2021
-ms.locfileid: "52285794"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "53313953"
 ---
-# <a name="filter-excel-table-and-get-visible-range-as-a-json-object"></a><span data-ttu-id="b995e-103">Filtern Excel Tabelle und Erhalten des sichtbaren Bereichs als JSON-Objekt</span><span class="sxs-lookup"><span data-stu-id="b995e-103">Filter Excel table and get visible range as a JSON object</span></span>
+# <a name="filter-excel-table-and-get-visible-range-as-a-json-object"></a><span data-ttu-id="e860e-103">Filtern Excel Tabelle und Abrufen eines sichtbaren Bereichs als JSON-Objekt</span><span class="sxs-lookup"><span data-stu-id="e860e-103">Filter Excel table and get visible range as a JSON object</span></span>
 
-<span data-ttu-id="b995e-104">In diesem Beispiel wird eine Excel filtert und der sichtbare Bereich als JSON-Objekt zurückgegeben.</span><span class="sxs-lookup"><span data-stu-id="b995e-104">This sample filters an Excel table and returns the visible range as a JSON object.</span></span> <span data-ttu-id="b995e-105">Diese JSON könnte einem Power Automate als Teil einer größeren Lösung bereitgestellt werden.</span><span class="sxs-lookup"><span data-stu-id="b995e-105">This JSON could be provided to a Power Automate flow as part of a larger solution.</span></span>
+<span data-ttu-id="e860e-104">In diesem Beispiel wird eine Excel Tabelle gefiltert und der sichtbare Bereich als JSON-Objekt zurückgegeben.</span><span class="sxs-lookup"><span data-stu-id="e860e-104">This sample filters an Excel table and returns the visible range as a JSON object.</span></span> <span data-ttu-id="e860e-105">Dieser JSON-Code könnte einem Power Automate Fluss als Teil einer größeren Lösung bereitgestellt werden.</span><span class="sxs-lookup"><span data-stu-id="e860e-105">This JSON could be provided to a Power Automate flow as part of a larger solution.</span></span>
 
-## <a name="example-scenario"></a><span data-ttu-id="b995e-106">Beispielszenario</span><span class="sxs-lookup"><span data-stu-id="b995e-106">Example scenario</span></span>
+## <a name="example-scenario"></a><span data-ttu-id="e860e-106">Beispielszenario</span><span class="sxs-lookup"><span data-stu-id="e860e-106">Example scenario</span></span>
 
-* <span data-ttu-id="b995e-107">Wenden Sie einen Filter auf eine Tabellenspalte an.</span><span class="sxs-lookup"><span data-stu-id="b995e-107">Apply a filter to a table column.</span></span>
-* <span data-ttu-id="b995e-108">Extrahieren Sie den sichtbaren Bereich nach dem Filtern.</span><span class="sxs-lookup"><span data-stu-id="b995e-108">Extract the visible range after filtering.</span></span>
-* <span data-ttu-id="b995e-109">Zusammenstellen und Zurückgeben eines Objekts mit einer [bestimmten JSON-Struktur](#sample-json).</span><span class="sxs-lookup"><span data-stu-id="b995e-109">Assemble and return an object with a [specific JSON structure](#sample-json).</span></span>
+* <span data-ttu-id="e860e-107">Wendet einen Filter auf eine Tabellenspalte an.</span><span class="sxs-lookup"><span data-stu-id="e860e-107">Apply a filter to a table column.</span></span>
+* <span data-ttu-id="e860e-108">Extrahieren Sie den sichtbaren Bereich nach dem Filtern.</span><span class="sxs-lookup"><span data-stu-id="e860e-108">Extract the visible range after filtering.</span></span>
+* <span data-ttu-id="e860e-109">Ein Objekt mit einer [bestimmten JSON-Struktur](#sample-json)zusammenstellen und zurückgeben.</span><span class="sxs-lookup"><span data-stu-id="e860e-109">Assemble and return an object with a [specific JSON structure](#sample-json).</span></span>
 
-## <a name="sample-code-filter-a-table-and-get-visible-range"></a><span data-ttu-id="b995e-110">Beispielcode: Filtern einer Tabelle und Erhalten eines sichtbaren Bereichs</span><span class="sxs-lookup"><span data-stu-id="b995e-110">Sample code: Filter a table and get visible range</span></span>
+## <a name="sample-excel-file"></a><span data-ttu-id="e860e-110">Beispieldatei für Excel</span><span class="sxs-lookup"><span data-stu-id="e860e-110">Sample Excel file</span></span>
 
-<span data-ttu-id="b995e-111">Das folgende Skript filtert eine Tabelle und ruft den sichtbaren Bereich ab.</span><span class="sxs-lookup"><span data-stu-id="b995e-111">The following script filters a table and gets the visible range.</span></span>
+<span data-ttu-id="e860e-111">Laden Sie <a href="table-filter.xlsx">table-filter.xlsx</a> für eine einsatzbereite Arbeitsmappe herunter.</span><span class="sxs-lookup"><span data-stu-id="e860e-111">Download <a href="table-filter.xlsx">table-filter.xlsx</a> for a ready-to-use workbook.</span></span> <span data-ttu-id="e860e-112">Fügen Sie das folgende Skript hinzu, um das Beispiel selbst auszuprobieren!</span><span class="sxs-lookup"><span data-stu-id="e860e-112">Add the following script to try the sample yourself!</span></span>
 
-<span data-ttu-id="b995e-112">Laden Sie die Beispieldatei <a href="table-filter.xlsx">table-filter.xlsx</a> und verwenden Sie sie mit diesem Skript, um sie selbst auszuprobieren!</span><span class="sxs-lookup"><span data-stu-id="b995e-112">Download the sample file <a href="table-filter.xlsx">table-filter.xlsx</a> and use it with this script to try it out yourself!</span></span>
+## <a name="sample-code-filter-a-table-and-get-visible-range"></a><span data-ttu-id="e860e-113">Beispielcode: Filtern einer Tabelle und Abrufen des sichtbaren Bereichs</span><span class="sxs-lookup"><span data-stu-id="e860e-113">Sample code: Filter a table and get visible range</span></span>
 
 ```TypeScript
 function main(workbook: ExcelScript.Workbook): ReturnTemplate {
@@ -88,9 +88,9 @@ interface ReturnTemplate {
 }
 ```
 
-### <a name="sample-json"></a><span data-ttu-id="b995e-113">Beispiel-JSON</span><span class="sxs-lookup"><span data-stu-id="b995e-113">Sample JSON</span></span>
+### <a name="sample-json"></a><span data-ttu-id="e860e-114">JSON-Beispiel</span><span class="sxs-lookup"><span data-stu-id="e860e-114">Sample JSON</span></span>
 
-<span data-ttu-id="b995e-114">Jeder Schlüssel stellt einen eindeutigen Wert einer Tabelle dar.</span><span class="sxs-lookup"><span data-stu-id="b995e-114">Each key represents a unique value of a table.</span></span> <span data-ttu-id="b995e-115">Jede Arrayinstanz stellt die Zeile dar, die angezeigt wird, wenn der entsprechende Filter angewendet wird.</span><span class="sxs-lookup"><span data-stu-id="b995e-115">Each array instance represents the row that is visible when the corresponding filter is applied.</span></span>
+<span data-ttu-id="e860e-115">Jeder Schlüssel stellt einen eindeutigen Wert einer Tabelle dar.</span><span class="sxs-lookup"><span data-stu-id="e860e-115">Each key represents a unique value of a table.</span></span> <span data-ttu-id="e860e-116">Jede Arrayinstanz stellt die Zeile dar, die angezeigt wird, wenn der entsprechende Filter angewendet wird.</span><span class="sxs-lookup"><span data-stu-id="e860e-116">Each array instance represents the row that is visible when the corresponding filter is applied.</span></span>
 
 ```json
 {
@@ -136,6 +136,6 @@ interface ReturnTemplate {
 }
 ```
 
-## <a name="training-video-filter-an-excel-table-and-get-the-visible-range"></a><span data-ttu-id="b995e-116">Schulungsvideo: Filtern einer Excel Tabelle und Erhalten des sichtbaren Bereichs</span><span class="sxs-lookup"><span data-stu-id="b995e-116">Training video: Filter an Excel table and get the visible range</span></span>
+## <a name="training-video-filter-an-excel-table-and-get-the-visible-range"></a><span data-ttu-id="e860e-117">Schulungsvideo: Filtern einer Excel Tabelle und Abrufen des sichtbaren Bereichs</span><span class="sxs-lookup"><span data-stu-id="e860e-117">Training video: Filter an Excel table and get the visible range</span></span>
 
-<span data-ttu-id="b995e-117">[Sehen Sie sich an, wie Sudhi Ramamurthy dieses Beispiel auf YouTube durchspazieren.](https://youtu.be/Mv7BrvPq84A)</span><span class="sxs-lookup"><span data-stu-id="b995e-117">[Watch Sudhi Ramamurthy walk through this sample on YouTube](https://youtu.be/Mv7BrvPq84A).</span></span>
+<span data-ttu-id="e860e-118">[Sehen Sie sich dieses Beispiel auf YouTube an.](https://youtu.be/Mv7BrvPq84A)</span><span class="sxs-lookup"><span data-stu-id="e860e-118">[Watch Sudhi Ramamurthy walk through this sample on YouTube](https://youtu.be/Mv7BrvPq84A).</span></span>
