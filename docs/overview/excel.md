@@ -1,14 +1,14 @@
 ---
 title: Office-Skripts in Excel im Web
 description: Eine kurze Einführung in den Action Recorder und den Code Editor für Office-Skripts.
-ms.date: 05/24/2021
+ms.date: 07/04/2021
 localization_priority: Priority
-ms.openlocfilehash: 93d6457338442472fc691d6d020dff99e7963b1b
-ms.sourcegitcommit: 4693c8f79428ec74695328275703af0ba1bfea8f
+ms.openlocfilehash: c1659eeb638d8641509438ced93f207afb261dab
+ms.sourcegitcommit: de25e0657e7404bb780851b52633222bc3f80e52
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53074599"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53529211"
 ---
 # <a name="office-scripts-in-excel-on-the-web"></a>Office-Skripts in Excel im Web
 
@@ -89,3 +89,5 @@ Führen Sie die [Office-Skripts in Excel im Web-Lernprogramm](../tutorials/excel
 - [Office-Skripts-Einstellungen in M365](https://support.office.com/article/office-scripts-settings-in-m365-19d3c51a-6ca2-40ab-978d-60fa49554dcf)
 - [Einführung in Office-Skripts in Excel (unter support.office.com)](https://support.office.com/article/introduction-to-office-scripts-in-excel-9fbe283d-adb8-4f13-a75b-a81c6baf163a)
 - [Office-Skripts in Excel für das Web](https://support.microsoft.com/office/sharing-office-scripts-in-excel-for-the-web-226eddbc-3a44-4540-acfe-fccda3d1122b)
+- [Office-Skripts Dev Center](https://developer.microsoft.com/office-scripts)
+

@@ -1,14 +1,14 @@
 ---
 title: TypeScript-Einschränkungen in Office Skripts
 description: Die Einzelheiten des TypeScript-Compilers und Linters, die vom Code-Editor für Office Skripts verwendet werden.
-ms.date: 05/24/2021
+ms.date: 07/14/2021
 localization_priority: Normal
-ms.openlocfilehash: 0bc6b4c0acaf9bb42f8200a0850dd7254632f965
-ms.sourcegitcommit: 4693c8f79428ec74695328275703af0ba1bfea8f
+ms.openlocfilehash: 530314b624ef4674de60e5cfac7735c90044fb56
+ms.sourcegitcommit: de25e0657e7404bb780851b52633222bc3f80e52
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53074445"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53529225"
 ---
 # <a name="typescript-restrictions-in-office-scripts"></a>TypeScript-Einschränkungen in Office Skripts
 
@@ -26,13 +26,13 @@ Sie können eine Variable nicht explizit als Typ `any` in Office Skripts deklari
 
 :::image type="content" source="../images/explicit-any-error-message.png" alt-text="Der explizite Fehler &quot;any&quot; im Konsolenfenster.":::
 
-Im vorherigen Screenshot `[2, 14] Explicit Any is not allowed` wird angegeben, dass zeile #2 Spalte #14 `any` Typ definiert. Dies hilft Ihnen bei der Suche nach dem Fehler.
+Im vorherigen Screenshot `[2, 14] Explicit Any is not allowed` wird angegeben, dass die Zeile #2 Spalte #14 `any` den Typ definiert. Dies hilft Ihnen bei der Suche nach dem Fehler.
 
 Um dieses Problem zu umgehen, definieren Sie immer den Typ der Variablen. Wenn Sie hinsichtlich des Typs einer Variablen unsicher sind, können Sie einen [Vereinigungstyp](https://www.typescriptlang.org/docs/handbook/unions-and-intersections.html)verwenden. Dies kann für Variablen nützlich `Range` sein, die Werte enthalten, die vom Typ sein `string` `number` können, oder `boolean` (der Typ für `Range` Werte ist eine Vereinigung dieser Werte: `string | number | boolean` ).
 
 ### <a name="implicit-any"></a>Implizite `any`
 
-TypeScript-Variablentypen können [implizit](https://www.typescriptlang.org/docs/handbook/type-inference.html) definiert werden. Wenn der TypeScript-Compiler den Typ einer Variablen nicht ermitteln kann (entweder weil der Typ nicht explizit definiert ist oder keine Typrückleitung möglich ist), ist dies ein impliziter `any` Fehler, und Sie erhalten einen Kompilierungszeitfehler.
+TypeScript-Variablentypen können [implizit](https://www.typescriptlang.org/docs/handbook/type-inference.html) definiert werden. Wenn der TypeScript-Compiler den Typ einer Variablen nicht ermitteln kann (entweder weil der Typ nicht explizit definiert ist oder der Typrückschluss nicht möglich ist), ist dies ein impliziter `any` Fehler, und Sie erhalten einen Kompilierungszeitfehler.
 
 :::image type="content" source="../images/implicit-any-editor-message.png" alt-text="Die implizite &quot;any&quot;-Nachricht im Hovertext des Code-Editors.":::
 
@@ -66,7 +66,7 @@ Die folgenden Wörter können nicht als Bezeichner in einem Skript verwendet wer
 
 ## <a name="only-arrow-functions-in-array-callbacks"></a>Nur Pfeilfunktionen in Arrayrückrufen
 
-Ihre Skripts können [Pfeilfunktionen](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Functions/Arrow_functions) nur verwenden, wenn Rückrufargumente für [Array-Methoden](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array) bereitgestellt werden. Sie können keine Bezeichner- oder "herkömmlichen" Funktionen an diese Methoden übergeben.
+Ihre Skripts können [Pfeilfunktionen](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Functions/Arrow_functions) nur verwenden, wenn Rückrufargumente für [Array-Methoden](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array) bereitgestellt werden. Sie können keine Art von Bezeichner oder "herkömmliche" Funktion an diese Methoden übergeben.
 
 ```TypeScript
 const myArray = [1, 2, 3, 4, 5, 6];
@@ -81,13 +81,38 @@ let filteredArray = myArray.filter((x) => {
 */
 ```
 
+## <a name="unions-of-excelscript-types-and-user-defined-types-arent-supported"></a>Verbindungen von `ExcelScript` Typen und benutzerdefinierten Typen werden nicht unterstützt.
+
+Office Skripts werden zur Laufzeit von synchronen in asynchrone Codeblöcke konvertiert. Die Kommunikation mit der Arbeitsmappe über [Zusagen](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise) wird dem Skriptersteller verborgen. Diese Konvertierung unterstützt keine [Vereinigungstypen,](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#union-types) die `ExcelScript` Typen und benutzerdefinierte Typen enthalten. In diesem Fall wird das `Promise` Skript zurückgegeben, aber der Office Skriptcompiler erwartet es nicht, und der Skriptersteller kann nicht mit dem Skript `Promise` interagieren.
+
+Das folgende Codebeispiel zeigt eine nicht unterstützte Vereinigung zwischen `ExcelScript.Table` und einer benutzerdefinierten `MyTable` Schnittstelle.
+
+```TypeScript
+function main(workbook: ExcelScript.Workbook) {
+  const selectedSheet = workbook.getActiveWorksheet();
+
+  // This union is not supported.
+  const tableOrMyTable: ExcelScript.Table | MyTable = selectedSheet.getTables()[0];
+
+  // `getName` returns a promise that can't be resolved by the script.
+  const name = tableOrMyTable.getName();
+
+  // This logs "{}" instead of the table name.
+  console.log(name);
+}
+
+interface MyTable {
+  getName(): string
+}
+```
+
 ## <a name="performance-warnings"></a>Leistungswarnungen
 
 Der [Linter](https://wikipedia.org/wiki/Lint_(software)) des Code-Editors gibt Warnungen aus, wenn das Skript Leistungsprobleme haben kann. Die Fälle und wie Sie diese umgehen, sind in ["Verbessern der Leistung Ihrer Office Skripts"](web-client-performance.md)dokumentiert.
 
 ## <a name="external-api-calls"></a>Externe API-Aufrufe
 
-Weitere Informationen finden Sie [unter Support für externe API-Aufrufe in Office Skripts.](external-calls.md)
+Weitere Informationen finden Sie [unter "Support für externe API-Aufrufe" in Office Skripts.](external-calls.md)
 
 ## <a name="see-also"></a>Siehe auch
 

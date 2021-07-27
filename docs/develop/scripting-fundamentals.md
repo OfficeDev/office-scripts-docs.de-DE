@@ -3,12 +3,12 @@ title: Grundlegendes zur Skripterstellung für Office-Skripts in Excel im Web
 description: Informationen zu Objektmodellen und andere Grundlagen, die Sie vor dem Schreiben von Office-Skripts benötigen.
 ms.date: 05/24/2021
 localization_priority: Priority
-ms.openlocfilehash: 9c3c10e283e40f1e719e73106bcdacfcff44dbc9
-ms.sourcegitcommit: 4693c8f79428ec74695328275703af0ba1bfea8f
+ms.openlocfilehash: 8c153a6e9d5202a2c1f5a7db5c6bad760d211994
+ms.sourcegitcommit: de25e0657e7404bb780851b52633222bc3f80e52
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53074508"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53529232"
 ---
 # <a name="scripting-fundamentals-for-office-scripts-in-excel-on-the-web"></a>Grundlegendes zur Skripterstellung für Office-Skripts in Excel im Web
 
@@ -326,3 +326,4 @@ Die [Referenzdokumentation zur Office Scripts-API](/javascript/api/office-script
 - [Referenzdokumentation zur Office Scripts-API](/javascript/api/office-scripts/overview)
 - [Verwenden von integrierten JavaScript-Objekten in Office-Skripts](javascript-objects.md)
 - [Bewährte Methoden in Office-Skripts](best-practices.md)
+- [Office-Skripts Dev Center](https://developer.microsoft.com/office-scripts)
