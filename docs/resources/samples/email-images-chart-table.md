@@ -3,12 +3,12 @@ title: Senden einer E-Mail an die Bilder eines Excel Diagramms und einer Tabelle
 description: Erfahren Sie, wie Sie Office Skripts und Power Automate verwenden, um die Bilder eines Excel Diagramms und einer Tabelle zu extrahieren und per E-Mail zu senden.
 ms.date: 06/29/2021
 localization_priority: Normal
-ms.openlocfilehash: 50bc65c82df7f5fc68dbebf942c4f607bb6af60a
-ms.sourcegitcommit: 211c157ca746e266eeb079f5fa1925a1e35ab702
+ms.openlocfilehash: 003769d026eb07f9bade44a40770f6309ee52b8a
+ms.sourcegitcommit: 9d00ee1c11cdf897410e5232692ee985f01ee098
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "53313841"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53772330"
 ---
 # <a name="use-office-scripts-and-power-automate-to-email-images-of-a-chart-and-table"></a>Verwenden von Office Skripts und Power Automate zum Senden von E-Mail-Bildern eines Diagramms und einer Tabelle
 
@@ -95,14 +95,14 @@ Dieser Fluss führt das Skript aus und sendet eine E-Mail an die zurückgegebene
 
 1. Erstellen Sie einen neuen **Instant Cloud Flow.**
 1. Klicken Sie **auf "Manuell auslösen" und** wählen Sie **"Erstellen"** aus.
-1. Fügen Sie einen **neuen Schritt** hinzu, der den connector Excel **Online (Business)** mit der **Skriptaktion ausführen** verwendet. Verwenden Sie die folgenden Werte für die Aktion:
+1. Fügen Sie einen **neuen Schritt** hinzu, der den Connector Excel **Online (Business)** mit der **Skriptaktion ausführen** verwendet. Verwenden Sie die folgenden Werte für die Aktion.
     * **Location**: OneDrive for Business
     * **Document Library**: OneDrive
     * **Datei:** Ihre Arbeitsmappe ([ausgewählt mit der Dateiauswahl](../../testing/power-automate-troubleshooting.md#select-workbooks-with-the-file-browser-control))
     * **Skript:** Ihr Skriptname
 
-    :::image type="content" source="../../images/email-chart-sample-flow-1.png" alt-text="Der fertige Excel Online (Business)-Connector in Power Automate.":::
-1. In diesem Beispiel wird Outlook als E-Mail-Client verwendet. Sie können einen beliebigen E-Mail-Connector verwenden, der Power Automate unterstützt, bei den restlichen Schritten wird jedoch davon ausgegangen, dass Sie Outlook ausgewählt haben. Fügen Sie einen **neuen Schritt** hinzu, der den **Office 365 Outlook** Connector und die Aktion **"Senden und E-Mail(V2)"** verwendet. Verwenden Sie die folgenden Werte für die Aktion:
+    :::image type="content" source="../../images/email-chart-sample-flow-1.png" alt-text="Der fertige Excel Online(Business)-Connector in Power Automate.":::
+1. In diesem Beispiel wird Outlook als E-Mail-Client verwendet. Sie können einen beliebigen E-Mail-Connector verwenden, der Power Automate unterstützt. Bei den restlichen Schritten wird jedoch davon ausgegangen, dass Sie Outlook ausgewählt haben. Fügen Sie einen **neuen Schritt** hinzu, der den **Office 365 Outlook** Connector und die Aktion **"Senden und E-Mail (V2)"** verwendet. Verwenden Sie die folgenden Werte für die Aktion.
     * **An:** Ihr Test-E-Mail-Konto (oder persönliche E-Mail)
     * **Betreff:** Bitte überprüfen Sie die Berichtsdaten
     * Wählen Sie für das Feld **"Text"** die Option "Codeansicht" ( `</>` ) aus, und geben Sie Folgendes ein:

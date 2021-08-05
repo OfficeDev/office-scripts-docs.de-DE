@@ -3,22 +3,22 @@ title: Querverweisen Excel Dateien mit Power Automate
 description: Erfahren Sie, wie Sie Office Skripts und Power Automate zum Querverweisen und Formatieren einer Excel Datei verwenden.
 ms.date: 06/29/2021
 localization_priority: Normal
-ms.openlocfilehash: 0776ce49cacecfa15339cc7c0cd4866daad789ff
-ms.sourcegitcommit: 211c157ca746e266eeb079f5fa1925a1e35ab702
+ms.openlocfilehash: 3ee3b7851773384c9a51a041c0e93c70accbab7d
+ms.sourcegitcommit: 9d00ee1c11cdf897410e5232692ee985f01ee098
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "53313960"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53772316"
 ---
 # <a name="cross-reference-excel-files-with-power-automate"></a>Querverweisen Excel Dateien mit Power Automate
 
-Diese Lösung zeigt, wie Daten in zwei Excel Dateien verglichen werden, um Abweichungen zu finden. Es verwendet Office Skripts, um Daten zu analysieren und Power Automate, um zwischen den Arbeitsmappen zu kommunizieren.
+Diese Lösung zeigt, wie Daten zwischen zwei Excel Dateien verglichen werden, um Abweichungen zu finden. Es verwendet Office Skripts, um Daten zu analysieren und Power Automate, um zwischen den Arbeitsmappen zu kommunizieren.
 
 ## <a name="example-scenario"></a>Beispielszenario
 
-Sie sind ein Ereignis-Coordinator, der Referenten für anstehende Konferenzen plant. Sie behalten die Ereignisdaten in einer Kalkulationstabelle und die Lautsprecherregistrierungen in einer anderen. Um sicherzustellen, dass die beiden Arbeitsmappen synchronisiert sind, verwenden Sie einen Fluss mit Office Skripts, um potenzielle Probleme hervorzuheben.
+Sie sind ein Ereignis-Coordinator, der Referenten für anstehende Konferenzen plant. Sie behalten die Ereignisdaten in einer Kalkulationstabelle und die Lautsprecherregistrierungen in einer anderen. Um sicherzustellen, dass die beiden Arbeitsmappen synchronisiert werden, verwenden Sie einen Fluss mit Office Skripts, um potenzielle Probleme hervorzuheben.
 
-## <a name="sample-excel-files"></a>Beispieldateien für Excel
+## <a name="sample-excel-files"></a>Beispieldateien Excel
 
 Laden Sie die folgenden Dateien herunter, um einsatzbereite Arbeitsmappen für das Beispiel zu erhalten.
 
@@ -150,26 +150,26 @@ Dieser Fluss extrahiert die Ereignisinformationen aus der ersten Arbeitsmappe un
 
 1. Melden Sie sich bei [Power Automate an,](https://flow.microsoft.com) und erstellen Sie einen neuen **Instant Cloud Flow.**
 1. Klicken Sie **auf "Manuell auslösen" und** wählen Sie **"Erstellen"** aus.
-1. Fügen Sie einen **neuen Schritt** hinzu, der den Connector Excel **Online (Business)** mit der **Skriptaktion ausführen** verwendet. Verwenden Sie die folgenden Werte für die Aktion:
+1. Fügen Sie einen **neuen Schritt** hinzu, der den Connector Excel **Online (Business)** mit der **Skriptaktion ausführen** verwendet. Verwenden Sie die folgenden Werte für die Aktion.
     * **Location**: OneDrive for Business
     * **Document Library**: OneDrive
     * **Datei:** event-data.xlsx ([ausgewählt mit der Dateiauswahl](../../testing/power-automate-troubleshooting.md#select-workbooks-with-the-file-browser-control))
     * **Skript:** Ereignisdaten abrufen
 
-    :::image type="content" source="../../images/cross-reference-flow-1.png" alt-text="Der fertige Excel Online (Business)-Connector für das erste Skript in Power Automate.":::
+    :::image type="content" source="../../images/cross-reference-flow-1.png" alt-text="Der fertige Excel Online(Business)-Connector für das erste Skript in Power Automate.":::
 
-1. Fügen Sie einen zweiten **neuen Schritt** hinzu, der den connector Excel **Online (Business)** mit der **Skriptaktion ausführen** verwendet. Verwenden Sie die folgenden Werte für die Aktion:
+1. Fügen Sie einen zweiten **neuen Schritt** hinzu, der den connector Excel **Online (Business)** mit der **Skriptaktion ausführen** verwendet. Verwenden Sie die folgenden Werte für die Aktion.
     * **Location**: OneDrive for Business
     * **Document Library**: OneDrive
     * **Datei:** speaker-registration.xlsx ([ausgewählt mit der Dateiauswahl](../../testing/power-automate-troubleshooting.md#select-workbooks-with-the-file-browser-control))
     * **Skript:** Überprüfen der Lautsprecherregistrierung
 
-    :::image type="content" source="../../images/cross-reference-flow-2.png" alt-text="Der fertige Excel Online (Business)-Connector für das zweite Skript in Power Automate.":::
-1. In diesem Beispiel wird Outlook als E-Mail-Client verwendet. Sie können jeden E-Mail-Connector verwenden, der Power Automate unterstützt. Fügen Sie einen **neuen Schritt** hinzu, der den **Office 365 Outlook-Connector** und die Aktion **"Senden und E-Mail(V2)"** verwendet. Verwenden Sie die folgenden Werte für die Aktion:
+    :::image type="content" source="../../images/cross-reference-flow-2.png" alt-text="Der fertige Excel Online(Business)-Connector für das zweite Skript in Power Automate.":::
+1. In diesem Beispiel wird Outlook als E-Mail-Client verwendet. Sie können einen beliebigen E-Mail-Connector verwenden, Power Automate unterstützt. Fügen Sie einen **neuen Schritt** hinzu, der den **Office 365 Outlook** Connector und die Aktion **"Senden und E-Mail (V2)"** verwendet. Verwenden Sie die folgenden Werte für die Aktion.
     * **An:** Ihr Test-E-Mail-Konto (oder persönliche E-Mail)
     * **Betreff:** Ergebnisse der Ereignisüberprüfung
     * **Body**: result (_dynamic content from Run script **2**_)
 
     :::image type="content" source="../../images/cross-reference-flow-3.png" alt-text="Der fertige Office 365 Outlook-Connector in Power Automate.":::
 1. Speichern Sie den Fluss. Verwenden Sie die Schaltfläche **"Test"** auf der Flow-Editor-Seite, oder führen Sie den Fluss über Ihre Registerkarte **"Meine Flüsse"** aus. Achten Sie darauf, den Zugriff zuzulassen, wenn Sie dazu aufgefordert werden.
-1. Sie sollten eine E-Mail mit der Meldung "Konflikt gefunden" erhalten. Daten erfordern Ihre Überprüfung." Dies weist darauf hin, dass es Unterschiede zwischen Zeilen in **speaker-registrations.xlsx** und Zeilen in **event-data.xlsx** gibt. Öffnen **Siespeaker-registrations.xlsx,** um mehrere hervorgehobene Zellen anzuzeigen, in denen potenzielle Probleme mit den Registrierungsauflistungen für Lautsprecher auftreten.
+1. Sie sollten eine E-Mail mit der Meldung "Konflikt gefunden" erhalten. Daten erfordern Ihre Überprüfung." Dies weist darauf hin, dass es Unterschiede zwischen Zeilen in **speaker-registrations.xlsx** und Zeilen in **event-data.xlsx** gibt. Öffnen **Siespeaker-registrations.xlsx,** um mehrere hervorgehobene Zellen anzuzeigen, in denen potenzielle Probleme mit den Eintragen für die Lautsprecherregistrierung auftreten.

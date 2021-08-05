@@ -1,24 +1,24 @@
 ---
 title: Bewährte Methoden in Office-Skripts
-description: So verhindern Sie häufige Probleme und schreiben Office Skripts, die unerwartete Eingaben oder Daten verarbeiten können.
+description: So verhindern Sie häufige Probleme und schreiben robuste Office Skripts, die unerwartete Eingaben oder Daten verarbeiten können.
 ms.date: 05/10/2021
 localization_priority: Normal
-ms.openlocfilehash: 0697e6fd1fa8f437a4a585d938254deb5a05f20c
-ms.sourcegitcommit: 4687693f02fc90a57ba30c461f35046e02e6f5fb
+ms.openlocfilehash: 45dd40ad2f88aecbf66db2a623d92ca81f73657c
+ms.sourcegitcommit: 9d00ee1c11cdf897410e5232692ee985f01ee098
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52546025"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53772309"
 ---
 # <a name="best-practices-in-office-scripts"></a>Bewährte Methoden in Office-Skripts
 
-Diese Muster und Methoden sind so konzipiert, dass Ihre Skripts jedes Mal erfolgreich ausgeführt werden können. Verwenden Sie sie, um häufige Fallstricke zu vermeiden, wenn Sie mit der Automatisierung Excel beginnen.
+Diese Muster und Methoden sind so konzipiert, dass Ihre Skripts jedes Mal erfolgreich ausgeführt werden können. Verwenden Sie sie, um häufige Fallstricke zu vermeiden, wenn Sie mit der Automatisierung Ihres Excel Workflows beginnen.
 
 ## <a name="verify-an-object-is-present"></a>Überprüfen, ob ein Objekt vorhanden ist
 
-Skripts verlassen sich häufig darauf, dass ein bestimmtes Arbeitsblatt oder eine bestimmte Tabelle in der Arbeitsmappe vorhanden ist. Sie werden jedoch möglicherweise zwischen Skriptläufen umbenannt oder entfernt. Indem Sie überprüfen, ob diese Tabellen oder Arbeitsblätter vorhanden sind, bevor Sie Methoden für sie aufrufen, können Sie sicherstellen, dass das Skript nicht abrupt endet.
+Skripts basieren häufig darauf, dass ein bestimmtes Arbeitsblatt oder eine bestimmte Tabelle in der Arbeitsmappe vorhanden ist. Sie können jedoch zwischen Skriptläufen umbenannt oder entfernt werden. Indem Sie überprüfen, ob diese Tabellen oder Arbeitsblätter vorhanden sind, bevor Sie Methoden für sie aufrufen, können Sie sicherstellen, dass das Skript nicht abrupt beendet wird.
 
-Der folgende Beispielcode überprüft, ob das Arbeitsblatt "Index" in der Arbeitsmappe vorhanden ist. Wenn das Arbeitsblatt vorhanden ist, ruft das Skript einen Bereich ab und geht weiter. Wenn es nicht vorhanden ist, protokolliert das Skript eine benutzerdefinierte Fehlermeldung.
+Im folgenden Beispielcode wird überprüft, ob das Arbeitsblatt "Index" in der Arbeitsmappe vorhanden ist. Wenn das Arbeitsblatt vorhanden ist, ruft das Skript einen Bereich ab und setzt den Vorgang fort. Wenn es nicht vorhanden ist, protokolliert das Skript eine benutzerdefinierte Fehlermeldung.
 
 ```TypeScript
 // Make sure the "Index" worksheet exists before using it.
@@ -31,7 +31,7 @@ if (indexSheet) {
 }
 ```
 
-Der `?` TypeScript-Operator überprüft, ob das Objekt vorhanden ist, bevor eine Methode aufruft. Dadurch kann Der Code optimiert werden, wenn Sie nichts Besonderes tun müssen, wenn das Objekt nicht vorhanden ist.
+Der TypeScript-Operator `?` überprüft, ob das Objekt vorhanden ist, bevor eine Methode aufgerufen wird. Dadurch kann Ihr Code optimiert werden, wenn Sie nichts Besonderes tun müssen, wenn das Objekt nicht vorhanden ist.
 
 ```TypeScript
 // The ? ensures that the delete() API is only called if the object exists.
@@ -40,9 +40,9 @@ workbook.getWorksheet('Index')?.delete();
 
 ## <a name="validate-data-and-workbook-state-first"></a>Überprüfen des Daten- und Arbeitsmappenstatus zuerst
 
-Stellen Sie sicher, dass alle Arbeitsblätter, Tabellen, Formen und anderen Objekte vorhanden sind, bevor Sie mit den Daten arbeiten. Überprüfen Sie anhand des vorherigen Musters, ob sich alles in der Arbeitsmappe befindet und Ihren Erwartungen entspricht. Wenn Sie dies tun, bevor Daten geschrieben werden, wird sichergestellt, dass das Skript die Arbeitsmappe nicht in einem Teilzustand be lässt.
+Stellen Sie sicher, dass alle Arbeitsblätter, Tabellen, Shapes und anderen Objekte vorhanden sind, bevor Sie an den Daten arbeiten. Überprüfen Sie anhand des vorherigen Musters, ob sich alles in der Arbeitsmappe befindet und Ihren Erwartungen entspricht. Wenn Sie dies tun, bevor Daten geschrieben werden, wird sichergestellt, dass das Skript die Arbeitsmappe nicht in einem Teilstatus belässt.
 
-Das folgende Skript erfordert, dass zwei Tabellen mit dem Namen "Table1" und "Table2" vorhanden sind. Das Skript überprüft zunächst, ob die Tabellen vorhanden sind, und endet dann mit der Anweisung und einer entsprechenden Meldung, falls `return` nicht.
+Das folgende Skript erfordert, dass zwei Tabellen mit dem Namen "Table1" und "Table2" vorhanden sind. Das Skript überprüft zuerst, ob die Tabellen vorhanden sind, und endet dann mit der `return` Anweisung und einer entsprechenden Meldung, wenn dies nicht der Fall ist.
 
 ```TypeScript
 function main(workbook: ExcelScript.Workbook) {
@@ -64,9 +64,9 @@ function main(workbook: ExcelScript.Workbook) {
 }
 ```
 
-Wenn die Überprüfung in einer separaten Funktion ausgeführt wird, müssen Sie das Skript weiterhin beenden, indem Sie die `return` Anweisung aus der Funktion `main` ausgeben. Die Rückgabe von der Unterfunktion beendet das Skript nicht.
+Wenn die Überprüfung in einer separaten Funktion erfolgt, müssen Sie das Skript dennoch beenden, indem Sie die `return` Anweisung aus der Funktion `main` ausgeben. Wenn Sie von der Unterfunktion zurückkehren, wird das Skript nicht beendet.
 
-Das folgende Skript hat dasselbe Verhalten wie das vorherige Skript. Der Unterschied ist, dass `main` die Funktion die Funktion `inputPresent` aufruft, um alles zu überprüfen. `inputPresent` gibt einen booleschen Wert ( `true` oder `false` ) zurück, um anzugeben, ob alle erforderlichen Eingaben vorhanden sind. Die `main` Funktion verwendet diesen booleschen Wert, um zu entscheiden, ob das Skript fortgesetzt oder beendet wird.
+Das folgende Skript hat das gleiche Verhalten wie das vorherige. Der Unterschied besteht darin, dass die `main` Funktion die `inputPresent` Funktion aufruft, um alles zu überprüfen. `inputPresent` gibt einen booleschen Wert ( `true` oder `false` ) zurück, um anzugeben, ob alle erforderlichen Eingaben vorhanden sind. Die `main` Funktion verwendet diesen booleschen Wert, um zu entscheiden, ob das Skript fortgesetzt oder beendet werden soll.
 
 ```TypeScript
 function main(workbook: ExcelScript.Workbook) {
@@ -79,7 +79,7 @@ function main(workbook: ExcelScript.Workbook) {
   // Continue....
 }
 
-function inputPresent( workbook: ExcelScript.Workbook): boolean {
+function inputPresent(workbook: ExcelScript.Workbook): boolean {
   // These tables must be in the workbook for the script.
   const TargetTableName = 'Table1';
   const SourceTableName = 'Table2';
@@ -98,13 +98,13 @@ function inputPresent( workbook: ExcelScript.Workbook): boolean {
 }
 ```
 
-## <a name="when-to-use-a-throw-statement"></a>Verwendung einer `throw` Anweisung
+## <a name="when-to-use-a-throw-statement"></a>Wann sollte eine Anweisung verwendet `throw` werden?
 
-Eine [`throw`](https://developer.mozilla.org/docs/web/javascript/reference/statements/throw) Anweisung gibt an, dass ein unerwarteter Fehler aufgetreten ist. Der Code wird sofort beendet. In den meisten Beispielen müssen Sie ihr Skript `throw` nicht verwenden. In der Regel informiert das Skript den Benutzer automatisch, dass das Skript aufgrund eines Problems nicht ausgeführt werden konnte. In den meisten Fällen reicht es aus, das Skript mit einer Fehlermeldung und einer Anweisung `return` aus der Funktion zu `main` beenden.
+Eine [`throw`](https://developer.mozilla.org/docs/web/javascript/reference/statements/throw) Anweisung gibt an, dass ein unerwarteter Fehler aufgetreten ist. Der Code wird sofort beendet. Sie müssen in den meisten Fällen nicht `throw` aus Ihrem Skript stammen. In der Regel informiert das Skript den Benutzer automatisch, dass das Skript aufgrund eines Problems nicht ausgeführt werden konnte. In den meisten Fällen reicht es aus, das Skript mit einer Fehlermeldung und einer Anweisung aus der Funktion zu `return` `main` beenden.
 
-Wenn Ihr Skript jedoch im Rahmen eines Power Automate ausgeführt wird, sollten Sie möglicherweise verhindern, dass der Fluss fortgesetzt wird. Eine `throw` Anweisung stoppt das Skript und weist den Fluss an, ebenfalls zu beenden.
+Wenn Ihr Skript jedoch als Teil eines Power Automate Flusses ausgeführt wird, sollten Sie verhindern, dass der Fluss fortgesetzt wird. Eine `throw` Anweisung stoppt das Skript und weist den Fluss an, auch zu beenden.
 
-Das folgende Skript zeigt, wie Sie die `throw` Anweisung in unserem Beispiel für die Tabellenüberprüfung verwenden.
+Das folgende Skript zeigt, wie Sie die Anweisung in unserem Beispiel für die `throw` Tabellenüberprüfung verwenden.
 
 ```TypeScript
 function main(workbook: ExcelScript.Workbook) {
@@ -124,19 +124,19 @@ function main(workbook: ExcelScript.Workbook) {
   
 ```
 
-## <a name="when-to-use-a-trycatch-statement"></a>Verwendung einer `try...catch` Anweisung
+## <a name="when-to-use-a-trycatch-statement"></a>Wann sollte eine Anweisung verwendet `try...catch` werden?
 
 Die [`try...catch`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Statements/try...catch) Anweisung ist eine Möglichkeit, um zu erkennen, ob ein API-Aufruf fehlschlägt, und das Skript weiter auszuführen.
 
-Betrachten Sie den folgenden Codeausschnitt, der eine große Datenaktualisierung für einen Bereich ausführt.
+Betrachten Sie den folgenden Codeausschnitt, der eine Aktualisierung großer Daten für einen Bereich durchführt.
 
 ```TypeScript
 range.setValues(someLargeValues);
 ```
 
-Wenn `someLargeValues` die Größe größer Excel das Web verarbeiten kann, schlägt der Aufruf `setValues()` fehl. Das Skript schlägt dann auch mit einem [Laufzeitfehler fehl.](../testing/troubleshooting.md#runtime-errors) Mit der Anweisung kann Ihr Skript diese Bedingung erkennen, ohne das Skript sofort zu beenden `try...catch` und den Standardfehler zu zeigen.
+Wenn `someLargeValues` größer ist, als Excel für das Web verarbeiten können, schlägt der `setValues()` Aufruf fehl. Das Skript schlägt dann auch mit einem [Laufzeitfehler](../testing/troubleshooting.md#runtime-errors)fehl. Mit der `try...catch` Anweisung kann das Skript diese Bedingung erkennen, ohne das Skript sofort zu beenden und den Standardfehler anzuzeigen.
 
-Ein Ansatz, um dem Skriptbenutzer eine bessere Benutzererfahrung zu bieten, besteht in der Benutzerdefinierten Fehlermeldung. Der folgende Codeausschnitt zeigt eine `try...catch` Anweisung, in der weitere Fehlerinformationen protokollieren werden, um dem Leser besser zu helfen.
+Eine Möglichkeit, dem Skriptbenutzer eine bessere Benutzererfahrung zu bieten, besteht darin, ihm eine benutzerdefinierte Fehlermeldung anzuzeigen. Der folgende Codeausschnitt zeigt eine `try...catch` Anweisung, in der weitere Fehlerinformationen protokolliert werden, um dem Leser besser zu helfen.
 
 ```TypeScript
 try {
@@ -148,10 +148,10 @@ try {
 }
 ```
 
-Ein weiterer Ansatz zum Umgang mit Fehlern ist das Fallbackverhalten, das den Fehlerfall behandelt. Im folgenden Codeausschnitt wird der Block verwendet, um eine alternative Methode zu testen, um das Update in kleinere Teile aufteilen und `catch` den Fehler zu vermeiden.
+Ein weiterer Ansatz für den Umgang mit Fehlern ist ein Fallbackverhalten, das den Fehlerfall behandelt. Der folgende Codeausschnitt verwendet den `catch` Block, um eine alternative Methode auszuprobieren, um die Aktualisierung in kleinere Teile aufzuteilen und den Fehler zu vermeiden.
 
 > [!TIP]
-> Ein vollständiges Beispiel zum Aktualisieren eines großen Bereichs finden Sie unter [Write a large dataset](../resources/samples/write-large-dataset.md).
+> Ein vollständiges Beispiel zum Aktualisieren eines großen Bereichs finden Sie unter ["Schreiben eines großen Datasets".](../resources/samples/write-large-dataset.md)
 
 ```TypeScript
 try {
@@ -166,11 +166,11 @@ try {
 ```
 
 > [!NOTE]
-> Die `try...catch` Verwendung innerhalb oder um eine Schleife verlangsamt Ihr Skript. Weitere Leistungsinformationen finden Sie unter [Vermeiden der Verwendung von `try...catch` Blöcken](web-client-performance.md#avoid-using-trycatch-blocks-in-or-surrounding-loops).
+> Die Verwendung `try...catch` innerhalb oder um eine Schleife verlangsamt Ihr Skript. Weitere Informationen zur Leistung finden Sie unter [Vermeiden der Verwendung von `try...catch` Blöcken.](web-client-performance.md#avoid-using-trycatch-blocks-in-or-surrounding-loops)
 
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Weitere Artikel
 
 - [Behandeln von Problemen mit Office-Skripts](../testing/troubleshooting.md)
 - [Problembehandlungsinformationen für Power Automate mit Office Skripts](../testing/power-automate-troubleshooting.md)
 - [Plattformbeschränkungen mit Office Skripts](../testing/platform-limits.md)
-- [Verbessern der Leistung Ihrer Office Skripts](web-client-performance.md)
+- [Verbessern der Leistung Ihrer Office-Skripts](web-client-performance.md)
