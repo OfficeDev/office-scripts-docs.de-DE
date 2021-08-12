@@ -1,18 +1,18 @@
 ---
-title: Plattformbeschränkungen und -anforderungen mit Office-Skripts
+title: Plattformbeschränkungen und -anforderungen mit Office Skripts
 description: Ressourcenbeschränkungen und Browserunterstützung für Office Skripts bei Verwendung mit Excel im Web
 ms.date: 05/17/2021
 localization_priority: Normal
-ms.openlocfilehash: 8b7afa02f73476e6e98f231a7a7162ad87607b37
-ms.sourcegitcommit: 9d00ee1c11cdf897410e5232692ee985f01ee098
+ms.openlocfilehash: e6a9baa7adac438c88767ae9b4138cc0a6b31f1c5b05ca74ad8b0a50b079075b
+ms.sourcegitcommit: 75f7ed8c2d23a104acc293f8ce29ea580b4fcdc5
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53772358"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57847396"
 ---
-# <a name="platform-limits-and-requirements-with-office-scripts"></a>Plattformbeschränkungen und -anforderungen mit Office-Skripts
+# <a name="platform-limits-and-requirements-with-office-scripts"></a>Plattformbeschränkungen und -anforderungen mit Office Skripts
 
-Es gibt einige Plattformeinschränkungen, die Sie beim Entwickeln von Office Skripts beachten sollten. In diesem Artikel werden die Browserunterstützung und Datenbeschränkungen für Office Skripts für Excel im Web beschrieben.
+Es gibt einige Plattformeinschränkungen, die Sie beachten sollten, wenn Sie Office Skripts entwickeln. In diesem Artikel werden die Browserunterstützung und Datenbeschränkungen für Office Skripts für Excel im Web beschrieben.
 
 ## <a name="browser-support"></a>Browserunterstützung
 
@@ -22,7 +22,7 @@ Office Skripts funktionieren in jedem Browser, [der Office für das Web unterst�
 
 ### <a name="third-party-cookies"></a>Cookies von Drittanbietern
 
-Ihr Browser benötigt Cookies von Drittanbietern, die aktiviert sind, um die Registerkarte **"Automatisieren"** in Excel im Web anzuzeigen. Überprüfen Sie die Browsereinstellungen, wenn die Registerkarte nicht angezeigt wird. Wenn Sie eine private Browsersitzung verwenden, müssen Sie diese Einstellung möglicherweise jedes Mal erneut aktivieren.
+Ihr Browser benötigt Cookies von Drittanbietern, um die Registerkarte **"Automatisieren"** in Excel im Web anzuzeigen. Überprüfen Sie die Browsereinstellungen, wenn die Registerkarte nicht angezeigt wird. Wenn Sie eine private Browsersitzung verwenden, müssen Sie diese Einstellung möglicherweise jedes Mal erneut aktivieren.
 
 > [!NOTE]
 > Einige Browser bezeichnen diese Einstellung als "alle Cookies" anstelle von "Cookies von Drittanbietern".
@@ -40,7 +40,7 @@ Es gibt Beschränkungen, wie viele Excel Daten gleichzeitig übertragen werden k
 
 ### <a name="excel"></a>Excel
 
-Excel für das Web hat die folgenden Einschränkungen, wenn Aufrufe an die Arbeitsmappe über ein Skript ausgeführt werden:
+bei Aufrufen der Arbeitsmappe über ein Skript gelten für Excel für das Web die folgenden Einschränkungen:
 
 - Anforderungen und Antworten sind auf **5 MB** beschränkt.
 - Ein Bereich ist auf **fünf Millionen Zellen** begrenzt.
@@ -49,7 +49,7 @@ Wenn beim Umgang mit großen Datasets Fehler auftreten, versuchen Sie, mehrere k
 
 ### <a name="power-automate"></a>Power Automate
 
-Wenn sie Office Skripts mit Power Automate verwenden, ist jeder Benutzer auf **400 Aufrufe der Aktion "Skript ausführen" pro Tag** beschränkt. Dieser Grenzwert wird um 12:00 Uhr UTC zurückgesetzt.
+Wenn Sie Office Skripts mit Power Automate verwenden, ist jeder Benutzer auf **400 Aufrufe der Aktion "Skript ausführen" pro Tag** beschränkt. Dieser Grenzwert wird um 12:00 Uhr UTC zurückgesetzt.
 
 Die Power Automate-Plattform weist auch Nutzungseinschränkungen auf, die in den folgenden Artikeln zu finden sind:
 

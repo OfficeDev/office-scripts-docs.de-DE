@@ -3,16 +3,16 @@ title: Filtern Excel Tabelle und Abrufen des sichtbaren Bereichs
 description: Erfahren Sie, wie Sie Office Skripts verwenden, um eine Excel Tabelle zu filtern und den sichtbaren Bereich als Array von Objekten abzurufen.
 ms.date: 06/29/2021
 localization_priority: Normal
-ms.openlocfilehash: b19b826f95c7e7aeb331130fde05afaafe500c3d
-ms.sourcegitcommit: 211c157ca746e266eeb079f5fa1925a1e35ab702
+ms.openlocfilehash: ea4a96882aa3e16dac9ced22c4944d06c2fdcdfd88d202a69643e24a6a39f239
+ms.sourcegitcommit: 75f7ed8c2d23a104acc293f8ce29ea580b4fcdc5
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "53313953"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57847591"
 ---
 # <a name="filter-excel-table-and-get-visible-range-as-a-json-object"></a>Filtern Excel Tabelle und Abrufen eines sichtbaren Bereichs als JSON-Objekt
 
-In diesem Beispiel wird eine Excel Tabelle gefiltert und der sichtbare Bereich als JSON-Objekt zurückgegeben. Dieser JSON-Code könnte einem Power Automate Fluss als Teil einer größeren Lösung bereitgestellt werden.
+In diesem Beispiel wird ein Excel Tabelle gefiltert und der sichtbare Bereich als JSON-Objekt zurückgegeben. Dieser JSON-Code könnte einem Power Automate Fluss als Teil einer größeren Lösung bereitgestellt werden.
 
 ## <a name="example-scenario"></a>Beispielszenario
 

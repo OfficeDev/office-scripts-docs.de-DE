@@ -1,53 +1,53 @@
 ---
 title: Externe API-Anruf Unterstützung in Office-Skripts
-description: Unterstützung und Anleitung zum Ausführen externer API-Aufrufe in einem Office Skripts.
+description: Unterstützung und Anleitung für externe API-Aufrufe in einem Office-Skript.
 ms.date: 05/21/2021
 localization_priority: Normal
-ms.openlocfilehash: 5d768b53112473c1774f8fe8257b197ffead4a63
-ms.sourcegitcommit: 09d8859d5269ada8f1d0e141f6b5a4f96d95a739
+ms.openlocfilehash: ece8c13bd2c665734e35d16c046ca58e52df564465a4df8989d90d887d897307
+ms.sourcegitcommit: 75f7ed8c2d23a104acc293f8ce29ea580b4fcdc5
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52631643"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57846624"
 ---
 # <a name="external-api-call-support-in-office-scripts"></a>Externe API-Anruf Unterstützung in Office-Skripts
 
-Skripts unterstützen Anrufe an externe Dienste. Verwenden Sie diese Dienste, um Ihrer Arbeitsmappe Daten und andere Informationen zur Verfügung zu stellen.
+Skripts unterstützen Aufrufe externer Dienste. Verwenden Sie diese Dienste, um Daten und andere Informationen für Ihre Arbeitsmappe bereitzustellen.
 
 > [!CAUTION]
-> Externe Anrufe können dazu führen, dass vertrauliche Daten unerwünschten Endpunkten ausgesetzt werden. Ihr Administrator kann einen Firewallschutz gegen solche Anrufe einrichten.
+> Externe Aufrufe können dazu führen, dass vertrauliche Daten für unerwünschte Endpunkte verfügbar gemacht werden. Ihr Administrator kann Firewallschutz gegen solche Anrufe einrichten.
 
 > [!IMPORTANT]
-> Aufrufe an externe APIs können nur über die Excel und nicht über Power Automate unter normalen [Umständen vorgenommen werden.](#external-calls-from-power-automate)
+> Aufrufe externer APIs können nur über die Excel Anwendung erfolgen, nicht über Power Automate [unter normalen Umständen.](#external-calls-from-power-automate)
 
-## <a name="configure-your-script-for-external-calls"></a>Konfigurieren des Skripts für externe Anrufe
+## <a name="configure-your-script-for-external-calls"></a>Konfigurieren Ihres Skripts für externe Aufrufe
 
-Externe Aufrufe [sind asynchron](https://developer.mozilla.org/docs/Learn/JavaScript/Asynchronous/Async_await) und erfordern, dass Ihr Skript als gekennzeichnet `async` ist. Fügen Sie `async` das Präfix zu Ihrer Funktion `main` hinzu, und geben Sie ein `Promise` zurück, wie hier gezeigt:
+Externe Aufrufe sind [asynchron](https://developer.mozilla.org/docs/Learn/JavaScript/Asynchronous/Async_await) und erfordern, dass Ihr Skript als gekennzeichnet `async` ist. Fügen Sie das `async` Präfix zu Ihrer `main` Funktion hinzu, und lassen Sie es ein `Promise` zurückgeben, wie hier gezeigt:
 
 ```typescript
 async function main(workbook: ExcelScript.Workbook) : Promise <void>
 ```
 
 > [!NOTE]
-> Skripts, die andere Informationen zurückgeben, können einen `Promise` dieser Typen zurückgeben. Wenn Ihr Skript z. B. ein Objekt zurückgeben muss, würde die `Employee` Rückgabesignatur `: Promise <Employee>`
+> Skripts, die andere Informationen zurückgeben, können einen `Promise` dieser Typen zurückgeben. Wenn Ihr Skript beispielsweise ein Objekt zurückgeben `Employee` muss, lautet die Rückgabesignatur `: Promise <Employee>`
 
-Sie müssen die Schnittstellen des externen Diensts erlernen, um Anrufe an diesen Dienst zu nehmen. Wenn Sie oder `fetch` [REST-APIs verwenden,](https://wikipedia.org/wiki/Representational_state_transfer)müssen Sie die JSON-Struktur der zurückgegebenen Daten ermitteln. Für Eingaben und Ausgaben ihres Skripts sollten Sie eine so erstellen, dass sie den `interface` erforderlichen JSON-Strukturen entsprechen. Dies gibt dem Skript mehr Typsicherheit. Ein Beispiel dafür finden Sie unter [Using fetch from Office Scripts](../resources/samples/external-fetch-calls.md).
+Sie müssen die Schnittstellen des externen Diensts kennen lernen, um Aufrufe an diesen Dienst zu tätigen. Wenn Sie `fetch` [REST-APIs](https://wikipedia.org/wiki/Representational_state_transfer)verwenden, müssen Sie die JSON-Struktur der zurückgegebenen Daten ermitteln. Für die Eingabe in und die Ausgabe von Ihrem Skript sollten Sie eine an `interface` die erforderlichen JSON-Strukturen anpassen. Dadurch erhält das Skript mehr Typsicherheit. Ein Beispiel hierfür finden Sie unter [Using fetch from Office Scripts](../resources/samples/external-fetch-calls.md).
 
 ### <a name="limitations-with-external-calls-from-office-scripts"></a>Einschränkungen bei externen Aufrufen von Office Skripts
 
-* Es gibt keine Möglichkeit zum Anmelden oder Verwenden von OAuth2-Authentifizierungsflüssen. Alle Schlüssel und Anmeldeinformationen müssen hartcodiert sein (oder aus einer anderen Quelle gelesen werden).
+* Es gibt keine Möglichkeit, sich anzumelden oder den OAuth2-Authentifizierungsflusstyp zu verwenden. Alle Schlüssel und Anmeldeinformationen müssen hartcodiert (oder aus einer anderen Quelle gelesen) werden.
 * Es gibt keine Infrastruktur zum Speichern von API-Anmeldeinformationen und -Schlüsseln. Dies muss vom Benutzer verwaltet werden.
-* Dokumentcookies `localStorage` und Objekte werden nicht `sessionStorage` unterstützt.
-* Externe Aufrufe können dazu führen, dass vertrauliche Daten unerwünschten Endpunkten ausgesetzt werden oder externe Daten in interne Arbeitsmappen gebracht werden. Ihr Administrator kann einen Firewallschutz gegen solche Anrufe einrichten. Überprüfen Sie unbedingt lokale Richtlinien, bevor Sie sich auf externe Anrufe verlassen.
-* Achten Sie darauf, den Datendurchsatz zu überprüfen, bevor Sie eine Abhängigkeit verwenden. Beispielsweise ist das Herunterziehen des gesamten externen Datasets möglicherweise nicht die beste Option, und stattdessen sollte die Paginierung verwendet werden, um Daten in Blöcken zu erhalten.
+* `localStorage`Dokumentcookies und `sessionStorage` -objekte werden nicht unterstützt.
+* Externe Aufrufe können dazu führen, dass vertrauliche Daten für unerwünschte Endpunkte verfügbar gemacht werden oder externe Daten in interne Arbeitsmappen übertragen werden. Ihr Administrator kann Firewallschutz gegen solche Anrufe einrichten. Überprüfen Sie unbedingt die lokalen Richtlinien, bevor Sie sich auf externe Aufrufe verlassen.
+* Überprüfen Sie unbedingt den Datendurchsatz, bevor Sie eine Abhängigkeit aufnehmen. Beispielsweise ist das Ziehen des gesamten externen Datasets möglicherweise nicht die beste Option, und stattdessen sollte die Paginierung verwendet werden, um Daten in Blöcken abzurufen.
 
 ## <a name="retrieve-information-with-fetch"></a>Abrufen von Informationen mit `fetch`
 
-Die [Fetch-API](https://developer.mozilla.org/docs/Web/API/Fetch_API) ruft Informationen von externen Diensten ab. Es handelt sich `async` um eine API, daher müssen Sie die Signatur `main` Ihres Skripts anpassen. Erstellen Sie `main` die `async` Funktion, und lassen Sie sie einen `Promise<void>` zurückgeben. Sie sollten auch den Anruf und den `await` `fetch` Abruf `json` sicherstellen. Dadurch wird sichergestellt, dass diese Vorgänge abgeschlossen sind, bevor das Skript endet.
+Die [Abruf-API](https://developer.mozilla.org/docs/Web/API/Fetch_API) ruft Informationen von externen Diensten ab. Es handelt sich um eine `async` API, daher müssen Sie die `main` Signatur Ihres Skripts anpassen. Erstellen Sie die `main` `async` Funktion, und lassen Sie sie ein `Promise<void>` . Sie sollten auch darauf achten, `await` dass der Anruf und `fetch` `json` abruft. Dadurch wird sichergestellt, dass diese Vorgänge abgeschlossen sind, bevor das Skript beendet wird.
 
-Alle von abgerufenen `fetch` JSON-Daten müssen mit einer im Skript definierten Schnittstelle übereinstimmen. Der zurückgegebene Wert muss einem bestimmten Typ zugewiesen werden, [da Office Skripts den Typ nicht `any` unterstützen.](typescript-restrictions.md#no-any-type-in-office-scripts) Informationen zu den Namen und Typen der zurückgegebenen Eigenschaften finden Sie in der Dokumentation für Ihren Dienst. Fügen Sie dann die übereinstimmende Schnittstelle oder Schnittstellen zu Ihrem Skript hinzu.
+Alle JSON-Daten, die von abgerufen `fetch` werden, müssen mit einer schnittstelle übereinstimmen, die im Skript definiert ist. Der zurückgegebene Wert muss einem bestimmten Typ zugewiesen werden, da [Office Skripts den `any` Typ nicht unterstützen.](typescript-restrictions.md#no-any-type-in-office-scripts) Die Namen und Typen der zurückgegebenen Eigenschaften finden Sie in der Dokumentation für Ihren Dienst. Fügen Sie dann die übereinstimmende Schnittstelle oder Schnittstellen zu Ihrem Skript hinzu.
 
-Das folgende Skript `fetch` verwendet, um JSON-Daten vom Testserver in der angegebenen URL abzurufen. Notieren Sie `JSONData` sich die Schnittstelle, um die Daten als übereinstimmenden Typ zu speichern.
+Das folgende Skript `fetch` verwendet, um JSON-Daten vom Testserver in der angegebenen URL abzurufen. Beachten Sie die `JSONData` Schnittstelle zum Speichern der Daten als übereinstimmenden Typ.
 
 ```TypeScript
 async function main(workbook: ExcelScript.Workbook): Promise<void> {
@@ -73,22 +73,22 @@ interface JSONData {
 }
 ```
 
-### <a name="other-fetch-samples"></a>Weitere `fetch` Beispiele
+### <a name="other-fetch-samples"></a>Andere `fetch` Beispiele
 
-* Das [Beispiel Externe Abrufaufrufe in Office Skripts](../resources/samples/external-fetch-calls.md) verwenden zeigt, wie Sie grundlegende Informationen über die GitHub eines Benutzers abrufen.
-* Das [beispielszenario Office Scripts: Graph](../resources/scenarios/noaa-data-fetch.md) Daten auf Wasserebene aus NOAA veranschaulicht den Abrufbefehl, der zum Abrufen von Datensätzen aus der Flut- und Currents-Datenbank der National Oceanic and Atmospheric Administration verwendet wird.
+* Das Beispiel ["Verwenden externer Abrufaufrufe in Office Skripts"](../resources/samples/external-fetch-calls.md) zeigt, wie Sie grundlegende Informationen zu den repositorys GitHub eines Benutzers abrufen.
+* Beispielszenario [für Office Skripts: Graph Wasserstandsdaten von NOAA](../resources/scenarios/noaa-data-fetch.md) veranschaulicht den Abrufbefehl, der zum Abrufen von Datensätzen aus der Datenbank der National Wateric and Retriev Administration verwendet wird.
 
-## <a name="external-calls-from-power-automate"></a>Externe Anrufe von Power Automate
+## <a name="external-calls-from-power-automate"></a>Externe Aufrufe von Power Automate
 
-Ein externer API-Aufruf schlägt fehl, wenn ein Skript mit einem Power Automate. Dies ist ein Verhaltensunterschied zwischen dem Ausführen eines Skripts über die Excel und Power Automate. Überprüfen Sie ihre Skripts auf solche Verweise, bevor Sie sie in einen Fluss erstellen.
+Bei einem externen API-Aufruf tritt ein Fehler auf, wenn ein Skript mit Power Automate ausgeführt wird. Dies ist ein Verhaltensunterschied zwischen dem Ausführen eines Skripts über die Excel-Anwendung und Power Automate. Überprüfen Sie ihre Skripts unbedingt auf solche Verweise, bevor Sie sie in einen Fluss integrieren.
 
-Sie müssen HTTP mit [Azure AD](/connectors/webcontents/) oder andere gleichwertige Aktionen verwenden, um Daten von einem externen Dienst zu ziehen oder an einen externen Dienst zu pushen.
+Sie müssen HTTP [mit Azure AD](/connectors/webcontents/) oder anderen gleichwertigen Aktionen verwenden, um Daten aus einem externen Dienst abzurufen oder an einen externen Dienst zu übertragen.
 
 > [!WARNING]
-> Externe Anrufe, die über den Power Automate [Excel Onlineconnector](/connectors/excelonlinebusiness) vorgenommen werden, führen zu einem Fehler, um vorhandene Richtlinien zur Verhinderung von Datenverlust zu unterstützen. Skripts, die durch Power Automate ausgeführt werden, werden jedoch außerhalb Ihrer Organisation und außerhalb der Firewalls Ihrer Organisation ausgeführt. Für zusätzlichen Schutz vor böswilligen Benutzern in dieser externen Umgebung kann Ihr Administrator die Verwendung von skripts Office steuern. Ihr Administrator kann entweder den Excel Onlineconnector in Power Automate deaktivieren oder Office Skripts für Excel im Web über die Office Scripts-Administratorsteuerelemente [deaktivieren.](/microsoft-365/admin/manage/manage-office-scripts-settings)
+> Externe Aufrufe, die über den Power Automate [Excel Online Connector](/connectors/excelonlinebusiness) getätigt werden, schlagen fehl, um vorhandene Richtlinien zur Verhinderung von Datenverlust zu beheben. Skripts, die über Power Automate ausgeführt werden, erfolgen jedoch außerhalb Ihrer Organisation und außerhalb der Firewalls Ihrer Organisation. Um zusätzlichen Schutz vor böswilligen Benutzern in dieser externen Umgebung zu erhalten, kann Ihr Administrator die Verwendung von Office Skripts steuern. Ihr Administrator kann entweder den Excel Online-Connector in Power Automate deaktivieren oder Office Skripts für Excel im Web über die [Administratorsteuerelemente Office Skripts](/microsoft-365/admin/manage/manage-office-scripts-settings)deaktivieren.
 
-## <a name="see-also"></a>Sehen Sie ebenfalls
+## <a name="see-also"></a>Weitere Artikel
 
 * [Verwenden von integrierten JavaScript-Objekten in Office-Skripts](javascript-objects.md)
 * [Verwenden von externen Abrufanrufen in Office-Skripts](../resources/samples/external-fetch-calls.md)
-* [Office Beispielszenario für Skripts: Graph daten auf Wasserebene aus NOAA](../resources/scenarios/noaa-data-fetch.md)
+* [Office Skript-Beispielszenario: Graph Wasserstandsdaten von NOAA](../resources/scenarios/noaa-data-fetch.md)

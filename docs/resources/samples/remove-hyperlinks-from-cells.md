@@ -3,12 +3,12 @@ title: Entfernen von Hyperlinks aus jeder Zelle in einem Excel Arbeitsblatt
 description: Erfahren Sie, wie Sie Office Skripts verwenden, um Hyperlinks aus jeder Zelle in einem Excel Arbeitsblatt zu entfernen.
 ms.date: 06/29/2021
 localization_priority: Normal
-ms.openlocfilehash: dc33eb639edac8ada29824a53440031942e59179
-ms.sourcegitcommit: 211c157ca746e266eeb079f5fa1925a1e35ab702
+ms.openlocfilehash: 498d55ea1ee7926ab124d00795825660005c5e38e73ed5d90fe8f9208a583908
+ms.sourcegitcommit: 75f7ed8c2d23a104acc293f8ce29ea580b4fcdc5
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "53313750"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57847429"
 ---
 # <a name="remove-hyperlinks-from-each-cell-in-an-excel-worksheet"></a>Entfernen von Hyperlinks aus jeder Zelle in einem Excel Arbeitsblatt
 

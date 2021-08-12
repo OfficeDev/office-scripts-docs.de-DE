@@ -3,12 +3,12 @@ title: TypeScript-Einschränkungen in Office Skripts
 description: Die Einzelheiten des TypeScript-Compilers und Linters, die vom Code-Editor für Office Skripts verwendet werden.
 ms.date: 07/14/2021
 localization_priority: Normal
-ms.openlocfilehash: 530314b624ef4674de60e5cfac7735c90044fb56
-ms.sourcegitcommit: de25e0657e7404bb780851b52633222bc3f80e52
+ms.openlocfilehash: ea7b9e34b09409fbe7b4cfdab221a59d50246773167fbe6d1c64bbd61fd0b2df
+ms.sourcegitcommit: 75f7ed8c2d23a104acc293f8ce29ea580b4fcdc5
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53529225"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57847040"
 ---
 # <a name="typescript-restrictions-in-office-scripts"></a>TypeScript-Einschränkungen in Office Skripts
 
@@ -26,7 +26,7 @@ Sie können eine Variable nicht explizit als Typ `any` in Office Skripts deklari
 
 :::image type="content" source="../images/explicit-any-error-message.png" alt-text="Der explizite Fehler &quot;any&quot; im Konsolenfenster.":::
 
-Im vorherigen Screenshot `[2, 14] Explicit Any is not allowed` wird angegeben, dass die Zeile #2 Spalte #14 `any` den Typ definiert. Dies hilft Ihnen bei der Suche nach dem Fehler.
+Im vorherigen Screenshot `[2, 14] Explicit Any is not allowed` wird angegeben, dass zeile #2 Spalte #14 `any` Typ definiert. Dies hilft Ihnen bei der Suche nach dem Fehler.
 
 Um dieses Problem zu umgehen, definieren Sie immer den Typ der Variablen. Wenn Sie hinsichtlich des Typs einer Variablen unsicher sind, können Sie einen [Vereinigungstyp](https://www.typescriptlang.org/docs/handbook/unions-and-intersections.html)verwenden. Dies kann für Variablen nützlich `Range` sein, die Werte enthalten, die vom Typ sein `string` `number` können, oder `boolean` (der Typ für `Range` Werte ist eine Vereinigung dieser Werte: `string | number | boolean` ).
 
@@ -43,7 +43,7 @@ Der häufigste Fall für `any` implizite Variablen ist eine Variablendeklaration
 
 ## <a name="no-inheriting-office-script-classes-or-interfaces"></a>Kein Erben Office Skriptklassen oder -schnittstellen
 
-Klassen und Schnittstellen, die in Ihrem Office Skript erstellt werden, können Office Skripts-Klassen oder -Schnittstellen nicht [erweitern oder implementieren.](https://www.typescriptlang.org/docs/handbook/classes.html#inheritance) Mit anderen Worten, nichts im `ExcelScript` Namespace kann Unterklassen oder Unterinterfaces enthalten.
+Klassen und Schnittstellen, die in Ihrem Office Skript erstellt werden, können Office Skriptklassen oder -schnittstellen nicht [erweitern oder implementieren.](https://www.typescriptlang.org/docs/handbook/classes.html#inheritance) Mit anderen Worten, nichts im `ExcelScript` Namespace kann Unterklassen oder Unterinterfaces enthalten.
 
 ## <a name="incompatible-typescript-functions"></a>Inkompatible TypeScript-Funktionen
 
@@ -83,7 +83,7 @@ let filteredArray = myArray.filter((x) => {
 
 ## <a name="unions-of-excelscript-types-and-user-defined-types-arent-supported"></a>Verbindungen von `ExcelScript` Typen und benutzerdefinierten Typen werden nicht unterstützt.
 
-Office Skripts werden zur Laufzeit von synchronen in asynchrone Codeblöcke konvertiert. Die Kommunikation mit der Arbeitsmappe über [Zusagen](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise) wird dem Skriptersteller verborgen. Diese Konvertierung unterstützt keine [Vereinigungstypen,](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#union-types) die `ExcelScript` Typen und benutzerdefinierte Typen enthalten. In diesem Fall wird das `Promise` Skript zurückgegeben, aber der Office Skriptcompiler erwartet es nicht, und der Skriptersteller kann nicht mit dem Skript `Promise` interagieren.
+Office Skripts werden zur Laufzeit von synchronen in asynchrone Codeblöcke konvertiert. Die Kommunikation mit der Arbeitsmappe über [Zusagen](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise) wird dem Skriptersteller verborgen. Diese Konvertierung unterstützt keine [Vereinigungstypen,](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#union-types) die `ExcelScript` Typen und benutzerdefinierte Typen enthalten. In diesem Fall wird das `Promise` Skript zurückgegeben, aber der Office Script-Compiler erwartet es nicht, und der Ersteller des Skripts kann nicht mit der `Promise` interagieren.
 
 Das folgende Codebeispiel zeigt eine nicht unterstützte Vereinigung zwischen `ExcelScript.Table` und einer benutzerdefinierten `MyTable` Schnittstelle.
 
@@ -112,7 +112,7 @@ Der [Linter](https://wikipedia.org/wiki/Lint_(software)) des Code-Editors gibt W
 
 ## <a name="external-api-calls"></a>Externe API-Aufrufe
 
-Weitere Informationen finden Sie [unter "Support für externe API-Aufrufe" in Office Skripts.](external-calls.md)
+Weitere Informationen finden Sie unter Unterstützung externer [API-Aufrufe in Office Skripts.](external-calls.md)
 
 ## <a name="see-also"></a>Siehe auch
 

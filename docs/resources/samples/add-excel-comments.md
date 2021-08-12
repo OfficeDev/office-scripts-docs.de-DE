@@ -3,12 +3,12 @@ title: Hinzufügen von Kommentaren in Excel
 description: Erfahren Sie, wie Sie Office Skripts verwenden, um Kommentare in einem Arbeitsblatt hinzuzufügen.
 ms.date: 06/29/2021
 localization_priority: Normal
-ms.openlocfilehash: 77e308d020281c71751e2652f8dbaec00c263e44
-ms.sourcegitcommit: 211c157ca746e266eeb079f5fa1925a1e35ab702
+ms.openlocfilehash: b57b4112f2092dd83872f63854a8156b2a19384ac1d86a44ab2d9df4e6b7ff7e
+ms.sourcegitcommit: 75f7ed8c2d23a104acc293f8ce29ea580b4fcdc5
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "53313911"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57847100"
 ---
 # <a name="add-comments-in-excel"></a>Hinzufügen von Kommentaren in Excel
 

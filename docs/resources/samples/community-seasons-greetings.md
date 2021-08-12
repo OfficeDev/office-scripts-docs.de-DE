@@ -1,26 +1,26 @@
 ---
 title: Weihnachtsgrüße
-description: Erfahren Sie, wie Sie Office Skripts verwenden, um eine Besingungsstruktur in einer Excel im Web.
-ms.date: 04/28/2021
+description: Erfahren Sie, wie Sie mithilfe von Office Skripts eine Baumstruktur in Excel im Web anzeigen können.
+ms.date: 06/29/2021
 localization_priority: Normal
-ms.openlocfilehash: a328ba66fedc245ff73300d7f47cd339ec87234f
-ms.sourcegitcommit: f7a7aebfb687f2a35dbed07ed62ff352a114525a
+ms.openlocfilehash: 3474a3e4a87257bba75132b029b57b0c28c922d1b901cda10068d5998d895c53
+ms.sourcegitcommit: 75f7ed8c2d23a104acc293f8ce29ea580b4fcdc5
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52232578"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57846603"
 ---
 # <a name="seasons-greetings"></a>Weihnachtsgrüße
 
-Dieses Skript wurde von [Leslie Black](https://www.linkedin.com/in/lesblackconsultant/) im Geiste der Feiertagszeit beigetragen! Es ist ein lustiges Skript, das eine baumsingende Struktur in Excel im Web mit Office zeigt.
+Dieses Skript wurde von [Leslie Black](https://www.linkedin.com/in/lesblackconsultant/) in der Feiertagszeit beigesteuert! Es ist ein interessantes Skript, das eine baumgeschützte Struktur in Excel im Web mit Office Skripts zeigt.
 
-Viel Spaß!
+Genießen!
 
-[Sehen Sie sich das Skript "Sommergrüße" im YouTube-Kanal "Les's IT Blog" an.](https://youtu.be/HBiGEkzmkgo)
+[Sehen Sie sich das Skript "Begrüßungen in der Spielzeit" im YouTube-Kanal "Les's IT Blog" an.](https://youtu.be/HBiGEkzmkgo)
 
 ## <a name="script"></a>Skript
 
-Laden Sie die Datei <a href="happy-tree.xlsx">happy-tree.xlsx, </a> die in dieser Lösung verwendet wird, um sie selbst auszuprobieren!
+Laden Sie <a href="happy-tree.xlsx">happy-tree.xlsx</a> für eine einsatzbereite Arbeitsmappe herunter. Fügen Sie das folgende Skript hinzu, um das Beispiel selbst auszuprobieren!
 
 ```TypeScript
 /* Original version by Leslie Black.  */

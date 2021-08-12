@@ -3,12 +3,12 @@ title: Verbessern der Leistung Ihrer Office-Skripts
 description: Erstellen Sie schnellere Skripts, indem Sie die Kommunikation zwischen der Excel Arbeitsmappe und Ihrem Skript verstehen.
 ms.date: 05/17/2021
 localization_priority: Normal
-ms.openlocfilehash: a5bd879625b9c3bac0caa621dde312f7c961dd5c
-ms.sourcegitcommit: 2aaf7dc527cb6c9f1206550b2c5745280503b2a3
+ms.openlocfilehash: e71fe3d0b25eab99d075e54a63600861d285756d98a6d6dd8490c3f4e73fab33
+ms.sourcegitcommit: 75f7ed8c2d23a104acc293f8ce29ea580b4fcdc5
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/16/2021
-ms.locfileid: "52957700"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57847016"
 ---
 # <a name="improve-the-performance-of-your-office-scripts"></a>Verbessern der Leistung Ihrer Office-Skripts
 
@@ -100,7 +100,7 @@ Die Konsolenprotokollierung ist ein wichtiges Tool zum [Debuggen ihrer Skripts.]
 
 ## <a name="case-by-case-help"></a>Fall-für-Fall-Hilfe
 
-Da die Plattform Office Skripts erweitert wird, um mit [Power Automate,](https://flow.microsoft.com/) [adaptiven Karten](/adaptive-cards)und anderen produktübergreifenden Features zu arbeiten, werden die Details der Kommunikation zwischen Skripts und Arbeitsmappen komplizierter. Wenn Sie Hilfe benötigen, damit Ihr Skript schneller ausgeführt wird, wenden Sie sich an [Microsoft Q&A](/answers/topics/office-scripts-excel-dev.html). Achten Sie darauf, Ihre Frage mit "office-scripts-dev" zu markieren, damit Experten sie finden und Hilfe erhalten.
+Wenn die Plattform Office Skripts erweitert wird, um mit [Power Automate,](https://flow.microsoft.com/) [adaptiven Karten](/adaptive-cards)und anderen produktübergreifenden Features zu arbeiten, werden die Details der Kommunikation zwischen Skripts und Arbeitsmappen komplizierter. Wenn Sie Hilfe benötigen, damit Ihr Skript schneller ausgeführt wird, wenden Sie sich an [Microsoft Q&A](/answers/topics/office-scripts-excel-dev.html). Achten Sie darauf, Ihre Frage mit "office-scripts-dev" zu markieren, damit Experten sie finden und Hilfe erhalten.
 
 ## <a name="see-also"></a>Siehe auch
 

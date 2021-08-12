@@ -3,12 +3,12 @@ title: Hinzufügen von Bildern zu einer Arbeitsmappe
 description: Erfahren Sie, wie Sie Office Skripts verwenden, um einer Arbeitsmappe ein Bild hinzuzufügen und es blätterübergreifend zu kopieren.
 ms.date: 07/12/2021
 localization_priority: Normal
-ms.openlocfilehash: 993444aa328356f872db90d1b9d2403bf28be4de
-ms.sourcegitcommit: a86b91c7e104bb7c26efd56de53b9e3976a34828
+ms.openlocfilehash: 7f8442ccfceb701fcca816d4203205dddabe68d9dfe594c87363c7eb42f353dd
+ms.sourcegitcommit: 75f7ed8c2d23a104acc293f8ce29ea580b4fcdc5
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "53394416"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57846314"
 ---
 # <a name="add-images-to-a-workbook"></a>Hinzufügen von Bildern zu einer Arbeitsmappe
 

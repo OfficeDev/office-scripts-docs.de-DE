@@ -3,12 +3,12 @@ title: Bewährte Methoden in Office-Skripts
 description: So verhindern Sie häufige Probleme und schreiben robuste Office Skripts, die unerwartete Eingaben oder Daten verarbeiten können.
 ms.date: 05/10/2021
 localization_priority: Normal
-ms.openlocfilehash: 45dd40ad2f88aecbf66db2a623d92ca81f73657c
-ms.sourcegitcommit: 9d00ee1c11cdf897410e5232692ee985f01ee098
+ms.openlocfilehash: cdea3583120109cda05c05cb7c4f908e929bbff0d37e615b1820f67b57fbe24f
+ms.sourcegitcommit: 75f7ed8c2d23a104acc293f8ce29ea580b4fcdc5
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53772309"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57846617"
 ---
 # <a name="best-practices-in-office-scripts"></a>Bewährte Methoden in Office-Skripts
 
@@ -134,9 +134,9 @@ Betrachten Sie den folgenden Codeausschnitt, der eine Aktualisierung großer Dat
 range.setValues(someLargeValues);
 ```
 
-Wenn `someLargeValues` größer ist, als Excel für das Web verarbeiten können, schlägt der `setValues()` Aufruf fehl. Das Skript schlägt dann auch mit einem [Laufzeitfehler](../testing/troubleshooting.md#runtime-errors)fehl. Mit der `try...catch` Anweisung kann das Skript diese Bedingung erkennen, ohne das Skript sofort zu beenden und den Standardfehler anzuzeigen.
+Wenn `someLargeValues` größer ist, als Excel für das Web verarbeiten kann, schlägt der `setValues()` Aufruf fehl. Das Skript schlägt dann auch mit einem [Laufzeitfehler](../testing/troubleshooting.md#runtime-errors)fehl. Mit der `try...catch` Anweisung kann das Skript diese Bedingung erkennen, ohne das Skript sofort zu beenden und den Standardfehler anzuzeigen.
 
-Eine Möglichkeit, dem Skriptbenutzer eine bessere Benutzererfahrung zu bieten, besteht darin, ihm eine benutzerdefinierte Fehlermeldung anzuzeigen. Der folgende Codeausschnitt zeigt eine `try...catch` Anweisung, in der weitere Fehlerinformationen protokolliert werden, um dem Leser besser zu helfen.
+Ein Ansatz, um dem Skriptbenutzer eine bessere Benutzererfahrung zu bieten, besteht darin, ihm eine benutzerdefinierte Fehlermeldung anzuzeigen. Der folgende Codeausschnitt zeigt eine `try...catch` Anweisung, die weitere Fehlerinformationen protokolliert, um dem Leser besser zu helfen.
 
 ```TypeScript
 try {

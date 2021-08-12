@@ -3,12 +3,12 @@ title: Office Dateispeicherung und -besitz von Skripts
 description: Informationen dazu, wie Office Skripts in Microsoft OneDrive gespeichert und zwischen Besitzern übertragen werden.
 ms.date: 06/04/2021
 localization_priority: Normal
-ms.openlocfilehash: b7ccb3ceae99a3a10bb56d5a4e56cc869d99850e
-ms.sourcegitcommit: 7dcb13daa3a765b87295e5a453a8f123e17ee24a
+ms.openlocfilehash: 6343b5bad366d9e4c4f349622a33b062de9c8ddd7877c3d40a49635d6aaef9cf
+ms.sourcegitcommit: 75f7ed8c2d23a104acc293f8ce29ea580b4fcdc5
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/11/2021
-ms.locfileid: "52906787"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57847296"
 ---
 # <a name="office-scripts-file-storage-and-ownership"></a>Office Dateispeicherung und -besitz von Skripts
 
@@ -20,7 +20,7 @@ Wenn Sie Ihre Skripts nicht freigeben, kann kein anderer Benutzer darauf zugreif
 
 Sie Office Skripts werden in Ihrem OneDrive gespeichert. Die **OSTS-Dateien** befinden sich im Ordner **"/Documents/Office Scripts/".** Alle an diesen **OSTS-Dateien** vorgenommenen Änderungen, z. B. das Umbenennen oder Löschen von Dateien, werden im Code-Editor und im Skriptkatalog wiedergegeben.
 
-Skripts, die für eine Ihrer Arbeitsmappen freigegeben sind, verbleiben im OneDrive des Skripterstellers. Sie werden nicht in ihre lokalen oder OneDrive Ordner kopiert, wenn Sie das freigegebene Skript in Excel ausführen. Die Schaltfläche **"Kopieren"** des Code-Editors speichert eine separate Kopie des Skripts in Ihrem OneDrive. Änderungen an der Kopie wirken sich nicht auf das Originalskript aus.
+Skripts, die für eine Ihrer Arbeitsmappen freigegeben sind, verbleiben im OneDrive des Skripterstellers. Sie werden nicht in Ihre lokalen oder OneDrive Ordner kopiert, wenn Sie das freigegebene Skript in Excel ausführen. Die Schaltfläche **"Kopieren"** des Code-Editors speichert eine separate Kopie des Skripts in Ihrem OneDrive. Änderungen an der Kopie wirken sich nicht auf das Originalskript aus.
 
 ### <a name="restore-deleted-scripts"></a>Wiederherstellen gelöschter Skripts
 
@@ -32,7 +32,7 @@ Wiederhergestellte Skripts funktionieren weiterhin wie erwartet mit Power Automa
 
 ## <a name="file-ownership-and-retention"></a>Dateibesitz und -aufbewahrung
 
-Office Skripts werden im OneDrive eines Benutzers gespeichert. Sie folgen den von Microsoft OneDrive angegebenen Aufbewahrungs- und Löschrichtlinien. Wenn Sie wissen möchten, wie Skripts behandelt werden, die von einem Benutzer erstellt und freigegeben wurden, der aus Ihrer Organisation entfernt wird, lesen Sie [OneDrive Aufbewahrungs-und Löschvorgänge](/onedrive/retention-and-deletion).
+Office Skripts werden im OneDrive eines Benutzers gespeichert. Sie folgen den Von Microsoft OneDrive angegebenen Aufbewahrungs- und Löschrichtlinien. Wenn Sie wissen möchten, wie Skripts behandelt werden, die von einem Benutzer erstellt und freigegeben wurden, der aus Ihrer Organisation entfernt wird, lesen Sie [OneDrive Aufbewahrungs-und Löschvorgänge](/onedrive/retention-and-deletion).
 
 Während der Bearbeitung werden Dateien vorübergehend im Browser gespeichert. Sie müssen das Skript speichern, bevor Sie das Excel Fenster schließen, um es am OneDrive Speicherort zu speichern. Vergessen Sie nicht, die Datei nach den Bearbeitungen zu speichern, andernfalls befinden sich diese Bearbeitungen nur in der Browserversion der Datei.
 
@@ -45,7 +45,7 @@ Um zu ermitteln, wer Office Skripts mit dem Suchtool verwendet, fügen Sie `.ost
 > [!NOTE]
 > Das Ausführen eines Skripts wird derzeit nicht protokolliert. Es werden nur die Erstellungs-, Ansichts- und Änderungsaktionen protokolliert.
 
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Weitere Artikel
 
 - [Office-Skripts in Excel für das Web](https://support.microsoft.com/office/sharing-office-scripts-in-excel-for-the-web-226eddbc-3a44-4540-acfe-fccda3d1122b)
 - [Behandeln von Problemen mit Office-Skripts](../testing/troubleshooting.md)

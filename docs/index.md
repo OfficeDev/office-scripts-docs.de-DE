@@ -5,12 +5,12 @@ title: Office Scripts-Dokumentation
 description: Ressourcen zum Erlernen von Office-Skripts in Excel im Web, einschließlich Lernprogrammen, konzeptionellen Artikeln und Codebeispielen.
 ms.date: 05/24/2021
 localization_priority: Priority
-ms.openlocfilehash: 095fffbc0b92f4efb5dcdcde1cd5970d6fd3c3f1
-ms.sourcegitcommit: de25e0657e7404bb780851b52633222bc3f80e52
+ms.openlocfilehash: 108642efda29aa9d794b1202befda0854f5db6305f6c93ee4038727016acebb0
+ms.sourcegitcommit: 75f7ed8c2d23a104acc293f8ce29ea580b4fcdc5
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53529218"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57847120"
 ---
 # <a name="office-scripts-documentation"></a>Office-Skripts-Dokumentation
 
@@ -74,7 +74,7 @@ Verwenden Sie Office-Skripts in Excel im Web, um Ihre täglichen Aufgaben zu aut
 
 <h2>Sonstige Ressourcen</h2>
 <p>Verwenden Sie die folgenden Ressourcen, um sich über die APIs zu informieren, die von Office-Skripts für die Interaktion mit Arbeitsmappen in Excel im Web verwendet werden, stellen Sie Fragen zu Office-Skripts in Excel im Web oder fordern Sie Features für Office-Skripts in Excel im Web an.</p>
-<ul class="panelContent cardsF cols cols3" style="display:flex!important;">
+<ul class="panelContent cardsF cols cols3">
     <li>
         <div class="cardSize">
             <div class="cardPadding">

@@ -1,14 +1,14 @@
 ---
 title: 'Office Skript-Beispielszenario: Automatisierte Aufgabenerinnerungen'
-description: Ein Beispiel, das Power Automate und adaptive Karten verwendet, automatisiert Aufgabenerinnerungen in einer Projektverwaltungstabelle.
+description: Ein Beispiel, das Power Automate und adaptive Karten verwendet, um Aufgabenerinnerungen in einer Projektverwaltungstabelle zu automatisieren.
 ms.date: 06/29/2021
 localization_priority: Normal
-ms.openlocfilehash: cf25b81ad44bbe963083f6a8346c0fd59a514305
-ms.sourcegitcommit: 211c157ca746e266eeb079f5fa1925a1e35ab702
+ms.openlocfilehash: 8e9ddebd6ab8f061a623f646000a722c3a95ba0d255fd8bac42cda6172078879
+ms.sourcegitcommit: 75f7ed8c2d23a104acc293f8ce29ea580b4fcdc5
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "53313981"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57846368"
 ---
 # <a name="office-scripts-sample-scenario-automated-task-reminders"></a>Office Skript-Beispielszenario: Automatisierte Aufgabenerinnerungen
 
@@ -152,16 +152,16 @@ In diesem Szenario [werden Power Automate](https://flow.microsoft.com) und [Micr
 
 1. Wählen Sie manuell einen Fluss aus den Optionen **aus,** und wählen Sie **Erstellen** aus.
 
-1. Der Fluss muss das Skript **"Personen** abrufen" aufrufen, um alle Mitarbeiter mit leeren Statusfeldern abzurufen. Wählen Sie **"Neu" aus,** und wählen Sie dann **Excel Online (Business)** aus. Wählen Sie unter **Aktionen** die Option **Skript ausführen** aus. Geben Sie die folgenden Einträge für den Flussschritt an:
+1. Der Fluss muss das Skript **"Personen** abrufen" aufrufen, um alle Mitarbeiter mit leeren Statusfeldern abzurufen. Wählen Sie **"Neu"** aus, und wählen Sie dann **Excel Online (Business)** aus. Wählen Sie unter **Aktionen** die Option **Skript ausführen** aus. Geben Sie die folgenden Einträge für den Flussschritt an:
 
     - **Location**: OneDrive for Business
     - **Document Library**: OneDrive
     - **Datei:** task-reminders.xlsx *(über den Dateibrowser ausgewählt)*
     - **Skript:** Personen abrufen
 
-    :::image type="content" source="../../images/scenario-task-reminders-first-flow-step.png" alt-text="Der Power Automate-Ablauf mit dem ersten Ausführungsskriptflussschritt.":::
+    :::image type="content" source="../../images/scenario-task-reminders-first-flow-step.png" alt-text="Der Power Automate Fluss, der den ersten Ausführungsskriptflussschritt anzeigt.":::
 
-1. Als Nächstes muss der Fluss jeden Mitarbeiter in dem array verarbeiten, das vom Skript zurückgegeben wird. Wählen Sie **"Neuer Schritt"** aus, und wählen Sie dann **"Adaptive Karte an einen Teams Benutzer posten" aus, und warten Sie auf eine Antwort.**
+1. Als Nächstes muss der Fluss jeden Mitarbeiter in dem array verarbeiten, das vom Skript zurückgegeben wird. Wählen Sie **"Neu" aus,** und wählen Sie dann **"Adaptive Karte für einen Teams Benutzer bereitstellen" aus, und warten Sie auf eine Antwort.**
 
 1. Fügen Sie für das **Feld "Empfänger"** **E-Mails** aus dem dynamischen Inhalt hinzu (die Auswahl enthält das Excel Logo). Durch das Hinzufügen von **E-Mails** wird der Flussschritt von einem **Apply-Element für jeden** Block umgeben. Das bedeutet, dass das Array von Power Automate durchlaufen wird.
 
@@ -228,7 +228,7 @@ In diesem Szenario [werden Power Automate](https://flow.microsoft.com) und [Micr
 
 Um den Fluss zu testen, stellen Sie sicher, dass alle Tabellenzeilen mit leerem Status eine E-Mail-Adresse verwenden, die an ein Teams Konto gebunden ist (Sie sollten beim Testen wahrscheinlich Ihre eigene E-Mail-Adresse verwenden). Verwenden Sie die Schaltfläche **"Test"** auf der Flow-Editor-Seite, oder führen Sie den Fluss über Ihre Registerkarte **"Meine Flüsse"** aus. Achten Sie darauf, den Zugriff zuzulassen, wenn Sie dazu aufgefordert werden.
 
-Sie sollten eine adaptive Karte von Power Automate bis Teams erhalten. Nachdem Sie das Statusfeld in der Karte ausgefüllt haben, wird der Fluss fortgesetzt und die Tabelle mit dem von Ihnen angegebenen Status aktualisiert.
+Sie sollten eine adaptive Karte von Power Automate über Teams erhalten. Nachdem Sie das Statusfeld in der Karte ausgefüllt haben, wird der Fluss fortgesetzt und die Tabelle mit dem von Ihnen angegebenen Status aktualisiert.
 
 ### <a name="before-running-the-flow"></a>Vor dem Ausführen des Flusses
 

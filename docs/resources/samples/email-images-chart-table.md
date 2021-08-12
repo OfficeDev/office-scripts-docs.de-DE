@@ -3,12 +3,12 @@ title: Senden einer E-Mail an die Bilder eines Excel Diagramms und einer Tabelle
 description: Erfahren Sie, wie Sie Office Skripts und Power Automate verwenden, um die Bilder eines Excel Diagramms und einer Tabelle zu extrahieren und per E-Mail zu senden.
 ms.date: 06/29/2021
 localization_priority: Normal
-ms.openlocfilehash: 003769d026eb07f9bade44a40770f6309ee52b8a
-ms.sourcegitcommit: 9d00ee1c11cdf897410e5232692ee985f01ee098
+ms.openlocfilehash: 1fffd81426c8850cb605e2dbc0f9bf023a4a3692c12f8bd7c8dcc9ec45236ab8
+ms.sourcegitcommit: 75f7ed8c2d23a104acc293f8ce29ea580b4fcdc5
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53772330"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57846741"
 ---
 # <a name="use-office-scripts-and-power-automate-to-email-images-of-a-chart-and-table"></a>Verwenden von Office Skripts und Power Automate zum Senden von E-Mail-Bildern eines Diagramms und einer Tabelle
 
@@ -38,7 +38,7 @@ _E-Mail, die über Power Automate Fluss empfangen wurde_
 Diese Lösung umfasst zwei Teile:
 
 1. [Ein Office-Skript zum Berechnen und Extrahieren Excel Diagramms und der Tabelle](#sample-code-calculate-and-extract-excel-chart-and-table)
-1. Ein Power Automate Fluss, um das Skript aufzurufen und die Ergebnisse per E-Mail zu senden. Ein Beispiel dazu finden Sie unter [Erstellen eines automatisierten Workflows mit Power Automate.](../../tutorials/excel-power-automate-returns.md#create-an-automated-workflow-with-power-automate)
+1. Ein Power Automate-Fluss, um das Skript aufzurufen und die Ergebnisse per E-Mail zu senden. Ein Beispiel dazu finden Sie unter [Erstellen eines automatisierten Workflows mit Power Automate.](../../tutorials/excel-power-automate-returns.md#create-an-automated-workflow-with-power-automate)
 
 ## <a name="sample-excel-file"></a>Beispieldatei für Excel
 
@@ -89,7 +89,7 @@ interface ReportImages {
 }
 ```
 
-## <a name="power-automate-flow-email-the-chart-and-table-images"></a>Power Automate Fluss: Senden einer E-Mail an diagramm- und tabellenbilder
+## <a name="power-automate-flow-email-the-chart-and-table-images"></a>Power Automate Fluss: Senden einer E-Mail an das Diagramm und die Tabellenbilder
 
 Dieser Fluss führt das Skript aus und sendet eine E-Mail an die zurückgegebenen Bilder.
 
@@ -101,8 +101,8 @@ Dieser Fluss führt das Skript aus und sendet eine E-Mail an die zurückgegebene
     * **Datei:** Ihre Arbeitsmappe ([ausgewählt mit der Dateiauswahl](../../testing/power-automate-troubleshooting.md#select-workbooks-with-the-file-browser-control))
     * **Skript:** Ihr Skriptname
 
-    :::image type="content" source="../../images/email-chart-sample-flow-1.png" alt-text="Der fertige Excel Online(Business)-Connector in Power Automate.":::
-1. In diesem Beispiel wird Outlook als E-Mail-Client verwendet. Sie können einen beliebigen E-Mail-Connector verwenden, der Power Automate unterstützt. Bei den restlichen Schritten wird jedoch davon ausgegangen, dass Sie Outlook ausgewählt haben. Fügen Sie einen **neuen Schritt** hinzu, der den **Office 365 Outlook** Connector und die Aktion **"Senden und E-Mail (V2)"** verwendet. Verwenden Sie die folgenden Werte für die Aktion.
+    :::image type="content" source="../../images/email-chart-sample-flow-1.png" alt-text="Der fertige Excel Online (Business)-Connector in Power Automate.":::
+1. In diesem Beispiel wird Outlook als E-Mail-Client verwendet. Sie können einen beliebigen E-Mail-Connector verwenden, der Power Automate unterstützt. Bei den restlichen Schritten wird jedoch davon ausgegangen, dass Sie Outlook ausgewählt haben. Fügen Sie einen **neuen Schritt** hinzu, der den **Office 365 Outlook** Connector und die Aktion **"Senden und E-Mail(V2)"** verwendet. Verwenden Sie die folgenden Werte für die Aktion.
     * **An:** Ihr Test-E-Mail-Konto (oder persönliche E-Mail)
     * **Betreff:** Bitte überprüfen Sie die Berichtsdaten
     * Wählen Sie für das Feld **"Text"** die Option "Codeansicht" ( `</>` ) aus, und geben Sie Folgendes ein:
@@ -122,7 +122,7 @@ Dieser Fluss führt das Skript aus und sendet eine E-Mail an die zurückgegebene
     ```
 
     :::image type="content" source="../../images/email-chart-sample-flow-2.png" alt-text="Der fertige Office 365 Outlook-Connector in Power Automate.":::
-1. Speichern Sie den Flow, und testen Sie ihn. Verwenden Sie die Schaltfläche **"Test"** auf der Flow-Editor-Seite, oder führen Sie den Fluss über Ihre Registerkarte **"Meine Flüsse"** aus. Achten Sie darauf, den Zugriff zuzulassen, wenn Sie dazu aufgefordert werden.
+1. Speichern Sie den Fluss, und testen Sie ihn. Verwenden Sie die Schaltfläche **"Test"** auf der Flow-Editor-Seite, oder führen Sie den Fluss über Ihre Registerkarte **"Meine Flüsse"** aus. Achten Sie darauf, den Zugriff zuzulassen, wenn Sie dazu aufgefordert werden.
 
 ## <a name="training-video-extract-and-email-images-of-chart-and-table"></a>Schulungsvideo: Extrahieren und E-Mail-Bilder von Diagrammen und Tabellen
 
