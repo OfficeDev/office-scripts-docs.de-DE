@@ -3,16 +3,16 @@ title: Plattformbeschränkungen und -anforderungen mit Office Skripts
 description: Ressourcenbeschränkungen und Browserunterstützung für Office Skripts bei Verwendung mit Excel im Web
 ms.date: 05/17/2021
 localization_priority: Normal
-ms.openlocfilehash: e6a9baa7adac438c88767ae9b4138cc0a6b31f1c5b05ca74ad8b0a50b079075b
-ms.sourcegitcommit: 75f7ed8c2d23a104acc293f8ce29ea580b4fcdc5
+ms.openlocfilehash: e60a7ecd00237bb704819d04b90e1d9ac974d4a6
+ms.sourcegitcommit: 6654aeae8a3ee2af84b4d4c4d8ff45b360a303eb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57847396"
+ms.lasthandoff: 09/02/2021
+ms.locfileid: "58862229"
 ---
 # <a name="platform-limits-and-requirements-with-office-scripts"></a>Plattformbeschränkungen und -anforderungen mit Office Skripts
 
-Es gibt einige Plattformeinschränkungen, die Sie beachten sollten, wenn Sie Office Skripts entwickeln. In diesem Artikel werden die Browserunterstützung und Datenbeschränkungen für Office Skripts für Excel im Web beschrieben.
+Es gibt einige Plattformeinschränkungen, die Sie beim Entwickeln von Office Skripts beachten sollten. In diesem Artikel werden die Browserunterstützung und Datenbeschränkungen für Office Skripts für Excel im Web beschrieben.
 
 ## <a name="browser-support"></a>Browserunterstützung
 
@@ -22,7 +22,7 @@ Office Skripts funktionieren in jedem Browser, [der Office für das Web unterst�
 
 ### <a name="third-party-cookies"></a>Cookies von Drittanbietern
 
-Ihr Browser benötigt Cookies von Drittanbietern, um die Registerkarte **"Automatisieren"** in Excel im Web anzuzeigen. Überprüfen Sie die Browsereinstellungen, wenn die Registerkarte nicht angezeigt wird. Wenn Sie eine private Browsersitzung verwenden, müssen Sie diese Einstellung möglicherweise jedes Mal erneut aktivieren.
+Ihr Browser benötigt Cookies von Drittanbietern, die aktiviert sind, um die Registerkarte **"Automatisieren"** in Excel im Web anzuzeigen. Überprüfen Sie die Browsereinstellungen, wenn die Registerkarte nicht angezeigt wird. Wenn Sie eine private Browsersitzung verwenden, müssen Sie diese Einstellung möglicherweise jedes Mal erneut aktivieren.
 
 > [!NOTE]
 > Einige Browser bezeichnen diese Einstellung als "alle Cookies" anstelle von "Cookies von Drittanbietern".
@@ -30,13 +30,13 @@ Ihr Browser benötigt Cookies von Drittanbietern, um die Registerkarte **"Automa
 #### <a name="instructions-for-adjusting-cookie-settings-in-popular-browsers"></a>Anweisungen zum Anpassen von Cookieeinstellungen in beliebten Browsern
 
 - [Chrome](https://support.google.com/chrome/answer/95647)
-- [Microsoft Edge](https://support.microsoft.com/microsoft-edge/temporarily-allow-cookies-and-site-data-in-microsoft-edge-597f04f2-c0ce-f08c-7c2b-541086362bd2)
+- [Microsoft Edge](https://support.microsoft.com/microsoft-edge/597f04f2-c0ce-f08c-7c2b-541086362bd2)
 - [Firefox](https://support.mozilla.org/kb/disable-third-party-cookies)
 - [Safari](https://support.apple.com/guide/safari/manage-cookies-and-website-data-sfri11471/mac)
 
 ## <a name="data-limits"></a>Beschränkungen für Daten
 
-Es gibt Beschränkungen, wie viele Excel Daten gleichzeitig übertragen werden können und wie viele einzelne Power Automate Transaktionen durchgeführt werden können.
+Es gibt Beschränkungen, wie viel Excel Daten gleichzeitig übertragen werden können und wie viele einzelne Power Automate Transaktionen durchgeführt werden können.
 
 ### <a name="excel"></a>Excel
 
@@ -49,14 +49,14 @@ Wenn beim Umgang mit großen Datasets Fehler auftreten, versuchen Sie, mehrere k
 
 ### <a name="power-automate"></a>Power Automate
 
-Wenn Sie Office Skripts mit Power Automate verwenden, ist jeder Benutzer auf **400 Aufrufe der Aktion "Skript ausführen" pro Tag** beschränkt. Dieser Grenzwert wird um 12:00 Uhr UTC zurückgesetzt.
+Wenn sie Office Skripts mit Power Automate verwenden, ist jeder Benutzer auf **400 Aufrufe der Aktion "Skript ausführen" pro Tag** beschränkt. Dieser Grenzwert wird um 12:00 Uhr UTC zurückgesetzt.
 
 Die Power Automate-Plattform weist auch Nutzungseinschränkungen auf, die in den folgenden Artikeln zu finden sind:
 
 - [Grenzwerte und Konfiguration in Power Automate](/power-automate/limits-and-config)
 - [Bekannte Probleme und Einschränkungen für den connector Excel Online (Business)](/connectors/excelonlinebusiness/#known-issues-and-limitations)
 
-## <a name="see-also"></a>Weitere Artikel
+## <a name="see-also"></a>Siehe auch
 
 - [Problembehandlung bei Office Skripts](troubleshooting.md)
 - [Auswirkungen von Office-Skripts rückgängig machen](undo.md)
