@@ -3,12 +3,12 @@ title: Zurückgeben von Daten aus einem Skript an einen automatisch ausgeführte
 description: Ein Tutorial, das zeigt, wie Sie Erinnerungs-E-Mails senden, indem Sie Office-Skripts für Excel im Web über Power Automate ausführen.
 ms.date: 06/29/2021
 localization_priority: Priority
-ms.openlocfilehash: c928ca612e08098c85307e22185e2240f47a5adcdfe028815c4dd837b4501c9f
-ms.sourcegitcommit: 75f7ed8c2d23a104acc293f8ce29ea580b4fcdc5
+ms.openlocfilehash: 5c021a4d146fc2c0f13c7d7ab560107a1bf5c335
+ms.sourcegitcommit: 6654aeae8a3ee2af84b4d4c4d8ff45b360a303eb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57846461"
+ms.lasthandoff: 09/02/2021
+ms.locfileid: "58862222"
 ---
 # <a name="return-data-from-a-script-to-an-automatically-run-power-automate-flow"></a>Zurückgeben von Daten aus einem Skript an einen automatisch ausgeführten Power Automate-Flow
 
@@ -66,7 +66,7 @@ In diesem Tutorial erfahren Sie, wie Sie Informationen eines Office-Skripts für
     let tableValues = table.getRangeBetweenHeaderAndTotal().getValues();
     ```
 
-1. Die Datumsangaben in der Tabelle werden mit der [fortlaufenden Zahl für das Datum von Excel](https://support.microsoft.com/office/date-systems-in-excel-e7fe7167-48a9-4b96-bb53-5612a800b487) gespeichert. Diese Datumsangaben müssen in JavaScript-Datumsangaben konvertiert werden, um sie vergleichen zu können. Sie fügen eine Hilfsfunktion in Ihr Skript ein. Fügen Sie außerhalb der `main`-Funktion den folgenden Code hinzu:
+1. Die Datumsangaben in der Tabelle werden mit der [fortlaufenden Zahl für das Datum von Excel](https://support.microsoft.com/office/e7fe7167-48a9-4b96-bb53-5612a800b487) gespeichert. Diese Datumsangaben müssen in JavaScript-Datumsangaben konvertiert werden, um sie vergleichen zu können. Sie fügen eine Hilfsfunktion in Ihr Skript ein. Fügen Sie außerhalb der `main`-Funktion den folgenden Code hinzu:
 
     ```TypeScript
     // Convert the Excel date to a JavaScript Date object.

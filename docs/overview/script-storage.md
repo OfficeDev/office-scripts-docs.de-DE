@@ -3,12 +3,12 @@ title: Office Dateispeicherung und -besitz von Skripts
 description: Informationen dazu, wie Office Skripts in Microsoft OneDrive gespeichert und zwischen Besitzern übertragen werden.
 ms.date: 06/04/2021
 localization_priority: Normal
-ms.openlocfilehash: 6343b5bad366d9e4c4f349622a33b062de9c8ddd7877c3d40a49635d6aaef9cf
-ms.sourcegitcommit: 75f7ed8c2d23a104acc293f8ce29ea580b4fcdc5
+ms.openlocfilehash: 788850db9c8e07ad59ea6d42eb9958779efcb06f
+ms.sourcegitcommit: 6654aeae8a3ee2af84b4d4c4d8ff45b360a303eb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57847296"
+ms.lasthandoff: 09/02/2021
+ms.locfileid: "58862159"
 ---
 # <a name="office-scripts-file-storage-and-ownership"></a>Office Dateispeicherung und -besitz von Skripts
 
@@ -20,11 +20,11 @@ Wenn Sie Ihre Skripts nicht freigeben, kann kein anderer Benutzer darauf zugreif
 
 Sie Office Skripts werden in Ihrem OneDrive gespeichert. Die **OSTS-Dateien** befinden sich im Ordner **"/Documents/Office Scripts/".** Alle an diesen **OSTS-Dateien** vorgenommenen Änderungen, z. B. das Umbenennen oder Löschen von Dateien, werden im Code-Editor und im Skriptkatalog wiedergegeben.
 
-Skripts, die für eine Ihrer Arbeitsmappen freigegeben sind, verbleiben im OneDrive des Skripterstellers. Sie werden nicht in Ihre lokalen oder OneDrive Ordner kopiert, wenn Sie das freigegebene Skript in Excel ausführen. Die Schaltfläche **"Kopieren"** des Code-Editors speichert eine separate Kopie des Skripts in Ihrem OneDrive. Änderungen an der Kopie wirken sich nicht auf das Originalskript aus.
+Skripts, die für eine Ihrer Arbeitsmappen freigegeben sind, verbleiben im OneDrive des Skripterstellers. Sie werden nicht in Ihre lokalen oder OneDrive Ordner kopiert, wenn Sie das freigegebene Skript in Excel ausführen. Die Schaltfläche **"Kopieren"** des Code-Editors speichert eine separate Kopie des Skripts in Ihrer OneDrive. Änderungen an der Kopie wirken sich nicht auf das Originalskript aus.
 
 ### <a name="restore-deleted-scripts"></a>Wiederherstellen gelöschter Skripts
 
-Wenn Sie ein Skript in Excel löschen, wird es in Den OneDrive Papierkorb verschoben. Führen Sie zum Wiederherstellen eines gelöschten Skripts die unter [Wiederherstellen gelöschter Dateien oder Ordner in OneDrive](https://support.microsoft.com/office/restore-deleted-files-or-folders-in-onedrive-949ada80-0026-4db3-a953-c99083e6a84f)aufgeführten Schritte aus. Durch Wiederherstellen einer **OSTS-Datei** wird sie an die Liste **"Alle Skripts"** zurückgegeben.
+Wenn Sie ein Skript in Excel löschen, wird es in Den OneDrive Papierkorb verschoben. Führen Sie zum Wiederherstellen eines gelöschten Skripts die unter [Wiederherstellen gelöschter Dateien oder Ordner in OneDrive](https://support.microsoft.com/office/949ada80-0026-4db3-a953-c99083e6a84f)aufgeführten Schritte aus. Durch Wiederherstellen einer **OSTS-Datei** wird sie an die Liste **"Alle Skripts"** zurückgegeben.
 
 Ein gelöschtes Skript ist nicht mit der Arbeitsmappe verbunden. Wenn Sie ein Skript wiederherstellen, behält es den Skriptzugriff **nicht** bei. Sie müssen das Skript erneut freigeben.
 
@@ -45,9 +45,9 @@ Um zu ermitteln, wer Office Skripts mit dem Suchtool verwendet, fügen Sie `.ost
 > [!NOTE]
 > Das Ausführen eines Skripts wird derzeit nicht protokolliert. Es werden nur die Erstellungs-, Ansichts- und Änderungsaktionen protokolliert.
 
-## <a name="see-also"></a>Weitere Artikel
+## <a name="see-also"></a>Siehe auch
 
-- [Office-Skripts in Excel für das Web](https://support.microsoft.com/office/sharing-office-scripts-in-excel-for-the-web-226eddbc-3a44-4540-acfe-fccda3d1122b)
+- [Office-Skripts in Excel für das Web](https://support.microsoft.com/office/226eddbc-3a44-4540-acfe-fccda3d1122b)
 - [Behandeln von Problemen mit Office-Skripts](../testing/troubleshooting.md)
-- [Office-Skripts-Einstellungen in M365](https://support.office.com/article/office-scripts-settings-in-m365-19d3c51a-6ca2-40ab-978d-60fa49554dcf)
+- [Office-Skripts-Einstellungen in M365](/microsoft-365/admin/manage/manage-office-scripts-settings)
 - [Auswirkungen von Office-Skripts rückgängig machen](../testing/undo.md)
