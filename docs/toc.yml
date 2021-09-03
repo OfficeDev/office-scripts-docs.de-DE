@@ -67,6 +67,8 @@ items:
                 href: resources/samples/copy-tables-combine.md
           - name: Weitere Tipps und Tricks
             items:
+              - name: Konvertieren von CSV-Dateien
+                href: resources/samples/convert-csv.md
               - name: Querverweis-Arbeitsblätter
                 href: resources/samples/excel-cross-reference.md
               - name: Leere Zeilen in Arbeitsblättern zählen
