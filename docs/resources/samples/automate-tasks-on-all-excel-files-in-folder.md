@@ -2,18 +2,18 @@
 title: Ausführen eines Scripts für alle Excel-Dateien in einem Ordner
 description: Erfahren Sie, wie Sie ein Skript für alle Excel Dateien in einem Ordner auf OneDrive for Business ausführen.
 ms.date: 06/29/2021
-localization_priority: Normal
-ms.openlocfilehash: fad1483fbcddaf541874630e8a4e5a06faa784627d44d17ea2ab7ca0af1550a4
-ms.sourcegitcommit: 75f7ed8c2d23a104acc293f8ce29ea580b4fcdc5
+ms.localizationpriority: medium
+ms.openlocfilehash: 5da0d63fbdcf8b7333b951e226d9d34321dd6bd5
+ms.sourcegitcommit: d3ed4bdeeba805d97c930394e172e8306a0cf484
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57847404"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "59327861"
 ---
 # <a name="run-a-script-on-all-excel-files-in-a-folder"></a>Ausführen eines Scripts für alle Excel-Dateien in einem Ordner
 
 Dieses Projekt führt eine Reihe von Automatisierungsaufgaben für alle Dateien aus, die sich in einem Ordner auf OneDrive for Business befinden. Es kann auch für einen SharePoint Ordner verwendet werden.
-Es führt Berechnungen für die Excel Dateien durch, fügt Formatierungen hinzu und fügt einen Kommentar ein, der einen Kollegen [@mentions.](https://support.microsoft.com/office/90701709-5dc1-41c7-aa48-b01d4a46e8c7)
+Es führt Berechnungen für die Excel Dateien durch, fügt Formatierungen hinzu und fügt einen Kommentar ein, [@mentions](https://support.microsoft.com/office/90701709-5dc1-41c7-aa48-b01d4a46e8c7) einen Kollegen.
 
 ## <a name="sample-excel-files"></a>Beispieldateien Excel
 
@@ -82,12 +82,12 @@ Dieser Fluss führt das Skript für jede Arbeitsmappe im Ordner "Vertrieb" aus.
     :::image type="content" source="../../images/all-files-in-folder-sample-flow-1.png" alt-text="Der fertige OneDrive for Business-Connector in Power Automate.":::
 1. Wählen Sie den Ordner "Vertrieb" mit den extrahierten Arbeitsmappen aus.
 1. Um sicherzustellen, dass nur Arbeitsmappen ausgewählt sind, wählen Sie **"Neuer Schritt"** und dann **"Bedingung"** aus. Verwenden Sie die folgenden Werte für die Bedingung.
-    1. **Name** (der Wert OneDrive Dateinamens)
+    1. **Name** (der OneDrive Dateinamenwert)
     1. "Endet mit"
     1. "xlsx"
 
     :::image type="content" source="../../images/all-files-in-folder-sample-flow-2.png" alt-text="Der Power Automate Bedingungsblock, der nachfolgende Aktionen auf jede Datei anwendet.":::
-1. Fügen Sie unter der Verzweigung **"Wenn ja"** den **Connector Excel Online (Business)** mit der **Skriptaktion ausführen hinzu.** Verwenden Sie die folgenden Werte für die Aktion.
+1. Fügen Sie unter der Verzweigung **"Wenn ja"** den **Connector Excel Online (Business)** mit der **Skriptaktion ausführen** hinzu. Verwenden Sie die folgenden Werte für die Aktion.
     1. **Location**: OneDrive for Business
     1. **Document Library**: OneDrive
     1. **Datei**: **ID** (der Wert OneDrive Datei-ID)

@@ -1,14 +1,14 @@
 ---
 title: 'Office Skript-Beispielszenario: Automatisierte Aufgabenerinnerungen'
-description: Ein Beispiel, das Power Automate und adaptive Karten verwendet, um Aufgabenerinnerungen in einer Projektverwaltungstabelle zu automatisieren.
+description: Ein Beispiel, das Power Automate und adaptive Karten verwendet, automatisiert Aufgabenerinnerungen in einer Projektverwaltungstabelle.
 ms.date: 06/29/2021
-localization_priority: Normal
-ms.openlocfilehash: 8e9ddebd6ab8f061a623f646000a722c3a95ba0d255fd8bac42cda6172078879
-ms.sourcegitcommit: 75f7ed8c2d23a104acc293f8ce29ea580b4fcdc5
+ms.localizationpriority: medium
+ms.openlocfilehash: a2d4701fb7a42953de669c84dbb93104d199d5b8
+ms.sourcegitcommit: d3ed4bdeeba805d97c930394e172e8306a0cf484
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57846368"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "59330048"
 ---
 # <a name="office-scripts-sample-scenario-automated-task-reminders"></a>Office Skript-Beispielszenario: Automatisierte Aufgabenerinnerungen
 
@@ -26,7 +26,7 @@ Sie erstellen einen Power Automate Fluss an Nachrichtenmitarbeiter mit fehlenden
 
 ## <a name="prerequisites"></a>Voraussetzungen
 
-In diesem Szenario [werden Power Automate](https://flow.microsoft.com) und [Microsoft Teams](https://www.microsoft.com/microsoft-365/microsoft-teams/group-chat-software)verwendet. Sie benötigen beides, das mit dem Konto verknüpft ist, das Sie für die Entwicklung von Office Skripts verwenden. Für den kostenlosen Zugriff auf ein Microsoft Developer-Abonnement, um mehr über diese Anwendungen zu erfahren und mit diesen zu arbeiten, sollten Sie am [Microsoft 365 Developer Program](https://developer.microsoft.com/microsoft-365/dev-program)teilnehmen.
+In diesem Szenario [werden Power Automate](https://flow.microsoft.com) und [Microsoft Teams](https://www.microsoft.com/microsoft-365/microsoft-teams/group-chat-software)verwendet. Sie müssen beide mit dem Konto verknüpft sein, das Sie für die Entwicklung von Office Skripts verwenden. Für den kostenlosen Zugriff auf ein Microsoft Developer-Abonnement, um mehr über diese Anwendungen zu erfahren und mit diesen zu arbeiten, sollten Sie dem [Microsoft 365-Entwicklerprogramm](https://developer.microsoft.com/microsoft-365/dev-program)beitreten.
 
 ## <a name="setup-instructions"></a>Setup-Anweisungen
 
@@ -152,16 +152,16 @@ In diesem Szenario [werden Power Automate](https://flow.microsoft.com) und [Micr
 
 1. Wählen Sie manuell einen Fluss aus den Optionen **aus,** und wählen Sie **Erstellen** aus.
 
-1. Der Fluss muss das Skript **"Personen** abrufen" aufrufen, um alle Mitarbeiter mit leeren Statusfeldern abzurufen. Wählen Sie **"Neu"** aus, und wählen Sie dann **Excel Online (Business)** aus. Wählen Sie unter **Aktionen** die Option **Skript ausführen** aus. Geben Sie die folgenden Einträge für den Flussschritt an:
+1. Der Fluss muss das Skript **"Personen** abrufen" aufrufen, um alle Mitarbeiter mit leeren Statusfeldern abzurufen. Wählen Sie **"Neu" aus,** und wählen Sie dann **Excel Online (Business)** aus. Wählen Sie unter **Aktionen** die Option **Skript ausführen** aus. Geben Sie die folgenden Einträge für den Flussschritt an:
 
     - **Location**: OneDrive for Business
     - **Document Library**: OneDrive
     - **Datei:** task-reminders.xlsx *(über den Dateibrowser ausgewählt)*
     - **Skript:** Personen abrufen
 
-    :::image type="content" source="../../images/scenario-task-reminders-first-flow-step.png" alt-text="Der Power Automate Fluss, der den ersten Ausführungsskriptflussschritt anzeigt.":::
+    :::image type="content" source="../../images/scenario-task-reminders-first-flow-step.png" alt-text="Der Power Automate-Ablauf mit dem ersten Ausführungsskriptflussschritt.":::
 
-1. Als Nächstes muss der Fluss jeden Mitarbeiter in dem array verarbeiten, das vom Skript zurückgegeben wird. Wählen Sie **"Neu" aus,** und wählen Sie dann **"Adaptive Karte für einen Teams Benutzer bereitstellen" aus, und warten Sie auf eine Antwort.**
+1. Als Nächstes muss der Fluss jeden Mitarbeiter in dem array verarbeiten, das vom Skript zurückgegeben wird. Wählen Sie **"Neuer Schritt"** aus, und wählen Sie dann **"Adaptive Karte an einen Teams Benutzer posten" aus, und warten Sie auf eine Antwort.**
 
 1. Fügen Sie für das **Feld "Empfänger"** **E-Mails** aus dem dynamischen Inhalt hinzu (die Auswahl enthält das Excel Logo). Durch das Hinzufügen von **E-Mails** wird der Flussschritt von einem **Apply-Element für jeden** Block umgeben. Das bedeutet, dass das Array von Power Automate durchlaufen wird.
 
@@ -218,7 +218,7 @@ In diesem Szenario [werden Power Automate](https://flow.microsoft.com) und [Micr
     - **Datei:** task-reminders.xlsx *(über den Dateibrowser ausgewählt)*
     - **Skript:** Save Status
     - **senderEmail**: E-Mail *(dynamischer Inhalt von Excel)*
-    - **statusReportResponse:** response *(dynamic content from Teams)*
+    - **statusReportResponse:** response *(dynamischer Inhalt aus Teams)*
 
     :::image type="content" source="../../images/scenario-task-reminders-last-flow-step.png" alt-text="Der Power Automate-Ablauf, in dem die einzelnen Schritte angezeigt werden.":::
 

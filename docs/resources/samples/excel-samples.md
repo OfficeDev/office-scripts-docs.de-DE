@@ -1,14 +1,14 @@
 ---
 title: Grundlegende Skripts für Office Skripts in Excel im Web
-description: Eine Sammlung von Codebeispielen, die mit Office Skripts in Excel im Web verwendet werden sollen.
+description: Eine Auflistung von Codebeispielen, die mit Office Skripts in Excel im Web verwendet werden sollen.
 ms.date: 06/29/2021
-localization_priority: Normal
-ms.openlocfilehash: 6d74d55556feb93e0f49da375b3c7896d439663f7f922e4ae135b6fdc6a40197
-ms.sourcegitcommit: 75f7ed8c2d23a104acc293f8ce29ea580b4fcdc5
+ms.localizationpriority: medium
+ms.openlocfilehash: c0e852ba2afcc37f5921ff0b2256df0769535f6e
+ms.sourcegitcommit: d3ed4bdeeba805d97c930394e172e8306a0cf484
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57847545"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "59330737"
 ---
 # <a name="basic-scripts-for-office-scripts-in-excel-on-the-web"></a>Grundlegende Skripts für Office Skripts in Excel im Web
 
@@ -21,7 +21,7 @@ Die folgenden Beispiele sind einfache Skripts, mit denen Sie Ihre eigenen Arbeit
 
 ## <a name="script-basics"></a>Skriptgrundlagen
 
-Diese Beispiele veranschaulichen grundlegende Bausteine für Office Skripts. Erweitern Sie diese Skripts, um Ihre Lösung zu erweitern und häufige Probleme zu lösen.
+Diese Beispiele veranschaulichen grundlegende Bausteine für Office-Skripts. Erweitern Sie diese Skripts, um Ihre Lösung zu erweitern und allgemeine Probleme zu lösen.
 
 ### <a name="read-and-log-one-cell"></a>Lesen und Protokollieren einer Zelle
 
@@ -150,7 +150,7 @@ function main(workbook: ExcelScript.Workbook) {
 }
 ```
 
-## <a name="collections"></a>Sammlungen
+## <a name="collections"></a>Auflistungen
 
 Diese Beispiele funktionieren mit Auflistungen von Objekten in der Arbeitsmappe.
 
@@ -275,7 +275,7 @@ function main(workbook: ExcelScript.Workbook) {
 
 ### <a name="create-a-sorted-table"></a>Erstellen einer sortierten Tabelle
 
-In diesem Beispiel wird eine Tabelle aus dem verwendeten Bereich des aktuellen Arbeitsblatts erstellt und anschließend basierend auf der ersten Spalte sortiert.
+In diesem Beispiel wird eine Tabelle aus dem verwendeten Bereich des aktuellen Arbeitsblatts erstellt und dann basierend auf der ersten Spalte sortiert.
 
 ```TypeScript
 function main(workbook: ExcelScript.Workbook) {
@@ -321,7 +321,7 @@ function main(workbook: ExcelScript.Workbook) {
 
 ### <a name="create-a-drop-down-list-using-data-validation"></a>Erstellen einer Dropdownliste mithilfe der Datenüberprüfung
 
-Dieses Skript erstellt eine Dropdown-Auswahlliste für eine Zelle. Es verwendet die vorhandenen Werte des ausgewählten Bereichs als Auswahlmöglichkeiten für die Liste.
+Dieses Skript erstellt eine Dropdown-Auswahlliste für eine Zelle. Es verwendet die vorhandenen Werte des ausgewählten Bereichs als Auswahl für die Liste.
 
 :::image type="content" source="../../images/sample-data-validation.png" alt-text="Ein Arbeitsblatt mit einem Bereich von drei Zellen, der die Farbauswahl &quot;Rot, Blau, Grün&quot; und daneben die gleichen Auswahlmöglichkeiten enthält, die in einer Dropdownliste angezeigt werden.":::
 

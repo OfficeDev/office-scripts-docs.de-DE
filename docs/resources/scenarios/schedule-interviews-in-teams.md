@@ -2,13 +2,13 @@
 title: Vorstellungsgespräche in Teams planen
 description: Erfahren Sie, wie Sie Office Skripts verwenden, um eine Teams Besprechung aus Excel Daten zu senden.
 ms.date: 06/29/2021
-localization_priority: Normal
-ms.openlocfilehash: 20a6eed884cc82224af8b14ccde4a64ac3a3e8dae8e69b030e51ab7217254d85
-ms.sourcegitcommit: 75f7ed8c2d23a104acc293f8ce29ea580b4fcdc5
+ms.localizationpriority: medium
+ms.openlocfilehash: 143b2018824f82c329692909d9a7d1ba10c2485f
+ms.sourcegitcommit: d3ed4bdeeba805d97c930394e172e8306a0cf484
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57846485"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "59330870"
 ---
 # <a name="office-scripts-sample-scenario-schedule-interviews-in-teams"></a>Office Skripts-Beispielszenario: Planen von Interviews in Teams
 
@@ -23,7 +23,7 @@ Die Lösung umfasst drei Schritte, die in einem einzelnen Power Automate-Fluss k
 ## <a name="scripting-skills-covered"></a>Abgedeckte Skriptfähigkeiten
 
 * Power Automate Flüsse
-* Teams Integration
+* integration von Teams
 * Tabellenparsing
 
 ## <a name="sample-excel-file"></a>Beispieldatei für Excel
@@ -136,17 +136,17 @@ interface InterviewInvite {
 
 1. Erstellen Sie einen neuen **Instant Cloud Flow.**
 1. Klicken Sie **auf "Manuell auslösen" und** wählen Sie **"Erstellen"** aus.
-1. Fügen Sie einen **neuen Schritt** hinzu, der den Connector Excel **Online (Business)** und die **Skriptaktion ausführen verwendet.** Schließen Sie den Connector mit den folgenden Werten ab.
+1. Fügen Sie einen **neuen Schritt** hinzu, der den Connector Excel **Online (Business)** und die **Skriptaktion ausführen** verwendet. Schließen Sie den Connector mit den folgenden Werten ab.
     1. **Location**: OneDrive for Business
     1. **Document Library**: OneDrive
     1. **Datei:** hr-interviews.xlsx *(über den Dateibrowser ausgewählt)*
     1. **Skript:** :::image type="content" source="../../images/schedule-interviews-1.png" alt-text="Screenshot des abgeschlossenen Excel Online (Business)-Connectors zum Abrufen von Interviewdaten aus der Arbeitsmappe in Power Automate.":::
-1. Fügen Sie einen **neuen Schritt** hinzu, in dem die Besprechungsaktion **"Teams erstellen"** verwendet wird. Wenn Sie dynamische Inhalte aus dem Excel Connector auswählen, wird für ihren Flow ein **Apply-Element** für jeden Block generiert. Schließen Sie den Connector mit den folgenden Werten ab.
+1. Fügen Sie einen **neuen Schritt** hinzu, in dem die Besprechungsaktion **"Teams erstellen"** verwendet wird. Wenn Sie dynamische Inhalte aus dem Excel Connector auswählen, wird für den Fluss ein **Apply-Element** für jeden Block generiert. Schließen Sie den Connector mit den folgenden Werten ab.
     1. **Kalender-ID**: Kalender
     1. **Betreff:** Contoso-Interview
     1. **Message**: **Message** (the Excel value)
     1. **Zeitzone:** Pazifische Standardzeit
-    1. **Startzeit:** **StartTime** (der Excel-Wert)
+    1. **Startzeit:** **StartTime** (der wert Excel)
     1. **Endzeit:** **FinishTime** (der wert Excel)
     1. **Erforderliche Teilnehmer:** **CandidateEmail** ; **InterviewerEmail** (die Excel Werte) :::image type="content" source="../../images/schedule-interviews-2.png" alt-text="Screenshot des abgeschlossenen Teams Connectors zum Planen von Besprechungen in Power Automate.":::
 1. Fügen Sie im selben **"Auf jeden** Block anwenden" einen weiteren **Excel Online(Business)-Connector** mit der **Skriptaktion ausführen** hinzu. Verwenden Sie die folgenden Werte.

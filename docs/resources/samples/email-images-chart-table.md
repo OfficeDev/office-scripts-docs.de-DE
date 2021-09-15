@@ -2,13 +2,13 @@
 title: Senden einer E-Mail an die Bilder eines Excel Diagramms und einer Tabelle
 description: Erfahren Sie, wie Sie Office Skripts und Power Automate verwenden, um die Bilder eines Excel Diagramms und einer Tabelle zu extrahieren und per E-Mail zu senden.
 ms.date: 06/29/2021
-localization_priority: Normal
-ms.openlocfilehash: 1fffd81426c8850cb605e2dbc0f9bf023a4a3692c12f8bd7c8dcc9ec45236ab8
-ms.sourcegitcommit: 75f7ed8c2d23a104acc293f8ce29ea580b4fcdc5
+ms.localizationpriority: medium
+ms.openlocfilehash: 63a4bdb16bdf5923bf49f26fcba163fc3f0b7354
+ms.sourcegitcommit: d3ed4bdeeba805d97c930394e172e8306a0cf484
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57846741"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "59335067"
 ---
 # <a name="use-office-scripts-and-power-automate-to-email-images-of-a-chart-and-table"></a>Verwenden von Office Skripts und Power Automate zum Senden von E-Mail-Bildern eines Diagramms und einer Tabelle
 
@@ -31,14 +31,14 @@ _Ausgabediagramm_
 
 _E-Mail, die über Power Automate Fluss empfangen wurde_
 
-:::image type="content" source="../../images/email-received.png" alt-text="Die E-Mail, die vom Fluss mit dem Excel im Textkörper eingebetteten Diagramm gesendet wurde.":::
+:::image type="content" source="../../images/email-received.png" alt-text="Die vom Fluss gesendete E-Mail mit dem Excel diagramm, das in den Textkörper eingebettet ist.":::
 
 ## <a name="solution"></a>Lösung
 
 Diese Lösung umfasst zwei Teile:
 
 1. [Ein Office-Skript zum Berechnen und Extrahieren Excel Diagramms und der Tabelle](#sample-code-calculate-and-extract-excel-chart-and-table)
-1. Ein Power Automate-Fluss, um das Skript aufzurufen und die Ergebnisse per E-Mail zu senden. Ein Beispiel dazu finden Sie unter [Erstellen eines automatisierten Workflows mit Power Automate.](../../tutorials/excel-power-automate-returns.md#create-an-automated-workflow-with-power-automate)
+1. Ein Power Automate Fluss, um das Skript aufzurufen und die Ergebnisse per E-Mail zu senden. Ein Beispiel dazu finden Sie unter [Erstellen eines automatisierten Workflows mit Power Automate.](../../tutorials/excel-power-automate-returns.md#create-an-automated-workflow-with-power-automate)
 
 ## <a name="sample-excel-file"></a>Beispieldatei für Excel
 
@@ -89,20 +89,20 @@ interface ReportImages {
 }
 ```
 
-## <a name="power-automate-flow-email-the-chart-and-table-images"></a>Power Automate Fluss: Senden einer E-Mail an das Diagramm und die Tabellenbilder
+## <a name="power-automate-flow-email-the-chart-and-table-images"></a>Power Automate Fluss: Senden einer E-Mail an diagramm- und tabellenbilder
 
 Dieser Fluss führt das Skript aus und sendet eine E-Mail an die zurückgegebenen Bilder.
 
 1. Erstellen Sie einen neuen **Instant Cloud Flow.**
 1. Klicken Sie **auf "Manuell auslösen" und** wählen Sie **"Erstellen"** aus.
-1. Fügen Sie einen **neuen Schritt** hinzu, der den Connector Excel **Online (Business)** mit der **Skriptaktion ausführen** verwendet. Verwenden Sie die folgenden Werte für die Aktion.
+1. Fügen Sie einen **neuen Schritt** hinzu, der den connector Excel **Online (Business)** mit der **Skriptaktion ausführen** verwendet. Verwenden Sie die folgenden Werte für die Aktion.
     * **Location**: OneDrive for Business
     * **Document Library**: OneDrive
     * **Datei:** Ihre Arbeitsmappe ([ausgewählt mit der Dateiauswahl](../../testing/power-automate-troubleshooting.md#select-workbooks-with-the-file-browser-control))
     * **Skript:** Ihr Skriptname
 
     :::image type="content" source="../../images/email-chart-sample-flow-1.png" alt-text="Der fertige Excel Online (Business)-Connector in Power Automate.":::
-1. In diesem Beispiel wird Outlook als E-Mail-Client verwendet. Sie können einen beliebigen E-Mail-Connector verwenden, der Power Automate unterstützt. Bei den restlichen Schritten wird jedoch davon ausgegangen, dass Sie Outlook ausgewählt haben. Fügen Sie einen **neuen Schritt** hinzu, der den **Office 365 Outlook** Connector und die Aktion **"Senden und E-Mail(V2)"** verwendet. Verwenden Sie die folgenden Werte für die Aktion.
+1. In diesem Beispiel wird Outlook als E-Mail-Client verwendet. Sie können einen beliebigen E-Mail-Connector verwenden, Power Automate unterstützt, aber bei den restlichen Schritten wird davon ausgegangen, dass Sie Outlook ausgewählt haben. Fügen Sie einen **neuen Schritt** hinzu, der den **Office 365 Outlook** Connector und die Aktion **"Senden und E-Mail(V2)"** verwendet. Verwenden Sie die folgenden Werte für die Aktion.
     * **An:** Ihr Test-E-Mail-Konto (oder persönliche E-Mail)
     * **Betreff:** Bitte überprüfen Sie die Berichtsdaten
     * Wählen Sie für das Feld **"Text"** die Option "Codeansicht" ( `</>` ) aus, und geben Sie Folgendes ein:

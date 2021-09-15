@@ -2,13 +2,13 @@
 title: Problembehandlung bei Office Skripts
 description: Tipps und Techniken zum Debuggen für Office Skripts sowie Hilferessourcen.
 ms.date: 05/17/2021
-localization_priority: Normal
-ms.openlocfilehash: 4e5fbdfa9314f98ec68dfa35a8b599598cfd4eafb18d428b6431850a562caba0
-ms.sourcegitcommit: 75f7ed8c2d23a104acc293f8ce29ea580b4fcdc5
+ms.localizationpriority: medium
+ms.openlocfilehash: 8ea133afdf302994126e8051d275d03b938df370
+ms.sourcegitcommit: d3ed4bdeeba805d97c930394e172e8306a0cf484
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57847615"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "59333979"
 ---
 # <a name="troubleshoot-office-scripts"></a>Problembehandlung bei Office Skripts
 
@@ -82,7 +82,7 @@ Informationen zum Ausführen von Skripts über Power Automate finden Sie unter [
 
 ## <a name="help-resources"></a>Hilferessourcen
 
-[Stack Overflow](https://stackoverflow.com/questions/tagged/office-scripts) ist eine Community von Entwicklern, die bei Codierungsproblemen helfen möchten. Häufig können Sie die Lösung für Ihr Problem mithilfe einer schnellen Stack Overflow-Suche finden. Wenn nicht, stellen Sie Ihre Frage, und markieren Sie sie mit dem Tag "office-scripts". Erwähnen Sie unbedingt, dass Sie ein Office *Skript* erstellen, kein *Office-Add-In.*
+[Stack Overflow](https://stackoverflow.com/questions/tagged/office-scripts) ist eine Community von Entwicklern, die bei Codierungsproblemen helfen möchten. Häufig können Sie die Lösung für Ihr Problem mithilfe einer schnellen Stack Overflow-Suche finden. Wenn nicht, stellen Sie Ihre Frage, und markieren Sie sie mit dem Tag "office-scripts". Erwähnen Sie unbedingt, dass Sie ein Office *Skript* erstellen, nicht ein *Office-Add-In.*
 
 Um eine Featureanforderung für Office Skripts zu übermitteln, veröffentlichen Sie Ihre Idee auf unserer [User Voice-Seite,](https://excel.uservoice.com/forums/274580-excel-for-the-web?category_id=143439)oder wenn die Featureanforderung bereits vorhanden ist, fügen Sie Ihre Stimme dafür hinzu. Stellen Sie sicher, dass Sie die Anforderung unter Excel für das Web in der Kategorie "Makros, Skripts und Add-Ins" ablegen.
 

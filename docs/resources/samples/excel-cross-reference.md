@@ -1,18 +1,18 @@
 ---
-title: Querverweisen Excel Dateien mit Power Automate
+title: Querverweis Excel Dateien mit Power Automate
 description: Erfahren Sie, wie Sie Office Skripts und Power Automate zum Querverweisen und Formatieren einer Excel Datei verwenden.
 ms.date: 06/29/2021
-localization_priority: Normal
-ms.openlocfilehash: ddbcdd25791e0c1a80fedfc36ebbfbd5dd940ec6f55ef2fe2bce0cf23b6bcb61
-ms.sourcegitcommit: 75f7ed8c2d23a104acc293f8ce29ea580b4fcdc5
+ms.localizationpriority: medium
+ms.openlocfilehash: adeb84140cb9884309c9f37854a29fc4d59b17ed
+ms.sourcegitcommit: d3ed4bdeeba805d97c930394e172e8306a0cf484
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57847243"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "59332978"
 ---
-# <a name="cross-reference-excel-files-with-power-automate"></a>Querverweisen Excel Dateien mit Power Automate
+# <a name="cross-reference-excel-files-with-power-automate"></a>Querverweis Excel Dateien mit Power Automate
 
-Diese Lösung zeigt, wie Daten in zwei Excel Dateien verglichen werden, um Abweichungen zu finden. Es verwendet Office Skripts, um Daten zu analysieren und Power Automate, um zwischen den Arbeitsmappen zu kommunizieren.
+Diese Lösung zeigt, wie Daten zwischen zwei Excel Dateien verglichen werden, um Abweichungen zu finden. Es verwendet Office Skripts, um Daten zu analysieren und Power Automate, um zwischen den Arbeitsmappen zu kommunizieren.
 
 ## <a name="example-scenario"></a>Beispielszenario
 
@@ -148,7 +148,7 @@ interface EventData {
 
 Dieser Fluss extrahiert die Ereignisinformationen aus der ersten Arbeitsmappe und verwendet diese Daten, um die zweite Arbeitsmappe zu überprüfen.
 
-1. Melden Sie sich [bei Power Automate an,](https://flow.microsoft.com) und erstellen Sie einen neuen **Instant Cloud Flow.**
+1. Melden Sie sich bei [Power Automate an,](https://flow.microsoft.com) und erstellen Sie einen neuen **Instant Cloud Flow.**
 1. Klicken Sie **auf "Manuell auslösen" und** wählen Sie **"Erstellen"** aus.
 1. Fügen Sie einen **neuen Schritt** hinzu, der den Connector Excel **Online (Business)** mit der **Skriptaktion ausführen** verwendet. Verwenden Sie die folgenden Werte für die Aktion.
     * **Location**: OneDrive for Business
@@ -156,7 +156,7 @@ Dieser Fluss extrahiert die Ereignisinformationen aus der ersten Arbeitsmappe un
     * **Datei:** event-data.xlsx ([ausgewählt mit der Dateiauswahl](../../testing/power-automate-troubleshooting.md#select-workbooks-with-the-file-browser-control))
     * **Skript:** Ereignisdaten abrufen
 
-    :::image type="content" source="../../images/cross-reference-flow-1.png" alt-text="Der fertige Excel Online-Connector (Business) für das erste Skript in Power Automate.":::
+    :::image type="content" source="../../images/cross-reference-flow-1.png" alt-text="Der fertige Excel Online(Business)-Connector für das erste Skript in Power Automate.":::
 
 1. Fügen Sie einen zweiten **neuen Schritt** hinzu, der den connector Excel **Online (Business)** mit der **Skriptaktion ausführen** verwendet. Verwenden Sie die folgenden Werte für die Aktion.
     * **Location**: OneDrive for Business
@@ -165,7 +165,7 @@ Dieser Fluss extrahiert die Ereignisinformationen aus der ersten Arbeitsmappe un
     * **Skript:** Überprüfen der Lautsprecherregistrierung
 
     :::image type="content" source="../../images/cross-reference-flow-2.png" alt-text="Der fertige Excel Online(Business)-Connector für das zweite Skript in Power Automate.":::
-1. In diesem Beispiel wird Outlook als E-Mail-Client verwendet. Sie können jeden E-Mail-Connector verwenden, Power Automate unterstützt. Fügen Sie einen **neuen Schritt** hinzu, der den **Office 365 Outlook** Connector und die Aktion **"Senden und E-Mail(V2)"** verwendet. Verwenden Sie die folgenden Werte für die Aktion.
+1. In diesem Beispiel wird Outlook als E-Mail-Client verwendet. Sie können einen beliebigen E-Mail-Connector verwenden, der Power Automate unterstützt. Fügen Sie einen **neuen Schritt** hinzu, der den **Office 365 Outlook** Connector und die Aktion **"Senden und E-Mail( V2)"** verwendet. Verwenden Sie die folgenden Werte für die Aktion.
     * **An:** Ihr Test-E-Mail-Konto (oder persönliche E-Mail)
     * **Betreff:** Ergebnisse der Ereignisüberprüfung
     * **Body**: result (_dynamic content from Run script **2**_)

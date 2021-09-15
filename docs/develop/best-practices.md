@@ -2,13 +2,13 @@
 title: Bewährte Methoden in Office-Skripts
 description: So verhindern Sie häufige Probleme und schreiben robuste Office Skripts, die unerwartete Eingaben oder Daten verarbeiten können.
 ms.date: 05/10/2021
-localization_priority: Normal
-ms.openlocfilehash: cdea3583120109cda05c05cb7c4f908e929bbff0d37e615b1820f67b57fbe24f
-ms.sourcegitcommit: 75f7ed8c2d23a104acc293f8ce29ea580b4fcdc5
+ms.localizationpriority: medium
+ms.openlocfilehash: 49075d52587a1d2c4ed06fc2939aebc7081d4ddb
+ms.sourcegitcommit: d3ed4bdeeba805d97c930394e172e8306a0cf484
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57846617"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "59327840"
 ---
 # <a name="best-practices-in-office-scripts"></a>Bewährte Methoden in Office-Skripts
 
@@ -64,7 +64,7 @@ function main(workbook: ExcelScript.Workbook) {
 }
 ```
 
-Wenn die Überprüfung in einer separaten Funktion erfolgt, müssen Sie das Skript dennoch beenden, indem Sie die `return` Anweisung aus der Funktion `main` ausgeben. Wenn Sie von der Unterfunktion zurückkehren, wird das Skript nicht beendet.
+Wenn die Überprüfung in einer separaten Funktion erfolgt, müssen Sie dennoch das Skript beenden, indem Sie die `return` Anweisung aus der Funktion `main` ausgeben. Wenn Sie von der Unterfunktion zurückkehren, wird das Skript nicht beendet.
 
 Das folgende Skript hat das gleiche Verhalten wie das vorherige. Der Unterschied besteht darin, dass die `main` Funktion die `inputPresent` Funktion aufruft, um alles zu überprüfen. `inputPresent` gibt einen booleschen Wert ( `true` oder `false` ) zurück, um anzugeben, ob alle erforderlichen Eingaben vorhanden sind. Die `main` Funktion verwendet diesen booleschen Wert, um zu entscheiden, ob das Skript fortgesetzt oder beendet werden soll.
 
@@ -102,7 +102,7 @@ function inputPresent(workbook: ExcelScript.Workbook): boolean {
 
 Eine [`throw`](https://developer.mozilla.org/docs/web/javascript/reference/statements/throw) Anweisung gibt an, dass ein unerwarteter Fehler aufgetreten ist. Der Code wird sofort beendet. Sie müssen in den meisten Fällen nicht `throw` aus Ihrem Skript stammen. In der Regel informiert das Skript den Benutzer automatisch, dass das Skript aufgrund eines Problems nicht ausgeführt werden konnte. In den meisten Fällen reicht es aus, das Skript mit einer Fehlermeldung und einer Anweisung aus der Funktion zu `return` `main` beenden.
 
-Wenn Ihr Skript jedoch als Teil eines Power Automate Flusses ausgeführt wird, sollten Sie verhindern, dass der Fluss fortgesetzt wird. Eine `throw` Anweisung stoppt das Skript und weist den Fluss an, auch zu beenden.
+Wenn Ihr Skript jedoch als Teil eines Power Automate-Flusses ausgeführt wird, sollten Sie verhindern, dass der Fluss fortgesetzt wird. Eine `throw` Anweisung stoppt das Skript und weist den Fluss an, auch zu beenden.
 
 Das folgende Skript zeigt, wie Sie die Anweisung in unserem Beispiel für die `throw` Tabellenüberprüfung verwenden.
 
@@ -136,7 +136,7 @@ range.setValues(someLargeValues);
 
 Wenn `someLargeValues` größer ist, als Excel für das Web verarbeiten kann, schlägt der `setValues()` Aufruf fehl. Das Skript schlägt dann auch mit einem [Laufzeitfehler](../testing/troubleshooting.md#runtime-errors)fehl. Mit der `try...catch` Anweisung kann das Skript diese Bedingung erkennen, ohne das Skript sofort zu beenden und den Standardfehler anzuzeigen.
 
-Ein Ansatz, um dem Skriptbenutzer eine bessere Benutzererfahrung zu bieten, besteht darin, ihm eine benutzerdefinierte Fehlermeldung anzuzeigen. Der folgende Codeausschnitt zeigt eine `try...catch` Anweisung, die weitere Fehlerinformationen protokolliert, um dem Leser besser zu helfen.
+Eine Möglichkeit, dem Skriptbenutzer eine bessere Benutzererfahrung zu bieten, besteht darin, ihm eine benutzerdefinierte Fehlermeldung anzuzeigen. Der folgende Codeausschnitt zeigt eine `try...catch` Anweisung, die weitere Fehlerinformationen protokolliert, um dem Leser besser zu helfen.
 
 ```TypeScript
 try {
@@ -168,7 +168,7 @@ try {
 > [!NOTE]
 > Die Verwendung `try...catch` innerhalb oder um eine Schleife verlangsamt Ihr Skript. Weitere Informationen zur Leistung finden Sie unter [Vermeiden der Verwendung von `try...catch` Blöcken.](web-client-performance.md#avoid-using-trycatch-blocks-in-or-surrounding-loops)
 
-## <a name="see-also"></a>Weitere Artikel
+## <a name="see-also"></a>Siehe auch
 
 - [Behandeln von Problemen mit Office-Skripts](../testing/troubleshooting.md)
 - [Problembehandlungsinformationen für Power Automate mit Office Skripts](../testing/power-automate-troubleshooting.md)

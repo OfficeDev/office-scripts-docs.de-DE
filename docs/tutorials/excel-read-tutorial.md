@@ -2,13 +2,13 @@
 title: Lesen Sie Arbeitsmappendaten mit Office-Skripts in Excel im Web
 description: Ein Office Skripts-Lernprogramm zum Lesen von Daten aus Arbeitsmappen und zum Auswerten dieser Daten im Skript.
 ms.date: 01/06/2021
-localization_priority: Priority
-ms.openlocfilehash: 74baff74d648365b32b09746c50c66944604be5d978095dc449c045f67d5a86d
-ms.sourcegitcommit: 75f7ed8c2d23a104acc293f8ce29ea580b4fcdc5
+ms.localizationpriority: high
+ms.openlocfilehash: 739ad5bd1fa395c5081442246241cd598ce7c39c
+ms.sourcegitcommit: d3ed4bdeeba805d97c930394e172e8306a0cf484
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57847186"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "59335903"
 ---
 # <a name="read-workbook-data-with-office-scripts-in-excel-on-the-web"></a>Lesen Sie Arbeitsmappendaten mit Office-Skripts in Excel im Web
 

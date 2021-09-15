@@ -2,13 +2,13 @@
 title: Ausgabe Excel Daten als JSON
 description: Erfahren Sie, wie Sie Excel Tabellendaten als JSON ausgeben, die in Power Automate verwendet werden.
 ms.date: 07/22/2021
-localization_priority: Normal
-ms.openlocfilehash: 503f60e59ec565e644b9c02b9e4b436011662a8910432783752d86396a51a8b9
-ms.sourcegitcommit: 75f7ed8c2d23a104acc293f8ce29ea580b4fcdc5
+ms.localizationpriority: medium
+ms.openlocfilehash: 2b613f41618594f6f38634e4126ab8f616f1f3f4
+ms.sourcegitcommit: d3ed4bdeeba805d97c930394e172e8306a0cf484
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57847453"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "59332108"
 ---
 # <a name="output-excel-table-data-as-json-for-usage-in-power-automate"></a>Ausgabe Excel Tabellendaten als JSON für die Verwendung in Power Automate
 
@@ -264,6 +264,6 @@ interface TableData {
 }]
 ```
 
-## <a name="use-in-power-automate"></a>Verwendung in Power Automate
+## <a name="use-in-power-automate"></a>Verwenden in Power Automate
 
 Informationen zur Verwendung eines solchen Skripts in Power Automate finden Sie unter [Erstellen eines automatisierten Workflows mit Power Automate.](../../tutorials/excel-power-automate-returns.md#create-an-automated-workflow-with-power-automate)

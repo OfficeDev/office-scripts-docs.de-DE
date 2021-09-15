@@ -2,13 +2,13 @@
 title: Office-Skripts in Excel im Web
 description: Eine kurze Einführung in den Action Recorder und den Code Editor für Office-Skripts.
 ms.date: 07/04/2021
-localization_priority: Priority
-ms.openlocfilehash: f64adc3604dbaf9ac98563cb9eaf8068286bfeeb
-ms.sourcegitcommit: 6654aeae8a3ee2af84b4d4c4d8ff45b360a303eb
+ms.localizationpriority: high
+ms.openlocfilehash: 056bf4bb489739d4062dcf422aded2dcc7fc5aa8
+ms.sourcegitcommit: d3ed4bdeeba805d97c930394e172e8306a0cf484
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/02/2021
-ms.locfileid: "58862082"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "59332880"
 ---
 # <a name="office-scripts-in-excel-on-the-web"></a>Office-Skripts in Excel im Web
 

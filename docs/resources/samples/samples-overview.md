@@ -1,14 +1,14 @@
 ---
 title: Office Skriptbeispiele
 description: Verfügbare Beispiele und Szenarien für Office Skripts.
-ms.date: 07/19/2021
-localization_priority: Normal
-ms.openlocfilehash: 042e49145285fe100cace1df2571f5aa06dab7d5
-ms.sourcegitcommit: 6654aeae8a3ee2af84b4d4c4d8ff45b360a303eb
+ms.date: 09/03/2021
+ms.localizationpriority: medium
+ms.openlocfilehash: 0d11e15a7e839f33a74ca8ad7f1d09dd7711347c
+ms.sourcegitcommit: d3ed4bdeeba805d97c930394e172e8306a0cf484
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/02/2021
-ms.locfileid: "58862166"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "59334934"
 ---
 # <a name="office-scripts-samples-and-scenarios"></a>Office Skriptbeispiele und -szenarien
 
@@ -24,10 +24,10 @@ Wir freuen uns auch über [Beiträge der Community.](#community-contributions-an
 
 | Project | Details |
 |---------|---------|
-| [Skripting-Grundlagen](../excel-samples.md) | Diese Beispiele veranschaulichen grundlegende Bausteine für Office Skripts. |
+| [Skripting-Grundlagen](../excel-samples.md) | Diese Beispiele veranschaulichen grundlegende Bausteine für Office-Skripts. |
 | [Hinzufügen von Kommentaren in Excel](add-excel-comments.md) | In diesem Beispiel werden einer Zelle, die @mentioning einen Kollegen enthält, Kommentare hinzugefügt. |
 | [Hinzufügen von Bildern zu einer Arbeitsmappe](add-image-to-workbook.md) | In diesem Beispiel wird einer Arbeitsmappe ein Bild hinzugefügt und ein Bild über Blätter hinweg kopiert.|
-| [Kopieren mehrerer Excel Tabellen in eine einzelne Tabelle](copy-tables-combine.md) | In diesem Beispiel werden Daten aus mehreren Excel Tabellen in einer einzigen Tabelle kombiniert, die alle Zeilen enthält. |
+| [Kopieren mehrerer Excel Tabellen in eine einzelne Tabelle](copy-tables-combine.md) | In diesem Beispiel werden Daten aus mehreren Excel Tabellen zu einer einzigen Tabelle zusammengefasst, die alle Zeilen enthält. |
 
 ## <a name="beyond-the-basics"></a>Weitere Tipps und Tricks
 
@@ -35,13 +35,14 @@ Sehen Sie sich das folgende End-to-End-Projekt an, das Beispielszenarien zusamme
 
 | Project | Details |
 |---------|---------|
-| [Konvertieren von CSV-Dateien in Excel Arbeitsmappen](convert-csv.md) | In diesem Beispiel werden Office Skripts und Power Automate verwendet, um .xlsx Dateien aus .csv Dateien zu erstellen. |
+| [Kombinieren von Arbeitsblättern in einer einzelnen Arbeitsmappe](combine-worksheets-into-single-workbook.md) | In diesem Beispiel werden Office Skripts und Power Automate verwendet, um Daten aus anderen Arbeitsmappen in eine einzelne Arbeitsmappe zu ziehen. |
+| [Konvertieren von CSV-Dateien in Excel Arbeitsmappen](convert-csv.md) | In diesem Beispiel werden Office Skripts und Power Automate verwendet, um aus .csv Dateien .xlsx Dateien zu erstellen. |
 | [Querverweis auf Arbeitsmappen](excel-cross-reference.md) | In diesem Beispiel werden Office Skripts und Power Automate zum Querverweisen und Überprüfen von Informationen in verschiedenen Arbeitsmappen verwendet. |
 | [Zählen leerer Zeilen in einem bestimmten Blatt oder in allen Blättern](count-blank-rows.md) | In diesem Beispiel wird erkannt, ob leere Zeilen in Blättern vorhanden sind, in denen Daten voraussichtlich vorhanden sind, und dann die Anzahl leerer Zeilen für die Verwendung in einem Power Automate Fluss gemeldet. |
 | [E-Mail-Diagramm- und Tabellenbilder](email-images-chart-table.md) | In diesem Beispiel werden Office Skripts und Power Automate Aktionen verwendet, um ein Diagramm zu erstellen und dieses Diagramm per E-Mail als Bild zu senden. |
 | [Externe Abrufanrufe](external-fetch-calls.md) | In diesem Beispiel werden `fetch` Informationen aus GitHub für das Skript abgerufen. |
 | [Filtern Excel Tabelle und Abrufen des sichtbaren Bereichs](filter-table-get-visible-range.md) | In diesem Beispiel wird eine Excel Tabelle gefiltert und der sichtbare Bereich als JSON-Objekt zurückgegeben. Dieser JSON-Code könnte einem Power Automate Fluss als Teil einer größeren Lösung bereitgestellt werden. |
-| [Verwalten des Berechnungsmodus in Excel](excel-calculation.md) | Dieses Beispiel zeigt, wie Sie den Berechnungsmodus verwenden und Methoden in Excel im Web mit Office Skripts berechnen. |
+| [Verwalten des Berechnungsmodus in Excel](excel-calculation.md) | In diesem Beispiel wird gezeigt, wie Sie den Berechnungsmodus verwenden und Methoden in Excel im Web mit Office Skripts berechnen. |
 | [Verschieben von Zeilen über Tabellen](move-rows-across-tables.md) | In diesem Beispiel wird gezeigt, wie Sie Zeilen über Tabellen verschieben, indem Sie Filter speichern und dann die Filter verarbeiten und erneut anwenden. |
 | [Ausgabe Excel Daten als JSON](get-table-data.md) | Diese Lösung zeigt, wie Excel Tabellendaten als JSON ausgegeben werden, die in Power Automate verwendet werden. |
 | [Entfernen von Hyperlinks aus jeder Zelle in einem Excel Arbeitsblatt](remove-hyperlinks-from-cells.md) | In diesem Beispiel werden alle Hyperlinks aus dem aktuellen Arbeitsblatt gelöscht. |
@@ -50,15 +51,15 @@ Sehen Sie sich das folgende End-to-End-Projekt an, das Beispielszenarien zusamme
 
 ## <a name="scenarios"></a>Szenarien
 
-Office Skripts können Teile Ihrer täglichen Routine automatisieren. Diese täglichen Aufgaben sind häufig in einzigartigen Ökosystemen vorhanden, mit Excel Arbeitsmappen, die auf bestimmte Weise eingerichtet sind. Diese größeren Szenariobeispiele veranschaulichen solche realen Anwendungsfälle. Sie enthalten sowohl die Office Skripts als auch die Arbeitsmappen, sodass Sie das Szenario von Ende bis Ende sehen können.
+Office Skripts können Teile Ihrer täglichen Routine automatisieren. Diese täglichen Aufgaben sind häufig in einzigartigen Ökosystemen vorhanden, mit Excel Arbeitsmappen, die auf bestimmte Weise eingerichtet sind. Diese größeren Szenariobeispiele veranschaulichen solche realen Anwendungsfälle. Sie enthalten sowohl die Office Skripts als auch die Arbeitsmappen, sodass Sie das Szenario von Ende zu Ende sehen können.
 
 | Szenario | Details |
 |---------|---------|
 | [Analysieren von Webdownloads](../scenarios/analyze-web-downloads.md) | Dieses Szenario enthält ein Skript, das Webdatenverkehrsdatensätze analysiert, um das Ursprungsland eines Benutzers zu ermitteln. Es zeigt die Fähigkeiten der Textparsing, die Verwendung von Unterfunktionen in Skripts, das Anwenden bedingter Formatierung und das Arbeiten mit Tabellen. |
-| [Wasserstandsdaten von NOAA abrufen und grafisch darstellen](../scenarios/noaa-data-fetch.md) | In diesem Szenario wird ein Office-Skript verwendet, um Daten aus einer externen Quelle (die [NOAA-Datenbank für Käufe und Currents)](https://tidesandcurrents.noaa.gov/)abzurufen und die resultierenden Informationen zu graphen. Es werden die Fähigkeiten der Verwendung zum Abrufen von `fetch` Daten und der Verwendung von Diagrammen hervorgehoben. |
+| [Wasserstandsdaten von NOAA abrufen und grafisch darstellen](../scenarios/noaa-data-fetch.md) | In diesem Szenario wird ein Office-Skript verwendet, um Daten aus einer externen Quelle [(noaa-Datenbank für Käufe und Currents)](https://tidesandcurrents.noaa.gov/)abzurufen und die resultierenden Informationen zu graphen. Es werden die Fähigkeiten der Verwendung zum Abrufen von `fetch` Daten und der Verwendung von Diagrammen hervorgehoben. |
 | [Bewertungsrechner](../scenarios/grade-calculator.md) | Dieses Szenario enthält ein Skript, das den Datensatz eines Kursleiters auf die Noten seiner Klasse überprüft. Es zeigt die Fähigkeiten der Fehlerprüfung, Zellenformatierung und regulärer Ausdrücke. |
-| [Vorstellungsgespräche in Teams planen](../scenarios/schedule-interviews-in-teams.md) | In diesem Szenario wird gezeigt, wie Sie eine Excel Kalkulationstabelle verwenden, um Besprechungszeiten zu verwalten und einen Fluss zum Planen von Besprechungen in Teams zu erstellen. |
-| [Aufgabenerinnerungen](../scenarios/task-reminders.md) | In diesem Szenario wird ein Office Skript in einem Power Automate-Fluss verwendet, um Erinnerungen an Kollegen zu senden, um den Status eines Projekts zu aktualisieren. Es hebt die Fähigkeiten der Power Automate Integration und Datenübertragung zu und von Skripts hervor. |
+| [Vorstellungsgespräche in Teams planen](../scenarios/schedule-interviews-in-teams.md) | In diesem Szenario wird gezeigt, wie Sie eine Excel Kalkulationstabelle zum Verwalten von Besprechungszeiten und zum Planen von Besprechungen in Teams verwenden. |
+| [Aufgabenerinnerungen](../scenarios/task-reminders.md) | In diesem Szenario wird ein Office-Skript in einem Power Automate-Fluss verwendet, um Erinnerungen an Kollegen zu senden, um den Status eines Projekts zu aktualisieren. Hier werden die Fähigkeiten der Power Automate Integration und Datenübertragung zu und von Skripts hervorgehoben. |
 
 ## <a name="community-contributions-and-fun-samples"></a>Community Beiträge und Unterhaltungsbeispiele
 

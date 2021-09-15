@@ -2,13 +2,13 @@
 title: Office Skript-Code-Editor-Umgebung
 description: Die Voraussetzungen und Umgebungsinformationen für Office Skripts in Excel im Web.
 ms.date: 05/27/2021
-localization_priority: Normal
-ms.openlocfilehash: 5b2f7afa193dc71e13a3d6763c9e8ff8344ee3e8be18e7e996f8431e03510509
-ms.sourcegitcommit: 75f7ed8c2d23a104acc293f8ce29ea580b4fcdc5
+ms.localizationpriority: medium
+ms.openlocfilehash: caa50904808d6f2b6941e661f899b6ae147aff50
+ms.sourcegitcommit: d3ed4bdeeba805d97c930394e172e8306a0cf484
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57847093"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "59326877"
 ---
 # <a name="office-scripts-code-editor-environment"></a>Office Skript-Code-Editor-Umgebung
 
@@ -24,7 +24,7 @@ Office Skripts sind größtenteils eigenständige Codeelemente. Nur ein kleiner 
 
 ## <a name="office-scripts-javascript-api"></a>Office JavaScript-API für Skripts
 
-Office Skripts verwenden eine spezielle Version der Office JavaScript-APIs für [Office-Add-Ins.](/office/dev/add-ins/overview/index) Obwohl es Ähnlichkeiten in den beiden APIs gibt, sollten Sie nicht davon ausgehen, dass Code zwischen den beiden Plattformen portiert werden kann. Die Unterschiede zwischen den beiden Plattformen werden im Artikel ["Unterschiede zwischen Office Skripts und Office-Add-Ins"](../resources/add-ins-differences.md#apis) beschrieben. Sie können alle APIs, die Ihrem Skript zur Verfügung stehen, in der Referenzdokumentation zur [Office Skripts-API](/javascript/api/office-scripts/overview)anzeigen.
+Office Skripts verwenden eine spezielle Version der Office JavaScript-APIs für [Office-Add-Ins.](/office/dev/add-ins/overview/index) Obwohl es Ähnlichkeiten in den beiden APIs gibt, sollten Sie nicht davon ausgehen, dass Code zwischen den beiden Plattformen portiert werden kann. Die Unterschiede zwischen den beiden Plattformen werden im Artikel ["Unterschiede zwischen Office Skripts und Office-Add-Ins"](../resources/add-ins-differences.md#apis) beschrieben. Sie können alle APIs anzeigen, die ihrem Skript in der Referenzdokumentation der [Office Skripts-API](/javascript/api/office-scripts/overview)zur Verfügung stehen.
 
 ## <a name="external-library-support"></a>Unterstützung externer Bibliotheken
 
@@ -40,16 +40,16 @@ Zeigen Sie mit dem Mauszeiger über eine Methode, Klasse oder ein anderes Codeob
 
 :::image type="content" source="../images/implicit-any-editor-message.png" alt-text="Eine Fehlermeldung im Hovertext des Code-Editors mit der Schaltfläche &quot;Schnellkorrektur&quot;.":::
 
-Der Code-Editor Office Skripts verwendet dasselbe IntelliSense-Modul wie Visual Studio Code. Weitere Informationen zu diesem Feature finden Sie in [den IntelliSense-Features von Visual Studio Code.](https://code.visualstudio.com/docs/editor/intellisense#_intellisense-features)
+Der Code-Editor Office Skripts verwendet dasselbe IntelliSense-Modul wie Visual Studio Code. Weitere Informationen zu diesem Feature finden Sie in [den IntelliSense-Features Visual Studio Code.](https://code.visualstudio.com/docs/editor/intellisense#_intellisense-features)
 
 ## <a name="keyboard-shortcuts"></a>Tastenkombinationen
 
-Die meisten Tastenkombinationen für Visual Studio Code auch im Code-Editor für Office Skripts funktionieren. Verwenden Sie die folgenden PDFs, um mehr über die verfügbaren Optionen zu erfahren und den Code-Editor optimal zu nutzen:
+Die meisten Tastenkombinationen für Visual Studio Code funktionieren auch im Code-Editor für Office Skripts. Verwenden Sie die folgenden PDFs, um mehr über die verfügbaren Optionen zu erfahren und den Code-Editor optimal zu nutzen:
 
 - [Tastenkombinationen für macOS](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf).
 - [Tastenkombinationen für Windows](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf).
 
-## <a name="see-also"></a>Weitere Artikel
+## <a name="see-also"></a>Siehe auch
 
 - [Referenzdokumentation zur Office Scripts-API](/javascript/api/office-scripts/overview)
 - [Behandeln von Problemen mit Office-Skripts](../testing/troubleshooting.md)

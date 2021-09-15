@@ -2,22 +2,22 @@
 title: Unterschiede zwischen Office Skripts und VBA-Makros
 description: Das Verhalten und die API-Unterschiede zwischen Office Skripts und Excel VBA-Makros.
 ms.date: 05/21/2021
-localization_priority: Normal
-ms.openlocfilehash: 0d94607902fa62e07ce378b94ec3b9c328937e16535b1882b6cad5bd76212b33
-ms.sourcegitcommit: 75f7ed8c2d23a104acc293f8ce29ea580b4fcdc5
+ms.localizationpriority: medium
+ms.openlocfilehash: 5038f8c0195cb84a2b77065d6b4c6a53e813f6a4
+ms.sourcegitcommit: d3ed4bdeeba805d97c930394e172e8306a0cf484
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57847268"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "59327882"
 ---
 # <a name="differences-between-office-scripts-and-vba-macros"></a>Unterschiede zwischen Office Skripts und VBA-Makros
 
 Office Skripts und VBA-Makros haben viele Gemeinsamkeiten. Beide ermöglichen Benutzern die Automatisierung von Lösungen über einen einfach zu verwendenden Action Recorder und ermöglichen die Bearbeitung dieser Aufzeichnungen. Beide Frameworks sind so konzipiert, dass Benutzer, die sich nicht selbst als Programmierer betrachten, kleine Programme in Excel erstellen können.
-Der grundlegende Unterschied besteht darin, dass VBA-Makros für Desktoplösungen und Office Skripts für sichere, cloudbasierte Lösungen entwickelt werden. Derzeit werden Office Skripts nur in Excel im Web unterstützt.
+Der grundlegende Unterschied besteht darin, dass VBA-Makros für Desktoplösungen und Office Skripts für sichere, cloudbasierte Lösungen entwickelt wurden. Derzeit werden Office Skripts nur in Excel im Web unterstützt.
 
-:::image type="content" source="../images/office-programmability-diagram.png" alt-text="Ein Vier-Quadranten-Diagramm mit den Schwerpunktbereichen für verschiedene Office Erweiterbarkeitslösungen. Sowohl Office Skripts als auch VBA-Makros sollen Endbenutzern helfen, Lösungen zu erstellen, aber Office Skripts werden für das Web und die Zusammenarbeit erstellt (während VBA für den Desktop vorgesehen ist).":::
+:::image type="content" source="../images/office-programmability-diagram.png" alt-text="Ein Vier-Quadranten-Diagramm mit den Schwerpunktbereichen für verschiedene Office Erweiterbarkeitslösungen. Sowohl Office Skripts als auch VBA-Makros sollen Endbenutzern helfen, Lösungen zu erstellen, aber Office Skripts werden für das Web und die Zusammenarbeit erstellt (VBA ist hingegen für den Desktop).":::
 
-In diesem Artikel werden die Hauptunterschiede zwischen VBA-Makros (sowie VBA im Allgemeinen) und Office Skripts beschrieben. Da Office Skripts nur für Excel verfügbar sind, ist dies der einzige Host, der hier erläutert wird.
+In diesem Artikel werden die Hauptunterschiede zwischen VBA-Makros (sowie VBA im Allgemeinen) und Office Skripts beschrieben. Da Office Skripts nur für Excel verfügbar sind, ist dies der einzige Host, der hier behandelt wird.
 
 ## <a name="platform-and-ecosystem"></a>Plattform und Ökosystem
 
@@ -33,22 +33,22 @@ Administratoren haben drei Optionen für VBA-Makros: alle Makros auf dem Mandant
 
 ## <a name="coverage"></a>Abdeckung
 
-Derzeit bietet VBA eine umfassendere Abdeckung von Excel Features, insbesondere diejenigen, die auf dem Desktopclient verfügbar sind. Office Skripts umfassen fast alle Szenarien für Excel im Web. Darüber hinaus unterstützen Office Skripts diese bei der Einführung neuer Features im Web sowohl für die Action Recorder- als auch die JavaScript-APIs.
+Derzeit bietet VBA eine umfassendere Abdeckung von Excel Features, insbesondere diejenigen, die auf dem Desktopclient verfügbar sind. Office Skripts behandeln fast alle Szenarien für Excel im Web. Darüber hinaus unterstützen Office Skripts diese bei der Einführung neuer Features im Web sowohl für die Action Recorder- als auch die JavaScript-APIs.
 
 Office Skripts unterstützen keine [Ereignisse](/office/vba/excel/concepts/events-worksheetfunctions-shapes/using-events-with-excel-objects)auf Excel Ebene. Skripts werden nur ausgeführt, wenn ein Benutzer sie manuell startet oder wenn ein Power Automate Fluss das Skript aufruft.
 
 ## <a name="power-automate"></a>Power Automate
 
-Office Skripts können über Power Automate ausgeführt werden. Ihre Arbeitsmappe kann über geplante oder ereignisgesteuerte Flüsse aktualisiert werden, sodass Sie Workflows automatisieren können, ohne Excel zu öffnen. Dies bedeutet, dass, solange Ihre Arbeitsmappe in OneDrive gespeichert ist (und für Power Automate zugänglich ist), ein Fluss Ihre Skripts unabhängig davon ausführen kann, ob Sie und Ihre Organisation den Desktop-, Mac- oder Webclient Excel verwenden.
+Office Skripts können über Power Automate ausgeführt werden. Ihre Arbeitsmappe kann über geplante oder ereignisgesteuerte Flüsse aktualisiert werden, sodass Sie Workflows automatisieren können, ohne sogar Excel zu öffnen. Dies bedeutet, dass, solange Ihre Arbeitsmappe in OneDrive gespeichert ist (und für Power Automate zugänglich ist), ein Fluss Ihre Skripts unabhängig davon ausführen kann, ob Sie und Ihre Organisation den Desktop-, Mac- oder Webclient Excel verwenden.
 
 VBA verfügt nicht über einen Power Automate Connector. Alle unterstützten VBA-Szenarien umfassen einen Benutzer, der an der Ausführung des Makros teilnimmt.
 
 Probieren Sie die [Call-Skripts aus einem manuellen Power Automate-Flow-Lernprogramm](../tutorials/excel-power-automate-manual.md) aus, um mehr über Power Automate zu erfahren. Sie können sich auch das Beispiel für [automatisierte Aufgabenerinnerungen](scenarios/task-reminders.md) ansehen, um Office Skripts anzuzeigen, die mit Teams über Power Automate in einem realen Szenario verbunden sind.
 
-## <a name="see-also"></a>Weitere Artikel
+## <a name="see-also"></a>Siehe auch
 
 - [Office-Skripts in Excel im Web](../overview/excel.md)
-- [Ausführen von Office Skripts mit Power Automate](../develop/power-automate-integration.md)
+- [Ausführen Office Skripts mit Power Automate](../develop/power-automate-integration.md)
 - [Unterschiede zwischen Office-Skripts und Office-Add-Ins](add-ins-differences.md)
 - [Behandeln von Problemen mit Office-Skripts](../testing/troubleshooting.md)
 - [VBA-Referenz für Excel](/office/vba/api/overview/excel)

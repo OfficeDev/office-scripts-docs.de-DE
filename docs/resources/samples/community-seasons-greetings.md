@@ -1,18 +1,18 @@
 ---
 title: Weihnachtsgrüße
-description: Erfahren Sie, wie Sie mithilfe von Office Skripts eine Baumstruktur in Excel im Web anzeigen können.
+description: Erfahren Sie, wie Sie Office Skripts verwenden, um eine Baumstruktur in Excel im Web anzuzeigen.
 ms.date: 06/29/2021
-localization_priority: Normal
-ms.openlocfilehash: 3474a3e4a87257bba75132b029b57b0c28c922d1b901cda10068d5998d895c53
-ms.sourcegitcommit: 75f7ed8c2d23a104acc293f8ce29ea580b4fcdc5
+ms.localizationpriority: medium
+ms.openlocfilehash: f1339bd267dbe4eba19541b2339742cbde30b1d5
+ms.sourcegitcommit: d3ed4bdeeba805d97c930394e172e8306a0cf484
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57846603"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "59327854"
 ---
 # <a name="seasons-greetings"></a>Weihnachtsgrüße
 
-Dieses Skript wurde von [Leslie Black](https://www.linkedin.com/in/lesblackconsultant/) in der Feiertagszeit beigesteuert! Es ist ein interessantes Skript, das eine baumgeschützte Struktur in Excel im Web mit Office Skripts zeigt.
+Dieses Skript wurde von [Leslie Black](https://www.linkedin.com/in/lesblackconsultant/) in der Feiertagszeit beigesteuert! Es ist ein interessantes Skript, das eine Baumstruktur in Excel im Web mithilfe von Office Skripts anzeigt.
 
 Genießen!
 

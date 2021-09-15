@@ -2,13 +2,13 @@
 title: Verwenden von externen Abrufanrufen in Office-Skripts
 description: Erfahren Sie, wie Sie externe API-Aufrufe in Office Skripts ausführen.
 ms.date: 05/14/2021
-localization_priority: Normal
-ms.openlocfilehash: 46e83e290224d03cdb1f87eeb6215e2fb9510189c210a7dfa330f438ced0a53e
-ms.sourcegitcommit: 75f7ed8c2d23a104acc293f8ce29ea580b4fcdc5
+ms.localizationpriority: medium
+ms.openlocfilehash: d957e0536e8574681f2ec752f23f9e6ba07f5fd2
+ms.sourcegitcommit: d3ed4bdeeba805d97c930394e172e8306a0cf484
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57847529"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "59335748"
 ---
 # <a name="use-external-fetch-calls-in-office-scripts"></a>Verwenden von externen Abrufanrufen in Office-Skripts
 

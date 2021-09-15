@@ -2,19 +2,19 @@
 title: Erstellen eines großen Datasets
 description: Erfahren Sie, wie Sie ein großes Dataset in kleinere Schreibvorgänge in Office Skripts aufteilen.
 ms.date: 05/13/2021
-localization_priority: Normal
-ms.openlocfilehash: ec058bb1e3aabea52b0127c26b4c4a1352914fb575105ff4a90f82b222d6251d
-ms.sourcegitcommit: 75f7ed8c2d23a104acc293f8ce29ea580b4fcdc5
+ms.localizationpriority: medium
+ms.openlocfilehash: 1b37c5892c3b5f9ba26bfc2cdf8b30db321751d3
+ms.sourcegitcommit: d3ed4bdeeba805d97c930394e172e8306a0cf484
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57847584"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "59330583"
 ---
 # <a name="write-a-large-dataset"></a>Erstellen eines großen Datasets
 
-Die `Range.setValues()` API platziert Daten in einen Bereich. Diese API weist Einschränkungen in Abhängigkeit von verschiedenen Faktoren auf, z. B. Datengröße und Netzwerkeinstellungen. Dies bedeutet, dass Sie, wenn Sie versuchen, eine große Menge an Informationen in eine Arbeitsmappe als einen einzigen Vorgang zu schreiben, die Daten in kleinere Batches schreiben müssen, um einen [großen Bereich](../../testing/platform-limits.md)zuverlässig zu aktualisieren.
+Die `Range.setValues()` API platziert Daten in einen Bereich. Diese API weist Einschränkungen in Abhängigkeit von verschiedenen Faktoren auf, z. B. Datengröße und Netzwerkeinstellungen. Dies bedeutet, dass Sie, wenn Sie versuchen, eine große Menge von Informationen in eine Arbeitsmappe als einen einzigen Vorgang zu schreiben, die Daten in kleinere Batches schreiben müssen, um einen [großen Bereich](../../testing/platform-limits.md)zuverlässig zu aktualisieren.
 
-Informationen zu den Leistungsgrundlagen in Office Skripts finden Sie unter [Verbessern der Leistung Ihrer Office Skripts.](../../develop/web-client-performance.md)
+Informationen zu den Leistungsgrundlagen in Office Skripts finden Sie unter ["Verbessern der Leistung Ihrer Office Skripts".](../../develop/web-client-performance.md)
 
 ## <a name="sample-code-write-a-large-dataset"></a>Beispielcode: Schreiben eines großen Datasets
 
