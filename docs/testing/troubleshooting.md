@@ -1,14 +1,14 @@
 ---
 title: Problembehandlung bei Office Skripts
 description: Tipps und Techniken zum Debuggen für Office Skripts sowie Hilferessourcen.
-ms.date: 05/17/2021
+ms.date: 09/15/2021
 ms.localizationpriority: medium
-ms.openlocfilehash: 8ea133afdf302994126e8051d275d03b938df370
-ms.sourcegitcommit: d3ed4bdeeba805d97c930394e172e8306a0cf484
+ms.openlocfilehash: 5229490e2487974f751456ef63004bcb27f7b09c
+ms.sourcegitcommit: 5ec904cbb1f2cc00a301a5ba7ccb8ae303341267
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "59333979"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "59447485"
 ---
 # <a name="troubleshoot-office-scripts"></a>Problembehandlung bei Office Skripts
 
@@ -84,13 +84,11 @@ Informationen zum Ausführen von Skripts über Power Automate finden Sie unter [
 
 [Stack Overflow](https://stackoverflow.com/questions/tagged/office-scripts) ist eine Community von Entwicklern, die bei Codierungsproblemen helfen möchten. Häufig können Sie die Lösung für Ihr Problem mithilfe einer schnellen Stack Overflow-Suche finden. Wenn nicht, stellen Sie Ihre Frage, und markieren Sie sie mit dem Tag "office-scripts". Erwähnen Sie unbedingt, dass Sie ein Office *Skript* erstellen, nicht ein *Office-Add-In.*
 
-Um eine Featureanforderung für Office Skripts zu übermitteln, veröffentlichen Sie Ihre Idee auf unserer [User Voice-Seite,](https://excel.uservoice.com/forums/274580-excel-for-the-web?category_id=143439)oder wenn die Featureanforderung bereits vorhanden ist, fügen Sie Ihre Stimme dafür hinzu. Stellen Sie sicher, dass Sie die Anforderung unter Excel für das Web in der Kategorie "Makros, Skripts und Add-Ins" ablegen.
-
-Wenn ein Problem mit dem Action Recorder oder Editor vorliegt, teilen Sie uns dies bitte mit. Wählen Sie im Aufgabenbereich des Code-Editors **im Menü ...** die Schaltfläche **"Feedback senden"** aus, um Probleme zu teilen.
+Um eine Featureanforderung für Office Skripts zu senden oder ein Problem mit dem Feature zu melden, verwenden Sie die Feedbackschaltfläche im Code-Editor. Wählen Sie im Menü  **"Weitere Optionen (...)** des Code-Editor-Aufgabenbereichs die Schaltfläche **"Feedback senden"** aus, um Ihre Featureanforderungen und andere Funktionen zu teilen.
 
 :::image type="content" source="../images/code-editor-feedback.png" alt-text="Das Code-Editor-Überlaufmenü mit der Schaltfläche &quot;Feedback senden&quot;.":::
 
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Weitere Artikel
 
 - [Bewährte Methoden in Office-Skripts](../develop/best-practices.md)
 - [Plattformbeschränkungen mit Office Skripts](platform-limits.md)

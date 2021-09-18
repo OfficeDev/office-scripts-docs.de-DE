@@ -1,14 +1,14 @@
 ---
 title: Office-Skripts in Excel im Web
 description: Eine kurze Einführung in den Action Recorder und den Code Editor für Office-Skripts.
-ms.date: 07/04/2021
+ms.date: 09/17/2021
 ms.localizationpriority: high
-ms.openlocfilehash: 056bf4bb489739d4062dcf422aded2dcc7fc5aa8
-ms.sourcegitcommit: d3ed4bdeeba805d97c930394e172e8306a0cf484
+ms.openlocfilehash: 5b33f4b15733a0e053b7e5fa7ba1051b382f22ca
+ms.sourcegitcommit: 5ec904cbb1f2cc00a301a5ba7ccb8ae303341267
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "59332880"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "59447501"
 ---
 # <a name="office-scripts-in-excel-on-the-web"></a>Office-Skripts in Excel im Web
 
@@ -62,7 +62,7 @@ Eine einfache Möglichkeit, die Fähigkeiten von Office-Skripts zu erlernen best
 
 Lesen Sie nach Abschluss des Lernprogramms die [Grundlagen der Skripterstellung für Office-Skripte in Excel für das Web](../develop/scripting-fundamentals.md), um mehr über den Code-Editor zu erfahren und zu lernen, wie Sie Ihre eigenen Skripte schreiben und bearbeiten können. Zusätzliche Informationen über den Code-Editor und wie Ihr Skript-Code interpretiert wird, finden Sie unter [Code-Editor-Umgebung für Office-Skripts](code-editor-environment.md).
 
-## <a name="sharing-scripts"></a>Freigeben von Skripts
+## <a name="share-scripts"></a>Freigeben von Skripts
 
 :::image type="content" source="../images/script-sharing.png" alt-text="Die Seite „Skriptdetails“ mit der Option ‚Für andere Personen in dieser Arbeitsmappe freigeben‘":::
 
@@ -73,7 +73,19 @@ Weitere Informationen zur Freigabe und zum Aufheben der Freigabe von Skripts ent
 > [!NOTE]
 > Erfahren Sie mehr darüber, wie Skripts in ihrem OneDrive gespeichert werden: [Office-Skripts-Dateispeicher und -Besitz](script-storage.md).
 
-## <a name="connecting-office-scripts-to-power-automate"></a>Verbinden von Office-Skripts mit Power Automate
+### <a name="create-script-buttons-preview"></a>Erstellen von Skriptschaltflächen (Vorschau)
+
+[!INCLUDE [Public preview](../includes/preview-note.md)]
+
+Helfen Sie Ihren Kollegen, Ihre Skripts zu finden und auszuführen, indem Sie einer Arbeitsmappe Skriptschaltflächen hinzufügen. Wechseln Sie bei jedem Skript zum Menü **Weitere Optionen (…)** auf der Seite „Details“ des Skripts oder im Aufgabenbereich des Code-Editors, und wählen Sie **Schaltfläche hinzufügen** aus. Dadurch wird in der Arbeitsmappe eine Schaltfläche erstellt, die bei Auswahl das zugehörige Skript ausführt. Außerdem wird das Skript für die Arbeitsmappe freigegeben, sodass jeder Benutzer mit Schreibberechtigungen für die Arbeitsmappe Ihre hilfreiche Automatisierung verwenden kann.
+
+Der folgende Screenshot zeigt die Seite „Skriptdetails“ für ein Skript mit dem Titel **Bericht erstellen**, wobei die Option **Schaltfläche hinzufügen** im Menü **Weitere Optionen (…)** hervorgehoben ist.
+
+:::image type="content" source="../images/add-button.png" alt-text="Die Option „Schaltfläche hinzufügen“ im Menü „Skriptdetails“.":::
+
+Um die Freigabe eines Skripts über eine Schaltfläche zu beenden, wechseln Sie zum Menü **Weitere Optionen (…)** auf der Seite mit Details zum Skript, und wählen Sie **Freigabe beenden** aus. Dadurch werden alle Schaltflächen, die das Skript ausführen, entfernt. Durch das Löschen einer einzelnen Schaltfläche wird das Skript von dieser einen Schaltfläche entfernt, selbst wenn der Vorgang rückgängig gemacht wird oder die Schaltfläche ausgeschnitten und eingefügt wird.
+
+## <a name="connect-office-scripts-to-power-automate"></a>Verbinden von Office-Skripts mit Power Automate
 
 [Power Automate](https://flow.microsoft.com/) ist ein Dienst, der Ihnen hilft, automatisierte Workflows zwischen mehreren Apps und Diensten zu erstellen. Office-Skripts können in diesen Workflows verwendet werden. Sie erhalten somit die Kontrolle über Ihre Skripts außerhalb der Arbeitsmappe. Sie können Ihre Skripts nach einem Zeitplan ausführen, sie als Antwort auf E-Mails auslösen und vieles mehr. Im Lernprogramm [Ausführen von Office-Skripts in Excel im Web mit Power Automate](../tutorials/excel-power-automate-manual.md) erfahren Sie die Grundlagen des Verbindungsaufbaus zu diesen Automatisierungsdiensten.
 

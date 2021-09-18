@@ -3,21 +3,21 @@ title: Konvertieren von CSV-Dateien in Excel Arbeitsmappen
 description: Erfahren Sie, wie Sie Office Skripts und Power Automate verwenden, um .xlsx Dateien aus .csv Dateien zu erstellen.
 ms.date: 07/19/2021
 ms.localizationpriority: medium
-ms.openlocfilehash: ecfc4d143cbaf10b9ea5f02881751f2c4fa28853
-ms.sourcegitcommit: d3ed4bdeeba805d97c930394e172e8306a0cf484
+ms.openlocfilehash: 213c6caab1d1b20d566aa0e79630c1a9b50554f7
+ms.sourcegitcommit: 5ec904cbb1f2cc00a301a5ba7ccb8ae303341267
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "59333433"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "59447478"
 ---
 # <a name="convert-csv-files-to-excel-workbooks"></a>Konvertieren von CSV-Dateien in Excel Arbeitsmappen
 
-Viele Dienste exportieren Daten als CSV-Dateien (Kommastrennte Werte). Diese Lösung automatisiert das Konvertieren dieser CSV-Dateien in Excel Arbeitsmappen im .xlsx Dateiformat. Es wird ein [Power Automate](https://flow.microsoft.com) Ablauf verwendet, um Dateien mit der Erweiterung .csv in einem OneDrive Ordner und ein Office Skript zu suchen, um die Daten aus der .csv-Datei in eine neue Excel Arbeitsmappe zu kopieren.
+Viele Dienste exportieren Daten als CSV-Dateien (Kommastrennte Werte). Diese Lösung automatisiert das Konvertieren dieser CSV-Dateien in Excel Arbeitsmappen im .xlsx Dateiformat. Es wird ein [Power Automate](https://flow.microsoft.com) Ablauf verwendet, um Dateien mit der Erweiterung .csv in einem OneDrive Ordner zu suchen, und ein Office Skript, um die Daten aus der .csv-Datei in eine neue Excel Arbeitsmappe zu kopieren.
 
 ## <a name="solution"></a>Lösung
 
-1. Store die .csv dateien und eine leere "Template"-.xlsx datei in einem OneDrive Ordner.
-1. Erstellen Sie ein Office Skript, um die CSV-Daten in einem Bereich zu analysieren.
+1. Store die .csv-Dateien und eine leere "Template"-.xlsx-Datei in einem OneDrive Ordner.
+1. Erstellen Sie ein Office Skript, um die CSV-Daten in einen Bereich zu analysieren.
 1. Erstellen Sie einen Power Automate Ablauf, um die .csv Dateien zu lesen und deren Inhalte an das Skript zu übergeben.
 
 ## <a name="sample-files"></a>Beispieldateien
@@ -67,10 +67,10 @@ function main(workbook: ExcelScript.Workbook, csv: string) {
 1. Legen Sie den Fluss so fest, dass jeder "1" "Tag" **wiederholt** wird, und wählen Sie **"Erstellen"** aus.
 1. Dient zum Abrufen der Vorlage Excel Datei. Dies ist die Basis für alle konvertierten .csv Dateien. Fügen Sie einen **neuen Schritt** hinzu, der den **connector OneDrive for Business** und die Aktion zum Abrufen von **Dateiinhalten** verwendet. Geben Sie den Dateipfad zur Datei "Template.xlsx" an.
     * **Datei:**/output/Template.xlsx
-1. Benennen Sie den **Schritt "Dateiinhalt abrufen"** um, indem Sie das **Menü ...** dieses Schritts (in der oberen rechten Ecke des Connectors) aufrufen und die Option **"Umbenennen"** auswählen. Ändern Sie den Schrittnamen in "Excel Vorlage abrufen".
+1. Benennen Sie den Schritt **"Dateiinhalt abrufen"** um, indem Sie zum Menü **"Dateiinhalt abrufen(...)"** dieses Schritts (in der oberen rechten Ecke des Connectors) wechseln und die Option **"Umbenennen"** auswählen. Ändern Sie den Schrittnamen in "Abrufen Excel Vorlage".
 
-     :::image type="content" source="../../images/convert-csv-flow-1.png" alt-text="Der fertige OneDrive for Business Connector in Power Automate, umbenannt in &quot;Get Excel template&quot;.":::
-1. Rufen Sie alle Dateien im Ordner "Ausgabe" ab. Fügen Sie einen **neuen Schritt** hinzu, der den **OneDrive for Business** Connector und die **Listendateien in Ordneraktion** verwendet. Geben Sie den Ordnerpfad an, der die .csv Dateien enthält.
+     :::image type="content" source="../../images/convert-csv-flow-1.png" alt-text="Der fertige OneDrive for Business Connector in Power Automate, umbenannt in &quot;Get Excel vorlage&quot;.":::
+1. Rufen Sie alle Dateien im Ordner "Ausgabe" ab. Fügen Sie einen **neuen Schritt** hinzu, der den **OneDrive for Business-Connector** und die **Listendateien in Ordneraktion** verwendet. Geben Sie den Ordnerpfad an, der die .csv Dateien enthält.
     * **Ordner:**/output
 
     :::image type="content" source="../../images/convert-csv-flow-2.png" alt-text="Der fertige OneDrive for Business-Connector in Power Automate.":::
@@ -80,10 +80,10 @@ function main(workbook: ExcelScript.Workbook, csv: string) {
     * **Wählen Sie einen Wert** aus: .csv
 
     :::image type="content" source="../../images/convert-csv-flow-3.png" alt-text="Das abgeschlossene Bedingungssteuerelement mit dem Steuerelement &quot;Anwenden&quot; auf jedes Steuerelement, das es umgibt.":::
-1. Der Rest des Flusses befindet sich im Abschnitt **"Wenn ja",** da wir nur auf .csv Dateien reagieren möchten. Rufen Sie eine einzelne .csv Datei ab, indem Sie einen **neuen Schritt** hinzufügen, der den **OneDrive for Business** Connector und die **Aktion "Dateiinhalt abrufen"** verwendet. Verwenden Sie die **ID** aus dem dynamischen Inhalt aus **Listendateien im Ordner**.
+1. Der Rest des Flusses befindet sich im Abschnitt **"Wenn ja",** da wir nur auf .csv Dateien reagieren möchten. Rufen Sie eine einzelne .csv Datei ab, indem Sie einen **neuen Schritt** hinzufügen, der den **connector OneDrive for Business** und die Aktion zum Abrufen von **Dateiinhalten** verwendet. Verwenden Sie die **ID** aus dem dynamischen Inhalt aus **Listendateien im Ordner**.
     * **Datei:** *ID* (dynamischer Inhalt aus den **Listendateien im Ordnerschritt)**
-1. Benennen Sie den neuen Schritt **"Dateiinhalt abrufen"** in "Get .csv file" um. Dies hilft dabei, diese Datei von der Excel Vorlage zu unterscheiden.
-1. Erstellen Sie die neue .xlsx-Datei mithilfe der Excel-Vorlage als Basisinhalt. Fügen Sie einen **neuen Schritt** hinzu, der den **OneDrive for Business** Connector und die **Aktion "Datei erstellen"** verwendet. Verwenden Sie die folgenden Werte.
+1. Benennen Sie den neuen Schritt zum Abrufen von **Dateiinhalten** in "Get .csv file" um. Dies hilft dabei, diese Datei von der Excel Vorlage zu unterscheiden.
+1. Erstellen Sie die neue .xlsx-Datei mithilfe der Excel-Vorlage als Basisinhalt. Fügen Sie einen **neuen Schritt** hinzu, der den **OneDrive for Business** Connector und die **Dateiaktion erstellen** verwendet. Verwenden Sie die folgenden Werte.
     * **Ordnerpfad:**/output
     * **Dateiname:** *Name ohne Erweiterung*.xlsx (wählen Sie den dynamischen Inhalt *"Name ohne Erweiterung"* aus den **Listendateien im Ordner** aus, und geben Sie danach manuell ".xlsx" ein)
     * **Dateiinhalt:** *Dateiinhalt* (dynamischer Inhalt aus **der Vorlage "Get Excel")**
@@ -98,4 +98,4 @@ function main(workbook: ExcelScript.Workbook, csv: string) {
 
     :::image type="content" source="../../images/convert-csv-flow-5.png" alt-text="Der fertige Excel Online (Business)-Connector in Power Automate.":::
 1. Speichern Sie den Fluss. Verwenden Sie die Schaltfläche **"Test"** auf der Flow-Editor-Seite, oder führen Sie den Fluss über Ihre Registerkarte **"Meine Flüsse"** aus. Achten Sie darauf, den Zugriff zuzulassen, wenn Sie dazu aufgefordert werden.
-1. Sie sollten neue .xlsx Dateien im Ordner "Ausgabe" neben den ursprünglichen .csv-Dateien finden. Die neuen Arbeitsmappen enthalten dieselben Daten wie die CSV-Dateien.
+1. Sie sollten neben den ursprünglichen .csv Dateien neue .xlsx Dateien im Ordner "Ausgabe" finden. Die neuen Arbeitsmappen enthalten dieselben Daten wie die CSV-Dateien.
