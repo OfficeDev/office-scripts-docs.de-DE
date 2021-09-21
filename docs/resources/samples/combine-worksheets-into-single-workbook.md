@@ -1,14 +1,14 @@
 ---
 title: Kombinieren von Arbeitsmappen in einer einzigen Arbeitsmappe
 description: Erfahren Sie, wie Sie Office Skripts und Power Automate verwenden, um Zusammenführungsarbeitsblätter aus anderen Arbeitsmappen in einer einzelnen Arbeitsmappe zu erstellen.
-ms.date: 09/03/2021
+ms.date: 09/17/2021
 ms.localizationpriority: medium
-ms.openlocfilehash: 6d2c9492e0e2164fe34cff21d92f3df4c9bee3fe
-ms.sourcegitcommit: d3ed4bdeeba805d97c930394e172e8306a0cf484
+ms.openlocfilehash: ffb0fd13cf587184aec87ade36e5e0e661043b94
+ms.sourcegitcommit: c23816babcc628b52f6d8aaa4b6342e04e83a5bd
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "59337954"
+ms.lasthandoff: 09/21/2021
+ms.locfileid: "59460785"
 ---
 # <a name="combine-worksheets-into-a-single-workbook"></a>Kombinieren von Arbeitsblättern in einer einzelnen Arbeitsmappe
 
@@ -19,7 +19,7 @@ In diesem Beispiel wird gezeigt, wie Sie Daten aus mehreren Arbeitsmappen in ein
 
 ## <a name="scenario"></a>Szenario
 
-1. Erstellen Sie eine neue Excel-Datei in Ihrer OneDrive, und fügen Sie ihr zwei Skripts aus diesem Beispiel hinzu.
+1. Erstellen Sie eine neue Excel-Datei in Ihrem OneDrive, und fügen Sie ihr zwei Skripts aus diesem Beispiel hinzu.
 1. Erstellen Sie einen Ordner in Ihrem OneDrive, und fügen Sie ihm eine oder mehrere Arbeitsmappen mit Daten hinzu.
 1. Erstellen Sie einen Flow, um alle Dateien dieses Ordners abzurufen.
 1. Verwenden Sie das Skript zum Zurückgeben von **Arbeitsblattdaten,** um die Daten aus jedem Arbeitsblatt in jeder Arbeitsmappe abzurufen.
@@ -82,7 +82,7 @@ interface WorksheetData {
 }
 ```
 
-## <a name="power-automate-flow-combine-worksheets-into-a-single-workbook"></a>Power Automate Ablauf: Kombinieren von Arbeitsblättern in einer einzelnen Arbeitsmappe
+## <a name="power-automate-flow-combine-worksheets-into-a-single-workbook"></a>Power Automate Ablauf: Kombinieren von Arbeitsblättern in einer einzigen Arbeitsmappe
 
 1. Melden Sie sich bei [Power Automate an,](https://flow.microsoft.com) und erstellen Sie einen neuen **Instant Cloud Flow.**
 1. Klicken Sie **auf "Manuell auslösen" und** wählen Sie **"Erstellen"** aus.
@@ -90,18 +90,18 @@ interface WorksheetData {
     * **Ordner:**/output
 
     :::image type="content" source="../../images/combine-worksheets-flow-1.png" alt-text="Der fertige OneDrive for Business-Connector in Power Automate.":::
-1. Führen Sie das Skript zum Zurückgeben von **Arbeitsblattdaten** aus, um alle Daten aus den einzelnen Arbeitsmappen abzurufen. Fügen Sie den **connector Excel Online (Business)** mit der **Skriptaktion ausführen** hinzu. Verwenden Sie die folgenden Werte für die Aktion. Beachten Sie, dass beim Hinzufügen der *ID* für die Datei Power Automate die Aktion in ein **"Übernehmen" für jedes** Steuerelement umschließen, sodass die Aktion für jede Datei ausgeführt wird.
+1. Führen Sie das Skript zum Zurückgeben von **Arbeitsblattdaten** aus, um alle Daten aus den einzelnen Arbeitsmappen abzurufen. Fügen Sie den **connector Excel Online (Business)** mit der **Skriptaktion ausführen** hinzu. Verwenden Sie die folgenden Werte für die Aktion. Beachten Sie, dass beim Hinzufügen der *ID* für die Datei Power Automate die Aktion in ein **"Anwenden" für jedes** Steuerelement einschließt, sodass die Aktion für jede Datei ausgeführt wird.
     * **Location**: OneDrive for Business
     * **Document Library**: OneDrive
     * **Datei:** *ID* (dynamischer Inhalt aus **Listendateien im Ordner)**
     * **Skript:** Zurückgeben von Arbeitsblattdaten
-1. Führen Sie das Skript **"Arbeitsblätter hinzufügen"** in der neuen Excel Datei aus, die Sie erstellt haben. Dadurch werden die Daten aus allen anderen Arbeitsmappen hinzugefügt. Fügen Sie nach der vorherigen **Skriptausführungsaktion** und innerhalb des Steuerelements **"Auf jedes** Steuerelement anwenden" einen **Excel Online(Business)-Connector** mit der **Skriptaktion ausführen** hinzu. Verwenden Sie die folgenden Werte für die Aktion.
+1. Führen Sie das Skript **"Arbeitsblätter hinzufügen"** in der neuen Excel datei aus, die Sie erstellt haben. Dadurch werden die Daten aus allen anderen Arbeitsmappen hinzugefügt. Fügen Sie nach der vorherigen **Skriptausführungsaktion** und innerhalb des Steuerelements **"Auf jedes** Steuerelement anwenden" einen **Excel Online(Business)-Connector** mit der **Skriptaktion ausführen** hinzu. Verwenden Sie die folgenden Werte für die Aktion.
     * **Location**: OneDrive for Business
     * **Document Library**: OneDrive
     * **Datei:** Ihre Datei
     * **Skript:** Hinzufügen von Arbeitsblättern
     * **workbookName**: *Name* (dynamischer Inhalt aus **Listendateien im Ordner)**
-    * **worksheetInformation**: *result* (dynamic content from **Run script**)
+    * **worksheetInformation** (nachdem Sie die Schaltfläche "Wechseln" ausgewählt haben, um die **gesamte Arrayschaltfläche einzugeben,** sehen Sie sich die Notiz nach dem nächsten Bild an): *Ergebnis* (dynamischer Inhalt aus **Skript ausführen)**
 
     :::image type="content" source="../../images/combine-worksheets-flow-2.png" alt-text="Die beiden Ausführen-Skriptaktionen innerhalb des Steuerelements &quot;Auf jedes Steuerelement anwenden&quot;.":::
     > [!NOTE]
