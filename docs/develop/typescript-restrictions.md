@@ -1,20 +1,20 @@
 ---
 title: TypeScript-Einschränkungen in Office Skripts
-description: Die Einzelheiten des TypeScript-Compilers und Linters, die vom Code-Editor für Office Skripts verwendet werden.
-ms.date: 07/14/2021
+description: Die Einzelheiten des TypeScript-Compilers und des Linters, die vom Code-Editor für Office Skripts verwendet werden.
+ms.date: 11/09/2021
 ms.localizationpriority: medium
-ms.openlocfilehash: 1e63f61116bcff64ba6ad2a24a09253cccbdce10
-ms.sourcegitcommit: d3ed4bdeeba805d97c930394e172e8306a0cf484
+ms.openlocfilehash: 7b67ccb4898823100e890aa5c8c0332d28a4522b
+ms.sourcegitcommit: ddbb1c66d627ffabbfc3b938d6e25cf6fe3cc13f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "59326884"
+ms.lasthandoff: 11/12/2021
+ms.locfileid: "60924103"
 ---
 # <a name="typescript-restrictions-in-office-scripts"></a>TypeScript-Einschränkungen in Office Skripts
 
 Office Skripts verwenden die TypeScript-Sprache. In den meisten Fällen funktioniert jeder TypeScript- oder JavaScript-Code in Office Skripts. Es gibt jedoch einige Einschränkungen, die vom Code-Editor erzwungen werden, um sicherzustellen, dass Ihr Skript konsistent und wie beabsichtigt mit Ihrer Excel Arbeitsmappe funktioniert.
 
-## <a name="no-any-type-in-office-scripts"></a>Kein 'any'-Typ in Office Skripts
+## <a name="no-any-type-in-office-scripts"></a>Kein "any"-Typ in Office-Skripts
 
 Das Schreiben [von Typen](https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html) ist in TypeScript optional, da die Typen abgeleitet werden können. Office Skripts erfordert jedoch, dass eine Variable keinen [Typ aufweisen](https://www.typescriptlang.org/docs/handbook/basic-types.html#any)kann. Explizite und implizite `any` Skripts sind in Office Skripts nicht zulässig. Diese Fälle werden als Fehler gemeldet.
 
@@ -26,7 +26,7 @@ Sie können eine Variable nicht explizit als Typ `any` in Office Skripts deklari
 
 :::image type="content" source="../images/explicit-any-error-message.png" alt-text="Der explizite Fehler &quot;any&quot; im Konsolenfenster.":::
 
-Im vorherigen Screenshot `[2, 14] Explicit Any is not allowed` wird angegeben, dass zeile #2 Spalte #14 `any` Typ definiert. Dies hilft Ihnen bei der Suche nach dem Fehler.
+Im vorherigen Screenshot wird der Typ in `[2, 14] Explicit Any is not allowed` Zeile 2, Spalte 14, `any` definiert. Dies hilft Ihnen bei der Suche nach dem Fehler.
 
 Um dieses Problem zu umgehen, definieren Sie immer den Typ der Variablen. Wenn Sie hinsichtlich des Typs einer Variablen unsicher sind, können Sie einen [Vereinigungstyp](https://www.typescriptlang.org/docs/handbook/unions-and-intersections.html)verwenden. Dies kann für Variablen nützlich `Range` sein, die Werte enthalten, die vom Typ sein `string` `number` können, oder `boolean` (der Typ für `Range` Werte ist eine Vereinigung dieser Werte: `string | number | boolean` ).
 
@@ -43,11 +43,11 @@ Der häufigste Fall für `any` implizite Variablen ist eine Variablendeklaration
 
 ## <a name="no-inheriting-office-script-classes-or-interfaces"></a>Kein Erben Office Skriptklassen oder -schnittstellen
 
-Klassen und Schnittstellen, die in Ihrem Office Skript erstellt werden, können Office Skriptklassen oder -schnittstellen nicht [erweitern oder implementieren.](https://www.typescriptlang.org/docs/handbook/classes.html#inheritance) Mit anderen Worten, nichts im `ExcelScript` Namespace kann Unterklassen oder Unterinterfaces enthalten.
+Klassen und Schnittstellen, die in Ihrem Office Script erstellt werden, können Office Skripts-Klassen oder -Schnittstellen nicht [erweitern oder implementieren.](https://www.typescriptlang.org/docs/handbook/classes.html#inheritance) Mit anderen Worten, nichts im `ExcelScript` Namespace kann Unterklassen oder Unterinterfaces enthalten.
 
 ## <a name="incompatible-typescript-functions"></a>Inkompatible TypeScript-Funktionen
 
-Office Skript-APIs können in Folgenden nicht verwendet werden:
+Office Skript-APIs können nicht in folgenden Komponenten verwendet werden:
 
 * [Generatorfunktionen](https://developer.mozilla.org/docs/Web/JavaScript/Guide/Iterators_and_Generators#generator_functions)
 * [Array.sort](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array/sort)
@@ -83,7 +83,7 @@ let filteredArray = myArray.filter((x) => {
 
 ## <a name="unions-of-excelscript-types-and-user-defined-types-arent-supported"></a>Verbindungen von `ExcelScript` Typen und benutzerdefinierten Typen werden nicht unterstützt.
 
-Office Skripts werden zur Laufzeit von synchronen in asynchrone Codeblöcke konvertiert. Die Kommunikation mit der Arbeitsmappe über [Zusagen](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise) wird dem Skriptersteller verborgen. Diese Konvertierung unterstützt keine [Vereinigungstypen,](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#union-types) die `ExcelScript` Typen und benutzerdefinierte Typen enthalten. In diesem Fall wird das `Promise` Skript zurückgegeben, aber der Office Script-Compiler erwartet es nicht, und der Skriptersteller kann nicht mit dem Skript `Promise` interagieren.
+Office Skripts werden zur Laufzeit von synchronen in asynchrone Codeblöcke konvertiert. Die Kommunikation mit der Arbeitsmappe über [Zusagen](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise) wird dem Skriptersteller verborgen. Diese Konvertierung unterstützt keine [Vereinigungstypen,](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#union-types) die `ExcelScript` Typen und benutzerdefinierte Typen enthalten. In diesem Fall wird das `Promise` Skript zurückgegeben, aber der Office Skriptcompiler erwartet es nicht, und der Ersteller des Skripts kann nicht mit der `Promise` interagieren.
 
 Das folgende Codebeispiel zeigt eine nicht unterstützte Vereinigung zwischen `ExcelScript.Table` und einer benutzerdefinierten `MyTable` Schnittstelle.
 
@@ -106,13 +106,32 @@ interface MyTable {
 }
 ```
 
+## <a name="constructors-dont-support-office-scripts-apis-and-console-statements"></a>Konstruktoren unterstützen Office Skript-APIs und `console` -Anweisungen nicht
+
+`console`Anweisungen und viele Office Skript-APIs erfordern eine Synchronisierung mit der Excel Arbeitsmappe. Diese Synchronisierungen verwenden `await` Anweisungen in kompilierter Laufzeitversion des Skripts. `await` wird in [Konstruktoren](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Classes/constructor)nicht unterstützt. Wenn Sie Klassen mit Konstruktoren benötigen, vermeiden Sie Office Skript-APIs oder `console` -Anweisungen in diesen Codeblöcken.
+
+Im folgenden Codebeispiel wird dieses Szenario veranschaulicht. Es wird ein Fehler generiert, der `failed to load [code] [library]` besagt.
+
+```TypeScript
+function main(workbook: ExcelScript.Workbook) {
+  class MyClass {
+    constructor() {
+      // Console statements and Office Scripts APIs aren't supported in constructors.
+      console.log("This won't print.");
+    }
+  }
+
+  let test = new MyClass();
+}
+```
+
 ## <a name="performance-warnings"></a>Leistungswarnungen
 
 Der [Linter](https://wikipedia.org/wiki/Lint_(software)) des Code-Editors gibt Warnungen aus, wenn das Skript Leistungsprobleme haben kann. Die Fälle und wie Sie diese umgehen, sind in ["Verbessern der Leistung Ihrer Office Skripts"](web-client-performance.md)dokumentiert.
 
 ## <a name="external-api-calls"></a>Externe API-Aufrufe
 
-Weitere Informationen finden Sie [unter Support für externe API-Aufrufe in Office Skripts.](external-calls.md)
+Weitere Informationen finden Sie [unter "Support für externe API-Aufrufe" in Office Skripts.](external-calls.md)
 
 ## <a name="see-also"></a>Siehe auch
 

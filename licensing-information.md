@@ -1,7 +1,7 @@
 HINWEISE UND INFORMATIONEN werden nicht übersetzt oder lokalisiert
 
 Diese Software enthält Material von Drittanbietern.
-Microsoft stellt bestimmten Open Source-Code zur Verfügung, https://3rdpartysource.microsoft.com oder Sie können eine Scheck- oder Geldbestellung für US$5,00, einschließlich produktname, open Source-Komponentenname, Plattform und Versionsnummer, an Folgendes senden:
+Microsoft stellt bestimmten Open Source-Code zur Verfügung, https://3rdpartysource.microsoft.com oder Sie können eine Scheck- oder Geldbestellung für 5,00 US-Dollar, einschließlich produktname, Open Source-Komponentenname, Plattform und Versionsnummer, an Folgendes senden:
 
 Source Code Compliance Team Microsoft Corporation One Microsoft Way Redmond, WA 98052 USA
 
@@ -77,33 +77,33 @@ Copyright (c) 2015-2018 Google, Inc., Netflix, Inc., Microsoft Corp. und Mitwirk
 
     "Quellformular" ist das bevorzugte Formular für Änderungen, einschließlich, aber nicht beschränkt auf Softwarequellcode, Dokumentationsquelle und Konfigurationsdateien.
 
-    "Objektformular" ist jede Form, die sich aus der maschinellen Transformation oder Übersetzung eines Quellformulars ergibt, einschließlich, aber nicht beschränkt auf kompilierten Objektcode, generierte Dokumentation und Konvertierungen in andere Medientypen.
+    Objekt bezeichnet jede Form, die sich aus der maschinellen Transformation oder Übersetzung eines Quellformulars ergibt, einschließlich, aber nicht beschränkt auf kompilierten Objektcode, generierte Dokumentation und Konvertierungen in andere Medientypen.
 
     "Arbeit" bezeichnet die Arbeit der Autorenschaft, sei es im Quell- oder Objektformat, die unter der Lizenz zur Verfügung gestellt wird, wie durch einen Urheberrechtshinweis angegeben, der in dem Werk enthalten oder diesem zugeordnet ist (ein Beispiel finden Sie in der nachstehenden Anlage).
 
     Abgeleitete Arbeiten sind alle Arbeiten, ob in Quell- oder Objektform, die auf dem Werk basieren (oder daraus abgeleitet sind), und für die die überarbeitungen, Anmerkungen, Ausführungen oder sonstigen Änderungen als Ganzes ein ursprüngliches Dokument darstellen. Im Sinne dieser Lizenz dürfen abgeleitete Arbeiten keine Arbeiten enthalten, die von den Schnittstellen der Arbeits- und Ableitungsarbeiten getrennt bleiben oder lediglich mit den Schnittstellen von "Work" und "Derivatives Works" verknüpft (oder durch Namen gebunden) werden.
 
-    "Beitrag" ist jede Arbeit der Autorenschaft, einschließlich der ursprünglichen Version des Werks und aller Änderungen oder Ergänzungen zu diesem Werk oder dieser Ableitung, die absichtlich an den Licensor zur Aufnahme in das Werk durch den Copyrightbesitzer oder durch eine Einzelperson oder juristische Person übermittelt wird, die berechtigt ist, im Namen des Copyrightbesitzers einzureichen. Im Sinne dieser Definition bedeutet "übermittelt" jede Form von elektronischer, verbaler oder schriftlicher Kommunikation, die an den Licensor oder seine Vertreter gesendet wird, einschließlich, aber nicht beschränkt auf die Kommunikation über elektronische Adresslisten, Quellcodeverwaltungssysteme und Problemverfolgungssysteme, die vom Licensor oder im Auftrag des Licensors verwaltet werden, um die Arbeit zu besprechen und zu verbessern;  aber ohne Kommunikation, die vom Copyrightbesitzer auffallend gekennzeichnet oder anderweitig schriftlich als "Kein Beitrag" gekennzeichnet ist.
+    "Beitrag" bezeichnet alle Arbeiten der Autorenschaft, einschließlich der ursprünglichen Version des Werks und alle Änderungen oder Ergänzungen an diesem Werk oder dieser Abgeleiteten Arbeit, die absichtlich an den Licensor übermittelt werden, um vom Copyrightbesitzer oder von einer Einzelperson oder juristischen Person, die berechtigt ist, diese im Namen des Copyrightbesitzers einzureichen, in das Werk aufzunehmen. Im Sinne dieser Definition bedeutet "übermittelt" jede Form von elektronischer, verbaler oder schriftlicher Kommunikation, die an den Licensor oder seine Vertreter gesendet wird, einschließlich, aber nicht beschränkt auf die Kommunikation über elektronische Adresslisten, Quellcodeverwaltungssysteme und Problemverfolgungssysteme, die vom Licensor oder im Auftrag des Licensors verwaltet werden, um die Arbeit zu besprechen und zu verbessern;  aber ohne Kommunikation, die vom Copyrightbesitzer auffallend gekennzeichnet oder anderweitig schriftlich als "Kein Beitrag" gekennzeichnet ist.
 
     "Mitwirkender" ist ein Licensor und jede natürliche oder juristische Person, für die ein Beitrag vom Licensor empfangen und anschließend in die Arbeit eingebunden wurde.
 
  2. Erteilung einer Copyright-Lizenz. Vorbehaltlich der Geschäftsbedingungen dieser Lizenz gewährt jeder Mitwirkende Ihnen eine unbefristete, weltweite, nicht exklusive, gebührenfreie, lizenzfreie, widerrufliche Copyrightlizenz zur Veröffentlichung, Vorbereitung von Ableitungsarbeiten, öffentliches Anzeigen, öffentliches Ausführen, Unterlizenzieren und Verteilen der Arbeit und solcher abgeleiteter Arbeiten in Quell- oder Objektform.
 
- 3. Erteilung einer Patentlizenz. Vorbehaltlich der Bedingungen dieser Lizenz gewährt jeder Mitwirkende Ihnen eine unbefristete, weltweite, nicht exklusive, gebührenfreie, lizenzfreie, widerrufliche (außer in diesem Abschnitt aufgeführte) Lizenz zum Erteilen, Verwenden, Anbieten, Verkaufen, Importieren und anderweitigen Übertragen der Arbeit, wobei eine solche Lizenz nur für die von einem solchen Mitwirkenden lizenzierten Ansprüche gilt, die durch seinen Beitrag(n) allein oder durch kombination seiner Mitwirkenden notwendigerweise nicht unterstützt werden. die Arbeit, an die solche Beiträge übermittelt wurden. Wenn Sie einen Rechtsstreitigkeiten gegen eine Entität (einschließlich eines Kreuzanspruchs oder einer Gegenforderung in einer Rechtsstreitigkeiten) einreichen, die angibt, dass das in das Arbeitswerk eingebundene Projekt oder ein Beitrag eine direkte oder mitwirkende Verletzung des Urheberrechts darstellt, werden alle Ihnen unter dieser Lizenz für dieses Werk erteilten Lizenzen ab dem Datum, an dem ein solcher Rechtsstreitigkeiten eingereicht wird, beendet.
+ 3. Erteilung einer Patentlizenz. Vorbehaltlich der Bedingungen dieser Lizenz gewährt jeder Mitwirkende Ihnen eine unbefristete, weltweite, nicht exklusive, gebührenfreie, lizenzfreie, widerrufliche (außer in diesem Abschnitt aufgeführte) Lizenz zum Erteilen, Verwenden, Anbieten, Verkaufen, Importieren und anderweitigen Übertragen der Arbeit, wobei eine solche Lizenz nur für die von einem solchen Mitwirkenden lizenzierten Ansprüche gilt, die durch seinen Beitrag(n) allein oder durch kombination seiner Mitwirkenden notwendigerweise nicht unterstützt werden.  die Arbeit, an die solche Beiträge übermittelt wurden. Wenn Sie einen Rechtsstreitigkeiten gegen eine Entität (einschließlich eines Kreuzanspruchs oder einer Gegenforderung in einer Rechtsstreitigkeiten) einreichen, die angibt, dass das in das Arbeitswerk eingebundene Projekt oder ein Beitrag eine direkte oder mitwirkende Verletzung des Urheberrechts darstellt, werden alle Ihnen unter dieser Lizenz für dieses Werk erteilten Lizenzen ab dem Datum, an dem ein solcher Rechtsstreitigkeiten eingereicht wird, beendet.
 
  4. Umverteilung. Sie dürfen Kopien des Werks oder des Abgeleiteten Werks auf beliebigem Medium, mit oder ohne Änderungen und in Quell- oder Objektform reproduzieren und verteilen, vorausgesetzt, Dass Sie die folgenden Bedingungen erfüllen:
 
     (a) Sie müssen allen anderen Empfängern der Arbeits- oder Ableitungsarbeiten eine Kopie dieser Lizenz erteilen; Und
 
-    (b) Sie müssen dafür sorgen, dass alle geänderten Dateien auffällige Benachrichtigungen enthalten, die darauf hinweisen, dass Sie die Dateien geändert haben; Und
+    (b) Sie müssen dafür sorgen, dass alle geänderten Dateien hervorgehobene Benachrichtigungen enthalten, dass Sie die Dateien geändert haben; Und
 
     (c) Sie müssen alle Copyright-, Patent-, Marken- und Zuschreibungshinweise aus dem Quellformular des Werks in form von abgeleiteten Arbeiten, die Sie vertreiben, aufbewahren, mit Ausnahme der Benachrichtigungen, die sich nicht auf einen Teil der Abgeleiteten Arbeiten beziehen; Und
 
-    (d) Wenn die Arbeit eine Textdatei vom Typ "NOTICE" als Teil ihrer Verteilung enthält, müssen alle von Ihnen verteilten abgeleiteten Arbeiten eine lesbare Kopie der in dieser NOTICE-Datei enthaltenen Attributionshinweise enthalten, mit Ausnahme der Benachrichtigungen, die sich nicht auf einen Teil der Ableitungsarbeiten beziehen, an mindestens einem der folgenden Stellen:  in einer NOTICE-Textdatei, die als Teil der Abgeleiteten Arbeiten verteilt wird; im Quellformular oder in der Dokumentation, sofern dies zusammen mit den Abgeleiteten Arbeiten bereitgestellt wird; oder innerhalb einer von den Abgeleiteten Arbeiten generierten Anzeige, ob und wo solche Drittanbieterbenachrichtigungen normalerweise angezeigt werden. Der Inhalt der NOTICE-Datei dient nur zu Informationszwecken und ändert die Lizenz nicht. Sie können Ihre eigenen Attributionshinweise in "Ableitungsarbeiten" hinzufügen, die Sie zusammen oder als Nachtrag zum HINWEIS-Text aus dem Work verteilen, vorausgesetzt, dass solche zusätzlichen Attributionshinweise nicht als Änderung der Lizenz interpretiert werden können.
+    (d) Wenn die Arbeit eine Textdatei vom Typ "NOTICE" als Teil ihrer Verteilung enthält, müssen alle von Ihnen verteilten abgeleiteten Arbeiten eine lesbare Kopie der in einer solchen NOTICE-Datei enthaltenen Attributionshinweise enthalten, mit Ausnahme der Benachrichtigungen, die sich nicht auf einen Teil der Ableitungsarbeiten beziehen, an mindestens einem der folgenden Stellen:  in einer NOTICE-Textdatei, die als Teil der Abgeleiteten Arbeiten verteilt wird; im Quellformular oder in der Dokumentation, sofern dies zusammen mit den Abgeleiteten Arbeiten bereitgestellt wird; oder innerhalb einer von den Abgeleiteten Arbeiten generierten Anzeige, ob und wo solche Drittanbieterbenachrichtigungen normalerweise angezeigt werden. Der Inhalt der NOTICE-Datei dient nur zu Informationszwecken und ändert die Lizenz nicht. Sie können Ihre eigenen Attributionshinweise in "Ableitungsarbeiten" hinzufügen, die Sie zusammen oder als Nachtrag zum HINWEIS-Text aus dem Work verteilen, vorausgesetzt, dass solche zusätzlichen Attributionshinweise nicht als Änderung der Lizenz interpretiert werden können.
 
-    Sie können Ihre eigenen Urheberrechtsbestimmungen zu Ihren Änderungen hinzufügen und zusätzliche oder unterschiedliche Lizenzbedingungen für die Verwendung, Wiederverwendung oder Verteilung Ihrer Änderungen oder für alle derartigen abgeleiteten Arbeiten als Ganzes bereitstellen, sofern Ihre Nutzung, Vermehrung und Verteilung des Werks andernfalls den in dieser Lizenz angegebenen Bedingungen entspricht.
+    Sie können Ihren Änderungen Ihre eigene Copyright-Erklärung hinzufügen und zusätzliche oder andere Lizenzbedingungen für die Verwendung, Wiederverwendung oder Verteilung Ihrer Änderungen oder für solche abgeleiteten Arbeiten als Ganzes bereitstellen, sofern Ihre Nutzung, Wiederverwendung und Verteilung der Arbeit anderweitig den in dieser Lizenz angegebenen Bedingungen entspricht.
 
- 5. Übermittlung von Beiträgen. Sofern Sie nichts anderes ausdrücklich angeben, gelten alle beiträge, die sie absichtlich zur Aufnahme in die Arbeit von Ihnen an den Licensor übermittelt haben, unter den Bedingungen dieser Lizenz, ohne dass zusätzliche Bedingungen gelten.
+ 5. Übermittlung von Beiträgen. Sofern Sie nichts anderes ausdrücklich angeben, gelten alle Beiträge, die sie absichtlich zur Aufnahme in die Arbeit von Ihnen an den Licensor übermittelt haben, unter den Bedingungen dieser Lizenz, ohne dass zusätzliche Bedingungen gelten.
     Ungeachtet der oben genannten Bestimmungen ersetzt oder ändert nichts die Bedingungen eines separaten Lizenzvertrags, den Sie möglicherweise mit dem Licensor in Bezug auf solche Beiträge ausgeführt haben.
 
  6. Marken. Diese Lizenz gewährt keine Berechtigung zur Verwendung der Handelsnamen, Marken, Dienstmarken oder Produktnamen des Licensors, es sei denn, dies ist für eine angemessene und übliche Verwendung erforderlich, um den Ursprung des Auftrags zu beschreiben und den Inhalt der NOTICE-Datei zu reproduzieren.
@@ -150,21 +150,21 @@ Copyright (c) 2015-2018 Google, Inc., Netflix, Inc., Microsoft Corp. und Mitwirk
 
     "Quellformular" ist das bevorzugte Formular für Änderungen, einschließlich, aber nicht beschränkt auf Softwarequellcode, Dokumentationsquelle und Konfigurationsdateien.
 
-    "Objektformular" ist jede Form, die sich aus der maschinellen Transformation oder Übersetzung eines Quellformulars ergibt, einschließlich, aber nicht beschränkt auf kompilierten Objektcode, generierte Dokumentation und Konvertierungen in andere Medientypen.
+    Objekt bezeichnet jede Form, die sich aus der maschinellen Transformation oder Übersetzung eines Quellformulars ergibt, einschließlich, aber nicht beschränkt auf kompilierten Objektcode, generierte Dokumentation und Konvertierungen in andere Medientypen.
 
     "Arbeit" bezeichnet die Arbeit der Autorenschaft, sei es im Quell- oder Objektformat, die unter der Lizenz zur Verfügung gestellt wird, wie durch einen Urheberrechtshinweis angegeben, der in dem Werk enthalten oder diesem zugeordnet ist (ein Beispiel finden Sie in der nachstehenden Anlage).
 
     Abgeleitete Arbeiten sind alle Arbeiten, ob in Quell- oder Objektform, die auf dem Werk basieren (oder daraus abgeleitet sind), und für die die überarbeitungen, Anmerkungen, Ausführungen oder sonstigen Änderungen als Ganzes ein ursprüngliches Dokument darstellen. Im Sinne dieser Lizenz dürfen abgeleitete Arbeiten keine Arbeiten enthalten, die von den Schnittstellen der Arbeits- und Ableitungsarbeiten getrennt bleiben oder lediglich mit den Schnittstellen von "Work" und "Derivatives Works" verknüpft (oder durch Namen gebunden) werden.
 
-    "Beitrag" ist jede Arbeit der Autorenschaft, einschließlich der ursprünglichen Version des Werks und aller Änderungen oder Ergänzungen zu diesem Werk oder dieser Ableitung, die absichtlich an den Licensor zur Aufnahme in das Werk durch den Copyrightbesitzer oder durch eine Einzelperson oder juristische Person übermittelt wird, die berechtigt ist, im Namen des Copyrightbesitzers einzureichen. Im Sinne dieser Definition bedeutet "übermittelt" jede Form von elektronischer, verbaler oder schriftlicher Kommunikation, die an den Licensor oder seine Vertreter gesendet wird, einschließlich, aber nicht beschränkt auf die Kommunikation über elektronische Adresslisten, Quellcodeverwaltungssysteme und Problemverfolgungssysteme, die vom Licensor oder im Auftrag des Licensors verwaltet werden, um die Arbeit zu besprechen und zu verbessern;  aber ohne Kommunikation, die vom Copyrightbesitzer auffallend gekennzeichnet oder anderweitig schriftlich als "Kein Beitrag" gekennzeichnet ist.
+    "Beitrag" bezeichnet alle Arbeiten der Autorenschaft, einschließlich der ursprünglichen Version des Werks und alle Änderungen oder Ergänzungen an diesem Werk oder dieser Abgeleiteten Arbeit, die absichtlich an den Licensor übermittelt werden, um vom Copyrightbesitzer oder von einer Einzelperson oder juristischen Person, die berechtigt ist, diese im Namen des Copyrightbesitzers einzureichen, in das Werk aufzunehmen. Im Sinne dieser Definition bedeutet "übermittelt" jede Form von elektronischer, verbaler oder schriftlicher Kommunikation, die an den Licensor oder seine Vertreter gesendet wird, einschließlich, aber nicht beschränkt auf die Kommunikation über elektronische Adresslisten, Quellcodeverwaltungssysteme und Problemverfolgungssysteme, die vom Licensor oder im Auftrag des Licensors verwaltet werden, um die Arbeit zu besprechen und zu verbessern;  aber ohne Kommunikation, die vom Copyrightbesitzer auffallend gekennzeichnet oder anderweitig schriftlich als "Kein Beitrag" gekennzeichnet ist.
 
     "Mitwirkender" ist ein Licensor und jede natürliche oder juristische Person, für die ein Beitrag vom Licensor empfangen und anschließend in die Arbeit eingebunden wurde.
 
  2. Erteilung einer Copyright-Lizenz. Vorbehaltlich der Geschäftsbedingungen dieser Lizenz gewährt jeder Mitwirkende Ihnen eine unbefristete, weltweite, nicht exklusive, gebührenfreie, lizenzfreie, widerrufliche Copyrightlizenz zur Veröffentlichung, Vorbereitung von Ableitungsarbeiten, öffentliches Anzeigen, öffentliches Ausführen, Unterlizenzieren und Verteilen der Arbeit und solcher abgeleiteter Arbeiten in Quell- oder Objektform.
 
- 3. Erteilung einer Patentlizenz. Vorbehaltlich der Bedingungen dieser Lizenz gewährt jeder Mitwirkende Ihnen eine unbefristete, weltweite, nicht exklusive, gebührenfreie, lizenzfreie, widerrufliche (außer in diesem Abschnitt aufgeführte) Lizenz zum Erteilen, Verwenden, Anbieten, Verkaufen, Importieren und anderweitigen Übertragen der Arbeit, wobei eine solche Lizenz nur für die von einem solchen Mitwirkenden lizenzierten Ansprüche gilt, die durch seinen Beitrag(n) allein oder durch kombination seiner Mitwirkenden notwendigerweise nicht unterstützt werden. die Arbeit, an die solche Beiträge übermittelt wurden. Wenn Sie einen Rechtsstreitigkeiten gegen eine Entität (einschließlich eines Kreuzanspruchs oder einer Gegenforderung in einer Rechtsstreitigkeiten) einreichen, die angibt, dass das in das Arbeitswerk eingebundene Projekt oder ein Beitrag eine direkte oder mitwirkende Verletzung des Urheberrechts darstellt, werden alle Ihnen unter dieser Lizenz für dieses Werk erteilten Lizenzen ab dem Datum, an dem ein solcher Rechtsstreitigkeiten eingereicht wird, beendet.
+ 3. Erteilung einer Patentlizenz. Vorbehaltlich der Bedingungen dieser Lizenz gewährt jeder Mitwirkende Ihnen eine unbefristete, weltweite, nicht exklusive, gebührenfreie, lizenzfreie, widerrufliche (außer in diesem Abschnitt aufgeführte) Lizenz zum Erteilen, Verwenden, Anbieten, Verkaufen, Importieren und anderweitigen Übertragen der Arbeit, wobei eine solche Lizenz nur für die von einem solchen Mitwirkenden lizenzierten Ansprüche gilt, die durch seinen Beitrag(n) allein oder durch kombination seiner Mitwirkenden notwendigerweise nicht unterstützt werden.  die Arbeit, an die solche Beiträge übermittelt wurden. Wenn Sie einen Rechtsstreitigkeiten gegen eine Entität (einschließlich eines Kreuzanspruchs oder einer Gegenforderung in einer Rechtsstreitigkeiten) einreichen, die angibt, dass das in das Arbeitswerk eingebundene Projekt oder ein Beitrag eine direkte oder mitwirkende Verletzung des Urheberrechts darstellt, werden alle Ihnen unter dieser Lizenz für dieses Werk erteilten Lizenzen ab dem Datum, an dem ein solcher Rechtsstreitigkeiten eingereicht wird, beendet.
 
- 4. Umverteilung. Sie dürfen Kopien des Werks oder des Abgeleiteten Werks auf beliebigem Medium, mit oder ohne Änderungen und in Quell- oder Objektform reproduzieren und verteilen, vorausgesetzt, Dass Sie die folgenden Bedingungen erfüllen:
+ 4. Umverteilung. Sie dürfen Kopien des Werks oder des Abgeleiteten Werks auf beliebigem Medium, mit oder ohne Änderungen und in Quell- oder Objektform reproduzieren und verteilen, sofern Sie die folgenden Bedingungen erfüllen:
 
     (a) Sie müssen allen anderen Empfängern der Arbeits- oder Ableitungsarbeiten eine Kopie dieser Lizenz erteilen; Und
 
@@ -172,20 +172,20 @@ Copyright (c) 2015-2018 Google, Inc., Netflix, Inc., Microsoft Corp. und Mitwirk
 
     (c) Sie müssen alle Copyright-, Patent-, Marken- und Zuschreibungshinweise aus dem Quellformular des Werks in form von abgeleiteten Arbeiten, die Sie vertreiben, aufbewahren, mit Ausnahme der Benachrichtigungen, die sich nicht auf einen Teil der Abgeleiteten Arbeiten beziehen; Und
 
-    (d) Wenn die Arbeit eine Textdatei vom Typ "NOTICE" als Teil ihrer Verteilung enthält, müssen alle von Ihnen verteilten abgeleiteten Arbeiten eine lesbare Kopie der in dieser NOTICE-Datei enthaltenen Attributionshinweise enthalten, mit Ausnahme der Benachrichtigungen, die sich nicht auf einen Teil der Ableitungsarbeiten beziehen, an mindestens einem der folgenden Stellen:  in einer NOTICE-Textdatei, die als Teil der Abgeleiteten Arbeiten verteilt wird; im Quellformular oder in der Dokumentation, sofern dies zusammen mit den Abgeleiteten Arbeiten bereitgestellt wird; oder innerhalb einer von den Abgeleiteten Arbeiten generierten Anzeige, ob und wo solche Drittanbieterbenachrichtigungen normalerweise angezeigt werden. Der Inhalt der NOTICE-Datei dient nur zu Informationszwecken und ändert die Lizenz nicht. Sie können Ihre eigenen Attributionshinweise in "Ableitungsarbeiten" hinzufügen, die Sie zusammen oder als Nachtrag zum HINWEIS-Text aus dem Work verteilen, vorausgesetzt, dass solche zusätzlichen Attributionshinweise nicht als Änderung der Lizenz interpretiert werden können.
+    (d) Wenn die Arbeit eine Textdatei vom Typ "NOTICE" als Teil ihrer Verteilung enthält, müssen alle von Ihnen verteilten abgeleiteten Arbeiten eine lesbare Kopie der in dieser NOTICE-Datei enthaltenen Attributionshinweise enthalten, mit Ausnahme der Benachrichtigungen, die sich nicht auf einen Teil der Ableitungsarbeiten beziehen, an mindestens einem der folgenden Stellen:  in einer NOTICE-Textdatei, die als Teil der Abgeleiteten Arbeiten verteilt wird; im Quellformular oder in der Dokumentation, sofern dies zusammen mit den Abgeleiteten Arbeiten bereitgestellt wird; oder innerhalb einer von den Abgeleiteten Arbeiten generierten Anzeige, ob und wo solche Drittanbieter-Benachrichtigungen normalerweise angezeigt werden. Der Inhalt der NOTICE-Datei dient nur zu Informationszwecken und ändert die Lizenz nicht. Sie können Ihre eigenen Attributionshinweise in "Ableitungsarbeiten" hinzufügen, die Sie zusammen oder als Nachtrag zum HINWEIS-Text aus dem Work verteilen, vorausgesetzt, dass solche zusätzlichen Attributionshinweise nicht als Änderung der Lizenz interpretiert werden können.
 
     Sie können Ihre eigenen Urheberrechtsbestimmungen zu Ihren Änderungen hinzufügen und zusätzliche oder unterschiedliche Lizenzbedingungen für die Verwendung, Wiederverwendung oder Verteilung Ihrer Änderungen oder für alle derartigen abgeleiteten Arbeiten als Ganzes bereitstellen, sofern Ihre Nutzung, Vermehrung und Verteilung des Werks andernfalls den in dieser Lizenz angegebenen Bedingungen entspricht.
 
  5. Übermittlung von Beiträgen. Sofern Sie nichts anderes ausdrücklich angeben, gelten alle beiträge, die sie absichtlich zur Aufnahme in die Arbeit von Ihnen an den Licensor übermittelt haben, unter den Bedingungen dieser Lizenz, ohne dass zusätzliche Bedingungen gelten.
-    Ungeachtet der oben genannten Bestimmungen ersetzt oder ändert nichts die Bedingungen eines separaten Lizenzvertrags, den Sie möglicherweise mit dem Licensor in Bezug auf solche Beiträge ausgeführt haben.
+    Ungeachtet der oben genannten Bestimmungen ersetzt oder ändert nichts die Bedingungen eines separaten Lizenzvertrags, den Sie möglicherweise mit dem Licensor bezüglich solcher Beiträge ausgeführt haben.
 
  6. Marken. Diese Lizenz gewährt keine Berechtigung zur Verwendung der Handelsnamen, Marken, Dienstmarken oder Produktnamen des Licensors, es sei denn, dies ist für eine angemessene und übliche Verwendung erforderlich, um den Ursprung des Auftrags zu beschreiben und den Inhalt der NOTICE-Datei zu reproduzieren.
 
- 7. Haftungsausschluss. Sofern nicht nach geltendem Recht erforderlich oder schriftlich zugestimmt, stellt der Licensor die Arbeit (und jeder Mitwirkende stellt seine Beiträge bereit) "WIE BESEHEN", OHNE GEWÄHRLEISTUNGEN ODER BEDINGUNGEN JEGLICHEr Art, entweder ausdrücklich oder konkludent, einschließlich, ohne Einschränkung, jegliche Gewährleistungen oder Bedingungen des TITELs, NICHTVERLETZUNG, HANDELSÜBLICHKEIT oder EIGNUNG FÜR EINEN BESTIMMTEN ZWECK. Sie sind allein dafür verantwortlich, die Geeignetheit der Verwendung oder Verteilung der Arbeit zu bestimmen und alle Risiken im Zusammenhang mit Ihrer Ausübung von Berechtigungen unter dieser Lizenz zu übernehmen.
+ 7. Haftungsausschluss. Sofern nicht nach geltendem Recht erforderlich oder schriftlich zugestimmt, stellt der Licensor die Arbeit (und jeder Mitwirkende stellt seine Beiträge bereit) "WIE BESEHEN", OHNE GEWÄHRLEISTUNGEN ODER BEDINGUNGEN JEGLICHEr Art, entweder ausdrücklich oder konkludent, einschließlich, ohne Einschränkung, garantien oder Bedingungen des TITELs, NICHTVERLETZUNG, HANDELSÜBLICHKEIT oder EIGNUNG FÜR EINEN BESTIMMTEN ZWECK. Sie sind allein dafür verantwortlich, die Geeignetheit der Verwendung oder Verteilung der Arbeit zu bestimmen und alle Risiken im Zusammenhang mit Ihrer Ausübung von Berechtigungen unter dieser Lizenz zu übernehmen.
 
- 8. Limitation of Liability. In keinem Fall und ohne rechtstheoretische Hinweise, sei es in Form von Unerlaubtem (einschließlich Fahrlässigkeit), Vertrag oder anderweitig, es sei denn, dies ist nach geltendem Recht erforderlich (z. B. absichtliche und grobe Handlungen) oder schriftlich vereinbart, hafte jedem Mitwirkenden für Schäden, einschließlich direkter, indirekter, spezieller, zufälliger oder Folgeschäden jeglicher Art, die als Ergebnis dieser Lizenz oder aufgrund der Nutzung oder Unfähigkeit zur Nutzung der Arbeit entstehen (einschließlich, aber nicht beschränkt auf Schäden aufgrund von Verlust des Firmenwerts, Arbeitsausfall, Computerfehler oder Fehlfunktion oder jeglichen anderen kommerziellen Schäden oder Verlusten), auch wenn dieser Mitwirkende auf die Möglichkeit solcher Schäden hingewiesen wurde.
+ 8. Limitation of Liability. In keinem Fall und ohne rechtstheoretische Hinweise, sei es in Form von Unerlaubtem (einschließlich Fahrlässigkeit), Vertrag oder anderweitig, es sei denn, dies ist nach geltendem Recht erforderlich (z. B. absichtliche und grobe Handlungen) oder schriftlich vereinbart, hafte jeder Mitwirkende Ihnen gegenüber für Schäden, einschließlich direkter, indirekter, spezieller, zufälliger oder Folgeschäden jeglicher Art, die als Ergebnis dieser Lizenz oder aufgrund der Nutzung oder Unfähigkeit zur Nutzung der Arbeit entstehen (einschließlich, aber nicht beschränkt auf Schäden aufgrund von Verlust des Firmenwerts, Arbeitsausfall, Computerfehler oder Fehlfunktion oder jeglichen anderen kommerziellen Schäden oder Verlusten), auch wenn dieser Mitwirkende auf die Möglichkeit solcher Schäden hingewiesen wurde.
 
- 9. Akzeptieren von Garantie oder zusätzlicher Haftung. Während sie die Arbeit oder die abgeleiteten Arbeiten weitervertreiben, können Sie die Annahme des Supports, der Garantie, der Freistellung oder anderer Haftungsverpflichtungen und/oder Rechte, die mit dieser Lizenz in Einklang stehen, anbieten und eine Gebühr berechnen. Wenn Sie solche Verpflichtungen akzeptieren, dürfen Sie jedoch nur in Ihrem eigenen Namen und in Ihrer alleinigen Verantwortung handeln, nicht im Namen eines anderen Mitwirkenden, und nur, wenn Sie zustimmen, jeden Mitwirkenden für jegliche Haftung, die durch einen solchen Mitwirkenden entsteht, oder ansprüche, die gegen diesen Mitwirkenden entstehen, schadlos zu halten, indem Sie eine solche Garantie oder zusätzliche Haftung akzeptieren.
+ 9. Akzeptieren von Garantie oder zusätzlicher Haftung. Während sie die Arbeit oder die abgeleiteten Arbeiten weitervertreiben, können Sie die Annahme des Supports, der Garantie, der Freistellung oder anderer Haftungsverpflichtungen und/oder Rechte, die mit dieser Lizenz in Einklang stehen, anbieten und eine Gebühr berechnen. Wenn Sie solche Verpflichtungen akzeptieren, dürfen Sie jedoch nur in Ihrem eigenen Namen und in Ihrer alleinigen Verantwortung handeln, nicht im Namen eines anderen Mitwirkenden, und nur, wenn Sie sich bereit erklären, jeden Mitwirkenden für jegliche Haftung, die durch einen solchen Mitwirkenden entsteht oder ansprüche, die gegen diesen Mitwirkenden entstehen, schadlos zu halten, indem Sie eine solche Garantie oder zusätzliche Haftung akzeptieren.
 
  ENDE DER GESCHÄFTSBEDINGUNGEN
 
@@ -217,7 +217,7 @@ Copyright (c) 2015-2018 Google, Inc., Netflix, Inc., Microsoft Corp. und Mitwirk
 
     "Licensor" ist der Copyrightbesitzer oder die Entität, die vom Copyrightbesitzer autorisiert ist, der die Lizenz gewährt.
 
-    "Juristische Person" bezeichnet die Vereinigung der handelnden Entität und aller anderen Entitäten, die diese kontrollieren, von dieser gesteuert werden oder der gemeinsamen Kontrolle mit dieser Entität unterliegen. Im Sinne dieser Definition bedeutet "Kontrolle" (i) die direkte oder indirekte Macht, die Richtung oder Verwaltung dieser Entität zu verursachen, sei es vertraglich oder anderweitig, oder (ii) den Besitz von 50 % (50 %) oder mehr der ausstehenden Aktien oder (iii) den vorteilsbringenden Besitz einer solchen Entität.
+    "Juristische Person" bezeichnet die Vereinigung der handelnden Entität und aller anderen Entitäten, die diese kontrollieren, von dieser gesteuert werden oder der gemeinsamen Kontrolle mit dieser Entität unterliegen. Im Sinne dieser Definition bedeutet "Kontrolle" (i) die direkte oder indirekte Möglichkeit, die Richtung oder Verwaltung einer solchen Entität zu verursachen, sei es vertraglich oder anderweitig, oder (ii) den Besitz von 50 % (50 %) oder mehr der ausstehenden Aktien oder (iii) den vorteilsbringenden Besitz einer solchen Entität.
 
     "Sie" (oder "Ihr") bezeichnet eine einzel- oder juristische Person, die die durch diese Lizenz erteilten Berechtigungen einbenennt.
 
@@ -229,15 +229,15 @@ Copyright (c) 2015-2018 Google, Inc., Netflix, Inc., Microsoft Corp. und Mitwirk
 
     Abgeleitete Arbeiten sind alle Arbeiten, ob in Quell- oder Objektform, die auf dem Werk basieren (oder daraus abgeleitet sind), und für die die überarbeitungen, Anmerkungen, Ausführungen oder sonstigen Änderungen als Ganzes ein ursprüngliches Dokument darstellen. Im Sinne dieser Lizenz dürfen abgeleitete Arbeiten keine Arbeiten enthalten, die von den Schnittstellen der Arbeits- und Ableitungsarbeiten getrennt bleiben oder lediglich mit den Schnittstellen von "Work" und "Derivatives Works" verknüpft (oder durch Namen gebunden) werden.
 
-    "Beitrag" ist jede Arbeit der Autorenschaft, einschließlich der ursprünglichen Version des Werks und aller Änderungen oder Ergänzungen zu diesem Werk oder dieser Ableitung, die absichtlich an den Licensor zur Aufnahme in das Werk durch den Copyrightbesitzer oder durch eine Einzelperson oder juristische Person übermittelt wird, die berechtigt ist, im Namen des Copyrightbesitzers einzureichen. Im Sinne dieser Definition bedeutet "übermittelt" jede Form von elektronischer, verbaler oder schriftlicher Kommunikation, die an den Licensor oder seine Vertreter gesendet wird, einschließlich, aber nicht beschränkt auf die Kommunikation über elektronische Adresslisten, Quellcodeverwaltungssysteme und Problemverfolgungssysteme, die vom Licensor oder im Auftrag des Licensors verwaltet werden, um die Arbeit zu besprechen und zu verbessern;  aber ohne Kommunikation, die vom Copyrightbesitzer auffallend gekennzeichnet oder anderweitig schriftlich als "Kein Beitrag" gekennzeichnet ist.
+    "Beitrag" bezeichnet alle Arbeiten der Autorenschaft, einschließlich der ursprünglichen Version des Werks und alle Änderungen oder Ergänzungen an diesem Werk oder dieser Abgeleiteten Arbeit, die absichtlich an den Licensor übermittelt werden, um vom Copyrightbesitzer oder von einer Einzelperson oder juristischen Person, die berechtigt ist, diese im Namen des Copyrightbesitzers einzureichen, in das Werk aufzunehmen. Im Sinne dieser Definition bedeutet "übermittelt" jede Form von elektronischer, verbaler oder schriftlicher Kommunikation, die an den Licensor oder seine Vertreter gesendet wird, einschließlich, aber nicht beschränkt auf die Kommunikation über elektronische Adresslisten, Quellcodeverwaltungssysteme und Problemverfolgungssysteme, die vom Licensor oder im Auftrag des Licensors verwaltet werden, um die Arbeit zu besprechen und zu verbessern;  aber ohne Kommunikation, die vom Copyrightbesitzer auffallend gekennzeichnet oder anderweitig schriftlich als "Kein Beitrag" gekennzeichnet ist.
 
     "Mitwirkender" ist ein Licensor und jede natürliche oder juristische Person, für die ein Beitrag vom Licensor empfangen und anschließend in die Arbeit eingebunden wurde.
 
  2. Erteilung einer Copyright-Lizenz. Vorbehaltlich der Geschäftsbedingungen dieser Lizenz gewährt jeder Mitwirkende Ihnen eine unbefristete, weltweite, nicht exklusive, gebührenfreie, lizenzfreie, widerrufliche Copyrightlizenz zur Veröffentlichung, Vorbereitung von Ableitungsarbeiten, öffentliches Anzeigen, öffentliches Ausführen, Unterlizenzieren und Verteilen der Arbeit und solcher abgeleiteter Arbeiten in Quell- oder Objektform.
 
- 3. Erteilung einer Patentlizenz. Vorbehaltlich der Bedingungen dieser Lizenz gewährt jeder Mitwirkende Ihnen eine unbefristete, weltweite, nicht exklusive, gebührenfreie, lizenzfreie, widerrufliche (außer in diesem Abschnitt aufgeführte) Lizenz zum Erteilen, Verwenden, Anbieten, Verkaufen, Importieren und anderweitigen Übertragen der Arbeit, wobei eine solche Lizenz nur für die von einem solchen Mitwirkenden lizenzierten Ansprüche gilt, die durch seinen Beitrag(n) allein oder durch kombination seiner Mitwirkenden notwendigerweise nicht unterstützt werden. die Arbeit, an die solche Beiträge übermittelt wurden. Wenn Sie einen Rechtsstreitigkeiten gegen eine Entität (einschließlich eines Kreuzanspruchs oder einer Gegenforderung in einer Rechtsstreitigkeiten) einreichen, die angibt, dass das in das Arbeitswerk eingebundene Projekt oder ein Beitrag eine direkte oder mitwirkende Verletzung des Urheberrechts darstellt, werden alle Ihnen unter dieser Lizenz für dieses Werk erteilten Lizenzen ab dem Datum, an dem ein solcher Rechtsstreitigkeiten eingereicht wird, beendet.
+ 3. Erteilung einer Patentlizenz. Vorbehaltlich der Bedingungen dieser Lizenz gewährt jeder Mitwirkende Ihnen eine unbefristete, weltweite, nicht exklusive, gebührenfreie, lizenzfreie, widerrufliche (außer in diesem Abschnitt aufgeführte) Lizenz zum Erteilen, Verwenden, Anbieten, Verkaufen, Importieren und anderweitigen Übertragen der Arbeit, wobei eine solche Lizenz nur für die von einem solchen Mitwirkenden lizenzierten Ansprüche gilt, die durch seinen Beitrag(n) allein oder durch kombination seiner Mitwirkenden notwendigerweise nicht unterstützt werden.  die Arbeit, an die solche Beiträge übermittelt wurden. Wenn Sie einen Rechtsstreitigkeiten gegen eine Entität (einschließlich eines Kreuzanspruchs oder einer Gegenforderung in einer Rechtsstreitigkeiten) einreichen, die angibt, dass das in das Arbeitswerk eingebundene Werk oder ein Beitrag eine direkte oder mitwirkende Verletzung des Rechts darstellt, enden alle Ihnen unter dieser Lizenz für diese Arbeit erteilten Lizenzen ab dem Datum, an dem ein solcher Rechtsstreitigkeiten eingereicht wird.
 
- 4. Umverteilung. Sie dürfen Kopien des Werks oder des Abgeleiteten Werks auf beliebigem Medium, mit oder ohne Änderungen und in Quell- oder Objektform reproduzieren und verteilen, vorausgesetzt, Dass Sie die folgenden Bedingungen erfüllen:
+ 4. Umverteilung. Sie dürfen Kopien des Werks oder des Abgeleiteten Werks auf beliebigem Medium, mit oder ohne Änderungen und in Quell- oder Objektform reproduzieren und verteilen, sofern Sie die folgenden Bedingungen erfüllen:
 
     (a) Sie müssen allen anderen Empfängern der Arbeits- oder Ableitungsarbeiten eine Kopie dieser Lizenz erteilen; Und
 
@@ -245,20 +245,20 @@ Copyright (c) 2015-2018 Google, Inc., Netflix, Inc., Microsoft Corp. und Mitwirk
 
     (c) Sie müssen alle Copyright-, Patent-, Marken- und Zuschreibungshinweise aus dem Quellformular des Werks in form von abgeleiteten Arbeiten, die Sie vertreiben, aufbewahren, mit Ausnahme der Benachrichtigungen, die sich nicht auf einen Teil der Abgeleiteten Arbeiten beziehen; Und
 
-    (d) Wenn die Arbeit eine Textdatei vom Typ "NOTICE" als Teil ihrer Verteilung enthält, müssen alle von Ihnen verteilten abgeleiteten Arbeiten eine lesbare Kopie der in dieser NOTICE-Datei enthaltenen Attributionshinweise enthalten, mit Ausnahme der Benachrichtigungen, die sich nicht auf einen Teil der Ableitungsarbeiten beziehen, an mindestens einem der folgenden Stellen:  in einer NOTICE-Textdatei, die als Teil der Abgeleiteten Arbeiten verteilt wird; im Quellformular oder in der Dokumentation, sofern dies zusammen mit den Abgeleiteten Arbeiten bereitgestellt wird; oder innerhalb einer von den Abgeleiteten Arbeiten generierten Anzeige, ob und wo solche Drittanbieterbenachrichtigungen normalerweise angezeigt werden. Der Inhalt der NOTICE-Datei dient nur zu Informationszwecken und ändert die Lizenz nicht. Sie können Ihre eigenen Attributionshinweise in "Ableitungsarbeiten" hinzufügen, die Sie zusammen oder als Nachtrag zum HINWEIS-Text aus dem Work verteilen, vorausgesetzt, dass solche zusätzlichen Attributionshinweise nicht als Änderung der Lizenz interpretiert werden können.
+    (d) Wenn die Arbeit eine Textdatei vom Typ "NOTICE" als Teil ihrer Verteilung enthält, müssen alle von Ihnen verteilten abgeleiteten Arbeiten eine lesbare Kopie der in dieser NOTICE-Datei enthaltenen Attributionshinweise enthalten, mit Ausnahme der Benachrichtigungen, die sich nicht auf einen Teil der Ableitungsarbeiten beziehen, an mindestens einem der folgenden Stellen:  in einer NOTICE-Textdatei, die als Teil der Abgeleiteten Arbeiten verteilt wird; im Quellformular oder in der Dokumentation, sofern dies zusammen mit den Abgeleiteten Arbeiten bereitgestellt wird; oder innerhalb einer von den Abgeleiteten Arbeiten generierten Anzeige, ob und wo solche Drittanbieter-Benachrichtigungen normalerweise angezeigt werden. Der Inhalt der NOTICE-Datei dient nur zu Informationszwecken und ändert die Lizenz nicht. Sie können Ihre eigenen Attributionshinweise in "Ableitungsarbeiten" hinzufügen, die Sie zusammen oder als Nachtrag zum HINWEIS-Text aus dem Work verteilen, vorausgesetzt, dass solche zusätzlichen Attributionshinweise nicht als Änderung der Lizenz interpretiert werden können.
 
     Sie können Ihre eigenen Urheberrechtsbestimmungen zu Ihren Änderungen hinzufügen und zusätzliche oder unterschiedliche Lizenzbedingungen für die Verwendung, Wiederverwendung oder Verteilung Ihrer Änderungen oder für alle derartigen abgeleiteten Arbeiten als Ganzes bereitstellen, sofern Ihre Nutzung, Vermehrung und Verteilung des Werks andernfalls den in dieser Lizenz angegebenen Bedingungen entspricht.
 
  5. Übermittlung von Beiträgen. Sofern Sie nichts anderes ausdrücklich angeben, gelten alle beiträge, die sie absichtlich zur Aufnahme in die Arbeit von Ihnen an den Licensor übermittelt haben, unter den Bedingungen dieser Lizenz, ohne dass zusätzliche Bedingungen gelten.
-    Ungeachtet der oben genannten Bestimmungen ersetzt oder ändert nichts die Bedingungen eines separaten Lizenzvertrags, den Sie möglicherweise mit dem Licensor in Bezug auf solche Beiträge ausgeführt haben.
+    Ungeachtet der oben genannten Bestimmungen ersetzt oder ändert nichts die Bedingungen eines separaten Lizenzvertrags, den Sie möglicherweise mit dem Licensor bezüglich solcher Beiträge ausgeführt haben.
 
  6. Marken. Diese Lizenz gewährt keine Berechtigung zur Verwendung der Handelsnamen, Marken, Dienstmarken oder Produktnamen des Licensors, es sei denn, dies ist für eine angemessene und übliche Verwendung erforderlich, um den Ursprung des Auftrags zu beschreiben und den Inhalt der NOTICE-Datei zu reproduzieren.
 
- 7. Haftungsausschluss. Sofern nicht nach geltendem Recht erforderlich oder schriftlich zugestimmt, stellt der Licensor die Arbeit (und jeder Mitwirkende stellt seine Beiträge bereit) "WIE BESEHEN", OHNE GEWÄHRLEISTUNGEN ODER BEDINGUNGEN JEGLICHEr Art, entweder ausdrücklich oder konkludent, einschließlich, ohne Einschränkung, jegliche Gewährleistungen oder Bedingungen des TITELs, NICHTVERLETZUNG, HANDELSÜBLICHKEIT oder EIGNUNG FÜR EINEN BESTIMMTEN ZWECK. Sie sind allein dafür verantwortlich, die Geeignetheit der Verwendung oder Verteilung der Arbeit zu bestimmen und alle Risiken im Zusammenhang mit Ihrer Ausübung von Berechtigungen unter dieser Lizenz zu übernehmen.
+ 7. Haftungsausschluss. Sofern nicht nach geltendem Recht erforderlich oder schriftlich zugestimmt, stellt der Licensor die Arbeit (und jeder Mitwirkende stellt seine Beiträge bereit) "WIE BESEHEN", OHNE GEWÄHRLEISTUNGEN ODER BEDINGUNGEN JEGLICHEr Art, entweder ausdrücklich oder konkludent, einschließlich, ohne Einschränkung, garantien oder Bedingungen des TITELs, NICHTVERLETZUNG, HANDELSÜBLICHKEIT oder EIGNUNG FÜR EINEN BESTIMMTEN ZWECK. Sie sind allein dafür verantwortlich, die Geeignetheit der Verwendung oder Verteilung der Arbeit zu bestimmen und alle Risiken im Zusammenhang mit Ihrer Ausübung von Berechtigungen unter dieser Lizenz zu übernehmen.
 
- 8. Limitation of Liability. In keinem Fall und ohne rechtstheoretische Hinweise, sei es in Form von Unerlaubtem (einschließlich Fahrlässigkeit), Vertrag oder anderweitig, es sei denn, dies ist nach geltendem Recht erforderlich (z. B. absichtliche und grobe Handlungen) oder schriftlich vereinbart, hafte jedem Mitwirkenden für Schäden, einschließlich direkter, indirekter, spezieller, zufälliger oder Folgeschäden jeglicher Art, die als Ergebnis dieser Lizenz oder aufgrund der Nutzung oder Unfähigkeit zur Nutzung der Arbeit entstehen (einschließlich, aber nicht beschränkt auf Schäden aufgrund von Verlust des Firmenwerts, Arbeitsausfall, Computerfehler oder Fehlfunktion oder jeglichen anderen kommerziellen Schäden oder Verlusten), auch wenn dieser Mitwirkende auf die Möglichkeit solcher Schäden hingewiesen wurde.
+ 8. Limitation of Liability. In keinem Fall und ohne rechtstheoretische Hinweise, sei es in Form von Unerlaubtem (einschließlich Fahrlässigkeit), Vertrag oder anderweitig, es sei denn, dies ist nach geltendem Recht erforderlich (z. B. absichtliche und grobe Handlungen) oder schriftlich vereinbart, hafte jeder Mitwirkende Ihnen gegenüber für Schäden, einschließlich direkter, indirekter, spezieller, zufälliger oder Folgeschäden jeglicher Art, die als Ergebnis dieser Lizenz oder aufgrund der Nutzung oder Unfähigkeit zur Nutzung der Arbeit entstehen (einschließlich, aber nicht beschränkt auf Schäden aufgrund von Verlust des Firmenwerts, Arbeitsausfall, Computerfehler oder Fehlfunktion oder jeglichen anderen kommerziellen Schäden oder Verlusten), auch wenn dieser Mitwirkende auf die Möglichkeit solcher Schäden hingewiesen wurde.
 
- 9. Akzeptieren von Garantie oder zusätzlicher Haftung. Während sie die Arbeit oder die abgeleiteten Arbeiten weitervertreiben, können Sie die Annahme des Supports, der Garantie, der Freistellung oder anderer Haftungsverpflichtungen und/oder Rechte, die mit dieser Lizenz in Einklang stehen, anbieten und eine Gebühr berechnen. Wenn Sie solche Verpflichtungen akzeptieren, dürfen Sie jedoch nur in Ihrem eigenen Namen und in Ihrer alleinigen Verantwortung handeln, nicht im Namen eines anderen Mitwirkenden, und nur, wenn Sie zustimmen, jeden Mitwirkenden für jegliche Haftung, die durch einen solchen Mitwirkenden entsteht, oder ansprüche, die gegen diesen Mitwirkenden entstehen, schadlos zu halten, indem Sie eine solche Garantie oder zusätzliche Haftung akzeptieren.
+ 9. Akzeptieren von Garantie oder zusätzlicher Haftung. Während sie die Arbeit oder die abgeleiteten Arbeiten weitervertreiben, können Sie die Annahme des Supports, der Garantie, der Freistellung oder anderer Haftungsverpflichtungen und/oder Rechte, die mit dieser Lizenz in Einklang stehen, anbieten und eine Gebühr berechnen. Wenn Sie solche Verpflichtungen akzeptieren, dürfen Sie jedoch nur in Ihrem eigenen Namen und in Ihrer alleinigen Verantwortung handeln, nicht im Namen eines anderen Mitwirkenden, und nur, wenn Sie sich bereit erklären, jeden Mitwirkenden für jegliche Haftung, die durch einen solchen Mitwirkenden entsteht oder ansprüche, die gegen diesen Mitwirkenden entstehen, schadlos zu halten, indem Sie eine solche Garantie oder zusätzliche Haftung akzeptieren.
 
  ENDE DER GESCHÄFTSBEDINGUNGEN
 
@@ -290,7 +290,7 @@ Copyright (c) 2015-2018 Google, Inc., Netflix, Inc., Microsoft Corp. und Mitwirk
 
     "Licensor" ist der Copyrightbesitzer oder die Entität, die vom Copyrightbesitzer autorisiert ist, der die Lizenz gewährt.
 
-    "Juristische Person" bezeichnet die Vereinigung der handelnden Entität und aller anderen Entitäten, die diese kontrollieren, von dieser gesteuert werden oder der gemeinsamen Kontrolle mit dieser Entität unterliegen. Im Sinne dieser Definition bedeutet "Kontrolle" (i) die direkte oder indirekte Macht, die Richtung oder Verwaltung dieser Entität zu verursachen, sei es vertraglich oder anderweitig, oder (ii) den Besitz von 50 % (50 %) oder mehr der ausstehenden Aktien oder (iii) den vorteilsbringenden Besitz einer solchen Entität.
+    "Juristische Person" bezeichnet die Vereinigung der handelnden Entität und aller anderen Entitäten, die diese kontrollieren, von dieser gesteuert werden oder der gemeinsamen Kontrolle mit dieser Entität unterliegen. Im Sinne dieser Definition bedeutet "Kontrolle" (i) die direkte oder indirekte Möglichkeit, die Richtung oder Verwaltung einer solchen Entität zu verursachen, sei es vertraglich oder anderweitig, oder (ii) den Besitz von 50 % (50 %) oder mehr der ausstehenden Aktien oder (iii) den vorteilsbringenden Besitz einer solchen Entität.
 
     "Sie" (oder "Ihr") bezeichnet eine einzel- oder juristische Person, die die durch diese Lizenz erteilten Berechtigungen einbenennt.
 
@@ -302,13 +302,13 @@ Copyright (c) 2015-2018 Google, Inc., Netflix, Inc., Microsoft Corp. und Mitwirk
 
     Abgeleitete Arbeiten sind alle Arbeiten, ob in Quell- oder Objektform, die auf dem Werk basieren (oder daraus abgeleitet sind), und für die die überarbeitungen, Anmerkungen, Ausführungen oder sonstigen Änderungen als Ganzes ein ursprüngliches Dokument darstellen. Im Sinne dieser Lizenz dürfen abgeleitete Arbeiten keine Arbeiten enthalten, die von den Schnittstellen der Arbeits- und Ableitungsarbeiten getrennt bleiben oder lediglich mit den Schnittstellen von "Work" und "Derivatives Works" verknüpft (oder durch Namen gebunden) werden.
 
-    "Beitrag" ist jede Arbeit der Autorenschaft, einschließlich der ursprünglichen Version des Werks und aller Änderungen oder Ergänzungen zu diesem Werk oder dieser Ableitung, die absichtlich an den Licensor zur Aufnahme in das Werk durch den Copyrightbesitzer oder durch eine Einzelperson oder juristische Person übermittelt wird, die berechtigt ist, im Namen des Copyrightbesitzers einzureichen. Im Sinne dieser Definition bedeutet "übermittelt" jede Form von elektronischer, verbaler oder schriftlicher Kommunikation, die an den Licensor oder seine Vertreter gesendet wird, einschließlich, aber nicht beschränkt auf die Kommunikation über elektronische Adresslisten, Quellcodeverwaltungssysteme und Problemverfolgungssysteme, die vom Licensor oder im Auftrag des Licensors verwaltet werden, um die Arbeit zu besprechen und zu verbessern;  aber ohne Kommunikation, die vom Copyrightbesitzer auffallend gekennzeichnet oder anderweitig schriftlich als "Kein Beitrag" gekennzeichnet ist.
+    "Beitrag" bezeichnet alle Arbeiten der Autorenschaft, einschließlich der ursprünglichen Version des Werks und alle Änderungen oder Ergänzungen an diesem Werk oder dieser Abgeleiteten Arbeit, die absichtlich an den Licensor übermittelt werden, um vom Copyrightbesitzer oder von einer Einzelperson oder juristischen Person, die berechtigt ist, diese im Namen des Copyrightbesitzers einzureichen, in das Werk aufzunehmen. Im Sinne dieser Definition bedeutet "übermittelt" jede Form von elektronischer, verbaler oder schriftlicher Kommunikation, die an den Licensor oder seine Vertreter gesendet wird, einschließlich, aber nicht beschränkt auf die Kommunikation über elektronische Adresslisten, Quellcodeverwaltungssysteme und Problemverfolgungssysteme, die vom Licensor oder im Auftrag des Licensors verwaltet werden, um die Arbeit zu besprechen und zu verbessern;  aber ohne Kommunikation, die vom Copyrightbesitzer auffallend gekennzeichnet oder anderweitig schriftlich als "Kein Beitrag" gekennzeichnet ist.
 
     "Mitwirkender" ist ein Licensor und jede natürliche oder juristische Person, für die ein Beitrag vom Licensor empfangen und anschließend in die Arbeit eingebunden wurde.
 
  2. Erteilung einer Copyright-Lizenz. Vorbehaltlich der Geschäftsbedingungen dieser Lizenz gewährt jeder Mitwirkende Ihnen eine unbefristete, weltweite, nicht exklusive, gebührenfreie, lizenzfreie, widerrufliche Copyrightlizenz zur Veröffentlichung, Vorbereitung von Ableitungsarbeiten, öffentliches Anzeigen, öffentliches Ausführen, Unterlizenzieren und Verteilen der Arbeit und solcher abgeleiteter Arbeiten in Quell- oder Objektform.
 
- 3. Erteilung einer Patentlizenz. Vorbehaltlich der Bedingungen dieser Lizenz gewährt jeder Mitwirkende Ihnen eine unbefristete, weltweite, nicht exklusive, gebührenfreie, lizenzfreie, widerrufliche (außer in diesem Abschnitt aufgeführte) Lizenz zum Erteilen, Verwenden, Anbieten, Verkaufen, Importieren und anderweitigen Übertragen der Arbeit, wobei eine solche Lizenz nur für die von einem solchen Mitwirkenden lizenzierten Ansprüche gilt, die durch seinen Beitrag(n) allein oder durch kombination seiner Mitwirkenden notwendigerweise nicht unterstützt werden. die Arbeit, an die solche Beiträge übermittelt wurden. Wenn Sie einen Rechtsstreitigkeiten gegen eine Entität (einschließlich eines Kreuzanspruchs oder einer Gegenforderung in einer Rechtsstreitigkeiten) einreichen, die angibt, dass das in das Arbeitswerk eingebundene Projekt oder ein Beitrag eine direkte oder mitwirkende Verletzung des Urheberrechts darstellt, werden alle Ihnen unter dieser Lizenz für dieses Werk erteilten Lizenzen ab dem Datum, an dem ein solcher Rechtsstreitigkeiten eingereicht wird, beendet.
+ 3. Erteilung einer Patentlizenz. Vorbehaltlich der Bedingungen dieser Lizenz gewährt jeder Mitwirkende Ihnen eine unbefristete, weltweite, nicht exklusive, gebührenfreie, lizenzfreie, widerrufliche (außer in diesem Abschnitt aufgeführte) Lizenz zum Erteilen, Verwenden, Anbieten, Verkaufen, Importieren und anderweitigen Übertragen der Arbeit, wobei eine solche Lizenz nur für die von einem solchen Mitwirkenden lizenzierten Ansprüche gilt, die durch seinen Beitrag(n) allein oder durch kombination seiner Mitwirkenden notwendigerweise nicht unterstützt werden.  die Arbeit, an die solche Beiträge übermittelt wurden. Wenn Sie einen Rechtsstreitigkeiten gegen eine Entität (einschließlich eines Kreuzanspruchs oder einer Gegenforderung in einer Rechtsstreitigkeiten) einreichen, die angibt, dass das in das Arbeitswerk eingebundene Werk oder ein Beitrag eine direkte oder mitwirkende Verletzung des Rechts darstellt, enden alle Ihnen unter dieser Lizenz für diese Arbeit erteilten Lizenzen ab dem Datum, an dem ein solcher Rechtsstreitigkeiten eingereicht wird.
 
  4. Umverteilung. Sie dürfen Kopien des Werks oder des Abgeleiteten Werks auf beliebigem Medium, mit oder ohne Änderungen und in Quell- oder Objektform reproduzieren und verteilen, vorausgesetzt, Dass Sie die folgenden Bedingungen erfüllen:
 
@@ -318,20 +318,20 @@ Copyright (c) 2015-2018 Google, Inc., Netflix, Inc., Microsoft Corp. und Mitwirk
 
     (c) Sie müssen alle Copyright-, Patent-, Marken- und Zuschreibungshinweise aus dem Quellformular des Werks in form von abgeleiteten Arbeiten, die Sie vertreiben, aufbewahren, mit Ausnahme der Benachrichtigungen, die sich nicht auf einen Teil der Abgeleiteten Arbeiten beziehen; Und
 
-    (d) Wenn die Arbeit eine Textdatei vom Typ "NOTICE" als Teil ihrer Verteilung enthält, müssen alle von Ihnen verteilten abgeleiteten Arbeiten eine lesbare Kopie der in dieser NOTICE-Datei enthaltenen Attributionshinweise enthalten, mit Ausnahme der Benachrichtigungen, die sich nicht auf einen Teil der Ableitungsarbeiten beziehen, an mindestens einem der folgenden Stellen:  in einer NOTICE-Textdatei, die als Teil der Abgeleiteten Arbeiten verteilt wird; im Quellformular oder in der Dokumentation, sofern dies zusammen mit den Abgeleiteten Arbeiten bereitgestellt wird; oder innerhalb einer von den Abgeleiteten Arbeiten generierten Anzeige, ob und wo solche Drittanbieterbenachrichtigungen normalerweise angezeigt werden. Der Inhalt der NOTICE-Datei dient nur zu Informationszwecken und ändert die Lizenz nicht. Sie können Ihre eigenen Attributionshinweise in "Ableitungsarbeiten" hinzufügen, die Sie zusammen oder als Nachtrag zum HINWEIS-Text aus dem Work verteilen, vorausgesetzt, dass solche zusätzlichen Attributionshinweise nicht als Änderung der Lizenz interpretiert werden können.
+    (d) Wenn die Arbeit eine Textdatei vom Typ "NOTICE" als Teil ihrer Verteilung enthält, müssen alle von Ihnen verteilten abgeleiteten Arbeiten eine lesbare Kopie der in einer solchen NOTICE-Datei enthaltenen Attributionshinweise enthalten, mit Ausnahme der Benachrichtigungen, die sich nicht auf einen Teil der Ableitungsarbeiten beziehen, an mindestens einem der folgenden Stellen:  in einer NOTICE-Textdatei, die als Teil der Abgeleiteten Arbeiten verteilt wird; im Quellformular oder in der Dokumentation, sofern dies zusammen mit den Abgeleiteten Arbeiten bereitgestellt wird; oder innerhalb einer von den Abgeleiteten Arbeiten generierten Anzeige, ob und wo solche Drittanbieter-Benachrichtigungen normalerweise angezeigt werden. Der Inhalt der NOTICE-Datei dient nur zu Informationszwecken und ändert die Lizenz nicht. Sie können Ihre eigenen Attributionshinweise in "Ableitungsarbeiten" hinzufügen, die Sie zusammen oder als Nachtrag zum HINWEIS-Text aus dem Work verteilen, vorausgesetzt, dass solche zusätzlichen Attributionshinweise nicht als Änderung der Lizenz interpretiert werden können.
 
     Sie können Ihre eigenen Urheberrechtsbestimmungen zu Ihren Änderungen hinzufügen und zusätzliche oder unterschiedliche Lizenzbedingungen für die Verwendung, Wiederverwendung oder Verteilung Ihrer Änderungen oder für alle derartigen abgeleiteten Arbeiten als Ganzes bereitstellen, sofern Ihre Nutzung, Vermehrung und Verteilung des Werks andernfalls den in dieser Lizenz angegebenen Bedingungen entspricht.
 
  5. Übermittlung von Beiträgen. Sofern Sie nichts anderes ausdrücklich angeben, gelten alle beiträge, die sie absichtlich zur Aufnahme in die Arbeit von Ihnen an den Licensor übermittelt haben, unter den Bedingungen dieser Lizenz, ohne dass zusätzliche Bedingungen gelten.
-    Ungeachtet der oben genannten Bestimmungen ersetzt oder ändert nichts die Bedingungen eines separaten Lizenzvertrags, den Sie möglicherweise mit dem Licensor in Bezug auf solche Beiträge ausgeführt haben.
+    Ungeachtet der oben genannten Bestimmungen ersetzt oder ändert nichts die Bedingungen eines separaten Lizenzvertrags, den Sie möglicherweise mit dem Licensor bezüglich solcher Beiträge ausgeführt haben.
 
  6. Marken. Diese Lizenz gewährt keine Berechtigung zur Verwendung der Handelsnamen, Marken, Dienstmarken oder Produktnamen des Licensors, es sei denn, dies ist für eine angemessene und übliche Verwendung erforderlich, um den Ursprung des Auftrags zu beschreiben und den Inhalt der NOTICE-Datei zu reproduzieren.
 
- 7. Haftungsausschluss. Sofern nicht nach geltendem Recht erforderlich oder schriftlich zugestimmt, stellt der Licensor die Arbeit (und jeder Mitwirkende stellt seine Beiträge bereit) "WIE BESEHEN", OHNE GEWÄHRLEISTUNGEN ODER BEDINGUNGEN JEGLICHEr Art, entweder ausdrücklich oder konkludent, einschließlich, ohne Einschränkung, jegliche Gewährleistungen oder Bedingungen des TITELs, NICHTVERLETZUNG, HANDELSÜBLICHKEIT oder EIGNUNG FÜR EINEN BESTIMMTEN ZWECK. Sie sind allein dafür verantwortlich, die Geeignetheit der Verwendung oder Verteilung der Arbeit zu bestimmen und alle Risiken im Zusammenhang mit Ihrer Ausübung von Berechtigungen unter dieser Lizenz zu übernehmen.
+ 7. Haftungsausschluss. Sofern nicht nach geltendem Recht erforderlich oder schriftlich zugestimmt, stellt der Licensor die Arbeit (und jeder Mitwirkende stellt seine Beiträge bereit) "WIE BESEHEN", OHNE GEWÄHRLEISTUNGEN ODER BEDINGUNGEN JEGLICHEr Art, entweder ausdrücklich oder konkludent, einschließlich, ohne Einschränkung, garantien oder Bedingungen des TITELs, NICHTVERLETZUNG, HANDELSÜBLICHKEIT oder EIGNUNG FÜR EINEN BESTIMMTEN ZWECK. Sie sind allein dafür verantwortlich, die Geeignetheit der Verwendung oder Verteilung der Arbeit zu bestimmen und alle Risiken im Zusammenhang mit Ihrer Ausübung von Berechtigungen unter dieser Lizenz zu übernehmen.
 
- 8. Limitation of Liability. In keinem Fall und ohne rechtstheoretische Hinweise, sei es in Form von Unerlaubtem (einschließlich Fahrlässigkeit), Vertrag oder anderweitig, es sei denn, dies ist nach geltendem Recht erforderlich (z. B. absichtliche und grobe Handlungen) oder schriftlich vereinbart, hafte jedem Mitwirkenden für Schäden, einschließlich direkter, indirekter, spezieller, zufälliger oder Folgeschäden jeglicher Art, die als Ergebnis dieser Lizenz oder aufgrund der Nutzung oder Unfähigkeit zur Nutzung der Arbeit entstehen (einschließlich, aber nicht beschränkt auf Schäden aufgrund von Verlust des Firmenwerts, Arbeitsausfall, Computerfehler oder Fehlfunktion oder jeglichen anderen kommerziellen Schäden oder Verlusten), auch wenn dieser Mitwirkende auf die Möglichkeit solcher Schäden hingewiesen wurde.
+ 8. Limitation of Liability. In keinem Fall und ohne rechtstheoretische Hinweise, sei es in Form von Unerlaubtem (einschließlich Fahrlässigkeit), Vertrag oder anderweitig, es sei denn, dies ist nach geltendem Recht erforderlich (z. B. absichtliche und grobe Handlungen) oder schriftlich vereinbart, hafte jeder Mitwirkende Ihnen gegenüber für Schäden, einschließlich direkter, indirekter, spezieller, zufälliger oder Folgeschäden jeglicher Art, die als Ergebnis dieser Lizenz oder aufgrund der Nutzung oder Unfähigkeit zur Nutzung der Arbeit entstehen (einschließlich, aber nicht beschränkt auf Schäden aufgrund von Verlust des Firmenwerts, Arbeitsausfall, Computerfehler oder Fehlfunktion oder jeglichen anderen kommerziellen Schäden oder Verlusten), auch wenn dieser Mitwirkende auf die Möglichkeit solcher Schäden hingewiesen wurde.
 
- 9. Akzeptieren von Garantie oder zusätzlicher Haftung. Während sie die Arbeit oder die abgeleiteten Arbeiten weitervertreiben, können Sie die Annahme des Supports, der Garantie, der Freistellung oder anderer Haftungsverpflichtungen und/oder Rechte, die mit dieser Lizenz in Einklang stehen, anbieten und eine Gebühr berechnen. Wenn Sie solche Verpflichtungen akzeptieren, dürfen Sie jedoch nur in Ihrem eigenen Namen und in Ihrer alleinigen Verantwortung handeln, nicht im Namen eines anderen Mitwirkenden, und nur, wenn Sie zustimmen, jeden Mitwirkenden für jegliche Haftung, die durch einen solchen Mitwirkenden entsteht, oder ansprüche, die gegen diesen Mitwirkenden entstehen, schadlos zu halten, indem Sie eine solche Garantie oder zusätzliche Haftung akzeptieren.
+ 9. Akzeptieren von Garantie oder zusätzlicher Haftung. Während sie die Arbeit oder die abgeleiteten Arbeiten weitervertreiben, können Sie die Annahme des Supports, der Garantie, der Freistellung oder anderer Haftungsverpflichtungen und/oder Rechte, die mit dieser Lizenz in Einklang stehen, anbieten und eine Gebühr berechnen. Wenn Sie solche Verpflichtungen akzeptieren, dürfen Sie jedoch nur in Ihrem eigenen Namen und in Ihrer alleinigen Verantwortung handeln, nicht im Namen eines anderen Mitwirkenden, und nur, wenn Sie sich bereit erklären, jeden Mitwirkenden für jegliche Haftung, die durch einen solchen Mitwirkenden entsteht oder ansprüche, die gegen diesen Mitwirkenden entstehen, schadlos zu halten, indem Sie eine solche Garantie oder zusätzliche Haftung akzeptieren.
 
  ENDE DER GESCHÄFTSBEDINGUNGEN
 
@@ -381,19 +381,19 @@ NUTZUNGSBEDINGUNGEN, NUTZUNGSBEDINGUNGEN UND VERTEILUNG
 
 "Quellformular" ist das bevorzugte Formular für Änderungen, einschließlich, aber nicht beschränkt auf Softwarequellcode, Dokumentationsquelle und Konfigurationsdateien.
 
-"Objektformular" ist jede Form, die sich aus der maschinellen Transformation oder Übersetzung eines Quellformulars ergibt, einschließlich, aber nicht beschränkt auf kompilierten Objektcode, generierte Dokumentation und Konvertierungen in andere Medientypen.
+Objekt bezeichnet jede Form, die sich aus der maschinellen Transformation oder Übersetzung eines Quellformulars ergibt, einschließlich, aber nicht beschränkt auf kompilierten Objektcode, generierte Dokumentation und Konvertierungen in andere Medientypen.
 
 "Arbeit" bezeichnet die Arbeit der Autorenschaft, sei es im Quell- oder Objektformat, die unter der Lizenz zur Verfügung gestellt wird, wie durch einen Urheberrechtshinweis angegeben, der in dem Werk enthalten oder diesem zugeordnet ist (ein Beispiel finden Sie in der nachstehenden Anlage).
 
 Abgeleitete Arbeiten sind alle Arbeiten, ob in Quell- oder Objektform, die auf dem Werk basieren (oder daraus abgeleitet sind), und für die die überarbeitungen, Anmerkungen, Ausführungen oder sonstigen Änderungen als Ganzes ein ursprüngliches Dokument darstellen. Im Sinne dieser Lizenz dürfen abgeleitete Arbeiten keine Arbeiten enthalten, die von den Schnittstellen der Arbeits- und Ableitungsarbeiten getrennt bleiben oder lediglich mit den Schnittstellen von "Work" und "Derivatives Works" verknüpft (oder durch Namen gebunden) werden.
 
-"Beitrag" ist jede Arbeit der Autorenschaft, einschließlich der ursprünglichen Version des Werks und aller Änderungen oder Ergänzungen zu diesem Werk oder dieser Ableitung, die absichtlich an den Licensor zur Aufnahme in das Werk durch den Copyrightbesitzer oder durch eine Einzelperson oder juristische Person übermittelt wird, die berechtigt ist, im Namen des Copyrightbesitzers einzureichen. Im Sinne dieser Definition bedeutet "übermittelt" jede Form von elektronischer, verbaler oder schriftlicher Kommunikation, die an den Licensor oder seine Vertreter gesendet wird, einschließlich, aber nicht beschränkt auf die Kommunikation über elektronische Adresslisten, Quellcodeverwaltungssysteme und Problemverfolgungssysteme, die vom Licensor oder im Auftrag des Licensors verwaltet werden, um die Arbeit zu besprechen und zu verbessern;  aber ohne Kommunikation, die vom Copyrightbesitzer auffallend gekennzeichnet oder anderweitig schriftlich als "Kein Beitrag" gekennzeichnet ist.
+"Beitrag" bezeichnet alle Arbeiten der Autorenschaft, einschließlich der ursprünglichen Version des Werks und alle Änderungen oder Ergänzungen an diesem Werk oder dieser Abgeleiteten Arbeit, die absichtlich an den Licensor übermittelt werden, um vom Copyrightbesitzer oder von einer Einzelperson oder juristischen Person, die berechtigt ist, diese im Namen des Copyrightbesitzers einzureichen, in das Werk aufzunehmen. Im Sinne dieser Definition bedeutet "übermittelt" jede Form von elektronischer, verbaler oder schriftlicher Kommunikation, die an den Licensor oder seine Vertreter gesendet wird, einschließlich, aber nicht beschränkt auf die Kommunikation über elektronische Adresslisten, Quellcodeverwaltungssysteme und Problemverfolgungssysteme, die vom Licensor oder im Auftrag des Licensors verwaltet werden, um die Arbeit zu besprechen und zu verbessern;  aber ohne Kommunikation, die vom Copyrightbesitzer auffallend gekennzeichnet oder anderweitig schriftlich als "Kein Beitrag" gekennzeichnet ist.
 
 "Mitwirkender" ist ein Licensor und jede natürliche oder juristische Person, für die ein Beitrag vom Licensor empfangen und anschließend in die Arbeit eingebunden wurde.
 
 2. Erteilung einer Copyright-Lizenz. Vorbehaltlich der Geschäftsbedingungen dieser Lizenz gewährt jeder Mitwirkende Ihnen eine unbefristete, weltweite, nicht exklusive, gebührenfreie, lizenzfreie, widerrufliche Copyrightlizenz zur Veröffentlichung, Vorbereitung von Ableitungsarbeiten, öffentliches Anzeigen, öffentliches Ausführen, Unterlizenzieren und Verteilen der Arbeit und solcher abgeleiteter Arbeiten in Quell- oder Objektform.
 
-3. Erteilung einer Patentlizenz. Vorbehaltlich der Bedingungen dieser Lizenz gewährt jeder Mitwirkende Ihnen eine unbefristete, weltweite, nicht exklusive, gebührenfreie, lizenzfreie, widerrufliche (außer in diesem Abschnitt aufgeführte) Lizenz zum Erteilen, Verwenden, Anbieten, Verkaufen, Importieren und anderweitigen Übertragen der Arbeit, wobei eine solche Lizenz nur für die von einem solchen Mitwirkenden lizenzierten Ansprüche gilt, die durch seinen Beitrag(n) allein oder durch kombination seiner Mitwirkenden notwendigerweise nicht unterstützt werden. die Arbeit, an die solche Beiträge übermittelt wurden. Wenn Sie einen Rechtsstreitigkeiten gegen eine Entität (einschließlich eines Kreuzanspruchs oder einer Gegenforderung in einer Rechtsstreitigkeiten) einreichen, die angibt, dass das in das Arbeitswerk eingebundene Projekt oder ein Beitrag eine direkte oder mitwirkende Verletzung des Urheberrechts darstellt, werden alle Ihnen unter dieser Lizenz für dieses Werk erteilten Lizenzen ab dem Datum, an dem ein solcher Rechtsstreitigkeiten eingereicht wird, beendet.
+3. Erteilung einer Patentlizenz. Vorbehaltlich der Bedingungen dieser Lizenz gewährt jeder Mitwirkende Ihnen eine unbefristete, weltweite, nicht exklusive, gebührenfreie, lizenzfreie, widerrufliche (außer in diesem Abschnitt aufgeführte) Lizenz zum Erteilen, Verwenden, Anbieten, Verkaufen, Importieren und anderweitigen Übertragen der Arbeit, wobei eine solche Lizenz nur für die von einem solchen Mitwirkenden lizenzierten Ansprüche gilt, die durch seinen Beitrag(n) allein oder durch kombination seiner Mitwirkenden notwendigerweise nicht unterstützt werden.  die Arbeit, an die solche Beiträge übermittelt wurden. Wenn Sie einen Rechtsstreitigkeiten gegen eine Entität (einschließlich eines Kreuzanspruchs oder einer Gegenforderung in einer Rechtsstreitigkeiten) einreichen, die angibt, dass das in das Arbeitswerk eingebundene Werk oder ein Beitrag eine direkte oder mitwirkende Verletzung des Rechts darstellt, enden alle Ihnen unter dieser Lizenz für diese Arbeit erteilten Lizenzen ab dem Datum, an dem ein solcher Rechtsstreitigkeiten eingereicht wird.
 
 4. Umverteilung. Sie dürfen Kopien des Werks oder des Abgeleiteten Werks auf beliebigem Medium, mit oder ohne Änderungen und in Quell- oder Objektform reproduzieren und verteilen, vorausgesetzt, Dass Sie die folgenden Bedingungen erfüllen:
 
@@ -403,17 +403,17 @@ Sie müssen dafür sorgen, dass alle geänderten Dateien hervorgehobene Benachri
 
 Sie müssen alle Copyright-, Patent-, Marken- und Zuschreibungshinweise aus dem Quellformular des Werks in der Quellform aller von Ihnen verteilten abgeleiteten Arbeiten aufbewahren, mit Ausnahme der Hinweise, die sich nicht auf einen Teil der Abgeleiteten Arbeiten beziehen; Und
 
-Wenn die Arbeit eine Textdatei vom Typ "NOTICE" als Teil ihrer Verteilung enthält, müssen alle von Ihnen verteilten abgeleiteten Arbeiten eine lesbare Kopie der in dieser NOTICE-Datei enthaltenen Attributionshinweise enthalten, mit Ausnahme der Benachrichtigungen, die sich nicht auf einen Teil der Abgeleiteten Arbeiten beziehen, an mindestens einem der folgenden Stellen:  in einer NOTICE-Textdatei, die als Teil der Abgeleiteten Arbeiten verteilt wird; im Quellformular oder in der Dokumentation, sofern dies zusammen mit den Abgeleiteten Arbeiten bereitgestellt wird; oder innerhalb einer von den Abgeleiteten Arbeiten generierten Anzeige, ob und wo solche Drittanbieterbenachrichtigungen normalerweise angezeigt werden. Der Inhalt der NOTICE-Datei dient nur zu Informationszwecken und ändert die Lizenz nicht. Sie können Ihre eigenen Attributionshinweise in "Ableitungsarbeiten" hinzufügen, die Sie zusammen oder als Nachtrag zum HINWEIS-Text aus dem Work verteilen, vorausgesetzt, dass solche zusätzlichen Attributionshinweise nicht als Änderung der Lizenz interpretiert werden können. Sie können Ihre eigenen Urheberrechtsbestimmungen zu Ihren Änderungen hinzufügen und zusätzliche oder unterschiedliche Lizenzbedingungen für die Verwendung, Wiederverwendung oder Verteilung Ihrer Änderungen oder für alle derartigen abgeleiteten Arbeiten als Ganzes bereitstellen, sofern Ihre Nutzung, Vermehrung und Verteilung des Werks andernfalls den in dieser Lizenz angegebenen Bedingungen entspricht.
+Wenn die Arbeit eine Textdatei vom Typ "NOTICE" als Teil ihrer Verteilung enthält, müssen alle von Ihnen verteilten abgeleiteten Arbeiten eine lesbare Kopie der in dieser NOTICE-Datei enthaltenen Attributionshinweise enthalten, mit Ausnahme der Benachrichtigungen, die sich nicht auf einen Teil der Abgeleiteten Arbeiten beziehen, an mindestens einem der folgenden Stellen:  in einer NOTICE-Textdatei, die als Teil der Abgeleiteten Arbeiten verteilt wird; im Quellformular oder in der Dokumentation, sofern dies zusammen mit den Abgeleiteten Arbeiten bereitgestellt wird; oder innerhalb einer von den Abgeleiteten Arbeiten generierten Anzeige, ob und wo solche Drittanbieter-Benachrichtigungen normalerweise angezeigt werden. Der Inhalt der NOTICE-Datei dient nur zu Informationszwecken und ändert die Lizenz nicht. Sie können Ihre eigenen Attributionshinweise in "Ableitungsarbeiten" hinzufügen, die Sie zusammen oder als Nachtrag zum HINWEIS-Text aus dem Work verteilen, vorausgesetzt, dass solche zusätzlichen Attributionshinweise nicht als Änderung der Lizenz interpretiert werden können. Sie können Ihre eigenen Urheberrechtsbestimmungen zu Ihren Änderungen hinzufügen und zusätzliche oder unterschiedliche Lizenzbedingungen für die Verwendung, Wiederverwendung oder Verteilung Ihrer Änderungen oder für alle derartigen abgeleiteten Arbeiten als Ganzes bereitstellen, sofern Ihre Nutzung, Vermehrung und Verteilung des Werks andernfalls den in dieser Lizenz angegebenen Bedingungen entspricht.
 
-5. Übermittlung von Beiträgen. Sofern Sie nichts anderes ausdrücklich angeben, gelten alle beiträge, die sie absichtlich zur Aufnahme in die Arbeit von Ihnen an den Licensor übermittelt haben, unter den Bedingungen dieser Lizenz, ohne dass zusätzliche Bedingungen gelten. Ungeachtet der oben genannten Bestimmungen ersetzt oder ändert nichts die Bedingungen eines separaten Lizenzvertrags, den Sie möglicherweise mit dem Licensor in Bezug auf solche Beiträge ausgeführt haben.
+5. Übermittlung von Beiträgen. Sofern Sie nichts anderes ausdrücklich angeben, gelten alle beiträge, die sie absichtlich zur Aufnahme in die Arbeit von Ihnen an den Licensor übermittelt haben, unter den Bedingungen dieser Lizenz, ohne dass zusätzliche Bedingungen gelten. Ungeachtet der oben genannten Bestimmungen ersetzt oder ändert nichts die Bedingungen eines separaten Lizenzvertrags, den Sie möglicherweise mit dem Licensor bezüglich solcher Beiträge ausgeführt haben.
 
 6. Marken. Diese Lizenz gewährt keine Berechtigung zur Verwendung der Handelsnamen, Marken, Dienstmarken oder Produktnamen des Licensors, es sei denn, dies ist für eine angemessene und übliche Verwendung erforderlich, um den Ursprung des Auftrags zu beschreiben und den Inhalt der NOTICE-Datei zu reproduzieren.
 
-7. Haftungsausschluss. Sofern nicht nach geltendem Recht erforderlich oder schriftlich zugestimmt, stellt der Licensor die Arbeit (und jeder Mitwirkende stellt seine Beiträge bereit) "WIE BESEHEN", OHNE GEWÄHRLEISTUNGEN ODER BEDINGUNGEN JEGLICHEr Art, entweder ausdrücklich oder konkludent, einschließlich, ohne Einschränkung, jegliche Gewährleistungen oder Bedingungen des TITELs, NICHTVERLETZUNG, HANDELSÜBLICHKEIT oder EIGNUNG FÜR EINEN BESTIMMTEN ZWECK. Sie sind allein dafür verantwortlich, die Geeignetheit der Verwendung oder Verteilung der Arbeit zu bestimmen und alle Risiken im Zusammenhang mit Ihrer Ausübung von Berechtigungen unter dieser Lizenz zu übernehmen.
+7. Haftungsausschluss. Sofern nicht nach geltendem Recht erforderlich oder schriftlich zugestimmt, stellt der Licensor die Arbeit (und jeder Mitwirkende stellt seine Beiträge bereit) "WIE BESEHEN", OHNE GEWÄHRLEISTUNGEN ODER BEDINGUNGEN JEGLICHEr Art, entweder ausdrücklich oder konkludent, einschließlich, ohne Einschränkung, garantien oder Bedingungen des TITELs, NICHTVERLETZUNG, HANDELSÜBLICHKEIT oder EIGNUNG FÜR EINEN BESTIMMTEN ZWECK. Sie sind allein dafür verantwortlich, die Geeignetheit der Verwendung oder Verteilung der Arbeit zu bestimmen und alle Risiken im Zusammenhang mit Ihrer Ausübung von Berechtigungen unter dieser Lizenz zu übernehmen.
 
-8. Limitation of Liability. In keinem Fall und ohne rechtstheoretische Hinweise, sei es in Form von Unerlaubtem (einschließlich Fahrlässigkeit), Vertrag oder anderweitig, es sei denn, dies ist nach geltendem Recht erforderlich (z. B. absichtliche und grobe Handlungen) oder schriftlich vereinbart, hafte jedem Mitwirkenden für Schäden, einschließlich direkter, indirekter, spezieller, zufälliger oder Folgeschäden jeglicher Art, die als Ergebnis dieser Lizenz oder aufgrund der Nutzung oder Unfähigkeit zur Nutzung der Arbeit entstehen (einschließlich, aber nicht beschränkt auf Schäden aufgrund von Verlust des Firmenwerts, Arbeitsausfall, Computerfehler oder Fehlfunktion oder jeglichen anderen kommerziellen Schäden oder Verlusten), auch wenn dieser Mitwirkende auf die Möglichkeit solcher Schäden hingewiesen wurde.
+8. Limitation of Liability. In keinem Fall und ohne rechtstheoretische Hinweise, sei es in Form von Unerlaubtem (einschließlich Fahrlässigkeit), Vertrag oder anderweitig, es sei denn, dies ist nach geltendem Recht erforderlich (z. B. absichtliche und grobe Handlungen) oder schriftlich vereinbart, hafte jeder Mitwirkende Ihnen gegenüber für Schäden, einschließlich direkter, indirekter, spezieller, zufälliger oder Folgeschäden jeglicher Art, die als Ergebnis dieser Lizenz oder aufgrund der Nutzung oder Unfähigkeit zur Nutzung der Arbeit entstehen (einschließlich, aber nicht beschränkt auf Schäden aufgrund von Verlust des Firmenwerts, Arbeitsausfall, Computerfehler oder Fehlfunktion oder jeglichen anderen kommerziellen Schäden oder Verlusten), auch wenn dieser Mitwirkende auf die Möglichkeit solcher Schäden hingewiesen wurde.
 
-9. Akzeptieren von Garantie oder zusätzlicher Haftung. Während sie die Arbeit oder die abgeleiteten Arbeiten weitervertreiben, können Sie die Annahme des Supports, der Garantie, der Freistellung oder anderer Haftungsverpflichtungen und/oder Rechte, die mit dieser Lizenz in Einklang stehen, anbieten und eine Gebühr berechnen. Wenn Sie solche Verpflichtungen akzeptieren, dürfen Sie jedoch nur in Ihrem eigenen Namen und in Ihrer alleinigen Verantwortung handeln, nicht im Namen eines anderen Mitwirkenden, und nur, wenn Sie zustimmen, jeden Mitwirkenden für jegliche Haftung, die durch einen solchen Mitwirkenden entsteht, oder ansprüche, die gegen diesen Mitwirkenden entstehen, schadlos zu halten, indem Sie eine solche Garantie oder zusätzliche Haftung akzeptieren.
+9. Akzeptieren von Garantie oder zusätzlicher Haftung. Während sie die Arbeit oder die abgeleiteten Arbeiten weitervertreiben, können Sie die Annahme des Supports, der Garantie, der Freistellung oder anderer Haftungsverpflichtungen und/oder Rechte, die mit dieser Lizenz in Einklang stehen, anbieten und eine Gebühr berechnen. Wenn Sie solche Verpflichtungen akzeptieren, dürfen Sie jedoch nur in Ihrem eigenen Namen und in Ihrer alleinigen Verantwortung handeln, nicht im Namen eines anderen Mitwirkenden, und nur, wenn Sie sich bereit erklären, jeden Mitwirkenden für jegliche Haftung, die durch einen solchen Mitwirkenden entsteht oder ansprüche, die gegen diesen Mitwirkenden entstehen, schadlos zu halten, indem Sie eine solche Garantie oder zusätzliche Haftung akzeptieren.
 
 ENDE DER GESCHÄFTSBEDINGUNGEN
 
@@ -468,11 +468,11 @@ Die MIT-Lizenz (MIT)
 
 Copyright (c) 2015 AJ ONeal
 
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um die Software ohne Einschränkung zu bearbeiten, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
-DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER AUS DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
+DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
 
 
                                  Apache License
@@ -487,7 +487,7 @@ DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜC
 
       "Licensor" ist der Copyrightbesitzer oder die Entität, die vom Copyrightbesitzer autorisiert ist, der die Lizenz gewährt.
 
-      "Juristische Person" bezeichnet die Vereinigung der handelnden Entität und aller anderen Entitäten, die diese kontrollieren, von dieser gesteuert werden oder der gemeinsamen Kontrolle mit dieser Entität unterliegen. Im Sinne dieser Definition bedeutet "Kontrolle" (i) die direkte oder indirekte Macht, die Richtung oder Verwaltung dieser Entität zu verursachen, sei es vertraglich oder anderweitig, oder (ii) den Besitz von 50 % (50 %) oder mehr der ausstehenden Aktien oder (iii) den vorteilsbringenden Besitz einer solchen Entität.
+      "Juristische Person" bezeichnet die Vereinigung der handelnden Entität und aller anderen Entitäten, die diese kontrollieren, von dieser gesteuert werden oder der gemeinsamen Kontrolle mit dieser Entität unterliegen. Im Sinne dieser Definition bedeutet "Kontrolle" (i) die direkte oder indirekte Möglichkeit, die Richtung oder Verwaltung einer solchen Entität zu verursachen, sei es vertraglich oder anderweitig, oder (ii) den Besitz von 50 % (50 %) oder mehr der ausstehenden Aktien oder (iii) den vorteilsbringenden Besitz einer solchen Entität.
 
       "Sie" (oder "Ihr") bezeichnet eine einzel- oder juristische Person, die die durch diese Lizenz erteilten Berechtigungen einbenennt.
 
@@ -503,11 +503,11 @@ DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜC
 
       "Mitwirkender" ist ein Licensor und jede natürliche oder juristische Person, für die ein Beitrag vom Licensor empfangen und anschließend in die Arbeit eingebunden wurde.
 
-   2. Erteilung einer Copyright-Lizenz. Vorbehaltlich der Geschäftsbedingungen dieser Lizenz gewährt jeder Mitwirkende Ihnen eine unbefristete, weltweite, nicht exklusive, gebührenfreie, lizenzfreie, widerrufliche Copyrightlizenz zur Veröffentlichung, Vorbereitung von Ableitungsarbeiten, öffentliches Anzeigen, öffentliches Ausführen, Unterlizenzieren und Verteilen der Arbeit und solcher abgeleiteter Arbeiten in Quell- oder Objektform.
+   2. Erteilung einer Copyright-Lizenz. Vorbehaltlich der Bedingungen dieser Lizenz gewährt jeder Mitwirkende Ihnen eine unbefristete, weltweite, nicht exklusive, gebührenfreie, lizenzfreie, widerrufliche Copyrightlizenz zur Veröffentlichung, Vorbereitung von Ableitungsarbeiten von, öffentlicher Anzeige, öffentlicher Ausführung, Unterlizenz und Verteilung der Arbeit und solcher abgeleiteter Arbeiten in Quell- oder Objektform.
 
-   3. Erteilung einer Patentlizenz. Vorbehaltlich der Bedingungen dieser Lizenz gewährt jeder Mitwirkende Ihnen eine unbefristete, weltweite, nicht exklusive, gebührenfreie, lizenzfreie, widerrufliche (außer in diesem Abschnitt aufgeführte) Lizenz zum Erteilen, Verwenden, Anbieten, Verkaufen, Importieren und anderweitigen Übertragen der Arbeit, wobei eine solche Lizenz nur für die von einem solchen Mitwirkenden lizenzierten Ansprüche gilt, die durch seinen Beitrag(n) allein oder durch kombination seiner Mitwirkenden notwendigerweise nicht unterstützt werden. die Arbeit, an die solche Beiträge übermittelt wurden. Wenn Sie einen Rechtsstreitigkeiten gegen eine Entität (einschließlich eines Kreuzanspruchs oder einer Gegenforderung in einer Rechtsstreitigkeiten) einreichen, die angibt, dass das in das Arbeitswerk eingebundene Projekt oder ein Beitrag eine direkte oder mitwirkende Verletzung des Urheberrechts darstellt, werden alle Ihnen unter dieser Lizenz für dieses Werk erteilten Lizenzen ab dem Datum, an dem ein solcher Rechtsstreitigkeiten eingereicht wird, beendet.
+   3. Erteilung einer Patentlizenz. Vorbehaltlich der Bedingungen dieser Lizenz gewährt jeder Mitwirkende Ihnen eine unbefristete, weltweite, nicht exklusive, gebührenfreie, lizenzfreie, widerrufliche (außer in diesem Abschnitt aufgeführte) Lizenz zum Erteilen, Verwenden, Anbieten, Verkaufen, Importieren und anderweitigen Übertragen der Arbeit, wobei eine solche Lizenz nur für die von einem solchen Mitwirkenden lizenzierten Ansprüche gilt, die durch seinen Beitrag(n) allein oder durch kombination seiner Mitwirkenden notwendigerweise nicht unterstützt werden.  die Arbeit, an die solche Beiträge übermittelt wurden. Wenn Sie einen Rechtsstreitigkeiten gegen eine Entität (einschließlich eines Kreuzanspruchs oder einer Gegenforderung in einer Rechtsstreitigkeiten) einreichen, die angibt, dass das in das Arbeitswerk eingebundene Werk oder ein Beitrag eine direkte oder mitwirkende Verletzung des Rechts darstellt, enden alle Ihnen unter dieser Lizenz für diese Arbeit erteilten Lizenzen ab dem Datum, an dem ein solcher Rechtsstreitigkeiten eingereicht wird.
 
-   4. Umverteilung. Sie dürfen Kopien des Werks oder des Abgeleiteten Werks auf beliebigem Medium, mit oder ohne Änderungen und in Quell- oder Objektform reproduzieren und verteilen, vorausgesetzt, Dass Sie die folgenden Bedingungen erfüllen:
+   4. Umverteilung. Sie dürfen Kopien des Werks oder des Abgeleiteten Werks auf beliebigem Medium, mit oder ohne Änderungen und in Quell- oder Objektform reproduzieren und verteilen, sofern Sie die folgenden Bedingungen erfüllen:
 
       (a) Sie müssen allen anderen Empfängern der Arbeits- oder Ableitungsarbeiten eine Kopie dieser Lizenz erteilen; Und
 
@@ -515,26 +515,26 @@ DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜC
 
       (c) Sie müssen alle Copyright-, Patent-, Marken- und Zuschreibungshinweise aus dem Quellformular des Werks in form von abgeleiteten Arbeiten, die Sie vertreiben, aufbewahren, mit Ausnahme der Benachrichtigungen, die sich nicht auf einen Teil der Abgeleiteten Arbeiten beziehen; Und
 
-      (d) Wenn die Arbeit eine Textdatei vom Typ "NOTICE" als Teil ihrer Verteilung enthält, müssen alle von Ihnen verteilten abgeleiteten Arbeiten eine lesbare Kopie der in dieser NOTICE-Datei enthaltenen Attributionshinweise enthalten, mit Ausnahme der Benachrichtigungen, die sich nicht auf einen Teil der Ableitungsarbeiten beziehen, an mindestens einem der folgenden Stellen:  in einer NOTICE-Textdatei, die als Teil der Abgeleiteten Arbeiten verteilt wird; im Quellformular oder in der Dokumentation, sofern dies zusammen mit den Abgeleiteten Arbeiten bereitgestellt wird; oder innerhalb einer von den Abgeleiteten Arbeiten generierten Anzeige, ob und wo solche Drittanbieterbenachrichtigungen normalerweise angezeigt werden. Der Inhalt der NOTICE-Datei dient nur zu Informationszwecken und ändert die Lizenz nicht. Sie können Ihre eigenen Attributionshinweise in "Ableitungsarbeiten" hinzufügen, die Sie zusammen oder als Nachtrag zum HINWEIS-Text aus dem Work verteilen, vorausgesetzt, dass solche zusätzlichen Attributionshinweise nicht als Änderung der Lizenz interpretiert werden können.
+      (d) Wenn die Arbeit eine Textdatei vom Typ "NOTICE" als Teil ihrer Verteilung enthält, müssen alle von Ihnen verteilten abgeleiteten Arbeiten eine lesbare Kopie der in dieser NOTICE-Datei enthaltenen Attributionshinweise enthalten, mit Ausnahme der Benachrichtigungen, die sich nicht auf einen Teil der Ableitungsarbeiten beziehen, an mindestens einem der folgenden Stellen:  in einer NOTICE-Textdatei, die als Teil der Abgeleiteten Arbeiten verteilt wird; im Quellformular oder in der Dokumentation, sofern dies zusammen mit den Abgeleiteten Arbeiten bereitgestellt wird; oder innerhalb einer von den Abgeleiteten Arbeiten generierten Anzeige, ob und wo solche Drittanbieter-Benachrichtigungen normalerweise angezeigt werden. Der Inhalt der NOTICE-Datei dient nur zu Informationszwecken und ändert die Lizenz nicht. Sie können Ihre eigenen Attributionshinweise in "Ableitungsarbeiten" hinzufügen, die Sie zusammen oder als Nachtrag zum HINWEIS-Text aus dem Work verteilen, vorausgesetzt, dass solche zusätzlichen Attributionshinweise nicht als Änderung der Lizenz interpretiert werden können.
 
       Sie können Ihre eigenen Urheberrechtsbestimmungen zu Ihren Änderungen hinzufügen und zusätzliche oder unterschiedliche Lizenzbedingungen für die Verwendung, Wiederverwendung oder Verteilung Ihrer Änderungen oder für alle derartigen abgeleiteten Arbeiten als Ganzes bereitstellen, sofern Ihre Nutzung, Vermehrung und Verteilung des Werks andernfalls den in dieser Lizenz angegebenen Bedingungen entspricht.
 
    5. Übermittlung von Beiträgen. Sofern Sie nichts anderes ausdrücklich angeben, gelten alle beiträge, die sie absichtlich zur Aufnahme in die Arbeit von Ihnen an den Licensor übermittelt haben, unter den Bedingungen dieser Lizenz, ohne dass zusätzliche Bedingungen gelten.
-      Ungeachtet der oben genannten Bestimmungen ersetzt oder ändert nichts die Bedingungen eines separaten Lizenzvertrags, den Sie möglicherweise mit dem Licensor in Bezug auf solche Beiträge ausgeführt haben.
+      Ungeachtet der oben genannten Bestimmungen ersetzt oder ändert nichts die Bedingungen eines separaten Lizenzvertrags, den Sie möglicherweise mit dem Licensor bezüglich solcher Beiträge ausgeführt haben.
 
    6. Marken. Diese Lizenz gewährt keine Berechtigung zur Verwendung der Handelsnamen, Marken, Dienstmarken oder Produktnamen des Licensors, es sei denn, dies ist für eine angemessene und übliche Verwendung erforderlich, um den Ursprung des Auftrags zu beschreiben und den Inhalt der NOTICE-Datei zu reproduzieren.
 
-   7. Haftungsausschluss. Sofern nicht nach geltendem Recht erforderlich oder schriftlich zugestimmt, stellt der Licensor die Arbeit (und jeder Mitwirkende stellt seine Beiträge bereit) "WIE BESEHEN", OHNE GEWÄHRLEISTUNGEN ODER BEDINGUNGEN JEGLICHEr Art, entweder ausdrücklich oder konkludent, einschließlich, ohne Einschränkung, jegliche Gewährleistungen oder Bedingungen des TITELs, NICHTVERLETZUNG, HANDELSÜBLICHKEIT oder EIGNUNG FÜR EINEN BESTIMMTEN ZWECK. Sie sind allein dafür verantwortlich, die Geeignetheit der Verwendung oder Verteilung der Arbeit zu bestimmen und alle Risiken im Zusammenhang mit Ihrer Ausübung von Berechtigungen unter dieser Lizenz zu übernehmen.
+   7. Haftungsausschluss. Sofern nicht nach geltendem Recht erforderlich oder schriftlich zugestimmt, stellt der Licensor die Arbeit (und jeder Mitwirkende stellt seine Beiträge bereit) "WIE BESEHEN", OHNE GEWÄHRLEISTUNGEN ODER BEDINGUNGEN JEGLICHEr Art, entweder ausdrücklich oder konkludent, einschließlich, ohne Einschränkung, garantien oder Bedingungen des TITELs, NICHTVERLETZUNG, HANDELSÜBLICHKEIT oder EIGNUNG FÜR EINEN BESTIMMTEN ZWECK. Sie sind allein dafür verantwortlich, die Geeignetheit der Verwendung oder Verteilung der Arbeit zu bestimmen und alle Risiken im Zusammenhang mit Ihrer Ausübung von Berechtigungen unter dieser Lizenz zu übernehmen.
 
-   8. Limitation of Liability. In keinem Fall und ohne rechtstheoretische Hinweise, sei es in Form von Unerlaubtem (einschließlich Fahrlässigkeit), Vertrag oder anderweitig, es sei denn, dies ist nach geltendem Recht erforderlich (z. B. absichtliche und grobe Handlungen) oder schriftlich vereinbart, hafte jedem Mitwirkenden für Schäden, einschließlich direkter, indirekter, spezieller, zufälliger oder Folgeschäden jeglicher Art, die als Ergebnis dieser Lizenz oder aufgrund der Nutzung oder Unfähigkeit zur Nutzung der Arbeit entstehen (einschließlich, aber nicht beschränkt auf Schäden aufgrund von Verlust des Firmenwerts, Arbeitsausfall, Computerfehler oder Fehlfunktion oder jeglichen anderen kommerziellen Schäden oder Verlusten), auch wenn dieser Mitwirkende auf die Möglichkeit solcher Schäden hingewiesen wurde.
+   8. Limitation of Liability. In keinem Fall und ohne rechtstheoretische Hinweise, sei es in Form von Unerlaubtem (einschließlich Fahrlässigkeit), Vertrag oder anderweitig, es sei denn, dies ist nach geltendem Recht erforderlich (z. B. absichtliche und grobe Handlungen) oder schriftlich vereinbart, hafte jeder Mitwirkende Ihnen gegenüber für Schäden, einschließlich direkter, indirekter, spezieller, zufälliger oder Folgeschäden jeglicher Art, die als Ergebnis dieser Lizenz oder aufgrund der Nutzung oder Unfähigkeit zur Nutzung der Arbeit entstehen (einschließlich, aber nicht beschränkt auf Schäden aufgrund von Verlust des Firmenwerts, Arbeitsausfall, Computerfehler oder Fehlfunktion oder jeglichen anderen kommerziellen Schäden oder Verlusten), auch wenn dieser Mitwirkende auf die Möglichkeit solcher Schäden hingewiesen wurde.
 
-   9. Akzeptieren von Garantie oder zusätzlicher Haftung. Während sie die Arbeit oder die abgeleiteten Arbeiten weitervertreiben, können Sie die Annahme des Supports, der Garantie, der Freistellung oder anderer Haftungsverpflichtungen und/oder Rechte, die mit dieser Lizenz in Einklang stehen, anbieten und eine Gebühr berechnen. Wenn Sie solche Verpflichtungen akzeptieren, dürfen Sie jedoch nur in Ihrem eigenen Namen und in Ihrer alleinigen Verantwortung handeln, nicht im Namen eines anderen Mitwirkenden, und nur, wenn Sie zustimmen, jeden Mitwirkenden für jegliche Haftung, die durch einen solchen Mitwirkenden entsteht, oder ansprüche, die gegen diesen Mitwirkenden entstehen, schadlos zu halten, indem Sie eine solche Garantie oder zusätzliche Haftung akzeptieren.
+   9. Akzeptieren von Garantie oder zusätzlicher Haftung. Während sie die Arbeit oder die abgeleiteten Arbeiten weitervertreiben, können Sie die Annahme des Supports, der Garantie, der Freistellung oder anderer Haftungsverpflichtungen und/oder Rechte, die mit dieser Lizenz in Einklang stehen, anbieten und eine Gebühr berechnen. Wenn Sie solche Verpflichtungen akzeptieren, dürfen Sie jedoch nur in Ihrem eigenen Namen und in Ihrer alleinigen Verantwortung handeln, nicht im Namen eines anderen Mitwirkenden, und nur, wenn Sie sich bereit erklären, jeden Mitwirkenden für jegliche Haftung, die durch einen solchen Mitwirkenden entsteht oder ansprüche, die gegen diesen Mitwirkenden entstehen, schadlos zu halten, indem Sie eine solche Garantie oder zusätzliche Haftung akzeptieren.
 
    ENDE DER GESCHÄFTSBEDINGUNGEN
 
    ANHANG: Anwenden der Apache-Lizenz auf Ihre Arbeit.
 
-      Um die Apache-Lizenz auf Ihre Arbeit anzuwenden, fügen Sie den folgenden Textbausteinhinweis an, wobei die Felder durch die Klammern {} " " durch Ihre eigenen identifizierenden Informationen ersetzt werden. (Schließen Sie die Klammern nicht ein!)  Der Text sollte in die entsprechende Kommentarsyntax für das Dateiformat eingeschlossen werden. Es wird außerdem empfohlen, einen Datei- oder Klassennamen und eine Beschreibung des Zwecks auf derselben "gedruckten Seite" wie der Urheberrechtshinweis für eine einfachere Identifizierung in Archiven von Drittanbietern aufzunehmen.
+      Um die Apache-Lizenz auf Ihre Arbeit anzuwenden, fügen Sie den folgenden Textbausteinhinweis an, wobei die Felder durch Klammern {} " " durch Ihre eigenen identifizierenden Informationen ersetzt werden. (Schließen Sie die Klammern nicht ein!)  Der Text sollte in die entsprechende Kommentarsyntax für das Dateiformat eingeschlossen werden. Es wird außerdem empfohlen, einen Datei- oder Klassennamen und eine Beschreibung des Zwecks auf derselben "gedruckten Seite" wie der Urheberrechtshinweis für eine einfachere Identifizierung in Archiven von Drittanbietern aufzunehmen.
 
    Copyright 2015 AJ ONeal
 
@@ -593,14 +593,14 @@ DIESE SOFTWARE WIRD VOM URHEBERRECHTSINHABER UND DEN MITWIRKENDEN "WIE BESEHEN" 
 
 esutils 2.0.3 - BSD-2-Clause https://github.com/estools/esutils
 
-Copyright (c) 2014 Maustaste Nik copyright <ifaaan@gmail.com> (c) 2013 Yusuke Copyright <utatane.tea@gmail.com> (c) 2013-2014 Yusuke Copyright <utatane.tea@gmail.com> (c) 2013 Yusuke Maustaste (http://github.com/Constellation)
+Copyright (c) 2014 Maustaste Nik copyright <ifaaan@gmail.com> (c) 2013 Yusuke Copyright <utatane.tea@gmail.com> (c) 2013-2014 Yusuke Copyright <utatane.tea@gmail.com> (c) 2013 Yusuke Copyright (http://github.com/Constellation)
 
 Die Weiterverteilung und Verwendung in Quell- und Binärformularen mit oder ohne Änderung ist zulässig, sofern die folgenden Bedingungen erfüllt sind:
 
   * Die Weiterverteilung des Quellcodes muss den obigen Urheberrechtshinweis, diese Liste der Bedingungen und den folgenden Haftungsausschluss beibehalten.
   * Weitervertreibungen in binärer Form müssen den obigen Urheberrechtshinweis, diese Liste der Bedingungen und den folgenden Haftungsausschluss in der Dokumentation und/oder anderen Materialien, die mit der Verteilung bereitgestellt werden, reproduzieren.
 
-DIESE SOFTWARE WIRD VOM URHEBERRECHTSINHABER UND DEN MITWIRKENDEN "WIE BESEHEN" BEREITGESTELLT, UND ALLE AUSDRÜCKLICHEN ODER KONKLUDENTEN GEWÄHRLEISTUNGEN, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF, DIE KONKLUDENTEN GARANTIEN DER HANDELSÜBLICHKEIT UND EIGNUNG FÜR EINEN BESTIMMTEN ZWECK WERDEN NICHT ÜBERNOMMEN. IN KEINEM FALL IST FÜR <COPYRIGHT HOLDER> DIREKTE, INDIREKTE, ZUFÄLLIGE, BESONDERE, EXEMPLARISCHE ODER FOLGESCHÄDEN (EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE BESCHAFFUNG VON ERSATZARTIKELN ODER -DIENSTLEISTUNGEN) VERANTWORTLICH. VERLUST DER NUTZUNG, DER DATEN ODER DES GEWINNS; ODER BETRIEBSUNTERBRECHUNG) JEDOCH VERURSACHT UND AUF IRGENDEINE WEISE AUS DER NUTZUNG DIESER SOFTWARE, OB VERTRAGLICH, STRENGER HAFTUNG ODER UNERLAUBTER SCHÄDEN (EINSCHLIEßLICH FAHRLÄSSIGKEIT ODER ANDERWEITIG), DIE IN IRGENDEINER WEISE AUS DER VERWENDUNG DIESER SOFTWARE ENTSTEHEN, AUCH WENN AUF DIE MÖGLICHKEIT EINES SOLCHEN SCHADENS HINGEWIESEN WIRD.
+DIESE SOFTWARE WIRD VOM URHEBERRECHTSINHABER UND DEN MITWIRKENDEN "WIE BESEHEN" BEREITGESTELLT, UND ALLE AUSDRÜCKLICHEN ODER KONKLUDENTEN GEWÄHRLEISTUNGEN, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF, DIE KONKLUDENTEN GARANTIEN DER HANDELSÜBLICHKEIT UND EIGNUNG FÜR EINEN BESTIMMTEN ZWECK WERDEN NICHT ÜBERNOMMEN. IN KEINEM FALL IST FÜR <COPYRIGHT HOLDER> DIREKTE, INDIREKTE, ZUFÄLLIGE, BESONDERE, EXEMPLARISCHE ODER FOLGESCHÄDEN (EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE BESCHAFFUNG VON ERSATZARTIKELN ODER -DIENSTLEISTUNGEN) VERANTWORTLICH. VERLUST DER NUTZUNG, DER DATEN ODER DES GEWINNS; ODER BETRIEBSUNTERBRECHUNG) JEDOCH VERURSACHT UND AUF IRGENDEINE WEISE AUS DER VERWENDUNG DIESER SOFTWARE, OB VERTRAGLICH, STRENGER HAFTUNG ODER UNERLAUBTER SCHÄDEN (EINSCHLIEßLICH FAHRLÄSSIGKEIT ODER ANDERWEITIG), DIE IN IRGENDEINER WEISE AUS DER VERWENDUNG DIESER SOFTWARE ENTSTEHEN, AUCH WENN AUF DIE MÖGLICHKEIT EINES SOLCHEN SCHADENS HINGEWIESEN WIRD.
 
 
 ---------------------------------------------------------
@@ -639,7 +639,7 @@ Die Weiterverteilung und Verwendung in Quell- und Binärformularen mit oder ohne
 
    2. Weitervertreibungen in binärer Form müssen den obigen Urheberrechtshinweis, diese Liste der Bedingungen und den folgenden Haftungsausschluss in der Dokumentation und/oder anderen Materialien, die mit der Verteilung bereitgestellt werden, reproduzieren.
 
-DIESE SOFTWARE WIRD VOM URHEBERRECHTSINHABER UND DEN MITWIRKENDEN "WIE BESEHEN" BEREITGESTELLT, UND ALLE AUSDRÜCKLICHEN ODER KONKLUDENTEN GEWÄHRLEISTUNGEN, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF, DIE KONKLUDENTEN GARANTIEN DER HANDELSÜBLICHKEIT UND EIGNUNG FÜR EINEN BESTIMMTEN ZWECK WERDEN NICHT ÜBERNOMMEN. IN KEINEM FALL HAFTE DER URHEBERRECHTSINHABER ODER MITWIRKENDE FÜR DIREKTE, INDIREKTE, ZUFÄLLIGE, BESONDERE, EXEMPLARISCHE ODER FOLGESCHÄDEN (EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE BESCHAFFUNG VON ERSATZARTIKELN ODER -DIENSTLEISTUNGEN; VERLUST DER NUTZUNG, DER DATEN ODER DES GEWINNS; ODER BETRIEBSUNTERBRECHUNG) JEDOCH VERURSACHT UND AUF IRGENDEINE WEISE AUS DER NUTZUNG DIESER SOFTWARE, OB VERTRAGLICH, STRENGER HAFTUNG ODER UNERLAUBTER SCHÄDEN (EINSCHLIEßLICH FAHRLÄSSIGKEIT ODER ANDERWEITIG), DIE IN IRGENDEINER WEISE AUS DER VERWENDUNG DIESER SOFTWARE ENTSTEHEN, AUCH WENN AUF DIE MÖGLICHKEIT EINES SOLCHEN SCHADENS HINGEWIESEN WIRD.
+DIESE SOFTWARE WIRD VOM URHEBERRECHTSINHABER UND MITWIRKENDEN "WIE BESEHEN" BEREITGESTELLT, UND ALLE AUSDRÜCKLICHEN ODER KONKLUDENTEN GEWÄHRLEISTUNGEN, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF, DIE KONKLUDENTEN GARANTIEN DER HANDELSÜBLICHKEIT UND EIGNUNG FÜR EINEN BESTIMMTEN ZWECK WERDEN NICHT ÜBERNOMMEN. IN KEINEM FALL HAFTE DER URHEBERRECHTSINHABER ODER MITWIRKENDE FÜR DIREKTE, INDIREKTE, ZUFÄLLIGE, BESONDERE, EXEMPLARISCHE ODER FOLGESCHÄDEN (EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE BESCHAFFUNG VON ERSATZARTIKELN ODER -DIENSTLEISTUNGEN; VERLUST DER NUTZUNG, DER DATEN ODER DES GEWINNS; ODER BETRIEBSUNTERBRECHUNG) JEDOCH VERURSACHT UND AUF IRGENDEINE WEISE AUS DER NUTZUNG DIESER SOFTWARE, OB VERTRAGLICH, STRENGER HAFTUNG ODER UNERLAUBTER SCHÄDEN (EINSCHLIEßLICH FAHRLÄSSIGKEIT ODER ANDERWEITIG), DIE IN IRGENDEINER WEISE AUS DER VERWENDUNG DIESER SOFTWARE ENTSTEHEN, AUCH WENN AUF DIE MÖGLICHKEIT EINES SOLCHEN SCHADENS HINGEWIESEN WIRD.
 
 ---------------------------------------------------------
 
@@ -659,7 +659,7 @@ Die Weiterverteilung und Verwendung in Quell- und Binärformularen mit oder ohne
 
 * Weder der Name der Dateigröße noch die Namen seiner Mitwirkenden dürfen verwendet werden, um produkte, die von dieser Software abgeleitet werden, ohne eine bestimmte vorherige schriftliche Genehmigung zu unterstützen oder zu bewerben.
 
-DIESE SOFTWARE WIRD VOM URHEBERRECHTSINHABER UND DEN MITWIRKENDEN "WIE BESEHEN" BEREITGESTELLT, UND ALLE AUSDRÜCKLICHEN ODER KONKLUDENTEN GEWÄHRLEISTUNGEN, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF, DIE KONKLUDENTEN GARANTIEN DER HANDELSÜBLICHKEIT UND EIGNUNG FÜR EINEN BESTIMMTEN ZWECK WERDEN NICHT ÜBERNOMMEN. IN KEINEM FALL HAFTE DER URHEBERRECHTSINHABER ODER MITWIRKENDE FÜR DIREKTE, INDIREKTE, ZUFÄLLIGE, BESONDERE, EXEMPLARISCHE ODER FOLGESCHÄDEN (EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE BESCHAFFUNG VON ERSATZARTIKELN ODER -DIENSTLEISTUNGEN; VERLUST DER NUTZUNG, DER DATEN ODER DES GEWINNS; ODER BETRIEBSUNTERBRECHUNG) JEDOCH VERURSACHT UND AUF IRGENDEINE WEISE AUS DER NUTZUNG DIESER SOFTWARE, OB VERTRAGLICH, STRENGER HAFTUNG ODER UNERLAUBTER SCHÄDEN (EINSCHLIEßLICH FAHRLÄSSIGKEIT ODER ANDERWEITIG), DIE IN IRGENDEINER WEISE AUS DER VERWENDUNG DIESER SOFTWARE ENTSTEHEN, AUCH WENN AUF DIE MÖGLICHKEIT EINES SOLCHEN SCHADENS HINGEWIESEN WIRD.
+DIESE SOFTWARE WIRD VOM URHEBERRECHTSINHABER UND MITWIRKENDEN "WIE BESEHEN" BEREITGESTELLT, UND ALLE AUSDRÜCKLICHEN ODER KONKLUDENTEN GEWÄHRLEISTUNGEN, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF, DIE KONKLUDENTEN GARANTIEN DER HANDELSÜBLICHKEIT UND EIGNUNG FÜR EINEN BESTIMMTEN ZWECK WERDEN NICHT ÜBERNOMMEN. IN KEINEM FALL HAFTE DER URHEBERRECHTSINHABER ODER MITWIRKENDE FÜR DIREKTE, INDIREKTE, ZUFÄLLIGE, BESONDERE, EXEMPLARISCHE ODER FOLGESCHÄDEN (EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE BESCHAFFUNG VON ERSATZARTIKELN ODER -DIENSTLEISTUNGEN; VERLUST DER NUTZUNG, DER DATEN ODER DES GEWINNS; ODER BETRIEBSUNTERBRECHUNG) JEDOCH VERURSACHT UND AUF IRGENDEINE WEISE AUS DER NUTZUNG DIESER SOFTWARE, OB VERTRAGLICH, STRENGER HAFTUNG ODER UNERLAUBTER SCHÄDEN (EINSCHLIEßLICH FAHRLÄSSIGKEIT ODER ANDERWEITIG), DIE IN IRGENDEINER WEISE AUS DER VERWENDUNG DIESER SOFTWARE ENTSTEHEN, AUCH WENN AUF DIE MÖGLICHKEIT EINES SOLCHEN SCHADENS HINGEWIESEN WIRD.
 
 
 
@@ -683,29 +683,7 @@ Die Weiterverteilung und Verwendung dieser Software in Quell- und Binärformular
   * Weitervertreibungen in binärer Form müssen den obigen Urheberrechtshinweis, diese Liste der Bedingungen und den folgenden Haftungsausschluss in der Dokumentation und/oder anderen Materialien, die mit der Verteilung bereitgestellt werden, reproduzieren.
   * Weder der Name von Yahoo! Inc. nor the names of YUI's contributors may be used to endorse or promote products derived from this software without specific prior written permission of Yahoo! Inc.
 
-DIESE SOFTWARE WIRD VOM URHEBERRECHTSINHABER UND DEN MITWIRKENDEN "WIE BESEHEN" BEREITGESTELLT, UND ALLE AUSDRÜCKLICHEN ODER KONKLUDENTEN GEWÄHRLEISTUNGEN, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF, DIE KONKLUDENTEN GARANTIEN DER HANDELSÜBLICHKEIT UND EIGNUNG FÜR EINEN BESTIMMTEN ZWECK WERDEN NICHT ÜBERNOMMEN. IN KEINEM FALL HAFTE DER COPYRIGHTBESITZER ODER MITWIRKENDE FÜR DIREKTE, INDIREKTE, ZUFÄLLIGE, BESONDERE, EXEMPLARISCHE ODER FOLGESCHÄDEN (EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE BESCHAFFUNG VON ERSATZARTIKELN ODER -DIENSTLEISTUNGEN; VERLUST DER NUTZUNG, DER DATEN ODER DES GEWINNS; ODER BETRIEBSUNTERBRECHUNG) JEDOCH VERURSACHT UND AUF IRGENDEINE WEISE AUS DER NUTZUNG DIESER SOFTWARE, OB VERTRAGLICH, STRENGER HAFTUNG ODER UNERLAUBTER SCHÄDEN (EINSCHLIEßLICH FAHRLÄSSIGKEIT ODER ANDERWEITIG), DIE IN IRGENDEINER WEISE AUS DER VERWENDUNG DIESER SOFTWARE ENTSTEHEN, AUCH WENN AUF DIE MÖGLICHKEIT EINES SOLCHEN SCHADENS HINGEWIESEN WIRD.
-
-
----------------------------------------------------------
-
----------------------------------------------------------
-
-source-map 0.5.7 - BSD-3-Clause https://github.com/mozilla/source-map
-
-Copyright 2011 The Closure Compiler Copyright 2011 Mozilla Foundation and contributors Copyright 2014 Mozilla Foundation and contributors Copyright 2009-2011 Mozilla Foundation and contributors Copyright (c) 2009-2011, Mozilla Foundation and contributors
-
-
-Copyright (c) 2009-2011, Mozilla Foundation und Mitwirkende alle Rechte vorbehalten.
-
-Die Weiterverteilung und Verwendung in Quell- und Binärformularen mit oder ohne Änderung ist zulässig, sofern die folgenden Bedingungen erfüllt sind:
-
-* Die Weiterverteilung des Quellcodes muss den obigen Urheberrechtshinweis, diese Liste der Bedingungen und den folgenden Haftungsausschluss beibehalten.
-
-* Weitervertreibungen in binärer Form müssen den obigen Urheberrechtshinweis, diese Liste der Bedingungen und den folgenden Haftungsausschluss in der Dokumentation und/oder anderen Materialien, die mit der Verteilung bereitgestellt werden, reproduzieren.
-
-* Weder die Namen der Mozilla Foundation noch die Namen der Projektmitwirkenden dürfen verwendet werden, um Produkte, die von dieser Software abgeleitet werden, ohne bestimmte vorherige schriftliche Genehmigung zu unterstützen oder zu bewerben.
-
-DIESE SOFTWARE WIRD VOM URHEBERRECHTSINHABER UND DEN MITWIRKENDEN "WIE BESEHEN" BEREITGESTELLT, UND ALLE AUSDRÜCKLICHEN ODER KONKLUDENTEN GEWÄHRLEISTUNGEN, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF, DIE KONKLUDENTEN GARANTIEN DER HANDELSÜBLICHKEIT UND EIGNUNG FÜR EINEN BESTIMMTEN ZWECK WERDEN NICHT ÜBERNOMMEN. IN KEINEM FALL HAFTE DER URHEBERRECHTSINHABER ODER MITWIRKENDE FÜR DIREKTE, INDIREKTE, ZUFÄLLIGE, BESONDERE, EXEMPLARISCHE ODER FOLGESCHÄDEN (EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE BESCHAFFUNG VON ERSATZARTIKELN ODER -DIENSTLEISTUNGEN; VERLUST DER NUTZUNG, DER DATEN ODER DES GEWINNS; ODER BETRIEBSUNTERBRECHUNG) JEDOCH VERURSACHT UND AUF IRGENDEINE WEISE AUS DER NUTZUNG DIESER SOFTWARE, OB VERTRAGLICH, STRENGER HAFTUNG ODER UNERLAUBTER SCHÄDEN (EINSCHLIEßLICH FAHRLÄSSIGKEIT ODER ANDERWEITIG), DIE IN IRGENDEINER WEISE AUS DER VERWENDUNG DIESER SOFTWARE ENTSTEHEN, AUCH WENN AUF DIE MÖGLICHKEIT EINES SOLCHEN SCHADENS HINGEWIESEN WIRD.
+DIESE SOFTWARE WIRD VOM URHEBERRECHTSINHABER UND MITWIRKENDEN "WIE BESEHEN" BEREITGESTELLT, UND ALLE AUSDRÜCKLICHEN ODER KONKLUDENTEN GEWÄHRLEISTUNGEN, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF, DIE KONKLUDENTEN GARANTIEN DER HANDELSÜBLICHKEIT UND EIGNUNG FÜR EINEN BESTIMMTEN ZWECK WERDEN NICHT ÜBERNOMMEN. IN KEINEM FALL HAFTE DER COPYRIGHTBESITZER ODER MITWIRKENDE FÜR DIREKTE, INDIREKTE, ZUFÄLLIGE, BESONDERE, EXEMPLARISCHE ODER FOLGESCHÄDEN (EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE BESCHAFFUNG VON ERSATZARTIKELN ODER -DIENSTLEISTUNGEN; VERLUST DER NUTZUNG, DER DATEN ODER DES GEWINNS; ODER BETRIEBSUNTERBRECHUNG) JEDOCH VERURSACHT UND AUF IRGENDEINE WEISE AUS DER NUTZUNG DIESER SOFTWARE, OB VERTRAGLICH, STRENGER HAFTUNG ODER UNERLAUBTER SCHÄDEN (EINSCHLIEßLICH FAHRLÄSSIGKEIT ODER ANDERWEITIG), DIE IN IRGENDEINER WEISE AUS DER VERWENDUNG DIESER SOFTWARE ENTSTEHEN, AUCH WENN AUF DIE MÖGLICHKEIT EINES SOLCHEN SCHADENS HINGEWIESEN WIRD.
 
 
 ---------------------------------------------------------
@@ -727,7 +705,29 @@ Die Weiterverteilung und Verwendung in Quell- und Binärformularen mit oder ohne
 
 * Weder die Namen der Mozilla Foundation noch die Namen der Projektmitwirkenden dürfen verwendet werden, um Produkte, die von dieser Software abgeleitet werden, ohne bestimmte vorherige schriftliche Genehmigung zu unterstützen oder zu bewerben.
 
-DIESE SOFTWARE WIRD VOM URHEBERRECHTSINHABER UND DEN MITWIRKENDEN "WIE BESEHEN" BEREITGESTELLT, UND ALLE AUSDRÜCKLICHEN ODER KONKLUDENTEN GEWÄHRLEISTUNGEN, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF, DIE KONKLUDENTEN GARANTIEN DER HANDELSÜBLICHKEIT UND EIGNUNG FÜR EINEN BESTIMMTEN ZWECK WERDEN NICHT ÜBERNOMMEN. IN KEINEM FALL HAFTE DER URHEBERRECHTSINHABER ODER MITWIRKENDE FÜR DIREKTE, INDIREKTE, ZUFÄLLIGE, BESONDERE, EXEMPLARISCHE ODER FOLGESCHÄDEN (EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE BESCHAFFUNG VON ERSATZARTIKELN ODER -DIENSTLEISTUNGEN; VERLUST DER NUTZUNG, DER DATEN ODER DES GEWINNS; ODER BETRIEBSUNTERBRECHUNG) JEDOCH VERURSACHT UND AUF IRGENDEINE WEISE AUS DER NUTZUNG DIESER SOFTWARE, OB VERTRAGLICH, STRENGER HAFTUNG ODER UNERLAUBTER SCHÄDEN (EINSCHLIEßLICH FAHRLÄSSIGKEIT ODER ANDERWEITIG), DIE IN IRGENDEINER WEISE AUS DER VERWENDUNG DIESER SOFTWARE ENTSTEHEN, AUCH WENN AUF DIE MÖGLICHKEIT EINES SOLCHEN SCHADENS HINGEWIESEN WIRD.
+DIESE SOFTWARE WIRD VOM URHEBERRECHTSINHABER UND MITWIRKENDEN "WIE BESEHEN" BEREITGESTELLT, UND ALLE AUSDRÜCKLICHEN ODER KONKLUDENTEN GEWÄHRLEISTUNGEN, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF, DIE KONKLUDENTEN GARANTIEN DER HANDELSÜBLICHKEIT UND EIGNUNG FÜR EINEN BESTIMMTEN ZWECK WERDEN NICHT ÜBERNOMMEN. IN KEINEM FALL HAFTE DER URHEBERRECHTSINHABER ODER MITWIRKENDE FÜR DIREKTE, INDIREKTE, ZUFÄLLIGE, BESONDERE, EXEMPLARISCHE ODER FOLGESCHÄDEN (EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE BESCHAFFUNG VON ERSATZARTIKELN ODER -DIENSTLEISTUNGEN; VERLUST DER NUTZUNG, DER DATEN ODER DES GEWINNS; ODER BETRIEBSUNTERBRECHUNG) JEDOCH VERURSACHT UND AUF IRGENDEINE WEISE AUS DER NUTZUNG DIESER SOFTWARE, OB VERTRAGLICH, STRENGER HAFTUNG ODER UNERLAUBTER SCHÄDEN (EINSCHLIEßLICH FAHRLÄSSIGKEIT ODER ANDERWEITIG), DIE IN IRGENDEINER WEISE AUS DER VERWENDUNG DIESER SOFTWARE ENTSTEHEN, AUCH WENN AUF DIE MÖGLICHKEIT EINES SOLCHEN SCHADENS HINGEWIESEN WIRD.
+
+
+---------------------------------------------------------
+
+---------------------------------------------------------
+
+source-map 0.5.7 - BSD-3-Clause https://github.com/mozilla/source-map
+
+Copyright 2011 The Closure Compiler Copyright 2011 Mozilla Foundation and contributors Copyright 2014 Mozilla Foundation and contributors Copyright 2009-2011 Mozilla Foundation and contributors Copyright (c) 2009-2011, Mozilla Foundation and contributors
+
+
+Copyright (c) 2009-2011, Mozilla Foundation und Mitwirkende alle Rechte vorbehalten.
+
+Die Weiterverteilung und Verwendung in Quell- und Binärformularen mit oder ohne Änderung ist zulässig, sofern die folgenden Bedingungen erfüllt sind:
+
+* Die Weiterverteilung des Quellcodes muss den obigen Urheberrechtshinweis, diese Liste der Bedingungen und den folgenden Haftungsausschluss beibehalten.
+
+* Weitervertreibungen in binärer Form müssen den obigen Urheberrechtshinweis, diese Liste der Bedingungen und den folgenden Haftungsausschluss in der Dokumentation und/oder anderen Materialien, die mit der Verteilung bereitgestellt werden, reproduzieren.
+
+* Weder die Namen der Mozilla Foundation noch die Namen der Projektmitwirkenden dürfen verwendet werden, um Produkte, die von dieser Software abgeleitet werden, ohne bestimmte vorherige schriftliche Genehmigung zu unterstützen oder zu bewerben.
+
+DIESE SOFTWARE WIRD VOM URHEBERRECHTSINHABER UND MITWIRKENDEN "WIE BESEHEN" BEREITGESTELLT, UND ALLE AUSDRÜCKLICHEN ODER KONKLUDENTEN GEWÄHRLEISTUNGEN, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF, DIE KONKLUDENTEN GARANTIEN DER HANDELSÜBLICHKEIT UND EIGNUNG FÜR EINEN BESTIMMTEN ZWECK WERDEN NICHT ÜBERNOMMEN. IN KEINEM FALL HAFTE DER URHEBERRECHTSINHABER ODER MITWIRKENDE FÜR DIREKTE, INDIREKTE, ZUFÄLLIGE, BESONDERE, EXEMPLARISCHE ODER FOLGESCHÄDEN (EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE BESCHAFFUNG VON ERSATZARTIKELN ODER -DIENSTLEISTUNGEN; VERLUST DER NUTZUNG, DER DATEN ODER DES GEWINNS; ODER BETRIEBSUNTERBRECHUNG) JEDOCH VERURSACHT UND AUF IRGENDEINE WEISE AUS DER NUTZUNG DIESER SOFTWARE, OB VERTRAGLICH, STRENGER HAFTUNG ODER UNERLAUBTER SCHÄDEN (EINSCHLIEßLICH FAHRLÄSSIGKEIT ODER ANDERWEITIG), DIE IN IRGENDEINER WEISE AUS DER VERWENDUNG DIESER SOFTWARE ENTSTEHEN, AUCH WENN AUF DIE MÖGLICHKEIT EINES SOLCHEN SCHADENS HINGEWIESEN WIRD.
 
 
 ---------------------------------------------------------
@@ -791,13 +791,13 @@ Abschnitt 1 – Definitionen.
 
   b. Die Lizenz des Adapters bezeichnet die Lizenz, die Sie auf Ihr Copyright und ähnliche Rechte in Ihren Beiträgen für angepasstes Material in Übereinstimmung mit den Bedingungen dieser öffentlichen Lizenz anwenden.
 
-  c. Copyright- und ähnliche Rechte sind Copyright- und/oder ähnliche Rechte, die eng mit dem Urheberrecht verbunden sind, einschließlich, ohne Einschränkung, Leistung, Übertragung, Tonaufzeichnung und Sui Generis-Datenbankrechte, ohne Berücksichtigung der Bezeichnung oder Kategorisierung der Rechte. Für die Zwecke dieser öffentlichen Lizenz sind die in Abschnitt 2(b)(1)-(2) angegebenen Rechte kein Urheberrecht und ähnliche Rechte.
+  c. Copyright- und ähnliche Rechte sind Copyright- und/oder ähnliche Rechte, die eng mit dem Urheberrecht verbunden sind, einschließlich, ohne Einschränkung, Leistung, Übertragung, Tonaufzeichnung und Sui Generis Database Rights, ohne Berücksichtigung der Bezeichnung oder Kategorisierung der Rechte. Für die Zwecke dieser öffentlichen Lizenz sind die in Abschnitt 2(b)(1)-(2) angegebenen Rechte kein Urheberrecht und ähnliche Rechte.
 
-  d. Effektive Technische Maßnahmen bedeuten die Maßnahmen, die, falls keine ordnungsgemäße Autorität besteht, nicht durch Gesetze umgangen werden dürfen, die den Verpflichtungen gemäß Artikel 11 des AM 20. Dezember 1996 angenommenen COPYRIGHT-Vertrags UND/oder ähnlicher internationaler Vereinbarungen entsprechen.
+  d. Effektive Technische Maßnahmen bedeuten die Maßnahmen, die, wenn keine ordnungsgemäße Autorität besteht, nicht durch Gesetze umgangen werden dürfen, die den Verpflichtungen gemäß Artikel 11 des AM 20. Dezember 1996 angenommenen COPYRIGHT-Vertrags UND/oder ähnlicher internationaler Vereinbarungen entsprechen.
 
   e. Ausnahmen und Einschränkungen sind eine angemessene Nutzung, ein fairer Umgang und/oder eine andere Ausnahme oder Einschränkung des Urheberrechts und ähnlicher Rechte, die für Ihre Nutzung des lizenzierten Materials gelten.
 
-  f. Lizenziertes Material bezeichnet die arbeitenden oder öffentlichen Arbeiten, Datenbanken oder anderen Materialien, auf die der Licensor diese öffentliche Lizenz angewendet hat.
+  f. Lizenziertes Material bezeichnet die arbeitenden oder öffentlichen Arbeiten, Datenbanken oder sonstigen Materialien, auf die der Licensor diese öffentliche Lizenz angewendet hat.
 
   g. Lizenzierte Rechte sind die Ihnen gewährten Rechte, die den Bedingungen dieser öffentlichen Lizenz unterliegen, die auf alle Copyright- und ähnlichen Rechte beschränkt sind, die für Ihre Verwendung des lizenzierten Materials gelten und die der Licensor lizenzieren darf.
 
@@ -1001,7 +1001,7 @@ Abschnitt 8 – Interpretation.
 
 =======================================================================
 
-Creative Commons ist keine Partei ihrer öffentlichen Lizenzen. Ungeachtet dessen können Creative Commons entscheiden, eine ihrer öffentlichen Lizenzen auf von ihr veröffentlichte Materialien anzuwenden, und in diesen Fällen wird sie als "Licensor" betrachtet. Der Text der öffentlichen Creative Commons-Lizenzen ist der öffentlichen Domäne unter "CC0 Public DomainSynlast" zugeordnet. Mit Ausnahme des eingeschränkten Zwecks, anzugeben, dass Material unter einer öffentlichen Lizenz für Creative Commons freigegeben wird oder wie dies anderweitig durch die auf creativecommons.org/policies veröffentlichten Creative Commons-Richtlinien zulässig ist, autorisiert Creative Commons die Verwendung der Marke "Creative Commons" oder einer anderen Marke oder eines anderen Logos von Creative Commons ohne ihre vorherige schriftliche Zustimmung nicht, einschließlich,  ohne Einschränkung im Zusammenhang mit nicht autorisierten Änderungen an seinen öffentlichen Lizenzen oder anderen Vereinbarungen, Vereinbarungen oder Vereinbarungen zur Verwendung von lizenzierten Materialien. Aus Gründen des Zweifels ist dieser Absatz nicht Teil der öffentlichen Lizenzen.
+Creative Commons ist keine Partei ihrer öffentlichen Lizenzen. Ungeachtet dessen können Creative Commons entscheiden, eine ihrer öffentlichen Lizenzen auf von ihr veröffentlichte Materialien anzuwenden, und in diesen Fällen wird sie als "Licensor" betrachtet. Der Text der öffentlichen Creative Commons-Lizenzen ist der öffentlichen Domäne unter "CC0 Public DomainSynlast" zugeordnet. Mit Ausnahme des eingeschränkten Zwecks, anzugeben, dass Material unter einer öffentlichen Lizenz für Creative Commons freigegeben wird oder wie dies anderweitig durch die creative Commons-Richtlinien zulässig ist, die auf creativecommons.org/policies veröffentlicht wurden, autorisiert Creative Commons nicht die Verwendung der Marke "Creative Commons" oder einer anderen Marke oder eines anderen Logos von Creative Commons ohne ihre vorherige schriftliche Zustimmung, einschließlich,  ohne Einschränkung im Zusammenhang mit nicht autorisierten Änderungen an seinen öffentlichen Lizenzen oder anderen Vereinbarungen, Vereinbarungen oder Vereinbarungen zur Verwendung von lizenzierten Materialien. Aus Gründen des Zweifels ist dieser Absatz nicht Teil der öffentlichen Lizenzen.
 
 Creative Commons können unter creativecommons.org kontaktiert werden.
 
@@ -1020,7 +1020,7 @@ Copyright (c) 2014 Elan Codker
 
 Die Berechtigung zum Verwenden, Kopieren, Ändern und/oder Verteilen dieser Software für einen beliebigen Zweck mit oder ohne Gebühr wird gewährt, vorausgesetzt, dass der obige Urheberrechtshinweis und dieser Berechtigungshinweis in allen Kopien angezeigt werden.
 
-DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, UND DER AUTOR LEHNT ALLE GEWÄHRLEISTUNGEN IN BEZUG AUF DIESE SOFTWARE AB, EINSCHLIEßLICH ALLER KONKLUDENTEN GEWÄHRLEISTUNGEN DER HANDELSÜBLICHKEIT UND EIGNUNG. IN KEINEM FALL IST DER AUTOR FÜR BESONDERE, DIREKTE, INDIREKTE ODER FOLGESCHÄDEN ODER SCHÄDEN JEGLICHER ART, DIE SICH AUS DEM VERLUST DER NUTZUNG, DER DATEN ODER DES GEWINNS ERGEBEN, UNABHÄNGIG DAVON, OB ES SICH UM EINE VERTRAGSVERLETZUNG, EINE FAHRLÄSSIGKEIT ODER EINE ANDERE UNERLAUBTE AKTION HANDELT, DIE AUS ODER IN VERBINDUNG MIT DER NUTZUNG ODER LEISTUNG DIESER SOFTWARE ENTSTEHT, VERANTWORTLICH.
+DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, UND DER AUTOR LEHNT ALLE GEWÄHRLEISTUNGEN IN BEZUG AUF DIESE SOFTWARE AB, EINSCHLIEßLICH ALLER KONKLUDENTEN GEWÄHRLEISTUNGEN DER HANDELSÜBLICHKEIT UND EIGNUNG. IN KEINEM FALL HAFTE DER AUTOR FÜR BESONDERE, DIREKTE, INDIREKTE ODER FOLGESCHÄDEN ODER SCHÄDEN, DIE AUS DEM VERLUST DER NUTZUNG, DER DATEN ODER DES GEWINNS RESULTIEREN, UNABHÄNGIG DAVON, OB ES SICH UM EINE VERTRAGSVERLETZUNG, EINE FAHRLÄSSIGKEIT ODER EINE ANDERE UNERLAUBTE AKTION HANDELT, DIE AUS ODER IN VERBINDUNG MIT DER NUTZUNG ODER LEISTUNG DIESER SOFTWARE ENTSTEHT.
 
 
 ---------------------------------------------------------
@@ -1035,7 +1035,7 @@ Copyright (c) 2015, Ilya Rad radius <ilya@burstcreations.com>
 
 Die Berechtigung zum Verwenden, Kopieren, Ändern und/oder Verteilen dieser Software für einen beliebigen Zweck mit oder ohne Gebühr wird gewährt, vorausgesetzt, dass der obige Urheberrechtshinweis und dieser Berechtigungshinweis in allen Kopien angezeigt werden.
 
-DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, UND DER AUTOR LEHNT ALLE GEWÄHRLEISTUNGEN IN BEZUG AUF DIESE SOFTWARE AB, EINSCHLIEßLICH ALLER KONKLUDENTEN GEWÄHRLEISTUNGEN DER HANDELSÜBLICHKEIT UND EIGNUNG. IN KEINEM FALL IST DER AUTOR FÜR BESONDERE, DIREKTE, INDIREKTE ODER FOLGESCHÄDEN ODER SCHÄDEN JEGLICHER ART, DIE SICH AUS DEM VERLUST DER NUTZUNG, DER DATEN ODER DES GEWINNS ERGEBEN, UNABHÄNGIG DAVON, OB ES SICH UM EINE VERTRAGSVERLETZUNG, EINE FAHRLÄSSIGKEIT ODER EINE ANDERE UNERLAUBTE AKTION HANDELT, DIE AUS ODER IN VERBINDUNG MIT DER NUTZUNG ODER LEISTUNG DIESER SOFTWARE ENTSTEHT, VERANTWORTLICH.
+DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, UND DER AUTOR LEHNT ALLE GEWÄHRLEISTUNGEN IN BEZUG AUF DIESE SOFTWARE AB, EINSCHLIEßLICH ALLER KONKLUDENTEN GEWÄHRLEISTUNGEN DER HANDELSÜBLICHKEIT UND EIGNUNG. IN KEINEM FALL HAFTE DER AUTOR FÜR BESONDERE, DIREKTE, INDIREKTE ODER FOLGESCHÄDEN ODER SCHÄDEN, DIE AUS DEM VERLUST DER NUTZUNG, DER DATEN ODER DES GEWINNS RESULTIEREN, UNABHÄNGIG DAVON, OB ES SICH UM EINE VERTRAGSVERLETZUNG, EINE FAHRLÄSSIGKEIT ODER EINE ANDERE UNERLAUBTE AKTION HANDELT, DIE AUS ODER IN VERBINDUNG MIT DER NUTZUNG ODER LEISTUNG DIESER SOFTWARE ENTSTEHT.
 
 
 ---------------------------------------------------------
@@ -1052,7 +1052,7 @@ Copyright (c) 2017, Jakob Automatisierengsky
 
 Die Berechtigung zum Verwenden, Kopieren, Ändern und/oder Verteilen dieser Software für einen beliebigen Zweck mit oder ohne Gebühr wird gewährt, vorausgesetzt, dass der obige Urheberrechtshinweis und dieser Berechtigungshinweis in allen Kopien angezeigt werden.
 
-DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, UND DER AUTOR LEHNT ALLE GEWÄHRLEISTUNGEN IN BEZUG AUF DIESE SOFTWARE AB, EINSCHLIEßLICH ALLER KONKLUDENTEN GEWÄHRLEISTUNGEN DER HANDELSÜBLICHKEIT UND EIGNUNG. IN KEINEM FALL IST DER AUTOR FÜR BESONDERE, DIREKTE, INDIREKTE ODER FOLGESCHÄDEN ODER SCHÄDEN JEGLICHER ART, DIE SICH AUS DEM VERLUST DER NUTZUNG, DER DATEN ODER DES GEWINNS ERGEBEN, UNABHÄNGIG DAVON, OB ES SICH UM EINE VERTRAGSVERLETZUNG, EINE FAHRLÄSSIGKEIT ODER EINE ANDERE UNERLAUBTE AKTION HANDELT, DIE AUS ODER IN VERBINDUNG MIT DER NUTZUNG ODER LEISTUNG DIESER SOFTWARE ENTSTEHT, VERANTWORTLICH.
+DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, UND DER AUTOR LEHNT ALLE GEWÄHRLEISTUNGEN IN BEZUG AUF DIESE SOFTWARE AB, EINSCHLIEßLICH ALLER KONKLUDENTEN GEWÄHRLEISTUNGEN DER HANDELSÜBLICHKEIT UND EIGNUNG. IN KEINEM FALL HAFTE DER AUTOR FÜR BESONDERE, DIREKTE, INDIREKTE ODER FOLGESCHÄDEN ODER SCHÄDEN, DIE AUS DEM VERLUST DER NUTZUNG, DER DATEN ODER DES GEWINNS RESULTIEREN, UNABHÄNGIG DAVON, OB ES SICH UM EINE VERTRAGSVERLETZUNG, EINE FAHRLÄSSIGKEIT ODER EINE ANDERE UNERLAUBTE AKTION HANDELT, DIE AUS ODER IN VERBINDUNG MIT DER NUTZUNG ODER LEISTUNG DIESER SOFTWARE ENTSTEHT.
 
 
 ---------------------------------------------------------
@@ -1067,7 +1067,7 @@ Copyright 2018: Jordanian Valkatur
 
 Die Berechtigung zum Verwenden, Kopieren, Ändern und/oder Verteilen dieser Software für einen beliebigen Zweck mit oder ohne Gebühr wird gewährt, vorausgesetzt, dass der obige Urheberrechtshinweis und dieser Berechtigungshinweis in allen Kopien angezeigt werden.
 
-DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, UND DER AUTOR LEHNT ALLE GEWÄHRLEISTUNGEN IN BEZUG AUF DIESE SOFTWARE AB, EINSCHLIEßLICH ALLER KONKLUDENTEN GEWÄHRLEISTUNGEN DER HANDELSÜBLICHKEIT UND EIGNUNG. IN KEINEM FALL IST DER AUTOR FÜR BESONDERE, DIREKTE, INDIREKTE ODER FOLGESCHÄDEN ODER SCHÄDEN JEGLICHER ART, DIE SICH AUS DEM VERLUST DER NUTZUNG, DER DATEN ODER DES GEWINNS ERGEBEN, UNABHÄNGIG DAVON, OB ES SICH UM EINE VERTRAGSVERLETZUNG, EINE FAHRLÄSSIGKEIT ODER EINE ANDERE UNERLAUBTE AKTION HANDELT, DIE AUS ODER IN VERBINDUNG MIT DER NUTZUNG ODER LEISTUNG DIESER SOFTWARE ENTSTEHT, VERANTWORTLICH.
+DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, UND DER AUTOR LEHNT ALLE GEWÄHRLEISTUNGEN IN BEZUG AUF DIESE SOFTWARE AB, EINSCHLIEßLICH ALLER KONKLUDENTEN GEWÄHRLEISTUNGEN DER HANDELSÜBLICHKEIT UND EIGNUNG. IN KEINEM FALL HAFTE DER AUTOR FÜR BESONDERE, DIREKTE, INDIREKTE ODER FOLGESCHÄDEN ODER SCHÄDEN, DIE AUS DEM VERLUST DER NUTZUNG, DER DATEN ODER DES GEWINNS RESULTIEREN, UNABHÄNGIG DAVON, OB ES SICH UM EINE VERTRAGSVERLETZUNG, EINE FAHRLÄSSIGKEIT ODER EINE ANDERE UNERLAUBTE AKTION HANDELT, DIE AUS ODER IN VERBINDUNG MIT DER NUTZUNG ODER LEISTUNG DIESER SOFTWARE ENTSTEHT.
 
 
 ---------------------------------------------------------
@@ -1084,21 +1084,21 @@ Copyright (c) Copyright Z. Schlueter und Mitwirkende
 
 Die Berechtigung zum Verwenden, Kopieren, Ändern und/oder Verteilen dieser Software für einen beliebigen Zweck mit oder ohne Gebühr wird gewährt, vorausgesetzt, dass der obige Urheberrechtshinweis und dieser Berechtigungshinweis in allen Kopien angezeigt werden.
 
-DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, UND DER AUTOR LEHNT ALLE GEWÄHRLEISTUNGEN IN BEZUG AUF DIESE SOFTWARE AB, EINSCHLIEßLICH ALLER KONKLUDENTEN GEWÄHRLEISTUNGEN DER HANDELSÜBLICHKEIT UND EIGNUNG. IN KEINEM FALL IST DER AUTOR FÜR BESONDERE, DIREKTE, INDIREKTE ODER FOLGESCHÄDEN ODER SCHÄDEN JEGLICHER ART, DIE SICH AUS DEM VERLUST DER NUTZUNG, DER DATEN ODER DES GEWINNS ERGEBEN, UNABHÄNGIG DAVON, OB ES SICH UM EINE VERTRAGSVERLETZUNG, EINE FAHRLÄSSIGKEIT ODER EINE ANDERE UNERLAUBTE AKTION HANDELT, DIE AUS ODER IN VERBINDUNG MIT DER NUTZUNG ODER LEISTUNG DIESER SOFTWARE ENTSTEHT, VERANTWORTLICH.
+DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, UND DER AUTOR LEHNT ALLE GEWÄHRLEISTUNGEN IN BEZUG AUF DIESE SOFTWARE AB, EINSCHLIEßLICH ALLER KONKLUDENTEN GEWÄHRLEISTUNGEN DER HANDELSÜBLICHKEIT UND EIGNUNG. IN KEINEM FALL HAFTE DER AUTOR FÜR BESONDERE, DIREKTE, INDIREKTE ODER FOLGESCHÄDEN ODER SCHÄDEN, DIE AUS DEM VERLUST DER NUTZUNG, DER DATEN ODER DES GEWINNS RESULTIEREN, UNABHÄNGIG DAVON, OB ES SICH UM EINE VERTRAGSVERLETZUNG, EINE FAHRLÄSSIGKEIT ODER EINE ANDERE UNERLAUBTE AKTION HANDELT, DIE AUS ODER IN VERBINDUNG MIT DER NUTZUNG ODER LEISTUNG DIESER SOFTWARE ENTSTEHT.
 
 ----
 
-Diese Bibliothek bündelt eine Version der `fs.realpath` `fs.realpathSync` Und-Methoden aus Node.js v0.10 gemäß den Bedingungen der Node.js MIT-Lizenz.
+Diese Bibliothek bündelt eine Version der `fs.realpath` und Methoden aus Node.js `fs.realpathSync` v0.10 gemäß den Bedingungen der Node.js MIT-Lizenz.
 
 Die Lizenz des Knotens folgt, auch in der Kopfzeile `old.js` enthalten, die den lizenzierten Code enthält:
 
   Copyright Copyright, Inc. und andere Node-Mitwirkende.
 
-  Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
+  Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um die Software ohne Einschränkung zu bearbeiten, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
   Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
-  DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER AUS DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
+  DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
 
 
 ---------------------------------------------------------
@@ -1115,11 +1115,11 @@ Copyright (c) Copyright Z. Schlueter und Mitwirkende
 
 Die Berechtigung zum Verwenden, Kopieren, Ändern und/oder Verteilen dieser Software für einen beliebigen Zweck mit oder ohne Gebühr wird gewährt, vorausgesetzt, dass der obige Urheberrechtshinweis und dieser Berechtigungshinweis in allen Kopien angezeigt werden.
 
-DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, UND DER AUTOR LEHNT ALLE GEWÄHRLEISTUNGEN IN BEZUG AUF DIESE SOFTWARE AB, EINSCHLIEßLICH ALLER KONKLUDENTEN GEWÄHRLEISTUNGEN DER HANDELSÜBLICHKEIT UND EIGNUNG. IN KEINEM FALL IST DER AUTOR FÜR BESONDERE, DIREKTE, INDIREKTE ODER FOLGESCHÄDEN ODER SCHÄDEN JEGLICHER ART, DIE SICH AUS DEM VERLUST DER NUTZUNG, DER DATEN ODER DES GEWINNS ERGEBEN, UNABHÄNGIG DAVON, OB ES SICH UM EINE VERTRAGSVERLETZUNG, EINE FAHRLÄSSIGKEIT ODER EINE ANDERE UNERLAUBTE AKTION HANDELT, DIE AUS ODER IN VERBINDUNG MIT DER NUTZUNG ODER LEISTUNG DIESER SOFTWARE ENTSTEHT, VERANTWORTLICH.
+DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, UND DER AUTOR LEHNT ALLE GEWÄHRLEISTUNGEN IN BEZUG AUF DIESE SOFTWARE AB, EINSCHLIEßLICH ALLER KONKLUDENTEN GEWÄHRLEISTUNGEN DER HANDELSÜBLICHKEIT UND EIGNUNG. IN KEINEM FALL HAFTE DER AUTOR FÜR BESONDERE, DIREKTE, INDIREKTE ODER FOLGESCHÄDEN ODER SCHÄDEN, DIE AUS DEM VERLUST DER NUTZUNG, DER DATEN ODER DES GEWINNS RESULTIEREN, UNABHÄNGIG DAVON, OB ES SICH UM EINE VERTRAGSVERLETZUNG, EINE FAHRLÄSSIGKEIT ODER EINE ANDERE UNERLAUBTE AKTION HANDELT, DIE AUS ODER IN VERBINDUNG MIT DER NUTZUNG ODER LEISTUNG DIESER SOFTWARE ENTSTEHT.
 
 ## <a name="glob-logo"></a>Glob-Logo
 
-Globs Logo, das von Tanya Labsie erstellt <http://tanyabrassie.com/> wurde, lizenziert unter einer Creative Commons Attribution-ShareAlike 4.0 International License https://creativecommons.org/licenses/by-sa/4.0/
+Glob's Logo erstellt von Tanya <http://tanyabrassie.com/> Labsie, lizenziert unter einer Creative Commons Attribution-ShareAlike 4.0 International License https://creativecommons.org/licenses/by-sa/4.0/
 
 
 ---------------------------------------------------------
@@ -1136,7 +1136,7 @@ Copyright (c) 2015 Elan Codker
 
 Die Berechtigung zum Verwenden, Kopieren, Ändern und/oder Verteilen dieser Software für einen beliebigen Zweck mit oder ohne Gebühr wird gewährt, vorausgesetzt, dass der obige Urheberrechtshinweis und dieser Berechtigungshinweis in allen Kopien angezeigt werden.
 
-DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, UND DER AUTOR LEHNT ALLE GEWÄHRLEISTUNGEN IN BEZUG AUF DIESE SOFTWARE AB, EINSCHLIEßLICH ALLER KONKLUDENTEN GEWÄHRLEISTUNGEN DER HANDELSÜBLICHKEIT UND EIGNUNG. IN KEINEM FALL IST DER AUTOR FÜR BESONDERE, DIREKTE, INDIREKTE ODER FOLGESCHÄDEN ODER SCHÄDEN JEGLICHER ART, DIE SICH AUS DEM VERLUST DER NUTZUNG, DER DATEN ODER DES GEWINNS ERGEBEN, UNABHÄNGIG DAVON, OB ES SICH UM EINE VERTRAGSVERLETZUNG, EINE FAHRLÄSSIGKEIT ODER EINE ANDERE UNERLAUBTE AKTION HANDELT, DIE AUS ODER IN VERBINDUNG MIT DER NUTZUNG ODER LEISTUNG DIESER SOFTWARE ENTSTEHT, VERANTWORTLICH.
+DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, UND DER AUTOR LEHNT ALLE GEWÄHRLEISTUNGEN IN BEZUG AUF DIESE SOFTWARE AB, EINSCHLIEßLICH ALLER KONKLUDENTEN GEWÄHRLEISTUNGEN DER HANDELSÜBLICHKEIT UND EIGNUNG. IN KEINEM FALL HAFTE DER AUTOR FÜR BESONDERE, DIREKTE, INDIREKTE ODER FOLGESCHÄDEN ODER SCHÄDEN, DIE AUS DEM VERLUST DER NUTZUNG, DER DATEN ODER DES GEWINNS RESULTIEREN, UNABHÄNGIG DAVON, OB ES SICH UM EINE VERTRAGSVERLETZUNG, EINE FAHRLÄSSIGKEIT ODER EINE ANDERE UNERLAUBTE AKTION HANDELT, DIE AUS ODER IN VERBINDUNG MIT DER NUTZUNG ODER LEISTUNG DIESER SOFTWARE ENTSTEHT.
 
 
 ---------------------------------------------------------
@@ -1153,7 +1153,7 @@ Copyright (c)Rmaßen Z. Schlueter, Ben Noord codiert und Mitwirkende
 
 Die Berechtigung zum Verwenden, Kopieren, Ändern und/oder Verteilen dieser Software für einen beliebigen Zweck mit oder ohne Gebühr wird gewährt, vorausgesetzt, dass der obige Urheberrechtshinweis und dieser Berechtigungshinweis in allen Kopien angezeigt werden.
 
-DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, UND DER AUTOR LEHNT ALLE GEWÄHRLEISTUNGEN IN BEZUG AUF DIESE SOFTWARE AB, EINSCHLIEßLICH ALLER KONKLUDENTEN GEWÄHRLEISTUNGEN DER HANDELSÜBLICHKEIT UND EIGNUNG. IN KEINEM FALL IST DER AUTOR FÜR BESONDERE, DIREKTE, INDIREKTE ODER FOLGESCHÄDEN ODER SCHÄDEN JEGLICHER ART, DIE SICH AUS DEM VERLUST DER NUTZUNG, DER DATEN ODER DES GEWINNS ERGEBEN, UNABHÄNGIG DAVON, OB ES SICH UM EINE VERTRAGSVERLETZUNG, EINE FAHRLÄSSIGKEIT ODER EINE ANDERE UNERLAUBTE AKTION HANDELT, DIE AUS ODER IN VERBINDUNG MIT DER NUTZUNG ODER LEISTUNG DIESER SOFTWARE ENTSTEHT, VERANTWORTLICH.
+DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, UND DER AUTOR LEHNT ALLE GEWÄHRLEISTUNGEN IN BEZUG AUF DIESE SOFTWARE AB, EINSCHLIEßLICH ALLER KONKLUDENTEN GEWÄHRLEISTUNGEN DER HANDELSÜBLICHKEIT UND EIGNUNG. IN KEINEM FALL HAFTE DER AUTOR FÜR BESONDERE, DIREKTE, INDIREKTE ODER FOLGESCHÄDEN ODER SCHÄDEN, DIE AUS DEM VERLUST DER NUTZUNG, DER DATEN ODER DES GEWINNS RESULTIEREN, UNABHÄNGIG DAVON, OB ES SICH UM EINE VERTRAGSVERLETZUNG, EINE FAHRLÄSSIGKEIT ODER EINE ANDERE UNERLAUBTE AKTION HANDELT, DIE AUS ODER IN VERBINDUNG MIT DER NUTZUNG ODER LEISTUNG DIESER SOFTWARE ENTSTEHT.
 
 
 ---------------------------------------------------------
@@ -1170,7 +1170,7 @@ Copyright (c) Isaac Z. Schlueter
 
 Die Berechtigung zum Verwenden, Kopieren, Ändern und/oder Verteilen dieser Software für einen beliebigen Zweck mit oder ohne Gebühr wird gewährt, vorausgesetzt, dass der obige Urheberrechtshinweis und dieser Berechtigungshinweis in allen Kopien angezeigt werden.
 
-DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, UND DER AUTOR LEHNT ALLE GEWÄHRLEISTUNGEN IN BEZUG AUF DIESE SOFTWARE AB, EINSCHLIEßLICH ALLER KONKLUDENTEN GEWÄHRLEISTUNGEN DER HANDELSÜBLICHKEIT UND EIGNUNG. IN KEINEM FALL IST DER AUTOR FÜR BESONDERE, DIREKTE, INDIREKTE ODER FOLGESCHÄDEN ODER SCHÄDEN JEGLICHER ART, DIE SICH AUS DEM VERLUST DER NUTZUNG, DER DATEN ODER DES GEWINNS ERGEBEN, UNABHÄNGIG DAVON, OB ES SICH UM EINE VERTRAGSVERLETZUNG, EINE FAHRLÄSSIGKEIT ODER EINE ANDERE UNERLAUBTE AKTION HANDELT, DIE AUS ODER IN VERBINDUNG MIT DER NUTZUNG ODER LEISTUNG DIESER SOFTWARE ENTSTEHT, VERANTWORTLICH.
+DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, UND DER AUTOR LEHNT ALLE GEWÄHRLEISTUNGEN IN BEZUG AUF DIESE SOFTWARE AB, EINSCHLIEßLICH ALLER KONKLUDENTEN GEWÄHRLEISTUNGEN DER HANDELSÜBLICHKEIT UND EIGNUNG. IN KEINEM FALL HAFTE DER AUTOR FÜR BESONDERE, DIREKTE, INDIREKTE ODER FOLGESCHÄDEN ODER SCHÄDEN, DIE AUS DEM VERLUST DER NUTZUNG, DER DATEN ODER DES GEWINNS RESULTIEREN, UNABHÄNGIG DAVON, OB ES SICH UM EINE VERTRAGSVERLETZUNG, EINE FAHRLÄSSIGKEIT ODER EINE ANDERE UNERLAUBTE AKTION HANDELT, DIE AUS ODER IN VERBINDUNG MIT DER NUTZUNG ODER LEISTUNG DIESER SOFTWARE ENTSTEHT.
 
 
 ---------------------------------------------------------
@@ -1187,7 +1187,7 @@ Copyright (c) Isaac Z. Schlueter
 
 Die Berechtigung zum Verwenden, Kopieren, Ändern und/oder Verteilen dieser Software für einen beliebigen Zweck mit oder ohne Gebühr wird gewährt, vorausgesetzt, dass der obige Urheberrechtshinweis und dieser Berechtigungshinweis in allen Kopien angezeigt werden.
 
-DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, UND DER AUTOR LEHNT ALLE GEWÄHRLEISTUNGEN IN BEZUG AUF DIESE SOFTWARE AB, EINSCHLIEßLICH ALLER KONKLUDENTEN GEWÄHRLEISTUNGEN DER HANDELSÜBLICHKEIT UND EIGNUNG. IN KEINEM FALL IST DER AUTOR FÜR BESONDERE, DIREKTE, INDIREKTE ODER FOLGESCHÄDEN ODER SCHÄDEN JEGLICHER ART, DIE SICH AUS DEM VERLUST DER NUTZUNG, DER DATEN ODER DES GEWINNS ERGEBEN, UNABHÄNGIG DAVON, OB ES SICH UM EINE VERTRAGSVERLETZUNG, EINE FAHRLÄSSIGKEIT ODER EINE ANDERE UNERLAUBTE AKTION HANDELT, DIE AUS ODER IN VERBINDUNG MIT DER NUTZUNG ODER LEISTUNG DIESER SOFTWARE ENTSTEHT, VERANTWORTLICH.
+DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, UND DER AUTOR LEHNT ALLE GEWÄHRLEISTUNGEN IN BEZUG AUF DIESE SOFTWARE AB, EINSCHLIEßLICH ALLER KONKLUDENTEN GEWÄHRLEISTUNGEN DER HANDELSÜBLICHKEIT UND EIGNUNG. IN KEINEM FALL HAFTE DER AUTOR FÜR BESONDERE, DIREKTE, INDIREKTE ODER FOLGESCHÄDEN ODER SCHÄDEN, DIE AUS DEM VERLUST DER NUTZUNG, DER DATEN ODER DES GEWINNS RESULTIEREN, UNABHÄNGIG DAVON, OB ES SICH UM EINE VERTRAGSVERLETZUNG, EINE FAHRLÄSSIGKEIT ODER EINE ANDERE UNERLAUBTE AKTION HANDELT, DIE AUS ODER IN VERBINDUNG MIT DER NUTZUNG ODER LEISTUNG DIESER SOFTWARE ENTSTEHT.
 
 
 
@@ -1205,7 +1205,7 @@ Copyright (c) Copyright Z. Schlueter und Mitwirkende
 
 Die Berechtigung zum Verwenden, Kopieren, Ändern und/oder Verteilen dieser Software für einen beliebigen Zweck mit oder ohne Gebühr wird gewährt, vorausgesetzt, dass der obige Urheberrechtshinweis und dieser Berechtigungshinweis in allen Kopien angezeigt werden.
 
-DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, UND DER AUTOR LEHNT ALLE GEWÄHRLEISTUNGEN IN BEZUG AUF DIESE SOFTWARE AB, EINSCHLIEßLICH ALLER KONKLUDENTEN GEWÄHRLEISTUNGEN DER HANDELSÜBLICHKEIT UND EIGNUNG. IN KEINEM FALL IST DER AUTOR FÜR BESONDERE, DIREKTE, INDIREKTE ODER FOLGESCHÄDEN ODER SCHÄDEN JEGLICHER ART, DIE SICH AUS DEM VERLUST DER NUTZUNG, DER DATEN ODER DES GEWINNS ERGEBEN, UNABHÄNGIG DAVON, OB ES SICH UM EINE VERTRAGSVERLETZUNG, EINE FAHRLÄSSIGKEIT ODER EINE ANDERE UNERLAUBTE AKTION HANDELT, DIE AUS ODER IN VERBINDUNG MIT DER NUTZUNG ODER LEISTUNG DIESER SOFTWARE ENTSTEHT, VERANTWORTLICH.
+DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, UND DER AUTOR LEHNT ALLE GEWÄHRLEISTUNGEN IN BEZUG AUF DIESE SOFTWARE AB, EINSCHLIEßLICH ALLER KONKLUDENTEN GEWÄHRLEISTUNGEN DER HANDELSÜBLICHKEIT UND EIGNUNG. IN KEINEM FALL HAFTE DER AUTOR FÜR BESONDERE, DIREKTE, INDIREKTE ODER FOLGESCHÄDEN ODER SCHÄDEN, DIE AUS DEM VERLUST DER NUTZUNG, DER DATEN ODER DES GEWINNS RESULTIEREN, UNABHÄNGIG DAVON, OB ES SICH UM EINE VERTRAGSVERLETZUNG, EINE FAHRLÄSSIGKEIT ODER EINE ANDERE UNERLAUBTE AKTION HANDELT, DIE AUS ODER IN VERBINDUNG MIT DER NUTZUNG ODER LEISTUNG DIESER SOFTWARE ENTSTEHT.
 
 
 ---------------------------------------------------------
@@ -1222,7 +1222,7 @@ Copyright (c) Copyright Z. Schlueter und Mitwirkende
 
 Die Berechtigung zum Verwenden, Kopieren, Ändern und/oder Verteilen dieser Software für einen beliebigen Zweck mit oder ohne Gebühr wird gewährt, vorausgesetzt, dass der obige Urheberrechtshinweis und dieser Berechtigungshinweis in allen Kopien angezeigt werden.
 
-DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, UND DER AUTOR LEHNT ALLE GEWÄHRLEISTUNGEN IN BEZUG AUF DIESE SOFTWARE AB, EINSCHLIEßLICH ALLER KONKLUDENTEN GEWÄHRLEISTUNGEN DER HANDELSÜBLICHKEIT UND EIGNUNG. IN KEINEM FALL IST DER AUTOR FÜR BESONDERE, DIREKTE, INDIREKTE ODER FOLGESCHÄDEN ODER SCHÄDEN JEGLICHER ART, DIE SICH AUS DEM VERLUST DER NUTZUNG, DER DATEN ODER DES GEWINNS ERGEBEN, UNABHÄNGIG DAVON, OB ES SICH UM EINE VERTRAGSVERLETZUNG, EINE FAHRLÄSSIGKEIT ODER EINE ANDERE UNERLAUBTE AKTION HANDELT, DIE AUS ODER IN VERBINDUNG MIT DER NUTZUNG ODER LEISTUNG DIESER SOFTWARE ENTSTEHT, VERANTWORTLICH.
+DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, UND DER AUTOR LEHNT ALLE GEWÄHRLEISTUNGEN IN BEZUG AUF DIESE SOFTWARE AB, EINSCHLIEßLICH ALLER KONKLUDENTEN GEWÄHRLEISTUNGEN DER HANDELSÜBLICHKEIT UND EIGNUNG. IN KEINEM FALL HAFTE DER AUTOR FÜR BESONDERE, DIREKTE, INDIREKTE ODER FOLGESCHÄDEN ODER SCHÄDEN, DIE AUS DEM VERLUST DER NUTZUNG, DER DATEN ODER DES GEWINNS RESULTIEREN, UNABHÄNGIG DAVON, OB ES SICH UM EINE VERTRAGSVERLETZUNG, EINE FAHRLÄSSIGKEIT ODER EINE ANDERE UNERLAUBTE AKTION HANDELT, DIE AUS ODER IN VERBINDUNG MIT DER NUTZUNG ODER LEISTUNG DIESER SOFTWARE ENTSTEHT.
 
 
 ---------------------------------------------------------
@@ -1239,7 +1239,7 @@ Copyright (c) Copyright Z. Schlueter und Mitwirkende
 
 Die Berechtigung zum Verwenden, Kopieren, Ändern und/oder Verteilen dieser Software für einen beliebigen Zweck mit oder ohne Gebühr wird gewährt, vorausgesetzt, dass der obige Urheberrechtshinweis und dieser Berechtigungshinweis in allen Kopien angezeigt werden.
 
-DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, UND DER AUTOR LEHNT ALLE GEWÄHRLEISTUNGEN IN BEZUG AUF DIESE SOFTWARE AB, EINSCHLIEßLICH ALLER KONKLUDENTEN GEWÄHRLEISTUNGEN DER HANDELSÜBLICHKEIT UND EIGNUNG. IN KEINEM FALL IST DER AUTOR FÜR BESONDERE, DIREKTE, INDIREKTE ODER FOLGESCHÄDEN ODER SCHÄDEN JEGLICHER ART, DIE SICH AUS DEM VERLUST DER NUTZUNG, DER DATEN ODER DES GEWINNS ERGEBEN, UNABHÄNGIG DAVON, OB ES SICH UM EINE VERTRAGSVERLETZUNG, EINE FAHRLÄSSIGKEIT ODER EINE ANDERE UNERLAUBTE AKTION HANDELT, DIE AUS ODER IN VERBINDUNG MIT DER NUTZUNG ODER LEISTUNG DIESER SOFTWARE ENTSTEHT, VERANTWORTLICH.
+DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, UND DER AUTOR LEHNT ALLE GEWÄHRLEISTUNGEN IN BEZUG AUF DIESE SOFTWARE AB, EINSCHLIEßLICH ALLER KONKLUDENTEN GEWÄHRLEISTUNGEN DER HANDELSÜBLICHKEIT UND EIGNUNG. IN KEINEM FALL HAFTE DER AUTOR FÜR BESONDERE, DIREKTE, INDIREKTE ODER FOLGESCHÄDEN ODER SCHÄDEN, DIE AUS DEM VERLUST DER NUTZUNG, DER DATEN ODER DES GEWINNS RESULTIEREN, UNABHÄNGIG DAVON, OB ES SICH UM EINE VERTRAGSVERLETZUNG, EINE FAHRLÄSSIGKEIT ODER EINE ANDERE UNERLAUBTE AKTION HANDELT, DIE AUS ODER IN VERBINDUNG MIT DER NUTZUNG ODER LEISTUNG DIESER SOFTWARE ENTSTEHT.
 
 
 ---------------------------------------------------------
@@ -1256,7 +1256,7 @@ Copyright (c) Copyright Z. Schlueter und Mitwirkende
 
 Die Berechtigung zum Verwenden, Kopieren, Ändern und/oder Verteilen dieser Software für einen beliebigen Zweck mit oder ohne Gebühr wird gewährt, vorausgesetzt, dass der obige Urheberrechtshinweis und dieser Berechtigungshinweis in allen Kopien angezeigt werden.
 
-DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, UND DER AUTOR LEHNT ALLE GEWÄHRLEISTUNGEN IN BEZUG AUF DIESE SOFTWARE AB, EINSCHLIEßLICH ALLER KONKLUDENTEN GEWÄHRLEISTUNGEN DER HANDELSÜBLICHKEIT UND EIGNUNG. IN KEINEM FALL IST DER AUTOR FÜR BESONDERE, DIREKTE, INDIREKTE ODER FOLGESCHÄDEN ODER SCHÄDEN JEGLICHER ART, DIE SICH AUS DEM VERLUST DER NUTZUNG, DER DATEN ODER DES GEWINNS ERGEBEN, UNABHÄNGIG DAVON, OB ES SICH UM EINE VERTRAGSVERLETZUNG, EINE FAHRLÄSSIGKEIT ODER EINE ANDERE UNERLAUBTE AKTION HANDELT, DIE AUS ODER IN VERBINDUNG MIT DER NUTZUNG ODER LEISTUNG DIESER SOFTWARE ENTSTEHT, VERANTWORTLICH.
+DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, UND DER AUTOR LEHNT ALLE GEWÄHRLEISTUNGEN IN BEZUG AUF DIESE SOFTWARE AB, EINSCHLIEßLICH ALLER KONKLUDENTEN GEWÄHRLEISTUNGEN DER HANDELSÜBLICHKEIT UND EIGNUNG. IN KEINEM FALL HAFTE DER AUTOR FÜR BESONDERE, DIREKTE, INDIREKTE ODER FOLGESCHÄDEN ODER SCHÄDEN, DIE AUS DEM VERLUST DER NUTZUNG, DER DATEN ODER DES GEWINNS RESULTIEREN, UNABHÄNGIG DAVON, OB ES SICH UM EINE VERTRAGSVERLETZUNG, EINE FAHRLÄSSIGKEIT ODER EINE ANDERE UNERLAUBTE AKTION HANDELT, DIE AUS ODER IN VERBINDUNG MIT DER NUTZUNG ODER LEISTUNG DIESER SOFTWARE ENTSTEHT.
 
 
 ---------------------------------------------------------
@@ -1273,7 +1273,7 @@ Copyright (c) Copyright Z. Schlueter und Mitwirkende
 
 Die Berechtigung zum Verwenden, Kopieren, Ändern und/oder Verteilen dieser Software für einen beliebigen Zweck mit oder ohne Gebühr wird gewährt, vorausgesetzt, dass der obige Urheberrechtshinweis und dieser Berechtigungshinweis in allen Kopien angezeigt werden.
 
-DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, UND DER AUTOR LEHNT ALLE GEWÄHRLEISTUNGEN IN BEZUG AUF DIESE SOFTWARE AB, EINSCHLIEßLICH ALLER KONKLUDENTEN GEWÄHRLEISTUNGEN DER HANDELSÜBLICHKEIT UND EIGNUNG. IN KEINEM FALL IST DER AUTOR FÜR BESONDERE, DIREKTE, INDIREKTE ODER FOLGESCHÄDEN ODER SCHÄDEN JEGLICHER ART, DIE SICH AUS DEM VERLUST DER NUTZUNG, DER DATEN ODER DES GEWINNS ERGEBEN, UNABHÄNGIG DAVON, OB ES SICH UM EINE VERTRAGSVERLETZUNG, EINE FAHRLÄSSIGKEIT ODER EINE ANDERE UNERLAUBTE AKTION HANDELT, DIE AUS ODER IN VERBINDUNG MIT DER NUTZUNG ODER LEISTUNG DIESER SOFTWARE ENTSTEHT, VERANTWORTLICH.
+DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, UND DER AUTOR LEHNT ALLE GEWÄHRLEISTUNGEN IN BEZUG AUF DIESE SOFTWARE AB, EINSCHLIEßLICH ALLER KONKLUDENTEN GEWÄHRLEISTUNGEN DER HANDELSÜBLICHKEIT UND EIGNUNG. IN KEINEM FALL HAFTE DER AUTOR FÜR BESONDERE, DIREKTE, INDIREKTE ODER FOLGESCHÄDEN ODER SCHÄDEN, DIE AUS DEM VERLUST DER NUTZUNG, DER DATEN ODER DES GEWINNS RESULTIEREN, UNABHÄNGIG DAVON, OB ES SICH UM EINE VERTRAGSVERLETZUNG, EINE FAHRLÄSSIGKEIT ODER EINE ANDERE UNERLAUBTE AKTION HANDELT, DIE AUS ODER IN VERBINDUNG MIT DER NUTZUNG ODER LEISTUNG DIESER SOFTWARE ENTSTEHT.
 
 
 ---------------------------------------------------------
@@ -1285,7 +1285,7 @@ remove-trailing-separator 1.1.0 - ISC https://github.com/darsain/remove-trailing
 
 Die Berechtigung zum Verwenden, Kopieren, Ändern und/oder Verteilen dieser Software für einen beliebigen Zweck mit oder ohne Gebühr wird gewährt, vorausgesetzt, dass der obige Urheberrechtshinweis und dieser Berechtigungshinweis in allen Kopien angezeigt werden.
 
-DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, UND DER AUTOR LEHNT ALLE GEWÄHRLEISTUNGEN IN BEZUG AUF DIESE SOFTWARE AB, EINSCHLIEßLICH ALLER KONKLUDENTEN GEWÄHRLEISTUNGEN DER HANDELSÜBLICHKEIT UND EIGNUNG. IN KEINEM FALL IST DER AUTOR FÜR BESONDERE, DIREKTE, INDIREKTE ODER FOLGESCHÄDEN ODER SCHÄDEN JEGLICHER ART, DIE SICH AUS DEM VERLUST DER NUTZUNG, DER DATEN ODER DES GEWINNS ERGEBEN, UNABHÄNGIG DAVON, OB ES SICH UM EINE VERTRAGSVERLETZUNG, EINE FAHRLÄSSIGKEIT ODER EINE ANDERE UNERLAUBTE AKTION HANDELT, DIE AUS ODER IN VERBINDUNG MIT DER NUTZUNG ODER LEISTUNG DIESER SOFTWARE ENTSTEHT, VERANTWORTLICH.
+DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, UND DER AUTOR LEHNT ALLE GEWÄHRLEISTUNGEN IN BEZUG AUF DIESE SOFTWARE AB, EINSCHLIEßLICH ALLER KONKLUDENTEN GEWÄHRLEISTUNGEN DER HANDELSÜBLICHKEIT UND EIGNUNG. IN KEINEM FALL HAFTE DER AUTOR FÜR BESONDERE, DIREKTE, INDIREKTE ODER FOLGESCHÄDEN ODER SCHÄDEN, DIE AUS DEM VERLUST DER NUTZUNG, DER DATEN ODER DES GEWINNS RESULTIEREN, UNABHÄNGIG DAVON, OB ES SICH UM EINE VERTRAGSVERLETZUNG, EINE FAHRLÄSSIGKEIT ODER EINE ANDERE UNERLAUBTE AKTION HANDELT, DIE AUS ODER IN VERBINDUNG MIT DER NUTZUNG ODER LEISTUNG DIESER SOFTWARE ENTSTEHT.
 
 ---------------------------------------------------------
 
@@ -1301,7 +1301,7 @@ Copyright (c) Copyright Z. Schlueter und Mitwirkende
 
 Die Berechtigung zum Verwenden, Kopieren, Ändern und/oder Verteilen dieser Software für einen beliebigen Zweck mit oder ohne Gebühr wird gewährt, vorausgesetzt, dass der obige Urheberrechtshinweis und dieser Berechtigungshinweis in allen Kopien angezeigt werden.
 
-DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, UND DER AUTOR LEHNT ALLE GEWÄHRLEISTUNGEN IN BEZUG AUF DIESE SOFTWARE AB, EINSCHLIEßLICH ALLER KONKLUDENTEN GEWÄHRLEISTUNGEN DER HANDELSÜBLICHKEIT UND EIGNUNG. IN KEINEM FALL IST DER AUTOR FÜR BESONDERE, DIREKTE, INDIREKTE ODER FOLGESCHÄDEN ODER SCHÄDEN JEGLICHER ART, DIE SICH AUS DEM VERLUST DER NUTZUNG, DER DATEN ODER DES GEWINNS ERGEBEN, UNABHÄNGIG DAVON, OB ES SICH UM EINE VERTRAGSVERLETZUNG, EINE FAHRLÄSSIGKEIT ODER EINE ANDERE UNERLAUBTE AKTION HANDELT, DIE AUS ODER IN VERBINDUNG MIT DER NUTZUNG ODER LEISTUNG DIESER SOFTWARE ENTSTEHT, VERANTWORTLICH.
+DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, UND DER AUTOR LEHNT ALLE GEWÄHRLEISTUNGEN IN BEZUG AUF DIESE SOFTWARE AB, EINSCHLIEßLICH ALLER KONKLUDENTEN GEWÄHRLEISTUNGEN DER HANDELSÜBLICHKEIT UND EIGNUNG. IN KEINEM FALL HAFTE DER AUTOR FÜR BESONDERE, DIREKTE, INDIREKTE ODER FOLGESCHÄDEN ODER SCHÄDEN, DIE AUS DEM VERLUST DER NUTZUNG, DER DATEN ODER DES GEWINNS RESULTIEREN, UNABHÄNGIG DAVON, OB ES SICH UM EINE VERTRAGSVERLETZUNG, EINE FAHRLÄSSIGKEIT ODER EINE ANDERE UNERLAUBTE AKTION HANDELT, DIE AUS ODER IN VERBINDUNG MIT DER NUTZUNG ODER LEISTUNG DIESER SOFTWARE ENTSTEHT.
 
 
 ---------------------------------------------------------
@@ -1318,7 +1318,7 @@ Copyright (c) 2015, Mitwirkende
 
 Die Berechtigung zum Verwenden, Kopieren, Ändern und/oder Verteilen dieser Software für einen beliebigen Zweck mit oder ohne Gebühr wird gewährt, vorausgesetzt, dass der obige Urheberrechtshinweis und dieser Berechtigungshinweis in allen Kopien angezeigt werden.
 
-DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, UND DER AUTOR LEHNT ALLE GEWÄHRLEISTUNGEN IN BEZUG AUF DIESE SOFTWARE AB, EINSCHLIEßLICH ALLER KONKLUDENTEN GEWÄHRLEISTUNGEN DER HANDELSÜBLICHKEIT UND EIGNUNG. IN KEINEM FALL IST DER AUTOR FÜR BESONDERE, DIREKTE, INDIREKTE ODER FOLGESCHÄDEN ODER SCHÄDEN JEGLICHER ART, DIE SICH AUS DEM VERLUST DER NUTZUNG, DER DATEN ODER DES GEWINNS ERGEBEN, UNABHÄNGIG DAVON, OB ES SICH UM EINE VERTRAGSVERLETZUNG, EINE FAHRLÄSSIGKEIT ODER EINE ANDERE UNERLAUBTE AKTION HANDELT, DIE AUS ODER IN VERBINDUNG MIT DER NUTZUNG ODER LEISTUNG DIESER SOFTWARE ENTSTEHT, VERANTWORTLICH.
+DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, UND DER AUTOR LEHNT ALLE GEWÄHRLEISTUNGEN IN BEZUG AUF DIESE SOFTWARE AB, EINSCHLIEßLICH ALLER KONKLUDENTEN GEWÄHRLEISTUNGEN DER HANDELSÜBLICHKEIT UND EIGNUNG. IN KEINEM FALL HAFTE DER AUTOR FÜR BESONDERE, DIREKTE, INDIREKTE ODER FOLGESCHÄDEN ODER SCHÄDEN, DIE AUS DEM VERLUST DER NUTZUNG, DER DATEN ODER DES GEWINNS RESULTIEREN, UNABHÄNGIG DAVON, OB ES SICH UM EINE VERTRAGSVERLETZUNG, EINE FAHRLÄSSIGKEIT ODER EINE ANDERE UNERLAUBTE AKTION HANDELT, DIE AUS ODER IN VERBINDUNG MIT DER NUTZUNG ODER LEISTUNG DIESER SOFTWARE ENTSTEHT.
 
 
 ---------------------------------------------------------
@@ -1335,7 +1335,7 @@ Copyright (c) Copyright Z. Schlueter und Mitwirkende
 
 Die Berechtigung zum Verwenden, Kopieren, Ändern und/oder Verteilen dieser Software für einen beliebigen Zweck mit oder ohne Gebühr wird gewährt, vorausgesetzt, dass der obige Urheberrechtshinweis und dieser Berechtigungshinweis in allen Kopien angezeigt werden.
 
-DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, UND DER AUTOR LEHNT ALLE GEWÄHRLEISTUNGEN IN BEZUG AUF DIESE SOFTWARE AB, EINSCHLIEßLICH ALLER KONKLUDENTEN GEWÄHRLEISTUNGEN DER HANDELSÜBLICHKEIT UND EIGNUNG. IN KEINEM FALL IST DER AUTOR FÜR BESONDERE, DIREKTE, INDIREKTE ODER FOLGESCHÄDEN ODER SCHÄDEN JEGLICHER ART, DIE SICH AUS DEM VERLUST DER NUTZUNG, DER DATEN ODER DES GEWINNS ERGEBEN, UNABHÄNGIG DAVON, OB ES SICH UM EINE VERTRAGSVERLETZUNG, EINE FAHRLÄSSIGKEIT ODER EINE ANDERE UNERLAUBTE AKTION HANDELT, DIE AUS ODER IN VERBINDUNG MIT DER NUTZUNG ODER LEISTUNG DIESER SOFTWARE ENTSTEHT, VERANTWORTLICH.
+DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, UND DER AUTOR LEHNT ALLE GEWÄHRLEISTUNGEN IN BEZUG AUF DIESE SOFTWARE AB, EINSCHLIEßLICH ALLER KONKLUDENTEN GEWÄHRLEISTUNGEN DER HANDELSÜBLICHKEIT UND EIGNUNG. IN KEINEM FALL HAFTE DER AUTOR FÜR BESONDERE, DIREKTE, INDIREKTE ODER FOLGESCHÄDEN ODER SCHÄDEN, DIE AUS DEM VERLUST DER NUTZUNG, DER DATEN ODER DES GEWINNS RESULTIEREN, UNABHÄNGIG DAVON, OB ES SICH UM EINE VERTRAGSVERLETZUNG, EINE FAHRLÄSSIGKEIT ODER EINE ANDERE UNERLAUBTE AKTION HANDELT, DIE AUS ODER IN VERBINDUNG MIT DER NUTZUNG ODER LEISTUNG DIESER SOFTWARE ENTSTEHT.
 
 
 ---------------------------------------------------------
@@ -1352,7 +1352,7 @@ Copyright (c) Copyright Z. Schlueter und Mitwirkende
 
 Die Berechtigung zum Verwenden, Kopieren, Ändern und/oder Verteilen dieser Software für einen beliebigen Zweck mit oder ohne Gebühr wird gewährt, vorausgesetzt, dass der obige Urheberrechtshinweis und dieser Berechtigungshinweis in allen Kopien angezeigt werden.
 
-DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, UND DER AUTOR LEHNT ALLE GEWÄHRLEISTUNGEN IN BEZUG AUF DIESE SOFTWARE AB, EINSCHLIEßLICH ALLER KONKLUDENTEN GEWÄHRLEISTUNGEN DER HANDELSÜBLICHKEIT UND EIGNUNG. IN KEINEM FALL IST DER AUTOR FÜR BESONDERE, DIREKTE, INDIREKTE ODER FOLGESCHÄDEN ODER SCHÄDEN JEGLICHER ART, DIE SICH AUS DEM VERLUST DER NUTZUNG, DER DATEN ODER DES GEWINNS ERGEBEN, UNABHÄNGIG DAVON, OB ES SICH UM EINE VERTRAGSVERLETZUNG, EINE FAHRLÄSSIGKEIT ODER EINE ANDERE UNERLAUBTE AKTION HANDELT, DIE AUS ODER IN VERBINDUNG MIT DER NUTZUNG ODER LEISTUNG DIESER SOFTWARE ENTSTEHT, VERANTWORTLICH.
+DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, UND DER AUTOR LEHNT ALLE GEWÄHRLEISTUNGEN IN BEZUG AUF DIESE SOFTWARE AB, EINSCHLIEßLICH ALLER KONKLUDENTEN GEWÄHRLEISTUNGEN DER HANDELSÜBLICHKEIT UND EIGNUNG. IN KEINEM FALL HAFTE DER AUTOR FÜR BESONDERE, DIREKTE, INDIREKTE ODER FOLGESCHÄDEN ODER SCHÄDEN, DIE AUS DEM VERLUST DER NUTZUNG, DER DATEN ODER DES GEWINNS RESULTIEREN, UNABHÄNGIG DAVON, OB ES SICH UM EINE VERTRAGSVERLETZUNG, EINE FAHRLÄSSIGKEIT ODER EINE ANDERE UNERLAUBTE AKTION HANDELT, DIE AUS ODER IN VERBINDUNG MIT DER NUTZUNG ODER LEISTUNG DIESER SOFTWARE ENTSTEHT.
 
 
 ---------------------------------------------------------
@@ -1367,11 +1367,11 @@ MIT-Lizenz
 
 Copyright (c) 2014-present Mv McKenzie und andere Mitwirkende
 
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um die Software ohne Einschränkung zu bearbeiten, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
-DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER AUS DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
+DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
 
 
 ---------------------------------------------------------
@@ -1631,7 +1631,7 @@ MIT-Lizenz
 
 Copyright (c) 2014-present Mv McKenzie und andere Mitwirkende
 
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um die Software ohne Einschränkung zu bearbeiten, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
@@ -1651,7 +1651,7 @@ MIT-Lizenz
 
 Copyright (c) Teammitglieder und andere Mitwirkende
 
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um die Software ohne Einschränkung zu bearbeiten, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
@@ -1671,7 +1671,7 @@ MIT-Lizenz
 
 Copyright (c) Teammitglieder und andere Mitwirkende
 
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um die Software ohne Einschränkung zu bearbeiten, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
@@ -1691,7 +1691,7 @@ MIT-Lizenz
 
 Copyright (c) Teammitglieder und andere Mitwirkende
 
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um die Software ohne Einschränkung zu bearbeiten, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
@@ -1713,7 +1713,7 @@ Alle Rechte vorbehalten.
 
 MIT-Lizenz
 
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um uneingeschränkt mit der Software zu arbeiten, einschließlich ohne Einschränkung der Rechte zur Verwendung, Kopie, Änderung, Zusammenführung, Veröffentlichung, Verteilung, Unterlizenzierung und/oder zum Verkauf von Kopien der Software und um Personen, denen die Software dazu verpflichtet ist, dies zu gestatten,  unter den folgenden Bedingungen:
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zur Verwendung, Kopie, Änderung, Zusammenführung, Veröffentlichung, Verteilung, Unterlizenzierung und/oder zum Verkauf von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
@@ -1730,7 +1730,7 @@ Hinweis: Die Verwendung der Schriftarten und Symbole, auf die in Fluent UI-React
 
 Copyright (c) Microsoft Corporation
 
-@fluentui/dom-utilities
+@fluentui/Dom-Dienstprogramme
 
 Copyright (c) Microsoft Corporation
 
@@ -1738,7 +1738,7 @@ Alle Rechte vorbehalten.
 
 MIT-Lizenz
 
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um uneingeschränkt mit der Software zu arbeiten, einschließlich ohne Einschränkung der Rechte zur Verwendung, Kopie, Änderung, Zusammenführung, Veröffentlichung, Verteilung, Unterlizenzierung und/oder zum Verkauf von Kopien der Software und um Personen, denen die Software dazu verpflichtet ist, dies zu gestatten,  unter den folgenden Bedingungen:
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zur Verwendung, Kopie, Änderung, Zusammenführung, Veröffentlichung, Verteilung, Unterlizenzierung und/oder zum Verkauf von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
@@ -1754,7 +1754,7 @@ Hinweis: Die Verwendung der Schriftarten und Symbole, auf die in Fluent UI-React
 @fluentui/dom-utilities 2.1.4 – MIT https://github.com/microsoft/fluentui#readme
 
 
-@fluentui/dom-utilities
+@fluentui/Dom-Dienstprogramme
 
 Copyright (c) Microsoft Corporation
 
@@ -1762,7 +1762,7 @@ Alle Rechte vorbehalten.
 
 MIT-Lizenz
 
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um uneingeschränkt mit der Software zu arbeiten, einschließlich ohne Einschränkung der Rechte zur Verwendung, Kopie, Änderung, Zusammenführung, Veröffentlichung, Verteilung, Unterlizenzierung und/oder zum Verkauf von Kopien der Software und um Personen, denen die Software dazu verpflichtet ist, dies zu gestatten,  unter den folgenden Bedingungen:
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zur Verwendung, Kopie, Änderung, Zusammenführung, Veröffentlichung, Verteilung, Unterlizenzierung und/oder zum Verkauf von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
@@ -1786,7 +1786,7 @@ Alle Rechte vorbehalten.
 
 MIT-Lizenz
 
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um uneingeschränkt mit der Software zu arbeiten, einschließlich ohne Einschränkung der Rechte zur Verwendung, Kopie, Änderung, Zusammenführung, Veröffentlichung, Verteilung, Unterlizenzierung und/oder zum Verkauf von Kopien der Software und um Personen, denen die Software dazu verpflichtet ist, dies zu gestatten,  unter den folgenden Bedingungen:
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zur Verwendung, Kopie, Änderung, Zusammenführung, Veröffentlichung, Verteilung, Unterlizenzierung und/oder zum Verkauf von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
@@ -1810,7 +1810,7 @@ Alle Rechte vorbehalten.
 
 MIT-Lizenz
 
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um uneingeschränkt mit der Software zu arbeiten, einschließlich ohne Einschränkung der Rechte zur Verwendung, Kopie, Änderung, Zusammenführung, Veröffentlichung, Verteilung, Unterlizenzierung und/oder zum Verkauf von Kopien der Software und um Personen, denen die Software dazu verpflichtet ist, dies zu gestatten,  unter den folgenden Bedingungen:
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zur Verwendung, Kopie, Änderung, Zusammenführung, Veröffentlichung, Verteilung, Unterlizenzierung und/oder zum Verkauf von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
@@ -1835,7 +1835,7 @@ Alle Rechte vorbehalten.
 
 MIT-Lizenz
 
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um uneingeschränkt mit der Software zu arbeiten, einschließlich ohne Einschränkung der Rechte zur Verwendung, Kopie, Änderung, Zusammenführung, Veröffentlichung, Verteilung, Unterlizenzierung und/oder zum Verkauf von Kopien der Software und um Personen, denen die Software dazu verpflichtet ist, dies zu gestatten,  unter den folgenden Bedingungen:
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zur Verwendung, Kopie, Änderung, Zusammenführung, Veröffentlichung, Verteilung, Unterlizenzierung und/oder zum Verkauf von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
@@ -1860,11 +1860,11 @@ Alle Rechte vorbehalten.
 
 MIT-Lizenz
 
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um uneingeschränkt mit der Software zu arbeiten, einschließlich ohne Einschränkung der Rechte zur Verwendung, Kopie, Änderung, Zusammenführung, Veröffentlichung, Verteilung, Unterlizenzierung und/oder zum Verkauf von Kopien der Software und um Personen, denen die Software dazu verpflichtet ist, dies zu gestatten,  unter den folgenden Bedingungen:
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zur Verwendung, Kopie, Änderung, Zusammenführung, Veröffentlichung, Verteilung, Unterlizenzierung und/oder zum Verkauf von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
-DIE SOFTWARE WIRD *OHNE* JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, BEREITGESTELLT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER AUS DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
+DIE SOFTWARE WIRD *OHNE* JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, BEREITGESTELLT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
 
 Hinweis: Die Verwendung der Schriftarten und Symbole, auf die in Fluent UI-React verwiesen wird, unterliegt den unterhttps://aka.ms/fluentui-assets-license
 
@@ -1877,7 +1877,7 @@ Hinweis: Die Verwendung der Schriftarten und Symbole, auf die in Fluent UI-React
 
 Copyright (c) Microsoft Corporation
 
-Fluent UI-React – Seriendruckformatvorlagen
+Fluent UI-React – Seriendruckstile
 
 Copyright (c) Microsoft Corporation
 
@@ -1885,11 +1885,11 @@ Alle Rechte vorbehalten.
 
 MIT-Lizenz
 
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um uneingeschränkt mit der Software zu arbeiten, einschließlich ohne Einschränkung der Rechte zur Verwendung, Kopie, Änderung, Zusammenführung, Veröffentlichung, Verteilung, Unterlizenzierung und/oder zum Verkauf von Kopien der Software und um Personen, denen die Software dazu verpflichtet ist, dies zu gestatten,  unter den folgenden Bedingungen:
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zur Verwendung, Kopie, Änderung, Zusammenführung, Veröffentlichung, Verteilung, Unterlizenzierung und/oder zum Verkauf von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
-DIE SOFTWARE WIRD *OHNE* JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, BEREITGESTELLT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER AUS DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
+DIE SOFTWARE WIRD *OHNE* JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, BEREITGESTELLT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
 
 Hinweis: Die Verwendung der Schriftarten und Symbole, auf die in Fluent UI-React verwiesen wird, unterliegt den unterhttps://aka.ms/fluentui-assets-license
 
@@ -1911,11 +1911,11 @@ Alle Rechte vorbehalten.
 
 MIT-Lizenz
 
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um uneingeschränkt mit der Software zu arbeiten, einschließlich ohne Einschränkung der Rechte zur Verwendung, Kopie, Änderung, Zusammenführung, Veröffentlichung, Verteilung, Unterlizenzierung und/oder zum Verkauf von Kopien der Software und um Personen, denen die Software dazu verpflichtet ist, dies zu gestatten,  unter den folgenden Bedingungen:
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zur Verwendung, Kopie, Änderung, Zusammenführung, Veröffentlichung, Verteilung, Unterlizenzierung und/oder zum Verkauf von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
-DIE SOFTWARE WIRD *OHNE* JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, BEREITGESTELLT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER AUS DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
+DIE SOFTWARE WIRD *OHNE* JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, BEREITGESTELLT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
 
 Hinweis: Die Verwendung der Schriftarten und Symbole, auf die in Fluent UI-React verwiesen wird, unterliegt den unterhttps://aka.ms/fabric-assets-license
 
@@ -1935,11 +1935,11 @@ Alle Rechte vorbehalten.
 
 MIT-Lizenz
 
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um uneingeschränkt mit der Software zu arbeiten, einschließlich ohne Einschränkung der Rechte zur Verwendung, Kopie, Änderung, Zusammenführung, Veröffentlichung, Verteilung, Unterlizenzierung und/oder zum Verkauf von Kopien der Software und um Personen, denen die Software dazu verpflichtet ist, dies zu gestatten,  unter den folgenden Bedingungen:
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zur Verwendung, Kopie, Änderung, Zusammenführung, Veröffentlichung, Verteilung, Unterlizenzierung und/oder zum Verkauf von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
-DIE SOFTWARE WIRD *OHNE* JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, BEREITGESTELLT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER AUS DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
+DIE SOFTWARE WIRD *OHNE* JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, BEREITGESTELLT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
 
 Hinweis: Die Verwendung der Schriftarten und Symbole, auf die in Fluent UI-React verwiesen wird, unterliegt den unterhttps://aka.ms/fluentui-assets-license
 
@@ -1960,11 +1960,11 @@ Alle Rechte vorbehalten.
 
 MIT-Lizenz
 
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um uneingeschränkt mit der Software zu arbeiten, einschließlich ohne Einschränkung der Rechte zur Verwendung, Kopie, Änderung, Zusammenführung, Veröffentlichung, Verteilung, Unterlizenzierung und/oder zum Verkauf von Kopien der Software und um Personen, denen die Software dazu verpflichtet ist, dies zu gestatten,  unter den folgenden Bedingungen:
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zur Verwendung, Kopie, Änderung, Zusammenführung, Veröffentlichung, Verteilung, Unterlizenzierung und/oder zum Verkauf von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
-DIE SOFTWARE WIRD *OHNE* JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, BEREITGESTELLT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER AUS DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
+DIE SOFTWARE WIRD *OHNE* JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, BEREITGESTELLT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
 
 Hinweis: Die Verwendung der Schriftarten und Symbole, auf die in Fluent UI-React verwiesen wird, unterliegt den unterhttps://aka.ms/fluentui-assets-license
 
@@ -1977,7 +1977,7 @@ Hinweis: Die Verwendung der Schriftarten und Symbole, auf die in Fluent UI-React
 
 Copyright (c) Microsoft Corporation
 
-@fluentui/React-Fensteranbieter
+@fluentui/react-window-provider
 
 Copyright (c) Microsoft Corporation
 
@@ -1985,11 +1985,11 @@ Alle Rechte vorbehalten.
 
 MIT-Lizenz
 
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um uneingeschränkt mit der Software zu arbeiten, einschließlich ohne Einschränkung der Rechte zur Verwendung, Kopie, Änderung, Zusammenführung, Veröffentlichung, Verteilung, Unterlizenzierung und/oder zum Verkauf von Kopien der Software und um Personen, denen die Software dazu verpflichtet ist, dies zu gestatten,  unter den folgenden Bedingungen:
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zur Verwendung, Kopie, Änderung, Zusammenführung, Veröffentlichung, Verteilung, Unterlizenzierung und/oder zum Verkauf von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
-DIE SOFTWARE WIRD *OHNE* JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, BEREITGESTELLT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER AUS DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
+DIE SOFTWARE WIRD *OHNE* JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, BEREITGESTELLT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
 
 Hinweis: Die Verwendung der Schriftarten und Symbole, auf die in Fluent UI-React verwiesen wird, unterliegt den unterhttps://aka.ms/fluentui-assets-license
 
@@ -2010,11 +2010,11 @@ Alle Rechte vorbehalten.
 
 MIT-Lizenz
 
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um uneingeschränkt mit der Software zu arbeiten, einschließlich ohne Einschränkung der Rechte zur Verwendung, Kopie, Änderung, Zusammenführung, Veröffentlichung, Verteilung, Unterlizenzierung und/oder zum Verkauf von Kopien der Software und um Personen, denen die Software dazu verpflichtet ist, dies zu gestatten,  unter den folgenden Bedingungen:
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zur Verwendung, Kopie, Änderung, Zusammenführung, Veröffentlichung, Verteilung, Unterlizenzierung und/oder zum Verkauf von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
-DIE SOFTWARE WIRD *OHNE* JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, BEREITGESTELLT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER AUS DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
+DIE SOFTWARE WIRD *OHNE* JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, BEREITGESTELLT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
 
 Hinweis: Die Verwendung der Schriftarten und Symbole, auf die in Fluent UI-React verwiesen wird, unterliegt den unterhttps://aka.ms/fluentui-assets-license
 
@@ -2034,11 +2034,11 @@ Alle Rechte vorbehalten.
 
 MIT-Lizenz
 
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um uneingeschränkt mit der Software zu arbeiten, einschließlich ohne Einschränkung der Rechte zur Verwendung, Kopie, Änderung, Zusammenführung, Veröffentlichung, Verteilung, Unterlizenzierung und/oder zum Verkauf von Kopien der Software und um Personen, denen die Software dazu verpflichtet ist, dies zu gestatten,  unter den folgenden Bedingungen:
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zur Verwendung, Kopie, Änderung, Zusammenführung, Veröffentlichung, Verteilung, Unterlizenzierung und/oder zum Verkauf von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
-DIE SOFTWARE WIRD *OHNE* JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, BEREITGESTELLT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER AUS DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
+DIE SOFTWARE WIRD *OHNE* JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, BEREITGESTELLT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
 
 Hinweis: Die Verwendung der Schriftarten und Symbole, auf die in Fluent UI-React verwiesen wird, unterliegt den unterhttps://aka.ms/fluentui-assets-license
 
@@ -2059,11 +2059,11 @@ Alle Rechte vorbehalten.
 
 MIT-Lizenz
 
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um uneingeschränkt mit der Software zu arbeiten, einschließlich ohne Einschränkung der Rechte zur Verwendung, Kopie, Änderung, Zusammenführung, Veröffentlichung, Verteilung, Unterlizenzierung und/oder zum Verkauf von Kopien der Software und um Personen, denen die Software dazu verpflichtet ist, dies zu gestatten,  unter den folgenden Bedingungen:
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zur Verwendung, Kopie, Änderung, Zusammenführung, Veröffentlichung, Verteilung, Unterlizenzierung und/oder zum Verkauf von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
-DIE SOFTWARE WIRD *OHNE* JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, BEREITGESTELLT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER AUS DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
+DIE SOFTWARE WIRD *OHNE* JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, BEREITGESTELLT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
 
 Hinweis: Die Verwendung der Schriftarten und Symbole, auf die in Fluent UI-React verwiesen wird, unterliegt den unterhttps://aka.ms/fluentui-assets-license
 
@@ -2072,7 +2072,7 @@ Hinweis: Die Verwendung der Schriftarten und Symbole, auf die in Fluent UI-React
 
 ---------------------------------------------------------
 
-@fluentui/theme 2.4.0 – MIT https://github.com/microsoft/fluentui#readme
+@fluentui/Theme 2.4.0 – MIT https://github.com/microsoft/fluentui#readme
 
 Copyright (c) Microsoft Corporation
 
@@ -2088,7 +2088,7 @@ Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöri
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
-DIE SOFTWARE WIRD *OHNE* JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, BEREITGESTELLT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER AUS DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
+DIE SOFTWARE WIRD *OHNE* GARANTIE JEGLICHER ART, AUSDRÜCKLICH ODER KONKLUDENT BEREITGESTELLT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
 
 Hinweis: Die Verwendung der Schriftarten und Symbole, auf die in Fluent UI-React verwiesen wird, unterliegt den unterhttps://aka.ms/fluentui-assets-license
 
@@ -2113,7 +2113,7 @@ Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöri
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
-DIE SOFTWARE WIRD *OHNE* JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, BEREITGESTELLT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER AUS DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
+DIE SOFTWARE WIRD *OHNE* GARANTIE JEGLICHER ART, AUSDRÜCKLICH ODER KONKLUDENT BEREITGESTELLT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
 
 Hinweis: Die Verwendung der Schriftarten und Symbole, auf die in Fluent UI-React verwiesen wird, unterliegt den unterhttps://aka.ms/fluentui-assets-license
 
@@ -2133,11 +2133,11 @@ Copyright (c) Microsoft Corporation. Alle Rechte vorbehalten.
 
 MIT-Lizenz
 
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um die Software ohne Einschränkung zu bearbeiten, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
-DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER AUS DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
+DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
 
 ---------------------------------------------------------
 
@@ -2151,11 +2151,11 @@ Die MIT-Lizenz (MIT)
 
 Copyright (c) 2016 Jakob Messinger
 
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um die Software ohne Einschränkung zu bearbeiten, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
-DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER AUS DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
+DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
 
 .
 
@@ -2171,11 +2171,11 @@ MIT-Lizenz
 
 Copyright (c) <year> <copyright holders>
 
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um die Software ohne Einschränkung zu bearbeiten, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
-DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER AUS DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
+DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
 
 ---------------------------------------------------------
 
@@ -2189,11 +2189,11 @@ Die MIT-Lizenz (MIT)
 
 Copyright (c) 2015 Yassine Elouafi
 
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um die Software ohne Einschränkung zu bearbeiten, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
-DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER AUS DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
+DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
 
 
 
@@ -2209,11 +2209,11 @@ Die MIT-Lizenz (MIT)
 
 Copyright (c) 2015 Yassine Elouafi
 
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um die Software ohne Einschränkung zu bearbeiten, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
-DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER AUS DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
+DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
 
 
 
@@ -2229,11 +2229,11 @@ Die MIT-Lizenz (MIT)
 
 Copyright (c) 2015 Yassine Elouafi
 
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um die Software ohne Einschränkung zu bearbeiten, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
-DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER AUS DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
+DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
 
 
 
@@ -2249,11 +2249,11 @@ Die MIT-Lizenz (MIT)
 
 Copyright (c) 2015 Yassine Elouafi
 
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um die Software ohne Einschränkung zu bearbeiten, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
-DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER AUS DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
+DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
 
 
 
@@ -2269,11 +2269,11 @@ Die MIT-Lizenz (MIT)
 
 Copyright (c) 2015 Yassine Elouafi
 
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um die Software ohne Einschränkung zu bearbeiten, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
-DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER AUS DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
+DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
 
 
 
@@ -2289,11 +2289,11 @@ Die MIT-Lizenz (MIT)
 
 Copyright (c) 2015 Yassine Elouafi
 
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um die Software ohne Einschränkung zu bearbeiten, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
-DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER AUS DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
+DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
 
 
 
@@ -2309,11 +2309,11 @@ MIT-Lizenz
 
 Copyright (c) <year> <copyright holders>
 
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um die Software ohne Einschränkung zu bearbeiten, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
-DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER AUS DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
+DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
 
 ---------------------------------------------------------
 
@@ -2323,7 +2323,7 @@ DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜC
 
 Copyright (c) Microsoft Corporation.
 
-Fluent UI-React – Seriendruckformatvorlagen
+Fluent UI-React – Seriendruckstile
 
 Copyright (c) Microsoft Corporation
 
@@ -2331,11 +2331,11 @@ Alle Rechte vorbehalten.
 
 MIT-Lizenz
 
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um uneingeschränkt mit der Software zu arbeiten, einschließlich ohne Einschränkung der Rechte zur Verwendung, Kopie, Änderung, Zusammenführung, Veröffentlichung, Verteilung, Unterlizenzierung und/oder zum Verkauf von Kopien der Software und um Personen, denen die Software dazu verpflichtet ist, dies zu gestatten,  unter den folgenden Bedingungen:
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zur Verwendung, Kopie, Änderung, Zusammenführung, Veröffentlichung, Verteilung, Unterlizenzierung und/oder zum Verkauf von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
-DIE SOFTWARE WIRD *OHNE* JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, BEREITGESTELLT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER AUS DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
+DIE SOFTWARE WIRD *OHNE* JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, BEREITGESTELLT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
 
 Hinweis: Die Verwendung der Schriftarten und Symbole, auf die in Fluent UI-React verwiesen wird, unterliegt den unterhttps://aka.ms/fluentui-assets-license
 
@@ -2356,11 +2356,11 @@ Alle Rechte vorbehalten.
 
 MIT-Lizenz
 
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um uneingeschränkt mit der Software zu arbeiten, einschließlich ohne Einschränkung der Rechte zur Verwendung, Kopie, Änderung, Zusammenführung, Veröffentlichung, Verteilung, Unterlizenzierung und/oder zum Verkauf von Kopien der Software und um Personen, denen die Software dazu verpflichtet ist, dies zu gestatten,  unter den folgenden Bedingungen:
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zur Verwendung, Kopie, Änderung, Zusammenführung, Veröffentlichung, Verteilung, Unterlizenzierung und/oder zum Verkauf von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
-DIE SOFTWARE WIRD *OHNE* JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, BEREITGESTELLT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER AUS DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
+DIE SOFTWARE WIRD *OHNE* JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, BEREITGESTELLT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
 
 Hinweis: Die Verwendung der Schriftarten und Symbole, auf die in Fluent UI-React verwiesen wird, unterliegt den unterhttps://aka.ms/fluentui-assets-license
 
@@ -2381,11 +2381,11 @@ Alle Rechte vorbehalten.
 
 MIT-Lizenz
 
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um uneingeschränkt mit der Software zu arbeiten, einschließlich ohne Einschränkung der Rechte zur Verwendung, Kopie, Änderung, Zusammenführung, Veröffentlichung, Verteilung, Unterlizenzierung und/oder zum Verkauf von Kopien der Software und um Personen, denen die Software dazu verpflichtet ist, dies zu gestatten,  unter den folgenden Bedingungen:
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zur Verwendung, Kopie, Änderung, Zusammenführung, Veröffentlichung, Verteilung, Unterlizenzierung und/oder zum Verkauf von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
-DIE SOFTWARE WIRD *OHNE* JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, BEREITGESTELLT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER AUS DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
+DIE SOFTWARE WIRD *OHNE* JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, BEREITGESTELLT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
 
 Hinweis: Die Verwendung der Schriftarten und Symbole, auf die in Fluent UI-React verwiesen wird, unterliegt den unterhttps://aka.ms/fluentui-assets-license
 
@@ -2406,11 +2406,11 @@ Alle Rechte vorbehalten.
 
 MIT-Lizenz
 
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um uneingeschränkt mit der Software zu arbeiten, einschließlich ohne Einschränkung der Rechte zur Verwendung, Kopie, Änderung, Zusammenführung, Veröffentlichung, Verteilung, Unterlizenzierung und/oder zum Verkauf von Kopien der Software und um Personen, denen die Software dazu verpflichtet ist, dies zu gestatten,  unter den folgenden Bedingungen:
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zur Verwendung, Kopie, Änderung, Zusammenführung, Veröffentlichung, Verteilung, Unterlizenzierung und/oder zum Verkauf von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
-DIE SOFTWARE WIRD *OHNE* JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, BEREITGESTELLT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER AUS DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
+DIE SOFTWARE WIRD *OHNE* JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, BEREITGESTELLT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
 
 Hinweis: Die Verwendung der Schriftarten und Symbole, auf die in Fluent UI-React verwiesen wird, unterliegt den unterhttps://aka.ms/fluentui-assets-license
 
@@ -2431,7 +2431,7 @@ Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöri
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
-DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER AUS DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
+DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
 
 
 ---------------------------------------------------------
@@ -2452,7 +2452,7 @@ Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöri
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
-DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER AUS DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
+DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
 
 
 
@@ -2472,7 +2472,7 @@ Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöri
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
-DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER AUS DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
+DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
 
 
 ---------------------------------------------------------
@@ -2491,7 +2491,7 @@ Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöri
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
-DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER AUS DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
+DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
 
 
 ---------------------------------------------------------
@@ -2510,7 +2510,7 @@ Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöri
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
-DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER AUS DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
+DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
 
 
 ---------------------------------------------------------
@@ -2529,14 +2529,14 @@ Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöri
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
-DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER AUS DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
+DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
 
 
 ---------------------------------------------------------
 
 ---------------------------------------------------------
 
-ansi-regex 4.1.0 – MIT https://github.com/chalk/ansi-regex#readme
+ansi-regex 3.0.0 - MIT https://github.com/chalk/ansi-regex#readme
 
 Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
 
@@ -2548,14 +2548,14 @@ Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöri
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
-DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER AUS DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
+DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
 
 
 ---------------------------------------------------------
 
 ---------------------------------------------------------
 
-ansi-regex 3.0.0 - MIT https://github.com/chalk/ansi-regex#readme
+ansi-regex 4.1.0 – MIT https://github.com/chalk/ansi-regex#readme
 
 Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
 
@@ -2770,7 +2770,7 @@ DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜC
 
 async-each 1.0.3 - MIT https://github.com/paulmillr/async-each/
 
-Copyright (c) 2016 Paul Paul (paulmillr.com) (http://paulmillr.com)
+Copyright (c) 2016 Paul Wiesen (paulmillr.com) (http://paulmillr.com)
 
 MIT-Lizenz
 
@@ -2793,7 +2793,7 @@ MIT-Lizenz
 
 Copyright (c) <year> <copyright holders>
 
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um die Software ohne Einschränkung zu bearbeiten, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
@@ -2812,7 +2812,7 @@ MIT-Lizenz
 
 Copyright (c) 2016-present Doppelklick Danchenkov und MaustasteIber
 
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um die Software ohne Einschränkung zu bearbeiten, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
@@ -2831,7 +2831,7 @@ MIT-Lizenz
 
 Copyright (c) <year> <copyright holders>
 
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um die Software ohne Einschränkung zu bearbeiten, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
@@ -2849,7 +2849,7 @@ Copyright (c) 2013 Julian Gruber <julian@juliangruber.com>
 
 Copyright (c) 2013 Julian Gruber &lt; julian@juliangruber.com&gt;
 
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um die Software ohne Einschränkung zu bearbeiten, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
@@ -2869,7 +2869,7 @@ Die MIT-Lizenz (MIT)
 
 Copyright (c) 2015-2017, Jon Schlinkert.
 
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um die Software ohne Einschränkung zu bearbeiten, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
@@ -2909,7 +2909,7 @@ MIT-Lizenz
 
 Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
 
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um die Software ohne Einschränkung zu bearbeiten, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
@@ -2948,7 +2948,7 @@ MIT-Lizenz
 
 Copyright (c) 2013 Julian Gruber <julian@juliangruber.com>
 
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um die Software ohne Einschränkung zu bearbeiten, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
@@ -2968,7 +2968,7 @@ Die MIT-Lizenz (MIT)
 
 Copyright (c) 2014-2018, Jon Schlinkert.
 
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um die Software ohne Einschränkung zu bearbeiten, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
@@ -2987,7 +2987,7 @@ Die MIT-Lizenz (MIT)
 
 Copyright 2014 Andrey Sitnik <andrey@sitnik.ru> und andere Mitwirkende
 
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um die Software ohne Einschränkung zu bearbeiten, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
@@ -3006,7 +3006,7 @@ Die MIT-Lizenz (MIT)
 
 Copyright 2014 Andrey Sitnik <andrey@sitnik.ru>
 
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um die Software ohne Einschränkung zu bearbeiten, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
@@ -3026,11 +3026,11 @@ Die MIT-Lizenz (MIT)
 
 Copyright (c) 2014-2017, Jon Schlinkert.
 
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um die Software ohne Einschränkung zu bearbeiten, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
-DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER AUS DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
+DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
 
 ---------------------------------------------------------
 
@@ -3044,11 +3044,11 @@ Die MIT-Lizenz (MIT)
 
 Copyright (c) 2015 Eric McCarthy
 
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um die Software ohne Einschränkung zu bearbeiten, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
-DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER AUS DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
+DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
 
 
 
@@ -3061,11 +3061,11 @@ camelize 1.0.0 - MIT https://github.com/substack/camelize
 
 Diese Software wird unter der MIT-Lizenz veröffentlicht:
 
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um die Software ohne Einschränkung zu bearbeiten, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
-DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER AUS DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
+DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
 
 
 ---------------------------------------------------------
@@ -3080,11 +3080,11 @@ Die MIT-Lizenz (MIT)
 
 Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
 
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um die Software ohne Einschränkung zu bearbeiten, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
-DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER AUS DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
+DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
 
 
 ---------------------------------------------------------
@@ -3099,11 +3099,11 @@ MIT-Lizenz
 
 Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
 
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um die Software ohne Einschränkung zu bearbeiten, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
-DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER AUS DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
+DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
 
 
 ---------------------------------------------------------
@@ -3114,13 +3114,13 @@ chardet 0.7.0 - MIT https://github.com/runk/node-chardet
 
 Copyright (c) 2018 Dmitry S dsmkov
 
-Copyright (C) 2018 Dmitry Syankov
+Copyright (C) 2018 Dmitry Simakov
 
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um die Software ohne Einschränkung zu bearbeiten, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
-DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER AUS DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
+DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
 
 
 ---------------------------------------------------------
@@ -3129,17 +3129,17 @@ DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜC
 
 chokidar 2.1.8 - MIT https://github.com/paulmillr/chokidar
 
-Copyright (c) 2012-2019 Paul Maustaste ( https://paulmillr.com) & Elan Codker
+Copyright (c) 2012-2019 Paul Maustaste ( https://paulmillr.com) & Elan Maustasteker
 
 MIT-Lizenz
 
 Copyright (c) <year> <copyright holders>
 
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um die Software ohne Einschränkung zu bearbeiten, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
-DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER AUS DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
+DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
 
 ---------------------------------------------------------
 
@@ -3154,11 +3154,11 @@ Die MIT-Lizenz (MIT)
 
 Copyright (c) 2015, 2017-2018, Jon Schlinkert.
 
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um die Software ohne Einschränkung zu bearbeiten, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
-DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER AUS DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
+DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
 
 
 ---------------------------------------------------------
@@ -3173,11 +3173,11 @@ Die MIT-Lizenz (MIT)
 
 Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
 
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um die Software ohne Einschränkung zu bearbeiten, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
-DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER AUS DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
+DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
 
 
 ---------------------------------------------------------
@@ -3193,11 +3193,11 @@ Die MIT-Lizenz (MIT)
 
 Copyright (c) 2015, 2017, Jon Schlinkert
 
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um die Software ohne Einschränkung zu bearbeiten, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
-DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER AUS DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
+DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
 
 
 ---------------------------------------------------------
@@ -3210,11 +3210,11 @@ Copyright (c) 2012 Wiesnsingen
 
 Copyright (c) 2012 Wiesnsingen
 
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um die Software ohne Einschränkung zu bearbeiten, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
-DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER AUS DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
+DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
 
 
 
@@ -3229,11 +3229,11 @@ Copyright (c) 2011-2016 Wiesersfeld <fayearthur@gmail.com>
 
 Copyright (c) 2011-2016 Wiesersfeld <fayearthur@gmail.com>
 
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um die Software ohne Einschränkung zu bearbeiten, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
-DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER AUS DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
+DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
 
 
 
@@ -3247,11 +3247,11 @@ Copyright (c) 2015 Dmitry Nemov
 
 The MIT License (MIT) Copyright (c) 2015 Dmitry Nemov
 
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um die Software ohne Einschränkung zu bearbeiten, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
-DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER AUS DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
+DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
 
 ---------------------------------------------------------
 
@@ -3263,11 +3263,11 @@ Copyright (c) 2011 WiesersManien <fayearthur@gmail.com>
 
 Copyright (c) 2011 WiesersManien <fayearthur@gmail.com>
 
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um die Software ohne Einschränkung zu bearbeiten, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
-DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER AUS DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
+DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
 
 
 
@@ -3283,11 +3283,11 @@ Copyright (c) 2014-Komponente
 
 Copyright (c) 2014 Komponentenmitwirkende <dev@component.io>
 
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um die Software ohne Einschränkung zu bearbeiten, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
-DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER AUS DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
+DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
 
 
 ---------------------------------------------------------
@@ -3299,11 +3299,11 @@ concat-map 0.0.1 - MIT https://github.com/substack/node-concat-map
 
 Diese Software wird unter der MIT-Lizenz veröffentlicht:
 
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um die Software ohne Einschränkung zu bearbeiten, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
-DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER AUS DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
+DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
 
 
 ---------------------------------------------------------
@@ -3319,11 +3319,11 @@ Die MIT-Lizenz (MIT)
 
 Copyright (c) 2015-2016, Jon Schlinkert
 
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um die Software ohne Einschränkung zu bearbeiten, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
-DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER AUS DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
+DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
 
 
 ---------------------------------------------------------
@@ -3336,11 +3336,11 @@ core-js 2.6.11 - MIT https://github.com/zloirock/core-js#readme
 
 Copyright (c) 2014-2019 Denis Pushkarev
 
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um die Software ohne Einschränkung zu bearbeiten, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
-DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER AUS DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
+DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
 
 
 ---------------------------------------------------------
@@ -3351,13 +3351,13 @@ core-util-is 1.0.2 - MIT https://github.com/isaacs/core-util-is#readme
 
 Copyright Copyright, Inc. und andere Node-Mitwirkende.
 
-Copyright Node.js Mitwirkenden. Alle Rechte vorbehalten.
+Autoren von Copyright Node.js. Alle Rechte vorbehalten.
 
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um die Software ohne Einschränkung zu bearbeiten, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
-DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER AUS DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
+DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
 
 
 ---------------------------------------------------------
@@ -3372,11 +3372,11 @@ Die MIT-Lizenz (MIT)
 
 Copyright (c) 2018 made with MXO Lda <hello@moxy.studio>
 
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um die Software ohne Einschränkung zu bearbeiten, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
-DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER AUS DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
+DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
 
 
 ---------------------------------------------------------
@@ -3391,11 +3391,31 @@ MIT-Lizenz
 
 Copyright (c) 2016 Marc Parker undAufer-
 
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um die Software ohne Einschränkung zu bearbeiten, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
-DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER AUS DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
+DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
+
+
+---------------------------------------------------------
+
+---------------------------------------------------------
+
+debug 4.1.1 - MIT https://github.com/visionmedia/debug#readme
+
+Copyright (c) 2014 TJ Holowaychuk <tj@vision-media.ca> Copyright (c) 2014-2017 TJ Holowaychuk <tj@vision-media.ca>
+
+(Die MIT-Lizenz)
+
+Copyright (c) 2014 TJ Holowaychuk <tj@vision-media.ca>
+
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zur Verwendung, Kopie, Änderung, Zusammenführung, Veröffentlichung, Verteilung, Unterlizenzierung und/oder zum Verkauf von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
+
+Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
+
+DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
+
 
 
 ---------------------------------------------------------
@@ -3410,11 +3430,11 @@ Copyright (c) 2014 TJ Holowaychuk <tj@vision-media.ca> Copyright (c) 2014-2016 T
 
 Copyright (c) 2014 TJ Holowaychuk <tj@vision-media.ca>
 
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zur Verwendung, Kopie, Änderung, Zusammenführung, Veröffentlichung, Verteilung, Unterlizenzierung und/oder zum Verkauf von Kopien der Software und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zur Verwendung, Kopie, Änderung, Zusammenführung, Veröffentlichung, Verteilung, Unterlizenzierung und/oder zum Verkauf von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
-DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER AUS DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
+DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
 
 
 
@@ -3430,31 +3450,11 @@ Copyright (c) 2014 TJ Holowaychuk <tj@vision-media.ca> Copyright (c) 2014-2017 T
 
 Copyright (c) 2014 TJ Holowaychuk <tj@vision-media.ca>
 
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zur Verwendung, Kopie, Änderung, Zusammenführung, Veröffentlichung, Verteilung, Unterlizenzierung und/oder zum Verkauf von Kopien der Software und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zur Verwendung, Kopie, Änderung, Zusammenführung, Veröffentlichung, Verteilung, Unterlizenzierung und/oder zum Verkauf von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
-DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER AUS DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
-
-
-
----------------------------------------------------------
-
----------------------------------------------------------
-
-debug 4.1.1 - MIT https://github.com/visionmedia/debug#readme
-
-Copyright (c) 2014 TJ Holowaychuk <tj@vision-media.ca> Copyright (c) 2014-2017 TJ Holowaychuk <tj@vision-media.ca>
-
-(Die MIT-Lizenz)
-
-Copyright (c) 2014 TJ Holowaychuk <tj@vision-media.ca>
-
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zur Verwendung, Kopie, Änderung, Zusammenführung, Veröffentlichung, Verteilung, Unterlizenzierung und/oder zum Verkauf von Kopien der Software und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
-
-Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
-
-DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER AUS DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
+DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
 
 
 
@@ -3470,11 +3470,11 @@ Die MIT-Lizenz (MIT)
 
 Copyright (c) Sam Verschueren <sam.verschueren@gmail.com> (github.com/SamVerschueren)
 
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um die Software ohne Einschränkung zu bearbeiten, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
-DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER AUS DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
+DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
 
 
 ---------------------------------------------------------
@@ -3490,11 +3490,11 @@ Die MIT-Lizenz (MIT)
 
 Copyright (c) 2015, 2017, Jon Schlinkert
 
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um die Software ohne Einschränkung zu bearbeiten, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
-DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER AUS DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
+DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
 
 
 ---------------------------------------------------------
@@ -3602,7 +3602,7 @@ Die MIT-Lizenz (MIT)
 
 Copyright © 2015 Kiko Beats
 
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um die Software ohne Einschränkung zu bearbeiten, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
@@ -3621,7 +3621,7 @@ Die MIT-Lizenz (MIT)
 
 Copyright © 2015 Kiko Beats
 
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um die Software ohne Einschränkung zu bearbeiten, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
@@ -3653,7 +3653,7 @@ DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜC
 
 eventsource 1.0.7 - MIT http://github.com/EventSource/eventsource
 
-Copyright (c) EventSource GitHub Copyright Copyright, Inc. and other Node contributors.
+Copyright (c) EventSource GitHub Copyright Copyright, Inc. und andere Node-Mitwirkende.
 
 Die MIT-Lizenz
 
@@ -3843,13 +3843,13 @@ DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜC
 
 ---------------------------------------------------------
 
-file-uri-to-path 1.0.0 – MIT https://github.com/TooTallNate/file-uri-to-path
+file-uri-to-path 1.0.0 - MIT https://github.com/TooTallNate/file-uri-to-path
 
 Copyright (c) 2014 Nathan Rajlich <nathan@tootallnate.net>
 
 Copyright (c) 2014 Nathan Rajlich <nathan@tootallnate.net>
 
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zur Verwendung, Kopie, Änderung, Zusammenführung, Veröffentlichung, Verteilung, Unterlizenzierung und/oder zum Verkauf von Kopien der Software und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zur Verwendung, Kopie, Änderung, Zusammenführung, Veröffentlichung, Verteilung, Unterlizenzierung und/oder zum Verkauf von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
@@ -3987,7 +3987,7 @@ Copyright (c) 2010-2014 Maustaste Dunkel (c) 2014 by Doppelklick Dunkel <pip@pip
 
 Copyright (C) 2010-2014 Maustaste Dunkel
 
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um die Software ohne Einschränkung zu bearbeiten, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
@@ -4000,7 +4000,7 @@ DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜC
 
 fs-extra 7.0.1 - MIT https://github.com/jprichardson/node-fs-extra
 
-Copyright (c) 2011-2017 JP Doppelklickson Copyright (c) 2011-2017 JP Johnson ( https://github.com/jprichardson) Copyright (c) 2014-2016 Uhr Ong me@jongleberry.com and Contributors
+Copyright (c) 2011-2017 JP Jonson Copyright (c) 2011-2017 JP JohnSon ( https://github.com/jprichardson) Copyright (c) 2014-2016 Uhr Ong me@jongleberry.com and Contributors
 
 (Die MIT-Lizenz)
 
@@ -4026,7 +4026,7 @@ Die MIT-Lizenz (MIT)
 
 Copyright (c) 2014-2016, Jon Schlinkert.
 
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um die Software ohne Einschränkung zu bearbeiten, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
@@ -4047,7 +4047,7 @@ Die MIT-Lizenz (MIT)
 
 Copyright (c) 2015-present, Jon Schlinkert.
 
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um die Software ohne Einschränkung zu bearbeiten, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
@@ -4068,7 +4068,7 @@ Die MIT-Lizenz (MIT)
 
 Copyright (c) 2015-present, Jon Schlinkert.
 
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um die Software ohne Einschränkung zu bearbeiten, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
@@ -4087,7 +4087,7 @@ MIT-Lizenz
 
 Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
 
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um die Software ohne Einschränkung zu bearbeiten, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
@@ -4106,7 +4106,7 @@ MIT-Lizenz
 
 Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
 
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um die Software ohne Einschränkung zu bearbeiten, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
@@ -4125,7 +4125,7 @@ MIT-Lizenz
 
 Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
 
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um die Software ohne Einschränkung zu bearbeiten, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
@@ -4144,7 +4144,7 @@ Die MIT-Lizenz (MIT)
 
 Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
 
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um die Software ohne Einschränkung zu bearbeiten, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
@@ -4163,7 +4163,7 @@ MIT-Lizenz
 
 Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
 
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um die Software ohne Einschränkung zu bearbeiten, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
@@ -4183,7 +4183,7 @@ Die MIT-Lizenz (MIT)
 
 Copyright (c) 2014-2017, Jon Schlinkert
 
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um die Software ohne Einschränkung zu bearbeiten, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
@@ -4214,15 +4214,14 @@ DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜC
 
 ---------------------------------------------------------
 
-has-values 0.1.4 - MIT https://github.com/jonschlinkert/has-values
+has-values 1.0.0 - MIT https://github.com/jonschlinkert/has-values
 
-Copyright (c) 2014-2015, Jon Schlinkert.
-Copyright (c) 2014-2016, Jon Schlinkert.
-Copyright (c) 2016, Jon Schlinkert ( https://github.com/jonschlinkert) .
+Copyright (c) 2014-2017, Jon Schlinkert Copyright (c) 2014-2015, 2017, Jon Schlinkert.
+Copyright (c) 2017, Jon Schlinkert ( https://github.com/jonschlinkert) .
 
 Die MIT-Lizenz (MIT)
 
-Copyright (c) 2014-2016, Jon Schlinkert.
+Copyright (c) 2014-2017, Jon Schlinkert
 
 Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
@@ -4235,14 +4234,15 @@ DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜC
 
 ---------------------------------------------------------
 
-has-values 1.0.0 - MIT https://github.com/jonschlinkert/has-values
+has-values 0.1.4 - MIT https://github.com/jonschlinkert/has-values
 
-Copyright (c) 2014-2017, Jon Schlinkert Copyright (c) 2014-2015, 2017, Jon Schlinkert.
-Copyright (c) 2017, Jon Schlinkert ( https://github.com/jonschlinkert) .
+Copyright (c) 2014-2015, Jon Schlinkert.
+Copyright (c) 2014-2016, Jon Schlinkert.
+Copyright (c) 2016, Jon Schlinkert ( https://github.com/jonschlinkert) .
 
 Die MIT-Lizenz (MIT)
 
-Copyright (c) 2014-2017, Jon Schlinkert
+Copyright (c) 2014-2016, Jon Schlinkert.
 
 Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
@@ -4288,7 +4288,7 @@ Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kop
 DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER AUS DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
 
 
-Einige Dateien aus dem Testordner stammen aus dem Ordner "spaßent/node" und "mscedex/io.js", eine Verzweigung von nodejs/io.js:
+Einige Dateien aus dem Ordner "Tests" stammen aus "spaßent/node" und "mscedex/io.js", einer Verzweigung von nodejs/io.js:
 
 - tests/iojs/test-http-parser-durability.js
 
@@ -4303,7 +4303,7 @@ Einige Dateien aus dem Testordner stammen aus dem Ordner "spaßent/node" und "ms
   DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER AUS DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
   """
 
-- Tests/Prüfungen/* Tests/parallel/* Tests/testpy/* tests/common.js tests/test.py tests/utils.py
+- Tests/Prüfungen/* Tests/parallel/* Tests/testpy/* Tests/common.js Tests/test.py tests/utils.py
 
   Diese Dateien stammen mit https://github.com/nodejs/node Änderungen von Jan Schär (jscissr).
 
@@ -4596,7 +4596,7 @@ DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜC
 
 ---------------------------------------------------------
 
-is-descriptor 1.0.2 - MIT https://github.com/jonschlinkert/is-descriptor
+is-descriptor 0.1.6 - MIT https://github.com/jonschlinkert/is-descriptor
 
 Copyright (c) 2015-2017, Jon Schlinkert.
 Copyright (c) 2017, Jon Schlinkert ( https://github.com/jonschlinkert) .
@@ -4615,7 +4615,7 @@ DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜC
 
 ---------------------------------------------------------
 
-is-descriptor 0.1.6 - MIT https://github.com/jonschlinkert/is-descriptor
+is-descriptor 1.0.2 - MIT https://github.com/jonschlinkert/is-descriptor
 
 Copyright (c) 2015-2017, Jon Schlinkert.
 Copyright (c) 2017, Jon Schlinkert ( https://github.com/jonschlinkert) .
@@ -4710,33 +4710,13 @@ DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜC
 
 ---------------------------------------------------------
 
-is-fullwidth-code-point 2.0.0 – MIT https://github.com/sindresorhus/is-fullwidth-code-point#readme
+is-fullwidth-code-point 2.0.0 - MIT https://github.com/sindresorhus/is-fullwidth-code-point#readme
 
 (c) Sindre Sorhus ( https://sindresorhus.com) Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
 
 Die MIT-Lizenz (MIT)
 
 Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
-
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
-
-Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
-
-DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER AUS DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
-
-
----------------------------------------------------------
-
----------------------------------------------------------
-
-is-glob 4.0.1 - MIT https://github.com/micromatch/is-glob
-
-Copyright (c) 2014-2017, Jon Schlinkert.
-Copyright (c) 2019, Jon Schlinkert ( https://github.com/jonschlinkert) .
-
-Die MIT-Lizenz (MIT)
-
-Copyright (c) 2014-2017, Jon Schlinkert.
 
 Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
@@ -4757,6 +4737,26 @@ Copyright (c) 2016, Jon Schlinkert ( https://github.com/jonschlinkert) .
 Die MIT-Lizenz (MIT)
 
 Copyright (c) 2014-2016, Jon Schlinkert.
+
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
+
+Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
+
+DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER AUS DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
+
+
+---------------------------------------------------------
+
+---------------------------------------------------------
+
+is-glob 4.0.1 - MIT https://github.com/micromatch/is-glob
+
+Copyright (c) 2014-2017, Jon Schlinkert.
+Copyright (c) 2019, Jon Schlinkert ( https://github.com/jonschlinkert) .
+
+Die MIT-Lizenz (MIT)
+
+Copyright (c) 2014-2017, Jon Schlinkert.
 
 Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
@@ -4875,7 +4875,7 @@ Die MIT-Lizenz (MIT)
 
 Copyright (c) 2014-present, Jon Schlinkert.
 
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um die Software ohne Einschränkung zu bearbeiten, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
@@ -4894,7 +4894,7 @@ MIT-Lizenz
 
 Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
 
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um die Software ohne Einschränkung zu bearbeiten, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
@@ -4913,7 +4913,7 @@ MIT-Lizenz
 
 Copyright (c) 2018 Maustaste Ban - Mesqueeb
 
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um die Software ohne Einschränkung zu bearbeiten, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
@@ -4931,7 +4931,7 @@ Die MIT-Lizenz (MIT)
 
 Copyright (c) 2016 W.Y.
 
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um die Software ohne Einschränkung zu bearbeiten, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
@@ -4951,7 +4951,7 @@ Die MIT-Lizenz (MIT)
 
 Copyright (c) 2015-2018, Jon Schlinkert.
 
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um die Software ohne Einschränkung zu bearbeiten, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
@@ -4970,7 +4970,7 @@ Die MIT-Lizenz (MIT)
 
 Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
 
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um die Software ohne Einschränkung zu bearbeiten, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
@@ -4987,7 +4987,7 @@ Copyright Mathias Bynens <https://mathiasbynens.be/>
 
 Copyright Mathias Bynens <https://mathiasbynens.be/>
 
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um die Software ohne Einschränkung zu bearbeiten, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
@@ -5008,7 +5008,7 @@ http://kitcambridge.be/
 Copyright (c) 2013-2015 Doppelklick Tan.
 https://d10.github.io/
 
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um die Software ohne Einschränkung zu bearbeiten, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
@@ -5026,7 +5026,7 @@ MIT-Lizenz
 
 Copyright (c) 2012-2018 Aseem Kiyan und [andere].
 
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um die Software ohne Einschränkung zu bearbeiten, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
@@ -5066,7 +5066,7 @@ MIT-Lizenz
 
 Copyright (c) 2017 Evgeny Poberezkin
 
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um die Software ohne Einschränkung zu bearbeiten, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
@@ -5085,7 +5085,7 @@ Die MIT-Lizenz (MIT)
 
 Copyright (c) 2014, 2015, 2016, 2017, 2018 Kate Lydell
 
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um die Software ohne Einschränkung zu bearbeiten, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
@@ -5098,32 +5098,13 @@ DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜC
 
 js-tokens 3.0.2 - MIT https://github.com/lydell/js-tokens#readme
 
-Copyright 2014, 2015, 2016, 2017 Nutzungsrechte Lydell Copyright (c) 2014, 2015, 2016, 2017 Wiesn Lydell
+Copyright 2014, 2015, 2016, 2017 Kate Lydell Copyright (c) 2014, 2015, 2016, 2017 Wiesn Lydell
 
 Die MIT-Lizenz (MIT)
 
 Copyright (c) 2014, 2015, 2016, 2017 Datenträger Lydell
 
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
-
-Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
-
-DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER AUS DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
-
-
----------------------------------------------------------
-
----------------------------------------------------------
-
-Art-of 4.0.0 - MIT https://github.com/jonschlinkert/kind-of
-
-Copyright (c) 2014-2017, Jon Schlinkert Copyright (c) 2017, Jon Schlinkert ( https://github.com/jonschlinkert) .
-
-Die MIT-Lizenz (MIT)
-
-Copyright (c) 2014-2017, Jon Schlinkert
-
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um die Software ohne Einschränkung zu bearbeiten, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
@@ -5143,7 +5124,7 @@ Die MIT-Lizenz (MIT)
 
 Copyright (c) 2014-2017, Jon Schlinkert.
 
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um die Software ohne Einschränkung zu bearbeiten, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
@@ -5162,7 +5143,26 @@ Die MIT-Lizenz (MIT)
 
 Copyright (c) 2014-2017, Jon Schlinkert
 
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um die Software ohne Einschränkung zu bearbeiten, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
+
+Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
+
+DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER AUS DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
+
+
+---------------------------------------------------------
+
+---------------------------------------------------------
+
+Art-of 4.0.0 - MIT https://github.com/jonschlinkert/kind-of
+
+Copyright (c) 2014-2017, Jon Schlinkert Copyright (c) 2017, Jon Schlinkert ( https://github.com/jonschlinkert) .
+
+Die MIT-Lizenz (MIT)
+
+Copyright (c) 2014-2017, Jon Schlinkert
+
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um die Software ohne Einschränkung zu bearbeiten, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
@@ -5181,29 +5181,11 @@ Die MIT-Lizenz (MIT)
 
 Copyright (c) 2014-2017, Jon Schlinkert.
 
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um die Software ohne Einschränkung zu bearbeiten, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
 DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER AUS DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
-
-
----------------------------------------------------------
-
----------------------------------------------------------
-
-loader-utils 1.4.0 – MIT https://github.com/webpack/loader-utils#readme
-
-Copyright JS Foundation und andere Mitwirkende
-
-Copyright JS Foundation und andere Mitwirkende
-
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zur Verwendung, Kopie, Änderung, Zusammenführung, Veröffentlichung, Verteilung, Unterlizenzierung und/oder zum Verkauf von Kopien der Software und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
-
-Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
-
-DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT.
-IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER AUS DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
 
 
 ---------------------------------------------------------
@@ -5216,7 +5198,25 @@ Copyright JS Foundation und andere Mitwirkende
 
 Copyright JS Foundation und andere Mitwirkende
 
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zur Verwendung, Kopie, Änderung, Zusammenführung, Veröffentlichung, Verteilung, Unterlizenzierung und/oder zum Verkauf von Kopien der Software und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zur Verwendung, Kopie, Änderung, Zusammenführung, Veröffentlichung, Verteilung, Unterlizenzierung und/oder zum Verkauf von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
+
+Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
+
+DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT.
+IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER AUS DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
+
+
+---------------------------------------------------------
+
+---------------------------------------------------------
+
+loader-utils 1.4.0 – MIT https://github.com/webpack/loader-utils#readme
+
+Copyright JS Foundation und andere Mitwirkende
+
+Copyright JS Foundation und andere Mitwirkende
+
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zur Verwendung, Kopie, Änderung, Zusammenführung, Veröffentlichung, Verteilung, Unterlizenzierung und/oder zum Verkauf von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
@@ -5236,7 +5236,7 @@ Die MIT-Lizenz (MIT)
 
 Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
 
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um die Software ohne Einschränkung zu bearbeiten, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
@@ -5255,7 +5255,7 @@ MIT-Lizenz
 
 Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
 
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um die Software ohne Einschränkung zu bearbeiten, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
@@ -5272,7 +5272,7 @@ Copyright OpenJS Foundation und andere Mitwirkende <https://openjsf.org/> Copyri
 
 Copyright OpenJS Foundation und andere Mitwirkende <https://openjsf.org/>
 
-Basierend auf Underscore.js copyright Copyright Copyright Ashkenas, DocumentCloud and Investigativ Reporters & Editors <http://underscorejs.org/>
+Basierend auf Underscore.js, Copyright Copyright Copyright Ashkenas, DocumentCloud and Investigativ reporters & Editors <http://underscorejs.org/>
 
 Diese Software besteht aus freiwilligen Beiträgen vieler Einzelpersonen. Informationen zum genauen Beitragsverlauf finden Sie im Überarbeitungsverlauf unter https://github.com/lodash/lodash
 
@@ -5280,7 +5280,7 @@ Die folgende Lizenz gilt für alle Teile dieser Software, außer wie unten besch
 
 ====
 
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um die Software ohne Einschränkung zu bearbeiten, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
@@ -5294,7 +5294,7 @@ CC0: http://creativecommons.org/publicdomain/zero/1.0/
 
 ====
 
-Dateien, die sich in den node_modules- und Anbieterverzeichnissen befinden, sind extern gepflegte Bibliotheken, die von dieser Software verwendet werden und über eigene Lizenzen verfügen. wir empfehlen Ihnen, sie zu lesen, da ihre Begriffe von den oben genannten abweichen können.
+Dateien, die sich in den node_modules- und Anbieterverzeichnissen befinden, sind extern verwalteten Bibliotheken, die von dieser Software verwendet werden und über eigene Lizenzen verfügen. wir empfehlen Ihnen, sie zu lesen, da ihre Begriffe von den oben genannten abweichen können.
 
 
 ---------------------------------------------------------
@@ -5309,7 +5309,7 @@ Die MIT-Lizenz (MIT)
 
 Copyright (c) 2015 Andres Suarez <zertosh@gmail.com>
 
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um die Software ohne Einschränkung zu bearbeiten, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
@@ -5569,7 +5569,7 @@ Die MIT-Lizenz (MIT)
 
 Copyright (c) 2016 – präsentieren Microsoft Corporation
 
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um die Software ohne Einschränkung zu bearbeiten, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
@@ -5588,7 +5588,7 @@ Die MIT-Lizenz (MIT)
 
 Copyright (c) 2016 Zeit, Inc.
 
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um die Software ohne Einschränkung zu bearbeiten, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
@@ -5607,7 +5607,7 @@ Die MIT-Lizenz (MIT)
 
 Copyright (c) 2016 Zeit, Inc.
 
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um die Software ohne Einschränkung zu bearbeiten, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
@@ -5631,7 +5631,7 @@ Copyright (c) 2018 MAUSTASTE-Mitwirkende - Rod Vagg <https://github.com/rvagg>
 
 *DIE MITWIRKENden, die unter <https://github.com/nodejs/nan#contributors>*
 
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um die Software ohne Einschränkung zu bearbeiten, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
@@ -5651,7 +5651,7 @@ Die MIT-Lizenz (MIT)
 
 Copyright (c) 2016-2018, Jon Schlinkert.
 
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um die Software ohne Einschränkung zu bearbeiten, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
@@ -5670,7 +5670,7 @@ Die MIT-Lizenz (MIT)
 
 Copyright (c) 2018 Einerz
 
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um die Software ohne Einschränkung zu bearbeiten, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
@@ -5689,7 +5689,7 @@ Die MIT-Lizenz (MIT)
 
 Copyright (c) 2016 David Frank
 
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um die Software ohne Einschränkung zu bearbeiten, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
@@ -5709,7 +5709,7 @@ Die MIT-Lizenz
 
 Copyright (c) 2017 Copyrighty Rubanov (https://github.com/chicoxyzzy)
 
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um die Software ohne Einschränkung zu bearbeiten, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
@@ -5729,7 +5729,7 @@ Die MIT-Lizenz (MIT)
 
 Copyright (c) 2014-2017, Jon Schlinkert
 
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um die Software ohne Einschränkung zu bearbeiten, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
@@ -5749,7 +5749,7 @@ Die MIT-Lizenz (MIT)
 
 Copyright (c) 2014-2018, Jon Schlinkert.
 
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um die Software ohne Einschränkung zu bearbeiten, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
@@ -5770,11 +5770,11 @@ Die MIT-Lizenz (MIT)
 
 Copyright (c) 2014-2016, Jon Schlinkert.
 
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um die Software ohne Einschränkung zu bearbeiten, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
-DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER AUS DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
+DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
 
 
 ---------------------------------------------------------
@@ -5793,7 +5793,7 @@ Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöri
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
-DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER AUS DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
+DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
 
 
 ---------------------------------------------------------
@@ -5812,7 +5812,7 @@ Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöri
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
-DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER AUS DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
+DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
 
 
 ---------------------------------------------------------
@@ -5832,7 +5832,7 @@ Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöri
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
-DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER AUS DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
+DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
 
 
 ---------------------------------------------------------
@@ -5851,7 +5851,7 @@ Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöri
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
-DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER AUS DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
+DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
 
 
 ---------------------------------------------------------
@@ -5860,7 +5860,7 @@ DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜC
 
 open 6.4.0 - MIT https://github.com/sindresorhus/open#readme
 
-Copyright 2006, Kevin Krammer <kevin.krammer@gmx.at> Copyright 2006, White <jwhite@codeweavers.com> Copyright 2009-2010, Fathi Boudra <fabo@freedesktop.org> Copyright 2009-2010, Rex Dieter <rdieter@fedoraproject.org> Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
+Copyright 2006, Kevin Krammer <kevin.krammer@gmx.at> Copyright 2006, White Copyright <jwhite@codeweavers.com> 2009-2010, Fathi Boudra <fabo@freedesktop.org> Copyright 2009-2010, Rex Dieter <rdieter@fedoraproject.org> Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
 
 MIT-Lizenz
 
@@ -5870,7 +5870,7 @@ Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöri
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
-DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER AUS DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
+DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
 
 
 ---------------------------------------------------------
@@ -5883,13 +5883,13 @@ Copyright (c) 2015 Unshift.io, Codut Kasemier
 
 Die MIT-Lizenz (MIT)
 
-Copyright (c) 2015 Unshift.io, Codut Kasemier, the Contributors.
+Copyright (c) 2015 Unshift.io, Csvut Kasemier, the Contributors.
 
 Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
-DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER AUS DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
+DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
 
 
 
@@ -5909,7 +5909,7 @@ Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöri
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
-DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER AUS DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
+DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
 
 
 ---------------------------------------------------------
@@ -5928,7 +5928,7 @@ Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöri
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
-DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER AUS DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
+DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
 
 
 ---------------------------------------------------------
@@ -5948,7 +5948,7 @@ Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöri
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
-DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER AUS DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
+DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
 
 
 ---------------------------------------------------------
@@ -5967,7 +5967,7 @@ Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöri
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
-DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER AUS DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
+DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
 
 
 ---------------------------------------------------------
@@ -5986,7 +5986,7 @@ Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöri
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
-DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER AUS DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
+DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
 
 
 ---------------------------------------------------------
@@ -6020,7 +6020,7 @@ Die MIT-Lizenz (MIT)
 
 Copyright (c) 2015 Jane Blanco
 
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um die Software ohne Einschränkung zu bearbeiten, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
@@ -6039,7 +6039,7 @@ Die MIT-Lizenz (MIT)
 
 Copyright (c) 2014 Uhrke Embrey (hello@blakeembrey.com)
 
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um die Software ohne Einschränkung zu bearbeiten, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
@@ -6058,7 +6058,7 @@ MIT-Lizenz
 
 Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
 
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um die Software ohne Einschränkung zu bearbeiten, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
@@ -6077,7 +6077,7 @@ MIT-Lizenz
 
 Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
 
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um die Software ohne Einschränkung zu bearbeiten, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
@@ -6096,7 +6096,7 @@ MIT-Lizenz
 
 Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
 
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um die Software ohne Einschränkung zu bearbeiten, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
@@ -6115,7 +6115,7 @@ Die MIT-Lizenz (MIT)
 
 Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
 
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um die Software ohne Einschränkung zu bearbeiten, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
@@ -6134,7 +6134,7 @@ MIT-Lizenz
 
 Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
 
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um die Software ohne Einschränkung zu bearbeiten, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
@@ -6153,7 +6153,7 @@ MIT-Lizenz
 
 Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
 
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um die Software ohne Einschränkung zu bearbeiten, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
@@ -6172,7 +6172,7 @@ Die MIT-Lizenz (MIT)
 
 Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
 
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um die Software ohne Einschränkung zu bearbeiten, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
@@ -6191,7 +6191,7 @@ MIT-Lizenz
 
 Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
 
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um die Software ohne Einschränkung zu bearbeiten, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
@@ -6210,7 +6210,7 @@ Die MIT-Lizenz (MIT)
 
 Copyright (c) 2016-2017, Jon Schlinkert
 
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um die Software ohne Einschränkung zu bearbeiten, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
@@ -6227,7 +6227,7 @@ postcss-value-parser 3.3.1 – MIT https://github.com/TrySound/postcss-value-par
 
 Copyright (c) Bogdan Chadkin <trysound@yandex.ru>
 
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um die Software ohne Einschränkung zu bearbeiten, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
@@ -6244,7 +6244,7 @@ Copyright (c) 2015 Calvin Metcalf
 
 # <a name="copyright-c-2015-calvin-metcalf"></a>Copyright (c) 2015 Calvin Metcalf
 
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um die Software ohne Einschränkung zu bearbeiten, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
@@ -6261,7 +6261,7 @@ Copyright (c) 2014 Andrew Hakes Copyright (c) 2014 Forbes Automatisierensay
 
 Copyright (c) 2014 Andrew Hakes Copyright (c) 2014 Forbes Automatisierensay
 
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um die Software ohne Einschränkung zu bearbeiten, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
@@ -6279,7 +6279,7 @@ MIT-Lizenz
 
 Copyright (c) 2013-present, Facebook, Inc.
 
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um die Software ohne Einschränkung zu bearbeiten, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
@@ -6298,7 +6298,7 @@ Die MIT-Lizenz (MIT)
 
 Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
 
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um die Software ohne Einschränkung zu bearbeiten, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
@@ -6317,7 +6317,7 @@ MIT-Lizenz
 
 Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
 
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um die Software ohne Einschränkung zu bearbeiten, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
@@ -6334,7 +6334,7 @@ Copyright Mathias Bynens <https://mathiasbynens.be/>
 
 Copyright Mathias Bynens <https://mathiasbynens.be/>
 
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um die Software ohne Einschränkung zu bearbeiten, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
@@ -6351,9 +6351,9 @@ Copyright (c) 2015 Unshift.io, Codut Kasemier
 
 Die MIT-Lizenz (MIT)
 
-Copyright (c) 2015 Unshift.io, Codut Kasemier, the Contributors.
+Copyright (c) 2015 Unshift.io, Csvut Kasemier, the Contributors.
 
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um die Software ohne Einschränkung zu bearbeiten, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
@@ -6373,7 +6373,7 @@ MIT-Lizenz
 
 Copyright (c) Facebook, Inc. und seine verbundenen Unternehmen.
 
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um die Software ohne Einschränkung zu bearbeiten, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
@@ -6392,7 +6392,7 @@ MIT-Lizenz
 
 Copyright (c) 2013-present, Facebook, Inc.
 
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um die Software ohne Einschränkung zu bearbeiten, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
@@ -6411,7 +6411,7 @@ MIT-Lizenz
 
 Copyright (c) Facebook, Inc. und seine verbundenen Unternehmen.
 
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um die Software ohne Einschränkung zu bearbeiten, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
@@ -6430,7 +6430,7 @@ MIT-Lizenz
 
 Copyright (c) 2013-present, Facebook, Inc.
 
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um die Software ohne Einschränkung zu bearbeiten, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
@@ -6444,7 +6444,7 @@ DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜC
 react-inspector 5.1.0 – MIT https://github.com/xyc/react-inspector
 
 (c) Object C (c) Sindre Sor copyright copysource cor Copyright 2015, Yahoo! Inc. Copyright (c) 2017 Jed Watson.
-Copyright (c) 2017 Pbyi Chen Copyright (c) 2001 Robert Penner (c) ,null c&&pb(c.type),b b.value,null (c) 2018 Bytes und Mitwirkende.
+Copyright (c) 2017 Gifyi Chen Copyright (c) 2001 Robert Penner (c) ,null c&&pb(c.type),b b.value,null (c) 2018 Bytes und Mitwirkende.
 Copyright (c) 2014-2017, Jon Schlinkert.
 Copyright (c) 2013-present, Facebook, Inc. Copyright (c) 2014-present, Facebook, Inc. Copyright (c) Facebook, Inc. and its affiliates.
 Copyright (c) 2016 Federico Zivolo und mitwirkende Autoren Copyright 2010 - 2013 Sami Samhuri <sami@samhuri.net> Copyright (c) 2012-2017 Kirollos Risk ( http://kiro.me) Copyright 2013-2016 by Paul Verbund ( http://paulmillr.com) Copyright KingSora Stephen Verbund. https://github.com/KingSora
@@ -6453,7 +6453,7 @@ Die MIT-Lizenz (MIT)
 
 Copyright (c) 2017 Copyrightyi Chen 
 
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um die Software ohne Einschränkung zu bearbeiten, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
@@ -6472,7 +6472,7 @@ MIT-Lizenz
 
 Copyright (c) Facebook, Inc. und seine verbundenen Unternehmen.
 
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um die Software ohne Einschränkung zu bearbeiten, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
@@ -6491,7 +6491,7 @@ Die MIT-Lizenz (MIT)
 
 Copyright (c) 2015-present Dan Abramov
 
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um die Software ohne Einschränkung zu bearbeiten, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
@@ -6510,7 +6510,7 @@ MIT-Lizenz
 
 Copyright (c) React Training 2016-2018
 
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um die Software ohne Einschränkung zu bearbeiten, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
@@ -6529,7 +6529,7 @@ MIT-Lizenz
 
 Copyright (c) React Training 2016-2018
 
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um die Software ohne Einschränkung zu bearbeiten, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
@@ -6548,7 +6548,7 @@ Node.js ist für die Verwendung wie folgt lizenziert:
 
 """ Copyright Node.js Mitwirkenden. Alle Rechte vorbehalten.
 
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um die Software ohne Einschränkung zu bearbeiten, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
@@ -6558,7 +6558,7 @@ DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜC
 Diese Lizenz gilt für Teile von Node.js, die aus dem https://github.com/joyent/node Repository stammen:
 
 """ Copyright Copyright, Inc. and other Node contributors. Alle Rechte vorbehalten.
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um die Software ohne Einschränkung zu bearbeiten, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
@@ -6578,7 +6578,7 @@ Node.js ist für die Verwendung wie folgt lizenziert:
 
 """ Copyright Node.js Mitwirkenden. Alle Rechte vorbehalten.
 
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um die Software ohne Einschränkung zu bearbeiten, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
@@ -6588,7 +6588,7 @@ DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜC
 Diese Lizenz gilt für Teile von Node.js, die aus dem https://github.com/joyent/node Repository stammen:
 
 """ Copyright Copyright, Inc. and other Node contributors. Alle Rechte vorbehalten.
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um die Software ohne Einschränkung zu bearbeiten, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
@@ -6608,7 +6608,7 @@ Diese Software wird unter der MIT-Lizenz veröffentlicht:
 
 Copyright (c) 2012-2015 Tomsten Einer
 
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um die Software ohne Einschränkung zu bearbeiten, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
@@ -6626,26 +6626,7 @@ Die MIT-Lizenz (MIT)
 
 Copyright (c) <year> <copyright holders>
 
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
-
-Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
-
-DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER AUS DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
-
-
----------------------------------------------------------
-
----------------------------------------------------------
-
-redux 4.0.5 - MIT http://redux.js.org/
-
-Copyright (c) 2015-present Dan Abramov
-
-Die MIT-Lizenz (MIT)
-
-Copyright (c) 2015-present Dan Abramov
-
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um die Software ohne Einschränkung zu bearbeiten, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
@@ -6664,7 +6645,26 @@ Die MIT-Lizenz (MIT)
 
 Copyright (c) 2015-present Dan Abramov
 
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um die Software ohne Einschränkung zu bearbeiten, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
+
+Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
+
+DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER AUS DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
+
+
+---------------------------------------------------------
+
+---------------------------------------------------------
+
+redux 4.0.5 - MIT http://redux.js.org/
+
+Copyright (c) 2015-present Dan Abramov
+
+Die MIT-Lizenz (MIT)
+
+Copyright (c) 2015-present Dan Abramov
+
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um die Software ohne Einschränkung zu bearbeiten, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
@@ -6682,7 +6682,7 @@ MIT-Lizenz
 
 Copyright (c) <year> <copyright holders>
 
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um die Software ohne Einschränkung zu bearbeiten, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
@@ -6704,7 +6704,7 @@ Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöri
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
-DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER AUS DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
+DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
 
 
 
@@ -6725,7 +6725,7 @@ Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöri
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
-DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER AUS DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
+DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
 
 
 ---------------------------------------------------------
@@ -6745,7 +6745,7 @@ Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöri
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
-DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER AUS DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
+DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
 
 
 ---------------------------------------------------------
@@ -6765,7 +6765,7 @@ Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöri
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
-DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER AUS DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
+DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
 
 
 ---------------------------------------------------------
@@ -6786,26 +6786,26 @@ Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöri
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
-DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER AUS DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
+DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
 
 
 ---------------------------------------------------------
 
 ---------------------------------------------------------
 
-requires-port 1.0.0 – MIT https://github.com/unshiftio/requires-port
+requires-port 1.0.0 - MIT https://github.com/unshiftio/requires-port
 
 Copyright (c) 2015 Unshift.io, Codut Kasemier
 
 Die MIT-Lizenz (MIT)
 
-Copyright (c) 2015 Unshift.io, Codut Kasemier, the Contributors.
+Copyright (c) 2015 Unshift.io, Csvut Kasemier, the Contributors.
 
 Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
-DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER AUS DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
+DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
 
 
 
@@ -6825,7 +6825,7 @@ Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöri
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
-DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER AUS DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
+DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
 
 
 ---------------------------------------------------------
@@ -6844,7 +6844,7 @@ Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöri
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
-DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER AUS DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
+DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
 
 
 ---------------------------------------------------------
@@ -6863,7 +6863,7 @@ Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöri
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
-DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER AUS DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
+DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
 
 
 ---------------------------------------------------------
@@ -6882,7 +6882,7 @@ Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöri
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
-DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER AUS DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
+DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
 
 
 ---------------------------------------------------------
@@ -6901,7 +6901,7 @@ Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöri
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
-DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER AUS DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
+DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
 
 
 ---------------------------------------------------------
@@ -6918,7 +6918,7 @@ Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöri
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
-DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER AUS DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT. 
+DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT. 
 
 
 ---------------------------------------------------------
@@ -6937,7 +6937,7 @@ Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöri
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
-DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER AUS DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
+DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
 
 
 ---------------------------------------------------------
@@ -6956,7 +6956,7 @@ Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöri
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
-DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER AUS DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
+DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
 
 
 ---------------------------------------------------------
@@ -6975,7 +6975,7 @@ Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöri
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
-DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER AUS DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
+DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
 
 
 ---------------------------------------------------------
@@ -6994,7 +6994,7 @@ Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöri
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
-DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER AUS DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
+DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
 
 
 ---------------------------------------------------------
@@ -7010,7 +7010,7 @@ Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöri
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
-DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER AUS DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
+DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
 
 
 ---------------------------------------------------------
@@ -7029,7 +7029,7 @@ Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöri
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
-DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER AUS DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
+DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
 
 
 ---------------------------------------------------------
@@ -7047,7 +7047,7 @@ Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöri
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
 DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT.
-IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER AUS DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
+IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
 
 
 ---------------------------------------------------------
@@ -7065,7 +7065,7 @@ Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöri
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
 DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT.
-IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER AUS DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
+IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
 
 
 ---------------------------------------------------------
@@ -7085,7 +7085,7 @@ Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöri
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
-DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER AUS DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
+DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
 
 
 ---------------------------------------------------------
@@ -7104,7 +7104,7 @@ Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöri
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
-DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER AUS DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
+DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
 
 
 ---------------------------------------------------------
@@ -7123,7 +7123,7 @@ Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöri
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
-DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER AUS DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
+DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
 
 
 ---------------------------------------------------------
@@ -7142,7 +7142,7 @@ Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöri
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
-DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER AUS DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
+DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
 
 ---------------------------------------------------------
 
@@ -7160,7 +7160,7 @@ Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöri
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
-DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER AUS DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
+DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
 
 
 ---------------------------------------------------------
@@ -7175,11 +7175,11 @@ MIT-Lizenz
 
 Copyright (c) <year> <copyright holders>
 
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um die Software ohne Einschränkung zu bearbeiten, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
-DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER AUS DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
+DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
 
 ---------------------------------------------------------
 
@@ -7194,11 +7194,11 @@ Die MIT-Lizenz (MIT)
 
 Copyright (c) 2015-2016, Jon Schlinkert.
 
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um die Software ohne Einschränkung zu bearbeiten, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
-DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER AUS DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
+DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
 
 
 ---------------------------------------------------------
@@ -7213,11 +7213,11 @@ Die MIT-Lizenz (MIT)
 
 Copyright (c) 2017, Jon Schlinkert
 
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um die Software ohne Einschränkung zu bearbeiten, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
-DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER AUS DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
+DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
 
 
 ---------------------------------------------------------
@@ -7232,11 +7232,11 @@ Die MIT-Lizenz (MIT)
 
 Copyright (c) 2017, Jon Schlinkert
 
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um die Software ohne Einschränkung zu bearbeiten, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
-DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER AUS DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
+DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
 
 
 ---------------------------------------------------------
@@ -7251,11 +7251,11 @@ Die MIT-Lizenz (MIT)
 
 Copyright (c) 2011-2018 The sockjs-client Authors.
 
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um die Software ohne Einschränkung zu bearbeiten, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
-DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER AUS DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
+DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
 
 
 ---------------------------------------------------------
@@ -7270,11 +7270,11 @@ Die MIT-Lizenz (MIT)
 
 Copyright (c) 2014, 2015, 2016, 2017, 2018, 2019 Uhr Lydell Copyright (c) 2019 ZHAO Jinxiang
 
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um die Software ohne Einschränkung zu bearbeiten, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
-DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER AUS DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
+DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
 
 
 ---------------------------------------------------------
@@ -7289,11 +7289,11 @@ Die MIT-Lizenz (MIT)
 
 Copyright (c) 2014 Authentifizier Lydell
 
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um die Software ohne Einschränkung zu bearbeiten, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
-DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER AUS DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
+DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
 
 
 ---------------------------------------------------------
@@ -7309,11 +7309,11 @@ Die MIT-Lizenz (MIT)
 
 Copyright (c) 2015-2017, Jon Schlinkert.
 
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um die Software ohne Einschränkung zu bearbeiten, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
-DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER AUS DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
+DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
 
 
 ---------------------------------------------------------
@@ -7328,42 +7328,11 @@ Die MIT-Lizenz (MIT)
 
 Copyright (c) 2016, Jon Schlinkert.
 
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um die Software ohne Einschränkung zu bearbeiten, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
-DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER AUS DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
-
-
----------------------------------------------------------
-
----------------------------------------------------------
-
-string_decoder 1.3.0 – MIT https://github.com/nodejs/string_decoder
-
-Copyright Copyright, Inc. und andere Node-Mitwirkende.
-
-Node.js ist für die Verwendung wie folgt lizenziert:
-
-""" Copyright Node.js Mitwirkenden. Alle Rechte vorbehalten.
-
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
-
-Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
-
-DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER AUS DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
-"""
-
-Diese Lizenz gilt für Teile von Node.js, die aus dem https://github.com/joyent/node Repository stammen:
-
-""" Copyright Copyright, Inc. and other Node contributors. Alle Rechte vorbehalten.
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
-
-Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
-
-DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER AUS DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
-"""
-
+DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
 
 
 ---------------------------------------------------------
@@ -7378,11 +7347,42 @@ Node.js ist für die Verwendung wie folgt lizenziert:
 
 """ Copyright Node.js Mitwirkenden. Alle Rechte vorbehalten.
 
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um die Software ohne Einschränkung zu bearbeiten, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
-DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER AUS DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
+DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
+"""
+
+Diese Lizenz gilt für Teile von Node.js, die aus dem https://github.com/joyent/node Repository stammen:
+
+""" Copyright Copyright, Inc. and other Node contributors. Alle Rechte vorbehalten.
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um die Software ohne Einschränkung zu bearbeiten, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
+
+Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
+
+DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
+"""
+
+
+
+---------------------------------------------------------
+
+---------------------------------------------------------
+
+string_decoder 1.3.0 – MIT https://github.com/nodejs/string_decoder
+
+Copyright Copyright, Inc. und andere Node-Mitwirkende.
+
+Node.js ist für die Verwendung wie folgt lizenziert:
+
+""" Copyright Node.js Mitwirkenden. Alle Rechte vorbehalten.
+
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um die Software ohne Einschränkung zu bearbeiten, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
+
+Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
+
+DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
 """
 
 Diese Lizenz gilt für Teile von Node.js, die aus dem https://github.com/joyent/node Repository stammen:
@@ -7392,7 +7392,7 @@ Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöri
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
-DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER AUS DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
+DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
 """
 
 
@@ -7413,7 +7413,7 @@ Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöri
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
-DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER AUS DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
+DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
 
 
 ---------------------------------------------------------
@@ -7432,26 +7432,7 @@ Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöri
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
-DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER AUS DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
-
-
----------------------------------------------------------
-
----------------------------------------------------------
-
-strip-ansi 5.2.0 - MIT https://github.com/chalk/strip-ansi#readme
-
-Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
-
-MIT-Lizenz
-
-Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
-
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
-
-Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
-
-DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER AUS DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
+DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
 
 
 ---------------------------------------------------------
@@ -7470,7 +7451,26 @@ Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöri
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
-DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER AUS DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
+DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
+
+
+---------------------------------------------------------
+
+---------------------------------------------------------
+
+strip-ansi 5.2.0 - MIT https://github.com/chalk/strip-ansi#readme
+
+Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
+
+MIT-Lizenz
+
+Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
+
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
+
+Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
+
+DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
 
 
 ---------------------------------------------------------
@@ -7489,7 +7489,7 @@ Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöri
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
-DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER AUS DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
+DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
 
 ---------------------------------------------------------
 
@@ -7507,7 +7507,7 @@ Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöri
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
-DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER AUS DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
+DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
 
 
 ---------------------------------------------------------
@@ -7525,17 +7525,17 @@ Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöri
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
-DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER AUS DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
+DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
 
 ---------------------------------------------------------
 
 ---------------------------------------------------------
 
-supports-color 6.1.0 - MIT https://github.com/chalk/supports-color#readme
+supports-color 2.0.0 - MIT https://github.com/chalk/supports-color
 
-Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
+(c) Sindre Sorhus ( http://sindresorhus.com) Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
 
-MIT-Lizenz
+Die MIT-Lizenz (MIT)
 
 Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
 
@@ -7543,7 +7543,7 @@ Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöri
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
-DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER AUS DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
+DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
 
 
 ---------------------------------------------------------
@@ -7562,18 +7562,18 @@ Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöri
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
-DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER AUS DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
+DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
 
 
 ---------------------------------------------------------
 
 ---------------------------------------------------------
 
-supports-color 2.0.0 - MIT https://github.com/chalk/supports-color
+supports-color 6.1.0 - MIT https://github.com/chalk/supports-color#readme
 
-(c) Sindre Sorhus ( http://sindresorhus.com) Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
+Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
 
-Die MIT-Lizenz (MIT)
+MIT-Lizenz
 
 Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
 
@@ -7581,7 +7581,7 @@ Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöri
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
-DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER AUS DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
+DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
 
 
 ---------------------------------------------------------
@@ -7600,7 +7600,7 @@ Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöri
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
-DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER AUS DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
+DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
 
 
 ---------------------------------------------------------
@@ -7619,7 +7619,7 @@ Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöri
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
-DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER AUS DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
+DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
 
 
 ---------------------------------------------------------
@@ -7631,7 +7631,7 @@ text-table 0.2.0 - MIT https://github.com/substack/text-table
 
 Diese Software wird unter der MIT-Lizenz veröffentlicht:
 
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um die Software ohne Einschränkung zu bearbeiten, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
@@ -7650,7 +7650,7 @@ Die MIT-Lizenz
 
 Copyright (c) 2011 Dominic Tarr
 
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um die Software ohne Einschränkung zu bearbeiten, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
@@ -7669,7 +7669,7 @@ MIT-Lizenz
 
 Copyright (c) 2019Aufzählung
 
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um die Software ohne Einschränkung zu bearbeiten, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
@@ -7688,7 +7688,7 @@ MIT-Lizenz
 
 Copyright (c) 2019Aufzählung
 
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um die Software ohne Einschränkung zu bearbeiten, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
@@ -7706,7 +7706,7 @@ Die MIT-Lizenz (MIT)
 
 Copyright (c) 2014 COPYRIGHTSZI István
 
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um die Software ohne Einschränkung zu bearbeiten, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
@@ -7719,13 +7719,13 @@ DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜC
 
 to-fast-properties 2.0.0 - MIT https://github.com/sindresorhus/to-fast-properties#readme
 
-(c) Petka Antonov, John-David Dalton, Sindre Sorhus Copyright (c) 2014 Petka Antonov 2015 Sindre Sorgis
+(c) Petka Antonov, John-David Dalton, Sindre Sorhus Copyright (c) 2014 Petka Antonov 2015 Sindre Sorhus
 
 MIT-Lizenz
 
 Copyright (c) 2014 Petka Antonov 2015 Sindre Sorhus
 
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um die Software ohne Einschränkung zu bearbeiten, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
@@ -7745,7 +7745,7 @@ Die MIT-Lizenz (MIT)
 
 Copyright (c) 2015-2016, Jon Schlinkert.
 
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um die Software ohne Einschränkung zu bearbeiten, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
@@ -7765,7 +7765,7 @@ Die MIT-Lizenz (MIT)
 
 Copyright (c) 2016-2018, Jon Schlinkert.
 
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um die Software ohne Einschränkung zu bearbeiten, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
@@ -7785,7 +7785,7 @@ Die MIT-Lizenz (MIT)
 
 Copyright (c) 2015-2017, Jon Schlinkert
 
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um die Software ohne Einschränkung zu bearbeiten, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
@@ -7804,7 +7804,7 @@ MIT-Lizenz
 
 Copyright (c) <year> <copyright holders>
 
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um die Software ohne Einschränkung zu bearbeiten, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
@@ -7822,7 +7822,7 @@ MIT-Lizenz
 
 Copyright (c) 2017 Piotr Witek <piotrek.witek@gmail.com> (http://piotrwitek.github.io)
 
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um die Software ohne Einschränkung zu bearbeiten, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
@@ -7841,7 +7841,7 @@ Copyright (c) 2018 Hoang Van Chari
 
 Copyright © 2018 Hoàng Văn Khải
 
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um die Software ohne Einschränkung zu bearbeiten, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
@@ -7917,7 +7917,7 @@ Copyright (c) 2017, Ryan Zimmerman <opensrc@ryanzim.com>
 
 Copyright (c) 2017, Ryan Zimmerman <opensrc@ryanzim.com>
 
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zur Verwendung, Kopie, Änderung, Zusammenführung, Veröffentlichung, Verteilung, Unterlizenzierung und/oder zum Verkauf von Kopien der Software und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zur Verwendung, Kopie, Änderung, Zusammenführung, Veröffentlichung, Verteilung, Unterlizenzierung und/oder zum Verkauf von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
@@ -7950,9 +7950,9 @@ DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜC
 
 upath 1.2.0 – MIT http://github.com/anodynos/upath/
 
-Copyright (c) 2019 Doppelklicks Piredolas <agelos.pikoulas@gmail.com> Copyright (c) 2014-2019 Doppelklicks Pizarlas (agelos.pikoulas@gmail.com)
+Copyright (c) 2019 Copyright <agelos.pikoulas@gmail.com> (c) 2014-2019 Doppelklicks Pizarlas (agelos.pikoulas@gmail.com)
 
-Copyright(c) 2014-2019 Doppelklicks Piredolas (agelos.pikoulas@gmail.com)
+Copyright(c) 2014-2019 Doppelklicks Piyanlas (agelos.pikoulas@gmail.com)
 
 Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
@@ -7990,7 +7990,7 @@ Copyright (c) 2015 Unshift.io, Codut Kasemier
 
 Die MIT-Lizenz (MIT)
 
-Copyright (c) 2015 Unshift.io, Copyrightut Kasemier, the Contributors.
+Copyright (c) 2015 Unshift.io, Csvut Kasemier, the Contributors.
 
 Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
@@ -8108,7 +8108,7 @@ MIT-Lizenz
 
 Copyright (c) <year> <copyright holders>
 
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um die Software ohne Einschränkung zu bearbeiten, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
@@ -8126,7 +8126,7 @@ MIT-Lizenz
 
 Copyright (c) Michael Maustaste 2016-2018
 
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um die Software ohne Einschränkung zu bearbeiten, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
@@ -8143,7 +8143,7 @@ Copyright (c) 2014-2016 GitHub, Inc.
 
 Copyright (c) 2014-2016 GitHub, Inc.
 
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um die Software ohne Einschränkung zu bearbeiten, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
@@ -8180,7 +8180,7 @@ Die MIT-Lizenz (MIT)
 
 Copyright (c) 2016 Christian Speckner <cnspeckn@googlemail.com>
 
-Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um mit der Software ohne Einschränkung zu handeln, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
+Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um die Software ohne Einschränkung zu bearbeiten, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
 Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kopien oder wesentlichen Teilen der Software enthalten.
 
