@@ -1,18 +1,21 @@
 ---
 title: Problembehandlung bei Office Skripts
 description: Tipps und Techniken zum Debuggen für Office Skripts sowie Hilferessourcen.
-ms.date: 09/15/2021
+ms.date: 11/11/2021
 ms.localizationpriority: medium
-ms.openlocfilehash: 5229490e2487974f751456ef63004bcb27f7b09c
-ms.sourcegitcommit: 5ec904cbb1f2cc00a301a5ba7ccb8ae303341267
+ms.openlocfilehash: 2c43d0e4b1f4fd5675397fd79eaab1345ae39b98
+ms.sourcegitcommit: 24a6b8ae0cc57a0307fbc9b3e87432f1f4a92263
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/18/2021
-ms.locfileid: "59447485"
+ms.lasthandoff: 11/17/2021
+ms.locfileid: "61064202"
 ---
 # <a name="troubleshoot-office-scripts"></a>Problembehandlung bei Office Skripts
 
 Wenn Sie Office Skripts entwickeln, machen Sie möglicherweise Fehler. Das ist okay. Sie verfügen über die Tools, mit denen Sie die Probleme finden und Ihre Skripts einwandfrei funktionieren können.
+
+> [!NOTE]
+> Informationen zur Problembehandlung speziell für Office Skripts mit Power Automate finden Sie unter [Problembehandlung bei Office Skripts,](power-automate-troubleshooting.md)die in Power Automate ausgeführt werden.
 
 ## <a name="types-of-errors"></a>Fehlertypen
 
@@ -31,7 +34,7 @@ Möglicherweise werden auch orangefarbene Warnhinweise und graue Informationsmel
 
 ### <a name="runtime-errors"></a>Laufzeitfehler
 
-Laufzeitfehler treten aufgrund von Logikproblemen im Skript auf. Dies kann darauf zurückzuführen sein, dass sich ein im Skript verwendetes Objekt nicht in der Arbeitsmappe befindet, eine Tabelle anders formatiert ist als erwartet oder eine andere geringfügige Abweichung zwischen den Anforderungen des Skripts und der aktuellen Arbeitsmappe besteht. Das folgende Skript generiert einen Fehler, wenn kein Arbeitsblatt mit dem Namen "TestSheet" vorhanden ist.
+Laufzeitfehler treten aufgrund von Logikproblemen im Skript auf. Dies kann darauf zurückzuführen sein, dass sich ein im Skript verwendetes Objekt nicht in der Arbeitsmappe befindet, eine Tabelle anders formatiert ist als erwartet, oder eine andere geringfügige Abweichung zwischen den Anforderungen des Skripts und der aktuellen Arbeitsmappe. Das folgende Skript generiert einen Fehler, wenn kein Arbeitsblatt mit dem Namen "TestSheet" vorhanden ist.
 
 ```TypeScript
 function main(workbook: ExcelScript.Workbook) {
@@ -76,19 +79,11 @@ Die folgenden Schritte sollten ihnen helfen, Probleme im Zusammenhang mit der Re
 
 [!INCLUDE [Teams support note](../includes/teams-support-note.md)]
 
-## <a name="troubleshoot-scripts-in-power-automate"></a>Problembehandlung bei Skripts in Power Automate
-
-Informationen zum Ausführen von Skripts über Power Automate finden Sie unter [Problembehandlung bei Office Skripts,](power-automate-troubleshooting.md)die in Power Automate ausgeführt werden.
-
 ## <a name="help-resources"></a>Hilferessourcen
 
 [Stack Overflow](https://stackoverflow.com/questions/tagged/office-scripts) ist eine Community von Entwicklern, die bei Codierungsproblemen helfen möchten. Häufig können Sie die Lösung für Ihr Problem mithilfe einer schnellen Stack Overflow-Suche finden. Wenn nicht, stellen Sie Ihre Frage, und markieren Sie sie mit dem Tag "office-scripts". Erwähnen Sie unbedingt, dass Sie ein Office *Skript* erstellen, nicht ein *Office-Add-In.*
 
-Um eine Featureanforderung für Office Skripts zu senden oder ein Problem mit dem Feature zu melden, verwenden Sie die Feedbackschaltfläche im Code-Editor. Wählen Sie im Menü  **"Weitere Optionen (...)** des Code-Editor-Aufgabenbereichs die Schaltfläche **"Feedback senden"** aus, um Ihre Featureanforderungen und andere Funktionen zu teilen.
-
-:::image type="content" source="../images/code-editor-feedback.png" alt-text="Das Code-Editor-Überlaufmenü mit der Schaltfläche &quot;Feedback senden&quot;.":::
-
-## <a name="see-also"></a>Weitere Artikel
+## <a name="see-also"></a>Siehe auch
 
 - [Bewährte Methoden in Office-Skripts](../develop/best-practices.md)
 - [Plattformbeschränkungen mit Office Skripts](platform-limits.md)

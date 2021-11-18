@@ -23,9 +23,8 @@ Wir empfehlen außerdem, dass Sie eine Verzweigung vornehmen, die Korrektur vorn
 
 Wenn Ihr Problem nicht mit der Dokumentation zu Office Skripts zusammenhängt, veröffentlichen Sie es stattdessen in einem der folgenden Kanäle:
 
-- Wenn Sie eine Frage zum Entwerfen von Office Skripts oder der Office.js-API stellen möchten, die Office Skripts ausführt, posten Sie Ihre Frage in Stack Overflow, und markieren Sie sie mit dem Tag "office-scripts" ( https://stackoverflow.com/questions/tagged/office-scripts) .
+- Um eine Frage zum Entwerfen Office Skripts oder der Office.js-API zu stellen, die Office Skripts ausführt, stellen Sie Ihre Frage in Stack Overflow und markieren Sie sie mit dem Tag "office-scripts" ( https://stackoverflow.com/questions/tagged/office-scripts) .
 - Um ein Problem mit der Office.js-API zu melden, erstellen Sie das Problem im [OfficeDev/office-js-Repository,](https://github.com/OfficeDev/office-js)das mitglieder des Produktteams auf vom Kunden gemeldete Probleme überwachen.
-- Um eine Featureanforderung für Office Skripts zu senden, verwenden Sie die Feedbackschaltfläche im Code-Editor. Wählen Sie im Menü **"Weitere Optionen (...)** des Code-Editor-Aufgabenbereichs die Schaltfläche **"Feedback senden"** aus, um Ihre Featureanforderungen und andere Funktionen zu teilen.
 
 ## <a name="copyright"></a>Copyright
 
