@@ -27,10 +27,6 @@ items:
             href: develop/javascript-objects.md
           - name: Umgebung des Code Editor
             href: overview/code-editor-environment.md
-          - name: Unterschiede zwischen Office-Skripts und VBA-Makros
-            href: resources/vba-differences.md
-          - name: Unterschiede zwischen Office-Skripts und Office-Add-Ins
-            href: resources/add-ins-differences.md
           - name: Externe API-Anruf Unterstützung in Office-Skripts
             href: develop/external-calls.md
           - name: Dateispeicher und Dateibesitz
@@ -111,3 +107,11 @@ items:
             items:
               - name: Weihnachtsgrüße
                 href: resources/samples/community-seasons-greetings.md
+      - name: Office-Skripts und andere Plattformen
+        items:
+          - name: Unterschiede zwischen Office-Skripts und VBA-Makros
+            href: resources/vba-differences.md
+          - name: Unterschiede zwischen Office-Skripts und Office-Add-Ins
+            href: resources/add-ins-differences.md
+          - name: Verwendung von Power Query oder Office-Skripts
+            href: resources/power-query-differences.md
