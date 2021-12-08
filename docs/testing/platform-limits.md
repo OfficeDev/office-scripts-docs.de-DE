@@ -1,18 +1,18 @@
 ---
-title: Plattformbeschränkungen und -anforderungen mit Office Skripts
+title: Plattformbeschränkungen und -anforderungen mit Office-Skripts
 description: Ressourcenbeschränkungen und Browserunterstützung für Office Skripts bei Verwendung mit Excel im Web
 ms.date: 05/17/2021
 ms.localizationpriority: medium
-ms.openlocfilehash: 2140ebf249af76447f64efae7fd2008e781bf815
-ms.sourcegitcommit: d3ed4bdeeba805d97c930394e172e8306a0cf484
+ms.openlocfilehash: 6db32cd1c72850f02ee9e2a714c1a0a3bccd727d
+ms.sourcegitcommit: ea9c3685a7407a07acf802705f4f44fb007c7825
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "59327875"
+ms.lasthandoff: 12/08/2021
+ms.locfileid: "61333491"
 ---
-# <a name="platform-limits-and-requirements-with-office-scripts"></a>Plattformbeschränkungen und -anforderungen mit Office Skripts
+# <a name="platform-limits-and-requirements-with-office-scripts"></a>Plattformbeschränkungen und -anforderungen mit Office-Skripts
 
-Es gibt einige Plattformeinschränkungen, die Sie beachten sollten, wenn Sie Office Skripts entwickeln. In diesem Artikel werden die Browserunterstützung und Datenbeschränkungen für Office Skripts für Excel im Web beschrieben.
+Es gibt einige Plattformeinschränkungen, die Sie beim Entwickeln von Office Skripts beachten sollten. In diesem Artikel werden die Browserunterstützung und Datenbeschränkungen für Office Skripts für Excel im Web beschrieben.
 
 ## <a name="browser-support"></a>Browserunterstützung
 
@@ -40,7 +40,7 @@ Es gibt Beschränkungen, wie viele Excel Daten gleichzeitig übertragen werden k
 
 ### <a name="excel"></a>Excel
 
-bei Aufrufen der Arbeitsmappe über ein Skript gelten für Excel für das Web die folgenden Einschränkungen:
+Excel für das Web bei Aufrufen der Arbeitsmappe über ein Skript die folgenden Einschränkungen aufweist:
 
 - Anforderungen und Antworten sind auf **5 MB** beschränkt.
 - Ein Bereich ist auf **fünf Millionen Zellen** begrenzt.
@@ -49,9 +49,9 @@ Wenn beim Umgang mit großen Datasets Fehler auftreten, versuchen Sie, mehrere k
 
 ### <a name="power-automate"></a>Power Automate
 
-Wenn sie Office Skripts mit Power Automate verwenden, ist jeder Benutzer auf **400 Aufrufe der Aktion "Skript ausführen" pro Tag** beschränkt. Dieser Grenzwert wird um 12:00 Uhr UTC zurückgesetzt.
+Bei Verwendung Office Skripts mit Power Automate ist jeder Benutzer auf **800 Aufrufe der Aktion "Skript ausführen" pro Tag** beschränkt. Dieser Grenzwert wird um 12:00 Uhr UTC zurückgesetzt.
 
-Die Power Automate-Plattform weist auch Nutzungseinschränkungen auf, die in den folgenden Artikeln zu finden sind:
+Die Power Automate-Plattform weist ebenfalls Nutzungseinschränkungen auf, die in den folgenden Artikeln zu finden sind:
 
 - [Grenzwerte und Konfiguration in Power Automate](/power-automate/limits-and-config)
 - [Bekannte Probleme und Einschränkungen für den connector Excel Online (Business)](/connectors/excelonlinebusiness/#known-issues-and-limitations)

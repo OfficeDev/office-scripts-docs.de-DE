@@ -1,16 +1,16 @@
 ---
-title: 'Office Skript-Beispielszenario: Analysieren von Webdownloads'
-description: Ein Beispiel, das unformatierte Internetdatendaten in einer Excel Arbeitsmappe annimmt und den Speicherort des Ursprungs bestimmt, bevor diese Informationen in einer Tabelle organisiert werden.
+title: 'Beispielszenario für Office Skripts: Analysieren von Webdownloads'
+description: Ein Beispiel, das unformatierte Datenverkehrsdaten im Internet in einer Excel Arbeitsmappe übernimmt und den Speicherort des Ursprungs bestimmt, bevor diese Informationen in einer Tabelle organisiert werden.
 ms.date: 06/29/2021
 ms.localizationpriority: medium
-ms.openlocfilehash: c1d7948ef2d87c0bb76ea0bd40f9c9e2823d45f1
-ms.sourcegitcommit: d3ed4bdeeba805d97c930394e172e8306a0cf484
+ms.openlocfilehash: ad889e75d5f2e4b8af4379c3875b43ff8e1beda6
+ms.sourcegitcommit: ea9c3685a7407a07acf802705f4f44fb007c7825
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "59337236"
+ms.lasthandoff: 12/08/2021
+ms.locfileid: "61333498"
 ---
-# <a name="office-scripts-sample-scenario-analyze-web-downloads"></a>Office Skript-Beispielszenario: Analysieren von Webdownloads
+# <a name="office-scripts-sample-scenario-analyze-web-downloads"></a>Beispielszenario für Office Skripts: Analysieren von Webdownloads
 
 In diesem Szenario haben Sie die Aufgabe, Downloadberichte von der Website Ihres Unternehmens zu analysieren. Das Ziel dieser Analyse besteht darin, festzustellen, ob der Webdatenverkehr aus den USA oder aus anderen Ländern der Welt stammt.
 
@@ -48,28 +48,28 @@ Sie entwickeln ein Skript, das wöchentliche Downloads von Daten im aktiven Arbe
         console.log("The script expects a summary table named \"Table1\". Please download the correct template and try again.");
         return;
       }
-  
+
       // Get the current worksheet.
       let currentWorksheet = workbook.getActiveWorksheet();
       if (currentWorksheet.getName().toLocaleLowerCase().indexOf("week") !== 0) {
         console.log("Please switch worksheet to one of the weekly data sheets and try again.")
         return;
       }
-  
+
       // Get the values of the active range of the active worksheet.
       let logRange = currentWorksheet.getUsedRange();
-  
+
       if (logRange.getColumnCount() !== 8) {
         console.log(`Verify that you are on the correct worksheet. Either the week's data has been already processed or the content is incorrect. The following columns are expected: ${[
-            "Time Stamp", "IP Address", "kilobytes", "user agent code", "milliseconds", "Request", "Results", "Referrer"
+          "Time Stamp", "IP Address", "kilobytes", "user agent code", "milliseconds", "Request", "Results", "Referrer"
         ]}`);
         return;
       }
       // Get the range that will contain TRUE/FALSE if the IP address is from the United States (US).
       let isUSColumn = logRange
-          .getLastColumn()
-          .getOffsetRange(0, 1);
-  
+        .getLastColumn()
+        .getOffsetRange(0, 1);
+
       // Get the values of all the US IP addresses.
       let ipRange = workbook.getWorksheet("USIPAddresses").getUsedRange();
       let ipRangeValues = ipRange.getValues() as number[][];
@@ -77,10 +77,10 @@ Sie entwickeln ein Skript, das wöchentliche Downloads von Daten im aktiven Arbe
       // Remove the first row.
       let topRow = logRangeValues.shift();
       console.log(`Analyzing ${logRangeValues.length} entries.`);
-  
+
       // Create a new array to contain the boolean representing if this is a US IP address.
-      let newCol = [];
-  
+      let newCol: (boolean | string)[][] = [];
+
       // Go through each row in worksheet and add Boolean.
       for (let i = 0; i < logRangeValues.length; i++) {
         let curRowIP = logRangeValues[i][1];
@@ -90,33 +90,33 @@ Sie entwickeln ein Skript, das wöchentliche Downloads von Daten im aktiven Arbe
           newCol.push([false]);
         }
       }
-  
+
       // Remove the empty column header and add proper heading.
       newCol = [["Is US IP"], ...newCol];
-  
+
       // Write the result to the spreadsheet.
       console.log(`Adding column to indicate whether IP belongs to US region or not at address: ${isUSColumn.getAddress()}`);
       console.log(newCol.length);
       console.log(newCol);
       isUSColumn.setValues(newCol);
-  
+
       // Call the local function to add summary data to the worksheet.
       addSummaryData();
-  
+
       // Call the local function to apply conditional formatting.
       applyConditionalFormatting(isUSColumn);
-  
+
       // Autofit columns.
       currentWorksheet.getUsedRange().getFormat().autofitColumns();
-  
+
       // Get the calculated summary data.
       let summaryRangeValues = currentWorksheet.getRange("J2:M2").getValues();
-  
+
       // Add the corresponding row to the summary table.
       summaryTable.addRow(null, summaryRangeValues[0]);
       console.log("Complete.");
       return;
-  
+
       /**
        * A function to add summary data on the worksheet.
         */
@@ -124,9 +124,9 @@ Sie entwickeln ein Skript, das wöchentliche Downloads von Daten im aktiven Arbe
         // Add a summary row and table.
         let summaryHeader = [["Year", "Week", "US", "Other"]];
         let countTrueFormula =
-            "=COUNTIF(" + isUSColumn.getAddress() + ', "=TRUE")/' + (newCol.length - 1);
+          "=COUNTIF(" + isUSColumn.getAddress() + ', "=TRUE")/' + (newCol.length - 1);
         let countFalseFormula =
-            "=COUNTIF(" + isUSColumn.getAddress() + ', "=FALSE")/' + (newCol.length - 1);
+          "=COUNTIF(" + isUSColumn.getAddress() + ', "=FALSE")/' + (newCol.length - 1);
 
         let summaryContent = [
           [
@@ -148,8 +148,8 @@ Sie entwickeln ein Skript, das wöchentliche Downloads von Daten im aktiven Arbe
 
         let formats = [[".000", ".000"]];
         summaryContentRow
-            .getOffsetRange(0, 2)
-            .getResizedRange(0, -2).setNumberFormats(formats);
+          .getOffsetRange(0, 2)
+          .getResizedRange(0, -2).setNumberFormats(formats);
       }
     }
     /**
@@ -158,21 +158,21 @@ Sie entwickeln ein Skript, das wöchentliche Downloads von Daten im aktiven Arbe
     function applyConditionalFormatting(isUSColumn: ExcelScript.Range) {
       // Add conditional formatting to the new column.
       let conditionalFormatTrue = isUSColumn.addConditionalFormat(
-          ExcelScript.ConditionalFormatType.cellValue
+        ExcelScript.ConditionalFormatType.cellValue
       );
       let conditionalFormatFalse = isUSColumn.addConditionalFormat(
-          ExcelScript.ConditionalFormatType.cellValue
+        ExcelScript.ConditionalFormatType.cellValue
       );
       // Set TRUE to light blue and FALSE to light orange.
       conditionalFormatTrue.getCellValue().getFormat().getFill().setColor("#8FA8DB");
       conditionalFormatTrue.getCellValue().setRule({
-          formula1: "=TRUE",
-          operator: ExcelScript.ConditionalCellValueOperator.equalTo
+        formula1: "=TRUE",
+        operator: ExcelScript.ConditionalCellValueOperator.equalTo
       });
       conditionalFormatFalse.getCellValue().getFormat().getFill().setColor("#F8CCAD");
       conditionalFormatFalse.getCellValue().setRule({
-          formula1: "=FALSE",
-          operator: ExcelScript.ConditionalCellValueOperator.equalTo
+        formula1: "=FALSE",
+        operator: ExcelScript.ConditionalCellValueOperator.equalTo
       });
     }
     /**
@@ -182,14 +182,14 @@ Sie entwickeln ein Skript, das wöchentliche Downloads von Daten im aktiven Arbe
     function ipAddressToInteger(ipAddress: string): number {
       // Split the IP address into octets.
       let octets = ipAddress.split(".");
-  
+
       // Create a number for each octet and do the math to create the integer value of the IP address.
       let fullNum =
-          // Define an arbitrary number for the last octet.
-          111 +
-          parseInt(octets[2]) * 256 +
-          parseInt(octets[1]) * 65536 +
-          parseInt(octets[0]) * 16777216;
+        // Define an arbitrary number for the last octet.
+        111 +
+        parseInt(octets[2]) * 256 +
+        parseInt(octets[1]) * 65536 +
+        parseInt(octets[0]) * 16777216;
       return fullNum;
     }
     /**
