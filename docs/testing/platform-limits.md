@@ -1,14 +1,14 @@
 ---
 title: Plattformbeschränkungen und -anforderungen mit Office-Skripts
 description: Ressourcenbeschränkungen und Browserunterstützung für Office Skripts bei Verwendung mit Excel im Web
-ms.date: 05/17/2021
+ms.date: 12/14/2021
 ms.localizationpriority: medium
-ms.openlocfilehash: 6db32cd1c72850f02ee9e2a714c1a0a3bccd727d
-ms.sourcegitcommit: ea9c3685a7407a07acf802705f4f44fb007c7825
+ms.openlocfilehash: e0c2c8108bb36dc979b33e195cdc0e0e17a586ba
+ms.sourcegitcommit: 1e561d245d9ab7f2529a1b071b1fa0326e37c4ca
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/08/2021
-ms.locfileid: "61333491"
+ms.lasthandoff: 12/15/2021
+ms.locfileid: "61513629"
 ---
 # <a name="platform-limits-and-requirements-with-office-scripts"></a>Plattformbeschränkungen und -anforderungen mit Office-Skripts
 
@@ -22,7 +22,7 @@ Office Skripts funktionieren in jedem Browser, [der Office für das Web unterst�
 
 ### <a name="third-party-cookies"></a>Cookies von Drittanbietern
 
-Ihr Browser benötigt Cookies von Drittanbietern, um die Registerkarte **"Automatisieren"** in Excel im Web anzuzeigen. Überprüfen Sie die Browsereinstellungen, wenn die Registerkarte nicht angezeigt wird. Wenn Sie eine private Browsersitzung verwenden, müssen Sie diese Einstellung möglicherweise jedes Mal erneut aktivieren.
+Ihr Browser benötigt Cookies von Drittanbietern, die aktiviert sind, um die Registerkarte **"Automatisieren"** in Excel im Web anzuzeigen. Überprüfen Sie die Browsereinstellungen, wenn die Registerkarte nicht angezeigt wird. Wenn Sie eine private Browsersitzung verwenden, müssen Sie diese Einstellung möglicherweise jedes Mal erneut aktivieren.
 
 > [!NOTE]
 > Einige Browser bezeichnen diese Einstellung als "alle Cookies" anstelle von "Cookies von Drittanbietern".
@@ -40,7 +40,7 @@ Es gibt Beschränkungen, wie viele Excel Daten gleichzeitig übertragen werden k
 
 ### <a name="excel"></a>Excel
 
-Excel für das Web bei Aufrufen der Arbeitsmappe über ein Skript die folgenden Einschränkungen aufweist:
+bei Aufrufen der Arbeitsmappe über ein Skript gelten für Excel für das Web die folgenden Einschränkungen:
 
 - Anforderungen und Antworten sind auf **5 MB** beschränkt.
 - Ein Bereich ist auf **fünf Millionen Zellen** begrenzt.
@@ -49,14 +49,17 @@ Wenn beim Umgang mit großen Datasets Fehler auftreten, versuchen Sie, mehrere k
 
 ### <a name="power-automate"></a>Power Automate
 
-Bei Verwendung Office Skripts mit Power Automate ist jeder Benutzer auf **800 Aufrufe der Aktion "Skript ausführen" pro Tag** beschränkt. Dieser Grenzwert wird um 12:00 Uhr UTC zurückgesetzt.
+Wenn sie Office Skripts mit Power Automate verwenden, ist jeder Benutzer auf **800 Aufrufe der Aktion "Skript ausführen" pro Tag** beschränkt. Dieser Grenzwert wird um 12:00 Uhr UTC zurückgesetzt.
 
-Die Power Automate-Plattform weist ebenfalls Nutzungseinschränkungen auf, die in den folgenden Artikeln zu finden sind:
+Die Power Automate-Plattform weist ebenfalls Nutzungseinschränkungen auf, die in den folgenden Artikeln zu finden sind.
 
 - [Grenzwerte und Konfiguration in Power Automate](/power-automate/limits-and-config)
 - [Bekannte Probleme und Einschränkungen für den connector Excel Online (Business)](/connectors/excelonlinebusiness/#known-issues-and-limitations)
 
-## <a name="see-also"></a>Siehe auch
+> [!NOTE]
+> Wenn Sie über ein langes Skript verfügen, beachten Sie das Timeout von [120 Sekunden für synchrone Power Automate Vorgänge.](/power-automate/limits-and-config#timeout) Sie müssen entweder [Ihr Skript optimieren](../develop/web-client-performance.md) oder Ihre Excel Automatisierung in mehrere Skripts aufteilen.
+
+## <a name="see-also"></a>Weitere Artikel
 
 - [Problembehandlung bei Office Skripts](troubleshooting.md)
 - [Auswirkungen von Office-Skripts rückgängig machen](undo.md)
