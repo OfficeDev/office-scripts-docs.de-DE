@@ -2,14 +2,14 @@
 title: Office-Skripts in Excel im Web
 description: Eine kurze Einführung in den Action Recorder und den Code Editor für Office-Skripts.
 ms.topic: overview
-ms.date: 09/17/2021
+ms.date: 12/29/2021
 ms.localizationpriority: high
-ms.openlocfilehash: 8fdb39b2e0dd35cd09d5d8c65b17d6ee3f8fd08d
-ms.sourcegitcommit: 1e561d245d9ab7f2529a1b071b1fa0326e37c4ca
+ms.openlocfilehash: baf1957fc476279e1c1e53ebe568dabe1498a4ee
+ms.sourcegitcommit: c62567dc1188527511e4618d3e04e26580d4bb44
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/15/2021
-ms.locfileid: "61513636"
+ms.lasthandoff: 01/03/2022
+ms.locfileid: "61659181"
 ---
 # <a name="office-scripts-in-excel-on-the-web"></a>Office-Skripts in Excel im Web
 
@@ -59,9 +59,12 @@ Die Action Recorder zeichnet Aktionen auf, die Sie in Excel ausführen, und spei
 
 Alle mit dem Action Recorder aufgezeichneten Skripts können über den Code Editor bearbeitet werden. Auf diese Weise können Sie das Skript so optimieren und anpassen, so dass es Ihren genauen Anforderungen besser entspricht. Sie können auch Logiken und Funktionen hinzufügen, die nicht direkt über die Excel-Benutzeroberfläche zugänglich sind, z. B. bedingte Anweisungen (sofern/andernfalls) und Schleifen.
 
-Eine einfache Möglichkeit, die Fähigkeiten von Office-Skripts zu erlernen besteht darin, Skripts in Excel im Web aufzuzeichnen und sich den resultierenden Code anzeigen zu lassen. Eine weitere Möglichkeit besteht darin, unseren [Lernprogrammen](../tutorials/excel-tutorial.md) zu folgen, um geleitet und strukturierter zu lernen.
+> [!TIP]
+> Der Aktionsrekorder verfügt über eine Schaltfläche **Als Code kopieren**, um Aktionen in Skriptcode aufzuzeichnen, ohne das gesamte Skript zu speichern.
+>
+> :::image type="content" source="../images/action-recorder-copy-code.png" alt-text="Der Aufgabenbereich „Aktionsrekorder“ mit hervorgehobener Schaltfläche „Als Code kopieren“.":::
 
-Lesen Sie nach Abschluss des Lernprogramms die [Grundlagen der Skripterstellung für Office-Skripte in Excel für das Web](../develop/scripting-fundamentals.md), um mehr über den Code-Editor zu erfahren und zu lernen, wie Sie Ihre eigenen Skripte schreiben und bearbeiten können. Zusätzliche Informationen über den Code-Editor und wie Ihr Skript-Code interpretiert wird, finden Sie unter [Code-Editor-Umgebung für Office-Skripts](code-editor-environment.md).
+Unsere [Lernprogramme](../tutorials/excel-tutorial.md) bieten eine geführte und strukturierte Möglichkeit zum Erlernen der Funktionen von Office-Skripts. Lesen Sie nach Abschluss der Lernprogramme die [Grundlagen der Skripterstellung für Office-Skripts in Excel für das Web](../develop/scripting-fundamentals.md), um mehr über den Code-Editor zu erfahren und zu lernen, wie Sie Ihre eigenen Skripte schreiben und bearbeiten können. Zusätzliche Informationen über den Code-Editor und wie Ihr Skript-Code interpretiert wird, finden Sie unter [Code-Editor-Umgebung für Office-Skripts](code-editor-environment.md).
 
 ## <a name="share-scripts"></a>Freigeben von Skripts
 
