@@ -4,12 +4,12 @@ description: Eine kurze Einführung in den Action Recorder und den Code Editor f
 ms.topic: overview
 ms.date: 12/29/2021
 ms.localizationpriority: high
-ms.openlocfilehash: baf1957fc476279e1c1e53ebe568dabe1498a4ee
-ms.sourcegitcommit: c62567dc1188527511e4618d3e04e26580d4bb44
+ms.openlocfilehash: 0d06bbc386f0a9189fe1abd3b25b72a43c2ac7bd
+ms.sourcegitcommit: 161229492c85f3519c899573cf5022140026e7b8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/03/2022
-ms.locfileid: "61659181"
+ms.lasthandoff: 01/26/2022
+ms.locfileid: "62220379"
 ---
 # <a name="office-scripts-in-excel-on-the-web"></a>Office-Skripts in Excel im Web
 
@@ -72,7 +72,7 @@ Unsere [Lernprogramme](../tutorials/excel-tutorial.md) bieten eine geführte und
 
 Office-Skripts können für andere Benutzer einer Excel-Arbeitsmappe freigegeben werden. Wenn Sie ein Skript in einer geteilten Arbeitsmappe freigeben, kann auch jeder Benutzer mit Zugriff auf die Arbeitsmappe Ihr Skript anzeigen und ausführen.
 
-Weitere Informationen zur Freigabe und zum Aufheben der Freigabe von Skripts entnehmen Sie dem Artikel [Freigeben von Office-Skripts in Excel für das Web](https://support.microsoft.com/office/226eddbc-3a44-4540-acfe-fccda3d1122b).
+Weitere Informationen zu Freigabe- und Freigabeskripts finden Sie unter [„Freigabe von Office-Skripts“ in Excel für das Web.](https://support.microsoft.com/office/226eddbc-3a44-4540-acfe-fccda3d1122b)
 
 > [!NOTE]
 > Erfahren Sie mehr darüber, wie Skripts in ihrem OneDrive gespeichert werden: [Office-Skripts-Dateispeicher und -Besitz](script-storage.md).

@@ -63,6 +63,8 @@ items:
                 href: resources/samples/add-image-to-workbook.md
               - name: Mehrere Tabellen in eine einzige Tabelle kopieren
                 href: resources/samples/copy-tables-combine.md
+              - name: Inhaltsverzeichnis für eine Arbeitsmappe erstellen
+                href: resources/samples/table-of-contents.md
           - name: Weitere Tipps und Tricks
             items:
               - name: Kombinieren von Arbeitsblättern in einer einzelnen Arbeitsmappe
