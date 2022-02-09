@@ -1,2 +1,0 @@
-> [!NOTE]
-> Dieses Feature ist derzeit in der Vorschau. Vorschaufeatures können basierend auf Feedback geändert werden. Sie stehen möglicherweise nicht allen Office Benutzern vor der Veröffentlichung zur Verfügung.
