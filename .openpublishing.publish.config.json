@@ -34,7 +34,7 @@
     "master-sxs"
   ],
   "git_repository_url_open_to_public_contributors": "https://github.com/OfficeDev/office-scripts-docs",
-  "git_repository_branch_open_to_public_contributors": "master",
+  "git_repository_branch_open_to_public_contributors": "main",
   "continue_with_document_error": true,
   "skip_source_output_uploading": false,
   "need_preview_pull_request": true,
@@ -43,7 +43,7 @@
     {
       "path_to_root": "_themes",
       "url": "https://github.com/Microsoft/templates.docs.msft.de-DE",
-      "branch": "master",
+      "branch": "main",
       "branch_mapping": {}
     },
     {
@@ -52,13 +52,13 @@
       "branch": "live",
       "branch_mapping": {
         "live": "live",
-        "master": "master"
+        "main": "main"
       }
     },
     {
       "path_to_root": "_themes.pdf",
       "url": "https://github.com/Microsoft/templates.docs.msft.pdf",
-      "branch": "master",
+      "branch": "main",
       "branch_mapping": {}
     }
   ],
