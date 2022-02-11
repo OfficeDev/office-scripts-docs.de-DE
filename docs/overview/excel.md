@@ -2,14 +2,14 @@
 title: Office-Skripts in Excel im Web
 description: Eine kurze Einführung in den Action Recorder und den Code Editor für Office-Skripts.
 ms.topic: overview
-ms.date: 02/04/2022
+ms.date: 02/08/2022
 ms.localizationpriority: high
-ms.openlocfilehash: b4222d4f3d99ccd26dde534659681a5919088450
-ms.sourcegitcommit: b84d4c8dd31335e4e39b0da6ad25fd528cb9d8f3
+ms.openlocfilehash: 7c6027386bf8953d6bd260979ad96e7195a2b786
+ms.sourcegitcommit: fce857e91be769c62685d90290acf75cc54d3ef9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62462534"
+ms.lasthandoff: 02/10/2022
+ms.locfileid: "62517881"
 ---
 # <a name="office-scripts-in-excel-on-the-web"></a>Office-Skripts in Excel im Web
 
@@ -79,8 +79,6 @@ Weitere Informationen zu Freigabe- und Freigabeskripts finden Sie unter [„Frei
 
 ### <a name="create-script-buttons"></a>Erstellen von Skriptschaltflächen
 
-[!INCLUDE [Rollout information](../includes/rollout-note.md)]
-
 :::image type="content" source="../images/run-from-button.png" alt-text="Eine Schaltfläche im Arbeitsblatt, die ein Skript ausführt, wenn darauf geklickt wird.":::
 
 Helfen Sie Ihren Kollegen, Ihre Skripts zu finden und auszuführen, indem Sie einer Arbeitsmappe Skriptschaltflächen hinzufügen. Wechseln Sie bei jedem Skript zum Menü **Weitere Optionen (…)** auf der Seite „Details“ des Skripts oder im Aufgabenbereich des Code-Editors, und wählen Sie **Schaltfläche hinzufügen** aus. Dadurch wird in der Arbeitsmappe eine Schaltfläche erstellt, die bei Auswahl das zugehörige Skript ausführt. Außerdem wird das Skript für die Arbeitsmappe freigegeben, sodass jeder Benutzer mit Schreibberechtigungen für die Arbeitsmappe Ihre hilfreiche Automatisierung verwenden kann.
@@ -92,7 +90,7 @@ Der folgende Screenshot zeigt die Seite „Skriptdetails“ für ein Skript mit 
 Diese Skriptschaltflächen funktionieren auch unter Windows. Erstellen Sie die Schaltfläche in Excel im Web und Windows-Benutzer können Ihr Skript mit dem Drücken einer Schaltfläche ausführen. Bitte beachten Sie, dass nur das Ausführen der Schaltfläche in Windows unterstützt wird. Wenn Sie das Skript bearbeiten möchten, müssen Sie dies über die Webanwendung tun.
 
 > [!NOTE]
-> Um dieses Feature unter Windows zu verwenden, benötigen Sie eine Kopie von Excel, die mit einem Microsoft 365-Abonnement verbunden ist. Bei nicht unterstützten Plattformen oder älteren Office-Versionen wird die für die Skriptschaltfläche verwendete Form angezeigt, aber sie kann nicht angeklickt werden.
+> Dieses Feature wird für Benutzer mit einem Microsoft 365-Abonnement eingeführt und ist nicht für alle verfügbar. Es wird erst allmählich für eine größere Anzahl an Benutzern freigegeben, um sicherzustellen, dass es wie erwartet funktioniert. Dieses Feature kann basierend auf Ihrem Feedback geändert werden. Bei nicht unterstützte Plattformen oder Office-Versionen ohne das Feature wird die für die Skriptschaltfläche verwendete Form angezeigt, die Schaltfläche kann jedoch nicht angeklickt werden.
 
 Um die Freigabe eines Skripts über eine Schaltfläche zu beenden, wechseln Sie zum Menü **Weitere Optionen (…)** auf der Seite mit Details zum Skript, und wählen Sie **Freigabe beenden** aus. Dadurch werden alle Schaltflächen, die das Skript ausführen, entfernt. Durch das Löschen einer einzelnen Schaltfläche wird das Skript von dieser einen Schaltfläche entfernt, selbst wenn der Vorgang rückgängig gemacht wird oder die Schaltfläche ausgeschnitten und eingefügt wird.
 
