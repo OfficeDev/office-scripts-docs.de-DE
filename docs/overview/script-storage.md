@@ -1,32 +1,32 @@
 ---
-title: Office Dateispeicherung und -besitz von Skripts
+title: Office Skripts – Dateispeicherung und -besitz
 description: Informationen dazu, wie Office Skripts in Microsoft OneDrive gespeichert und zwischen Besitzern übertragen werden.
 ms.date: 06/04/2021
 ms.localizationpriority: medium
-ms.openlocfilehash: 6b82fc041c97288feefa85f2a9c9efeab0cb5705
-ms.sourcegitcommit: 5ec904cbb1f2cc00a301a5ba7ccb8ae303341267
+ms.openlocfilehash: 98c10ed8def417bef36d5a97eb5411648d49258e
+ms.sourcegitcommit: 49f527a7f54aba00e843ad4a92385af59c1d7bfa
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/18/2021
-ms.locfileid: "59447450"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63352132"
 ---
-# <a name="office-scripts-file-storage-and-ownership"></a>Office Dateispeicherung und -besitz von Skripts
+# <a name="office-scripts-file-storage-and-ownership"></a>Office Skripts – Dateispeicherung und -besitz
 
-Office Skripts werden als **OSTS-Dateien** in Ihrem Microsoft OneDrive gespeichert. Sie werden getrennt von einer Arbeitsmappe gespeichert. Um anderen Zugriff zu gewähren, [geben Sie das Skript mit einer Excel Arbeitsmappe frei.](excel.md#share-scripts) Dies bedeutet, dass Sie das Skript mit der Datei verknüpfen und nicht anfügen. Wer Zugriff auf die Excel Datei hat, kann auch das Skript anzeigen, ausführen oder eine Kopie des Skripts erstellen.
+Office **Skripts werden als OSTS-Dateien** in Ihrem Microsoft OneDrive gespeichert. Sie werden getrennt von einer Arbeitsmappe gespeichert. Um anderen Benutzern Zugriff zu gewähren, [geben Sie das Skript mit einer Excel Arbeitsmappe frei](excel.md#share-office-scripts). Dies bedeutet, dass Sie das Skript mit der Datei verknüpfen und nicht anfügen. Wer Zugriff auf die Excel Datei hat, kann auch eine Kopie des Skripts anzeigen, ausführen oder erstellen.
 
-Wenn Sie Ihre Skripts nicht freigeben, kann kein anderer Benutzer darauf zugreifen. Ihre OneDrive Einstellungen steuern den freigegebenen Zugriff  und die Berechtigungen für alle OSTS-Skriptdateien, unabhängig von Excel Einstellungen. Skripts können nicht von einem lokalen Datenträger oder benutzerdefinierten Cloudspeicherorten verknüpft werden. Office Skripts erkennen und führen ein Skript nur aus, wenn es sich in Ihrem OneDrive Ordner befindet oder für die Arbeitsmappe freigegeben ist.
+Wenn Sie Ihre Skripts nicht freigeben, kann kein anderer Benutzer darauf zugreifen. Ihre OneDrive-Einstellungen steuern den freigegebenen Zugriff und die Berechtigungen für alle **OSTS-Skriptdateien**, unabhängig von Excel Einstellungen. Skripts können nicht von einem lokalen Datenträger oder benutzerdefinierten Cloudspeicherorten verknüpft werden. Office Skripts erkennt und führt ein Skript nur aus, wenn es sich in Ihrem OneDrive Ordner befindet oder für die Arbeitsmappe freigegeben ist.
 
 ## <a name="file-storage"></a>Dateispeicher
 
-Sie Office Skripts werden in Ihrem OneDrive gespeichert. Die **OSTS-Dateien** befinden sich im Ordner **"/Documents/Office Scripts/".** Alle an diesen **OSTS-Dateien** vorgenommenen Änderungen, z. B. das Umbenennen oder Löschen von Dateien, werden im Code-Editor und im Skriptkatalog wiedergegeben.
+Sie Office Skripts werden in Ihrem OneDrive gespeichert. Die **OSTS-Dateien** befinden sich im Ordner **"/Documents/Office Scripts/**". Alle an diesen **OSTS-Dateien** vorgenommenen Änderungen, z. B. das Umbenennen oder Löschen von Dateien, werden im Code-Editor und im Skriptkatalog wiedergegeben.
 
-Skripts, die für eine Ihrer Arbeitsmappen freigegeben sind, verbleiben im OneDrive des Skripterstellers. Sie werden nicht in Ihre lokalen ordner oder OneDrive Ordner kopiert, wenn Sie das freigegebene Skript in Excel ausführen. Die Schaltfläche **"Kopieren"** des Code-Editors speichert eine separate Kopie des Skripts in Ihrem OneDrive. Änderungen an der Kopie wirken sich nicht auf das Originalskript aus.
+Skripts, die für eine Ihrer Arbeitsmappen freigegeben sind, verbleiben im OneDrive des Skripterstellers. Sie werden nicht in Ihre lokalen oder OneDrive Ordner kopiert, wenn Sie das freigegebene Skript in Excel ausführen. Die Schaltfläche "**Kopieren"** des Code-Editors speichert eine separate Kopie des Skripts in Ihrer OneDrive. Änderungen an der Kopie wirken sich nicht auf das Originalskript aus.
 
 ### <a name="restore-deleted-scripts"></a>Wiederherstellen gelöschter Skripts
 
-Wenn Sie ein Skript in Excel löschen, wird es in Den OneDrive Papierkorb verschoben. Führen Sie zum Wiederherstellen eines gelöschten Skripts die unter [Wiederherstellen gelöschter Dateien oder Ordner in OneDrive](https://support.microsoft.com/office/949ada80-0026-4db3-a953-c99083e6a84f)aufgeführten Schritte aus. Durch Wiederherstellen einer **OSTS-Datei** wird sie an die Liste **"Alle Skripts"** zurückgegeben.
+Wenn Sie ein Skript in Excel löschen, wird es in Den OneDrive Papierkorb verschoben. Um ein gelöschtes Skript wiederherzustellen, führen Sie die unter ["Wiederherstellen gelöschter Dateien oder Ordner in OneDrive](https://support.microsoft.com/office/949ada80-0026-4db3-a953-c99083e6a84f)" aufgeführten Schritte aus. Durch Wiederherstellen einer **OSTS-Datei** wird sie an die Liste **"Alle Skripts"** zurückgegeben.
 
-Ein gelöschtes Skript ist nicht mit der Arbeitsmappe verbunden. Wenn Sie ein Skript wiederherstellen, behält es den Skriptzugriff **nicht** bei. Sie müssen das Skript erneut freigeben.
+Ein gelöschtes Skript ist nicht mit der Arbeitsmappe verbunden. Wenn Sie ein Skript wiederherstellen, behält es **den** Skriptzugriff nicht bei. Sie müssen das Skript erneut freigeben.
 
 Wiederhergestellte Skripts funktionieren weiterhin wie erwartet mit Power Automate Flüssen. Sie müssen den Flusskonnektor nicht neu erstellen.
 
@@ -38,14 +38,14 @@ Während der Bearbeitung werden Dateien vorübergehend im Browser gespeichert. S
 
 ## <a name="audit-office-scripts-usage-at-the-admin-level"></a>Überwachen der Verwendung von Office Skripts auf Administratorebene
 
-Ermitteln Sie, welche Mandanten Office Skripts mit dem Überwachungsprotokoll im Compliance Center verwenden. Informationen zur Verwendung dieses Tools finden Sie unter [Durchsuchen des Überwachungsprotokolls im Security & Compliance Center.](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance?view=o365-worldwide&preserve-view=true#search-the-audit-log)
+Ermitteln Sie, welche Mandanten Office Skripts mit dem Überwachungsprotokoll im Compliance Center verwenden. Informationen zur Verwendung dieses Tools finden Sie unter ["Durchsuchen des Überwachungsprotokolls" im Security & Compliance Center](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance?view=o365-worldwide&preserve-view=true#search-the-audit-log).
 
-Um zu ermitteln, wer Office Skripts mit dem Suchtool verwendet, fügen Sie `.osts` das **Feld "Datei", "Ordner" oder "Website"** hinzu. Dadurch werden alle Dateien mit der Dateierweiterung Office Scripts gesucht. Wenn jemand in Ihrer Organisation das Feature Office Skripts verwendet hat, wird die Benutzeraktivität in den Suchergebnissen des Überwachungsprotokolls angezeigt.
+Um zu ermitteln, wer Office Skripts mit dem Suchtool verwendet, fügen Sie das **Feld "Datei", "Ordner" oder "Website**" hinzu`.osts`. Dadurch werden alle Dateien mit der Dateierweiterung Office Scripts gesucht. Wenn jemand in Ihrer Organisation das Feature Office Skripts verwendet hat, wird die Benutzeraktivität in den Suchergebnissen des Überwachungsprotokolls angezeigt.
 
 > [!NOTE]
 > Das Ausführen eines Skripts wird derzeit nicht protokolliert. Es werden nur die Erstellungs-, Ansichts- und Änderungsaktionen protokolliert.
 
-## <a name="see-also"></a>Weitere Artikel
+## <a name="see-also"></a>Siehe auch
 
 - [Office-Skripts in Excel für das Web](https://support.microsoft.com/office/226eddbc-3a44-4540-acfe-fccda3d1122b)
 - [Behandeln von Problemen mit Office-Skripts](../testing/troubleshooting.md)
