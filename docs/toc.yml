@@ -31,6 +31,8 @@ items:
             href: develop/external-calls.md
           - name: Dateispeicher und Dateibesitz
             href: overview/script-storage.md
+          - name: Ausführen von Skripts mit Schaltflächen
+            href: develop/script-buttons.md
           - name: Ausführen von Skripts mit Power Automate
             href: develop/power-automate-integration.md
           - name: Verwenden von Makrodateien in Power Automate-Flows

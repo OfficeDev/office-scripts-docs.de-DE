@@ -2,14 +2,14 @@
 title: Office-Skripts in Excel im Web
 description: Eine kurze Einführung in den Action Recorder und den Code Editor für Office-Skripts.
 ms.topic: overview
-ms.date: 02/08/2022
+ms.date: 02/25/2022
 ms.localizationpriority: high
-ms.openlocfilehash: 7c6027386bf8953d6bd260979ad96e7195a2b786
-ms.sourcegitcommit: fce857e91be769c62685d90290acf75cc54d3ef9
+ms.openlocfilehash: 88c5c6179b1f459e2e20e6dd0dcd80d71829c714
+ms.sourcegitcommit: 49f527a7f54aba00e843ad4a92385af59c1d7bfa
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/10/2022
-ms.locfileid: "62517881"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63352149"
 ---
 # <a name="office-scripts-in-excel-on-the-web"></a>Office-Skripts in Excel im Web
 
@@ -66,33 +66,18 @@ Alle mit dem Action Recorder aufgezeichneten Skripts können über den Code Edit
 
 Unsere [Lernprogramme](../tutorials/excel-tutorial.md) bieten eine geführte und strukturierte Möglichkeit zum Erlernen der Funktionen von Office-Skripts. Lesen Sie nach Abschluss der Lernprogramme die [Grundlagen der Skripterstellung für Office-Skripts in Excel für das Web](../develop/scripting-fundamentals.md), um mehr über den Code-Editor zu erfahren und zu lernen, wie Sie Ihre eigenen Skripte schreiben und bearbeiten können. Zusätzliche Informationen über den Code-Editor und wie Ihr Skript-Code interpretiert wird, finden Sie unter [Code-Editor-Umgebung für Office-Skripts](code-editor-environment.md).
 
-## <a name="share-scripts"></a>Freigeben von Skripts
+## <a name="share-office-scripts"></a>Freigeben von Office-Skripts
+
+Office-Skripts können für andere Benutzer einer Excel-Arbeitsmappe freigegeben werden. Wenn Sie ein Skript in einer geteilten Arbeitsmappe freigeben, kann auch jeder Benutzer mit Zugriff auf die Arbeitsmappe Ihr Skript anzeigen und ausführen. Weitere Informationen zu Freigabe- und Freigabeskripts finden Sie unter [„Freigabe von Office-Skripts“ in Excel für das Web.](https://support.microsoft.com/office/226eddbc-3a44-4540-acfe-fccda3d1122b)
 
 :::image type="content" source="../images/script-sharing.png" alt-text="Die Seite „Skriptdetails“ mit der Option ‚Für andere Personen in dieser Arbeitsmappe freigeben‘":::
 
-Office-Skripts können für andere Benutzer einer Excel-Arbeitsmappe freigegeben werden. Wenn Sie ein Skript in einer geteilten Arbeitsmappe freigeben, kann auch jeder Benutzer mit Zugriff auf die Arbeitsmappe Ihr Skript anzeigen und ausführen.
+Fügen Sie Schaltflächen hinzu, die Skripts ausführen, damit Ihre Kollegen Ihre wertvollen Lösungen entdecken können. Erfahren Sie mehr über Skriptschaltflächen in [Ausführung von Office-Skripts mit Schaltflächen](../develop/script-buttons.md).
 
-Weitere Informationen zu Freigabe- und Freigabeskripts finden Sie unter [„Freigabe von Office-Skripts“ in Excel für das Web.](https://support.microsoft.com/office/226eddbc-3a44-4540-acfe-fccda3d1122b)
+:::image type="content" source="../images/add-button.png" alt-text="Eine Schaltfläche im Arbeitsblatt, die ein Skript ausführt, wenn darauf geklickt wird.":::
 
 > [!NOTE]
 > Erfahren Sie mehr darüber, wie Skripts in ihrem OneDrive gespeichert werden: [Office-Skripts-Dateispeicher und -Besitz](script-storage.md).
-
-### <a name="create-script-buttons"></a>Erstellen von Skriptschaltflächen
-
-:::image type="content" source="../images/run-from-button.png" alt-text="Eine Schaltfläche im Arbeitsblatt, die ein Skript ausführt, wenn darauf geklickt wird.":::
-
-Helfen Sie Ihren Kollegen, Ihre Skripts zu finden und auszuführen, indem Sie einer Arbeitsmappe Skriptschaltflächen hinzufügen. Wechseln Sie bei jedem Skript zum Menü **Weitere Optionen (…)** auf der Seite „Details“ des Skripts oder im Aufgabenbereich des Code-Editors, und wählen Sie **Schaltfläche hinzufügen** aus. Dadurch wird in der Arbeitsmappe eine Schaltfläche erstellt, die bei Auswahl das zugehörige Skript ausführt. Außerdem wird das Skript für die Arbeitsmappe freigegeben, sodass jeder Benutzer mit Schreibberechtigungen für die Arbeitsmappe Ihre hilfreiche Automatisierung verwenden kann.
-
-Der folgende Screenshot zeigt die Seite „Skriptdetails“ für ein Skript mit dem Titel **Bericht erstellen**, wobei die Option **Schaltfläche hinzufügen** im Menü **Weitere Optionen (…)** hervorgehoben ist.
-
-:::image type="content" source="../images/add-button.png" alt-text="Die Option „Schaltfläche hinzufügen“ im Menü „Skriptdetails“.":::
-
-Diese Skriptschaltflächen funktionieren auch unter Windows. Erstellen Sie die Schaltfläche in Excel im Web und Windows-Benutzer können Ihr Skript mit dem Drücken einer Schaltfläche ausführen. Bitte beachten Sie, dass nur das Ausführen der Schaltfläche in Windows unterstützt wird. Wenn Sie das Skript bearbeiten möchten, müssen Sie dies über die Webanwendung tun.
-
-> [!NOTE]
-> Dieses Feature wird für Benutzer mit einem Microsoft 365-Abonnement eingeführt und ist nicht für alle verfügbar. Es wird erst allmählich für eine größere Anzahl an Benutzern freigegeben, um sicherzustellen, dass es wie erwartet funktioniert. Dieses Feature kann basierend auf Ihrem Feedback geändert werden. Bei nicht unterstützte Plattformen oder Office-Versionen ohne das Feature wird die für die Skriptschaltfläche verwendete Form angezeigt, die Schaltfläche kann jedoch nicht angeklickt werden.
-
-Um die Freigabe eines Skripts über eine Schaltfläche zu beenden, wechseln Sie zum Menü **Weitere Optionen (…)** auf der Seite mit Details zum Skript, und wählen Sie **Freigabe beenden** aus. Dadurch werden alle Schaltflächen, die das Skript ausführen, entfernt. Durch das Löschen einer einzelnen Schaltfläche wird das Skript von dieser einen Schaltfläche entfernt, selbst wenn der Vorgang rückgängig gemacht wird oder die Schaltfläche ausgeschnitten und eingefügt wird.
 
 ## <a name="connect-office-scripts-to-power-automate"></a>Verbinden von Office-Skripts mit Power Automate
 
