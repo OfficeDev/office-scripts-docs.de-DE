@@ -1,67 +1,63 @@
 ---
 title: Ausführen Office Skripts mit Power Automate
 description: So erhalten Sie Office Skripts für Excel im Web, die mit einem Power Automate-Workflow arbeiten.
-ms.date: 11/01/2021
+ms.date: 03/08/2022
 ms.localizationpriority: medium
-ms.openlocfilehash: 1a335944230011bc8f5967004b7394f3f5958321
-ms.sourcegitcommit: 634ad2061e683ae1032c1e0b55b00ac577adc34f
+ms.openlocfilehash: f7358b79248974ddb548b54437422670a37531bf
+ms.sourcegitcommit: 79ce4fad6d284b1aa71f5ad6d2938d9ad6a09fee
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/03/2021
-ms.locfileid: "60725593"
+ms.lasthandoff: 03/12/2022
+ms.locfileid: "63459620"
 ---
 # <a name="run-office-scripts-with-power-automate"></a>Ausführen Office Skripts mit Power Automate
 
-[Power Automate](https://flow.microsoft.com) können Sie einem größeren, automatisierten Workflow Office Skripts hinzufügen. Sie können Power Automate aktionen wie das Hinzufügen des Inhalts einer E-Mail zu einer Tabelle eines Arbeitsblatts oder das Erstellen von Aktionen in Ihren Projektverwaltungstools basierend auf Arbeitsmappenkommentaren verwenden.
+[Power Automate](https://flow.microsoft.com) können Sie einem größeren, automatisierten Workflow Office Skripts hinzufügen. Mit Power Automate können Sie z. B. den Inhalt einer E-Mail zur Tabelle eines Arbeitsblatts hinzufügen oder Aktionen in Ihren Projektverwaltungstools basierend auf Arbeitsmappenkommentaren erstellen.
 
 ## <a name="get-started"></a>Erste Schritte
 
-Wenn Sie noch nicht mit Power Automate vertraut sind, empfehlen wir, ["Erste Schritte mit Power Automate"](/power-automate/getting-started)zu besuchen. Dort können Sie mehr über alle Automatisierungsmöglichkeiten erfahren, die Ihnen zur Verfügung stehen. Die Dokumente hier konzentrieren sich darauf, wie Office Skripts mit Power Automate arbeiten und wie dies dazu beitragen kann, Ihre Excel Erfahrung zu verbessern.
+Wenn Sie noch nicht mit Power Automate vertraut sind, empfehlen wir, "[Erste Schritte mit Power Automate](/power-automate/getting-started)" zu besuchen. Dort können Sie mehr über alle Automatisierungsmöglichkeiten erfahren, die Ihnen zur Verfügung stehen. Die dokumente hier konzentrieren sich darauf, wie Office Skripts mit Power Automate arbeiten und wie dies dazu beitragen kann, Ihre Excel Erfahrung zu verbessern.
 
-Um mit der Kombination von Power Automate und Office Skripts zu beginnen, führen Sie das Lernprogramm mit der [Verwendung von Skripts mit Power Automate aus.](../tutorials/excel-power-automate-manual.md) Dadurch erfahren Sie, wie Sie einen Fluss erstellen, der ein einfaches Skript aufruft. Nachdem Sie dieses Lernprogramm abgeschlossen haben und die [Daten an Skripts in einem automatisch ausgeführten Power Automate](../tutorials/excel-power-automate-trigger.md) Fluss-Lernprogramm übergeben haben, kehren Sie hier zurück, um ausführliche Informationen zum Verbinden von Office Skripts mit Power Automate Flüssen zu finden.
+Um mit der Kombination von Power Automate und Office Skripts zu beginnen, folgen Sie dem Lernprogramm [" Verwenden von Skripts mit Power Automate](../tutorials/excel-power-automate-manual.md)". Dadurch erfahren Sie, wie Sie einen Fluss erstellen, der ein einfaches Skript aufruft. Nachdem Sie dieses Lernprogramm abgeschlossen haben und die [Daten an Skripts in einem automatisch ausgeführten Power Automate-Fluss-Lernprogramm übergeben](../tutorials/excel-power-automate-trigger.md) haben, kehren Sie hier zurück, um ausführliche Informationen zum Verbinden von Office Skripts mit Power Automate Flüssen zu finden.
 
-## <a name="excel-online-business-connector"></a>Excel Online-Connector (Business)
+## <a name="excel-online-business-connector"></a>Excel Online (Business)-Connector
 
-[Connectors](/connectors/connectors) sind die Brücken zwischen Power Automate und Anwendungen. Der [connector Excel Online (Business)](/connectors/excelonlinebusiness) bietet Ihren Flüssen Zugriff auf Excel Arbeitsmappen. Mit der Aktion "Skript ausführen" können Sie alle Office aufrufen, auf die über die ausgewählte Arbeitsmappe zugegriffen werden kann. Sie können Ihren Skripts auch Eingabeparameter geben, damit Daten vom Fluss bereitgestellt werden können, oder Ihr Skript Informationen für spätere Schritte im Fluss zurückgeben lassen.
+[Connectors](/connectors/connectors) sind die Brücken zwischen Power Automate und Anwendungen. Der [connector Excel Online (Business)](/connectors/excelonlinebusiness) bietet Ihren Flüssen Zugriff auf Excel Arbeitsmappen. Mit der Aktion "Skript ausführen" können Sie jedes Office Skript aufrufen, auf das über die ausgewählte Arbeitsmappe zugegriffen werden kann. Sie können Ihren Skripts auch Eingabeparameter geben, damit Daten vom Fluss bereitgestellt werden können, oder Sie können festlegen, dass Ihr Skript Informationen für spätere Schritte im Fluss zurückgibt.
 
 > [!IMPORTANT]
-> Die Aktion "Skript ausführen" bietet Personen, die den Excel Connector verwenden, erheblichen Zugriff auf Ihre Arbeitsmappe und ihre Daten. Darüber hinaus gibt es Sicherheitsrisiken bei Skripts, die externe API-Aufrufe ausführen, wie in [externen Aufrufen von Power Automate](external-calls.md)erläutert. Wenn Sich Ihr Administrator mit der Offenlegung streng vertraulicher Daten befasst, kann er entweder den Excel Online-Connector deaktivieren oder den Zugriff auf Office Skripts über die [Administratorsteuerelemente Office Skripts](/microsoft-365/admin/manage/manage-office-scripts-settings)einschränken.
+> Die Aktion "Skript ausführen" bietet Personen, die den Excel Connector verwenden, erheblichen Zugriff auf Ihre Arbeitsmappe und ihre Daten. Darüber hinaus gibt es Sicherheitsrisiken bei Skripts, die externe API-Aufrufe ausführen, wie in [externen Aufrufen von Power Automate](external-calls.md) erläutert. Wenn Sich Ihr Administrator mit der Offenlegung streng vertraulicher Daten befasst, kann er entweder den Excel Online-Connector deaktivieren oder den Zugriff auf Office Skripts über die [Administratorsteuerelemente Office Skripts](/microsoft-365/admin/manage/manage-office-scripts-settings) einschränken.
 
 ## <a name="data-transfer-in-flows-for-scripts"></a>Datenübertragung in Flüssen für Skripts
 
-mit Power Automate können Sie Datenteile zwischen den Schritten des Flusses übergeben. Skripts können so konfiguriert werden, dass sie alle arten von Informationen akzeptieren, die Sie benötigen, und alles aus Ihrer Arbeitsmappe zurückgeben, die Sie in Ihrem Flow wünschen. Die Eingabe für Ihr Skript wird durch Hinzufügen von Parametern zur `main` Funktion (zusätzlich zu `workbook: ExcelScript.Workbook` ) angegeben. Die Ausgabe des Skripts wird deklariert, indem ein Rückgabetyp zu `main` hinzugefügt wird.
+mit Power Automate können Sie Datenteile zwischen den Schritten des Flusses übergeben. Skripts können so konfiguriert werden, dass sie alle benötigten Informationstypen akzeptieren und alles aus Ihrer Arbeitsmappe zurückgeben, die Sie in Ihrem Flow wünschen. Die Eingabe für Ihr Skript wird durch Hinzufügen von Parametern zur `main` Funktion (zusätzlich zu `workbook: ExcelScript.Workbook`) angegeben. Die Ausgabe des Skripts wird deklariert, indem ein Rückgabetyp zu `main`hinzugefügt wird.
 
 > [!NOTE]
 > Wenn Sie einen "Skript ausführen"-Block in Ihrem Flow erstellen, werden die akzeptierten Parameter und zurückgegebenen Typen aufgefüllt. Wenn Sie die Parameter ändern oder Typen ihres Skripts zurückgeben, müssen Sie den "Skript ausführen"-Block des Flusses wiederholen. Dadurch wird sichergestellt, dass die Daten richtig analysiert werden.
 
-In den folgenden Abschnitten werden die Eingabe- und Ausgabedetails für Skripts behandelt, die in Power Automate verwendet werden. Wenn Sie einen praktischen Ansatz zum Erlernen dieses Themas wünschen, testen Sie die [Pass-Daten an Skripts in einem automatisch ausgeführten Lernprogramm Power Automate Fluss](../tutorials/excel-power-automate-trigger.md) oder erkunden Sie das Beispielszenario für [automatisierte Aufgabenerinnerungen.](../resources/scenarios/task-reminders.md)
+In den folgenden Abschnitten werden die Details der Eingabe und Ausgabe für Skripts behandelt, die in Power Automate verwendet werden. Wenn Sie einen praktischen Ansatz zum Erlernen dieses Themas wünschen, testen Sie die [Pass-Daten an Skripts in einem automatisch ausgeführten Lernprogramm Power Automate Fluss](../tutorials/excel-power-automate-trigger.md) oder erkunden Sie das Beispielszenario für [automatisierte Aufgabenerinnerungen](../resources/scenarios/task-reminders.md).
 
 ### <a name="main-parameters-pass-data-to-a-script"></a>`main` Parameter: Übergeben von Daten an ein Skript
 
-Alle Skripteingaben werden als zusätzliche Parameter für die `main` Funktion angegeben. Wenn sie beispielsweise möchten, dass ein Skript einen Wert akzeptiert, der `string` einen Namen als Eingabe darstellt, ändern Sie die Signatur in `main` `function main(workbook: ExcelScript.Workbook, name: string)` .
+Alle Skripteingaben werden als zusätzliche Parameter für die `main` Funktion angegeben. Wenn sie beispielsweise möchten, dass ein Skript einen `string` Namen akzeptiert, der einen Namen als Eingabe darstellt, ändern Sie die `main` Signatur in `function main(workbook: ExcelScript.Workbook, name: string)`.
 
-Wenn Sie einen Fluss in Power Automate konfigurieren, können Sie Skripteingaben als statische Werte, [Ausdrücke](/power-automate/use-expressions-in-conditions)oder dynamischen Inhalt angeben. Details zum Connector eines einzelnen Diensts finden Sie in der [Dokumentation zu Power Automate Connector.](/connectors/)
+Wenn Sie einen Fluss in Power Automate konfigurieren, können Sie Skripteingaben als statische Werte, [Ausdrücke](/power-automate/use-expressions-in-conditions) oder dynamischen Inhalt angeben. Details zum Connector eines einzelnen Diensts finden Sie in der [Dokumentation zu Power Automate Connector](/connectors/).
 
-Berücksichtigen Sie beim Hinzufügen von Eingabeparametern zur Funktion eines Skripts `main` die folgenden Einschränkungen und Einschränkungen.
+#### <a name="type-restrictions"></a>Typeinschränkungen
 
-1. Der erste Parameter muss vom Typ `ExcelScript.Workbook` sein. Der Parametername spielt keine Rolle.
+Berücksichtigen Sie beim Hinzufügen von Eingabeparametern zur Funktion eines Skripts `main` die folgenden Einschränkungen und Einschränkungen. Diese gelten auch für den Rückgabetyp des Skripts.
 
-1. Jeder Parameter muss einen Typ aufweisen (z. B. `string` oder `number` ).
+1. Der erste Parameter muss vom Typ `ExcelScript.Workbook`sein. Der Parametername spielt keine Rolle.
 
-1. Die grundlegenden Typen `string` , , , , , und werden `number` `boolean` `unknown` `object` `undefined` unterstützt.
+1. Die Typen `string`, `number`, `boolean`, , `unknown`, und `undefined` `object`werden unterstützt.
 
-1. Arrays ( `[]` ) der zuvor aufgeführten Basistypen werden unterstützt.
-    > [!IMPORTANT]
-    > Bitte beachten Sie, dass das Objekt `Array<T>` kein unterstützter Parametertyp ist.
+1. Arrays (sowohl als `Array<T>` auch `[]` Formatvorlagen) der zuvor aufgeführten Typen werden unterstützt. Geschachtelte Arrays werden ebenfalls unterstützt.
 
-1. Geschachtelte Arrays werden als Parameter unterstützt (aber nicht als Rückgabetypen).
+1. Union-Typen sind zulässig, wenn sie eine Vereinigung von Literalen sind, die zu einem einzelnen Typ gehören (z `"Left" | "Right"`. B. , nicht `"Left", 5`). Außerdem werden Verbindungen eines unterstützten Typs mit nicht definierten Typen unterstützt (z `string | undefined`. B. ).
 
-1. Union-Typen sind zulässig, wenn es sich um eine Vereinigung von Literalen handelt, die zu einem einzelnen Typ gehören (z. B. `"Left" | "Right"` ). Außerdem werden Verbindungen eines unterstützten Typs mit nicht definierten Typen unterstützt (z. B. `string | undefined` ).
-
-1. Objekttypen sind zulässig, wenn sie Eigenschaften vom Typ `string` , `number` , `boolean` unterstützten Arrays oder anderen unterstützten Objekten enthalten. Das folgende Beispiel zeigt geschachtelte Objekte, die als Parametertypen unterstützt werden:
+1. Objekttypen sind zulässig, wenn sie Eigenschaften vom Typ `string`, `number`, `boolean`unterstützten Arrays oder anderen unterstützten Objekten enthalten. Das folgende Beispiel zeigt geschachtelte Objekte, die als Parametertypen unterstützt werden.
 
     ```TypeScript
-    // Office Scripts can return an Employee object because Position only contains strings and numbers.
+    // The Employee object is supported because Position is also composed of supported types.
     interface Employee {
         name: string;
         job: Position;
@@ -73,31 +69,21 @@ Berücksichtigen Sie beim Hinzufügen von Eingabeparametern zur Funktion eines S
     }
     ```
 
-1. Für Objekte muss ihre Schnittstelle oder Klassendefinition im Skript definiert sein. Ein Objekt kann auch anonym inline definiert werden, wie im folgenden Beispiel gezeigt:
+1. Für Objekte muss ihre Schnittstelle oder Klassendefinition im Skript definiert sein. Ein Objekt kann auch anonym inline definiert werden, wie im folgenden Beispiel gezeigt.
 
     ```TypeScript
     function main(workbook: ExcelScript.Workbook): {name: string, email: string}
     ```
 
-1. Optionale Parameter sind zulässig und können mithilfe des optionalen Modifizierers (z. B. ) als solche gekennzeichnet `?` `function main(workbook: ExcelScript.Workbook, Name?: string)` werden.
+#### <a name="optional-and-default-parameters"></a>Optionale und Standardparameter
 
-1. Standardwerte sind zulässig `async function main(workbook: ExcelScript.Workbook, Name: string = 'Jane Doe')` (z. B. .
+1. Optionale Parameter sind zulässig und werden mit dem optionalen Modifizierer `?` (z. B `function main(workbook: ExcelScript.Workbook, Name?: string)`. ) angegeben.
+
+1. Standardwerte sind zulässig (z. B `function main(workbook: ExcelScript.Workbook, Name: string = 'Jane Doe')`. .
 
 ### <a name="return-data-from-a-script"></a>Zurückgeben von Daten aus einem Skript
 
-Skripts können Daten aus der Arbeitsmappe zurückgeben, die als dynamischer Inhalt in einem Power Automate Fluss verwendet werden sollen. Wie bei Eingabeparametern werden Power Automate einige Einschränkungen für den Rückgabetyp festlegen.
-
-1. Die grundlegenden Typen `string` , , , und werden `number` `boolean` `void` `undefined` unterstützt.
-
-1. Union-Typen, die als Rückgabetypen verwendet werden, folgen den gleichen Einschränkungen wie bei der Verwendung als Skriptparameter.
-
-1. Arraytypen ( `[]` ) sind zulässig, wenn sie vom Typ `string` `number` sind, oder `boolean` . Sie sind auch zulässig, wenn es sich bei dem Typ um eine unterstützte Vereinigung oder einen unterstützten Literaltyp handelt.
-    > [!IMPORTANT]
-    > Bitte beachten Sie, dass das Objekt `Array<T>` kein unterstützter Rückgabetyp ist.
-
-1. Objekttypen, die als Rückgabetypen verwendet werden, folgen den gleichen Einschränkungen wie bei der Verwendung als Skriptparameter.
-
-1. Implizite Eingaben werden unterstützt, müssen jedoch denselben Regeln wie ein definierter Typ entsprechen.
+Skripts können Daten aus der Arbeitsmappe zurückgeben, die als dynamischer Inhalt in einem Power Automate Fluss verwendet werden sollen. Die [gleichen Zuvor aufgeführten Typeinschränkungen](#type-restrictions) gelten für den Rückgabetyp. Um ein Objekt zurückzugeben, fügen Sie der Funktion die Rückgabetypsyntax `main` hinzu. Wenn Sie beispielsweise einen `string` Wert aus dem Skript zurückgeben möchten, lautet `function main(workbook: ExcelScript.Workbook): string`die `main` Signatur .
 
 ## <a name="example"></a>Beispiel
 
@@ -133,4 +119,4 @@ function main(
 - [Zurückgeben von Daten aus einem Skript an einen automatisch ausgeführten Power Automate-Flow](../tutorials/excel-power-automate-returns.md)
 - [Problembehandlungsinformationen für Power Automate mit Office Skripts](../testing/power-automate-troubleshooting.md)
 - [Erste Schritte mit Power Automate](/power-automate/getting-started)
-- [Excel Referenzdokumentation zu Online-Connectors (Business)](/connectors/excelonlinebusiness/)
+- [Referenzdokumentation für Excel Online connector (Business)](/connectors/excelonlinebusiness/)

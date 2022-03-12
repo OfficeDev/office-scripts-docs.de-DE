@@ -1001,7 +1001,7 @@ Abschnitt 8 – Interpretation.
 
 =======================================================================
 
-Creative Commons ist keine Partei ihrer öffentlichen Lizenzen. Ungeachtet dessen können Creative Commons entscheiden, eine ihrer öffentlichen Lizenzen auf von ihr veröffentlichte Materialien anzuwenden, und in diesen Fällen wird sie als "Licensor" betrachtet. Der Text der öffentlichen Creative Commons-Lizenzen ist der öffentlichen Domäne unter "CC0 Public DomainSynlast" zugeordnet. Mit Ausnahme des eingeschränkten Zwecks, anzugeben, dass Material unter einer öffentlichen Lizenz für Creative Commons freigegeben wird oder wie dies anderweitig durch die auf creativecommons.org/policies veröffentlichten Creative Commons-Richtlinien zulässig ist, autorisiert Creative Commons nicht die Verwendung der Marke "Creative Commons" oder anderer Marken oder Logos von Creative Commons ohne vorherige schriftliche Zustimmung, einschließlich,  ohne Einschränkung im Zusammenhang mit nicht autorisierten Änderungen an seinen öffentlichen Lizenzen oder anderen Vereinbarungen, Vereinbarungen oder Vereinbarungen zur Verwendung von lizenzierten Materialien. Aus Gründen des Zweifels ist dieser Absatz nicht Teil der öffentlichen Lizenzen.
+Creative Commons ist keine Partei ihrer öffentlichen Lizenzen. Ungeachtet dessen können Creative Commons entscheiden, eine ihrer öffentlichen Lizenzen auf von ihr veröffentlichte Materialien anzuwenden, und in diesen Fällen wird sie als "Licensor" betrachtet. Der Text der öffentlichen Creative Commons-Lizenzen ist der öffentlichen Domäne unter "CC0 Public DomainSynlast" zugeordnet. Mit Ausnahme des eingeschränkten Zwecks, anzugeben, dass Material unter einer öffentlichen Lizenz für Creative Commons freigegeben wird oder wie dies anderweitig durch die creative Commons-Richtlinien zulässig ist, die auf creativecommons.org/policies veröffentlicht wurden, autorisiert Creative Commons die Verwendung der Marke "Creative Commons" oder anderer Marken oder Logos von Creative Commons ohne ihre vorherige schriftliche Zustimmung nicht, einschließlich,  ohne Einschränkung im Zusammenhang mit nicht autorisierten Änderungen an seinen öffentlichen Lizenzen oder anderen Vereinbarungen, Vereinbarungen oder Vereinbarungen zur Verwendung von lizenzierten Materialien. Aus Gründen des Zweifels ist dieser Absatz nicht Teil der öffentlichen Lizenzen.
 
 Creative Commons können unter creativecommons.org kontaktiert werden.
 
@@ -1088,7 +1088,7 @@ DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, UND DER AUTOR LEHNT ALLE GEWÄHR
 
 ----
 
-Diese Bibliothek bündelt eine Version der `fs.realpath` Und-Methoden `fs.realpathSync` aus Node.js v0.10 gemäß den Bedingungen der Node.js MIT-Lizenz.
+Diese Bibliothek bündelt eine Version der `fs.realpath` und `fs.realpathSync` Methoden aus Node.js v0.10 gemäß den Bedingungen der Node.js MIT-Lizenz.
 
 Die Lizenz des Knotens folgt, auch in der Kopfzeile `old.js` enthalten, die den lizenzierten Code enthält:
 
@@ -1119,7 +1119,7 @@ DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, UND DER AUTOR LEHNT ALLE GEWÄHR
 
 ## <a name="glob-logo"></a>Glob-Logo
 
-Globs Logo, das von Tanya Labsie <http://tanyabrassie.com/>erstellt wurde, lizenziert unter einer Creative Commons Attribution-ShareAlike 4.0 International License https://creativecommons.org/licenses/by-sa/4.0/
+Glob's Logo erstellt von Tanya Labsie <http://tanyabrassie.com/>, lizenziert unter einer Creative Commons Attribution-ShareAlike 4.0 International License https://creativecommons.org/licenses/by-sa/4.0/
 
 
 ---------------------------------------------------------
@@ -3129,7 +3129,7 @@ DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜC
 
 chokidar 2.1.8 - MIT https://github.com/paulmillr/chokidar
 
-Copyright (c) 2012-2019 Paul Maustaste (https://paulmillr.com) & Elan Codierer
+Copyright (c) 2012-2019 Paul Maustaste (https://paulmillr.com) & Elan Doppelklickker
 
 MIT-Lizenz
 
@@ -3351,7 +3351,7 @@ core-util-is 1.0.2 - MIT https://github.com/isaacs/core-util-is#readme
 
 Copyright Copyright, Inc. und andere Node-Mitwirkende.
 
-Autoren von Copyright Node.js. Alle Rechte vorbehalten.
+Autoren Node.js Mitwirkenden. Alle Rechte vorbehalten.
 
 Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um die Software ohne Einschränkung zu bearbeiten, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
@@ -3653,7 +3653,7 @@ DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜC
 
 eventsource 1.0.7 - MIT http://github.com/EventSource/eventsource
 
-Copyright (c) EventSource GitHub Copyright Xamlent, Inc. und anderen Node-Mitwirkenden.
+Copyright (c) EventSource GitHub Copyright Copyright, Inc. and other Node contributors.
 
 Die MIT-Lizenz
 
@@ -4000,7 +4000,7 @@ DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜC
 
 fs-extra 7.0.1 - MIT https://github.com/jprichardson/node-fs-extra
 
-Copyright (c) 2011-2017 JP Jonson Copyright (c) 2011-2017 JP Jonson (https://github.com/jprichardson) Copyright (c) 2014-2016 Maustaste Ong me@jongleberry.com and Contributors
+Copyright (c) 2011-2017 JP Jonson Copyright (c) 2011-2017 JP JohnSon (https://github.com/jprichardson) Copyright (c) 2014-2016 Uhr Ong me@jongleberry.com and Contributors
 
 (Die MIT-Lizenz)
 
@@ -4288,7 +4288,7 @@ Der obige Urheberrechtshinweis und dieser Berechtigungshinweis sind in allen Kop
 DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER KONKLUDENT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER HANDELSÜBLICHKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTINFRINGEMENT. IN KEINEM FALL HAFTUNGEN DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNGEN, SEI ES IN EINER VERTRAGS-, SCHÄDEN- ODER ANDERWEITIGEN AKTION, DIE SICH AUS, AUS DER SOFTWARE ODER IN VERBINDUNG MIT DER SOFTWARE ODER DER NUTZUNG ODER EINEM ANDEREN UMGANG MIT DER SOFTWARE ERGIBT.
 
 
-Einige Dateien aus dem Testordner stammen aus dem Ordner "spaßent/node" und "mscedex/io.js", einer Verzweigung von nodejs/io.js:
+Einige Dateien aus dem Testordner stammen aus dem Ordner "spaßent/node" und "mscedex/io.js", eine Verzweigung von nodejs/io.js:
 
 - tests/iojs/test-http-parser-durability.js
 
@@ -5268,11 +5268,11 @@ DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜC
 
 lodash 4.17.15 - MIT https://lodash.com/
 
-Copyright OpenJS Foundation und andere Mitwirkende <https://openjsf.org/> Copyright Copyright Ashkenas, DocumentCloud and Investigat Reporters & Editors copyright Copyright Ashkenas, DocumentCloud and Investigat Reporters & Editors <http://underscorejs.org/>
+Copyright OpenJS Foundation und andere Mitwirkende <https://openjsf.org/> Copyright Copyright Ashkenas, DocumentCloud and Investigat Reporters & Editors copyright Copyright Copyright Ashkenas, DocumentCloud and Investigat Reporters & Editors <http://underscorejs.org/>
 
 Copyright OpenJS Foundation und andere Mitwirkende <https://openjsf.org/>
 
-Basierend auf Underscore.js copyright Copyright Copyright Ashkenas, DocumentCloud and Investigativ Reporters & Editors <http://underscorejs.org/>
+Basierend auf Underscore.js copyright Copyright Ashkenas, DocumentCloud and Investigativ Reporters & Editors <http://underscorejs.org/>
 
 Diese Software besteht aus freiwilligen Beiträgen vieler Einzelpersonen. Informationen zum genauen Beitragsverlauf finden Sie im Überarbeitungsverlauf unter https://github.com/lodash/lodash
 
@@ -5883,7 +5883,7 @@ Copyright (c) 2015 Unshift.io, Codut Kasemier
 
 Die MIT-Lizenz (MIT)
 
-Copyright (c) 2015 Unshift.io, Wiesut Kasemier, die Mitwirkenden.
+Copyright (c) 2015 Unshift.io, Csvut Kasemier, the Contributors.
 
 Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um die Software ohne Einschränkung zu bearbeiten, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
@@ -6351,7 +6351,7 @@ Copyright (c) 2015 Unshift.io, Codut Kasemier
 
 Die MIT-Lizenz (MIT)
 
-Copyright (c) 2015 Unshift.io, Wiesut Kasemier, die Mitwirkenden.
+Copyright (c) 2015 Unshift.io, Csvut Kasemier, the Contributors.
 
 Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um die Software ohne Einschränkung zu bearbeiten, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
@@ -6799,7 +6799,7 @@ Copyright (c) 2015 Unshift.io, Codut Kasemier
 
 Die MIT-Lizenz (MIT)
 
-Copyright (c) 2015 Unshift.io, Wiesut Kasemier, die Mitwirkenden.
+Copyright (c) 2015 Unshift.io, Csvut Kasemier, the Contributors.
 
 Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um die Software ohne Einschränkung zu bearbeiten, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
@@ -7990,7 +7990,7 @@ Copyright (c) 2015 Unshift.io, Codut Kasemier
 
 Die MIT-Lizenz (MIT)
 
-Copyright (c) 2015 Unshift.io, Wiesut Kasemier, die Mitwirkenden.
+Copyright (c) 2015 Unshift.io, Csvut Kasemier, the Contributors.
 
 Die Berechtigung wird jeder Person, die eine Kopie dieser Software und zugehöriger Dokumentationsdateien (die "Software") erhält, kostenlos gewährt, um die Software ohne Einschränkung zu bearbeiten, einschließlich ohne Einschränkung der Rechte zum Verwenden, Kopieren, Ändern, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und um Personen, denen die Software zugewiesen ist, dies zu gestatten,  unter den folgenden Bedingungen:
 
@@ -8188,4 +8188,3 @@ DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜC
 
 
 ---------------------------------------------------------
-

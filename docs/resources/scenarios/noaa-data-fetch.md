@@ -1,24 +1,24 @@
 ---
-title: 'Office Skripts-Beispielszenario: Graph Wasserstandsdaten von NOAA'
+title: 'Beispielszenario für Office Skripts: Graph Wasserstandsdaten von NOAA'
 description: Ein Beispiel, das JSON-Daten aus einer NOAA-Datenbank abruft und zum Erstellen eines Diagramms verwendet.
-ms.date: 06/29/2021
+ms.date: 03/08/2022
 ms.localizationpriority: medium
-ms.openlocfilehash: f0492c79b9fc2d7d98f4433611fd8589cf52054a
-ms.sourcegitcommit: d3ed4bdeeba805d97c930394e172e8306a0cf484
+ms.openlocfilehash: 23246185072587d292cec4e30f868c46ddc80cde
+ms.sourcegitcommit: 79ce4fad6d284b1aa71f5ad6d2938d9ad6a09fee
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "59327889"
+ms.lasthandoff: 03/12/2022
+ms.locfileid: "63459634"
 ---
-# <a name="office-scripts-sample-scenario-fetch-and-graph-water-level-data-from-noaa"></a>Office Skript-Beispielszenario: Abrufen und Diagrammen von Wasserstandsdaten von NOAA
+# <a name="office-scripts-sample-scenario-fetch-and-graph-water-level-data-from-noaa"></a>Beispielszenario für Office Skripts: Abrufen und Diagrammen von Wasserstandsdaten von NOAA
 
-In diesem Szenario müssen Sie den Wasserstand an der [Seattle-Station](https://tidesandcurrents.noaa.gov/stationhome.html?id=9447130)der National Seaic and Administrations darstellen. Sie verwenden externe Daten, um eine Kalkulationstabelle aufzufüllen und ein Diagramm zu erstellen.
+In diesem Szenario müssen Sie den Wasserstand an der [Seattle-Station der National Seaic and Administrations](https://tidesandcurrents.noaa.gov/stationhome.html?id=9447130) darstellen. Sie verwenden externe Daten, um eine Kalkulationstabelle aufzufüllen und ein Diagramm zu erstellen.
 
-Sie entwickeln ein Skript, das den `fetch` Befehl verwendet, um die [NOAA-Datenbank "Käufe" und "Currents" abfragt.](https://tidesandcurrents.noaa.gov/) Dadurch wird der Wasserstand über einen bestimmten Zeitraum aufgezeichnet. Die Informationen werden als JSON zurückgegeben, sodass ein Teil des Skripts dies in Bereichswerte übersetzt. Sobald sich die Daten in der Kalkulationstabelle befinden, werden sie zum Erstellen eines Diagramms verwendet.
+Sie entwickeln ein Skript, das den `fetch` Befehl verwendet, um die [NOAA-Datenbank "Käufe" und "Currents" abfragt](https://tidesandcurrents.noaa.gov/). Dadurch wird der Wasserstand über einen bestimmten Zeitraum aufgezeichnet. Die Informationen werden als JSON zurückgegeben, sodass ein Teil des Skripts dies in Bereichswerte übersetzt. Sobald sich die Daten in der Kalkulationstabelle befinden, werden sie zum Erstellen eines Diagramms verwendet.
 
 ## <a name="scripting-skills-covered"></a>Abgedeckte Skriptfähigkeiten
 
-- Externe API-Aufrufe ( `fetch` )
+- Externe API-Aufrufe (`fetch`)
 - JSON-Analyse
 - Diagramme
 
@@ -26,14 +26,14 @@ Sie entwickeln ein Skript, das den `fetch` Befehl verwendet, um die [NOAA-Datenb
 
 1. Öffnen Sie die Arbeitsmappe mit Excel im Web.
 
-1. Wählen Sie auf der Registerkarte **"Automatisieren"** die Option **"Neues Skript"** aus, und fügen Sie das folgende Skript in den Editor ein.
+1. Wählen Sie auf der Registerkarte **"Automatisieren** " **die Option "Neues Skript** " aus, und fügen Sie das folgende Skript in den Editor ein.
 
     ```TypeScript
     /**
      * Gets data from the National Oceanic and Atmospheric Administration's Tides and Currents database. 
      * That data is used to make a chart.
      */
-    async function main(workbook: ExcelScript.Workbook): Promise<void> {
+    async function main(workbook: ExcelScript.Workbook) {
       // Get the current sheet.
       let currentSheet = workbook.getActiveWorksheet();
     
@@ -109,11 +109,11 @@ Sie entwickeln ein Skript, das den `fetch` Befehl verwendet, um die [NOAA-Datenb
     }
     ```
 
-1. Benennen Sie das Skript in **das NOAA-Wasserebenendiagramm um,** und speichern Sie es.
+1. Benennen Sie das Skript in **das NOAA-Wasserebenendiagramm um** , und speichern Sie es.
 
 ## <a name="running-the-script"></a>Ausführen des Skripts
 
-Führen Sie auf jedem Arbeitsblatt das **NOAA-Skript "Wasserebenendiagramm" aus.** Das Skript ruft die Wasserstandsdaten vom 25. Dezember 2020 bis zum 27. Dezember 2020 ab. Die `const` Variablen am Anfang des Skripts können geändert werden, um unterschiedliche Datumsangaben zu verwenden oder unterschiedliche Senderinformationen abzurufen. Die [CO-OPS-API für den Datenabruf](https://api.tidesandcurrents.noaa.gov/api/prod/) beschreibt, wie alle diese Daten abgerufen werden.
+Führen Sie auf jedem Arbeitsblatt das **NOAA-Skript "Wasserebenendiagramm" aus** . Das Skript ruft die Wasserstandsdaten vom 25. Dezember 2020 bis zum 27. Dezember 2020 ab. Die `const` Variablen am Anfang des Skripts können geändert werden, um unterschiedliche Datumsangaben zu verwenden oder unterschiedliche Senderinformationen abzurufen. Die [CO-OPS-API für den Datenabruf](https://api.tidesandcurrents.noaa.gov/api/prod/) beschreibt, wie alle diese Daten abgerufen werden.
 
 ### <a name="after-running-the-script"></a>Nach dem Ausführen des Skripts
 

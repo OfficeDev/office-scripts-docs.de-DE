@@ -1,16 +1,16 @@
 ---
 title: Filtern Excel Tabelle und Abrufen des sichtbaren Bereichs
 description: Erfahren Sie, wie Sie Office Skripts verwenden, um eine Excel Tabelle zu filtern und den sichtbaren Bereich als Array von Objekten abzurufen.
-ms.date: 06/29/2021
+ms.date: 03/10/2022
 ms.localizationpriority: medium
-ms.openlocfilehash: 35c769ff1d5a088b652833826d41ecad2c317465
-ms.sourcegitcommit: d3ed4bdeeba805d97c930394e172e8306a0cf484
+ms.openlocfilehash: 752566aae1f5e64748e9a7a4c33447129905be22
+ms.sourcegitcommit: 79ce4fad6d284b1aa71f5ad6d2938d9ad6a09fee
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "59333062"
+ms.lasthandoff: 03/12/2022
+ms.locfileid: "63459654"
 ---
-# <a name="filter-excel-table-and-get-visible-range-as-a-json-object"></a>Filtern Excel Tabelle und Abrufen des sichtbaren Bereichs als JSON-Objekt
+# <a name="filter-excel-table-and-get-visible-range-as-a-json-object"></a>Filtern Excel Tabelle und Abrufen eines sichtbaren Bereichs als JSON-Objekt
 
 In diesem Beispiel wird eine Excel Tabelle gefiltert und der sichtbare Bereich als JSON-Objekt zurückgegeben. Dieser JSON-Code könnte einem Power Automate Fluss als Teil einer größeren Lösung bereitgestellt werden.
 
@@ -18,7 +18,7 @@ In diesem Beispiel wird eine Excel Tabelle gefiltert und der sichtbare Bereich a
 
 * Wendet einen Filter auf eine Tabellenspalte an.
 * Extrahieren Sie den sichtbaren Bereich nach dem Filtern.
-* Ein Objekt mit einer [bestimmten JSON-Struktur](#sample-json)zusammenstellen und zurückgeben.
+* Ein Objekt mit einer [bestimmten JSON-Struktur](#sample-json) zusammenstellen und zurückgeben.
 
 ## <a name="sample-excel-file"></a>Beispieldatei für Excel
 
@@ -60,7 +60,7 @@ function main(workbook: ExcelScript.Workbook): ReturnTemplate {
 
 // This function converts a 2D-array of values into a generic JSON object.
 function returnObjectFromValues(values: string[][]): BasicObject[] {
-  let objectArray = [];
+  let objectArray: BasicObject[] = [];
   let objectKeys: string[] = [];
   for (let i = 0; i < values.length; i++) {
     if (i === 0) {
@@ -138,4 +138,4 @@ Jeder Schlüssel stellt einen eindeutigen Wert einer Tabelle dar. Jede Arrayinst
 
 ## <a name="training-video-filter-an-excel-table-and-get-the-visible-range"></a>Schulungsvideo: Filtern einer Excel Tabelle und Abrufen des sichtbaren Bereichs
 
-[Sehen Sie sich dieses Beispiel auf YouTube an.](https://youtu.be/Mv7BrvPq84A)
+[Sehen Sie sich an, wie Sie dieses Beispiel auf YouTube durchlaufen](https://youtu.be/Mv7BrvPq84A).
