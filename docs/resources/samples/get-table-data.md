@@ -1,41 +1,35 @@
 ---
 title: Ausgabe Excel Daten als JSON
 description: Erfahren Sie, wie Sie Excel Tabellendaten als JSON ausgeben, die in Power Automate verwendet werden.
-ms.date: 07/22/2021
+ms.date: 03/18/2022
 ms.localizationpriority: medium
-ms.openlocfilehash: 2b613f41618594f6f38634e4126ab8f616f1f3f4
-ms.sourcegitcommit: d3ed4bdeeba805d97c930394e172e8306a0cf484
+ms.openlocfilehash: d6f15b9b59a2dfe1c74caa11c748f5f52c4ef35e
+ms.sourcegitcommit: 62a62351a0a15a658f93336269f3f50767ca6b62
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "59332108"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63746356"
 ---
 # <a name="output-excel-table-data-as-json-for-usage-in-power-automate"></a>Ausgabe Excel Tabellendaten als JSON für die Verwendung in Power Automate
 
 Excel Tabellendaten können als Array von Objekten in Form von JSON dargestellt werden. Jedes Objekt stellt eine Zeile in der Tabelle dar. Dies hilft, die Daten aus Excel in einem konsistenten Format zu extrahieren, das für den Benutzer sichtbar ist. Die Daten können dann über Power Automate Flüsse an andere Systeme übergeben werden.
 
-_Eingabetabellendaten_
+## <a name="sample-excel-file"></a>Beispieldatei für Excel
+
+Laden Sie die Datei <a href="table-data-with-hyperlinks.xlsx">table-data-with-hyperlinks.xlsx</a> für eine einsatzbereite Arbeitsmappe herunter.
 
 :::image type="content" source="../../images/table-input.png" alt-text="Ein Arbeitsblatt mit Eingabetabellendaten.":::
 
 Eine Variante dieses Beispiels enthält auch die Hyperlinks in einer der Tabellenspalten. Dadurch können zusätzliche Zelldatenebenen im JSON-Code angezeigt werden.
 
-_Eingabetabellendaten, die Hyperlinks enthalten_
-
 :::image type="content" source="../../images/table-hyperlink-view.png" alt-text="Ein Arbeitsblatt mit einer Spalte mit Tabellendaten, die als Hyperlinks formatiert sind.":::
-
-_Dialogfeld zum Bearbeiten eines Hyperlinks_
-
-:::image type="content" source="../../images/table-hyperlink-edit.png" alt-text="Das Dialogfeld Hyperlink bearbeiten zeigt Optionen zum Ändern von Hyperlinks an.":::
-
-## <a name="sample-excel-file"></a>Beispieldatei für Excel
-
-Laden Sie die Datei <a href="table-data-with-hyperlinks.xlsx">table-data-with-hyperlinks.xlsx</a> für eine einsatzbereite Arbeitsmappe herunter. Fügen Sie das folgende Skript hinzu, um das Beispiel selbst auszuprobieren!
 
 ## <a name="sample-code-return-table-data-as-json"></a>Beispielcode: Zurückgeben von Tabellendaten als JSON
 
+Fügen Sie das folgende Skript hinzu, um das Beispiel selbst auszuprobieren!
+
 > [!NOTE]
-> Sie können die `interface TableData` Struktur so ändern, dass sie ihren Tabellenspalten entspricht. Beachten Sie, dass Sie bei Spaltennamen mit Leerzeichen den Schlüssel in Anführungszeichen platzieren müssen, z. `"Event ID"` B. im Beispiel.
+> Sie können die `interface TableData` Struktur so ändern, dass sie ihren Tabellenspalten entspricht. Beachten Sie, dass Sie bei Spaltennamen mit Leerzeichen den Schlüssel in Anführungszeichen platzieren müssen, z. B. im `"Event ID"` Beispiel.
 
 ```TypeScript
 function main(workbook: ExcelScript.Workbook): TableData[] {
@@ -266,4 +260,4 @@ interface TableData {
 
 ## <a name="use-in-power-automate"></a>Verwenden in Power Automate
 
-Informationen zur Verwendung eines solchen Skripts in Power Automate finden Sie unter [Erstellen eines automatisierten Workflows mit Power Automate.](../../tutorials/excel-power-automate-returns.md#create-an-automated-workflow-with-power-automate)
+Informationen zur Verwendung eines solchen Skripts in Power Automate finden Sie unter [Erstellen eines automatisierten Workflows mit Power Automate](../../tutorials/excel-power-automate-returns.md#create-an-automated-workflow-with-power-automate).
