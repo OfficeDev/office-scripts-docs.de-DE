@@ -3,12 +3,12 @@ title: Office Skripts – Dateispeicherung und -besitz
 description: Informationen dazu, wie Office Skripts in Microsoft OneDrive gespeichert und zwischen Besitzern übertragen werden.
 ms.date: 06/04/2021
 ms.localizationpriority: medium
-ms.openlocfilehash: 98c10ed8def417bef36d5a97eb5411648d49258e
-ms.sourcegitcommit: 49f527a7f54aba00e843ad4a92385af59c1d7bfa
+ms.openlocfilehash: 3f9e0f93c598816417a4ce920d3d481085fa8a20
+ms.sourcegitcommit: 7023b9e23499806901a5ecf8ebc460b76887cca6
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63352132"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "64585912"
 ---
 # <a name="office-scripts-file-storage-and-ownership"></a>Office Skripts – Dateispeicherung und -besitz
 
@@ -45,7 +45,7 @@ Um zu ermitteln, wer Office Skripts mit dem Suchtool verwendet, fügen Sie das *
 > [!NOTE]
 > Das Ausführen eines Skripts wird derzeit nicht protokolliert. Es werden nur die Erstellungs-, Ansichts- und Änderungsaktionen protokolliert.
 
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Weitere Informationen
 
 - [Office-Skripts in Excel für das Web](https://support.microsoft.com/office/226eddbc-3a44-4540-acfe-fccda3d1122b)
 - [Behandeln von Problemen mit Office-Skripts](../testing/troubleshooting.md)

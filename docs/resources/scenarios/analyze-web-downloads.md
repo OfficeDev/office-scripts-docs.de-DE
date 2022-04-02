@@ -1,20 +1,20 @@
 ---
 title: 'Beispielszenario für Office Skripts: Analysieren von Webdownloads'
-description: Ein Beispiel, das unformatierte Datenverkehrsdaten im Internet in einer Excel Arbeitsmappe übernimmt und den Speicherort des Ursprungs bestimmt, bevor diese Informationen in einer Tabelle organisiert werden.
+description: Ein Beispiel, das unformatierte Internetdatenverkehrsdaten in einer Excel Arbeitsmappe annimmt und den Speicherort des Ursprungs bestimmt, bevor diese Informationen in einer Tabelle organisiert werden.
 ms.date: 06/29/2021
 ms.localizationpriority: medium
-ms.openlocfilehash: ad889e75d5f2e4b8af4379c3875b43ff8e1beda6
-ms.sourcegitcommit: ea9c3685a7407a07acf802705f4f44fb007c7825
+ms.openlocfilehash: 9d2d0ba302c72d4ca1f1aaad5e9cee5ba40d64e9
+ms.sourcegitcommit: 7023b9e23499806901a5ecf8ebc460b76887cca6
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/08/2021
-ms.locfileid: "61333498"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "64585491"
 ---
 # <a name="office-scripts-sample-scenario-analyze-web-downloads"></a>Beispielszenario für Office Skripts: Analysieren von Webdownloads
 
-In diesem Szenario haben Sie die Aufgabe, Downloadberichte von der Website Ihres Unternehmens zu analysieren. Das Ziel dieser Analyse besteht darin, festzustellen, ob der Webdatenverkehr aus den USA oder aus anderen Ländern der Welt stammt.
+In diesem Szenario haben Sie die Aufgabe, Downloadberichte von der Website Ihres Unternehmens zu analysieren. Ziel dieser Analyse ist es, festzustellen, ob der Webdatenverkehr von der USA oder von einem anderen Ort auf der Welt kommt.
 
-Ihre Kollegen laden die Rohdaten in Ihre Arbeitsmappe hoch. Die Datengruppe jeder Woche verfügt über ein eigenes Arbeitsblatt. Es gibt auch das Arbeitsblatt **Zusammenfassung** mit einer Tabelle und einem Diagramm, in dem Die Wochen-über-Woche-Trends angezeigt werden.
+Ihre Kollegen laden die Rohdaten in Ihre Arbeitsmappe hoch. Die Datengruppe jeder Woche verfügt über ein eigenes Arbeitsblatt. There is also the **Summary** worksheet with a table and chart that shows week-over-week trends.
 
 Sie entwickeln ein Skript, das wöchentliche Downloads von Daten im aktiven Arbeitsblatt analysiert. Sie analysiert die IP-Adresse, die jedem Download zugeordnet ist, und bestimmt, ob sie aus den USA stammt. Die Antwort wird als boolescher Wert ("TRUE" oder "FALSE") in das Arbeitsblatt eingefügt, und die bedingte Formatierung wird auf diese Zellen angewendet. Die Ergebnisse des IP-Adressspeicherorts werden auf dem Arbeitsblatt summiert und in die Zusammenfassungstabelle kopiert.
 
@@ -31,7 +31,7 @@ Sie entwickeln ein Skript, das wöchentliche Downloads von Daten im aktiven Arbe
 
 1. Öffnen Sie die Arbeitsmappe mit Excel für das Web.
 
-1. Wählen Sie auf der Registerkarte **"Automatisieren"** die Option **"Neues Skript"** aus, und fügen Sie das folgende Skript in den Editor ein.
+1. Wählen Sie auf der Registerkarte **"Automatisieren** " **die Option "Neues Skript** " aus, und fügen Sie das folgende Skript in den Editor ein.
 
     ```TypeScript
     function main(workbook: ExcelScript.Workbook) {
@@ -207,11 +207,11 @@ Sie entwickeln ein Skript, das wöchentliche Downloads von Daten im aktiven Arbe
     }
     ```
 
-1. Benennen Sie das Skript um, um **Webdownloads** zu analysieren und zu speichern.
+1. Benennen Sie das Skript um, um **Webdownloads zu analysieren** und zu speichern.
 
 ## <a name="running-the-script"></a>Ausführen des Skripts
 
-Navigieren Sie zu einem der **Arbeitsblätter \* \* "Woche",** und führen Sie das Skript **"Webdownloads analysieren" aus.** Das Skript wendet die bedingte Formatierung und standortbedingte Kennzeichnung auf das aktuelle Blatt an. Außerdem wird das **Arbeitsblatt Zusammenfassung** aktualisiert.
+Navigieren Sie zu einem der **Arbeitsblätter "Woche\*\*** ", und führen Sie das Skript **"Webdownloads analysieren" aus** . Das Skript wendet die bedingte Formatierung und standortbedingte Kennzeichnung auf das aktuelle Blatt an. Außerdem wird das **Arbeitsblatt Zusammenfassung** aktualisiert.
 
 ### <a name="before-running-the-script"></a>Vor dem Ausführen des Skripts
 

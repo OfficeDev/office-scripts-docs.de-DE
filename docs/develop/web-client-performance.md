@@ -3,18 +3,18 @@ title: Verbessern der Leistung Ihrer Office-Skripts
 description: Erstellen Sie schnellere Skripts, indem Sie die Kommunikation zwischen der Excel Arbeitsmappe und Ihrem Skript verstehen.
 ms.date: 05/17/2021
 ms.localizationpriority: medium
-ms.openlocfilehash: 169256bdae809c413c10f1f00240afc28be795f4
-ms.sourcegitcommit: d3ed4bdeeba805d97c930394e172e8306a0cf484
+ms.openlocfilehash: 2deb417d41c4be663efaf83735459eab26146410
+ms.sourcegitcommit: 7023b9e23499806901a5ecf8ebc460b76887cca6
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "59331164"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "64585632"
 ---
 # <a name="improve-the-performance-of-your-office-scripts"></a>Verbessern der Leistung Ihrer Office-Skripts
 
 Der Zweck von Office Skripts besteht darin, häufig ausgeführte Aufgabenreihen zu automatisieren, um Zeit zu sparen. Ein langsames Skript kann den Eindruck haben, dass es den Workflow nicht beschleunigt. In den meisten Jahren ist Ihr Skript einwandfrei und wird erwartungsgemäß ausgeführt. Es gibt jedoch einige verwendbare Szenarien, die sich auf die Leistung auswirken können.
 
-Der häufigste Grund für ein langsames Skript ist eine übermäßige Kommunikation mit der Arbeitsmappe. Ihr Skript wird auf Ihrem lokalen Computer ausgeführt, während die Arbeitsmappe in der Cloud vorhanden ist. Zu bestimmten Zeiten synchronisiert das Skript die lokalen Daten mit den Daten der Arbeitsmappe. Dies bedeutet, dass alle Schreibvorgänge (z. `workbook.addWorksheet()` B. ) nur auf die Arbeitsmappe angewendet werden, wenn diese Synchronisierung im Hintergrund erfolgt. Ebenso rufen alle Lesevorgänge (z. `myRange.getValues()` B. ) nur zu diesen Zeiten Daten aus der Arbeitsmappe für das Skript ab. In beiden Fällen ruft das Skript Informationen ab, bevor es auf die Daten reagiert. Beispielsweise protokolliert der folgende Code die Anzahl der Zeilen im verwendeten Bereich genau.
+Der häufigste Grund für ein langsames Skript ist eine übermäßige Kommunikation mit der Arbeitsmappe. Ihr Skript wird auf Ihrem lokalen Computer ausgeführt, während die Arbeitsmappe in der Cloud vorhanden ist. Zu bestimmten Zeiten synchronisiert das Skript die lokalen Daten mit den Daten der Arbeitsmappe. Dies bedeutet, dass alle Schreibvorgänge (z `workbook.addWorksheet()`. B. ) nur auf die Arbeitsmappe angewendet werden, wenn diese Synchronisierung im Hintergrund erfolgt. Ebenso rufen alle Lesevorgänge (z `myRange.getValues()`. B. ) nur zu diesen Zeiten Daten aus der Arbeitsmappe für das Skript ab. In beiden Fällen ruft das Skript Informationen ab, bevor es auf die Daten reagiert. Beispielsweise protokolliert der folgende Code die Anzahl der Zeilen im verwendeten Bereich genau.
 
 ```TypeScript
 let usedRange = workbook.getActiveWorksheet().getUsedRange();
@@ -24,7 +24,7 @@ let rowCount = usedRange.getRowCount();
 console.log(rowCount);
 ```
 
-Office Skript-APIs stellen sicher, dass alle Daten in der Arbeitsmappe oder im Skript korrekt und bei Bedarf auf dem neuesten Stand sind. Sie müssen sich keine Gedanken über diese Synchronisierungen machen, damit Ihr Skript ordnungsgemäß ausgeführt wird. Ein Bewusstsein für diese Script-to-Cloud-Kommunikation kann Ihnen jedoch dabei helfen, nicht benötigte Netzwerkanrufe zu vermeiden.
+Office Skript-APIs stellen sicher, dass alle Daten in der Arbeitsmappe oder dem Skript korrekt und bei Bedarf auf dem neuesten Stand sind. Sie müssen sich keine Gedanken über diese Synchronisierungen machen, damit Ihr Skript ordnungsgemäß ausgeführt wird. Ein Bewusstsein für diese Script-to-Cloud-Kommunikation kann Ihnen jedoch dabei helfen, nicht benötigte Netzwerkanrufe zu vermeiden.
 
 ## <a name="performance-optimizations"></a>Leistungsoptimierungen
 
@@ -70,11 +70,11 @@ function main(workbook: ExcelScript.Workbook) {
 ```
 
 > [!NOTE]
-> Versuchen Sie als Experiment, `usedRangeValues` in der Schleife durch `usedRange.getValues()` . Sie werden feststellen, dass die Ausführung des Skripts bei großen Bereichen erheblich länger dauert.
+> Versuchen Sie `usedRangeValues` als Experiment, in der Schleife durch `usedRange.getValues()`. Sie werden feststellen, dass die Ausführung des Skripts bei großen Bereichen erheblich länger dauert.
 
 ### <a name="avoid-using-trycatch-blocks-in-or-surrounding-loops"></a>Vermeiden der Verwendung von `try...catch` Blöcken in oder umgebenden Schleifen
 
-Es wird nicht empfohlen, [`try...catch`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Statements/try...catch) Anweisungen in Schleifen oder umgebenden Schleifen zu verwenden. Aus dem gleichen Grund sollten Sie das Lesen von Daten in einer Schleife vermeiden: Jede Iteration erzwingt die Synchronisierung des Skripts mit der Arbeitsmappe, um sicherzustellen, dass kein Fehler ausgelöst wurde. Die meisten Fehler können vermieden werden, indem von der Arbeitsmappe zurückgegebene Objekte überprüft werden. Das folgende Skript überprüft beispielsweise, ob die von der Arbeitsmappe zurückgegebene Tabelle vorhanden ist, bevor versucht wird, eine Zeile hinzuzufügen.
+Es wird nicht empfohlen, Anweisungen in Schleifen oder umgebenden Schleifen zu verwenden [`try...catch`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Statements/try...catch) . Aus dem gleichen Grund sollten Sie das Lesen von Daten in einer Schleife vermeiden: Jede Iteration erzwingt die Synchronisierung des Skripts mit der Arbeitsmappe, um sicherzustellen, dass kein Fehler ausgelöst wurde. Die meisten Fehler können vermieden werden, indem von der Arbeitsmappe zurückgegebene Objekte überprüft werden. Das folgende Skript überprüft beispielsweise, ob die von der Arbeitsmappe zurückgegebene Tabelle vorhanden ist, bevor versucht wird, eine Zeile hinzuzufügen.
 
 ```TypeScript
 /**
@@ -96,11 +96,11 @@ function main(workbook: ExcelScript.Workbook) {
 
 ### <a name="remove-unnecessary-consolelog-statements"></a>Entfernen unnötiger `console.log` Anweisungen
 
-Die Konsolenprotokollierung ist ein wichtiges Tool zum [Debuggen ihrer Skripts.](../testing/troubleshooting.md) Allerdings wird erzwungen, dass das Skript mit der Arbeitsmappe synchronisiert wird, um sicherzustellen, dass die protokollierten Informationen auf dem neuesten Stand sind. Ziehen Sie in Erwägung, unnötige Protokollierungsanweisungen (z. B. die zu Testzwecken verwendeten) zu entfernen, bevor Sie Ihr Skript freigeben. Dies führt in der Regel nicht zu einem erheblichen Leistungsproblem, es sei denn, die `console.log()` Anweisung befindet sich in einer Schleife.
+Die Konsolenprotokollierung ist ein wichtiges Tool zum [Debuggen ihrer Skripts](../testing/troubleshooting.md). Allerdings wird erzwungen, dass das Skript mit der Arbeitsmappe synchronisiert wird, um sicherzustellen, dass die protokollierten Informationen auf dem neuesten Stand sind. Ziehen Sie in Erwägung, unnötige Protokollierungsanweisungen (z. B. zu Testzwecken) zu entfernen, bevor Sie Ihr Skript freigeben. Dies führt in der Regel nicht zu einem erheblichen Leistungsproblem, es sei denn, die `console.log()` Anweisung befindet sich in einer Schleife.
 
 ## <a name="case-by-case-help"></a>Fall-für-Fall-Hilfe
 
-Wenn die Plattform Office Skripts erweitert wird, um mit [Power Automate,](https://flow.microsoft.com/) [adaptiven Karten](/adaptive-cards)und anderen produktübergreifenden Features zu arbeiten, werden die Details der Kommunikation zwischen Skripts und Arbeitsmappen komplizierter. Wenn Sie Hilfe benötigen, damit Ihr Skript schneller ausgeführt wird, wenden Sie sich an [Microsoft Q&A](/answers/topics/office-scripts-excel-dev.html). Achten Sie darauf, Ihre Frage mit "office-scripts-dev" zu markieren, damit Experten sie finden und Hilfe erhalten.
+Da die Plattform Office Skripts erweitert wird, um mit [Power Automate](https://flow.microsoft.com/), [adaptiven Karten](/adaptive-cards) und anderen produktübergreifenden Features zu arbeiten, werden die Details der Kommunikation zwischen Skripts und Arbeitsmappen komplizierter. Wenn Sie Hilfe benötigen, damit Ihr Skript schneller ausgeführt wird, wenden Sie sich an [Microsoft Q&A](/answers/topics/office-scripts-excel-dev.html). Achten Sie darauf, Ihre Frage mit "office-scripts-dev" zu markieren, damit Experten sie finden und Hilfe erhalten.
 
 ## <a name="see-also"></a>Siehe auch
 

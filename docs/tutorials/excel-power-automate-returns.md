@@ -3,12 +3,12 @@ title: Zurückgeben von Daten aus einem Skript an einen automatisch ausgeführte
 description: Ein Tutorial, das zeigt, wie Sie Erinnerungs-E-Mails senden, indem Sie Office-Skripts für Excel im Web über Power Automate ausführen.
 ms.date: 06/29/2021
 ms.localizationpriority: high
-ms.openlocfilehash: f81f28ef6f2862608c221e2e75c2f3948a1288ed
-ms.sourcegitcommit: d3ed4bdeeba805d97c930394e172e8306a0cf484
+ms.openlocfilehash: e100fac263dee8f1f39529bd83610576e68eb2e6
+ms.sourcegitcommit: 7023b9e23499806901a5ecf8ebc460b76887cca6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "59335088"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "64586052"
 ---
 # <a name="return-data-from-a-script-to-an-automatically-run-power-automate-flow"></a>Zurückgeben von Daten aus einem Skript an einen automatisch ausgeführten Power Automate-Flow
 

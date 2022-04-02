@@ -1,14 +1,14 @@
 ---
 title: Konvertieren von CSV-Dateien in Excel Arbeitsmappen
 description: Erfahren Sie, wie Sie Office Skripts und Power Automate verwenden, um .xlsx Dateien aus .csv Dateien zu erstellen.
-ms.date: 02/25/2022
+ms.date: 03/28/2022
 ms.localizationpriority: medium
-ms.openlocfilehash: 5e501368015840d4181c5565662638b65e213fed
-ms.sourcegitcommit: 49f527a7f54aba00e843ad4a92385af59c1d7bfa
+ms.openlocfilehash: 52619c1867b654fae3fce1a383a612f81f80d868
+ms.sourcegitcommit: 7023b9e23499806901a5ecf8ebc460b76887cca6
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63352125"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "64585590"
 ---
 # <a name="convert-csv-files-to-excel-workbooks"></a>Konvertieren von CSV-Dateien in Excel Arbeitsmappen
 
@@ -29,38 +29,46 @@ Fügen Sie das folgende Skript hinzu, und erstellen Sie einen Flow mit den schri
 ## <a name="sample-code-insert-comma-separated-values-into-a-workbook"></a>Beispielcode: Einfügen von kommagetrennten Werten in eine Arbeitsmappe
 
 ```TypeScript
+/**
+ * Convert incoming CSV data into a range and add it to the workbook.
+ */
 function main(workbook: ExcelScript.Workbook, csv: string) {
-  /* Convert the CSV data into a 2D array. */
-  // Trim the trailing new line.
-  csv = csv.trim();
+  let sheet = workbook.getWorksheet("Sheet1");
+
+  // Remove any Windows \r characters.
+  csv = csv.replace(/\r/g, "");
 
   // Split each line into a row.
-  let rows = csv.split("\r\n");
-  let data : string[][] = [];
-  rows.forEach((value) => {
-    /*
-     * For each row, match the comma-separated sections.
-     * For more information on how to use regular expressions to parse CSV files,
-     * see this Stack Overflow post: https://stackoverflow.com/a/48806378/9227753
-     */
-    let row = value.match(/(?:,|\n|^)("(?:(?:"")*[^"]*)*"|[^",\n]*|(?:\n|$))/g);
-
-    // Check for blanks at the start of the row.
-    if (row[0].charAt(0) === ',') {
-      row.unshift("");
-    }
+  let rows = csv.split("\n");
+  /*
+   * For each row, match the comma-separated sections.
+   * For more information on how to use regular expressions to parse CSV files,
+   * see this Stack Overflow post: https://stackoverflow.com/a/48806378/9227753
+   */
+  const csvMatchRegex = /(?:,|\n|^)("(?:(?:"")*[^"]*)*"|[^",\n]*|(?:\n|$))/g
+  rows.forEach((value, index) => {
+    if (value.length > 0) {
+        let row = value.match(csvMatchRegex);
     
-    // Remove the preceding comma.
-    row.forEach((cell, index) => {
-      row[index] = cell.indexOf(",") === 0 ? cell.substr(1) : cell;
-    });
-    data.push(row);
+        // Check for blanks at the start of the row.
+        if (row[0].charAt(0) === ',') {
+          row.unshift("");
+        }
+    
+        // Remove the preceding comma.
+        row.forEach((cell, index) => {
+          row[index] = cell.indexOf(",") === 0 ? cell.substr(1) : cell;
+        });
+    
+        // Create a 2D array with one row.
+        let data: string[][] = [];
+        data.push(row);
+    
+        // Put the data in the worksheet.
+        let range = sheet.getRangeByIndexes(index, 0, 1, data[0].length);
+        range.setValues(data);
+    }
   });
-
-  // Put the data in the worksheet.
-  let sheet = workbook.getWorksheet("Sheet1");
-  let range = sheet.getRangeByIndexes(0, 0, data.length, data[0].length);
-  range.setValues(data);
 
   // Add any formatting or table creation that you want.
 }
@@ -107,45 +115,59 @@ function main(workbook: ExcelScript.Workbook, csv: string) {
 
 ## <a name="troubleshooting"></a>Problembehandlung
 
-Das Skript erwartet, dass die durch Kommas getrennten Werte einen rechteckigen Bereich bilden. Wenn Ihre .csv Datei Zeilen mit unterschiedlichen Spaltenanzahlen enthält, wird die Fehlermeldung "Die Anzahl der Zeilen oder Spalten im Eingabearray stimmt nicht mit der Größe oder den Dimensionen des Bereichs überein". Wenn die Daten nicht so erstellt werden können, dass sie einer rechteckigen Form entsprechen, verwenden Sie stattdessen das folgende Skript. Dieses Skript fügt die Daten zeilenweise anstelle eines einzelnen Bereichs hinzu. Dieses Skript ist weniger effizient und bei großen Datensätzen deutlich langsamer.
+### <a name="script-testing"></a>Skripttests
+
+Um das Skript zu testen, ohne Power Automate zu verwenden, weisen Sie einen Wert zu`csv`, bevor Sie es verwenden. Versuchen Sie, den folgenden Code als erste Zeile der `main` Funktion hinzuzufügen und **"Ausführen" zu** drücken.
 
 ```TypeScript
-function main(workbook: ExcelScript.Workbook, csv: string) {
-  let sheet = workbook.getWorksheet("Sheet1");
-
-  /* Convert the CSV data into a 2D array. */
-  // Trim the trailing new line.
-  csv = csv.trim();
-
-  // Split each line into a row.
-  let rows = csv.split("\r\n");
-  rows.forEach((value, index) => {
-    /*
-     * For each row, match the comma-separated sections.
-     * For more information on how to use regular expressions to parse CSV files,
-     * see this Stack Overflow post: https://stackoverflow.com/a/48806378/9227753
-     */
-    let row = value.match(/(?:,|\n|^)("(?:(?:"")*[^"]*)*"|[^",\n]*|(?:\n|$))/g);
-
-    // Check for blanks at the start of the row.
-    if (row[0].charAt(0) === ',') {
-      row.unshift("");
-    }
-
-    // Remove the preceding comma.
-    row.forEach((cell, index) => {
-      row[index] = cell.indexOf(",") === 0 ? cell.substr(1) : cell;
-    });
-
-    // Create a 2D-array with one row.
-    let data: string[][] = [];
-    data.push(row);
-
-    // Put the data in the worksheet.
-    let range = sheet.getRangeByIndexes(index, 0, 1, data[0].length);
-    range.setValues(data);
-  });
-
-  // Add any formatting or table creation that you want.
-}
+  csv = `1, 2, 3
+         4, 5, 6
+         7, 8, 9`;
 ```
+
+### <a name="semicolon-separated-files-and-other-alternative-separators"></a>Durch Semikolons getrennte Dateien und andere alternative Trennzeichen
+
+Einige Regionen verwenden Semikolons (';'), um Zellwerte anstelle von Kommas zu trennen. In diesem Fall müssen Sie die folgenden Zeilen im Skript ändern.
+
+1. Ersetzen Sie die Kommas in der Regulären Ausdrucksanweisung durch Semikolons. Dies beginnt mit `let row = value.match`.
+
+    ```TypeScript
+    let row = value.match(/(?:;|\n|^)("(?:(?:"")*[^"]*)*"|[^";\n]*|(?:\n|$))/g);
+    ```
+
+1. Ersetzen Sie das Komma durch ein Semikolon in der Prüfung für die leere erste Zelle. Dies beginnt mit `if (row[0].charAt(0)`.
+
+    ```TypeScript
+    if (row[0].charAt(0) === ';') {
+    ```
+
+1. Ersetzen Sie das Komma durch ein Semikolon in der Zeile, das das Trennzeichen aus dem angezeigten Text entfernt. Dies beginnt mit `row[index] = cell.indexOf`.
+
+   ```TypeScript
+      row[index] = cell.indexOf(";") === 0 ? cell.substr(1) : cell;
+    ```
+
+> [!NOTE]
+> Wenn Ihre Datei Registerkarten oder ein anderes Zeichen verwendet, um die Werte zu trennen, ersetzen Sie die `;` in den obigen Ersetzungen aufgeführten Zeichen durch `\t` ein beliebiges zeichen, das verwendet wird.
+
+### <a name="large-csv-files"></a>Große CSV-Dateien
+
+Wenn Ihre Datei Hunderte von Tausenden von Zellen aufweist, können Sie das [Excel Datenübertragungslimit](../../testing/platform-limits.md#excel) erreichen. Sie müssen erzwingen, dass das Skript regelmäßig mit Excel synchronisiert wird. Die einfachste Möglichkeit besteht darin, einen Aufruf `console.log` auszuführen, nachdem ein Zeilenbatch verarbeitet wurde. Fügen Sie die folgenden Codezeilen hinzu, um dies zu ermöglichen.
+
+1. Fügen Sie zuvor `rows.forEach((value, index) => {`die folgende Zeile hinzu.
+
+    ```TypeScript
+      let rowCount = 0;
+    ```
+
+1. Fügen Sie danach `range.setValues(data);`den folgenden Code hinzu. Beachten Sie, dass Sie je nach Anzahl der Spalten möglicherweise auf eine niedrigere Zahl reduzieren `5000` müssen.
+
+    ```TypeScript
+      rowCount++;
+      if (rowCount % 5000 === 0) {
+        console.log("Syncing 5000 rows.");
+      }
+    ```
+
+> [!WARNING]
+> Wenn Ihre CSV-Datei sehr groß ist, können Probleme [beim Timingout in Power Automate](../../testing/platform-limits.md#power-automate) auftreten. Sie müssen die CSV-Daten in mehrere Dateien aufteilen, bevor Sie sie in Excel Arbeitsmappen konvertieren.

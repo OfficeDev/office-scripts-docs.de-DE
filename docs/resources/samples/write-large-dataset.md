@@ -3,25 +3,25 @@ title: Erstellen eines großen Datasets
 description: Erfahren Sie, wie Sie ein großes Dataset in kleinere Schreibvorgänge in Office Skripts aufteilen.
 ms.date: 05/13/2021
 ms.localizationpriority: medium
-ms.openlocfilehash: 1b37c5892c3b5f9ba26bfc2cdf8b30db321751d3
-ms.sourcegitcommit: d3ed4bdeeba805d97c930394e172e8306a0cf484
+ms.openlocfilehash: 0702ae5465caf91f5581cbdb79ca75a65e83adbc
+ms.sourcegitcommit: 7023b9e23499806901a5ecf8ebc460b76887cca6
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "59330583"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "64585926"
 ---
 # <a name="write-a-large-dataset"></a>Erstellen eines großen Datasets
 
-Die `Range.setValues()` API platziert Daten in einen Bereich. Diese API weist Einschränkungen in Abhängigkeit von verschiedenen Faktoren auf, z. B. Datengröße und Netzwerkeinstellungen. Dies bedeutet, dass Sie, wenn Sie versuchen, eine große Menge von Informationen in eine Arbeitsmappe als einen einzigen Vorgang zu schreiben, die Daten in kleinere Batches schreiben müssen, um einen [großen Bereich](../../testing/platform-limits.md)zuverlässig zu aktualisieren.
+Die `Range.setValues()` API platziert Daten in einen Bereich. Diese API weist Einschränkungen in Abhängigkeit von verschiedenen Faktoren auf, z. B. Datengröße und Netzwerkeinstellungen. Dies bedeutet, dass Sie, wenn Sie versuchen, eine große Menge an Informationen in eine Arbeitsmappe als einen einzigen Vorgang zu schreiben, die Daten in kleinere Batches schreiben müssen, um einen [großen Bereich](../../testing/platform-limits.md) zuverlässig zu aktualisieren.
 
-Informationen zu den Leistungsgrundlagen in Office Skripts finden Sie unter ["Verbessern der Leistung Ihrer Office Skripts".](../../develop/web-client-performance.md)
+Informationen zu den Leistungsgrundlagen in Office Skripts finden Sie unter ["Verbessern der Leistung Ihrer Office-Skripts"](../../develop/web-client-performance.md).
 
 ## <a name="sample-code-write-a-large-dataset"></a>Beispielcode: Schreiben eines großen Datasets
 
 Dieses Skript schreibt Zeilen eines Bereichs in kleinere Teile. Es wählt jeweils 1000 Zellen aus, die gleichzeitig geschrieben werden sollen. Führen Sie das Skript auf einem leeren Arbeitsblatt aus, um die Aktualisierungsbatches in Aktion zu sehen. Die Konsolenausgabe bietet einen weiteren Einblick in die Vorgänge.
 
 > [!NOTE]
-> Sie können die Anzahl der geschriebenen Zeilen ändern, indem Sie den Wert von `SAMPLE_ROWS` ändern. Sie können die Anzahl der zu schreibenden Zellen als einzelne Aktion ändern, indem Sie den Wert von `CELLS_IN_BATCH` ändern.
+> Sie können die Anzahl der geschriebenen Zeilen ändern, indem Sie den Wert von `SAMPLE_ROWS`ändern. Sie können die Anzahl der zu schreibenden Zellen als einzelne Aktion ändern, indem Sie den Wert von `CELLS_IN_BATCH`ändern.
 
 ```TypeScript
 function main(workbook: ExcelScript.Workbook) {
@@ -148,4 +148,4 @@ function getRandomString(length: number): string {
 
 ## <a name="training-video-write-a-large-dataset"></a>Schulungsvideo: Schreiben eines großen Datasets
 
-[Sehen Sie sich dieses Beispiel auf YouTube an.](https://youtu.be/BP9Kp0Ltj7U)
+[Sehen Sie sich an, wie Sie dieses Beispiel auf YouTube durchlaufen](https://youtu.be/BP9Kp0Ltj7U).

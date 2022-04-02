@@ -1,14 +1,14 @@
 ---
 title: Grundlegende Skripts für Office Skripts in Excel im Web
-description: Eine Auflistung von Codebeispielen, die mit Office Skripts in Excel im Web verwendet werden sollen.
-ms.date: 06/29/2021
+description: Eine Sammlung von Codebeispielen, die mit Office Skripts in Excel im Web verwendet werden sollen.
+ms.date: 03/24/2022
 ms.localizationpriority: medium
-ms.openlocfilehash: c0e852ba2afcc37f5921ff0b2256df0769535f6e
-ms.sourcegitcommit: d3ed4bdeeba805d97c930394e172e8306a0cf484
+ms.openlocfilehash: 853b00349b246e74765eb2959b4926fad42f07c5
+ms.sourcegitcommit: 7023b9e23499806901a5ecf8ebc460b76887cca6
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "59330737"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "64585870"
 ---
 # <a name="basic-scripts-for-office-scripts-in-excel-on-the-web"></a>Grundlegende Skripts für Office Skripts in Excel im Web
 
@@ -17,11 +17,11 @@ Die folgenden Beispiele sind einfache Skripts, mit denen Sie Ihre eigenen Arbeit
 1. Öffnen Sie die Registerkarte **Automatisieren**.
 1. Wählen Sie **New Script** aus.
 1. Ersetzen Sie das gesamte Skript durch das Beispiel Ihrer Wahl.
-1. Wählen Sie im Aufgabenbereich des Code-Editors **"Ausführen"** aus.
+1. Wählen Sie im Aufgabenbereich des Code-Editors " **Ausführen** " aus.
 
 ## <a name="script-basics"></a>Skriptgrundlagen
 
-Diese Beispiele veranschaulichen grundlegende Bausteine für Office-Skripts. Erweitern Sie diese Skripts, um Ihre Lösung zu erweitern und allgemeine Probleme zu lösen.
+Diese Beispiele veranschaulichen grundlegende Bausteine für Office Skripts. Erweitern Sie diese Skripts, um Ihre Lösung zu erweitern und allgemeine Probleme zu lösen.
 
 ### <a name="read-and-log-one-cell"></a>Lesen und Protokollieren einer Zelle
 
@@ -150,7 +150,7 @@ function main(workbook: ExcelScript.Workbook) {
 }
 ```
 
-## <a name="collections"></a>Auflistungen
+## <a name="collections"></a>Sammlungen
 
 Diese Beispiele funktionieren mit Auflistungen von Objekten in der Arbeitsmappe.
 
@@ -233,7 +233,7 @@ function main(workbook: ExcelScript.Workbook) {
 }
 ```
 
-Das nächste Beispiel liest ein Datum, das in Excel gespeichert ist, und übersetzt es in ein JavaScript Date-Objekt. Es verwendet die [numerische Seriennummer des Datums](https://support.office.com/article/now-function-3337fd29-145a-4347-b2e6-20c904739c46) als Eingabe für das JavaScript-Datum.
+Das nächste Beispiel liest ein Datum, das in Excel gespeichert ist, und übersetzt es in ein JavaScript Date-Objekt. Es verwendet die numerische Seriennummer des Datums als Eingabe für das JavaScript-Datum. Diese Seriennummer wird im Artikel zur [NOW()-Funktion](https://support.office.com/article/now-function-3337fd29-145a-4347-b2e6-20c904739c46) beschrieben.
 
 ```TypeScript
 function main(workbook: ExcelScript.Workbook) {
@@ -381,7 +381,7 @@ function main(workbook: ExcelScript.Workbook) {
 }
 ```
 
-### <a name="handle-a-spill-error-returned-from-a-formula"></a>Behandeln eines `#SPILL!` von einer Formel zurückgegebenen Fehlers
+### <a name="handle-a-spill-error-returned-from-a-formula"></a>Behandeln eines von einer `#SPILL!` Formel zurückgegebenen Fehlers
 
 Dieses Skript transponiert den Bereich "A1:D2" mithilfe der TRANSPOSE-Funktion in "A4:B7". Wenn die Transponieren zu einem `#SPILL` Fehler führt, löscht sie den Zielbereich und wendet die Formel erneut an.
 
@@ -417,10 +417,10 @@ function main(workbook: ExcelScript.Workbook) {
 
 ## <a name="suggest-new-samples"></a>Vorschlagen neuer Beispiele
 
-Wir freuen uns über Vorschläge für neue Beispiele. Wenn es ein gängiges Szenario gibt, das anderen Skriptentwicklern helfen würde, teilen Sie uns dies bitte im Feedbackabschnitt am unteren Rand der Seite mit.
+Wir freuen uns über Vorschläge für neue Beispiele. Wenn es ein häufiges Szenario gibt, das anderen Skriptentwicklern helfen würde, teilen Sie uns dies bitte im Feedbackabschnitt am unteren Rand der Seite mit.
 
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Weitere Informationen
 
 * [Adrianhi Ramamurthys "Range basics" auf YouTube](https://youtu.be/4emjkOFdLBA)
-* [Office Skriptbeispiele und -szenarien](samples-overview.md)
+* [Beispiele und Szenarien für Office Skripts](samples-overview.md)
 * [Aufzeichnen, Bearbeiten und Erstellen von Office-Skripts in Excel im Web](../../tutorials/excel-tutorial.md)

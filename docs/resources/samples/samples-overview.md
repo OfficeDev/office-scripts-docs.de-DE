@@ -3,22 +3,22 @@ title: Beispiele für Office-Skripts
 description: Verfügbare Beispiele und Szenarien für Office Skripts.
 ms.date: 01/20/2022
 ms.localizationpriority: medium
-ms.openlocfilehash: ca8ed15983c2171c2e9eb2291cc78d7e4d536ac8
-ms.sourcegitcommit: 161229492c85f3519c899573cf5022140026e7b8
+ms.openlocfilehash: 2dbbf4479b79e5a3d9f8215ed58fc13ca56605e6
+ms.sourcegitcommit: 7023b9e23499806901a5ecf8ebc460b76887cca6
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/26/2022
-ms.locfileid: "62220407"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "64585779"
 ---
 # <a name="office-scripts-samples-and-scenarios"></a>Beispiele und Szenarien für Office Skripts
 
-Dieser Abschnitt enthält [Office Skripts-basierten](../../overview/excel.md) Automatisierungslösungen, die Endbenutzern helfen, tägliche Aufgaben zu automatisieren. Es enthält realistische Szenarien, mit denen Geschäftsbenutzer konfrontiert sind, und bietet detaillierte Lösungen zusammen mit schrittweisen Anleitungsvideolinks.
+Dieser Abschnitt enthält [Office Skripts-basierten](../../overview/excel.md) Automatisierungslösungen, die Endbenutzern helfen, die Automatisierung von täglichen Aufgaben zu erreichen. Es enthält realistische Szenarien, mit denen Geschäftsbenutzer konfrontiert sind, und bietet detaillierte Lösungen zusammen mit schrittweisen Anleitungsvideolinks.
 
-Sehen Sie sich für jedes der Projekte in ["Grundlagen"](#basics) und ["Über die Grundlagen hinaus"](#beyond-the-basics)den Quellcode, Schritt-für-Schritt-YouTube-Videos und vieles mehr an. [](https://www.youtube.com/playlist?list=PLr3zVPZrMOUMl88fs8uc2GGAePRnNe6m0)
+Sehen Sie sich für jedes der Projekte in ["Grundlagen](#basics) " und ["Über die Grundlagen hinaus](#beyond-the-basics)" den Quellcode, schrittweise [**YouTube-Videos**](https://www.youtube.com/playlist?list=PLr3zVPZrMOUMl88fs8uc2GGAePRnNe6m0) und vieles mehr an.
 
-In [Szenarien](#scenarios)haben wir ein paar größere Szenariobeispiele hinzugefügt, die anwendungsfälle in der Praxis veranschaulichen.
+In [Szenarien](#scenarios) haben wir einige größere Szenariobeispiele hinzugefügt, die anwendungsfälle in der Praxis veranschaulichen.
 
-Wir freuen uns auch über [Beiträge der Community.](#community-contributions-and-fun-samples)
+Wir freuen uns auch über [Beiträge aus der Community](#community-contributions-and-fun-samples).
 
 ## <a name="basics"></a>Grundlagen
 
@@ -27,23 +27,23 @@ Wir freuen uns auch über [Beiträge der Community.](#community-contributions-an
 | [Skripting-Grundlagen](../excel-samples.md) | Diese Beispiele veranschaulichen grundlegende Bausteine für Office Skripts. |
 | [Hinzufügen von Kommentaren in Excel](add-excel-comments.md) | In diesem Beispiel werden einer Zelle, einschließlich @mentioning eines Kollegen, Kommentare hinzugefügt. |
 | [Hinzufügen von Bildern zu einer Arbeitsmappe](add-image-to-workbook.md) | In diesem Beispiel wird einer Arbeitsmappe ein Bild hinzugefügt und ein Bild über Blätter hinweg kopiert.|
-| [Kopieren mehrerer Excel Tabellen in eine einzelne Tabelle](copy-tables-combine.md) | In diesem Beispiel werden Daten aus mehreren Excel Tabellen zu einer einzigen Tabelle zusammengefasst, die alle Zeilen enthält. |
-| [Erstellen eines Arbeitsmappenverzeichnisses](table-of-contents.md) | In diesem Beispiel wird ein Inhaltsverzeichnis mit Links zu den einzelnen Arbeitsblättern erstellt. |
+| [Kopieren mehrerer Excel Tabellen in eine einzelne Tabelle](copy-tables-combine.md) | In diesem Beispiel werden Daten aus mehreren Excel Tabellen in einer einzigen Tabelle kombiniert, die alle Zeilen enthält. |
+| [Inhaltsverzeichnis für eine Arbeitsmappe erstellen](table-of-contents.md) | In diesem Beispiel wird ein Inhaltsverzeichnis mit Links zu den einzelnen Arbeitsblättern erstellt. |
 
 ## <a name="beyond-the-basics"></a>Weitere Tipps und Tricks
 
-Sehen Sie sich das folgende End-to-End-Projekt an, das Beispielszenarien zusammen mit vollständigen Skripts, Beispielen Excel verwendeten Dateien und [Videos (gehostet auf YouTube)](https://www.youtube.com/playlist?list=PLr3zVPZrMOUMl88fs8uc2GGAePRnNe6m0)automatisiert.
+Sehen Sie sich das folgende End-to-End-Projekt an, das Beispielszenarien zusammen mit vollständigen Skripts, Beispielen Excel verwendeten Dateien und [Videos (gehostet auf YouTube)](https://www.youtube.com/playlist?list=PLr3zVPZrMOUMl88fs8uc2GGAePRnNe6m0) automatisiert.
 
 | Project | Details |
 |---------|---------|
 | [Kombinieren von Arbeitsblättern in einer einzelnen Arbeitsmappe](combine-worksheets-into-single-workbook.md) | In diesem Beispiel werden Office Skripts und Power Automate verwendet, um Daten aus anderen Arbeitsmappen in eine einzelne Arbeitsmappe zu ziehen. |
-| [Konvertieren von CSV-Dateien in Excel Arbeitsmappen](convert-csv.md) | In diesem Beispiel werden Office Skripts und Power Automate verwendet, um .xlsx Dateien aus .csv Dateien zu erstellen. |
+| [Konvertieren von CSV-Dateien in Excel Arbeitsmappen](convert-csv.md) | In diesem Beispiel werden Office Skripts und Power Automate verwendet, um aus .csv Dateien .xlsx Dateien zu erstellen. |
 | [Querverweis auf Arbeitsmappen](excel-cross-reference.md) | In diesem Beispiel werden Office Skripts und Power Automate zum Querverweisen und Überprüfen von Informationen in verschiedenen Arbeitsmappen verwendet. |
 | [Zählen leerer Zeilen in einem bestimmten Blatt oder in allen Blättern](count-blank-rows.md) | In diesem Beispiel wird erkannt, ob leere Zeilen in Blättern vorhanden sind, in denen Sie davon ausgehen, dass Daten vorhanden sind, und dann die Anzahl leerer Zeilen für die Verwendung in einem Power Automate Fluss melden. |
 | [E-Mail-Diagramm- und Tabellenbilder](email-images-chart-table.md) | In diesem Beispiel werden Office Skripts und Power Automate Aktionen verwendet, um ein Diagramm zu erstellen und dieses Diagramm per E-Mail als Bild zu senden. |
 | [Externe Abrufanrufe](external-fetch-calls.md) | In diesem Beispiel werden `fetch` Informationen aus GitHub für das Skript abgerufen. |
 | [Filtern Excel Tabelle und Abrufen des sichtbaren Bereichs](filter-table-get-visible-range.md) | In diesem Beispiel wird eine Excel Tabelle gefiltert und der sichtbare Bereich als JSON-Objekt zurückgegeben. Dieser JSON-Code könnte einem Power Automate Fluss als Teil einer größeren Lösung bereitgestellt werden. |
-| [Verwalten des Berechnungsmodus in Excel](excel-calculation.md) | Dieses Beispiel zeigt, wie Sie den Berechnungsmodus verwenden und Methoden in Excel im Web mithilfe von Office Skripts berechnen. |
+| [Verwalten des Berechnungsmodus in Excel](excel-calculation.md) | In diesem Beispiel wird gezeigt, wie Sie den Berechnungsmodus verwenden und Methoden in Excel im Web mithilfe Office Skripts berechnen. |
 | [Verschieben von Zeilen über Tabellen](move-rows-across-tables.md) | In diesem Beispiel wird gezeigt, wie Sie Zeilen über Tabellen verschieben, indem Sie Filter speichern und dann die Filter verarbeiten und erneut anwenden. |
 | [Ausgabe Excel Daten als JSON](get-table-data.md) | Diese Lösung zeigt, wie Excel Tabellendaten als JSON ausgegeben werden, die in Power Automate verwendet werden. |
 | [Entfernen von Hyperlinks aus jeder Zelle in einem Excel Arbeitsblatt](remove-hyperlinks-from-cells.md) | In diesem Beispiel werden alle Hyperlinks aus dem aktuellen Arbeitsblatt gelöscht. |
@@ -57,10 +57,10 @@ Office Skripts können Teile Ihrer täglichen Routine automatisieren. Diese täg
 | Szenario | Details |
 |---------|---------|
 | [Analysieren von Webdownloads](../scenarios/analyze-web-downloads.md) | Dieses Szenario enthält ein Skript, das Webdatenverkehrsdatensätze analysiert, um das Ursprungsland eines Benutzers zu ermitteln. Es zeigt die Fähigkeiten der Textparsing, die Verwendung von Unterfunktionen in Skripts, das Anwenden bedingter Formatierung und das Arbeiten mit Tabellen. |
-| [Wasserstandsdaten von NOAA abrufen und grafisch darstellen](../scenarios/noaa-data-fetch.md) | In diesem Szenario wird ein Office-Skript verwendet, um Daten aus einer externen Quelle (der [NOAA-Datenbank für Käufe und Aktuelle)](https://tidesandcurrents.noaa.gov/)abzurufen und die resultierenden Informationen zu graphen. Es werden die Fähigkeiten der Verwendung zum Abrufen von `fetch` Daten und der Verwendung von Diagrammen hervorgehoben. |
+| [Wasserstandsdaten von NOAA abrufen und grafisch darstellen](../scenarios/noaa-data-fetch.md) | In diesem Szenario wird ein Office-Skript verwendet, um Daten aus einer externen Quelle (der [NOAA-Datenbank für Käufe und Currents) abzurufen und die resultierenden](https://tidesandcurrents.noaa.gov/) Informationen zu graphen. Es werden die Fähigkeiten der Verwendung `fetch` zum Abrufen von Daten und der Verwendung von Diagrammen hervorgehoben. |
 | [Bewertungsrechner](../scenarios/grade-calculator.md) | Dieses Szenario enthält ein Skript, das den Datensatz eines Kursleiters auf die Noten seiner Klasse überprüft. Es zeigt die Fähigkeiten der Fehlerprüfung, Zellenformatierung und regulärer Ausdrücke. |
-| [Vorstellungsgespräche in Teams planen](../scenarios/schedule-interviews-in-teams.md) | In diesem Szenario wird gezeigt, wie Sie eine Excel Kalkulationstabelle zum Verwalten von Besprechungszeiten und zum Planen von Besprechungen in Teams verwenden. |
-| [Aufgabenerinnerungen](../scenarios/task-reminders.md) | In diesem Szenario wird ein Office Skript in einem Power Automate-Fluss verwendet, um Erinnerungen an Kollegen zu senden, um den Status eines Projekts zu aktualisieren. Es hebt die Fähigkeiten der Power Automate Integration und Datenübertragung zu und von Skripts hervor. |
+| [Vorstellungsgespräche in Teams planen](../scenarios/schedule-interviews-in-teams.md) | In diesem Szenario wird gezeigt, wie Sie eine Excel Kalkulationstabelle verwenden, um Besprechungszeiten zu verwalten und einen Fluss zum Planen von Besprechungen in Teams zu erstellen. |
+| [Aufgabenerinnerungen](../scenarios/task-reminders.md) | In diesem Szenario wird ein Office Skript in einem Power Automate-Fluss verwendet, um Erinnerungen an Kollegen zu senden, um den Status eines Projekts zu aktualisieren. Es hebt die Fähigkeiten der Power Automate Integration und Datenübertragung in und aus Skripts hervor. |
 
 ## <a name="community-contributions-and-fun-samples"></a>Community Beiträge und Unterhaltungsbeispiele
 
@@ -68,13 +68,13 @@ Wir freuen uns über [Beiträge](https://github.com/OfficeDev/office-scripts-doc
 
 | Project | Details |
 |---------|---------|
-| [Spiel des Lebens](https://techcommunity.microsoft.com/t5/excel-blog/ready-player-zero/ba-p/2246208) | Der Blog "Ready Player Zero" von Yutao The Excel Tech Community enthält ein Skript zum Modellieren von John Conways [*The Game of Life.*](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life) |
-| [Begrüßungsanimation für "Spielzeiten"](community-seasons-greetings.md) | Dieses Skript wurde von [Leslie Black](https://www.linkedin.com/in/lesblackconsultant/) in der Feiertagszeit beigesteuert! Es ist ein spaßiges Skript, das mithilfe von Office Skripts in Excel im Web eine tolle Tannenstruktur zeigt. |
+| [Spiel des Lebens](https://techcommunity.microsoft.com/t5/excel-blog/ready-player-zero/ba-p/2246208) | Der Blog "Ready Player Zero" von Yutao The Excel Tech Community enthält ein Skript zum Modellieren von John Conways [*The Game of Life*](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life). |
+| [Begrüßungsanimation für "Spielzeiten"](community-seasons-greetings.md) | Dieses Skript wurde von [Leslie Black](https://www.linkedin.com/in/lesblackconsultant/) in der Feiertagszeit beigesteuert! Es ist ein tolles Skript, das mithilfe von Office Skripts in Excel im Web eine tolle Tannenstruktur zeigt. |
 
 ## <a name="try-it-out"></a>Probieren Sie es aus
 
-Diese Beispiele sind Open Source. Probieren Sie sie selbst aus. Sie benötigen ein Microsoft-Geschäfts-, Schul- oder Unikonto mit einer Lizenz für Microsoft 365 Abonnement (E3 oder höher). Melden Sie sich einfach bei https://office.com Ihrem Konto an und beginnen Sie.
+Diese Beispiele sind Open Source. Probieren Sie sie selbst aus. Sie benötigen ein Microsoft-Geschäfts-, Schul- oder Unikonto mit einer Lizenz für Microsoft 365 Abonnement (E3 oder höher). Melden https://office.com Sie sich einfach bei Ihrem Konto an und beginnen Sie.
 
 ## <a name="leave-a-comment"></a>Kommentar hinterlassen
 
-Sie können einen Kommentar hinterlassen, einen Vorschlag machen oder  ein Problem mithilfe des Feedback-Abschnitts unten auf der Dokumentationsseite des jeweiligen Beispiels protokollieren.
+Sie können einen Kommentar hinterlassen, einen Vorschlag machen oder ein Problem mithilfe des **Feedback-Abschnitts** unten auf der Dokumentationsseite des jeweiligen Beispiels protokollieren.

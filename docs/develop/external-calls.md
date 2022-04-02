@@ -3,12 +3,12 @@ title: Externe API-Anruf Unterstützung in Office-Skripts
 description: Unterstützung und Anleitung für externe API-Aufrufe in einem Office-Skript.
 ms.date: 05/21/2021
 ms.localizationpriority: medium
-ms.openlocfilehash: e7be505f13529e1d3bcff22ce9fa18cc36148f7b
-ms.sourcegitcommit: 79ce4fad6d284b1aa71f5ad6d2938d9ad6a09fee
+ms.openlocfilehash: abcd548c9b62ce9bd5c40866915ae50a6d1cc5be
+ms.sourcegitcommit: 7023b9e23499806901a5ecf8ebc460b76887cca6
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/12/2022
-ms.locfileid: "63459606"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "64585737"
 ---
 # <a name="external-api-call-support-in-office-scripts"></a>Externe API-Anruf Unterstützung in Office-Skripts
 
@@ -87,7 +87,7 @@ Sie müssen [HTTP mit Azure AD](/connectors/webcontents/) oder anderen gleichwer
 > [!WARNING]
 > Externe Aufrufe, die über den Power Automate [Excel Online-Connector](/connectors/excelonlinebusiness) getätigt werden, schlagen fehl, um vorhandene Richtlinien zur Verhinderung von Datenverlust zu beheben. Skripts, die über Power Automate ausgeführt werden, erfolgen jedoch außerhalb Ihrer Organisation und außerhalb der Firewalls Ihrer Organisation. Um zusätzlichen Schutz vor böswilligen Benutzern in dieser externen Umgebung zu erhalten, kann Ihr Administrator die Verwendung von Office Skripts steuern. Ihr Administrator kann entweder den Excel Online-Connector in Power Automate deaktivieren oder Office Skripts für Excel im Web über die [Administratorsteuerelemente für Office Skripts](/microsoft-365/admin/manage/manage-office-scripts-settings) deaktivieren.
 
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Weitere Informationen
 
 * [Verwenden von integrierten JavaScript-Objekten in Office-Skripts](javascript-objects.md)
 * [Verwenden von externen Abrufanrufen in Office-Skripts](../resources/samples/external-fetch-calls.md)

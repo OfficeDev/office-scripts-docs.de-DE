@@ -3,12 +3,12 @@ title: Grundlegendes zur Skripterstellung für Office-Skripts in Excel im Web
 description: Informationen zu Objektmodellen und andere Grundlagen, die Sie vor dem Schreiben von Office-Skripts benötigen.
 ms.date: 05/24/2021
 ms.localizationpriority: high
-ms.openlocfilehash: 090b5b71a9becf76186e852198fdee0e5c040866
-ms.sourcegitcommit: d3ed4bdeeba805d97c930394e172e8306a0cf484
+ms.openlocfilehash: e2ba7eaa956f2009c9017bbfd1f390f56eb9008e
+ms.sourcegitcommit: 7023b9e23499806901a5ecf8ebc460b76887cca6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "59326891"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "64585723"
 ---
 # <a name="scripting-fundamentals-for-office-scripts-in-excel-on-the-web"></a>Grundlegendes zur Skripterstellung für Office-Skripts in Excel im Web
 
@@ -63,7 +63,7 @@ function main(workbook: ExcelScript.Workbook) {
 
 ## <a name="ranges"></a>Bereiche
 
-Ein Bereich ist eine Gruppe zusammenhängender Zellen in der Arbeitsmappe. In Skripts wird in der Regel eine Notation im A1-Format verwendet (z. B. **B3** für die einzelne Zelle in Spalte **B** und Zeile **3** oder **C2:F4** für die Zellen in den Spalten **C** bis **F** und den Zeilen **2** bis **4**), um Bereiche zu definieren.
+Ein Bereich ist eine Gruppe zusammenhängender Zellen in der Arbeitsmappe. In Skripts wird in der Regel eine Notation im A1-Format verwendet, um Bereiche zu definieren (z. B. **B3** für die einzelne Zelle in Spalte **B** und Zeile **3**, oder **C2:F4** für die Zellen in den Spalten **C** bis **F** und den Zeilen **2** bis **4**).
 
 Bereiche besitzen drei Haupteigenschaften: Werte, Formeln und Format. Durch diese Eigenschaften können die Zellwerte, die zu prüfenden Formeln sowie die visuelle Formatierung der Zellen abgerufen oder festgelegt werden. Sie können über `getValues`, `getFormulas` und `getFormat`auf sie zugreifen. Werte und Formeln können mit `setValues` und `setFormulas`geändert werden, wohingegen das Format ein `RangeFormat`-Objekt ist, das aus mehreren kleineren Objekten besteht, die einzeln festgelegt werden.
 

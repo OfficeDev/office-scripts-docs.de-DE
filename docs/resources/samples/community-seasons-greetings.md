@@ -1,22 +1,22 @@
 ---
 title: Weihnachtsgrüße
-description: Erfahren Sie, wie Sie Office Skripts verwenden, um eine Baumstruktur in Excel im Web anzuzeigen.
+description: Erfahren Sie, wie Sie mithilfe von Office Skripts eine Baumstruktur in Excel im Web anzeigen.
 ms.date: 06/29/2021
 ms.localizationpriority: medium
-ms.openlocfilehash: f1339bd267dbe4eba19541b2339742cbde30b1d5
-ms.sourcegitcommit: d3ed4bdeeba805d97c930394e172e8306a0cf484
+ms.openlocfilehash: 56d3bb758edf1b9416a67bc8e806034d086c88ef
+ms.sourcegitcommit: 7023b9e23499806901a5ecf8ebc460b76887cca6
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "59327854"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "64585576"
 ---
 # <a name="seasons-greetings"></a>Weihnachtsgrüße
 
-Dieses Skript wurde von [Leslie Black](https://www.linkedin.com/in/lesblackconsultant/) in der Feiertagszeit beigesteuert! Es ist ein interessantes Skript, das eine Baumstruktur in Excel im Web mithilfe von Office Skripts anzeigt.
+Dieses Skript wurde von [Leslie Black](https://www.linkedin.com/in/lesblackconsultant/) in der Feiertagszeit beigesteuert! Es ist ein interessantes Skript, das eine Baumstruktur in Excel im Web mit Office Skripts anzeigt.
 
 Genießen!
 
-[Sehen Sie sich das Skript "Begrüßungen in der Spielzeit" im YouTube-Kanal "Les's IT Blog" an.](https://youtu.be/HBiGEkzmkgo)
+[Sehen Sie sich das Begrüßungsskript für "Spielzeiten" im YouTube-Kanal "Les's IT Blog" in Aktion an](https://youtu.be/HBiGEkzmkgo).
 
 ## <a name="script"></a>Skript
 

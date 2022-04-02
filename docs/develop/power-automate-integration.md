@@ -3,12 +3,12 @@ title: Ausführen Office Skripts mit Power Automate
 description: So erhalten Sie Office Skripts für Excel im Web, die mit einem Power Automate-Workflow arbeiten.
 ms.date: 03/08/2022
 ms.localizationpriority: medium
-ms.openlocfilehash: f7358b79248974ddb548b54437422670a37531bf
-ms.sourcegitcommit: 79ce4fad6d284b1aa71f5ad6d2938d9ad6a09fee
+ms.openlocfilehash: dbf65086e564b20ca0fc3a4dc1c527188540be6b
+ms.sourcegitcommit: 7023b9e23499806901a5ecf8ebc460b76887cca6
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/12/2022
-ms.locfileid: "63459620"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "64585751"
 ---
 # <a name="run-office-scripts-with-power-automate"></a>Ausführen Office Skripts mit Power Automate
 
@@ -16,7 +16,7 @@ ms.locfileid: "63459620"
 
 ## <a name="get-started"></a>Erste Schritte
 
-Wenn Sie noch nicht mit Power Automate vertraut sind, empfehlen wir, "[Erste Schritte mit Power Automate](/power-automate/getting-started)" zu besuchen. Dort können Sie mehr über alle Automatisierungsmöglichkeiten erfahren, die Ihnen zur Verfügung stehen. Die dokumente hier konzentrieren sich darauf, wie Office Skripts mit Power Automate arbeiten und wie dies dazu beitragen kann, Ihre Excel Erfahrung zu verbessern.
+Wenn Sie noch nicht mit Power Automate vertraut sind, empfehlen wir, [Erste Schritte mit Power Automate](/power-automate/getting-started) zu besuchen. Dort können Sie mehr über alle Automatisierungsmöglichkeiten erfahren, die Ihnen zur Verfügung stehen. Die dokumente hier konzentrieren sich darauf, wie Office Skripts mit Power Automate arbeiten und wie dies dazu beitragen kann, Ihre Excel Erfahrung zu verbessern.
 
 Um mit der Kombination von Power Automate und Office Skripts zu beginnen, folgen Sie dem Lernprogramm [" Verwenden von Skripts mit Power Automate](../tutorials/excel-power-automate-manual.md)". Dadurch erfahren Sie, wie Sie einen Fluss erstellen, der ein einfaches Skript aufruft. Nachdem Sie dieses Lernprogramm abgeschlossen haben und die [Daten an Skripts in einem automatisch ausgeführten Power Automate-Fluss-Lernprogramm übergeben](../tutorials/excel-power-automate-trigger.md) haben, kehren Sie hier zurück, um ausführliche Informationen zum Verbinden von Office Skripts mit Power Automate Flüssen zu finden.
 
@@ -112,7 +112,7 @@ function main(
 }
 ```
 
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Weitere Informationen
 
 - [Ausführen Office Skripts in Excel im Web mit Power Automate](../tutorials/excel-power-automate-manual.md)
 - [Übergeben von Daten zu Skripts in einem automatisch ausgeführten Power Automate-Datenfluss](../tutorials/excel-power-automate-trigger.md)

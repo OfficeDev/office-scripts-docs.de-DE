@@ -1,16 +1,16 @@
 ---
-title: 'Office Skript-Beispielszenario: Notenrechner'
+title: 'Beispielszenario für Office Skripts: Notenrechner'
 description: Ein Beispiel, das den Prozentsatz und die Buchstabennoten für einen Kurs von Schülern bestimmt.
 ms.date: 06/29/2021
 ms.localizationpriority: medium
-ms.openlocfilehash: 9036c12cd05e96932171cc0aefdce8eed1cc988e
-ms.sourcegitcommit: d3ed4bdeeba805d97c930394e172e8306a0cf484
+ms.openlocfilehash: fd9009633e4a89e3b236f765543123b3995b9f47
+ms.sourcegitcommit: 7023b9e23499806901a5ecf8ebc460b76887cca6
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "59334210"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "64585443"
 ---
-# <a name="office-scripts-sample-scenario-grade-calculator"></a>Office Skript-Beispielszenario: Notenrechner
+# <a name="office-scripts-sample-scenario-grade-calculator"></a>Beispielszenario für Office Skripts: Notenrechner
 
 In diesem Szenario sind Sie Kursleiter, der die Abschlussnoten jedes Kursteilnehmers anhört. Sie haben die Bewertungen für ihre Aufgaben und Tests während Ihres Vorgangs eingegeben. Jetzt ist es an der Zeit, die Schüler und Studenten zu ermitteln.
 
@@ -29,7 +29,7 @@ Sie entwickeln ein Skript, das die Noten für jede Punktekategorie summiert. Ans
 
 1. Öffnen Sie die Arbeitsmappe mit Excel für das Web.
 
-1. Wählen Sie auf der Registerkarte **"Automatisieren"** die Option **"Neues Skript"** aus, und fügen Sie das folgende Skript in den Editor ein.
+1. Wählen Sie auf der Registerkarte **"Automatisieren** " **die Option "Neues Skript** " aus, und fügen Sie das folgende Skript in den Editor ein.
 
     ```TypeScript
     function main(workbook: ExcelScript.Workbook) {
@@ -172,11 +172,11 @@ Sie entwickeln ein Skript, das die Noten für jede Punktekategorie summiert. Ans
     }
     ```
 
-1. Benennen Sie das Skript in den **Notenrechner um,** und speichern Sie es.
+1. Benennen Sie das Skript in den **Notenrechner um** , und speichern Sie es.
 
 ## <a name="running-the-script"></a>Ausführen des Skripts
 
-Führen Sie das Skript **"Notenrechner"** auf dem einzigen Arbeitsblatt aus. Das Skript führt die Noten aus und weist jedem Schüler eine Buchstabennote zu. Wenn eine einzelne Noten mehr Punkte hat, als die Aufgabe oder der Test wert ist, wird die ungültige Noten als rot markiert, und die Summe wird nicht berechnet. Außerdem werden alle "A"-Noten grün hervorgehoben, während die Noten "D" und "F" gelb hervorgehoben sind.
+Führen Sie das Skript " **Notenrechner"** auf dem einzigen Arbeitsblatt aus. Das Skript führt die Noten aus und weist jedem Schüler eine Buchstabennote zu. Wenn einzelne Noten mehr Punkte haben, als die Aufgabe oder der Test wert ist, wird die ungültige Noten als rot markiert, und die Summe wird nicht berechnet. Außerdem werden alle "A"-Noten grün hervorgehoben, während die Noten "D" und "F" gelb hervorgehoben sind.
 
 ### <a name="before-running-the-script"></a>Vor dem Ausführen des Skripts
 

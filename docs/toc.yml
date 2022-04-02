@@ -35,7 +35,7 @@ items:
             href: develop/script-buttons.md
           - name: Ausführen von Skripts mit Power Automate
             href: develop/power-automate-integration.md
-          - name: Verwenden von Makrodateien in Power Automate-Flows
+          - name: Verwenden von .xlsm-Dateien in Power Automate-Flows
             href: develop/macros-power-automate.md
       - name: Problembehandlung
         items:

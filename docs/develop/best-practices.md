@@ -3,12 +3,12 @@ title: Bewährte Methoden in Office-Skripts
 description: So verhindern Sie häufige Probleme und schreiben robuste Office Skripts, die unerwartete Eingaben oder Daten verarbeiten können.
 ms.date: 12/29/2021
 ms.localizationpriority: medium
-ms.openlocfilehash: 19b10cf6ea778f109edeb74fa5995628bb8bf632
-ms.sourcegitcommit: c62567dc1188527511e4618d3e04e26580d4bb44
+ms.openlocfilehash: 689196e1a0ca70c999ec8048de64190cbfe75581
+ms.sourcegitcommit: 7023b9e23499806901a5ecf8ebc460b76887cca6
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/03/2022
-ms.locfileid: "61659194"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "64585765"
 ---
 # <a name="best-practices-in-office-scripts"></a>Bewährte Methoden in Office-Skripts
 
@@ -16,9 +16,9 @@ Diese Muster und Methoden sind so konzipiert, dass Ihre Skripts jedes Mal erfolg
 
 ## <a name="use-the-action-recorder-to-learn-new-features"></a>Verwenden des Action Recorders zum Erlernen neuer Features
 
-Excel erledigt viele Dinge. Die meisten davon können in Skripts geschrieben werden. Der Action Recorder zeichnet Ihre Excel Aktionen auf und übersetzt sie in Code. Dies ist die einfachste Möglichkeit, um zu erfahren, wie verschiedene Features mit Office Skripts funktionieren. Wenn Sie Code für eine bestimmte Aktion benötigen, wechseln Sie zum Aktionsaufzeichnungsgerät, führen Sie die Aktionen aus, wählen **Sie "Als Code kopieren"** aus, und fügen Sie den resultierenden Code in Ihr Skript ein.
+Excel erledigt viele Dinge. Die meisten davon können in Skripts geschrieben werden. Der Action Recorder zeichnet Ihre Excel Aktionen auf und übersetzt sie in Code. Dies ist die einfachste Möglichkeit, um zu erfahren, wie verschiedene Features mit Office Skripts funktionieren. Wenn Sie Code für eine bestimmte Aktion benötigen, wechseln Sie zum Action Recorder, führen Sie die Aktionen aus, wählen **Sie "Als Code kopieren"** aus, und fügen Sie den resultierenden Code in Ihr Skript ein.
 
-:::image type="content" source="../images/action-recorder-copy-code.png" alt-text="Der Aufgabenbereich &quot;Action Recorder&quot;, in dem die Schaltfläche &quot;Als Code kopieren&quot; hervorgehoben ist.":::
+:::image type="content" source="../images/action-recorder-copy-code.png" alt-text="Der Aufgabenbereich „Aktionsrekorder“ mit hervorgehobener Schaltfläche „Als Code kopieren“.":::
 
 ## <a name="verify-an-object-is-present"></a>Überprüfen, ob ein Objekt vorhanden ist
 
@@ -70,9 +70,9 @@ function main(workbook: ExcelScript.Workbook) {
 }
 ```
 
-Wenn die Überprüfung in einer separaten Funktion erfolgt, müssen Sie dennoch das Skript beenden, indem Sie die `return` Anweisung aus der Funktion `main` ausgeben. Wenn Sie von der Unterfunktion zurückkehren, wird das Skript nicht beendet.
+Wenn die Überprüfung in einer separaten Funktion erfolgt, müssen Sie dennoch das Skript beenden, indem Sie die `return` Anweisung aus der `main` Funktion ausgeben. Wenn Sie von der Unterfunktion zurückkehren, wird das Skript nicht beendet.
 
-Das folgende Skript hat das gleiche Verhalten wie das vorherige. Der Unterschied besteht darin, dass die `main` Funktion die `inputPresent` Funktion aufruft, um alles zu überprüfen. `inputPresent` gibt einen booleschen Wert ( `true` oder `false` ) zurück, um anzugeben, ob alle erforderlichen Eingaben vorhanden sind. Die `main` Funktion verwendet diesen booleschen Wert, um zu entscheiden, ob das Skript fortgesetzt oder beendet werden soll.
+Das folgende Skript hat das gleiche Verhalten wie das vorherige. Der Unterschied besteht darin, dass die `main` Funktion die `inputPresent` Funktion aufruft, um alles zu überprüfen. `inputPresent` gibt einen booleschen Wert (`true` oder `false`) zurück, um anzugeben, ob alle erforderlichen Eingaben vorhanden sind. Die `main` Funktion verwendet diesen booleschen Wert, um zu entscheiden, ob das Skript fortgesetzt oder beendet werden soll.
 
 ```TypeScript
 function main(workbook: ExcelScript.Workbook) {
@@ -104,9 +104,9 @@ function inputPresent(workbook: ExcelScript.Workbook): boolean {
 }
 ```
 
-## <a name="when-to-use-a-throw-statement"></a>Wann sollte eine Anweisung verwendet `throw` werden?
+## <a name="when-to-use-a-throw-statement"></a>Wann sollte eine `throw` Anweisung verwendet werden?
 
-Eine [`throw`](https://developer.mozilla.org/docs/web/javascript/reference/statements/throw) Anweisung gibt an, dass ein unerwarteter Fehler aufgetreten ist. Der Code wird sofort beendet. Sie müssen in den meisten Fällen nicht `throw` aus Ihrem Skript stammen. In der Regel informiert das Skript den Benutzer automatisch, dass das Skript aufgrund eines Problems nicht ausgeführt werden konnte. In den meisten Fällen reicht es aus, das Skript mit einer Fehlermeldung und einer Anweisung aus der Funktion zu `return` `main` beenden.
+Eine [`throw`](https://developer.mozilla.org/docs/web/javascript/reference/statements/throw) Anweisung gibt an, dass ein unerwarteter Fehler aufgetreten ist. Der Code wird sofort beendet. Sie müssen `throw` in den meisten Fällen nicht aus Ihrem Skript stammen. In der Regel informiert das Skript den Benutzer automatisch, dass das Skript aufgrund eines Problems nicht ausgeführt werden konnte. In den meisten Fällen reicht es aus, das Skript mit einer Fehlermeldung und einer `return` Anweisung aus der `main` Funktion zu beenden.
 
 Wenn Ihr Skript jedoch als Teil eines Power Automate-Flusses ausgeführt wird, sollten Sie verhindern, dass der Fluss fortgesetzt wird. Eine `throw` Anweisung stoppt das Skript und weist den Fluss an, auch zu beenden.
 
@@ -130,7 +130,7 @@ function main(workbook: ExcelScript.Workbook) {
   
 ```
 
-## <a name="when-to-use-a-trycatch-statement"></a>Wann sollte eine Anweisung verwendet `try...catch` werden?
+## <a name="when-to-use-a-trycatch-statement"></a>Wann sollte eine `try...catch` Anweisung verwendet werden?
 
 Die [`try...catch`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Statements/try...catch) Anweisung ist eine Möglichkeit, um zu erkennen, ob ein API-Aufruf fehlschlägt, und das Skript weiter auszuführen.
 
@@ -140,7 +140,7 @@ Betrachten Sie den folgenden Codeausschnitt, der eine Aktualisierung großer Dat
 range.setValues(someLargeValues);
 ```
 
-Wenn `someLargeValues` größer ist, als Excel für das Web verarbeiten können, schlägt der `setValues()` Aufruf fehl. Das Skript schlägt dann auch mit einem [Laufzeitfehler](../testing/troubleshooting.md#runtime-errors)fehl. Mit der `try...catch` Anweisung kann das Skript diese Bedingung erkennen, ohne das Skript sofort zu beenden und den Standardfehler anzuzeigen.
+Wenn `someLargeValues` größer ist, als Excel für das Web verarbeiten kann, schlägt der `setValues()` Aufruf fehl. Das Skript schlägt dann auch mit einem [Laufzeitfehler](../testing/troubleshooting.md#runtime-errors) fehl. Mit `try...catch` der Anweisung kann das Skript diese Bedingung erkennen, ohne das Skript sofort zu beenden und den Standardfehler anzuzeigen.
 
 Eine Möglichkeit, dem Skriptbenutzer eine bessere Benutzererfahrung zu bieten, besteht darin, ihm eine benutzerdefinierte Fehlermeldung anzuzeigen. Der folgende Codeausschnitt zeigt eine `try...catch` Anweisung, in der weitere Fehlerinformationen protokolliert werden, um dem Leser besser zu helfen.
 
@@ -157,7 +157,7 @@ try {
 Ein weiterer Ansatz für den Umgang mit Fehlern ist ein Fallbackverhalten, das den Fehlerfall behandelt. Der folgende Codeausschnitt verwendet den `catch` Block, um eine alternative Methode auszuprobieren, um die Aktualisierung in kleinere Teile aufzuteilen und den Fehler zu vermeiden.
 
 > [!TIP]
-> Ein vollständiges Beispiel zum Aktualisieren eines großen Bereichs finden Sie unter ["Schreiben eines großen Datasets".](../resources/samples/write-large-dataset.md)
+> Ein vollständiges Beispiel zum Aktualisieren eines großen Bereichs finden Sie unter ["Schreiben eines großen Datasets](../resources/samples/write-large-dataset.md)".
 
 ```TypeScript
 try {
@@ -172,9 +172,9 @@ try {
 ```
 
 > [!NOTE]
-> Die Verwendung `try...catch` innerhalb oder um eine Schleife verlangsamt Ihr Skript. Weitere Informationen zur Leistung finden Sie unter [Vermeiden der Verwendung von `try...catch` Blöcken.](web-client-performance.md#avoid-using-trycatch-blocks-in-or-surrounding-loops)
+> Die Verwendung `try...catch` innerhalb oder um eine Schleife verlangsamt Ihr Skript. Weitere Informationen zur Leistung finden Sie unter ["Vermeiden der Verwendung von `try...catch` Blöcken](web-client-performance.md#avoid-using-trycatch-blocks-in-or-surrounding-loops)".
 
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Weitere Informationen
 
 - [Behandeln von Problemen mit Office-Skripts](../testing/troubleshooting.md)
 - [Problembehandlungsinformationen für Power Automate mit Office Skripts](../testing/power-automate-troubleshooting.md)
