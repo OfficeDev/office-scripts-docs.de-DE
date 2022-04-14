@@ -1,14 +1,14 @@
 ---
 title: Zurückgeben von Daten aus einem Skript an einen automatisch ausgeführten Power Automate-Flow
 description: Ein Tutorial, das zeigt, wie Sie Erinnerungs-E-Mails senden, indem Sie Office-Skripts für Excel im Web über Power Automate ausführen.
-ms.date: 06/29/2021
+ms.date: 04/12/2022
 ms.localizationpriority: high
-ms.openlocfilehash: e100fac263dee8f1f39529bd83610576e68eb2e6
-ms.sourcegitcommit: 7023b9e23499806901a5ecf8ebc460b76887cca6
+ms.openlocfilehash: 7d232b4688132532dd2bc029588d6244a4a64ef8
+ms.sourcegitcommit: 8bcd743bebfacafa548b936ca99ad6d4918e7bcd
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "64586052"
+ms.lasthandoff: 04/13/2022
+ms.locfileid: "64826688"
 ---
 # <a name="return-data-from-a-script-to-an-automatically-run-power-automate-flow"></a>Zurückgeben von Daten aus einem Skript an einen automatisch ausgeführten Power Automate-Flow
 
@@ -135,10 +135,10 @@ In diesem Tutorial erfahren Sie, wie Sie Informationen eines Office-Skripts für
 
     :::image type="content" source="../images/power-automate-return-tutorial-2.png" alt-text="Schaltfläche „Geplanter Cloudfluss“ in Power Automate.":::
 
-1. Nun müssen Sie den Zeitplan für diesen Flow festlegen. Unser Arbeitsblatt weist eine neue Rufbereitschaftszuweisung auf, die in der ersten Hälfte des Jahres 2021 jeweils montags beginnt. Legen Sie den Flow so fest, dass er montagmorgens als erstes ausgeführt wird. Verwenden Sie die folgenden Optionen, um den Flow so zu konfigurieren, dass er jede Woche montags ausgeführt wird.
+1. Nun müssen Sie den Zeitplan für diesen Flow festlegen. Unser Arbeitsblatt weist eine neue Rufbereitschaftszuweisung auf, die in der ersten Hälfte des Jahres 2022 jeweils montags beginnt. Legen Sie den Flow so fest, dass er montagmorgens als erstes ausgeführt wird. Verwenden Sie die folgenden Optionen, um den Flow so zu konfigurieren, dass er jede Woche montags ausgeführt wird.
 
     - **Flowname**: Person mit Rufbereitschaft benachrichtigen
-    - **Startdatum**: 4.1.21 um 1:00 Uhr
+    - **Beginn**: 3.1.22 um 1:00 Uhr
     - **Wiederholen**: 1-mal wöchentlich
     - **an diesen Tagen**: Mo
 
