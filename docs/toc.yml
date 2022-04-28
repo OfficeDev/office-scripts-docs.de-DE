@@ -111,8 +111,6 @@ items:
                 href: resources/scenarios/task-reminders.md
           - name: Beiträge der Community
             items:
-              - name: Stempeluhr-Taste
-                href: resources/scenarios/punch-clock.md
               - name: Weihnachtsgrüße
                 href: resources/samples/community-seasons-greetings.md
       - name: Office-Skripts und andere Plattformen
