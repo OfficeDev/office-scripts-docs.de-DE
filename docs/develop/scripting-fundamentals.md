@@ -3,12 +3,12 @@ title: Grundlegendes zur Skripterstellung für Office-Skripts in Excel im Web
 description: Informationen zu Objektmodellen und andere Grundlagen, die Sie vor dem Schreiben von Office-Skripts benötigen.
 ms.date: 05/24/2021
 ms.localizationpriority: high
-ms.openlocfilehash: e2ba7eaa956f2009c9017bbfd1f390f56eb9008e
-ms.sourcegitcommit: 7023b9e23499806901a5ecf8ebc460b76887cca6
+ms.openlocfilehash: 633772655ca9346055d33682c36f35a5a8610cc8
+ms.sourcegitcommit: 4e3d3aa25fe4e604b806fbe72310b7a84ee72624
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "64585723"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "65077043"
 ---
 # <a name="scripting-fundamentals-for-office-scripts-in-excel-on-the-web"></a>Grundlegendes zur Skripterstellung für Office-Skripts in Excel im Web
 
@@ -319,11 +319,14 @@ Die [Referenzdokumentation zur Office Scripts-API](/javascript/api/office-script
 - [Workbook](/javascript/api/office-scripts/excelscript/excelscript.workbook)
 - [Arbeitsblatt](/javascript/api/office-scripts/excelscript/excelscript.worksheet)
 
+Spezifische Informationen zum PivotTable-Objektmodell finden Sie unter [Arbeiten mit PivotTables in Office-Skripts](pivottables.md).
+
 ## <a name="see-also"></a>Siehe auch
 
 - [Aufzeichnen, Bearbeiten und Erstellen von Office-Skripts in Excel im Web](../tutorials/excel-tutorial.md)
 - [Auslesen von Arbeitsmappendaten mit Office-Skripts in Excel im Web](../tutorials/excel-read-tutorial.md)
 - [Referenzdokumentation zur Office Scripts-API](/javascript/api/office-scripts/overview)
+- [Arbeiten mit PivotTables in Office-Skripts](pivottables.md)
 - [Verwenden von integrierten JavaScript-Objekten in Office-Skripts](javascript-objects.md)
 - [Bewährte Methoden in Office-Skripts](best-practices.md)
 - [Office-Skripts Dev Center](https://developer.microsoft.com/office-scripts)
