@@ -4,12 +4,12 @@ description: Eine kurze Einführung in den Action Recorder und den Code Editor f
 ms.topic: overview
 ms.date: 02/25/2022
 ms.localizationpriority: high
-ms.openlocfilehash: 6e2370d71d7452490243ab492705b8bf037b7115
-ms.sourcegitcommit: 7023b9e23499806901a5ecf8ebc460b76887cca6
+ms.openlocfilehash: 3c5423344bb1d0f619ea1933a2681dc7e5fd8ba1
+ms.sourcegitcommit: f1550e457c220a2d1498907e925768aba0c36dc3
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "64585653"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "65187231"
 ---
 # <a name="office-scripts-in-excel-on-the-web"></a>Office-Skripts in Excel im Web
 
@@ -70,7 +70,7 @@ Unsere [Lernprogramme](../tutorials/excel-tutorial.md) bieten eine geführte und
 
 Office-Skripts können für andere Benutzer einer Excel-Arbeitsmappe freigegeben werden. Wenn Sie ein Skript in einer geteilten Arbeitsmappe freigeben, kann auch jeder Benutzer mit Zugriff auf die Arbeitsmappe Ihr Skript anzeigen und ausführen. Weitere Informationen zu Freigabe- und Freigabeskripts finden Sie unter [„Freigabe von Office-Skripts“ in Excel für das Web.](https://support.microsoft.com/office/226eddbc-3a44-4540-acfe-fccda3d1122b)
 
-:::image type="content" source="../images/script-sharing.png" alt-text="Die Seite „Skriptdetails“ mit der Option ‚Für andere Personen in dieser Arbeitsmappe freigeben‘":::
+:::image type="content" source="../images/script-sharing.png" alt-text="Die Skriptdetailseite mit der Option &quot;Für andere Personen in dieser Arbeitsmappe freigeben&quot;.":::
 
 Fügen Sie Schaltflächen hinzu, die Skripts ausführen, damit Ihre Kollegen Ihre wertvollen Lösungen entdecken können. Erfahren Sie mehr über Skriptschaltflächen in [Ausführung von Office-Skripts mit Schaltflächen](../develop/script-buttons.md).
 
