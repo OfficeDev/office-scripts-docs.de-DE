@@ -3,16 +3,16 @@ title: Grundlegendes zur Skripterstellung für Office-Skripts in Excel im Web
 description: Informationen zu Objektmodellen und andere Grundlagen, die Sie vor dem Schreiben von Office-Skripts benötigen.
 ms.date: 05/24/2021
 ms.localizationpriority: high
-ms.openlocfilehash: 633772655ca9346055d33682c36f35a5a8610cc8
-ms.sourcegitcommit: 4e3d3aa25fe4e604b806fbe72310b7a84ee72624
+ms.openlocfilehash: bd51f814de60da8006413096f4d6aad125f78fab
+ms.sourcegitcommit: 34c7740c9bff0e4c7426e01029f967724bfee566
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "65077043"
+ms.lasthandoff: 05/13/2022
+ms.locfileid: "65393600"
 ---
 # <a name="scripting-fundamentals-for-office-scripts-in-excel-on-the-web"></a>Grundlegendes zur Skripterstellung für Office-Skripts in Excel im Web
 
-In diesem Artikel werden die technischen Aspekte von Office-Skripts vorgestellt. Sie erfahren, wie die einzelnen Excel-Objekte zusammenarbeiten und wie der Code-Editor mit einer Arbeitsmappe synchronisiert wird.
+In diesem Artikel werden die technischen Aspekte von Office-Skripts vorgestellt. Sie lernen die wichtigen Teile des TypeScript-basierten Skriptcodes kennen und erfahren, wie die Excel-Objekte und -APIs zusammenarbeiten.
 
 ## <a name="typescript-the-language-of-office-scripts"></a>TypeScript: Die Sprache von Office-Skripts
 
@@ -194,7 +194,7 @@ Wenn Sie dieses Skript auf das Arbeitsblatt mit der vorherigen Tabelle anwenden,
 
 Wenn ein Excel-Objekt eine Sammlung von mindestens einem Objekt desselben Typs enthält, werden diese in einem Array gespeichert. Beispielsweise enthält ein `Workbook`-Objekt ein `Worksheet[]`. Auf dieses Array wird über die `Workbook.getWorksheets()`-Methode zugegriffen. `get`-Methoden im Plural (z. B. `Worksheet.getCharts()`) geben die gesamte Objektsammlung als Array zurück. Dieses Muster gilt für alle Office Scripts-APIs: Das `Worksheet`-Objekt beinhaltet eine `getTables()`-Methode, die ein `Table[]` zurückgibt, das `Table`-Objekt beinhaltet eine `getColumns()`-Methode, die ein `TableColumn[]` zurückgibt, und so weiter.
 
-Das zurückgegebene Array ist ein normales Array, daher stehen alle normalen Arrayoperationen für Ihr Skript zur Verfügung. Sie können auch auf einzelne Objekte innerhalb der Sammlung zugreifen, indem Sie den Arrayindexwert verwenden. `workbook.getTables()[0]` gibt beispielsweise die erste Tabelle in der Sammlung zurück. Weitere Informationen zur Verwendung der integrierten Arrayfunktionen mit dem Office Scripts-Framework finden Sie unter [Arbeiten mit Sammlungen](javascript-objects.md#work-with-collections). 
+Das zurückgegebene Array ist ein normales Array, daher stehen alle normalen Arrayoperationen für Ihr Skript zur Verfügung. Sie können auch auf einzelne Objekte innerhalb der Sammlung zugreifen, indem Sie den Arrayindexwert verwenden. `workbook.getTables()[0]` gibt beispielsweise die erste Tabelle in der Sammlung zurück. Weitere Informationen zur Verwendung der integrierten Arrayfunktionen mit dem Office Scripts-Framework finden Sie unter [Arbeiten mit Sammlungen](javascript-objects.md#work-with-collections).
 
 Der Zugriff auf einzelne Objekte über die Sammlung erfolgt auch über eine `get`-Methode. `get`-Methoden im Singular (z. B. `Worksheet.getTable(name)`) geben ein einzelnes Objekt zurück und benötigen eine ID oder einen Namen für das jeweilige Objekt. Diese ID oder dieser Name wird normalerweise durch das Skript oder über die Excel-Benutzeroberfläche festgelegt.
 
