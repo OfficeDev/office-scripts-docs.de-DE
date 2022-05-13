@@ -1,19 +1,19 @@
 ---
-title: Office-Skripts in Excel im Web
+title: Office-Skripts in Excel
 description: Eine kurze Einführung in den Action Recorder und den Code Editor für Office-Skripts.
 ms.topic: overview
 ms.date: 02/25/2022
 ms.localizationpriority: high
-ms.openlocfilehash: 3c5423344bb1d0f619ea1933a2681dc7e5fd8ba1
-ms.sourcegitcommit: f1550e457c220a2d1498907e925768aba0c36dc3
+ms.openlocfilehash: a85e8dad8d6e99ee3b4c5558cd2c1b8417956fb3
+ms.sourcegitcommit: 34c7740c9bff0e4c7426e01029f967724bfee566
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "65187231"
+ms.lasthandoff: 05/13/2022
+ms.locfileid: "65393635"
 ---
-# <a name="office-scripts-in-excel-on-the-web"></a>Office-Skripts in Excel im Web
+# <a name="office-scripts-in-excel"></a>Office-Skripts in Excel
 
-Mit Office-Skripts in Excel im Web können Sie Ihre täglichen Aufgaben automatisieren. Sie können Ihre Excel-Aktionen mit dem Action Recorder aufzeichnen, wodurch ein TypeScript-Sprachskript erstellt wird. Sie können Skripts auch mit dem Code Editor erstellen und bearbeiten. Ihre Skripts können dann für ihre gesamte Organisation freigegeben werden, sodass Ihre Kollegen den Workflow entsprechend automatisieren können.
+Mit Office-Skripts in Excel können Sie Ihre täglichen Aufgaben automatisieren. In Excel im Web können Sie Ihre Aktionen mit dem Aktionsrekorder aufzeichnen. Dadurch wird ein TypeScript-Sprachskript erstellt, das jederzeit erneut ausgeführt werden kann. Sie können Skripts auch mit dem Code Editor erstellen und bearbeiten. Ihre Skripts können dann für ihre gesamte Organisation freigegeben werden, sodass Ihre Kollegen den Workflow entsprechend automatisieren können.
 
 In dieser Reihe von Dokumenten lernen Sie, wie Sie diese Tools verwenden. Sie werden in den Action Recorder eingeführt und erfahren, wie Sie Ihre häufigen Excel-Aktionen aufzeichnen können. Außerdem erfahren Sie, wie Sie eigene Skripts mit dem Code Editor erstellen oder aktualisieren können.
 
@@ -25,7 +25,7 @@ In dieser Reihe von Dokumenten lernen Sie, wie Sie diese Tools verwenden. Sie we
 
 Wenn Sie Office-Skripts verwenden möchten, benötigen Sie Folgendes.
 
-1. [Excel im Web](https://www.office.com/launch/excel) (andere Plattformen, z. B. Desktop, werden nicht unterstützt).
+1. [Excel im Web](https://www.office.com/launch/excel) (Excel für Windows kann Office-Skripts nur mit [Script-Schaltflächen](../develop/script-buttons.md)) verwenden.
 1. OneDrive for Business.
 1. Jede kommerzielle oder pädagogische Microsoft 365-Lizenz mit Zugriff auf Microsoft 365 Office-Desktop-Apps wie:
 
@@ -72,7 +72,7 @@ Office-Skripts können für andere Benutzer einer Excel-Arbeitsmappe freigegeben
 
 :::image type="content" source="../images/script-sharing.png" alt-text="Die Skriptdetailseite mit der Option &quot;Für andere Personen in dieser Arbeitsmappe freigeben&quot;.":::
 
-Fügen Sie Schaltflächen hinzu, die Skripts ausführen, damit Ihre Kollegen Ihre wertvollen Lösungen entdecken können. Erfahren Sie mehr über Skriptschaltflächen in [Ausführung von Office-Skripts mit Schaltflächen](../develop/script-buttons.md).
+Fügen Sie Schaltflächen hinzu, mit denen Skripts ausgeführt werden, damit Ihre Kollegen Ihre wertvollen Lösungen entdecken und Skripts in Excel auf dem Desktop ausführen können. Erfahren Sie mehr über Skriptschaltflächen in [Ausführung von Office-Skripts mit Schaltflächen](../develop/script-buttons.md).
 
 :::image type="content" source="../images/add-button.png" alt-text="Eine Schaltfläche im Arbeitsblatt, die ein Skript ausführt, wenn darauf geklickt wird.":::
 
@@ -81,7 +81,7 @@ Fügen Sie Schaltflächen hinzu, die Skripts ausführen, damit Ihre Kollegen Ihr
 
 ## <a name="connect-office-scripts-to-power-automate"></a>Verbinden von Office-Skripts mit Power Automate
 
-[Power Automate](https://flow.microsoft.com/) ist ein Dienst, der Ihnen hilft, automatisierte Workflows zwischen mehreren Apps und Diensten zu erstellen. Office-Skripts können in diesen Workflows verwendet werden. Sie erhalten somit die Kontrolle über Ihre Skripts außerhalb der Arbeitsmappe. Sie können Ihre Skripts nach einem Zeitplan ausführen, sie als Antwort auf E-Mails auslösen und vieles mehr. Im Lernprogramm [Ausführen von Office-Skripts in Excel im Web mit Power Automate](../tutorials/excel-power-automate-manual.md) erfahren Sie die Grundlagen des Verbindungsaufbaus zu diesen Automatisierungsdiensten.
+[Power Automate](https://flow.microsoft.com/) ist ein Dienst, der Ihnen hilft, automatisierte Workflows zwischen mehreren Apps und Diensten zu erstellen. Office-Skripts können in diesen Workflows verwendet werden. Sie erhalten somit die Kontrolle über Ihre Skripts außerhalb der Arbeitsmappe. Sie können Ihre Skripts nach einem Zeitplan ausführen, sie als Antwort auf E-Mails auslösen und vieles mehr. Im Tutorial [Ausführen von Office-Skripts mit Power Automate](../tutorials/excel-power-automate-manual.md) lernen Sie die Grundlagen des Verbindungsaufbaus zu diesen Automatisierungsdiensten.
 
 ## <a name="next-steps"></a>Nächste Schritte
 
