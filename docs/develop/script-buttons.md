@@ -2,14 +2,14 @@
 title: Ausführen Office Skripts in Excel mit Schaltflächen
 description: Fügen Sie Arbeitsmappen Schaltflächen hinzu, die Office Skripts in Excel steuern.
 ms.topic: overview
-ms.date: 04/28/2022
+ms.date: 05/09/2022
 ms.localizationpriority: medium
-ms.openlocfilehash: 070e392c05752d0e34b9797384275c1e1ca13447
-ms.sourcegitcommit: f1550e457c220a2d1498907e925768aba0c36dc3
+ms.openlocfilehash: fde34d62f9abe897a8b93195ab37a75cfc73f619
+ms.sourcegitcommit: 34c7740c9bff0e4c7426e01029f967724bfee566
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "65187224"
+ms.lasthandoff: 05/13/2022
+ms.locfileid: "65393684"
 ---
 # <a name="run-office-scripts-in-excel-with-buttons"></a>Ausführen Office Skripts in Excel mit Schaltflächen
 
@@ -29,6 +29,11 @@ Der folgende Screenshot zeigt die Seite mit den Skriptdetails für ein Skript mi
 
 Um die Freigabe eines Skripts über eine Schaltfläche zu beenden, wechseln Sie auf der Seite mit den Skriptdetails zum Menü **"Weitere Optionen (...)** ", und wählen Sie " **Freigabe beenden"** aus. Dadurch werden alle Schaltflächen, die das Skript ausführen, entfernt. Durch das Löschen einer einzelnen Schaltfläche wird das Skript von dieser einen Schaltfläche entfernt, selbst wenn der Vorgang rückgängig gemacht wird oder die Schaltfläche ausgeschnitten und eingefügt wird.
 
-## <a name="script-buttons-on-excel-for-windows"></a>Skriptschaltflächen auf Excel für Windows
+## <a name="script-buttons-with-excel-on-windows"></a>Skriptschaltflächen mit Excel auf Windows
 
 Diese Skriptschaltflächen funktionieren auch unter Windows. Erstellen Sie die Schaltfläche in Excel im Web, und Benutzer auf Windows können Ihr Skript mit einem Klick auf eine Schaltfläche ausführen. Bitte beachten Sie, dass Sie skripts in Excel auf Windows nicht bearbeiten können. Skripts können nur in Excel im Web bearbeitet werden.
+
+Einige Office Skript-APIs werden von Excel auf Windows möglicherweise nicht unterstützt, insbesondere ältere Builds. Dazu gehören neuere APIs und APIs für Nur-Web-Features. Wenn ein Skript nicht unterstützte APIs enthält, wird das Skript nicht ausgeführt, und stattdessen wird im Aufgabenbereich "**Skriptausführungsstatus**" eine Warnmeldung angezeigt, die besagt: "Dieses Skript muss derzeit auf Excel für das Web ausgeführt werden. Öffnen Sie die Arbeitsmappe im Browser, und versuchen Sie es dann erneut, oder wenden Sie sich an den Skriptbesitzer, um Hilfe zu bitten."  
+
+> [!IMPORTANT]
+> Skriptschaltflächen erfordern[, dass WebView2](/deployoffice/webview2-install) mit Excel auf Windows funktioniert. Dies ist standardmäßig mit den neuesten Versionen von Excel auf dem Desktop installiert. Wenn Sie jedoch nicht auf Skriptschaltflächen klicken können, besuchen [Sie "WebView2-Runtime herunterladen](https://developer.microsoft.com/en-us/microsoft-edge/webview2/#download-section)", und laden Sie das Browsermodul herunter.

@@ -1,27 +1,28 @@
 ---
-title: Grundlegende Skripts für Office Skripts in Excel im Web
-description: Eine Sammlung von Codebeispielen, die mit Office Skripts in Excel im Web verwendet werden sollen.
+title: Grundlegende Skripts für Office Skripts in Excel
+description: Eine Sammlung von Codebeispielen für die Verwendung mit Office Skripts in Excel.
 ms.date: 03/24/2022
 ms.localizationpriority: medium
-ms.openlocfilehash: 853b00349b246e74765eb2959b4926fad42f07c5
-ms.sourcegitcommit: 7023b9e23499806901a5ecf8ebc460b76887cca6
+ms.openlocfilehash: 8e28026b7a3498d477cce8b6dc5940da33a30f53
+ms.sourcegitcommit: 34c7740c9bff0e4c7426e01029f967724bfee566
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "64585870"
+ms.lasthandoff: 05/13/2022
+ms.locfileid: "65393656"
 ---
-# <a name="basic-scripts-for-office-scripts-in-excel-on-the-web"></a>Grundlegende Skripts für Office Skripts in Excel im Web
+# <a name="basic-scripts-for-office-scripts-in-excel"></a>Grundlegende Skripts für Office Skripts in Excel
 
-Die folgenden Beispiele sind einfache Skripts, mit denen Sie Ihre eigenen Arbeitsmappen ausprobieren können. So verwenden Sie sie in Excel im Web:
+Die folgenden Beispiele sind einfache Skripts, mit denen Sie Ihre eigenen Arbeitsmappen ausprobieren können. So verwenden Sie sie in Excel:
 
+1. Öffnen Sie eine Arbeitsmappe in Excel im Web.
 1. Öffnen Sie die Registerkarte **Automatisieren**.
-1. Wählen Sie **New Script** aus.
+1. Wählen Sie **Neues Skript** aus.
 1. Ersetzen Sie das gesamte Skript durch das Beispiel Ihrer Wahl.
 1. Wählen Sie im Aufgabenbereich des Code-Editors " **Ausführen** " aus.
 
 ## <a name="script-basics"></a>Skriptgrundlagen
 
-Diese Beispiele veranschaulichen grundlegende Bausteine für Office Skripts. Erweitern Sie diese Skripts, um Ihre Lösung zu erweitern und allgemeine Probleme zu lösen.
+Diese Beispiele veranschaulichen grundlegende Bausteine für Office Skripts. Erweitern Sie diese Skripts, um Ihre Lösung zu erweitern und häufige Probleme zu lösen.
 
 ### <a name="read-and-log-one-cell"></a>Lesen und Protokollieren einer Zelle
 
@@ -42,7 +43,7 @@ function main(workbook: ExcelScript.Workbook) {
 
 ### <a name="read-the-active-cell"></a>Lesen der aktiven Zelle
 
-Dieses Skript protokolliert den Wert der aktuellen aktiven Zelle. Wenn mehrere Zellen ausgewählt sind, wird die oberste linke Zelle protokolliert.
+Dieses Skript protokolliert den Wert der aktuellen aktiven Zelle. Wenn mehrere Zellen ausgewählt sind, wird die Zelle ganz oben links protokolliert.
 
 ```TypeScript
 function main(workbook: ExcelScript.Workbook) {
@@ -56,7 +57,7 @@ function main(workbook: ExcelScript.Workbook) {
 
 ### <a name="change-an-adjacent-cell"></a>Ändern einer angrenzenden Zelle
 
-Dieses Skript ruft benachbarte Zellen mit relativen Verweisen ab. Beachten Sie, dass ein Teil des Skripts fehlschlägt, wenn sich die aktive Zelle in der oberen Zeile befindet, da sie auf die Zelle über der aktuell ausgewählten Zelle verweist.
+Dieses Skript ruft benachbarte Zellen mithilfe relativer Bezüge ab. Beachten Sie, dass ein Teil des Skripts fehlschlägt, wenn sich die aktive Zelle in der obersten Zeile befindet, da sie auf die Zelle oberhalb der aktuell ausgewählten Zelle verweist.
 
 ```TypeScript
 function main(workbook: ExcelScript.Workbook) {
@@ -106,7 +107,7 @@ function main(workbook: ExcelScript.Workbook) {
 
 ### <a name="change-each-individual-cell-in-a-range"></a>Ändern jeder einzelnen Zelle in einem Bereich
 
-Dieses Skript durchläuft den aktuell ausgewählten Bereich in einer Schleife. Es löscht die aktuelle Formatierung und legt die Füllfarbe in jeder Zelle auf eine zufällige Farbe fest.
+Dieses Skript überläuft den aktuell ausgewählten Bereich in einer Schleife. Sie löscht die aktuelle Formatierung und legt die Füllfarbe in jeder Zelle auf eine zufällige Farbe fest.
 
 ```TypeScript
 function main(workbook: ExcelScript.Workbook) {
@@ -135,7 +136,7 @@ function main(workbook: ExcelScript.Workbook) {
 
 ### <a name="get-groups-of-cells-based-on-special-criteria"></a>Abrufen von Zellgruppen basierend auf speziellen Kriterien
 
-Dieses Skript ruft alle leeren Zellen im verwendeten Bereich des aktuellen Arbeitsblatts ab. Anschließend werden alle Zellen mit gelbem Hintergrund hervorgehoben.
+Dieses Skript ruft alle leeren Zellen im verwendeten Bereich des aktuellen Arbeitsblatts ab. Anschließend werden alle Zellen mit einem gelben Hintergrund hervorgehoben.
 
 ```TypeScript
 function main(workbook: ExcelScript.Workbook) {
@@ -181,9 +182,9 @@ function main(workbook: ExcelScript.Workbook) {
 }
 ```
 
-### <a name="query-and-delete-from-a-collection"></a>Abfragen und Löschen aus einer Auflistung
+### <a name="query-and-delete-from-a-collection"></a>Abfragen und Löschen aus einer Sammlung
 
-Dieses Skript erstellt ein neues Arbeitsblatt. Es wird nach einer vorhandenen Kopie des Arbeitsblatts gesucht und vor dem Erstellen eines neuen Blatts gelöscht.
+Dieses Skript erstellt ein neues Arbeitsblatt. Sie sucht nach einer vorhandenen Kopie des Arbeitsblatts und löscht sie, bevor ein neues Blatt erstellt wird.
 
 ```TypeScript
 function main(workbook: ExcelScript.Workbook) {
@@ -212,7 +213,7 @@ function main(workbook: ExcelScript.Workbook) {
 
 ## <a name="dates"></a>Datumsangaben
 
-Die Beispiele in diesem Abschnitt zeigen, wie Sie das JavaScript [Date-Objekt](https://developer.mozilla.org/docs/web/javascript/reference/global_objects/date) verwenden.
+Die Beispiele in diesem Abschnitt zeigen die Verwendung des JavaScript [Date-Objekts](https://developer.mozilla.org/docs/web/javascript/reference/global_objects/date) .
 
 Das folgende Beispiel ruft das aktuelle Datum und die aktuelle Uhrzeit ab und schreibt diese Werte dann in zwei Zellen im aktiven Arbeitsblatt.
 
@@ -233,7 +234,7 @@ function main(workbook: ExcelScript.Workbook) {
 }
 ```
 
-Das nächste Beispiel liest ein Datum, das in Excel gespeichert ist, und übersetzt es in ein JavaScript Date-Objekt. Es verwendet die numerische Seriennummer des Datums als Eingabe für das JavaScript-Datum. Diese Seriennummer wird im Artikel zur [NOW()-Funktion](https://support.office.com/article/now-function-3337fd29-145a-4347-b2e6-20c904739c46) beschrieben.
+Im nächsten Beispiel wird ein Datum gelesen, das in Excel gespeichert ist, und es in ein JavaScript Date-Objekt übersetzt. Es verwendet die numerische Seriennummer des Datums als Eingabe für das JavaScript-Datum. Diese Seriennummer wird im Artikel zur [FUNKTION NOW()](https://support.office.com/article/now-function-3337fd29-145a-4347-b2e6-20c904739c46) beschrieben.
 
 ```TypeScript
 function main(workbook: ExcelScript.Workbook) {
@@ -253,7 +254,7 @@ Diese Beispiele veranschaulichen, wie Sie mit Arbeitsblattdaten arbeiten und Ben
 
 ### <a name="apply-conditional-formatting"></a>Anwenden bedingter Formatierung
 
-In diesem Beispiel wird dem aktuell verwendeten Bereich im Arbeitsblatt eine bedingte Formatierung zugewiesen. Die bedingte Formatierung ist eine grüne Füllung für die oberen 10 % der Werte.
+In diesem Beispiel wird bedingte Formatierung auf den aktuell verwendeten Bereich im Arbeitsblatt angewendet. Die bedingte Formatierung ist eine grüne Füllung für die obersten 10 % der Werte.
 
 ```TypeScript
 function main(workbook: ExcelScript.Workbook) {
@@ -293,9 +294,9 @@ function main(workbook: ExcelScript.Workbook) {
 
 ### <a name="log-the-grand-total-values-from-a-pivottable"></a>Protokollieren der "Gesamtsumme"-Werte aus einer PivotTable
 
-In diesem Beispiel wird die erste PivotTable in der Arbeitsmappe gesucht und die Werte in den Zellen Gesamtsumme protokolliert (wie in der abbildung unten grün hervorgehoben).
+In diesem Beispiel wird die erste PivotTable in der Arbeitsmappe gesucht und die Werte in den Zellen "Gesamtsumme" protokolliert (wie in der abbildung unten grün hervorgehoben).
 
-:::image type="content" source="../../images/sample-pivottable-grand-total-row.png" alt-text="Eine PivotTable mit Obstumsätzen, wobei die Ergebniszeile grün hervorgehoben ist.":::
+:::image type="content" source="../../images/sample-pivottable-grand-total-row.png" alt-text="Eine PivotTable mit Obstumsätzen, in der die Zeile &quot;Gesamtergebnis&quot; grün hervorgehoben ist.":::
 
 ```TypeScript
 function main(workbook: ExcelScript.Workbook) {
@@ -321,9 +322,9 @@ function main(workbook: ExcelScript.Workbook) {
 
 ### <a name="create-a-drop-down-list-using-data-validation"></a>Erstellen einer Dropdownliste mithilfe der Datenüberprüfung
 
-Dieses Skript erstellt eine Dropdown-Auswahlliste für eine Zelle. Es verwendet die vorhandenen Werte des ausgewählten Bereichs als Auswahl für die Liste.
+Dieses Skript erstellt eine Dropdownauswahlliste für eine Zelle. Es verwendet die vorhandenen Werte des ausgewählten Bereichs als Auswahlmöglichkeiten für die Liste.
 
-:::image type="content" source="../../images/sample-data-validation.png" alt-text="Ein Arbeitsblatt mit einem Bereich von drei Zellen, der die Farbauswahl &quot;Rot, Blau, Grün&quot; und daneben die gleichen Auswahlmöglichkeiten enthält, die in einer Dropdownliste angezeigt werden.":::
+:::image type="content" source="../../images/sample-data-validation.png" alt-text="Ein Arbeitsblatt mit einem Bereich von drei Zellen mit den Farboptionen &quot;rot, blau, grün&quot; und daneben die gleichen Optionen, die in einer Dropdownliste angezeigt werden.":::
 
 ```TypeScript
 function main(workbook: ExcelScript.Workbook) {
@@ -383,7 +384,7 @@ function main(workbook: ExcelScript.Workbook) {
 
 ### <a name="handle-a-spill-error-returned-from-a-formula"></a>Behandeln eines von einer `#SPILL!` Formel zurückgegebenen Fehlers
 
-Dieses Skript transponiert den Bereich "A1:D2" mithilfe der TRANSPOSE-Funktion in "A4:B7". Wenn die Transponieren zu einem `#SPILL` Fehler führt, löscht sie den Zielbereich und wendet die Formel erneut an.
+Dieses Skript transponiert den Bereich "A1:D2" mithilfe der MTRANS-Funktion in "A4:B7". Wenn die Transponierung zu einem `#SPILL` Fehler führt, wird der Zielbereich gelöscht und die Formel erneut angewendet.
 
 ```TypeScript
 function main(workbook: ExcelScript.Workbook) {
@@ -415,12 +416,12 @@ function main(workbook: ExcelScript.Workbook) {
 }
 ```
 
-## <a name="suggest-new-samples"></a>Vorschlagen neuer Beispiele
+## <a name="suggest-new-samples"></a>Vorschläge für neue Beispiele
 
 Wir freuen uns über Vorschläge für neue Beispiele. Wenn es ein häufiges Szenario gibt, das anderen Skriptentwicklern helfen würde, teilen Sie uns dies bitte im Feedbackabschnitt am unteren Rand der Seite mit.
 
-## <a name="see-also"></a>Weitere Informationen
+## <a name="see-also"></a>Siehe auch
 
-* [Adrianhi Ramamurthys "Range basics" auf YouTube](https://youtu.be/4emjkOFdLBA)
-* [Beispiele und Szenarien für Office Skripts](samples-overview.md)
+* [Sudhi Ramamurthys "Range basics" auf YouTube](https://youtu.be/4emjkOFdLBA)
+* [beispiele und Szenarien für Office Skripts](samples-overview.md)
 * [Aufzeichnen, Bearbeiten und Erstellen von Office-Skripts in Excel im Web](../../tutorials/excel-tutorial.md)
