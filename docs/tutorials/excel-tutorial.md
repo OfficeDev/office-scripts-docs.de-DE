@@ -3,12 +3,12 @@ title: Aufzeichnen, Bearbeiten und Erstellen von Office-Skripts in Excel im Web
 description: Dies ist ein Lernprogramm zu den Grundlagen von Office-Skripts, einschließlich dem Aufzeichnen von Skripts mithilfe der Aktionsaufzeichnung und dem Schreiben von Daten in eine Arbeitsmappe.
 ms.date: 05/23/2021
 ms.localizationpriority: high
-ms.openlocfilehash: 15f55eff0d042f862d6607099882ad123369e676
-ms.sourcegitcommit: 7023b9e23499806901a5ecf8ebc460b76887cca6
+ms.openlocfilehash: 30caa66787bce9c4341069461ea54ef3c63d9601
+ms.sourcegitcommit: 34c7740c9bff0e4c7426e01029f967724bfee566
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "64585821"
+ms.lasthandoff: 05/13/2022
+ms.locfileid: "65393628"
 ---
 # <a name="record-edit-and-create-office-scripts-in-excel-on-the-web"></a>Aufzeichnen, Bearbeiten und Erstellen von Office-Skripts in Excel im Web
 
@@ -61,7 +61,7 @@ Das vorherige Skript hat die Zeile "Orangen" orangefarben eingefärbt. Jetzt fü
 
     Dieser Code ruft das aktuelle Arbeitsblatt aus der Arbeitsmappe ab. Anschließend legt er die Füllfarbe des Bereichs **A2:C2** fest.
 
-    Bereiche sind ein wesentliches Element von Office-Skripts in Excel im Web. Ein Bereich ist ein zusammenhängender, rechteckiger Block von Zellen, die Werte, Formeln und Formatierungen enthalten. Hierbei handelt es sich um die grundlegende Struktur von Zellen, durch die Sie die meisten Skript-Aufgaben ausführen werden.
+    Bereiche sind ein wesentliches Element von Office-Skripts in Excel. Ein Bereich ist ein zusammenhängender, rechteckiger Block von Zellen, die Werte, Formeln und Formatierungen enthalten. Hierbei handelt es sich um die grundlegende Struktur von Zellen, durch die Sie die meisten Skript-Aufgaben ausführen werden.
 
 3. Fügen Sie am Ende des Skripts die folgende Zeile ein (zwischen dem festgelegten `color` und der schließenden `}`):
 

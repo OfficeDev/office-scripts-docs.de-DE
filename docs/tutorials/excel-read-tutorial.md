@@ -3,12 +3,12 @@ title: Lesen Sie Arbeitsmappendaten mit Office-Skripts in Excel im Web
 description: Ein Office Skripts-Lernprogramm zum Lesen von Daten aus Arbeitsmappen und zum Auswerten dieser Daten im Skript.
 ms.date: 01/06/2021
 ms.localizationpriority: high
-ms.openlocfilehash: c1bc867b6df91a7dedde4020177ed87682d060f9
-ms.sourcegitcommit: 7023b9e23499806901a5ecf8ebc460b76887cca6
+ms.openlocfilehash: d4378e1b4c851a1a2cf072b0eabb3d3d765bc234
+ms.sourcegitcommit: 34c7740c9bff0e4c7426e01029f967724bfee566
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "64586038"
+ms.lasthandoff: 05/13/2022
+ms.locfileid: "65393642"
 ---
 # <a name="read-workbook-data-with-office-scripts-in-excel-on-the-web"></a>Lesen Sie Arbeitsmappendaten mit Office-Skripts in Excel im Web
 
@@ -147,6 +147,6 @@ Nachdem wir nun wissen, wie man in eine einzelne Zelle liest und schreibt, veral
 
 ## <a name="next-steps"></a>Nächste Schritte
 
-Öffnen Sie den Code-Editor, und probieren Sie einige unserer [Beispielskripts für Office-Skripts in Excel im Web](../resources/samples/excel-samples.md)aus. Sie können auch [Skripting-Grundlagen für Office-Skripts in Excel im Web](../develop/scripting-fundamentals.md) aufrufen, um weitere Informationen zum Erstellen von Office-Skripts zu erhalten.
+Öffnen Sie den Code-Editor, und probieren Sie einige unserer [Beispielskripts für Office-Skripts in Excel](../resources/samples/excel-samples.md) aus. Sie können auch [Skripting-Grundlagen für Office-Skripts in Excel im Web](../develop/scripting-fundamentals.md) aufrufen, um weitere Informationen zum Erstellen von Office-Skripts zu erhalten.
 
 Die nächste Reihe von Office-Skripts-Tutorials fokussiert sich auf die Verwendung von Office-Skripts mit Power Automate. Erfahren Sie mehr über die Vorteile der Kombination der beiden Plattformen in [Ausführen von Office-Skripts mit Power Automate](../develop/power-automate-integration.md), oder probieren Sie das Tutorial [Aufrufen von Skripts aus einem manuelle Power Automate-Flow](excel-power-automate-manual.md) aus, um einen Power Automate-Flow zu erstellen, der ein Office-Skript verwendet.

@@ -2,19 +2,19 @@
 layout: LandingPage
 ms.topic: landing-page
 title: Office Scripts-Dokumentation
-description: Ressourcen zum Erlernen von Office-Skripts in Excel im Web, einschließlich Lernprogrammen, konzeptionellen Artikeln und Codebeispielen.
+description: Ressourcen zum Erlernen von Office-Skripts in Excel, einschließlich Lernprogrammen, konzeptionellen Artikeln und Codebeispielen.
 ms.date: 05/24/2021
 ms.localizationpriority: high
-ms.openlocfilehash: 2f9a380408a2df793886093c10b685f918483489
-ms.sourcegitcommit: 7023b9e23499806901a5ecf8ebc460b76887cca6
+ms.openlocfilehash: b98c746ec89b61f05c3a6ded04100c0a1efc20bc
+ms.sourcegitcommit: 34c7740c9bff0e4c7426e01029f967724bfee566
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "64585667"
+ms.lasthandoff: 05/13/2022
+ms.locfileid: "65393691"
 ---
-# <a name="office-scripts-documentation"></a>Office-Skripts-Dokumentation
+# <a name="office-scripts-documentation"></a>Office Scripts-Dokumentation
 
-Verwenden Sie Office-Skripts in Excel im Web, um Ihre täglichen Aufgaben zu automatisieren. Lesen Sie die folgenden Artikel, um zu erfahren, wie Sie Office-Skripts erstellen und bearbeiten und wie Sie die mit der Automatisierung noch heute loslegen können.
+Verwenden Sie Office-Skripts in Excel, um Ihre täglichen Aufgaben zu automatisieren. Lesen Sie die folgenden Artikel, um zu erfahren, wie Sie Office-Skripts erstellen und bearbeiten und wie Sie die mit der Automatisierung noch heute loslegen können.
 
 <ul class="panelContent cardsF cols cols3 rows2">
     <li>
@@ -73,7 +73,7 @@ Verwenden Sie Office-Skripts in Excel im Web, um Ihre täglichen Aufgaben zu aut
 ---
 
 <h2>Sonstige Ressourcen</h2>
-<p>Verwenden Sie die folgenden Ressourcen, um sich über die APIs zu informieren, die von Office-Skripts für die Interaktion mit Arbeitsmappen in Excel im Web verwendet werden, stellen Sie Fragen zu Office-Skripts in Excel im Web oder fordern Sie Features für Office-Skripts in Excel im Web an.</p>
+<p>Verwenden Sie die folgenden Ressourcen, um mehr über die von Office-Skripts verwendeten APIs zu erfahren, Fragen zu Office-Skripts zu stellen oder Features für Office-Skripts anzufordern.</p>
 <ul class="panelContent cardsF cols cols3 rows2">
     <li>
         <div class="cardSize">

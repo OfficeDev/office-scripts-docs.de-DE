@@ -1,7 +1,7 @@
 items:
   - name: Office Scripts-Dokumentation
     href: index.md
-  - name: Office-Skripts in Excel im Web
+  - name: Office-Skripts in Excel
     items:
       - name: Übersicht
         href: overview/excel.md
@@ -111,6 +111,8 @@ items:
                 href: resources/scenarios/task-reminders.md
           - name: Beiträge der Community
             items:
+              - name: Stempeluhr-Taste
+                href: resources/scenarios/punch-clock.md
               - name: Weihnachtsgrüße
                 href: resources/samples/community-seasons-greetings.md
       - name: Office-Skripts und andere Plattformen
