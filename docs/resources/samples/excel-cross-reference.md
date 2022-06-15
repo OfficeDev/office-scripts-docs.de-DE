@@ -3,16 +3,18 @@ title: Querverweis Excel Dateien mit Power Automate
 description: Erfahren Sie, wie Sie Office Skripts und Power Automate verwenden, um eine Excel Datei querzuverweisen und zu formatieren.
 ms.date: 06/06/2022
 ms.localizationpriority: medium
-ms.openlocfilehash: 02c06b6376d3726b3e1b44255df14aa64be196ea
-ms.sourcegitcommit: f5fc9146d5c096e3a580a3fa8f9714147c548df4
+ms.openlocfilehash: a470ee4c59d0fc0a5612a54326a0dec3ab3a59d6
+ms.sourcegitcommit: dd01979d34b3499360d2f79a56f8a8f24f480eed
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/12/2022
-ms.locfileid: "66038672"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "66088120"
 ---
 # <a name="cross-reference-excel-files-with-power-automate"></a>Querverweis Excel Dateien mit Power Automate
 
 Diese Lösung zeigt, wie Daten in zwei Excel Dateien verglichen werden, um Abweichungen zu finden. Es verwendet Office Skripts, um Daten zu analysieren und Power Automate, um zwischen den Arbeitsmappen zu kommunizieren.
+
+In diesem Beispiel werden Daten mitHILFE von [JSON-Objekten](https://www.w3schools.com/whatis/whatis_json.asp) zwischen Arbeitsmappen übergeben. Weitere Informationen zum Arbeiten mit JSON finden Sie unter [Verwenden von JSON zum Übergeben von Daten an und von Office Skripts](../../develop/use-json.md).
 
 ## <a name="example-scenario"></a>Beispielszenario
 

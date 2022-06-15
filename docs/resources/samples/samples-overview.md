@@ -1,14 +1,14 @@
 ---
 title: Beispiele für Office Skripts
 description: Verfügbare Office Skriptbeispiele und Szenarien.
-ms.date: 04/26/2022
+ms.date: 06/14/2022
 ms.localizationpriority: medium
-ms.openlocfilehash: 7c9bbe9b6f7eb8abad2995dac72ccf636d585d69
-ms.sourcegitcommit: e6428a5214fa38aef036a952a0e3c09dbf6e4d3e
+ms.openlocfilehash: 059a21711f36273207f1e65ba844ba23c502ffe0
+ms.sourcegitcommit: dd01979d34b3499360d2f79a56f8a8f24f480eed
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/28/2022
-ms.locfileid: "65109157"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "66088050"
 ---
 # <a name="office-scripts-samples-and-scenarios"></a>beispiele und Szenarien für Office Skripts
 
@@ -18,7 +18,10 @@ Sehen Sie sich für jedes der Projekte in " [Grundlagen](#basics) " und " [Über
 
 In [Szenarien](#scenarios) haben wir einige größere Szenariobeispiele einbezogen, die reale Anwendungsfälle veranschaulichen.
 
-Wir freuen uns auch [über Beiträge aus der Community](#community-contributions-and-fun-samples).
+Wir freuen uns auch [über Beiträge aus der Community](#community-contributions-and-fun-samples). Diese Beispiele sind Open Source.
+
+> [!IMPORTANT]
+> Stellen Sie sicher, dass Sie die Voraussetzungen für Office Skripts erfüllen, bevor Sie die Beispiele ausprobieren. Die Anforderungen für Ihr Microsoft 365 Abonnement und Konto finden Sie im [Abschnitt Office Skripts für Excel Übersicht "Anforderungen"](../../overview/excel.md#requirements).
 
 ## <a name="basics"></a>Grundlagen
 
@@ -69,12 +72,8 @@ Wir freuen uns über [Beiträge](https://github.com/OfficeDev/office-scripts-doc
 | Project | Details |
 |---------|---------|
 | [Spiel des Lebens](https://techcommunity.microsoft.com/t5/excel-blog/ready-player-zero/ba-p/2246208) | Der Blog "Ready Player Zero" von Yutao Huang auf der Excel Tech Community enthält ein Skript zum Modellieren von John Conways [*The Game of Life*](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life). |
-| [Schaltfläche "Stanzuhr"](../scenarios/punch-clock.md) | Dieses Skript wurde von [Brian Gonzalez](https://github.com/b-gonzalez) beigesteuert. Das Szenario enthält ein Skript und eine Skriptschaltfläche, die die aktuelle Uhrzeit aufzeichnet. |
+| [Stempeluhr-Taste](../scenarios/punch-clock.md) | Dieses Skript wurde von [Brian Gonzalez](https://github.com/b-gonzalez) beigesteuert. Das Szenario enthält ein Skript und eine Skriptschaltfläche, die die aktuelle Uhrzeit aufzeichnet. |
 | [Animation "Seasons Greetings"](community-seasons-greetings.md) | Dieses Skript wurde von [Leslie Black](https://www.linkedin.com/in/lesblackconsultant/) im Geiste der Ferienzeit beigetragen! Es ist ein lustiges Skript, das einen singenden Weihnachtsbaum in Excel im Web mit Office Skripts zeigt. |
-
-## <a name="try-it-out"></a>Probieren Sie es aus
-
-Diese Beispiele sind Open Source. Probieren Sie sie selbst aus. Sie benötigen ein Microsoft-Geschäfts-, Schul- oder Unikonto von der Firma oder Schule mit einer Lizenz für Microsoft 365 Abonnement (E3 oder höher). Melden https://office.com Sie sich einfach bei Ihrem Konto an, und beginnen Sie damit.
 
 ## <a name="leave-a-comment"></a>Hinterlasse einen Kommentar
 

@@ -3,28 +3,28 @@ title: Filtern Excel Tabelle und Abrufen des sichtbaren Bereichs
 description: Erfahren Sie, wie Sie Office Skripts verwenden, um eine Excel Tabelle zu filtern und den sichtbaren Bereich als Array von Objekten abzurufen.
 ms.date: 03/10/2022
 ms.localizationpriority: medium
-ms.openlocfilehash: 09adbdabb64f9cf15b8219cfd3ef2dfa35d30fe2
-ms.sourcegitcommit: 7023b9e23499806901a5ecf8ebc460b76887cca6
+ms.openlocfilehash: 103ec97111720ab872c0be843aa0573781d98c44
+ms.sourcegitcommit: dd01979d34b3499360d2f79a56f8a8f24f480eed
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "64585835"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "66088085"
 ---
-# <a name="filter-excel-table-and-get-visible-range-as-a-json-object"></a>Filtern Excel Tabelle und Abrufen eines sichtbaren Bereichs als JSON-Objekt
+# <a name="filter-excel-table-and-get-visible-range-as-a-json-object"></a>Filtern Excel Tabelle und Abrufen des sichtbaren Bereichs als JSON-Objekt
 
-In diesem Beispiel wird eine Excel Tabelle gefiltert und der sichtbare Bereich als JSON-Objekt zurückgegeben. Dieser JSON-Code könnte einem Power Automate Fluss als Teil einer größeren Lösung bereitgestellt werden.
+In diesem Beispiel wird eine Excel Tabelle gefiltert und der sichtbare Bereich als [JSON-Objekt](https://www.w3schools.com/whatis/whatis_json.asp) zurückgegeben. Dieser JSON-Code kann einem Power Automate-Fluss als Teil einer größeren Lösung bereitgestellt werden.
 
 ## <a name="example-scenario"></a>Beispielszenario
 
-* Wendet einen Filter auf eine Tabellenspalte an.
+* Wenden Sie einen Filter auf eine Tabellenspalte an.
 * Extrahieren Sie den sichtbaren Bereich nach dem Filtern.
 * Ein Objekt mit einer [bestimmten JSON-Struktur](#sample-json) zusammenstellen und zurückgeben.
 
 ## <a name="sample-excel-file"></a>Beispieldatei für Excel
 
-Laden Sie <a href="table-filter.xlsx">table-filter.xlsx</a> für eine einsatzbereite Arbeitsmappe herunter. Fügen Sie das folgende Skript hinzu, um das Beispiel selbst auszuprobieren!
+Laden Sie <a href="table-filter.xlsx">table-filter.xlsx</a> für eine sofort einsatzbereite Arbeitsmappe herunter. Fügen Sie das folgende Skript hinzu, um das Beispiel selbst auszuprobieren!
 
-## <a name="sample-code-filter-a-table-and-get-visible-range"></a>Beispielcode: Filtern einer Tabelle und Abrufen des sichtbaren Bereichs
+## <a name="sample-code-filter-a-table-and-get-visible-range"></a>Beispielcode: Filtern einer Tabelle und Abrufen eines sichtbaren Bereichs
 
 ```TypeScript
 function main(workbook: ExcelScript.Workbook): ReturnTemplate {
@@ -90,7 +90,7 @@ interface ReturnTemplate {
 
 ### <a name="sample-json"></a>JSON-Beispiel
 
-Jeder Schlüssel stellt einen eindeutigen Wert einer Tabelle dar. Jede Arrayinstanz stellt die Zeile dar, die angezeigt wird, wenn der entsprechende Filter angewendet wird.
+Jeder Schlüssel stellt einen eindeutigen Wert einer Tabelle dar. Jede Arrayinstanz stellt die Zeile dar, die sichtbar ist, wenn der entsprechende Filter angewendet wird. Weitere Informationen zum Arbeiten mit JSON finden Sie unter [Verwenden von JSON zum Übergeben von Daten an und von Office Skripts](../../develop/use-json.md).
 
 ```json
 {
@@ -99,43 +99,43 @@ Jeder Schlüssel stellt einen eindeutigen Wert einer Tabelle dar. Jede Arrayinst
     "Shift": "Morning",
     "Date": "27-Oct-20",
     "Responsible": "Debra Berger",
-    "Reason&quot;: &quot;"
+    "Reason": ""
   }, {
     "Station": "Station-1",
     "Shift": "Afternoon",
     "Date": "27-Oct-20",
     "Responsible": "Delia Dennis",
-    "Reason&quot;: &quot;"
+    "Reason": ""
   }, {
     "Station": "Station-1",
     "Shift": "Afternoon",
     "Date": "28-Oct-20",
     "Responsible": "Lidia Holloway",
-    "Reason&quot;: &quot;"
+    "Reason": ""
   }],
   "Station-2": [{
     "Station": "Station-2",
     "Shift": "Morning",
     "Date": "27-Oct-20",
     "Responsible": "Gerhart Moller",
-    "Reason&quot;: &quot;"
+    "Reason": ""
   }, {
     "Station": "Station-2",
     "Shift": "Afternoon",
     "Date": "28-Oct-20",
     "Responsible": "Grady Archie",
-    "Reason&quot;: &quot;"
+    "Reason": ""
   }],
   "Station-3": [{
     "Station": "Station-3",
     "Shift": "Morning",
     "Date": "27-Oct-20",
     "Responsible": "Isaiah Langer",
-    "Reason&quot;: &quot;"
+    "Reason": ""
   }]
 }
 ```
 
 ## <a name="training-video-filter-an-excel-table-and-get-the-visible-range"></a>Schulungsvideo: Filtern einer Excel Tabelle und Abrufen des sichtbaren Bereichs
 
-[Sehen Sie sich an, wie Sie dieses Beispiel auf YouTube durchlaufen](https://youtu.be/Mv7BrvPq84A).
+[Sehen Sie sich Sudhi Ramamurthy bei diesem Beispiel auf YouTube an](https://youtu.be/Mv7BrvPq84A).
