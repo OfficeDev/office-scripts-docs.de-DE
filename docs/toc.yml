@@ -35,6 +35,8 @@ items:
             href: develop/script-buttons.md
           - name: Ausführen von Skripts mit Power Automate
             href: develop/power-automate-integration.md
+          - name: JSON zur Datenübergabe verwenden
+            href: develop/use-json.md
           - name: Verwenden von .xlsm-Dateien in Power Automate-Flows
             href: develop/macros-power-automate.md
           - name: Arbeiten mit PivotTables
