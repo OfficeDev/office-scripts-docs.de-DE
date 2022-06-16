@@ -1,14 +1,14 @@
 ---
 title: Übergeben von Daten zu Skripts in einem automatisch ausgeführten Power Automate-Datenfluss
 description: Ein Lernprogramm zum Ausführen von Office-Skripts für Excel im Web mithilfe von Power Automate, wenn E-Mails empfangen und Flussdaten an das Skript übergeben werden.
-ms.date: 06/29/2021
+ms.date: 06/10/2022
 ms.localizationpriority: high
-ms.openlocfilehash: ae57bb52b07df0822f1fac8c931c90de8614a770
-ms.sourcegitcommit: 7023b9e23499806901a5ecf8ebc460b76887cca6
+ms.openlocfilehash: 73a551df09eadba1f6e75de35e17e1c5a93498e9
+ms.sourcegitcommit: dd01979d34b3499360d2f79a56f8a8f24f480eed
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "64586059"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "66088135"
 ---
 # <a name="pass-data-to-scripts-in-an-automatically-run-power-automate-flow"></a>Übergeben von Daten zu Skripts in einem automatisch ausgeführten Power Automate-Datenfluss
 
@@ -210,6 +210,18 @@ Wenn der Flow ausgelöst und das Skript erfolgreich ausgeführt wird, sollten di
 :::image type="content" source="../images/power-automate-params-tutorial-4.png" alt-text="Ein Arbeitsblatt, auf dem die E-Mail-Tabelle angezeigt wird, nachdem der Fluss dreimal ausgeführt wurde.":::
 
 :::image type="content" source="../images/power-automate-params-tutorial-5.png" alt-text="Ein Arbeitsblatt, auf dem die PivotTable angezeigt wird, nachdem der Fluss dreimal ausgeführt wurde":::
+
+## <a name="troubleshooting"></a>Problembehandlung
+
+Das gleichzeitige Empfangen mehrerer E-Mails kann zu Mergekonflikten in Excel führen. Dieses Risiko wird verringert, indem der E-Mail-Connector so festgelegt wird, dass er nur auf jeweils eine E-Mail reagiert. Gehen Sie dazu wie folgt vor:
+
+1. Wählen Sie im E-Mail-Connector die Schaltfläche **Menü (…)** und dann **Einstellungen** aus.
+
+    :::image type="content" source="../images/outlook-connector-settings-1.png" alt-text="Die im Connectormenü hervorgehobene Einstellungsoption.":::
+
+1. Legen Sie in den angezeigten Optionen unter **Einstellungen** die **Parallelitätssteuerung** auf **Ein** fest. Legen Sie dann den **Grad der Parallelität** auf **1** fest.
+
+    :::image type="content" source="../images/outlook-connector-settings-2.png" alt-text="Die Parallelitätsoptionen im Menü &quot;Einstellungen&quot;.":::
 
 ## <a name="next-steps"></a>Nächste Schritte
 
