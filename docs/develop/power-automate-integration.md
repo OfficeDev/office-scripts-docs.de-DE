@@ -1,14 +1,14 @@
 ---
 title: Ausführen Office Skripts mit Power Automate
 description: So erhalten Sie Office Skripts für Excel im Web arbeiten mit einem Power Automate-Workflow.
-ms.date: 03/08/2022
+ms.date: 05/16/2022
 ms.localizationpriority: medium
-ms.openlocfilehash: 67e48d297a8db16661ce394a11f2e425bc0a33be
-ms.sourcegitcommit: 34c7740c9bff0e4c7426e01029f967724bfee566
+ms.openlocfilehash: 85c335eeb736ec544eccb2fbdbe819bdbef6848c
+ms.sourcegitcommit: aecbd5baf1e2122d836c3eef3b15649e132bc68e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/13/2022
-ms.locfileid: "65393677"
+ms.lasthandoff: 06/16/2022
+ms.locfileid: "66128230"
 ---
 # <a name="run-office-scripts-with-power-automate"></a>Ausführen Office Skripts mit Power Automate
 
@@ -26,6 +26,9 @@ Um mit der Kombination von Power Automate und Office Skripts zu beginnen, folgen
 
 > [!IMPORTANT]
 > Die Aktion "Skript ausführen" ermöglicht Personen, die den Excel Connector verwenden, erheblichen Zugriff auf Ihre Arbeitsmappe und deren Daten. Darüber hinaus bestehen Sicherheitsrisiken mit Skripts, die externe API-Aufrufe ausführen, wie in [externen Aufrufen von Power Automate](external-calls.md) erläutert. Wenn Sich Ihr Administrator mit der Belichtung hochsensibler Daten beschäftigt, kann er entweder den Excel Online-Connector deaktivieren oder den Zugriff auf Office Skripts über die [Administratorsteuerelemente Office Skripts](/microsoft-365/admin/manage/manage-office-scripts-settings) einschränken.
+
+> [!IMPORTANT]
+> Power Automate unterstützt derzeit **keine** Skripts, die auf SharePoint gespeichert sind.
 
 ## <a name="data-transfer-in-flows-for-scripts"></a>Datenübertragung in Flows für Skripts
 

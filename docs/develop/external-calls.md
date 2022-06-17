@@ -3,12 +3,12 @@ title: Externe API-Anruf Unterstützung in Office-Skripts
 description: Unterstützung und Anleitung für externe API-Aufrufe in einem Office-Skript.
 ms.date: 06/10/2022
 ms.localizationpriority: medium
-ms.openlocfilehash: b847400893184533c250ab99b640563ff0cbdb3e
-ms.sourcegitcommit: dd01979d34b3499360d2f79a56f8a8f24f480eed
+ms.openlocfilehash: 472b2e1b4aa38366b68b573fa959deee616b9dbe
+ms.sourcegitcommit: aecbd5baf1e2122d836c3eef3b15649e132bc68e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/15/2022
-ms.locfileid: "66088043"
+ms.lasthandoff: 06/16/2022
+ms.locfileid: "66128223"
 ---
 # <a name="external-api-call-support-in-office-scripts"></a>Externe API-Anruf Unterstützung in Office-Skripts
 
@@ -18,7 +18,7 @@ Skripts unterstützen Anrufe an externe Dienste. Verwenden Sie diese Dienste, um
 > Externe Aufrufe können dazu führen, dass vertrauliche Daten unerwünschten Endpunkten offengelegt werden. Ihr Administrator kann einen Firewallschutz gegen solche Anrufe einrichten.
 
 > [!IMPORTANT]
-> Aufrufe an externe APIs können nur über die Excel Anwendung erfolgen, nicht über Power Automate [unter normalen Umständen](#external-calls-from-power-automate).
+> Aufrufe externer APIs können nur über die Excel Anwendung erfolgen, nicht über Power Automate [unter normalen Umständen](#external-calls-from-power-automate). Externe Aufrufe werden auch für Skripts, die auf einer SharePoint Website gespeichert sind, nicht unterstützt.
 
 ## <a name="configure-your-script-for-external-calls"></a>Konfigurieren Des Skripts für externe Anrufe
 

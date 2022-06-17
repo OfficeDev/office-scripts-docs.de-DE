@@ -4,12 +4,12 @@ description: Fügen Sie Arbeitsmappen Schaltflächen hinzu, die Office Skripts i
 ms.topic: overview
 ms.date: 05/09/2022
 ms.localizationpriority: medium
-ms.openlocfilehash: fde34d62f9abe897a8b93195ab37a75cfc73f619
-ms.sourcegitcommit: 34c7740c9bff0e4c7426e01029f967724bfee566
+ms.openlocfilehash: cc19a13a97d4d11f73cb91bc46b70afff3eadf03
+ms.sourcegitcommit: aecbd5baf1e2122d836c3eef3b15649e132bc68e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/13/2022
-ms.locfileid: "65393684"
+ms.lasthandoff: 06/16/2022
+ms.locfileid: "66128216"
 ---
 # <a name="run-office-scripts-in-excel-with-buttons"></a>Ausführen Office Skripts in Excel mit Schaltflächen
 
@@ -36,4 +36,4 @@ Diese Skriptschaltflächen funktionieren auch unter Windows. Erstellen Sie die S
 Einige Office Skript-APIs werden von Excel auf Windows möglicherweise nicht unterstützt, insbesondere ältere Builds. Dazu gehören neuere APIs und APIs für Nur-Web-Features. Wenn ein Skript nicht unterstützte APIs enthält, wird das Skript nicht ausgeführt, und stattdessen wird im Aufgabenbereich "**Skriptausführungsstatus**" eine Warnmeldung angezeigt, die besagt: "Dieses Skript muss derzeit auf Excel für das Web ausgeführt werden. Öffnen Sie die Arbeitsmappe im Browser, und versuchen Sie es dann erneut, oder wenden Sie sich an den Skriptbesitzer, um Hilfe zu bitten."  
 
 > [!IMPORTANT]
-> Skriptschaltflächen erfordern[, dass WebView2](/deployoffice/webview2-install) mit Excel auf Windows funktioniert. Dies ist standardmäßig mit den neuesten Versionen von Excel auf dem Desktop installiert. Wenn Sie jedoch nicht auf Skriptschaltflächen klicken können, besuchen [Sie "WebView2-Runtime herunterladen](https://developer.microsoft.com/en-us/microsoft-edge/webview2/#download-section)", und laden Sie das Browsermodul herunter.
+> Skriptschaltflächen erfordern[, dass WebView2](/deployoffice/webview2-install) mit Excel auf Windows funktioniert. Dies ist standardmäßig mit den neuesten Versionen von Excel auf dem Desktop installiert. Wenn Sie jedoch nicht auf Skriptschaltflächen klicken können, besuchen [Sie "WebView2-Runtime herunterladen](https://developer.microsoft.com/microsoft-edge/webview2/#download-section)", und laden Sie das Browsermodul herunter.
