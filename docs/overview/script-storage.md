@@ -1,14 +1,14 @@
 ---
 title: Office Skripts– Dateispeicher und -besitz
 description: Informationen dazu, wie Office Skripts in Microsoft OneDrive gespeichert und zwischen Besitzern übertragen werden.
-ms.date: 06/01/2022
+ms.date: 06/21/2022
 ms.localizationpriority: medium
-ms.openlocfilehash: 17603660bcafa41f898b15b1226d11fa0d51b0a5
-ms.sourcegitcommit: aecbd5baf1e2122d836c3eef3b15649e132bc68e
+ms.openlocfilehash: 9dbf53292cb16b0be32afe3cdb93409f3dbb2612
+ms.sourcegitcommit: 4f2164ac4dd61d123ea5442a4c446be2d139e8ff
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/16/2022
-ms.locfileid: "66128209"
+ms.lasthandoff: 06/23/2022
+ms.locfileid: "66211299"
 ---
 # <a name="office-scripts-file-storage-and-ownership"></a>Office Skripts– Dateispeicher und -besitz
 
@@ -57,9 +57,20 @@ Während der Bearbeitung werden Dateien vorübergehend im Browser gespeichert. S
 
 ## <a name="audit-office-scripts-usage-at-the-admin-level"></a>Überwachen der Verwendung von Office Skripts auf Administratorebene
 
-Ermitteln Sie mithilfe des Überwachungsprotokolls im Compliance Center, welche Mandanten Office Skripts verwenden. Informationen zur Verwendung dieses Tools finden Sie [im Security & Compliance Center unter Durchsuchen des Überwachungsprotokolls](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance?view=o365-worldwide&preserve-view=true#search-the-audit-log).
+Ermitteln Sie mit dem Compliance Center-Überwachungsprotokoll, wer Office Skripts in Ihrer Organisation verwendet. Details zum Überwachungsprotokoll finden Sie unter [Durchsuchen des Überwachungsprotokolls im Security & Compliance Center](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance?view=o365-worldwide&preserve-view=true#search-the-audit-log).
 
-Um zu finden, wer Office Skripts mit dem Suchtool verwendet, fügen Sie das **Feld "Datei", "Ordner" oder "Website**" hinzu`.osts`. Dadurch werden alle Dateien mit der Dateierweiterung Office Scripts gesucht. Wenn jemand in Ihrer Organisation das Feature Office Skripts verwendet hat, wird die Benutzeraktivität in den Suchergebnissen des Überwachungsprotokolls angezeigt.
+Führen Sie die folgenden Schritte aus, um Office Skriptaktivitäten als Administrator speziell zu überwachen.
+
+1. Öffnen Sie in einem InPrivate-Browserfenster (oder Inkognito oder einem anderen browserspezifischen Modus mit eingeschränkter Nachverfolgung) das [Compliance Center](https://compliance.microsoft.com/), und melden Sie sich an.
+1. Wechseln Sie zur Seite **"Überwachung** ".
+1. *(Nur einmal)* Wählen Sie auf der Registerkarte **"Suchen** " die Option **"Aufzeichnung von Benutzer- und Administratoraktivitäten starten**" aus.
+
+    > [!IMPORTANT]
+    > Es kann ein bis zwei Stunden nach dem Aktivieren der Aufzeichnung dauern, bis alle Aktivitäten im gesamten Mandanten aufgezeichnet werden.
+
+1. Legen Sie die gewünschten Suchoptionen fest, und drücken **Sie die Suche**. Filtern Sie **Aktivitäten** nach **dem Skript "Ausführen" in der Arbeitsmappe** , um jedes Mal zu sehen, wenn ein Skript ausgeführt wurde. Sie können auch das **Datei-, Ordner- oder Websitefeld** nach `.osts`filtern. Dies zeigt, wer in Ihrer Organisation Skripts erstellt oder ändert.
+
+    :::image type="content" source="../images/audit-log-example.png" alt-text="Einige Zeilen mit Überwachungsprotokollsuchergebnissen, einschließlich der Aktion &quot;Skript für Arbeitsmappe ausgeführt&quot; und dem Hochladen und Ändern einer OSTS-Datei.":::
 
 ## <a name="see-also"></a>Siehe auch
 
