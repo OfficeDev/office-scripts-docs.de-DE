@@ -1,28 +1,28 @@
 ---
-title: Grundlegende Skripts für Office Skripts in Excel
-description: Eine Sammlung von Codebeispielen für die Verwendung mit Office Skripts in Excel.
-ms.date: 03/24/2022
+title: Grundlegende Skripts für Office-Skripts in Excel
+description: Eine Sammlung von Codebeispielen für die Verwendung mit Office-Skripts in Excel.
+ms.date: 06/24/2022
 ms.localizationpriority: medium
-ms.openlocfilehash: 8e28026b7a3498d477cce8b6dc5940da33a30f53
-ms.sourcegitcommit: 34c7740c9bff0e4c7426e01029f967724bfee566
+ms.openlocfilehash: 071329e35a1a3fe6197896afe3acaf11d3a53fd5
+ms.sourcegitcommit: c5ffe0a95b962936ee92e7ffe17388bef6d4fad8
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/13/2022
-ms.locfileid: "65393656"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "66241844"
 ---
-# <a name="basic-scripts-for-office-scripts-in-excel"></a>Grundlegende Skripts für Office Skripts in Excel
+# <a name="basic-scripts-for-office-scripts-in-excel"></a>Grundlegende Skripts für Office-Skripts in Excel
 
 Die folgenden Beispiele sind einfache Skripts, mit denen Sie Ihre eigenen Arbeitsmappen ausprobieren können. So verwenden Sie sie in Excel:
 
 1. Öffnen Sie eine Arbeitsmappe in Excel im Web.
 1. Öffnen Sie die Registerkarte **Automatisieren**.
-1. Wählen Sie **Neues Skript** aus.
+1. Wählen Sie **New Script** aus.
 1. Ersetzen Sie das gesamte Skript durch das Beispiel Ihrer Wahl.
 1. Wählen Sie im Aufgabenbereich des Code-Editors " **Ausführen** " aus.
 
 ## <a name="script-basics"></a>Skriptgrundlagen
 
-Diese Beispiele veranschaulichen grundlegende Bausteine für Office Skripts. Erweitern Sie diese Skripts, um Ihre Lösung zu erweitern und häufige Probleme zu lösen.
+Diese Beispiele veranschaulichen grundlegende Bausteine für Office-Skripts. Erweitern Sie diese Skripts, um Ihre Lösung zu erweitern und häufige Probleme zu lösen.
 
 ### <a name="read-and-log-one-cell"></a>Lesen und Protokollieren einer Zelle
 
@@ -234,7 +234,7 @@ function main(workbook: ExcelScript.Workbook) {
 }
 ```
 
-Im nächsten Beispiel wird ein Datum gelesen, das in Excel gespeichert ist, und es in ein JavaScript Date-Objekt übersetzt. Es verwendet die numerische Seriennummer des Datums als Eingabe für das JavaScript-Datum. Diese Seriennummer wird im Artikel zur [FUNKTION NOW()](https://support.office.com/article/now-function-3337fd29-145a-4347-b2e6-20c904739c46) beschrieben.
+Im nächsten Beispiel wird ein In Excel gespeichertes Datum gelesen und in ein JavaScript-Datumsobjekt übersetzt. Es verwendet die numerische Seriennummer des Datums als Eingabe für das JavaScript-Datum. Diese Seriennummer wird im Artikel zur [FUNKTION NOW()](https://support.office.com/article/now-function-3337fd29-145a-4347-b2e6-20c904739c46) beschrieben.
 
 ```TypeScript
 function main(workbook: ExcelScript.Workbook) {
@@ -359,7 +359,7 @@ function main(workbook: ExcelScript.Workbook) {
 
 ## <a name="formulas"></a>Formeln
 
-Diese Beispiele verwenden Excel Formeln und zeigen, wie Sie mit ihnen in Skripts arbeiten.
+Diese Beispiele verwenden Excel-Formeln und zeigen, wie Sie mit ihnen in Skripts arbeiten.
 
 ### <a name="single-formula"></a>Einzelne Formel
 
@@ -416,12 +416,33 @@ function main(workbook: ExcelScript.Workbook) {
 }
 ```
 
+### <a name="replace-all-formulas-with-their-result-values"></a>Ersetzen aller Formeln durch ihre Ergebniswerte
+
+Dieses Skript ersetzt jede Zelle im aktuellen Arbeitsblatt, die eine Formel enthält, durch das Ergebnis dieser Formel. Dies bedeutet, dass nach der Ausführung des Skripts keine Formeln mehr vorhanden sind, nur Werte.
+
+```TypeScript
+function main(workbook: ExcelScript.Workbook) {
+    // Get the ranges with formulas.
+    let sheet = workbook.getActiveWorksheet();
+    let usedRange = sheet.getUsedRange();
+    let formulaCells = usedRange.getSpecialCells(ExcelScript.SpecialCellType.formulas);
+
+    // In each formula range: get the current value, clear the contents, and set the value as the old one.
+    // This removes the formula but keeps the result.
+    formulaCells.getAreas().forEach((range) => {
+      let currentValues = range.getValues();
+      range.clear(ExcelScript.ClearApplyTo.contents);
+      range.setValues(currentValues);
+    });
+}
+```
+
 ## <a name="suggest-new-samples"></a>Vorschläge für neue Beispiele
 
 Wir freuen uns über Vorschläge für neue Beispiele. Wenn es ein häufiges Szenario gibt, das anderen Skriptentwicklern helfen würde, teilen Sie uns dies bitte im Feedbackabschnitt am unteren Rand der Seite mit.
 
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Weitere Informationen
 
 * [Sudhi Ramamurthys "Range basics" auf YouTube](https://youtu.be/4emjkOFdLBA)
-* [beispiele und Szenarien für Office Skripts](samples-overview.md)
+* [Beispiele und Szenarien für Office-Skripts](samples-overview.md)
 * [Aufzeichnen, Bearbeiten und Erstellen von Office-Skripts in Excel im Web](../../tutorials/excel-tutorial.md)
