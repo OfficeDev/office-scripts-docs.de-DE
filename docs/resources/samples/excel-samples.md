@@ -3,12 +3,12 @@ title: Grundlegende Skripts für Office-Skripts in Excel
 description: Eine Sammlung von Codebeispielen für die Verwendung mit Office-Skripts in Excel.
 ms.date: 06/24/2022
 ms.localizationpriority: medium
-ms.openlocfilehash: 071329e35a1a3fe6197896afe3acaf11d3a53fd5
-ms.sourcegitcommit: c5ffe0a95b962936ee92e7ffe17388bef6d4fad8
+ms.openlocfilehash: b6588dc4109799a7d615d0bee38c82a2bcd16743
+ms.sourcegitcommit: 82fb78e6907b7c3b95c5c53cfc83af4ea1067a78
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "66241844"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "66572349"
 ---
 # <a name="basic-scripts-for-office-scripts-in-excel"></a>Grundlegende Skripts für Office-Skripts in Excel
 
@@ -292,6 +292,31 @@ function main(workbook: ExcelScript.Workbook) {
 }
 ```
 
+### <a name="filter-a-table"></a>Filtern einer Tabelle
+
+In diesem Beispiel wird eine vorhandene Tabelle anhand der Werte in einer der Spalten gefiltert.
+
+```TypeScript
+function main(workbook: ExcelScript.Workbook) {
+  // Get the table in the workbook named "StationTable".
+  const table = workbook.getTable("StationTable");
+
+  // Get the "Station" table column for the filter.
+  const stationColumn = table.getColumnByName("Station");
+
+  // Apply a filter to the table that will only show rows 
+  // with a value of "Station-1" in the "Station" column.
+  stationColumn.getFilter().applyValuesFilter(["Station-1"]);
+}
+```
+
+> [!TIP]
+> Kopieren Sie die gefilterten Informationen über die Arbeitsmappe mithilfe `Range.copyFrom`von . Fügen Sie am Ende des Skripts die folgende Zeile hinzu, um ein neues Arbeitsblatt mit den gefilterten Daten zu erstellen.
+>
+> ```typescript
+>   workbook.addWorksheet().getRange("A1").copyFrom(table.getRange());
+> ```
+
 ### <a name="log-the-grand-total-values-from-a-pivottable"></a>Protokollieren der "Gesamtsumme"-Werte aus einer PivotTable
 
 In diesem Beispiel wird die erste PivotTable in der Arbeitsmappe gesucht und die Werte in den Zellen "Gesamtsumme" protokolliert (wie in der abbildung unten grün hervorgehoben).
@@ -441,7 +466,7 @@ function main(workbook: ExcelScript.Workbook) {
 
 Wir freuen uns über Vorschläge für neue Beispiele. Wenn es ein häufiges Szenario gibt, das anderen Skriptentwicklern helfen würde, teilen Sie uns dies bitte im Feedbackabschnitt am unteren Rand der Seite mit.
 
-## <a name="see-also"></a>Weitere Informationen
+## <a name="see-also"></a>Siehe auch
 
 * [Sudhi Ramamurthys "Range basics" auf YouTube](https://youtu.be/4emjkOFdLBA)
 * [Beispiele und Szenarien für Office-Skripts](samples-overview.md)

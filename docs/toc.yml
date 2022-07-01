@@ -83,8 +83,6 @@ items:
                 href: resources/samples/count-blank-rows.md
               - name: Bilder von Diagramm und Tabelle per E-Mail senden
                 href: resources/samples/email-images-chart-table.md
-              - name: Tabelle filtern und sichtbaren Bereich erhalten
-                href: resources/samples/filter-table-get-visible-range.md
               - name: Berechnungsmodus verwalten
                 href: resources/samples/excel-calculation.md
               - name: Ausgewählte Zeilen über Tabellen hinweg verschieben
