@@ -3,12 +3,12 @@ title: Beispiele für Office-Skripts
 description: Verfügbare Beispiele und Szenarien für Office-Skripts.
 ms.date: 06/14/2022
 ms.localizationpriority: medium
-ms.openlocfilehash: c9b16272c893bf048f45d7f3256906c7d550d089
-ms.sourcegitcommit: 82fb78e6907b7c3b95c5c53cfc83af4ea1067a78
+ms.openlocfilehash: 5959bc472dbec04526dcf912a8bd67e2554aa251
+ms.sourcegitcommit: dd632402cb46ec8407a1c98456f1bc9ab96ffa46
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/01/2022
-ms.locfileid: "66572335"
+ms.lasthandoff: 07/21/2022
+ms.locfileid: "66918825"
 ---
 # <a name="office-scripts-samples-and-scenarios"></a>Beispiele und Szenarien für Office-Skripts
 
@@ -32,6 +32,7 @@ Wir freuen uns auch [über Beiträge aus der Community](#community-contributions
 | [Hinzufügen von Bildern zu einer Arbeitsmappe](add-image-to-workbook.md) | In diesem Beispiel wird einer Arbeitsmappe ein Bild hinzugefügt und ein Bild über Blätter hinweg kopiert.|
 | [Kopieren mehrerer Excel-Tabellen in eine einzelne Tabelle](copy-tables-combine.md) | In diesem Beispiel werden Daten aus mehreren Excel-Tabellen in einer einzigen Tabelle kombiniert, die alle Zeilen enthält. |
 | [Inhaltsverzeichnis für eine Arbeitsmappe erstellen](table-of-contents.md) | In diesem Beispiel wird ein Inhaltsverzeichnis mit Verknüpfungen zu jedem Arbeitsblatt erstellt. |
+| [Entfernen von Tabellenspaltenfiltern](clear-table-filter-for-active-cell.md) | In diesem Beispiel werden alle Filter aus einer Tabellenspalte gelöscht. |
 
 ## <a name="beyond-the-basics"></a>Weitere Tipps und Tricks
 
@@ -43,7 +44,7 @@ Sehen Sie sich das folgende End-to-End-Projekt an, das Beispielszenarien zusamme
 | [Konvertieren von CSV-Dateien in Excel-Arbeitsmappen](convert-csv.md) | In diesem Beispiel werden Office-Skripts und Power Automate verwendet, um .xlsx Dateien aus .csv Dateien zu erstellen. |
 | [Querverweis-Arbeitsmappen](excel-cross-reference.md) | In diesem Beispiel werden Office-Skripts und Power Automate verwendet, um Informationen in verschiedenen Arbeitsmappen querzuverweisen und zu überprüfen. |
 | [Zählen leerer Zeilen in einem bestimmten Blatt oder in allen Blättern](count-blank-rows.md) | In diesem Beispiel wird erkannt, ob leere Zeilen in Blättern vorhanden sind, in denen Sie davon ausgehen, dass Daten vorhanden sind, und dann die Anzahl leerer Zeilen für die Verwendung in einem Power Automate-Fluss melden. |
-| [E-Mail-Diagramm und Tabellenbilder](email-images-chart-table.md) | In diesem Beispiel werden Office-Skripts und Power Automate-Aktionen verwendet, um ein Diagramm zu erstellen und es als Bild per E-Mail zu senden. |
+| [Email Diagramm- und Tabellenbilder](email-images-chart-table.md) | In diesem Beispiel werden Office-Skripts und Power Automate-Aktionen verwendet, um ein Diagramm zu erstellen und es als Bild per E-Mail zu senden. |
 | [Externe Abrufaufrufe](external-fetch-calls.md) | In diesem Beispiel werden `fetch` Informationen von GitHub für das Skript abgerufen. |
 | [Verwalten des Berechnungsmodus in Excel](excel-calculation.md) | In diesem Beispiel wird gezeigt, wie Sie den Berechnungsmodus verwenden und Methoden in Excel im Web mithilfe von Office-Skripts berechnen. |
 | [Verschieben von Zeilen über Tabellen hinweg](move-rows-across-tables.md) | In diesem Beispiel wird gezeigt, wie Sie Zeilen über Tabellen hinweg verschieben, indem Sie Filter speichern, dann die Filter verarbeiten und erneut anwenden. |
