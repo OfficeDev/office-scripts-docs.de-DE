@@ -71,6 +71,8 @@ items:
                 href: resources/samples/copy-tables-combine.md
               - name: Inhaltsverzeichnis für eine Arbeitsmappe erstellen
                 href: resources/samples/table-of-contents.md
+              - name: Tabellenspaltenfilter entfernen
+                href: resources/samples/clear-table-filter-for-active-cell.md
           - name: Weitere Tipps und Tricks
             items:
               - name: Kombinieren von Arbeitsblättern in einer einzelnen Arbeitsmappe
