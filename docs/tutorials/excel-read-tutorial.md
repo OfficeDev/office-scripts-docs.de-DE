@@ -3,12 +3,12 @@ title: Lesen Sie Arbeitsmappendaten mit Office-Skripts in Excel im Web
 description: Ein Office Skripts-Lernprogramm zum Lesen von Daten aus Arbeitsmappen und zum Auswerten dieser Daten im Skript.
 ms.date: 01/06/2021
 ms.localizationpriority: high
-ms.openlocfilehash: d4378e1b4c851a1a2cf072b0eabb3d3d765bc234
-ms.sourcegitcommit: 34c7740c9bff0e4c7426e01029f967724bfee566
+ms.openlocfilehash: 341bee17c22234e187377d84eb4983438bf52ad8
+ms.sourcegitcommit: 33fe0f6807daefb16b148fd73c863de101f47cea
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/13/2022
-ms.locfileid: "65393642"
+ms.lasthandoff: 08/08/2022
+ms.locfileid: "67281917"
 ---
 # <a name="read-workbook-data-with-office-scripts-in-excel-on-the-web"></a>Lesen Sie Arbeitsmappendaten mit Office-Skripts in Excel im Web
 
@@ -82,7 +82,7 @@ Nachdem wir nun Daten lesen können, verwenden wir diese Daten, um die Arbeitsma
 1. Sie ändern den Wert der Zelle mithilfe der Methoden `getValue` und `setValue`. Diese Methoden funktionieren bei einer einzelnen Zelle. Wenn Sie mehrere Zellbereiche bearbeiten möchten, verwenden Sie `getValues` und `setValues`. Fügen Sie am Ende des Skripts den folgenden Code hinzu:
 
     ```TypeScript
-    // Run the `Math.abs` function with the value at D2 and apply that value back to D2.
+    // Run the `Math.abs` method with the value at D2 and apply that value back to D2.
     let positiveValue = Math.abs(range.getValue() as number);
     range.setValue(positiveValue);
     ```
