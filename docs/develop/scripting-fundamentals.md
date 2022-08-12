@@ -3,12 +3,12 @@ title: Grundlegendes zur Skripterstellung für Office-Skripts in Excel im Web
 description: Informationen zu Objektmodellen und andere Grundlagen, die Sie vor dem Schreiben von Office-Skripts benötigen.
 ms.date: 05/24/2021
 ms.localizationpriority: high
-ms.openlocfilehash: bd51f814de60da8006413096f4d6aad125f78fab
-ms.sourcegitcommit: 34c7740c9bff0e4c7426e01029f967724bfee566
+ms.openlocfilehash: 97aa840809010f3640b045ce2fd28a39a47243b4
+ms.sourcegitcommit: 33fe0f6807daefb16b148fd73c863de101f47cea
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/13/2022
-ms.locfileid: "65393600"
+ms.lasthandoff: 08/08/2022
+ms.locfileid: "67281924"
 ---
 # <a name="scripting-fundamentals-for-office-scripts-in-excel-on-the-web"></a>Grundlegendes zur Skripterstellung für Office-Skripts in Excel im Web
 
@@ -32,7 +32,7 @@ function main(workbook: ExcelScript.Workbook) {
 
 Der Code innerhalb der `main`-Funktion wird beim Ausführen des Skripts ausgeführt. `main` kann andere Funktionen in Ihrem Skript aufrufen, Code, der nicht in einer Funktion enthalten ist, wird jedoch nicht ausgeführt. Skripts können keine anderen Office-Skripts aufrufen.
 
-[Power Automate](https://flow.microsoft.com) ermöglicht es Ihnen, Skripts in Flüssen zu verbinden. Die Daten werden zwischen den Skripts und dem Fluss durch die Parameter und Rückgabewerte der `main`-Methode übergeben. Die Integration von Office-Skripts mit Power Automate wird im Detail unter [Ausführen von Office-Skripts mit Power Automate](power-automate-integration.md) behandelt.
+[Power Automate](https://flow.microsoft.com) ermöglicht es Ihnen, Skripts in Flüssen zu verbinden. Daten werden zwischen den Skripts und dem Flow durch die Parameter und Rückgaben der `main`-Funktion übergeben. Die Integration von Office-Skripts mit Power Automate wird im Detail unter [Ausführen von Office-Skripts mit Power Automate](power-automate-integration.md) behandelt.
 
 ## <a name="object-model-overview"></a>Übersicht über das Objektmodell
 
