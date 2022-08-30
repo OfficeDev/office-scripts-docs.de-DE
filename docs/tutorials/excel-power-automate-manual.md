@@ -1,14 +1,14 @@
 ---
 title: Aufrufen von Skripts aus einem manuellen Power Automate-Datenfluss
 description: Ein Lernprogramm zur Verwendung von Office-Skripts in Power Automate durch einen manuellen Auslöser.
-ms.date: 06/29/2021
+ms.date: 08/22/2022
 ms.localizationpriority: high
-ms.openlocfilehash: e926540976dc066b3f07620c1e710dfa3abc7660
-ms.sourcegitcommit: 7023b9e23499806901a5ecf8ebc460b76887cca6
-ms.translationtype: HT
+ms.openlocfilehash: c7d7df926ac00f4f9ee5ad47ae52089e5c46d2cc
+ms.sourcegitcommit: 4a26aa16a9c8cbedb2bb9f482235ea52a88cf08f
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "64585940"
+ms.lasthandoff: 08/24/2022
+ms.locfileid: "67424275"
 ---
 # <a name="call-scripts-from-a-manual-power-automate-flow"></a>Aufrufen von Skripts aus einem manuellen Power Automate-Datenfluss
 
@@ -120,9 +120,13 @@ Ihr Flow kann jetzt über Power Automate ausgeführt werden. Sie können ihn mit
 
 6. Wählen sie **Fertig** aus. Der Abschnitt **Ausführungen** sollte entsprechend aktualisiert werden.
 
-7. Aktualisieren Sie die Seite, um die Ergebnisse von Power Automate anzuzeigen. Wenn der Vorgang erfolgreich war, wechseln Sie zur Arbeitsmappe, um die aktualisierten Zellen anzuzeigen. Falls ein Fehler aufgetreten ist, überprüfen Sie die Einstellungen des Flows, und führen Sie ihn ein zweites Mal aus.
+7. Aktualisieren Sie die Seite, um die Ergebnisse von Power Automate anzuzeigen. Falls ein Fehler aufgetreten ist, überprüfen Sie die Einstellungen des Flows, und führen Sie ihn ein zweites Mal aus.
 
     :::image type="content" source="../images/power-automate-tutorial-9.png" alt-text="Power Automate-Ausgabe mit einer erfolgreichen Ausführung des Flows.":::
+
+8. Öffnen Sie die Arbeitsmappe, um die aktualisierten Zellen anzuzeigen. Das aktuelle Datum sollte in Zelle **A1** und die aktuelle Uhrzeit in Zelle **B1 angezeigt werden**. Power Automate verwendet koordinierte Weltzeit (COORDINATED Universal Time, UTC), sodass die Zeit wahrscheinlich von Ihrer aktuellen Zeitzone versetzt wird.
+
+    :::image type="content" source="../images/power-automate-tutorial-10.png" alt-text="Die Arbeitsmappe mit Datums- und Uhrzeitwerten in den Zellen A1 und B1.":::
 
 ## <a name="next-steps"></a>Nächste Schritte
 
