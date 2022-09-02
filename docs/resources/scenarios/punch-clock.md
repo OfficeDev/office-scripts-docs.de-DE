@@ -1,18 +1,18 @@
 ---
-title: 'beispielszenario für Office-Skripts: Schaltfläche "Punch clock"'
+title: 'Beispielszenario für Office-Skripts: Schaltfläche "Taktstempel"'
 description: In diesem Beispiel wird eine Druckuhrtaste hinzugefügt, und ein Benutzer kann mit der aktuellen Zeit ein- und ausstempeln.
 ms.date: 04/26/2022
 ms.localizationpriority: medium
-ms.openlocfilehash: de56fb651d6f6088620678cfd72ce662875eafa7
-ms.sourcegitcommit: e6428a5214fa38aef036a952a0e3c09dbf6e4d3e
+ms.openlocfilehash: ac128a33b653506b6168bd4acfe1713bf6d26759
+ms.sourcegitcommit: a6504f8b0d6b717457c6e0b5306c35ad3900914e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/28/2022
-ms.locfileid: "65109299"
+ms.lasthandoff: 09/02/2022
+ms.locfileid: "67572682"
 ---
-# <a name="office-scripts-sample-scenario-punch-clock-button"></a>beispielszenario für Office-Skripts: Schaltfläche "Punch clock"
+# <a name="office-scripts-sample-scenario-punch-clock-button"></a>Beispielszenario für Office-Skripts: Schaltfläche "Taktstempel"
 
-Die in diesem Beispiel verwendete Szenarioidee und das Skript wurden von Office Scripts-Communitymitglied [Brian Gonzalez](https://github.com/b-gonzalez) beigetragen.
+Die in diesem Beispiel verwendete Szenarioidee und das Skript wurden vom Office Scripts-Communitymitglied [Brian Gonzalez](https://github.com/b-gonzalez) beigetragen.
 
 In diesem Szenario erstellen Sie eine Arbeitszeittabelle für einen Mitarbeiter, mit der er seine Start- und Endzeiten mit einem Klick auf eine [Schaltfläche](../../develop/script-buttons.md) aufzeichnen kann. Je nachdem, was zuvor aufgezeichnet wurde, startet das Drücken der Schaltfläche entweder ihren Tag (Ein-/Auschecken) oder beendet den Tag (auschecken). Das Beispiel funktioniert sowohl für Excel im Web als auch für Windows.
 
@@ -20,7 +20,7 @@ In diesem Szenario erstellen Sie eine Arbeitszeittabelle für einen Mitarbeiter,
 
 ## <a name="setup-instructions"></a>Setupanweisungen
 
-1. Laden Sie <a href="punch-clock-sample.xlsx">punch-clock-sample.xlsx</a> in Ihre OneDrive herunter.
+1. Laden Sie [punch-clock-sample.xlsx](punch-clock-sample.xlsx) auf OneDrive herunter.
 
     :::image type="content" source="../../images/punch-clock-sample-1.png" alt-text="Eine Tabelle mit drei Spalten: &quot;Clock In&quot;, &quot;Clock Out&quot; und &quot;Duration&quot;.":::
 

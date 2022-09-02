@@ -1,26 +1,26 @@
 ---
-title: Verschieben von Zeilen über Tabellen mithilfe von Office Skripts
-description: Erfahren Sie, wie Sie Zeilen über Tabellen verschieben, indem Sie Filter speichern und dann die Filter verarbeiten und erneut anwenden.
+title: Verschieben von Zeilen über Tabellen mithilfe von Office-Skripts
+description: Erfahren Sie, wie Sie Zeilen über Tabellen hinweg verschieben, indem Sie Filter speichern, dann die Filter verarbeiten und erneut anwenden.
 ms.date: 06/29/2021
 ms.localizationpriority: medium
-ms.openlocfilehash: 9780cd79a55dcb5cd2e039b5198232358b3b1413
-ms.sourcegitcommit: 7023b9e23499806901a5ecf8ebc460b76887cca6
+ms.openlocfilehash: a7c28c4fef91402b8889d749a03f3aab5e615521
+ms.sourcegitcommit: a6504f8b0d6b717457c6e0b5306c35ad3900914e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "64585478"
+ms.lasthandoff: 09/02/2022
+ms.locfileid: "67572619"
 ---
-# <a name="move-rows-across-tables"></a>Verschieben von Zeilen über Tabellen
+# <a name="move-rows-across-tables"></a>Verschieben von Zeilen über Tabellen hinweg
 
 In diesem Skript werden folgende Schritte ausgeführt:
 
-* Markiert Zeilen aus der Quelltabelle, in denen der Wert in einer Spalte gleich einem Wert (`FILTER_VALUE` im Skript) ist.
-* Verschiebt alle markierten Zeilen in die Zieltabelle eines anderen Arbeitsblatts.
+* Wählt Zeilen aus der Quelltabelle aus, in denen der Wert in einer Spalte einem Wert (`FILTER_VALUE` im Skript) entspricht.
+* Verschiebt alle markierten Zeilen in die Zieltabelle in einem anderen Arbeitsblatt.
 * Wendet die relevanten Filter erneut auf die Quelltabelle an.
 
-## <a name="sample-excel-file"></a>Beispieldatei für Excel
+## <a name="sample-excel-file"></a>Excel-Beispieldatei
 
-Laden Sie die Datei <a href="input-table-filters.xlsx">input-table-filters.xlsx</a> für eine einsatzbereite Arbeitsmappe herunter. Fügen Sie das folgende Skript hinzu, um das Beispiel selbst auszuprobieren!
+Laden Sie die Datei [input-table-filters.xlsx](input-table-filters.xlsx) für eine sofort einsatzbereite Arbeitsmappe herunter. Fügen Sie das folgende Skript hinzu, um das Beispiel selbst auszuprobieren!
 
 ## <a name="sample-code-move-rows-using-range-values"></a>Beispielcode: Verschieben von Zeilen mithilfe von Bereichswerten
 
@@ -105,9 +105,9 @@ function main(workbook: ExcelScript.Workbook) {
 }
 ```
 
-## <a name="training-video-move-rows-across-tables"></a>Schulungsvideo: Verschieben von Zeilen über Tabellen
+## <a name="training-video-move-rows-across-tables"></a>Schulungsvideo: Verschieben von Zeilen über Tabellen hinweg
 
-[Sehen Sie sich an, wie Sie dieses Beispiel auf YouTube durchlaufen](https://youtu.be/_3t3Pk4i2L0). In der Videolösung werden zwei Skripts angezeigt. Der Hauptunterschied besteht darin, wie die Zeilen ausgewählt werden.
+[Sehen Sie sich Sudhi Ramamurthy bei diesem Beispiel auf YouTube an](https://youtu.be/_3t3Pk4i2L0). Es gibt zwei Skripts, die in der Videolösung gezeigt werden. Der Hauptunterschied besteht darin, wie die Zeilen ausgewählt werden.
 
-* In der ersten Variante werden die Zeilen ausgewählt, indem der Tabellenfilter angewendet und der sichtbare Bereich gelesen wird.
-* In der zweiten werden die Zeilen ausgewählt, indem die Werte gelesen und die Zeilenwerte extrahiert werden (dies wird im Beispiel auf dieser Seite verwendet).
+* In der ersten Variante werden die Zeilen durch Anwenden des Tabellenfilters und Lesen des sichtbaren Bereichs ausgewählt.
+* In der zweiten Zeile werden die Zeilen ausgewählt, indem die Werte gelesen und die Zeilenwerte extrahiert werden (was im Beispiel auf dieser Seite verwendet wird).

@@ -1,16 +1,16 @@
 ---
-title: Entfernen von Tabellenspaltenfiltern
+title: Tabellenspaltenfilter entfernen
 description: Erfahren Sie, wie Sie den Tabellenspaltenfilter basierend auf der aktiven Zellenposition löschen.
 ms.date: 07/15/2022
 ms.localizationpriority: medium
-ms.openlocfilehash: 21a79abfdd4aeac79af4a0f9ea4a581d45b9706b
-ms.sourcegitcommit: dd632402cb46ec8407a1c98456f1bc9ab96ffa46
+ms.openlocfilehash: e016f7f2af9e7553229f3b3b19007e011879de8e
+ms.sourcegitcommit: a6504f8b0d6b717457c6e0b5306c35ad3900914e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/21/2022
-ms.locfileid: "66918811"
+ms.lasthandoff: 09/02/2022
+ms.locfileid: "67572521"
 ---
-# <a name="remove-table-column-filters"></a>Entfernen von Tabellenspaltenfiltern
+# <a name="remove-table-column-filters"></a>Tabellenspaltenfilter entfernen
 
 In diesem Beispiel werden die Filter basierend auf der aktiven Zellenposition aus einer Tabellenspalte entfernt. Das Skript erkennt, ob die Zelle Teil einer Tabelle ist, bestimmt die Tabellenspalte und löscht alle Filter, die darauf angewendet werden.
 
@@ -18,7 +18,7 @@ Wenn Sie mehr darüber erfahren möchten, wie Sie den Filter speichern, bevor Si
 
 ## <a name="sample-excel-file"></a>Excel-Beispieldatei
 
-Laden Sie <a href="table-with-filter.xlsx">table-with-filter.xlsx</a> für eine sofort einsatzbereite Arbeitsmappe herunter. Fügen Sie das folgende Skript hinzu, um das Beispiel selbst auszuprobieren!
+Laden Sie [table-with-filter.xlsx](table-with-filter.xlsx) für eine sofort einsatzbereite Arbeitsmappe herunter. Fügen Sie das folgende Skript hinzu, um das Beispiel selbst auszuprobieren!
 
 ## <a name="sample-code-clear-table-column-filter-based-on-active-cell"></a>Beispielcode: Löschen des Tabellenspaltenfilters basierend auf der aktiven Zelle
 

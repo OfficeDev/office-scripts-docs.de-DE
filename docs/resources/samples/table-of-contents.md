@@ -1,26 +1,26 @@
 ---
 title: Inhaltsverzeichnis für eine Arbeitsmappe erstellen
-description: Erfahren Sie, wie Sie ein Inhaltsverzeichnis mit Links zu den einzelnen Arbeitsblättern erstellen.
+description: Erfahren Sie, wie Sie ein Inhaltsverzeichnis mit Links zu jedem Arbeitsblatt erstellen.
 ms.date: 01/20/2022
 ms.localizationpriority: medium
-ms.openlocfilehash: b2d69609514c2e1e87f9c0590ea10152fc7d5e7d
-ms.sourcegitcommit: 7023b9e23499806901a5ecf8ebc460b76887cca6
+ms.openlocfilehash: 5b158160ecb9ac29df547c6da6552e21c9875be3
+ms.sourcegitcommit: a6504f8b0d6b717457c6e0b5306c35ad3900914e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "64585520"
+ms.lasthandoff: 09/02/2022
+ms.locfileid: "67572514"
 ---
 # <a name="create-a-workbook-table-of-contents"></a>Inhaltsverzeichnis für eine Arbeitsmappe erstellen
 
-In diesem Beispiel wird gezeigt, wie Sie ein Inhaltsverzeichnis für die Arbeitsmappe erstellen. Jeder Eintrag im Inhaltsverzeichnis ist ein Hyperlink zu einem der Arbeitsblätter in der Arbeitsmappe.
+In diesem Beispiel wird gezeigt, wie Sie ein Inhaltsverzeichnis für die Arbeitsmappe erstellen. Jeder Eintrag im Inhaltsverzeichnis ist ein Link zu einem der Arbeitsblätter in der Arbeitsmappe.
 
-:::image type="content" source="../../images/table-of-contents-sample.png" alt-text="Das Inhaltsverzeichnis-Arbeitsblatt mit Links zu den anderen Arbeitsblättern.":::
+:::image type="content" source="../../images/table-of-contents-sample.png" alt-text="Das Arbeitsblatt &quot;Inhaltsverzeichnis&quot; mit Verknüpfungen zu den anderen Arbeitsblättern.":::
 
-## <a name="sample-excel-file"></a>Beispieldatei für Excel
+## <a name="sample-excel-file"></a>Excel-Beispieldatei
 
-Laden Sie <a href="table-of-contents.xlsx">table-of-contents.xlsx</a> für eine einsatzbereite Arbeitsmappe herunter. Fügen Sie das folgende Skript hinzu, und testen Sie das Beispiel selbst!
+Laden Sie [table-of-contents.xlsx](table-of-contents.xlsx) für eine sofort einsatzbereite Arbeitsmappe herunter. Fügen Sie das folgende Skript hinzu, und probieren Sie das Beispiel selbst aus!
 
-## <a name="sample-code-create-a-workbook-table-of-contents"></a>Beispielcode: Erstellen eines Arbeitsmappenverzeichniss
+## <a name="sample-code-create-a-workbook-table-of-contents"></a>Beispielcode: Erstellen eines Arbeitsmappen-Inhaltsverzeichnisses
 
 ```TypeScript
 function main(workbook: ExcelScript.Workbook) {

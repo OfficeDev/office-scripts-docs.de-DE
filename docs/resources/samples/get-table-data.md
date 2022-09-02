@@ -3,12 +3,12 @@ title: Excel-Daten als JSON ausgeben
 description: Erfahren Sie, wie Sie Excel-Tabellendaten als JSON ausgeben, um sie in Power Automate zu verwenden.
 ms.date: 06/27/2022
 ms.localizationpriority: medium
-ms.openlocfilehash: 6453d9f0e92f9b3fcccc6e3ec9c1b6c9af49859c
-ms.sourcegitcommit: 82fb78e6907b7c3b95c5c53cfc83af4ea1067a78
+ms.openlocfilehash: 5078d2d86c92aacb0c0c2438b7298a523c132522
+ms.sourcegitcommit: a6504f8b0d6b717457c6e0b5306c35ad3900914e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/01/2022
-ms.locfileid: "66572342"
+ms.lasthandoff: 09/02/2022
+ms.locfileid: "67572668"
 ---
 # <a name="output-excel-table-data-as-json-for-usage-in-power-automate"></a>Ausgabe von Excel-Tabellendaten als JSON für die Verwendung in Power Automate
 
@@ -16,7 +16,7 @@ Excel-Tabellendaten können als Array von Objekten in Form von [JSON](https://ww
 
 ## <a name="sample-excel-file"></a>Excel-Beispieldatei
 
-Laden Sie die Datei <a href="table-data-with-hyperlinks.xlsx">table-data-with-hyperlinks.xlsx</a> für eine sofort einsatzbereite Arbeitsmappe herunter.
+Laden Sie die Datei [table-data-with-hyperlinks.xlsx](table-data-with-hyperlinks.xlsx) für eine sofort einsatzbereite Arbeitsmappe herunter.
 
 :::image type="content" source="../../images/table-input.png" alt-text="Ein Arbeitsblatt mit Eingabetabellendaten.":::
 

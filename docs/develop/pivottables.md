@@ -1,18 +1,18 @@
 ---
-title: Arbeiten mit PivotTables in Office Skripts
+title: Arbeiten mit PivotTables in Office-Skripts
 description: Erfahren Sie mehr über das Objektmodell für PivotTables in der JavaScript-API für Office-Skripts.
 ms.date: 04/20/2022
 ms.localizationpriority: medium
-ms.openlocfilehash: 579f94140214674912c9610e707123924e4aef18
-ms.sourcegitcommit: 4e3d3aa25fe4e604b806fbe72310b7a84ee72624
+ms.openlocfilehash: a457c41bd1205f4e17636c43d7ba78addc80d0e4
+ms.sourcegitcommit: a6504f8b0d6b717457c6e0b5306c35ad3900914e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "65077090"
+ms.lasthandoff: 09/02/2022
+ms.locfileid: "67572584"
 ---
-# <a name="work-with-pivottables-in-office-scripts"></a>Arbeiten mit PivotTables in Office Skripts
+# <a name="work-with-pivottables-in-office-scripts"></a>Arbeiten mit PivotTables in Office-Skripts
 
-Mit PivotTables können Sie große Datensammlungen schnell analysieren. Mit ihrer Macht kommt Komplexität. Mit den Office Skript-APIs können Sie eine PivotTable an Ihre Anforderungen anpassen, aber der Umfang des API-Satzes macht die ersten Schritte zu einer Herausforderung. In diesem Artikel wird veranschaulicht, wie allgemeine PivotTable-Aufgaben ausgeführt werden, und wichtige Klassen und Methoden werden erläutert.
+Mit PivotTables können Sie große Datensammlungen schnell analysieren. Mit ihrer Macht kommt Komplexität. Mit den Office-Skripts-APIs können Sie eine PivotTable an Ihre Anforderungen anpassen, aber der Umfang des API-Satzes macht die ersten Schritte zu einer Herausforderung. In diesem Artikel wird veranschaulicht, wie allgemeine PivotTable-Aufgaben ausgeführt werden, und wichtige Klassen und Methoden werden erläutert.
 
 > [!NOTE]
 > Um den Kontext für die von den APIs verwendeten Begriffe besser zu verstehen, lesen Sie zuerst die PivotTable-Dokumentation von Excel. Beginnen [Sie mit dem Erstellen einer PivotTable, um Arbeitsblattdaten zu analysieren](https://support.microsoft.com/office/a9a84538-bfe9-40a9-a8e9-f99134456576).
@@ -21,17 +21,17 @@ Mit PivotTables können Sie große Datensammlungen schnell analysieren. Mit ihre
 
 :::image type="content" source="../images/pivottable-object-model.png" alt-text="Ein vereinfachtes Bild der Klassen, Methoden und Eigenschaften, die beim Arbeiten mit PivotTables verwendet werden.":::
 
-Die [PivotTable](/javascript/api/office-scripts/excelscript/excelscript.pivottable) ist das zentrale Objekt für PivotTables in der Office Scripts-API.
+Die [PivotTable](/javascript/api/office-scripts/excelscript/excelscript.pivottable) ist das zentrale Objekt für PivotTables in der Office-Skripts-API.
 
 - Das [Workbook-Objekt](/javascript/api/office-scripts/excelscript/excelscript.workbook) verfügt über eine Auflistung aller [PivotTables](/javascript/api/office-scripts/excelscript/excelscript.pivottable). Jedes [Arbeitsblatt](/javascript/api/office-scripts/excelscript/excelscript.worksheet) enthält auch eine PivotTable-Auflistung, die für dieses Blatt lokal ist.
 - Eine [PivotTable](/javascript/api/office-scripts/excelscript/excelscript.pivottable) enthält [PivotHierarchies](/javascript/api/office-scripts/excelscript/excelscript.pivothierarchy). Eine Hierarchie kann als Spalte in einer Tabelle betrachtet werden.
 - [PivotHierarchies](/javascript/api/office-scripts/excelscript/excelscript.pivothierarchy) können als Zeilen oder Spalten ([RowColumnPivotHierarchy](/javascript/api/office-scripts/excelscript/excelscript.rowcolumnpivothierarchy)), Daten ([DataPivotHierarchy](/javascript/api/office-scripts/excelscript/excelscript.datapivothierarchy)) oder Filter ([FilterPivotHierarchy)](/javascript/api/office-scripts/excelscript/excelscript.filterpivothierarchy) hinzugefügt werden.
-- Jedes [PivotHierarchy-Objekt](/javascript/api/office-scripts/excelscript/excelscript.pivothierarchy) enthält genau ein [PivotField](/javascript/api/office-scripts/excelscript/excelscript.pivotfield). PivotTable-Strukturen außerhalb von Excel können mehrere Felder pro Hierarchie enthalten, sodass dieser Entwurf zur Unterstützung zukünftiger Optionen vorhanden ist. Bei Office Skripts werden Felder und Hierarchien denselben Informationen zugeordnet.
+- Jedes [PivotHierarchy-Objekt](/javascript/api/office-scripts/excelscript/excelscript.pivothierarchy) enthält genau ein [PivotField](/javascript/api/office-scripts/excelscript/excelscript.pivotfield). PivotTable-Strukturen außerhalb von Excel können mehrere Felder pro Hierarchie enthalten, sodass dieser Entwurf zur Unterstützung zukünftiger Optionen vorhanden ist. Bei Office-Skripts werden Felder und Hierarchien denselben Informationen zugeordnet.
 - Ein [PivotField](/javascript/api/office-scripts/excelscript/excelscript.pivotfield) enthält mehrere [PivotItems](/javascript/api/office-scripts/excelscript/excelscript.pivotitem). Jedes PivotItem ist ein eindeutiger Wert im Feld. Stellen Sie sich jedes Element als Wert in der Tabellenspalte vor. Elemente können auch aggregierte Werte sein, z. B. Summen, wenn das Feld für Daten verwendet wird.
 - Das [PivotLayout](/javascript/api/office-scripts/excelscript/excelscript.pivotlayout) definiert, wie die [PivotFields](/javascript/api/office-scripts/excelscript/excelscript.pivotfield) und [PivotItems](/javascript/api/office-scripts/excelscript/excelscript.pivotitem) angezeigt werden.
 - [PivotFilter](/javascript/api/office-scripts/excelscript/excelscript.pivotfilters) filtern Daten aus der [PivotTable](/javascript/api/office-scripts/excelscript/excelscript.pivottable) anhand unterschiedlicher Kriterien.
 
-Schauen Sie sich an, wie diese Beziehungen in der Praxis funktionieren. Die folgenden Daten beschreiben den Umsatz von Obst aus verschiedenen Farmen. Es ist die Basis für alle Beispiele in diesem Artikel. Verwenden Sie <a href="pivottable-sample.xlsx">pivottable-sample.xlsx</a> , um dies zu verfolgen.
+Schauen Sie sich an, wie diese Beziehungen in der Praxis funktionieren. Die folgenden Daten beschreiben den Umsatz von Obst aus verschiedenen Farmen. Es ist die Basis für alle Beispiele in diesem Artikel. Verwenden Sie [pivottable-sample.xlsx](pivottable-sample.xlsx) , um dies zu verfolgen.
 
 :::image type="content" source="../images/pivottable-raw-data.png" alt-text="Eine Sammlung von Obstverkäufen verschiedener Arten von verschiedenen Farmen.":::
 

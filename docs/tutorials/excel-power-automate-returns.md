@@ -3,12 +3,12 @@ title: Zurückgeben von Daten aus einem Skript an einen automatisch ausgeführte
 description: Ein Tutorial, das zeigt, wie Sie Erinnerungs-E-Mails senden, indem Sie Office-Skripts für Excel im Web über Power Automate ausführen.
 ms.date: 04/12/2022
 ms.localizationpriority: high
-ms.openlocfilehash: 7d232b4688132532dd2bc029588d6244a4a64ef8
-ms.sourcegitcommit: 8bcd743bebfacafa548b936ca99ad6d4918e7bcd
-ms.translationtype: HT
+ms.openlocfilehash: c35e3c0e005c7d64c9a0d860f1f6eafd2e26e13f
+ms.sourcegitcommit: a6504f8b0d6b717457c6e0b5306c35ad3900914e
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/13/2022
-ms.locfileid: "64826688"
+ms.lasthandoff: 09/02/2022
+ms.locfileid: "67572598"
 ---
 # <a name="return-data-from-a-script-to-an-automatically-run-power-automate-flow"></a>Zurückgeben von Daten aus einem Skript an einen automatisch ausgeführten Power Automate-Flow
 
@@ -27,7 +27,7 @@ In diesem Tutorial erfahren Sie, wie Sie Informationen eines Office-Skripts für
 
 ## <a name="prepare-the-workbook"></a>Vorbereiten der Arbeitsmappe
 
-1. Laden Sie die Arbeitsmappe <a href="on-call-rotation.xlsx">on-call-rotation.xlsx</a> auf Ihr OneDrive herunter.
+1. Laden Sie die Arbeitsmappe [on-call-rotation.xlsx](on-call-rotation.xlsx) auf Ihr OneDrive herunter.
 
 1. Öffnen Sie **on-call-rotation.xlsx** in Excel im Web.
 

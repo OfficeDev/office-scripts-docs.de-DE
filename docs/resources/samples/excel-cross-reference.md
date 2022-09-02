@@ -1,31 +1,31 @@
 ---
-title: Querverweis Excel Dateien mit Power Automate
-description: Erfahren Sie, wie Sie Office Skripts und Power Automate verwenden, um eine Excel Datei querzuverweisen und zu formatieren.
+title: Querverweis auf Excel-Dateien mit Power Automate
+description: Erfahren Sie, wie Sie Office-Skripts und Power Automate zum Querverweis und Formatieren einer Excel-Datei verwenden.
 ms.date: 06/06/2022
 ms.localizationpriority: medium
-ms.openlocfilehash: a470ee4c59d0fc0a5612a54326a0dec3ab3a59d6
-ms.sourcegitcommit: dd01979d34b3499360d2f79a56f8a8f24f480eed
+ms.openlocfilehash: b32249dc7cb1e8c1b841a4db6caaff3b4d2998ec
+ms.sourcegitcommit: a6504f8b0d6b717457c6e0b5306c35ad3900914e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/15/2022
-ms.locfileid: "66088120"
+ms.lasthandoff: 09/02/2022
+ms.locfileid: "67572675"
 ---
-# <a name="cross-reference-excel-files-with-power-automate"></a>Querverweis Excel Dateien mit Power Automate
+# <a name="cross-reference-excel-files-with-power-automate"></a>Querverweis auf Excel-Dateien mit Power Automate
 
-Diese Lösung zeigt, wie Daten in zwei Excel Dateien verglichen werden, um Abweichungen zu finden. Es verwendet Office Skripts, um Daten zu analysieren und Power Automate, um zwischen den Arbeitsmappen zu kommunizieren.
+Diese Lösung zeigt, wie Daten in zwei Excel-Dateien verglichen werden, um Abweichungen zu finden. Es verwendet Office-Skripts zum Analysieren von Daten und Power Automate für die Kommunikation zwischen den Arbeitsmappen.
 
-In diesem Beispiel werden Daten mitHILFE von [JSON-Objekten](https://www.w3schools.com/whatis/whatis_json.asp) zwischen Arbeitsmappen übergeben. Weitere Informationen zum Arbeiten mit JSON finden Sie unter [Verwenden von JSON zum Übergeben von Daten an und von Office Skripts](../../develop/use-json.md).
+In diesem Beispiel werden Daten mitHILFE von [JSON-Objekten](https://www.w3schools.com/whatis/whatis_json.asp) zwischen Arbeitsmappen übergeben. Weitere Informationen zum Arbeiten mit JSON finden Sie unter [Verwenden von JSON zum Übergeben von Daten an und von Office-Skripts](../../develop/use-json.md).
 
 ## <a name="example-scenario"></a>Beispielszenario
 
-Sie sind ein Ereigniskoordinator, der Referenten für bevorstehende Konferenzen einplant. Sie behalten die Ereignisdaten in einem Arbeitsblatt und die Sprecherregistrierungen in einem anderen Arbeitsblatt bei. Um sicherzustellen, dass die beiden Arbeitsmappen synchronisiert bleiben, verwenden Sie einen Fluss mit Office Skripts, um potenzielle Probleme hervorzuheben.
+Sie sind ein Ereigniskoordinator, der Referenten für bevorstehende Konferenzen einplant. Sie behalten die Ereignisdaten in einem Arbeitsblatt und die Sprecherregistrierungen in einem anderen Arbeitsblatt bei. Um sicherzustellen, dass die beiden Arbeitsmappen synchronisiert werden, verwenden Sie einen Fluss mit Office-Skripts, um potenzielle Probleme hervorzuheben.
 
-## <a name="sample-excel-files"></a>Beispieldateien für Excel
+## <a name="sample-excel-files"></a>Excel-Beispieldateien
 
 Laden Sie die folgenden Dateien herunter, um einsatzbereite Arbeitsmappen für das Beispiel zu erhalten.
 
-1. <a href="event-data.xlsx">event-data.xlsx</a>
-1. <a href="speaker-registrations.xlsx">speaker-registrations.xlsx</a>
+1. [event-data.xlsx](event-data.xlsx)
+1. [speaker-registrations.xlsx](speaker-registrations.xlsx)
 
 Fügen Sie die folgenden Skripts hinzu, um das Beispiel selbst auszuprobieren!
 
@@ -146,33 +146,33 @@ interface EventData {
 }
 ```
 
-## <a name="power-automate-flow-check-for-inconsistencies-across-the-workbooks"></a>Power Automate Fluss: Überprüfen auf Inkonsistenzen in den Arbeitsmappen
+## <a name="power-automate-flow-check-for-inconsistencies-across-the-workbooks"></a>Power Automate-Fluss: Überprüfen auf Inkonsistenzen in den Arbeitsmappen
 
 Dieser Fluss extrahiert die Ereignisinformationen aus der ersten Arbeitsmappe und verwendet diese Daten, um die zweite Arbeitsmappe zu überprüfen.
 
-1. Melden Sie sich [bei Power Automate](https://flow.microsoft.com) an, und erstellen Sie einen neuen **Instant Cloud-Fluss**.
+1. Melden Sie sich bei [Power Automate](https://flow.microsoft.com) an, und erstellen Sie einen neuen **Instant Cloud-Fluss**.
 1. Wählen Sie **"Manuell auslösen" und** dann " **Erstellen**" aus.
-1. Fügen Sie einen **neuen Schritt** hinzu, der den **Excel Online (Business)**-Connector mit der **Skriptaktion ausführen** verwendet. Verwenden Sie die folgenden Werte für die Aktion.
+1. Fügen Sie einen **neuen Schritt** hinzu, der den **Excel Online (Business)** -Connector mit der **Skriptaktion ausführen** verwendet. Verwenden Sie die folgenden Werte für die Aktion.
     * **Location**: OneDrive for Business
     * **Document Library**: OneDrive
     * **Datei**: event-data.xlsx ([ausgewählt mit der Dateiauswahl](../../testing/power-automate-troubleshooting.md#select-workbooks-with-the-file-browser-control))
     * **Skript**: Abrufen von Ereignisdaten
 
-    :::image type="content" source="../../images/cross-reference-flow-1.png" alt-text="Der fertige Excel Online(Business)-Connector für das erste Skript in Power Automate.":::
+    :::image type="content" source="../../images/cross-reference-flow-1.png" alt-text="Der fertige Excel Online (Business)-Connector für das erste Skript in Power Automate.":::
 
-1. Fügen Sie einen zweiten **neuen Schritt** hinzu, der den **Excel Online(Business)**-Connector mit der **Skriptaktion ausführen** verwendet. Dabei werden die zurückgegebenen Werte aus dem Skript " **Ereignisdaten abrufen** " als Eingabe für das Skript " **Ereignisdaten überprüfen"** verwendet. Verwenden Sie die folgenden Werte für die Aktion.
+1. Fügen Sie einen zweiten **neuen Schritt** hinzu, der den **Excel Online (Business)** -Connector mit der **Skriptaktion ausführen** verwendet. Dabei werden die zurückgegebenen Werte aus dem Skript " **Ereignisdaten abrufen** " als Eingabe für das Skript " **Ereignisdaten überprüfen"** verwendet. Verwenden Sie die folgenden Werte für die Aktion.
     * **Location**: OneDrive for Business
     * **Document Library**: OneDrive
     * **Datei**: speaker-registration.xlsx ([ausgewählt mit der Dateiauswahl](../../testing/power-automate-troubleshooting.md#select-workbooks-with-the-file-browser-control))
     * **Skript**: Überprüfen der Lautsprecherregistrierung
     * **keys**: result (_dynamic content from **Run script**_)
 
-    :::image type="content" source="../../images/cross-reference-flow-2.png" alt-text="Der fertige Excel Online(Business)-Connector für das zweite Skript in Power Automate.":::
-1. In diesem Beispiel wird Outlook als E-Mail-Client verwendet. Sie können einen beliebigen E-Mail-Connector verwenden, Power Automate unterstützt. Fügen Sie einen **neuen Schritt** hinzu, der den **Office 365 Outlook** Connector und die Aktion **Senden und E-Mail (V2)** verwendet. Dabei werden die zurückgegebenen Werte aus dem Skript **"Lautsprecherregistrierung überprüfen** " als E-Mail-Textkörperinhalt verwendet. Verwenden Sie die folgenden Werte für die Aktion.
+    :::image type="content" source="../../images/cross-reference-flow-2.png" alt-text="Der fertige Excel Online (Business)-Connector für das zweite Skript in Power Automate.":::
+1. In diesem Beispiel wird Outlook als E-Mail-Client verwendet. Sie können jeden E-Mail-Connector verwenden, den Power Automate unterstützt. Fügen Sie einen **neuen Schritt** hinzu, der den **Office 365 Outlook-Connector** und die Aktion **"Senden und E-Mail( V2)"** verwendet. Dabei werden die zurückgegebenen Werte aus dem Skript **"Lautsprecherregistrierung überprüfen** " als E-Mail-Textkörperinhalt verwendet. Verwenden Sie die folgenden Werte für die Aktion.
     * **An**: Ihr Test-E-Mail-Konto (oder persönliche E-Mail)
     * **Betreff**: Ergebnisse der Ereignisüberprüfung
     * **Textkörper**: Ergebnis (_dynamischer Inhalt aus **Ausführungsskript 2**_)
 
-    :::image type="content" source="../../images/cross-reference-flow-3.png" alt-text="Der fertige Office 365 Outlook Connector in Power Automate.":::
+    :::image type="content" source="../../images/cross-reference-flow-3.png" alt-text="Der fertige Office 365 Outlook-Connector in Power Automate.":::
 1. Speichern Sie den Fluss. Verwenden Sie die Schaltfläche " **Testen** " auf der Fluss-Editor-Seite, oder führen Sie den Fluss über die Registerkarte **"Meine Flüsse** " aus. Achten Sie darauf, den Zugriff zuzulassen, wenn Sie dazu aufgefordert werden.
 1. Sie sollten eine E-Mail mit dem Hinweis "Nicht übereinstimmen gefunden. Daten erfordern Ihre Überprüfung." Dies weist darauf hin, dass es Unterschiede zwischen Zeilen in **speaker-registrations.xlsx** und Zeilen in **event-data.xlsx** gibt. Öffnen **Siespeaker-registrations.xlsx** , um mehrere hervorgehobene Zellen anzuzeigen, in denen potenzielle Probleme mit den Sprecherregistrierungseinträgen auftreten.

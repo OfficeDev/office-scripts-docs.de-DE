@@ -73,6 +73,8 @@ items:
                 href: resources/samples/table-of-contents.md
               - name: Tabellenspaltenfilter entfernen
                 href: resources/samples/clear-table-filter-for-active-cell.md
+              - name: Melden täglicher Änderungen in Power Automate
+                href: resources/samples/report-day-to-day-changes.md
           - name: Weitere Tipps und Tricks
             items:
               - name: Kombinieren von Arbeitsblättern in einer einzelnen Arbeitsmappe

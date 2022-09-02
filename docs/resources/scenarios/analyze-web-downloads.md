@@ -1,22 +1,22 @@
 ---
-title: 'Beispielszenario für Office Skripts: Analysieren von Webdownloads'
-description: Ein Beispiel, das unformatierte Internetdatenverkehrsdaten in einer Excel Arbeitsmappe annimmt und den Speicherort des Ursprungs bestimmt, bevor diese Informationen in einer Tabelle organisiert werden.
+title: 'Beispielszenario für Office-Skripts: Analysieren von Webdownloads'
+description: Ein Beispiel, das unformatierte Internetdatendaten in einer Excel-Arbeitsmappe verwendet und den Speicherort des Ursprungs bestimmt, bevor diese Informationen in einer Tabelle organisiert werden.
 ms.date: 06/29/2021
 ms.localizationpriority: medium
-ms.openlocfilehash: 9d2d0ba302c72d4ca1f1aaad5e9cee5ba40d64e9
-ms.sourcegitcommit: 7023b9e23499806901a5ecf8ebc460b76887cca6
+ms.openlocfilehash: 0ef368c5193fe65c0a01676aa2a8b3a2c5cf3bdc
+ms.sourcegitcommit: a6504f8b0d6b717457c6e0b5306c35ad3900914e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "64585491"
+ms.lasthandoff: 09/02/2022
+ms.locfileid: "67572423"
 ---
-# <a name="office-scripts-sample-scenario-analyze-web-downloads"></a>Beispielszenario für Office Skripts: Analysieren von Webdownloads
+# <a name="office-scripts-sample-scenario-analyze-web-downloads"></a>Beispielszenario für Office-Skripts: Analysieren von Webdownloads
 
-In diesem Szenario haben Sie die Aufgabe, Downloadberichte von der Website Ihres Unternehmens zu analysieren. Ziel dieser Analyse ist es, festzustellen, ob der Webdatenverkehr von der USA oder von einem anderen Ort auf der Welt kommt.
+In diesem Szenario haben Sie die Aufgabe, Downloadberichte von der Website Ihres Unternehmens zu analysieren. Ziel dieser Analyse ist es zu ermitteln, ob der Webdatenverkehr aus dem USA oder aus anderen Teilen der Welt stammt.
 
-Ihre Kollegen laden die Rohdaten in Ihre Arbeitsmappe hoch. Die Datengruppe jeder Woche verfügt über ein eigenes Arbeitsblatt. There is also the **Summary** worksheet with a table and chart that shows week-over-week trends.
+Ihre Kollegen laden die Rohdaten in Ihre Arbeitsmappe hoch. Der Datensatz jeder Woche verfügt über ein eigenes Arbeitsblatt. Es gibt auch das **Arbeitsblatt "Zusammenfassung** " mit einer Tabelle und einem Diagramm, in dem wochenübergreifende Trends angezeigt werden.
 
-Sie entwickeln ein Skript, das wöchentliche Downloads von Daten im aktiven Arbeitsblatt analysiert. Sie analysiert die IP-Adresse, die jedem Download zugeordnet ist, und bestimmt, ob sie aus den USA stammt. Die Antwort wird als boolescher Wert ("TRUE" oder "FALSE") in das Arbeitsblatt eingefügt, und die bedingte Formatierung wird auf diese Zellen angewendet. Die Ergebnisse des IP-Adressspeicherorts werden auf dem Arbeitsblatt summiert und in die Zusammenfassungstabelle kopiert.
+Sie entwickeln ein Skript, das wöchentliche Downloaddaten im aktiven Arbeitsblatt analysiert. Es analysiert die IP-Adresse, die jedem Download zugeordnet ist, und bestimmt, ob sie aus den USA stammt. Die Antwort wird als boolescher Wert ("TRUE" oder "FALSE") in das Arbeitsblatt eingefügt, und auf diese Zellen wird bedingte Formatierung angewendet. Die Ergebnisse des IP-Adressspeicherorts werden auf dem Arbeitsblatt summiert und in die Zusammenfassungstabelle kopiert.
 
 ## <a name="scripting-skills-covered"></a>Abgedeckte Skriptfähigkeiten
 
@@ -25,13 +25,13 @@ Sie entwickeln ein Skript, das wöchentliche Downloads von Daten im aktiven Arbe
 - Bedingte Formatierung
 - Tabellen
 
-## <a name="setup-instructions"></a>Setup-Anweisungen
+## <a name="setup-instructions"></a>Setupanweisungen
 
-1. Laden Sie <a href="analyze-web-downloads.xlsx">analyze-web-downloads.xlsx</a> auf Ihre OneDrive herunter.
+1. Laden Sie [analyze-web-downloads.xlsx](analyze-web-downloads.xlsx) auf OneDrive herunter.
 
 1. Öffnen Sie die Arbeitsmappe mit Excel für das Web.
 
-1. Wählen Sie auf der Registerkarte **"Automatisieren** " **die Option "Neues Skript** " aus, und fügen Sie das folgende Skript in den Editor ein.
+1. Wählen Sie auf der Registerkarte **"Automatisieren** " die Option **"Neues Skript** " aus, und fügen Sie das folgende Skript in den Editor ein.
 
     ```TypeScript
     function main(workbook: ExcelScript.Workbook) {
@@ -211,14 +211,14 @@ Sie entwickeln ein Skript, das wöchentliche Downloads von Daten im aktiven Arbe
 
 ## <a name="running-the-script"></a>Ausführen des Skripts
 
-Navigieren Sie zu einem der **Arbeitsblätter "Woche\*\*** ", und führen Sie das Skript **"Webdownloads analysieren" aus** . Das Skript wendet die bedingte Formatierung und standortbedingte Kennzeichnung auf das aktuelle Blatt an. Außerdem wird das **Arbeitsblatt Zusammenfassung** aktualisiert.
+Navigieren Sie zu einem der Arbeitsblätter " **Woche\*\*** ", und führen Sie das Skript **"Webdownloads analysieren** " aus. Das Skript wendet die bedingte Formatierung und Die Ortskennzeichnung auf dem aktuellen Blatt an. Außerdem wird das **Arbeitsblatt "Zusammenfassung** " aktualisiert.
 
 ### <a name="before-running-the-script"></a>Vor dem Ausführen des Skripts
 
-:::image type="content" source="../../images/scenario-analyze-web-downloads-before.png" alt-text="Ein Arbeitsblatt mit unformatierten Webdatenverkehrsdaten.":::
+:::image type="content" source="../../images/scenario-analyze-web-downloads-before.png" alt-text="Ein Arbeitsblatt, das unformatierte Webdatendaten anzeigt.":::
 
 ### <a name="after-running-the-script"></a>Nach dem Ausführen des Skripts
 
-:::image type="content" source="../../images/scenario-analyze-web-downloads-after.png" alt-text="Ein Arbeitsblatt mit formatierten IP-Standortinformationen mit den vorherigen Webdatenverkehrzeilen.":::
+:::image type="content" source="../../images/scenario-analyze-web-downloads-after.png" alt-text="Ein Arbeitsblatt, in dem formatierte IP-Standortinformationen mit den vorherigen Webdatenverkehrszeilen angezeigt werden.":::
 
 :::image type="content" source="../../images/scenario-analyze-web-downloads-table.png" alt-text="Die Zusammenfassungstabelle und das Diagramm, in denen die Arbeitsblätter zusammengefasst sind, auf denen das Skript ausgeführt wurde.":::

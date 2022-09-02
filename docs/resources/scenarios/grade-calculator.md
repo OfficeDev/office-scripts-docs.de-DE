@@ -1,20 +1,20 @@
 ---
-title: 'Beispielszenario für Office Skripts: Notenrechner'
-description: Ein Beispiel, das den Prozentsatz und die Buchstabennoten für einen Kurs von Schülern bestimmt.
+title: 'Beispielszenario für Office-Skripts: Notenrechner'
+description: Ein Beispiel, das den Prozentsatz und die Buchstabennoten für eine Klasse von Kursteilnehmern bestimmt.
 ms.date: 06/29/2021
 ms.localizationpriority: medium
-ms.openlocfilehash: fd9009633e4a89e3b236f765543123b3995b9f47
-ms.sourcegitcommit: 7023b9e23499806901a5ecf8ebc460b76887cca6
+ms.openlocfilehash: 7dda3ebe84dc3edd10998cbe2c4cd0806da11411
+ms.sourcegitcommit: a6504f8b0d6b717457c6e0b5306c35ad3900914e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "64585443"
+ms.lasthandoff: 09/02/2022
+ms.locfileid: "67572528"
 ---
-# <a name="office-scripts-sample-scenario-grade-calculator"></a>Beispielszenario für Office Skripts: Notenrechner
+# <a name="office-scripts-sample-scenario-grade-calculator"></a>Beispielszenario für Office-Skripts: Notenrechner
 
-In diesem Szenario sind Sie Kursleiter, der die Abschlussnoten jedes Kursteilnehmers anhört. Sie haben die Bewertungen für ihre Aufgaben und Tests während Ihres Vorgangs eingegeben. Jetzt ist es an der Zeit, die Schüler und Studenten zu ermitteln.
+In diesem Szenario sind Sie ein Kursleiter, der die Abschlussnoten jedes Kursteilnehmers abzählt. Sie haben die Bewertungen für ihre Aufgaben und Tests eingegeben, während Sie losgehen. Jetzt ist es an der Zeit, die Schicksale der Schüler zu bestimmen.
 
-Sie entwickeln ein Skript, das die Noten für jede Punktekategorie summiert. Anschließend wird jedem Kursteilnehmer basierend auf der Summe eine Notenstufe zugewiesen. Um die Genauigkeit sicherzustellen, fügen Sie ein paar Prüfungen hinzu, um festzustellen, ob einzelne Bewertungen zu niedrig oder hoch sind. Wenn die Bewertung eines Schülers kleiner als Null oder mehr als der mögliche Punktwert ist, kennzeichnet das Skript die Zelle mit einer roten Füllung und nicht mit der Summe der Punkte dieses Schülers. Dies ist ein eindeutiger Hinweis darauf, welche Datensätze Sie überprüfen müssen. Außerdem fügen Sie den Noten einige grundlegende Formatierungen hinzu, damit Sie schnell die obere und untere Ebene der Klasse anzeigen können.
+Sie entwickeln ein Skript, das die Noten für jede Punktkategorie addiert. Anschließend wird jedem Kursteilnehmer basierend auf der Summe eine Briefnote zugewiesen. Um die Genauigkeit sicherzustellen, fügen Sie ein paar Prüfungen hinzu, um festzustellen, ob einzelne Bewertungen zu niedrig oder hoch sind. Wenn die Punktzahl eines Kursteilnehmers kleiner als 0 oder mehr als der mögliche Punktwert ist, kennzeichnet das Skript die Zelle mit einer roten Füllung und nicht mit der Summe der Punkte dieses Kursteilnehmers. Dies ist ein klarer Hinweis darauf, welche Datensätze Sie überprüfen müssen. Sie fügen auch einige grundlegende Formatierungen zu den Noten hinzu, damit Sie schnell den oberen und unteren Teil des Kurses anzeigen können.
 
 ## <a name="scripting-skills-covered"></a>Abgedeckte Skriptfähigkeiten
 
@@ -23,13 +23,13 @@ Sie entwickeln ein Skript, das die Noten für jede Punktekategorie summiert. Ans
 - Reguläre Ausdrücke
 - Bedingte Formatierung
 
-## <a name="setup-instructions"></a>Setup-Anweisungen
+## <a name="setup-instructions"></a>Setupanweisungen
 
-1. Laden Sie <a href="grade-calculator.xlsx">grade-calculator.xlsx</a> auf Ihre OneDrive herunter.
+1. Laden Sie [grade-calculator.xlsx](grade-calculator.xlsx) auf OneDrive herunter.
 
 1. Öffnen Sie die Arbeitsmappe mit Excel für das Web.
 
-1. Wählen Sie auf der Registerkarte **"Automatisieren** " **die Option "Neues Skript** " aus, und fügen Sie das folgende Skript in den Editor ein.
+1. Wählen Sie auf der Registerkarte **"Automatisieren** " die Option **"Neues Skript** " aus, und fügen Sie das folgende Skript in den Editor ein.
 
     ```TypeScript
     function main(workbook: ExcelScript.Workbook) {
@@ -172,16 +172,16 @@ Sie entwickeln ein Skript, das die Noten für jede Punktekategorie summiert. Ans
     }
     ```
 
-1. Benennen Sie das Skript in den **Notenrechner um** , und speichern Sie es.
+1. Benennen Sie das Skript in " **Notenrechner"** um, und speichern Sie es.
 
 ## <a name="running-the-script"></a>Ausführen des Skripts
 
-Führen Sie das Skript " **Notenrechner"** auf dem einzigen Arbeitsblatt aus. Das Skript führt die Noten aus und weist jedem Schüler eine Buchstabennote zu. Wenn einzelne Noten mehr Punkte haben, als die Aufgabe oder der Test wert ist, wird die ungültige Noten als rot markiert, und die Summe wird nicht berechnet. Außerdem werden alle "A"-Noten grün hervorgehoben, während die Noten "D" und "F" gelb hervorgehoben sind.
+Führen Sie das Skript " **Notenrechner** " auf dem einzigen Arbeitsblatt aus. Das Skript summiert die Noten und weist jedem Kursteilnehmer eine Briefnote zu. Wenn einzelne Noten mehr Punkte haben, als die Aufgabe oder der Test wert ist, wird die beleidigte Note rot markiert und die Summe wird nicht berechnet. Außerdem werden alle "A"-Noten grün hervorgehoben, während die Noten "D" und "F" gelb hervorgehoben sind.
 
 ### <a name="before-running-the-script"></a>Vor dem Ausführen des Skripts
 
-:::image type="content" source="../../images/scenario-grade-calculator-before.png" alt-text="Ein Arbeitsblatt mit Zeilen mit Bewertungen für Schüler/Studenten.":::
+:::image type="content" source="../../images/scenario-grade-calculator-before.png" alt-text="Ein Arbeitsblatt, in dem Zeilen mit Bewertungen für Schüler/Studenten angezeigt werden.":::
 
 ### <a name="after-running-the-script"></a>Nach dem Ausführen des Skripts
 
-:::image type="content" source="../../images/scenario-grade-calculator-after.png" alt-text="Ein Arbeitsblatt, das die Schülerbewertungsdaten mit ungültigen Zellen in roten Summen für gültige Schülerzeilen anzeigt.":::
+:::image type="content" source="../../images/scenario-grade-calculator-after.png" alt-text="Ein Arbeitsblatt, in dem die Schülerbewertungsdaten mit ungültigen Zellen in roten Summen für gültige Kursteilnehmerzeilen angezeigt werden.":::

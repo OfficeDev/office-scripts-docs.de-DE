@@ -1,36 +1,36 @@
 ---
 title: Vorstellungsgespräche in Teams planen
-description: Erfahren Sie, wie Sie Office Skripts verwenden, um eine Teams Besprechung aus Excel Daten zu senden.
+description: Erfahren Sie, wie Sie Office-Skripts verwenden, um eine Teams-Besprechung aus Excel-Daten zu senden.
 ms.date: 06/29/2021
 ms.localizationpriority: medium
-ms.openlocfilehash: 1c07eed0ce8392cf6d08f7836970753194f54b05
-ms.sourcegitcommit: dd01979d34b3499360d2f79a56f8a8f24f480eed
+ms.openlocfilehash: 8e8c4af40398842e219dc3e2a80c6d2ee72d6b83
+ms.sourcegitcommit: a6504f8b0d6b717457c6e0b5306c35ad3900914e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/15/2022
-ms.locfileid: "66088057"
+ms.lasthandoff: 09/02/2022
+ms.locfileid: "67572577"
 ---
-# <a name="office-scripts-sample-scenario-schedule-interviews-in-teams"></a>beispielszenario für Office Skripts: Planen von Interviews in Teams
+# <a name="office-scripts-sample-scenario-schedule-interviews-in-teams"></a>Beispielszenario für Office-Skripts: Planen von Interviews in Teams
 
-In diesem Szenario planen Sie als Personalvermittler Interviewbesprechungen mit Kandidaten in Teams. Sie verwalten den Interviewzeitplan von Kandidaten in einer Excel Datei. Sie müssen die Teams Besprechungseinladung sowohl an den Kandidaten als auch an die Interviewer senden. Anschließend müssen Sie die Excel Datei mit der Bestätigung aktualisieren, dass Teams Besprechungen gesendet wurden.
+In diesem Szenario planen Sie als Personalvermittler Interviewbesprechungen mit Kandidaten in Teams. Sie verwalten den Zeitplan für Vorstellungsgespräche von Kandidaten in einer Excel-Datei. Sie müssen die Teams-Besprechungseinladung sowohl an den Kandidaten als auch an die Interviewer senden. Anschließend müssen Sie die Excel-Datei mit der Bestätigung aktualisieren, dass Teams-Besprechungen gesendet wurden.
 
 Die Lösung umfasst drei Schritte, die in einem einzigen Power Automate-Fluss kombiniert werden.
 
 1. Ein Skript extrahiert Daten aus einer Tabelle und gibt ein Array von Objekten als [JSON-Daten](https://www.w3schools.com/whatis/whatis_json.asp) zurück.
-1. Die Daten werden dann an die Teams **Erstellen einer Teams Besprechungsaktion** zum Senden von Einladungen gesendet.
+1. Die Daten werden dann an die Teams **Create a Teams-Besprechungsaktion** gesendet, um Einladungen zu senden.
 1. Dieselben JSON-Daten werden an ein anderes Skript gesendet, um den Status der Einladung zu aktualisieren.
 
-Weitere Informationen zum Arbeiten mit JSON finden Sie unter [Verwenden von JSON zum Übergeben von Daten an und von Office Skripts](../../develop/use-json.md).
+Weitere Informationen zum Arbeiten mit JSON finden Sie unter [Verwenden von JSON zum Übergeben von Daten an und von Office-Skripts](../../develop/use-json.md).
 
 ## <a name="scripting-skills-covered"></a>Abgedeckte Skriptfähigkeiten
 
-* Power Automate Flüsse
-* integration Teams
+* Power Automate-Flüsse
+* Teams-Integration
 * Tabellenanalyse
 
-## <a name="sample-excel-file"></a>Beispieldatei für Excel
+## <a name="sample-excel-file"></a>Excel-Beispieldatei
 
-Laden Sie die Datei <a href="hr-schedule.xlsx"> herunter, die </a> in dieser Lösung verwendethr-schedule.xlsx, und probieren Sie sie selbst aus! Achten Sie darauf, mindestens eine der E-Mail-Adressen zu ändern, damit Sie eine Einladung erhalten.
+Laden Sie die Datei [ herunter, die ](hr-schedule.xlsx) in dieser Lösung verwendethr-schedule.xlsx, und probieren Sie sie selbst aus! Achten Sie darauf, mindestens eine der E-Mail-Adressen zu ändern, damit Sie eine Einladung erhalten.
 
 ## <a name="sample-code-extract-table-data-to-schedule-invites"></a>Beispielcode: Extrahieren von Tabellendaten zum Planen von Einladungen
 
@@ -134,24 +134,24 @@ interface InterviewInvite {
 }
 ```
 
-## <a name="sample-flow-run-the-interview-scheduling-scripts-and-send-the-teams-meetings"></a>Beispielablauf: Ausführen der Skripts für die Terminplanung für Vorstellungsgespräche und Senden der Teams Besprechungen
+## <a name="sample-flow-run-the-interview-scheduling-scripts-and-send-the-teams-meetings"></a>Beispielablauf: Ausführen der Skripts für die Terminplanung für Vorstellungsgespräche und Senden der Teams-Besprechungen
 
 1. Erstellen Sie einen neuen **Instant Cloud-Fluss**.
 1. Wählen Sie **"Manuell auslösen" und** dann " **Erstellen**" aus.
-1. Fügen Sie einen **neuen Schritt** hinzu, der den **Excel Online(Business)**-Connector und die **Skriptaktion ausführen** verwendet. Schließen Sie die Verbindung mit den folgenden Werten ab.
+1. Fügen Sie einen **neuen Schritt** hinzu, der den **Excel Online (Business)** -Connector und die **Skriptaktion ausführen** verwendet. Schließen Sie die Verbindung mit den folgenden Werten ab.
     1. **Location**: OneDrive for Business
     1. **Document Library**: OneDrive
     1. **Datei**: hr-interviews.xlsx *(Über den Dateibrowser ausgewählt)*
-    1. **Skript**: :::image type="content" source="../../images/schedule-interviews-1.png" alt-text="Planen von Interviews Screenshot des abgeschlossenen Excel Online(Business)-Connectors zum Abrufen von Interviewdaten aus der Arbeitsmappe in Power Automate.":::
-1. Fügen Sie einen **neuen Schritt** hinzu, der die **Besprechungsaktion "Teams erstellen**" verwendet. Wenn Sie dynamische Inhalte aus dem Excel Connector auswählen, wird für jeden Block eine **Anwendung** für den Fluss generiert. Schließen Sie die Verbindung mit den folgenden Werten ab.
+    1. **Skript**: Planen :::image type="content" source="../../images/schedule-interviews-1.png" alt-text="von Interviews Screenshot des abgeschlossenen Excel Online (Business)-Connectors zum Abrufen von Interviewdaten aus der Arbeitsmappe in Power Automate.":::
+1. Fügen Sie einen **neuen Schritt** hinzu, der die Aktion **"Teams-Besprechung erstellen** " verwendet. Wenn Sie dynamischen Inhalt aus dem Excel-Connector auswählen, wird für den Fluss ein " **Für jeden Block übernehmen** " generiert. Schließen Sie die Verbindung mit den folgenden Werten ab.
     1. **Kalender-ID**: Kalender
     1. **Betreff**: Contoso Interview
-    1. **Message**: **Message** (the Excel value)
+    1. **Message**: **Message** (der Excel-Wert)
     1. **Zeitzone**: Pazifische Standardzeit
-    1. **Startzeit**: **StartTime** (der Excel Wert)
-    1. **Endzeit**: **FinishTime** (der Excel Wert)
-    1. **Erforderliche Teilnehmer**: **CandidateEmail** ; **InterviewerEmail** (die Excel Werte) :::image type="content" source="../../images/schedule-interviews-2.png" alt-text="Screenshot des abgeschlossenen Teams Connectors zum Planen von Besprechungen in Power Automate.":::
-1. Fügen Sie im gleichen **"Für jeden Block übernehmen**" einen weiteren **Excel Online(Business)**-Connector mit der **Aktion "Skript ausführen" hinzu**. Verwenden Sie die folgenden Werte.
+    1. **Startzeit**: **StartTime** (der Excel-Wert)
+    1. **Endzeit**: **FinishTime** (der Excel-Wert)
+    1. **Erforderliche Teilnehmer**: **CandidateEmail** ; **InterviewerEmail** (die Excel-Werte) :::image type="content" source="../../images/schedule-interviews-2.png" alt-text="Screenshot des abgeschlossenen Teams-Connectors zum Planen von Besprechungen in Power Automate.":::
+1. Fügen Sie im gleichen **"Für jeden Block übernehmen** " einen weiteren **Excel Online (Business)** -Connector mit der **Skriptaktion "Ausführen** " hinzu. Verwenden Sie die folgenden Werte.
     1. **Location**: OneDrive for Business
     1. **Document Library**: OneDrive
     1. **Datei**: hr-interviews.xlsx *(Über den Dateibrowser ausgewählt)*
@@ -159,6 +159,6 @@ interface InterviewInvite {
     1. **invites**: **result** (the Excel value) :::image type="content" source="../../images/schedule-interviews-3.png" alt-text="Screenshot of the completed Excel Online (Business) connector to record that invites have been sent in Power Automate.":::
 1. Speichern Sie den Fluss, und probieren Sie ihn aus. Verwenden Sie die Schaltfläche " **Testen** " auf der Fluss-Editor-Seite, oder führen Sie den Fluss über die Registerkarte **"Meine Flüsse** " aus. Achten Sie darauf, den Zugriff zuzulassen, wenn Sie dazu aufgefordert werden.
 
-## <a name="training-video-send-a-teams-meeting-from-excel-data"></a>Schulungsvideo: Senden einer Teams Besprechung aus Excel Daten
+## <a name="training-video-send-a-teams-meeting-from-excel-data"></a>Schulungsvideo: Senden einer Teams-Besprechung aus Excel-Daten
 
 [Sehen Sie sich Sudhi Ramamurthy an, indem Sie eine Version dieses Beispiels auf YouTube durchgehen](https://youtu.be/HyBdx52NOE8). Seine Version verwendet ein robusteres Skript, das das Ändern von Spalten und veraltete Besprechungszeiten behandelt.
