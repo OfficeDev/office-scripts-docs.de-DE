@@ -2,14 +2,14 @@
 title: Office-Skripts in Excel
 description: Eine kurze Einführung in den Action Recorder und den Code Editor für Office-Skripts.
 ms.topic: overview
-ms.date: 02/25/2022
+ms.date: 10/05/2022
 ms.localizationpriority: high
-ms.openlocfilehash: a85e8dad8d6e99ee3b4c5558cd2c1b8417956fb3
-ms.sourcegitcommit: 34c7740c9bff0e4c7426e01029f967724bfee566
-ms.translationtype: HT
+ms.openlocfilehash: 02a45e5aae468cff2c61e18b35c54ba656d0484b
+ms.sourcegitcommit: 64d506257bee282fb01aedbf4d090781b06e4900
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/13/2022
-ms.locfileid: "65393635"
+ms.lasthandoff: 10/07/2022
+ms.locfileid: "68495474"
 ---
 # <a name="office-scripts-in-excel"></a>Office-Skripts in Excel
 
@@ -25,7 +25,11 @@ In dieser Reihe von Dokumenten lernen Sie, wie Sie diese Tools verwenden. Sie we
 
 Wenn Sie Office-Skripts verwenden möchten, benötigen Sie Folgendes.
 
-1. [Excel im Web](https://www.office.com/launch/excel) (Excel für Windows kann Office-Skripts nur mit [Script-Schaltflächen](../develop/script-buttons.md)) verwenden.
+1. [Excel im Web](https://www.office.com/launch/excel) (Excel unter Windows kann Office-Skripts nur mit [Skriptschaltflächen](../develop/script-buttons.md) verwenden).
+
+    > [!TIP]
+    > Office-Skripts sind jetzt in Office unter Windows und auf dem Mac für [Office-Insider](https://insider.office.com/) verfügbar.
+
 1. OneDrive for Business.
 1. Jede kommerzielle oder pädagogische Microsoft 365-Lizenz mit Zugriff auf Microsoft 365 Office-Desktop-Apps wie:
 

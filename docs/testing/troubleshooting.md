@@ -1,25 +1,25 @@
 ---
-title: Problembehandlung bei Office Skripts
-description: Debuggen von Tipps und Techniken für Office Skripts sowie Hilferessourcen.
-ms.date: 11/11/2021
+title: Problembehandlung bei Office-Skripts
+description: Debuggen von Tipps und Techniken für Office-Skripts sowie Hilferessourcen.
+ms.date: 10/05/2022
 ms.localizationpriority: medium
-ms.openlocfilehash: 8e673d39b6249ccc7598b832d6478cc8dc0751f6
-ms.sourcegitcommit: f5fc9146d5c096e3a580a3fa8f9714147c548df4
+ms.openlocfilehash: 4fe4a9b17d51d078403d1a46abed774d38eeaa80
+ms.sourcegitcommit: 64d506257bee282fb01aedbf4d090781b06e4900
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/12/2022
-ms.locfileid: "66038679"
+ms.lasthandoff: 10/07/2022
+ms.locfileid: "68495467"
 ---
-# <a name="troubleshoot-office-scripts"></a>Problembehandlung bei Office Skripts
+# <a name="troubleshoot-office-scripts"></a>Problembehandlung bei Office-Skripts
 
-Während Sie Office Skripts entwickeln, können Sie Fehler machen. Das ist okay. Sie verfügen über die Tools, mit denen Sie die Probleme finden und Ihre Skripts perfekt funktionieren lassen können.
+Beim Entwickeln von Office-Skripts können Sie Fehler machen. Das ist okay. Sie verfügen über die Tools, mit denen Sie die Probleme finden und Ihre Skripts perfekt funktionieren lassen können.
 
 > [!NOTE]
-> Informationen zur Problembehandlung speziell für Office Skripts mit Power Automate finden Sie unter [Problembehandlung bei Office Skripts, die in Power Automate ausgeführt werden](power-automate-troubleshooting.md).
+> Informationen zur Problembehandlung speziell für Office-Skripts mit Power Automate finden Sie unter [Problembehandlung bei Office-Skripts, die in Power Automate ausgeführt werden](power-automate-troubleshooting.md).
 
 ## <a name="types-of-errors"></a>Arten von Fehlern
 
-Office Skriptfehler fallen in eine von zwei Kategorien:
+Office-Skriptfehler fallen in eine von zwei Kategorien:
 
 * Fehler oder Warnungen zur Kompilierzeit
 * Laufzeitfehler
@@ -68,26 +68,29 @@ An übergebene `console.log` Zeichenfolgen werden in der Protokollierungskonsole
 
 Protokolle wirken sich nicht auf die Arbeitsmappe aus.
 
-## <a name="automate-tab-not-appearing-or-office-scripts-unavailable"></a>Die Registerkarte "Automatisieren" wird nicht angezeigt oder Office Skripts sind nicht verfügbar
+## <a name="automate-tab-not-appearing-or-office-scripts-unavailable"></a>Die Registerkarte "Automatisieren" wird nicht angezeigt, oder Office-Skripts sind nicht verfügbar
 
 Die folgenden Schritte sollten bei der Behandlung von Problemen im Zusammenhang mit der Registerkarte **"Automatisieren**" helfen, die in Excel im Web nicht angezeigt werden.
 
-1. [Stellen Sie sicher, dass Ihre Microsoft 365-Lizenz Office Skripts enthält](../overview/excel.md#requirements).
+1. [Stellen Sie sicher, dass Ihre Microsoft 365-Lizenz Office-Skripts enthält](../overview/excel.md#requirements).
 1. [Überprüfen Sie, ob Ihr Browser unterstützt wird](platform-limits.md#browser-support).
 1. [Stellen Sie sicher, dass Cookies von Drittanbietern aktiviert sind](platform-limits.md#third-party-cookies).
-1. [Stellen Sie sicher, dass Ihr Administrator Office Skripts im Microsoft 365 Admin Center nicht deaktiviert hat](/microsoft-365/admin/manage/manage-office-scripts-settings).
+1. [Stellen Sie sicher, dass Ihr Administrator Office-Skripts in der Microsoft 365 Admin Center nicht deaktiviert hat](/microsoft-365/admin/manage/manage-office-scripts-settings).
 1. Stellen Sie sicher, dass Sie nicht als externer oder Gastbenutzer bei Ihrem Mandanten angemeldet sind.
 
 [!INCLUDE [Teams support note](../includes/teams-support-note.md)]
+
+> [!NOTE]
+> Es gibt ein bekanntes Problem, das verhindert, dass in SharePoint gespeicherte Skripts immer in der zuletzt verwendeten Liste angezeigt werden. Dies tritt auf, wenn Ihr Administrator Exchange-Webdienste (EWS) deaktiviert. Auf Ihre SharePoint-basierten Skripts kann weiterhin über das Dateidialogfeld zugegriffen und verwendet werden.
 
 ## <a name="help-resources"></a>Hilferessourcen
 
 [Stack Overflow](https://stackoverflow.com/questions/tagged/office-scripts) ist eine Community von Entwicklern, die bereit sind, bei Codierungsproblemen zu helfen. Häufig können Sie die Lösung für Ihr Problem über eine schnelle Stack Overflow-Suche finden. Wenn nicht, stellen Sie Ihre Frage, und markieren Sie sie mit dem Tag "office-scripts". Erwähnen Sie unbedingt, dass Sie ein *Office-Skript* erstellen, nicht ein *Office-Add-In*.
 
-## <a name="see-also"></a>Weitere Artikel
+## <a name="see-also"></a>Siehe auch
 
 - [Bewährte Methoden in Office-Skripts](../develop/best-practices.md)
-- [Plattformbeschränkungen mit Office Skripts](platform-limits.md)
-- [Verbessern der Leistung Ihrer Office Skripts](../develop/web-client-performance.md)
-- [Problembehandlung bei Office Skripts, die in PowerAutomate ausgeführt werden](power-automate-troubleshooting.md)
+- [Plattformbeschränkungen mit Office-Skripts](platform-limits.md)
+- [Verbessern der Leistung Ihrer Office-Skripts](../develop/web-client-performance.md)
+- [Problembehandlung bei Office-Skripts, die in PowerAutomate ausgeführt werden](power-automate-troubleshooting.md)
 - [Auswirkungen von Office-Skripts rückgängig machen](undo.md)

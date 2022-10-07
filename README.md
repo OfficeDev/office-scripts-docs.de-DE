@@ -1,6 +1,6 @@
 # <a name="office-scripts-documentation"></a>Office Scripts-Dokumentation
 
-Willkommen beim Dokumentationsrepository für Office-Skripts. In diesem Repository finden Sie die Dokumentationsquelldateien für Office-Skript-Lernprogramme und Anleitungen. Für eine optimale Benutzererfahrung empfehlen wir, diese Inhalte auf [Microsoft-Dokumentation](https://docs.microsoft.com/office/dev/scripts) anzuzeigen.
+Willkommen beim Dokumentationsrepository für Office-Skripts. In diesem Repository finden Sie die Dokumentationsquelldateien für Office-Skript-Lernprogramme und Anleitungen. Um die beste Erfahrung zu erzielen, empfehlen wir Ihnen, diese Inhalte in [Microsoft Learn](https://learn.microsoft.com/office/dev/scripts) anzuzeigen.
 
 > **HINWEIS**: Die Quelldateien der Referenzdokumentation für die [Office-Skripts-API finden Sie im Office-scripts-docs-reference-Repository](https://github.com/OfficeDev/office-scripts-docs-reference) . Diese APIs enthalten alle potenziellen Vorgänge für Ihre Skripts.
 
@@ -19,7 +19,7 @@ Wenn Sie ein Produktverhalten sehen, das sich von der Dokumentation unterscheide
 - Schritte zum Reproduzieren des Problems.
 - Konsolenausgabe und Fehlermeldungen.
 
-Wir empfehlen außerdem, dass Sie eine Verzweigung vornehmen, die Korrektur vornehmen und eine Pull-Anforderung der vorgeschlagenen Änderungen vornehmen. Weitere Informationen finden Sie unter [An dieser Dokumentation mitwirken](Contributing.md).
+We also encourage you to fork, make the fix, and do a pull request of your proposed changes. For details, see [Contribute to this documentation](Contributing.md).
 
 Wenn Ihr Problem nicht mit der Dokumentation zu Office-Skripts zusammenhängt, veröffentlichen Sie es stattdessen in einem der folgenden Kanäle:
 
@@ -32,4 +32,5 @@ Copyright (c) 2019 Microsoft Corporation. Alle Rechte vorbehalten.
 
 ## <a name="microsoft-open-source-code-of-conduct"></a>Microsoft Open Source-Verhaltensregeln
 
-In diesem Projekt wurden die [Microsoft Open Source-Verhaltensregeln](https://opensource.microsoft.com/codeofconduct/) übernommen. Weitere Informationen finden Sie unter [Häufig gestellte Fragen zu Verhaltensregeln](https://opensource.microsoft.com/codeofconduct/faq/), oder richten Sie Ihre Fragen oder Kommentare an [opencode@microsoft.com](mailto:opencode@microsoft.com).
+This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/).
+For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
