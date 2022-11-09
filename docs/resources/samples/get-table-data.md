@@ -1,22 +1,22 @@
 ---
-title: Excel-Daten als JSON ausgeben
+title: Ausgeben von Excel-Daten als JSON
 description: Erfahren Sie, wie Sie Excel-Tabellendaten als JSON ausgeben, um sie in Power Automate zu verwenden.
-ms.date: 06/27/2022
+ms.date: 11/04/2022
 ms.localizationpriority: medium
-ms.openlocfilehash: 5078d2d86c92aacb0c0c2438b7298a523c132522
-ms.sourcegitcommit: a6504f8b0d6b717457c6e0b5306c35ad3900914e
+ms.openlocfilehash: 96883bb1f74f66065e8f45760858e960ece90e30
+ms.sourcegitcommit: 7cadf2b637bf62874e43b6e595286101816662aa
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/02/2022
-ms.locfileid: "67572668"
+ms.lasthandoff: 11/09/2022
+ms.locfileid: "68891239"
 ---
-# <a name="output-excel-table-data-as-json-for-usage-in-power-automate"></a>Ausgabe von Excel-Tabellendaten als JSON für die Verwendung in Power Automate
+# <a name="output-excel-table-data-as-json-for-usage-in-power-automate"></a>Ausgeben von Excel-Tabellendaten als JSON für die Verwendung in Power Automate
 
-Excel-Tabellendaten können als Array von Objekten in Form von [JSON](https://www.w3schools.com/whatis/whatis_json.asp) dargestellt werden. Jedes Objekt stellt eine Zeile in der Tabelle dar. Dies hilft beim Extrahieren der Daten aus Excel in einem konsistenten Format, das für den Benutzer sichtbar ist. Die Daten können dann über Power Automate-Flüsse an andere Systeme übergeben werden.
+Excel-Tabellendaten können als Array von Objekten in Form von [JSON](https://www.w3schools.com/whatis/whatis_json.asp) dargestellt werden. Jedes Objekt stellt eine Zeile in der Tabelle dar. Dies hilft, die Daten aus Excel in einem konsistenten Format zu extrahieren, das für den Benutzer sichtbar ist. Die Daten können dann über Power Automate-Flows an andere Systeme übergeben werden.
 
 ## <a name="sample-excel-file"></a>Excel-Beispieldatei
 
-Laden Sie die Datei [table-data-with-hyperlinks.xlsx](table-data-with-hyperlinks.xlsx) für eine sofort einsatzbereite Arbeitsmappe herunter.
+Laden Sie die Datei [table-data-with-hyperlinks.xlsx](table-data-with-hyperlinks.xlsx) für eine einsatzbereite Arbeitsmappe herunter.
 
 :::image type="content" source="../../images/table-input.png" alt-text="Ein Arbeitsblatt mit Eingabetabellendaten.":::
 
@@ -29,7 +29,7 @@ Eine Variante dieses Beispiels enthält auch die Hyperlinks in einer der Tabelle
 Fügen Sie das folgende Skript hinzu, um das Beispiel selbst auszuprobieren!
 
 > [!NOTE]
-> Sie können die `interface TableData` Struktur so ändern, dass sie ihren Tabellenspalten entspricht. Beachten Sie, dass Sie bei Spaltennamen mit Leerzeichen ihren Schlüssel in Anführungszeichen platzieren, z. B. mit `"Event ID"` im Beispiel. Weitere Informationen zum Arbeiten mit JSON finden Sie unter [Verwenden von JSON zum Übergeben von Daten an und von Office-Skripts](../../develop/use-json.md).
+> Sie können die `interface TableData` Struktur so ändern, dass sie ihren Tabellenspalten entspricht. Beachten Sie, dass Sie bei Spaltennamen mit Leerzeichen den Schlüssel in Anführungszeichen setzen, z. B. mit `"Event ID"` im Beispiel. Weitere Informationen zum Arbeiten mit JSON finden Sie unter [Verwenden von JSON zum Übergeben von Daten an und aus Office-Skripts](../../develop/use-json.md).
 
 ```TypeScript
 function main(workbook: ExcelScript.Workbook): TableData[] {
@@ -139,7 +139,7 @@ interface TableData {
 ## <a name="sample-code-return-table-data-as-json-with-hyperlink-text"></a>Beispielcode: Zurückgeben von Tabellendaten als JSON mit Linktext
 
 > [!NOTE]
-> Das Skript extrahiert immer Links aus der 4. Spalte (0 Index) der Tabelle. Sie können diese Reihenfolge ändern oder mehrere Spalten als Linkdaten einschließen, indem Sie den Code unter dem Kommentar ändern. `// For the 4th column (0 index), extract the hyperlink and use that instead of text.`
+> Das Skript extrahiert Hyperlinks immer aus der 4. Spalte (0 Index) der Tabelle. Sie können diese Reihenfolge ändern oder mehrere Spalten als Hyperlinkdaten einschließen, indem Sie den Code unter dem Kommentar ändern. `// For the 4th column (0 index), extract the hyperlink and use that instead of text.`
 
 ```TypeScript
 function main(workbook: ExcelScript.Workbook): TableData[] {
