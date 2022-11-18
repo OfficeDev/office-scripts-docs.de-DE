@@ -1,1 +1,0 @@
-[Skriptschaltflächen](../develop/script-buttons.md) funktionieren in Excel auf Windows und im Web. Sie ermöglichen die Ausführung eines Skripts mit einer Schaltfläche, die sich auf einem Arbeitsblatt befindet. Zum Erstellen oder Bearbeiten einer Schaltfläche oder eines Skripts müssen Sie weiterhin die Webanwendung verwenden.
