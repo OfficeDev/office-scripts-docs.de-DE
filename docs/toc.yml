@@ -17,7 +17,7 @@ items:
             href: tutorials/excel-power-automate-trigger.md
           - name: Daten aus einem Skript an den Power Automate-Ablauf weitergeben
             href: tutorials/excel-power-automate-returns.md
-      - name: Grundlagen der Skript-Erstellung
+      - name: Skriptgrundlagen
         href: develop/scripting-fundamentals.md
       - name: Konzepte
         items:
